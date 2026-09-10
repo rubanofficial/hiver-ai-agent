@@ -1,0 +1,212 @@
+[
+  {
+    "id": 1388711,
+    "turns": [
+      [
+        "Customer",
+        "@MicrosoftHelps Can I use the same windows key i already have?"
+      ],
+      [
+        "MicrosoftHelps",
+        "@443061 Got it. Yes, you can use the same product key. For more details about the activation process, see this: https://t.co/Q3rGJE1Bp8."
+      ],
+      [
+        "Customer",
+        "@MicrosoftHelps Thanks"
+      ],
+      [
+        "MicrosoftHelps",
+        "@443061 Hi. Just checking. Have you contacted the support, team? If so, please share us your experience: https://t.co/NSosWmgBDP."
+      ]
+    ]
+  },
+  {
+    "id": 2818729,
+    "turns": [
+      [
+        "Customer",
+        "@MicrosoftHelps I created the account, I would guess the last time I accessed it was in 2015, when I set up Office on my Mac."
+      ],
+      [
+        "MicrosoftHelps",
+        "@460774 left, select Account. Check under Product Information. 2/2"
+      ],
+      [
+        "Customer",
+        "@MicrosoftHelps It was. Thanks!"
+      ],
+      [
+        "MicrosoftHelps",
+        "@460774 That's a sigh of relief! We'd love to hear from you. Please let us know about your experience with social media support here: https://t.co/6fXBe7qwhy."
+      ]
+    ]
+  },
+  {
+    "id": 375025,
+    "turns": [
+      [
+        "Customer",
+        "@MicrosoftHelps I 've the last W10 Mobile build 15252 ,.. https://t.co/y9DTJjKs3L"
+      ],
+      [
+        "MicrosoftHelps",
+        "@204924 Thank you for the update, Hector. Did getting the latest OS build version for your phone solve the issue? 1/2"
+      ],
+      [
+        "Customer",
+        "@MicrosoftHelps Ok, Just this is the problem, because after update my phone to build 15252, issue its present,.."
+      ],
+      [
+        "MicrosoftHelps",
+        "@204924 Hi, Hector. We hear you. You may get the error code 0x80131505 due to an unresponsive server or an outdated phone software. 1/2"
+      ]
+    ]
+  },
+  {
+    "id": 1215952,
+    "turns": [
+      [
+        "Customer",
+        "@MicrosoftHelps There were like three games made for the Kinect on Xbox One and you killed the fitness stuff, now you're killing off Kinect entirely."
+      ],
+      [
+        "MicrosoftHelps",
+        "@405324 Hello, Nick. Thank you for reaching out. Can you tell us more about your concern? We're here to work with you on this matter."
+      ],
+      [
+        "Customer",
+        "@MicrosoftHelps I want my money back! #lame  https://t.co/28ajQLwbzC"
+      ],
+      [
+        "MicrosoftHelps",
+        "@405324 Hi there. Checking back with you. Is everything good on your end? Feel free to get back to us if you need further help."
+      ]
+    ]
+  },
+  {
+    "id": 699130,
+    "turns": [
+      [
+        "Customer",
+        "@MicrosoftHelps my Windows 10 update has been stuck at 23% for over an hour.  Troubleshooter didn't help.  Reboot didn't help."
+      ],
+      [
+        "MicrosoftHelps",
+        "@187897 Hello, Michael. Just doing a follow-up on your case. Are you still experiencing the issue with the update?"
+      ],
+      [
+        "Customer",
+        "@MicrosoftHelps My download speed is not great and the progress bar for the update was not moving. Fixed after a forced reboot. Thanks!"
+      ],
+      [
+        "MicrosoftHelps",
+        "@187897 You're welcome. Let us know on how we can improve our support here: https://t.co/fQaRBYyTYB. Thank you!"
+      ]
+    ]
+  },
+  {
+    "id": 979000,
+    "turns": [
+      [
+        "Customer",
+        "@MicrosoftHelps Hi. The new key didn't work. I keep getting error codes. Could you please tell me how to go about getting a new key? Please don't tell me that I have to purchase Windows again. Thanks. \ud83d\ude43"
+      ],
+      [
+        "MicrosoftHelps",
+        "@352176 We can escalate this issue if you can send us the case number that you got from the phone team. Send it to us through DM. https://t.co/3qcAsLFkaY"
+      ],
+      [
+        "Customer",
+        "@MicrosoftHelps Sorry but I was not given a case number on the phone, just a product key (exceptionally apparently). Not sure what to do now"
+      ],
+      [
+        "MicrosoftHelps",
+        "@352176 We suggest contacting our technical support again to get a case number. https://t.co/3qcAsLFkaY"
+      ]
+    ]
+  },
+  {
+    "id": 79956,
+    "turns": [
+      [
+        "Customer",
+        "@MicrosoftHelps I tried re-paring my Surface Pen. I removed it in Settings =&gt; Bluetooth peripherals, the paired it by pressing both button of the Pen.\nThe top button of the pen is working (it opens the Ink Workspace), only the tracking on the screen doesn't work."
+      ],
+      [
+        "MicrosoftHelps",
+        "@133745 Hello. Checking back with you to see if everything is good on your end?"
+      ],
+      [
+        "Customer",
+        "@MicrosoftHelps I have a Surface Book, and since the FCU, my Surface Pen doesn't work anymore (or randomly works at least). The top button always work, but it doesn't work on the screen anymore.\nIs this a known bug? I tried @10604 builds with no more success."
+      ],
+      [
+        "MicrosoftHelps",
+        "@133745 Thank you for getting back to us, Thibault. Since you mentioned that this issue started after installing the Fall Creators Update, we suggest trying the solution posted by MVP Barb Bowman here: https://t.co/zzf9OEY2BP Let us know if this resolves your issue."
+      ]
+    ]
+  },
+  {
+    "id": 1837327,
+    "turns": [
+      [
+        "Customer",
+        "@MicrosoftHelps well. When will you available emoji panel in w10 fall creators update for Turkey or other countries? I saw its only available on Usa.."
+      ],
+      [
+        "MicrosoftHelps",
+        "@550829 1/2 Hi, Sabriyurga. Yes, you are right. It's only available in the U.S right now. https://t.co/3qcAsLFkaY"
+      ],
+      [
+        "Customer",
+        "@MicrosoftHelps yes but i solved this problem. I changed theme and there is no problem :)"
+      ],
+      [
+        "MicrosoftHelps",
+        "@550829 Hello. Does this blue line on the edges appear in all applications?"
+      ]
+    ]
+  },
+  {
+    "id": 1080838,
+    "turns": [
+      [
+        "Customer",
+        "@MicrosoftHelps was previously installed the basic driver microsoft, when I wanted to install the driver nvidia 388.00 happened this."
+      ],
+      [
+        "MicrosoftHelps",
+        "@374970 Copy that. Is that the latest driver for your device? Have you tried using another version of this driver? https://t.co/3qcAsLFkaY"
+      ],
+      [
+        "Customer",
+        "@MicrosoftHelps yes, it is the last version of the driver. I tried a previous version and the same thing happens."
+      ],
+      [
+        "MicrosoftHelps",
+        "@374970 We understand. In that case, we suggest that you get in touch with our Answer Desk on this link: https://t.co/YsMLss6Xtc."
+      ]
+    ]
+  },
+  {
+    "id": 402085,
+    "turns": [
+      [
+        "Customer",
+        "@MicrosoftHelps Is there another way because someone sent me the powerpoint and I only have powerpoint 2003?"
+      ],
+      [
+        "MicrosoftHelps",
+        "@211097 Yes, there is! Here's a link: https://t.co/3djnRxLj8T that discusses how to open PowerPoint presentations in PowerPoint 2003."
+      ],
+      [
+        "Customer",
+        "@MicrosoftHelps Thanks for your help"
+      ],
+      [
+        "MicrosoftHelps",
+        "@211097 Hi. Were here to help, Stevie. To open a presentation from newer version to PowerPoint 2013, you can save it as 1/2"
+      ]
+    ]
+  }
+]

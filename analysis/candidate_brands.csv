@@ -1,0 +1,13 @@
+brand,unique_conversations,avg_conv_length,pct_3plus_msgs,pct_4plus_msgs,pct_5plus_msgs
+MicrosoftHelps,4441,5.49,81.09,61.79,48.23
+AskAmex,4297,4.86,78.71,54.71,38.49
+DellCares,1978,5.01,76.74,57.99,40.44
+Tesco,16720,4.37,69.55,51.21,33.33
+nationalrailenq,2235,4.45,69.4,51.05,33.2
+SW_Help,6195,4.59,68.26,45.78,30.91
+VerizonSupport,8445,5.44,66.49,53.59,37.98
+GWRHelp,10680,4.35,64.62,47.53,30.74
+XboxSupport,13408,4.28,62.42,39.55,25.66
+AmazonHelp,82532,4.53,62.09,48.07,31.09
+Uber_Support,41918,3.07,35.98,24.68,12.74
+AppleSupport,80691,2.96,34.86,24.9,11.85

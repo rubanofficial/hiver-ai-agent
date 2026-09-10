@@ -1,0 +1,14 @@
+{
+  "total_rows": 2811774,
+  "missing_text_count": 0,
+  "empty_text_count": 0,
+  "duplicate_tweet_ids": 0,
+  "missing_parent_id_count": 794335,
+  "missing_parent_id_pct": 28.25,
+  "missing_response_id_count": 1040629,
+  "short_messages_lt_15_chars": 7495,
+  "short_messages_pct": 0.27,
+  "url_only_messages": 120,
+  "inbound_tweets": 1537843,
+  "outbound_tweets": 1273931
+}

@@ -1,0 +1,5 @@
+brand,total_conversations,cbcb_multi_turn,pct_cbcb,convs_2plus_brand_resp,pct_2plus_brand_resp,convs_3plus_brand_resp,pct_3plus_brand_resp,avg_brand_reply_chars,convs_with_action_guidance,pct_action_guidance,convs_dm_redirect,pct_dm_redirect,convs_phone_redirect,pct_phone_redirect,convs_resolved_signal,pct_resolved_signal
+MicrosoftHelps,4458,1109,24.88,3024,67.83,1680,37.69,139.2,3604,80.84,779,17.47,58,1.3,438,9.83
+DellCares,1985,313,15.77,1276,64.28,789,39.75,143.4,1047,52.75,1485,74.81,117,5.89,133,6.7
+VerizonSupport,8446,1987,23.53,3995,47.3,2063,24.43,88.3,3317,39.27,1864,22.07,156,1.85,417,4.94
+AmazonHelp,82538,15825,19.17,40963,49.63,19033,23.06,126.4,55231,66.92,1131,1.37,1336,1.62,3197,3.87
