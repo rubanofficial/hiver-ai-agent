@@ -1,0 +1,56 @@
+# MicrosoftHelps Intent Taxonomy Configuration
+# First Draft Taxonomy with 10 practical intents
+
+brand: "MicrosoftHelps"
+version: "1.0.0-draft"
+
+intents:
+  - name: "Technical Troubleshooting"
+    definition: "Diagnosing and resolving system errors, app crashes, update failures, or hardware malfunctions"
+    actionable: true
+    priority: "high"
+
+  - name: "Product / Feature How-To"
+    definition: "Inquiries about using features, software functionality, settings, file compatibility, or configurations"
+    actionable: true
+    priority: "medium"
+
+  - name: "Account & Login"
+    definition: "Account recovery, password resets, multi-factor authentication, security info, or hacked account assistance"
+    actionable: true
+    priority: "high"
+
+  - name: "Billing & Payments"
+    definition: "Questions or disputes concerning credit charges, payment methods, duplicate transactions, or invoice receipts"
+    actionable: true
+    priority: "high"
+
+  - name: "Order / Delivery"
+    definition: "Inquiries about tracking physical hardware orders, shipping delays, missing shipments, or delivery status"
+    actionable: true
+    priority: "medium"
+
+  - name: "Warranty / Repair"
+    definition: "Hardware repair requests, warranty status verification, service tag checks, or physical device replacements"
+    actionable: true
+    priority: "medium"
+
+  - name: "Network / Connectivity"
+    definition: "Issues connecting to the internet, syncing cloud data, Bluetooth peripherals, or server outages"
+    actionable: true
+    priority: "medium"
+
+  - name: "Microsoft Store"
+    definition: "Problems downloading, installing, or updating apps and games from the Windows/Microsoft Store platform"
+    actionable: true
+    priority: "medium"
+
+  - name: "Complaint / Feedback"
+    definition: "Expressions of dissatisfaction with support quality, product changes, service policies, or staff responses"
+    actionable: false
+    priority: "high"
+
+  - name: "Cancellation / Subscription"
+    definition: "Requests to cancel pre-orders, recurring subscriptions (Office 365, Xbox Live), or terminate services"
+    actionable: true
+    priority: "high"
