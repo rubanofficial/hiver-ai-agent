@@ -1,15 +1,20 @@
 """
-Basic tests for the MicrosoftHelps AI Support Agent pipeline skeleton.
+Basic tests for the MicrosoftHelps AI Support Agent pipeline.
 
 Verifies that every module is importable and that the pipeline can be
-constructed and executed with placeholder components.
+constructed and executed with placeholder components. Gemini-backed
+components are mocked so no real API calls are made during tests.
 """
+
+import json
 
 import pytest
 
 from src.agent import (
     IntentClassifier,
     IntentClassificationResult,
+    ConfigurationError,
+    InvalidIntentResponseError,
     EvidenceRetriever,
     Evidence,
     ReplyGenerator,
@@ -20,6 +25,28 @@ from src.agent import (
     SupportPipeline,
     AgentResult,
 )
+
+
+# ---------------------------------------------------------------------------
+# Fixtures
+# ---------------------------------------------------------------------------
+
+@pytest.fixture(autouse=True)
+def _mock_gemini(monkeypatch):
+    """Provide a fake API key and stub Gemini responses for every test."""
+    monkeypatch.setenv("GEMINI_API_KEY", "test-dummy-key")
+    monkeypatch.setenv("GEMINI_MODEL", "fake-model")
+
+    def _fake_generate(self, customer_message):
+        return json.dumps(
+            {
+                "intent": "Technical Troubleshooting",
+                "confidence": 0.9,
+                "reason": "Mocked Gemini response.",
+            }
+        )
+
+    monkeypatch.setattr(IntentClassifier, "_generate", _fake_generate)
 
 
 # ---------------------------------------------------------------------------
@@ -115,6 +142,122 @@ class TestComponentConstruction:
     def test_escalation_default(self):
         pol = EscalationPolicy()
         assert "Billing & Payments" in pol.sensitive_intents
+
+
+# ---------------------------------------------------------------------------
+# Gemini intent classifier
+# ---------------------------------------------------------------------------
+
+EXPECTED_INTENTS = [
+    "Technical Troubleshooting",
+    "Product / Feature How-To",
+    "Account & Login",
+    "Billing & Payments",
+    "Order / Delivery",
+    "Warranty / Repair",
+    "Network / Connectivity",
+    "Microsoft Store",
+    "Complaint / Feedback",
+    "Cancellation / Subscription",
+]
+
+
+class TestGeminiIntentClassifier:
+    """Gemini-based classifier behavior (Gemini fully mocked)."""
+
+    def test_loads_all_10_intents_from_yaml(self):
+        clf = IntentClassifier()
+        assert len(clf.intents) == 10
+        assert clf.intents == EXPECTED_INTENTS
+
+    def test_model_comes_from_env(self):
+        clf = IntentClassifier()
+        assert clf.model_name == "fake-model"
+
+    def test_valid_response_is_parsed(self, monkeypatch):
+        clf = IntentClassifier()
+        monkeypatch.setattr(
+            clf,
+            "_generate",
+            lambda msg: json.dumps(
+                {
+                    "intent": "Technical Troubleshooting",
+                    "confidence": 0.92,
+                    "reason": "The customer reports a Windows update problem.",
+                }
+            ),
+        )
+        result = clf.classify("Windows update fails every time.")
+        assert result.intent == "Technical Troubleshooting"
+        assert result.confidence == 0.92
+        assert "Windows update problem" in result.reason
+        assert result.probabilities["Technical Troubleshooting"] == 0.92
+        assert result.metadata["source"] == "gemini"
+
+    def test_invalid_intent_is_rejected(self, monkeypatch):
+        clf = IntentClassifier()
+        monkeypatch.setattr(
+            clf,
+            "_generate",
+            lambda msg: json.dumps(
+                {
+                    "intent": "Alien Invasion",
+                    "confidence": 0.99,
+                    "reason": "Not in taxonomy.",
+                }
+            ),
+        )
+        with pytest.raises(InvalidIntentResponseError):
+            clf.classify("Hello!")
+
+    def test_malformed_json_is_rejected(self, monkeypatch):
+        clf = IntentClassifier()
+        monkeypatch.setattr(clf, "_generate", lambda msg: "this is not json {")
+        with pytest.raises(InvalidIntentResponseError):
+            clf.classify("Hello!")
+
+    def test_non_object_response_is_rejected(self, monkeypatch):
+        clf = IntentClassifier()
+        monkeypatch.setattr(clf, "_generate", lambda msg: "[1, 2, 3]")
+        with pytest.raises(InvalidIntentResponseError):
+            clf.classify("Hello!")
+
+    def test_confidence_is_clamped_to_unit_range(self, monkeypatch):
+        clf = IntentClassifier()
+        monkeypatch.setattr(
+            clf,
+            "_generate",
+            lambda msg: json.dumps(
+                {"intent": "Billing & Payments", "confidence": 1.7, "reason": "x"}
+            ),
+        )
+        assert clf.classify("x").confidence == 1.0
+        monkeypatch.setattr(
+            clf,
+            "_generate",
+            lambda msg: json.dumps(
+                {"intent": "Billing & Payments", "confidence": -0.3, "reason": "x"}
+            ),
+        )
+        assert clf.classify("x").confidence == 0.0
+
+    def test_non_numeric_confidence_is_rejected(self, monkeypatch):
+        clf = IntentClassifier()
+        monkeypatch.setattr(
+            clf,
+            "_generate",
+            lambda msg: json.dumps(
+                {"intent": "Billing & Payments", "confidence": "high", "reason": "x"}
+            ),
+        )
+        with pytest.raises(InvalidIntentResponseError):
+            clf.classify("Hello!")
+
+    def test_missing_api_key_raises_configuration_error(self, monkeypatch):
+        monkeypatch.delenv("GEMINI_API_KEY", raising=False)
+        clf = IntentClassifier(api_key=None)
+        with pytest.raises(ConfigurationError, match="GEMINI_API_KEY"):
+            clf.classify("Hello!")
 
 
 # ---------------------------------------------------------------------------
