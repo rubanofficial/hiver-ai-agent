@@ -77,17 +77,38 @@ class ReplyGenerator:
     # -- prompt construction ------------------------------------------------
 
     def _format_evidence_block(self, evidence: List[Evidence]) -> str:
-        """Format the evidence list into a numbered text block for the prompt."""
+        """Format the evidence list into a numbered text block for the prompt.
+
+        Internal conversation IDs and raw similarity scores are intentionally
+        omitted here so they cannot appear in the customer-facing reply or
+        cause the model to over-hedge purely based on a numeric threshold.
+        """
         if not evidence:
-            return (
-                "No historical evidence was retrieved for this customer message."
-            )
+            return "No historical evidence was retrieved for this customer message."
         lines: List[str] = []
         for idx, ev in enumerate(evidence, start=1):
-            lines.append(
-                f"[{idx}] (ID: {ev.id}, score: {ev.score:.2f}) {ev.text}"
-            )
+            lines.append(f"[{idx}] {ev.text}")
         return "\n".join(lines)
+
+    def _evidence_quality(self, evidence: List[Evidence]) -> str:
+        """Classify evidence strength into one of three tiers.
+
+        Thresholds are deliberately conservative so we only promote to a
+        higher tier when retrieval confidence is genuinely high.
+
+        Returns:
+            'STRONG'   – best score >= 0.70; evidence is closely related.
+            'RELEVANT' – best score >= 0.50; evidence is partially related.
+            'WEAK'     – best score <  0.50 or no evidence; limited signal.
+        """
+        if not evidence:
+            return "WEAK"
+        top = max(ev.score for ev in evidence)
+        if top >= 0.70:
+            return "STRONG"
+        if top >= 0.50:
+            return "RELEVANT"
+        return "WEAK"
 
     def _build_prompt(
         self,
@@ -95,27 +116,92 @@ class ReplyGenerator:
         intent: str,
         evidence: List[Evidence],
     ) -> str:
-        """Build the prompt passed to Gemini for reply generation."""
+        """Build the tiered prompt passed to Gemini for reply generation.
+
+        The prompt adapts its instructions based on the quality of the
+        retrieved evidence so the model is neither over-cautious when
+        strong evidence exists nor over-confident when evidence is weak.
+        """
         evidence_block = self._format_evidence_block(evidence)
+        quality = self._evidence_quality(evidence)
+
+        # --- Scenario-specific guidance injected after the universal rules ---
+        if quality == "STRONG":
+            scenario_guidance = (
+                "EVIDENCE QUALITY: STRONG\n"
+                "The retrieved historical evidence is closely related to this "
+                "customer message. Follow these steps:\n"
+                "1. Read ALL evidence items carefully, not just the first one. "
+                "Look for any concrete resolution, troubleshooting action, or "
+                "next step mentioned in ANY of the items (e.g., a restart, a "
+                "settings change, a driver update, a forced reboot).\n"
+                "2. If ANY item describes a specific resolution or action that "
+                "resolved a similar case, summarise that resolution in plain "
+                "language and suggest it as guidance based on a similar "
+                "historical case.\n"
+                "3. Clearly frame any suggested action as 'based on a similar "
+                "case' — do NOT present it as a guarantee or certainty.\n"
+                "4. If some items have no resolution but at least one does, use "
+                "the one that has a resolution. Do NOT say 'no troubleshooting "
+                "steps are available' if any item contains a concrete action.\n"
+                "5. If NO item contains any concrete resolution or action, "
+                "acknowledge that honestly and recommend Microsoft Support, "
+                "but briefly explain what the similar cases show (e.g., "
+                "that others have experienced the same issue).\n"
+                "6. Set \"confidence\": 0.75–0.90 and \"grounded\": true."
+            )
+        elif quality == "RELEVANT":
+            scenario_guidance = (
+                "EVIDENCE QUALITY: RELEVANT\n"
+                "The retrieved historical evidence is partially related to this "
+                "customer message. Follow these steps:\n"
+                "1. Use only the information the evidence directly supports — "
+                "do not infer or extend beyond what is written.\n"
+                "2. If the evidence does not include a concrete resolution, "
+                "explain why this case requires further investigation (e.g., "
+                "account entitlement check, order lookup) rather than giving a "
+                "generic 'contact support' message.\n"
+                "3. When you recommend contacting Microsoft Support, give a "
+                "brief, specific reason based on what the evidence suggests "
+                "needs to be investigated.\n"
+                "4. Ask the customer for any missing information that would help "
+                "resolve the issue when appropriate.\n"
+                "5. Set \"confidence\": 0.45–0.70 and \"grounded\": true."
+            )
+        else:  # WEAK
+            scenario_guidance = (
+                "EVIDENCE QUALITY: WEAK\n"
+                "The retrieved historical evidence is insufficient or only "
+                "loosely related to this customer message. Follow these steps:\n"
+                "1. Do NOT attempt to answer the question from the evidence.\n"
+                "2. Acknowledge that you do not have enough information to "
+                "resolve this autonomously.\n"
+                "3. Recommend that the customer contacts Microsoft Support "
+                "directly without fabricating reasons or steps.\n"
+                "4. Set \"confidence\": 0.20–0.40 and \"grounded\": false."
+            )
 
         return (
             "You are a customer-support agent for MicrosoftHelps, an AI support "
             "service for Microsoft products and services.\n\n"
             "Your task is to write a concise, helpful reply to the customer "
-            "message below. You MUST ground your reply in the RETRIEVED "
-            "HISTORICAL EVIDENCE provided.\n\n"
-            "RULES:\n"
+            "message below. Ground your reply ONLY in the RETRIEVED HISTORICAL "
+            "EVIDENCE provided.\n\n"
+            "UNIVERSAL RULES (always apply):\n"
             "- Use the historical evidence as your PRIMARY source of information.\n"
             "- Do NOT invent Microsoft policies, URLs, troubleshooting steps, "
             "prices, guarantees, or any other unsupported facts.\n"
-            "- If the evidence is insufficient to safely answer, acknowledge "
-            "that you cannot fully resolve the issue and avoid guessing. "
-            "Suggest the customer contact Microsoft support directly.\n"
+            "- Do NOT mention similarity scores, internal IDs, or any internal "
+            "system metadata in your reply.\n"
+            "- Do NOT expose or reference conversation IDs from the evidence.\n"
+            "- Do NOT provide account details, billing amounts, or order "
+            "specifics that are not explicitly stated in the evidence.\n"
             "- Keep the reply professional, empathetic, and concise.\n"
             "- Return ONLY a single valid JSON object matching this schema:\n"
             '  {"reply_text": "<your customer-facing reply>", '
             '"confidence": <float between 0 and 1>, '
             '"grounded": <true or false>}\n\n'
+            f"{scenario_guidance}\n\n"
             f"CUSTOMER MESSAGE:\n{customer_message.strip()}\n\n"
             f"CLASSIFIED INTENT:\n{intent}\n\n"
             f"RETRIEVED HISTORICAL EVIDENCE:\n{evidence_block}"
