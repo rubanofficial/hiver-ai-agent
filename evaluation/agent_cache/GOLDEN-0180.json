@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0180",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "cca8d5828fe2a72413b229cdd1127eff0cc1cb95fe2bb0bb92dcc267a72cec7d",
+  "prediction": {
+    "golden_id": "GOLDEN-0180",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "I am sorry to hear you are experiencing issues with Adobe Flash after a recent update. Unfortunately, I cannot fully resolve this issue based on the available information. Please contact Microsoft support directly for further assistance.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "64990",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Will do, update takes place sometime soon, can’t remember what date I set it too though | @MicrosoftHelps I have set a time for my PC to update, going to leave my PC on all night for the update to happen | @MicrosoftHelps I’ll just wake up one morning and have 1703 installed with no issues hopefully :) | @MicrosoftHelps My PC is forcing me to update to 1703 from 1607 but I have defer updates on, why is it doing this? I can't click remind me tomorrow, and I have work to do. What do I do?",
+        "score": 0.616355,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 4,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "424923",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps but why is this happening? https://t.co/BmqqnrEVMY | @MicrosoftHelps Hi. Which one is Fall Creators Updates? https://t.co/0LA7mrWmKI",
+        "score": 0.566135,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1456198",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Thanks! | Starting the attempt to install a routine update for Windows 10 at 1:10 pm local time.",
+        "score": 0.544652,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

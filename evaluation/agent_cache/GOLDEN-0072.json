@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0072",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "3f4e893281d3c56209604cb48a903ad15adb8c55a0cb3c56e51884a5a9334b04",
+  "prediction": {
+    "golden_id": "GOLDEN-0072",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "We apologize for the trouble you are experiencing with your games after the update. Since the provided information is insufficient to fully resolve your control issues, we recommend contacting Microsoft support directly for further assistance.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "2929046",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps They diddnt work. I have fixed the problem myself but your update broke things. | @MicrosoftHelps please explain why your latest update broke all my games :/ | After spending over an hour talking to tech support, it was hesitantly suggested that I roll back windows (which had been my plan since before I started the conversation) AND GUESS FUCKING WHAT it fixed everything",
+        "score": 0.769463,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 3,
+          "has_resolution_signal": true
+        }
+      },
+      {
+        "evidence_id": "665022",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Acct was reset during update. Can't get back in. All games are gone",
+        "score": 0.682895,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1142553",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps it was with the latest update (error 0x800704cf) but problem resolved i bought window pro | @MicrosoftHelps Hi i can't connect to my microsoft account on my pc. I can on browser web. Now i can't play game, using windows store...",
+        "score": 0.663723,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

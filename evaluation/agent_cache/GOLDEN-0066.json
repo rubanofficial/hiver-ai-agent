@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0066",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "d7d2d92b01d48faa55b88026a410cb999ec1783a10954b0e16f4839604f955de",
+  "prediction": {
+    "golden_id": "GOLDEN-0066",
+    "predicted_intent": "Complaint / Feedback",
+    "predicted_intent_confidence": 0.85,
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+    "predicted_reply": "We're glad to hear that you found a solution! If you ever need assistance in the future, don't hesitate to reach out.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "590723",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps i need help with this problem. https://t.co/Ce1GkcXHHm",
+        "score": 0.838668,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2774091",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Nevermind, it quite literally fixed itself after I walked away for a few minutes. Thanks for the reply, though.",
+        "score": 0.814897,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": true
+        }
+      },
+      {
+        "evidence_id": "1657137",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Thank you for your prompt reply sir. So far no trouble shooting steps taken. No changes were made sir. | @116230 experiencing this for a month. Kindly help.. https://t.co/1ieTkD1chR",
+        "score": 0.809642,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

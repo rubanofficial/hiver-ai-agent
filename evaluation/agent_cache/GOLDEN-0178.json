@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0178",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "b1a3e52313daec86ff67c5e3f02db335eb6b52782c8b144f3240a9fc21b5a68b",
+  "prediction": {
+    "golden_id": "GOLDEN-0178",
+    "predicted_intent": "Product / Feature How-To",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "I apologize, but I do not have enough information in my current resources to fully explain how to use SCCM or Microsoft Intune. Please contact Microsoft support directly for detailed assistance.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "2487804",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps What is RMM software ? or Microsoft based system center suite 2012 ?",
+        "score": 0.609491,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "549287",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps DM | @MicrosoftHelps hey quick question.",
+        "score": 0.600126,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1794709",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Preferibly over DM if that’s oka | @MicrosoftHelps can you help me quickly",
+        "score": 0.557155,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

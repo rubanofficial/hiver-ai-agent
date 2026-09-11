@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0143",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "9ffe7852a1f7d0edf12be0749b8ce2cdf2e3a49bc86f76b7b257fac18d5bf411",
+  "prediction": {
+    "golden_id": "GOLDEN-0143",
+    "predicted_intent": "Complaint / Feedback",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+    "predicted_reply": "We apologize for the frustration with your order and customer service. As we do not have access to your account details here, please continue working with phone support or contact Microsoft support directly so our team can help get this resolved for you.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "38521",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps i made a mistake when i ordered @116547 on Microsoft store, may you dDM me to fix it?",
+        "score": 0.709053,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "424247",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps It's my friend whose having the issue, and asked I pull the messages.\nShe is dealing with customer service.\nIf has no luck, we'll get back.",
+        "score": 0.706129,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "607977",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps I still haven't received a call about a missing order",
+        "score": 0.703718,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

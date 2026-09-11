@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_baselines.py",
+  "generated_at": "2026-09-11T13:40:26+00:00",
+  "evaluator": "evaluation/evaluate.py",
+  "golden_set": "evaluation/golden_set.labeled.json",
+  "labels_file": null,
+  "split_method": "single deterministic train/test split (fixed random_state), stratified by intent label where possible",
+  "random_state": 42,
+  "test_size": 0.2,
+  "golden_records_total": 216,
+  "train_examples": 172,
+  "test_examples": 44,
+  "baselines": [
+    {
+      "name": "Majority Intent Baseline + Majority Escalation Baseline",
+      "directory": "majority",
+      "metrics_file": "D:\\WEB\\project\\hiver-ai-agent\\evaluation\\baseline_results\\majority\\metrics.json",
+      "report_file": "D:\\WEB\\project\\hiver-ai-agent\\evaluation\\baseline_results\\majority\\evaluation_report.md",
+      "intent_accuracy": 0.454545,
+      "intent_macro_f1": 0.069444,
+      "intent_weighted_f1": 0.284091,
+      "escalation_accuracy": 0.795455,
+      "escalation_f1": 0.0
+    },
+    {
+      "name": "TF-IDF + Logistic Regression Baseline",
+      "directory": "tfidf_logistic",
+      "metrics_file": "D:\\WEB\\project\\hiver-ai-agent\\evaluation\\baseline_results\\tfidf_logistic\\metrics.json",
+      "report_file": "D:\\WEB\\project\\hiver-ai-agent\\evaluation\\baseline_results\\tfidf_logistic\\evaluation_report.md",
+      "intent_accuracy": 0.454545,
+      "intent_macro_f1": 0.069444,
+      "intent_weighted_f1": 0.284091,
+      "escalation_accuracy": 0.795455,
+      "escalation_f1": 0.0
+    }
+  ]
+}

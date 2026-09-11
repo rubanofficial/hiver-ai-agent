@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0208",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "72f0269f6aee43ad45b7ad2241c6a8e2b40ff98ff3b2cc5d79349290c05e6734",
+  "prediction": {
+    "golden_id": "GOLDEN-0208",
+    "predicted_intent": "Network / Connectivity",
+    "predicted_intent_confidence": 0.85,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "We understand how frustrating it is when you can't send, receive, or sync your emails. Based on similar issues, users have sometimes found that switching to a different network helps resolve the problem. If this persists, please contact Microsoft support directly for further assistance.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "1741392",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Private. No. Was working fine yesterday and today it is not. Tried resetting Mail but the accounts are still there and not fixed. | @MicrosoftHelps Seems to resolve itself using  a different network, but windows mail is the only thing affected when using my normal network. | @MicrosoftHelps No error message. Occasionally get \"couldn't download attachments\".  Can't send or receive. | @MicrosoftHelps major problems with the mail app. Can't sync or download attachments. Emails stuck in outbox. Email provider is fine.",
+        "score": 0.744245,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 4,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "385569",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Can`t log in... https://t.co/kQkwOph7so",
+        "score": 0.738675,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "750176",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Hi, What my personnal mail server isn't able to send an email to your servers ? ^^ https://t.co/yVFQBznxDT",
+        "score": 0.728778,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

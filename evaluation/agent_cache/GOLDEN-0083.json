@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0083",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "6f27125ed1f28d8fbb7e26a20836ce1c1d09b8a8bce7f51e761704572b0db92f",
+  "prediction": {
+    "golden_id": "GOLDEN-0083",
+    "predicted_intent": "Product / Feature How-To",
+    "predicted_intent_confidence": 0.85,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "I apologize, but I do not have access to look up your prior case numbers or account details here on Twitter. Please contact Microsoft support directly for further assistance with accessing your past cases.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "2243861",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps MICROSOFT windows customer support in the Phillipines does not help &amp; can’t access prior cases. Can you? | @MicrosoftHelps Not on Twitter. Please see my cases and call. | @MicrosoftHelps Yes",
+        "score": 0.648404,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 3,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "375020",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Actually managed to get in contact with someone but thank you!! | @MicrosoftHelps hi! can't find a number to call and really need to get an issue sorted tonight. help please!!",
+        "score": 0.613289,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": true
+        }
+      },
+      {
+        "evidence_id": "2738854",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Thank you 😁 | What's your helpline number? @MicrosoftHelps https://t.co/ZRCxBxj0Lg",
+        "score": 0.607848,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

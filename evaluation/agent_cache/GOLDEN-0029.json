@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0029",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "41f247362e5fae91be3ab26f5daa92583f92567d63dc65d84d10802d9535ebed",
+  "prediction": {
+    "golden_id": "GOLDEN-0029",
+    "predicted_intent": "Product / Feature How-To",
+    "predicted_intent_confidence": 0.85,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "We understand your frustration regarding streaming and downloading your music. Based on available information, the historical evidence is insufficient to fully resolve your streaming and download issues with Groove. We recommend contacting Microsoft support directly for further assistance.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "581124",
+        "source_tweet_id": null,
+        "text": "@143151 Hey guys. Couldn't get an answer from @MicrosoftHelps at all so hoping you can help. With Groove gone, is there a way to purchase music on Windows - specifically my Windows Phone? I don't want to pay a subscription to stream, I want to own a particular album.",
+        "score": 0.725054,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "539024",
+        "source_tweet_id": null,
+        "text": "Hi @MicrosoftHelps I try to download my music purchased on Groove Music but I can't. I tryed to call Microsoft hotline but they say they can't help me. What can i do ?",
+        "score": 0.67104,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "507984",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Absolutely insane. I actually need the Groove Music app to download. I can't do it from the web player. This is poor design. | @MicrosoftHelps Trying to download my Groove purchases but the instructions in the email don't work. There is no option to download, unless it's designed only to work with IE or Edge or something. | @MicrosoftHelps This sort of strict versioning hurts consumers not using the latest platforms. I'm on a Win7 box and can't download from Groove. I have to rely on my phone, and I have no idea how to transfer it back to my computer.",
+        "score": 0.665473,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 3,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0156",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "6241f934861eff249cbe868bbffc511dd12c740ee367aea8dd999183457c626e",
+  "prediction": {
+    "golden_id": "GOLDEN-0156",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 0.75,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "Thanks for sharing! We're glad to hear your Windows 10 migration install is going well on your laptop.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "2892495",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Thanks - I'm still learning how to tailor Windows 10 to do what I need.  I appreciate the tip. | Late for work but have something I MUST do on my laptop before I go in - the same laptop that Windows 10 MUST update right now. *sigh*",
+        "score": 0.639908,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2962470",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Cheers, that’s great 😃 | Laptop fixed, up &amp; running with a most excellent desktop too. #Windows10 👍 https://t.co/TZLFkTanKF",
+        "score": 0.633528,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": true
+        }
+      },
+      {
+        "evidence_id": "694257",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Thanks. It's okay now. | 1 hr later... Win10 update on new laptop at 78%\n\n#saveme",
+        "score": 0.632235,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

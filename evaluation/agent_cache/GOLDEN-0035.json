@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0035",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "00341b0c89b29fcffbf133b667869f08986d096dcb6c7ddacf08106eca4e677b",
+  "prediction": {
+    "golden_id": "GOLDEN-0035",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "We understand how frustrating it is to lose your update history after an update. Unfortunately, the provided information is insufficient to resolve this issue. Please contact Microsoft support directly for further assistance.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "1345487",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Have tried restarting and clearing history but no success. No further updates available either",
+        "score": 0.644596,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1037739",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps You're update did this. https://t.co/JZdqm5kVoa",
+        "score": 0.563804,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "23723",
+        "source_tweet_id": null,
+        "text": "This has been happening the past hour @MicrosoftHelps https://t.co/8LZ1qxJvwZ",
+        "score": 0.555426,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

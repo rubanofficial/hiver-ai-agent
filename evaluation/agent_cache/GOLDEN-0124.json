@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0124",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "ad684b273b06a1369a2bf2fc87e02d6cae52904b600df63b23ead43e966666d0",
+  "prediction": {
+    "golden_id": "GOLDEN-0124",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 0.85,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "Hello! I am unable to fully confirm whether the Fall Creators Update corresponds to the Win10 RS3 RTM build based on the available information. Please contact Microsoft support directly for further assistance.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "155913",
+        "source_tweet_id": null,
+        "text": "That Windows 10 Fall Creators Update is something else; isn't it?",
+        "score": 0.675124,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "847864",
+        "source_tweet_id": null,
+        "text": "Windows 10 fall creators update done 🔥🔥🔥",
+        "score": 0.621082,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "424923",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps but why is this happening? https://t.co/BmqqnrEVMY | @MicrosoftHelps Hi. Which one is Fall Creators Updates? https://t.co/0LA7mrWmKI",
+        "score": 0.608314,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

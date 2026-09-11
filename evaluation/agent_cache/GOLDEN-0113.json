@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0113",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "1a4712d6666e98d8a51ebec5d78c6262e14cac817c1d34a75b9bf8ffbdff9b73",
+  "prediction": {
+    "golden_id": "GOLDEN-0113",
+    "predicted_intent": "Microsoft Store",
+    "predicted_intent_confidence": 0.85,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "We apologize for the trouble with downloading your Groove albums. Unfortunately, the provided information is insufficient to fully resolve your issue regarding copyright errors and downloading purchased content. Please contact Microsoft support directly for further assistance.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "539024",
+        "source_tweet_id": null,
+        "text": "Hi @MicrosoftHelps I try to download my music purchased on Groove Music but I can't. I tryed to call Microsoft hotline but they say they can't help me. What can i do ?",
+        "score": 0.738827,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1132507",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Yes it is. It even shows up under 'Purchased' in Groove. | @MicrosoftHelps @XboxSupport what are my options 👉🏽 https://t.co/lk7Gq0yB6g | @MicrosoftHelps I've reviewed this site already. My first issue is how do I download my purchased content and what do i do with the errors? | @MicrosoftHelps  https://t.co/3uTukdTchU | @MicrosoftHelps any update here? the issue is i can't download the album and Groove is set to sunset EOY.",
+        "score": 0.715824,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 5,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "612540",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps \rhey guys I got a bunch of songs I bought on Groove that are not available for download anymore.\rOptions??",
+        "score": 0.677017,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

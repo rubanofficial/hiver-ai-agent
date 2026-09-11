@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0057",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "15d992e26d6b0efee5b8100e2dd1178f0517ac7b3d0fc2fe5f74aa8a91e7a889",
+  "prediction": {
+    "golden_id": "GOLDEN-0057",
+    "predicted_intent": "Warranty / Repair",
+    "predicted_intent_confidence": 0.85,
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "No evidence reached the confidence threshold for a safe autonomous reply (minimum 0.60); human review is required.",
+    "predicted_reply": "We are sorry to hear about the issue with your device's SSD, especially since it is less than a week old. Because our available information is insufficient to resolve this issue directly, please contact Microsoft support directly for assistance with your warranty and repair options.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "1991606",
+        "source_tweet_id": null,
+        "text": "Buys a brand new  @123127 pro that’s bricked after setup. @MicrosoftHelps doesnt care but who cares if you lose a lifelong customer right?",
+        "score": 0.590676,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1193622",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps hi guys, my 950 just died. What can I do?",
+        "score": 0.590667,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2056236",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps BAD EXPERIENCE with Store Support.  Cancelled without informing me.  Ask to talk to sup, hung up on me instead.  Bad Service",
+        "score": 0.552015,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

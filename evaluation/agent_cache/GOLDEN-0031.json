@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0031",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "6a089d00848a0e2a8d128836bf4be7439bdde97fe629b935bd0f39c59bf3f151",
+  "prediction": {
+    "golden_id": "GOLDEN-0031",
+    "predicted_intent": "Complaint / Feedback",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+    "predicted_reply": "We sincerely apologize for the frustration and inconvenience you've experienced with multiple disconnections and inconsistent information. Please contact Microsoft support directly so we can assist you further.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "2479742",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps lol what happened? https://t.co/U5PG9LBArq",
+        "score": 0.665021,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1594174",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps I just spoke to 6 different technicians and the last one hung up mid call after 36 mins.",
+        "score": 0.65254,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "736940",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Was supposed to get a call from a 2nd level technician today. Waited here for the last two hours with no communication",
+        "score": 0.651724,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0118",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "383693c1c0b5df6aa1ebf2170a63259843ff309dab6f72bfc087ccdc8e080249",
+  "prediction": {
+    "golden_id": "GOLDEN-0118",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "We are sorry to hear you are experiencing lag when repositioning or resizing a wireless display in Windows 10. Since we do not have specific troubleshooting steps for this in our current records, please contact Microsoft support directly for further assistance.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "616776",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Nope still an issue. If | @116230 Yes I have. Any kind of motion, gaming, YouTube, causes lag and micro stutter on primary monitor when secondary monitor is connected. | @266344 Gotcha. Just to confirm, have you installed the latest drivers from your graphics card manufacturer? | @116230 Yes. Everytime my secondary monitor is connected. My primary monitor has input and mouse scrolling lag. It is more noticeable on my secondary monitor. | @266344 Hi, there. Is this still occurring with your secondary monitor? We're here to help if you need us. | There is something wrong with my secondary monitor in this windows 10 fall creators update and have no idea why.",
+        "score": 0.637399,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 6,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2599649",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps i use a Microsoft's Designer Mouse on Windows 10 Home ... found a major issue about its lagging (after leaving the mouse a while and coming back to use, the mouse will NOT move for about 2 seconds) .. i researched and tried many suggestions from webs .. nothing",
+        "score": 0.607119,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1067605",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps I backed up to a old build and it fixed it, so ill just delay my updates until I'm comfortable that it might be fixed | @MicrosoftHelps So, why did the latest Windows 10 update do this to my display? Because I'd say That's pretty buggy. So.. Help, I guess? https://t.co/dh1xVpXFNd",
+        "score": 0.596416,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

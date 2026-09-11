@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0202",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "37565d40fa375b9b2f6fb70b0ab4e2b9a42299f7afa9fb2b6ed2abb2ad7c558b",
+  "prediction": {
+    "golden_id": "GOLDEN-0202",
+    "predicted_intent": "Warranty / Repair",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "We are sorry to hear about the ongoing display and resolution issues with your device. Since the troubleshooting steps haven't resolved it and you mentioned having a 2-year warranty, please contact Microsoft support directly so we can assist you further with your warranty options.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "2772978",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps new update did this to my monitor. Fixes? https://t.co/B3qEzhDwvQ",
+        "score": 0.65224,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "161143",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps please fix this resolution display with an update or something its very annoying the restoring my computer worked for a bit but then it just went back.. its annoying",
+        "score": 0.613995,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "579997",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Your update today has made my computer almost useless. The screen just pixelate to a screen I can not see. Never done that until the update. Thank for the hard shut down each time.",
+        "score": 0.612563,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

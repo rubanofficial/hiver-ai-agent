@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0015",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "1acb21d3e856aef2e91f66397efceb6f4c0035403b89aa411976b2062d6cde1d",
+  "prediction": {
+    "golden_id": "GOLDEN-0015",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 0.85,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "We understand how frustrating it is when updates take longer than expected. While update times can vary significantly depending on the system and file size, please note that some updates may take several hours to complete. If you continue to experience unusual delays, please contact Microsoft support directly for further assistance.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "1154392",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Thanks for getting back to me. I left to get groceries and it was done by the time I came home. Adding some measure of time remaining  /2 | Now at 25% for over 30 min - and it took over an hour to get that far. Not impressed @MicrosoftHelps https://t.co/PcMzwKb9Bx | @MicrosoftHelps Would greatly improve the update process beyond just the % complete",
+        "score": 0.762931,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 3,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "588417",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps All gone through now, it took 5 hours! | @MicrosoftHelps should the latest W10 update take 3 hours to reach 33% downloaded?",
+        "score": 0.75468,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "27112",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Thank you it updated perfectly, no further issues. | @MicrosoftHelps So I have now waited for more than 36 hours and the windows 10 updater is still at 99%. Anything else I can do besides wait?",
+        "score": 0.724719,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

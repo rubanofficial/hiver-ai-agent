@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0011",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "fe78e6ba85e72ed17efa2f97cb70f4efd89d0d708f5d7d2f2c89f6bcabff3e53",
+  "prediction": {
+    "golden_id": "GOLDEN-0011",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "We are sorry to hear about the video driver issues you experienced after the update. We understand that users have reported problems with Nvidia video cards following the recent Creators update. We hope your brother-in-law is able to get it fixed, and please feel free to reach out to Microsoft support directly if you need further assistance.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "1080838",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps was previously installed the basic driver microsoft, when I wanted to install the driver nvidia 388.00 happened this. | I have problems with the falls creators update 1709, the video card stops working when I install the drivers @116230 https://t.co/JmBNqSpZ68 | @MicrosoftHelps yes, it is the last version of the driver. I tried a previous version and the same thing happens.",
+        "score": 0.691547,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 3,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "859237",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Thanks. I followed all those steps. and i decided to update my laptop BIOS too. Now it works | @MicrosoftHelps God, windows fall creator update make my gaming laptop useless for 3 days now. random bsod, can't detect nvidia gpu",
+        "score": 0.672277,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1787090",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps When is Microsoft going to fix the black screen issue with Nvidia video cards and the newest Creators update??????",
+        "score": 0.664433,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0102",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "173e891765f2ab36482b173c6835df38cc572df41e0ea314a20ccfd5fc895bd1",
+  "prediction": {
+    "golden_id": "GOLDEN-0102",
+    "predicted_intent": "Product / Feature How-To",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "No evidence reached the confidence threshold for a safe autonomous reply (minimum 0.60); human review is required.",
+    "predicted_reply": "Hello! I understand you are inquiring about the default save path for attachments in Outlook for Mac 2016. Unfortunately, I do not have the specific information needed to fully resolve your issue based on my current resources. Please contact Microsoft support directly for further assistance.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "2628419",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Understood!  I should have looked up the proper channels than to bug you here!  Just one of those thoughts if I didn't rattle it off somewhere, it'd be lost in my head.\n\nThanks for the response! https://t.co/xeRJLrJgHY | @115890 hey guys - just a suggestion for Outlook - for those of us (It's all of us and we know it) who send an email WITHOUT the attachment-why doesn't Outlook throw a popup and say \"You used the word \"Attachment\" but there isn't one.  You sure Bro? @MicrosoftHelps #Microsoft",
+        "score": 0.541993,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1211464",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Hey thanks the problem got solved #Microsoft #Rocks #Amazingcustomersupport | @MicrosoftHelps deleted my smart folder in MS outlook for mac 2016, Please hel, FYI i am not a MS/Exchange email user plz support",
+        "score": 0.524873,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2579612",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Is it really true that you *still* don't support Apple iCloud calendar? \"Outlook 2016 for Mac currently doesn't support the CalDAV or CardDAV internet standards.\" Why would I want to use Outlook for Mac without it???",
+        "score": 0.464752,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

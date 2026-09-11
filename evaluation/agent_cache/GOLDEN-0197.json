@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0197",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "4d8f00b8ed2bba7a1378fa8327d01ed0a93d0c305de54462d21b596bd1d63ed6",
+  "prediction": {
+    "golden_id": "GOLDEN-0197",
+    "predicted_intent": "Complaint / Feedback",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+    "predicted_reply": "You are definitely not alone! Many users have shared that they really like the look and features of the Windows 10 Mail app.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "1571367",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Right now i like the e mail thing best. (Only thing i have noticed) xD | @MicrosoftHelps I just downloaded it 😁 seems great! | Big update for windows10, does anyone know more? #Windows10",
+        "score": 0.685996,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 3,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2089624",
+        "source_tweet_id": null,
+        "text": "Gotta admit, I do like how the Mail app looks in the new Windows 10 update",
+        "score": 0.659537,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2201385",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Can we expect Outlook Mail client which is there on Windows Mobile 10 for Android ? Outlook Mai and Calendar is awesome on Windows Phone and we need same experience on Android.",
+        "score": 0.655607,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

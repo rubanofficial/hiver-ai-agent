@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0022",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "252c3f5420611d509fdeb9d7c5a87ff7dd304976ee452b88b18a7493e474a919",
+  "prediction": {
+    "golden_id": "GOLDEN-0022",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 0.85,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "We are sorry to hear that you are experiencing issues with the update and that your PC has been down. Because the provided information is insufficient to troubleshoot this specific issue, please contact Microsoft support directly for further assistance.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "886975",
+        "source_tweet_id": null,
+        "text": ". @116230 update once again breaks another one of my PC's. Of course.",
+        "score": 0.716594,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2151581",
+        "source_tweet_id": null,
+        "text": "@116230 WTF!? Just updated my laptop and got this bloody message thanks for the update. Bloody Hell! https://t.co/OnoZTugoPe",
+        "score": 0.668482,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": true
+        }
+      },
+      {
+        "evidence_id": "669048",
+        "source_tweet_id": null,
+        "text": "Fighting off @116230 and @144408 updates to keep my addons from breaking.",
+        "score": 0.653998,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

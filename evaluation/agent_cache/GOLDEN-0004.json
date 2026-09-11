@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0004",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "d1663da517633df082d55415cd128852d448de6f4e20d6fbbceba0b024c7d6ca",
+  "prediction": {
+    "golden_id": "GOLDEN-0004",
+    "predicted_intent": "Product / Feature How-To",
+    "predicted_intent_confidence": 0.85,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "I apologize, but I do not have enough information in my current resources regarding the Fluent Design features in the XAML control gallery app on Windows 10 to fully resolve your issue. Please contact Microsoft support directly for further assistance.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "2230036",
+        "source_tweet_id": null,
+        "text": "MS Edge got a Fluent Design upgrade on Windows 10 Fall Creators Update https://t.co/OnAfdopVoQ",
+        "score": 0.635323,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2307874",
+        "source_tweet_id": null,
+        "text": "I really like the new interface but there are some features I wish you'd bring back. Overall tho, it's really nice. @115786 @MicrosoftHelps",
+        "score": 0.48158,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2696755",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Great. But I don't have that kind of energy. | @116230 needs to make the old Leonardo da Vinci theme from win95 available for win10",
+        "score": 0.462862,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

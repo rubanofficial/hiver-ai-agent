@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0146",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "2015005b1534b503dc85463156af9daf6773ab74964f449c4bfbb387074a888c",
+  "prediction": {
+    "golden_id": "GOLDEN-0146",
+    "predicted_intent": "Billing & Payments",
+    "predicted_intent_confidence": 0.9,
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Intent 'Billing & Payments' is high-risk and requires human handling.",
+    "predicted_reply": "I understand your frustration regarding your purchased track after the Groove shutdown. Based on our support options, please reach out to us via Direct Message so we can assist you with your refund request.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "2446951",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps so can I be given credit for the music I payed for on Groove that is no longer available for download in the store? #pissed",
+        "score": 0.634695,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": true
+        }
+      },
+      {
+        "evidence_id": "826864",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Still waiting for any kind of response to this... | @MicrosoftHelps No error message, just only a 30 day trial. I've transferred my music using the in-app flow. I have disabled auto renew on my Groove sub. | @MicrosoftHelps I've never signed up for @115888 before but I'm not seeing the 60 day trial period the Groove shutdown is touting? Only 30.",
+        "score": 0.623272,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 3,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "680200",
+        "source_tweet_id": null,
+        "text": "@microsofthelps Used your DM and got refunded, thank you",
+        "score": 0.594563,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": true
+        }
+      }
+    ]
+  }
+}

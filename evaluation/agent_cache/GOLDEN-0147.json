@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0147",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "48ba0e26295824ead3d2ccccd4eba0a762a2f6e739aef46f487a7d418ae21f6e",
+  "prediction": {
+    "golden_id": "GOLDEN-0147",
+    "predicted_intent": "Complaint / Feedback",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+    "predicted_reply": "We are sorry to hear about your experience and that the troubleshooting steps caused issues with your machine. Because we do not have enough information in our current records to safely resolve this, we recommend contacting Microsoft support directly for further assistance.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "2667151",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps so out of this new update my powerful computer is having issues doing basic things.",
+        "score": 0.69844,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1150656",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps what do i need to do to fix?",
+        "score": 0.690405,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "590733",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Still The Same Error Is Coming!!What Should i do??",
+        "score": 0.678164,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

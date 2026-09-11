@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0045",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "41e83a157fb1982232933a7326039701b2d0556675a0ab5e5946dd06b5c94d03",
+  "prediction": {
+    "golden_id": "GOLDEN-0045",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 0.98,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "We understand you are encountering the 0x8018830f error while trying to update your Lumia 730 to Windows 10. Since the historical evidence shows that steps like resetting the device, checking date and time, soft resets, and turning off device encryption may not resolve this specific error, we recommend contacting Microsoft support directly for further assistance.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "1717002",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps All working fine now thanks. | . @116230 update fail @115890 #Windows10 https://t.co/V3QD204L8f",
+        "score": 0.76266,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "627523",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps As per your advice I have had reset of my device but the error on update still  persists. Please help to resolve this issue. | @MicrosoftHelps After the suggested Reset how would I get my all contacts, Cortana, etc.  Back to my phone again. | @MicrosoftHelps Yes date and time are set according to my region. Please confirm what to do. | @MicrosoftHelps As suggested manually set the time,date and region. Then the problem submitted to feedback hub. | @MicrosoftHelps Good morning. Sill no response from feedback hub. Should I take it as Microsoft don't have any solution of the problem. If yes then close it | @MicrosoftHelps Yes the same error persisting unfortunately. | @MicrosoftHelps As advised turned off device encryption but the error remained the same. Please confirm. Regards. | @MicrosoftHelps Thanks for ur quick response I have done it as advised but the error remained the same. Pls advise and resolve the issue. | @MicrosoftHelps Since last week update 10.0.14393.1884 not getting downloaded and error no. 0x8018830f is showing on my Lumia 730. Pls help",
+        "score": 0.749758,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 9,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2673867",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Neither soft reset nor wifi signal strength doesn't solve my problem | @MicrosoftHelps 0x8018830f error occurred Windows 10 mobile,update download but not installed",
+        "score": 0.74853,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

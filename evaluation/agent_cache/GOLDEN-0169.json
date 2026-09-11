@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0169",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "03991c35588455a201781dbe83f599bce8907e3e34728c676694f79d48cc9d37",
+  "prediction": {
+    "golden_id": "GOLDEN-0169",
+    "predicted_intent": "Product / Feature How-To",
+    "predicted_intent_confidence": 0.85,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "We understand your anticipation regarding the tilt support update for the Surface Pro 4 with the new Pen. However, we currently do not have a specific ETA available in our system. Please contact Microsoft support directly for further assistance.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "400709",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps what ever happened to the Surface Pro 4 firmware update to add tilt support with the new pen?",
+        "score": 0.868666,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "720863",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps @115890 does the surface pen 2 support my surface pro 3? | @MicrosoftHelps Thanks for the info | @MicrosoftHelps Yup resolved the issue right away.",
+        "score": 0.69856,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 3,
+          "has_resolution_signal": true
+        }
+      },
+      {
+        "evidence_id": "2789717",
+        "source_tweet_id": null,
+        "text": "@223118 @123127 @122425 @MicrosoftHelps When will you post updates for the Surface 4 Pro? | This is bad: Intel Chip Flaws Leave Millions of Devices Exposed https://t.co/7oQbbMg6T3 via @223118 -- download the tool and then contact your vendor! (No test for Mac?) https://t.co/aYXhn0qbcV",
+        "score": 0.687736,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

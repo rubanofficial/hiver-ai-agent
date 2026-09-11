@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0006",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "20d59de8dae9b90259cba6fd5112082ec21d8ab0f7100c604d88061c8f5ea17e",
+  "prediction": {
+    "golden_id": "GOLDEN-0006",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "We are sorry to hear you are experiencing missing apps and sound issues after the Fall Creators Update. Please send us a Direct Message so we can look into this further for you.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "878468",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Tried restart, still missing. Tried search for the store or the apps, still missing\nStill got the notifications from all the Store apps, tho https://t.co/zU1DSSuNI6 | Updated to #fallcreatorsupdate and all my Store apps and the Store itself is gone. Help @MicrosoftHelps https://t.co/bk1pA1Fkob | @MicrosoftHelps Thanks. I've DM you. Appreciate the help | @MicrosoftHelps Just want to check if you have received my DM",
+        "score": 0.628637,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 4,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2463382",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Wanted 2 let you know fall update broke Microsoft Photos for me. Wont launch or reinstall. Already talked 2 MS cstmr spprt",
+        "score": 0.601545,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2074069",
+        "source_tweet_id": null,
+        "text": "@116230 since the Fall update, I cant access any store apps from start, pins have disappeared. Can launch them from the store itself.",
+        "score": 0.593325,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

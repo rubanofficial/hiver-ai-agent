@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0026",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "4df37dd93c4c9f5c84fbf717b3665b618becb61256f84ab3638d873a56f869ac",
+  "prediction": {
+    "golden_id": "GOLDEN-0026",
+    "predicted_intent": "Cancellation / Subscription",
+    "predicted_intent_confidence": 0.85,
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Intent 'Cancellation / Subscription' is high-risk and requires human handling.",
+    "predicted_reply": "Hello! I understand you are inquiring about a refund reversal for Forza 7. Based on the available information, I cannot fully resolve your issue here. Please contact Microsoft support directly for further assistance with your refund status.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "955550",
+        "source_tweet_id": null,
+        "text": "@115890 @MicrosoftHelps I want my money back. | @115890 I want a refund on my Forza 7 purchase. Even now I'm not being able to download it and I see no point in waiting. I want my money",
+        "score": 0.838229,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "208828",
+        "source_tweet_id": null,
+        "text": "@5543 @MicrosoftHelps @XboxSupport @117347 @XboxSupport @115786 pls respond | Hey @5543 @MicrosoftHelps @XboxSupport @117347 can u get a refund for #Forza7 because it is super depressing because its 💩",
+        "score": 0.725237,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2637747",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps I'd like a refund for a recent digital purchase from this morning. Any help?",
+        "score": 0.656869,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

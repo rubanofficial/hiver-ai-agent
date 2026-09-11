@@ -1,0 +1,11 @@
+intent,precision,recall,f1,support
+Technical Troubleshooting,0.454545,1.0,0.625,20
+Product / Feature How-To,0.0,0.0,0.0,7
+Account & Login,0.0,0.0,0.0,4
+Billing & Payments,0.0,0.0,0.0,3
+Order / Delivery,0.0,0.0,0.0,1
+Warranty / Repair,0.0,0.0,0.0,1
+Network / Connectivity,0.0,0.0,0.0,1
+Microsoft Store,0.0,0.0,0.0,0
+Complaint / Feedback,0.0,0.0,0.0,6
+Cancellation / Subscription,0.0,0.0,0.0,1

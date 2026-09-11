@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0087",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "1e715341c44ba058eb43fd1067bcea5b5da3af3b318400e1cb7d9ecf18138ad8",
+  "prediction": {
+    "golden_id": "GOLDEN-0087",
+    "predicted_intent": "Complaint / Feedback",
+    "predicted_intent_confidence": 0.6,
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+    "predicted_reply": "We appreciate you sharing your feedback about the Windows 10 update. If you need any assistance with the new features or encounter any issues, please let us know.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "1496891",
+        "source_tweet_id": null,
+        "text": "Just love a windows 10 update.... #HowLong",
+        "score": 0.765142,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2222483",
+        "source_tweet_id": null,
+        "text": "Microsoft's big new Windows 10 update rolls out today; here's what's new https://t.co/YWgVJ8JC2U",
+        "score": 0.739241,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2658533",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Update finally finished.  There are some great new features. | This #windows10 update is taking much longer than I expected.",
+        "score": 0.739035,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

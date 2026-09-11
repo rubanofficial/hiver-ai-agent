@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0027",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "3dbf0b56f2151e7885c3b8ba03237f8c679ae9b3a55fa50f415f91018bacfed7",
+  "prediction": {
+    "golden_id": "GOLDEN-0027",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 0.45,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "Hello, since the historical evidence does not provide enough information to safely troubleshoot your issue, please contact Microsoft support directly for further assistance.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "841623",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps No software change.. it happend all of a sudden @MicrosoftHelps",
+        "score": 0.830945,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1732382",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps It's fine now.",
+        "score": 0.830535,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1862234",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps @556535 https://t.co/uja9UxQeHf",
+        "score": 0.81972,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

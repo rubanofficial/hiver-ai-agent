@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0211",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "088115a9930612568f42d7fc084a8dce36075a952a257b1c5d40191b28d7a864",
+  "prediction": {
+    "golden_id": "GOLDEN-0211",
+    "predicted_intent": "Cancellation / Subscription",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Intent 'Cancellation / Subscription' is high-risk and requires human handling.",
+    "predicted_reply": "I am sorry for the frustration regarding the charges and verification issues on your old Xbox Live account. Since I am unable to verify the account details or fully resolve this issue based on the available information, please contact Microsoft support directly so they can assist you further with stopping the charges.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "2282302",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Oh my im sorry for the late reply,but yes I filled it out to the best of my memory,but some questions threw me off like favorite fictional character and stuff | @MicrosoftHelps I created my live account back in 2007 or 2009,I used that account to sign up for Xbox live,I subsequently gave my son my xbox360 in 2009 and he was using it just fine for years but now its asking for account verification and I forgot so much info that i need help | @MicrosoftHelps Ohim sorry for the late reply,yes they helped me immensely,everything works fine now,thank you so much for pointing me in the right direction my son can play again!!😄",
+        "score": 0.776768,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 3,
+          "has_resolution_signal": true
+        }
+      },
+      {
+        "evidence_id": "191961",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps i need help with my xbox account | @MicrosoftHelps Figured it out",
+        "score": 0.747793,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "934270",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps All information sent is correct, there is enough information for me to use my account!! Why am I not being allowed access? Can you fix this | @MicrosoftHelps Forgot Xbox one password, tried multiple times to change password but Microsoft are claiming my personal info is incorrect | @MicrosoftHelps You didn't even fix my problem!!",
+        "score": 0.732592,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 3,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

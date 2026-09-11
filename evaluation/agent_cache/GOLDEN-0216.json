@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0216",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "c0c2960e60e4a723db17ad56bfc537b1fca936dbb363453ae4c24ca97ea39e96",
+  "prediction": {
+    "golden_id": "GOLDEN-0216",
+    "predicted_intent": "Order / Delivery",
+    "predicted_intent_confidence": 0.98,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "We apologize for the frustration and delay you are experiencing with your order status. Since store support and escalations have not provided a resolution, please contact Microsoft Support directly for further assistance with your order.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "607977",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps I still haven't received a call about a missing order",
+        "score": 0.672233,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2390101",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps I decently will thank you. This order means the. Work me me love 💗 | @MicrosoftHelps I went to check my order status and it said it was cancelled!!!!! | @MicrosoftHelps HELP HELP HELP! Is your support phone line open 24 hours a day?????!!!! | @MicrosoftHelps Or a survey I can take about my experience with the Microsoft Store? | @MicrosoftHelps Yes I was able to find out what happened. Is there a survey I can take for the customer support phone line?",
+        "score": 0.625209,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 5,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2168402",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Done that daily and response is totally unacceptable. Asked twice to speak to a manager and told there were none to be found. Asked for one to call me later and told they could not guarantee that anyone would call (nobody has). No respect for customers. Completely frustrated. | Not even an acknowledgement?  Unreal.  So much for a “premium” experience.  @115788 @15913 @154969 @246052 | No sign of my Scorpio preorder and escalation going nowhere fast.  No help from @135958 or @154969 ??  So disappointed.",
+        "score": 0.604242,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 3,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

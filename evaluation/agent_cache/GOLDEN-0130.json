@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0130",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "b4469de4f52d900913faf2ac10865fdf8d72d64be2de32cef433972ca1c3c73e",
+  "prediction": {
+    "golden_id": "GOLDEN-0130",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 0.85,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "We are sorry to hear that the troubleshooting steps did not work. Since the provided information is insufficient to resolve your specific issue further, please contact Microsoft support directly for additional assistance.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "423899",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps What’s going on? https://t.co/rorMFB2Oj8 | @MicrosoftHelps I got everything working. Thank you!",
+        "score": 0.817506,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": true
+        }
+      },
+      {
+        "evidence_id": "1732382",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps It's fine now.",
+        "score": 0.789661,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2062987",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Finally worked after several minutes",
+        "score": 0.788582,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

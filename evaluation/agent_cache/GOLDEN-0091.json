@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0091",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "5d611eaac43d258f4e62e314ca56f079ae5124c232de6718af336adaac89c3c4",
+  "prediction": {
+    "golden_id": "GOLDEN-0091",
+    "predicted_intent": "Product / Feature How-To",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "Hello! Based on the available information, the historical evidence does not provide sufficient details to confirm whether Microsoft Office can be installed and used for free on an iPad Pro, other than mentions of free access for students with educational accounts. For assistance regarding your specific device and account, please contact Microsoft support directly.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "105755",
+        "source_tweet_id": null,
+        "text": "How to install the Microsoft Office software  (free for students) I'm stuck here @MicrosoftHelps https://t.co/E02BLnpbtP",
+        "score": 0.618998,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1635674",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Thanks for responding.  I am using this version. https://t.co/OfgaCzI4LD | @MicrosoftHelps @122427 : When to expect drag/drop feature availability for MS Office for iPad Pro? Having to work on Keynote now!! | @MicrosoftHelps Not good enough. Was asking question.  Let it be. Will continue with Keynote.  Cheers",
+        "score": 0.617346,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 3,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "196640",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps How to download the office 365 for free on my desktop ? , because my account is an educational account",
+        "score": 0.565113,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

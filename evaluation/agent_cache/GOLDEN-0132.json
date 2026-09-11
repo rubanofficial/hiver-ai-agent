@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0132",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "7d5626581e3a697267df3ed3d5933c77d802259eff7069976ec4b7bc9466ec2f",
+  "prediction": {
+    "golden_id": "GOLDEN-0132",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "We're here to help! To confirm, have you installed the latest drivers from your graphics adapter manufacturer?",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "599354",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Got it all sorted, just restarted it like 5 times and everything was back up | @116230 Bump? You’re here to help? It’s been a while and still waiting??? | @262171 Hi, Victor! Are you still experiencing this performance drop? We're here to help. | @116230 \nThis last update, SUCKS. My game that ran at 60 FPS perfectly fine just drop 34 frames after I updated, please before you release an update make sure it doesn’t kill our devices.\nThanks.",
+        "score": 0.749591,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 4,
+          "has_resolution_signal": true
+        }
+      },
+      {
+        "evidence_id": "1726075",
+        "source_tweet_id": null,
+        "text": "@116230 yes | @522029 Understood. To confirm, have you installed the latest drivers from your graphics adapter manufacturer? | @116230 It's win 10 home version 1709 | @522029 We understand. Could you share with us the specific build number of the update that started this? | @116230 It Is still happening yes, randomly bugging my games to 30 fps If I'am In windowed borderless mode, previous build It doesn't happen | @522029 Hey, there. Are you still experiencing this issue? Perhaps we can help! | This new windows 10 creators update Is terrible, you have to update there Is no choice. Bugging games to 30 fps which Is unbearable.",
+        "score": 0.708758,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 7,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1129602",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps PC of course, before update, i got stable 60 fps while using Game DVR, i already update VGA driver, but nothing change | @MicrosoftHelps hei we (all gamers) got drop fps when play game on windows 10 creators update, can you give us solution? | @MicrosoftHelps all of them or just Nvidia? | @MicrosoftHelps okay, I'll try that ASAP | @MicrosoftHelps Hei, can i download intel graphic driver using driver booster? Or just download from Intel website? | @MicrosoftHelps hei, i have try your solution, but nothing change, my fps still droping when i play the game (overwatch), and please read your PM | @MicrosoftHelps I can get 60 fps (Vsync On) when using Game DVR before update to Windows 10 creator update, after update, it drop 30 fps when using Game DVR | @MicrosoftHelps it still make no different for me, if you can't solve this problem, i will roll back | @MicrosoftHelps thanks for your help, just want to roll back and then waiting for you guys fix this issue | @MicrosoftHelps I have roll back to Windows 10 anniversary update, and I can play the game with 60fps (DVR On), no more drop fps | @MicrosoftHelps Just tell us when you guys have fix this issue and then I will update Windows",
+        "score": 0.708272,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 11,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

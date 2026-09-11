@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0177",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "ee46094c2917b5d0a24351802624dfe46f83d83eaee550017d311ec564bc5049",
+  "prediction": {
+    "golden_id": "GOLDEN-0177",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 0.4,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "We are sorry you are experiencing this issue. Since we need more details to assist you properly, please reach out to Microsoft support directly for further troubleshooting assistance.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "832461",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps https://t.co/hOojgcsYC3",
+        "score": 0.976149,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "668148",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps https://t.co/OVdEWqtEbe",
+        "score": 0.973425,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1826771",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps https://t.co/p8r9M6ABJe",
+        "score": 0.9704,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0190",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "34edfb3c5187f6fc142294d606c4ca0c46ffd5f3200d5178030fad8a45f4eacc",
+  "prediction": {
+    "golden_id": "GOLDEN-0190",
+    "predicted_intent": "Complaint / Feedback",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+    "predicted_reply": "We sincerely apologize for the technical issues and the frustration you experienced with our phone support. Unfortunately, we are unable to fully resolve your issue at the moment based on the available information. Please contact Microsoft support directly again once lines are restored, and we will do our best to help.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "375020",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Actually managed to get in contact with someone but thank you!! | @MicrosoftHelps hi! can't find a number to call and really need to get an issue sorted tonight. help please!!",
+        "score": 0.781535,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": true
+        }
+      },
+      {
+        "evidence_id": "158315",
+        "source_tweet_id": null,
+        "text": "After being on the phone to #Microsoftgeneralsupport for over an hour they are still no help. I am so angry and will never ever be using them again! @123196 @MicrosoftHelps @115890 #worstservice",
+        "score": 0.757277,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2353282",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps @631226 I've tweeted you several times can you please address my issue. | @MicrosoftHelps I have been trying to follow up with Microsoft support on a ticket: 1402447076 but not getting any response. Can you please help me on this?.",
+        "score": 0.739383,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

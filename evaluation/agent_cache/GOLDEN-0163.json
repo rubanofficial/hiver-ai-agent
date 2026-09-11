@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0163",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "ee75546ddc6c2a6e7282189d4e85fb150e419fd8ce73103f8ab3b13de9e923f9",
+  "prediction": {
+    "golden_id": "GOLDEN-0163",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 0.85,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "We are sorry to hear that you are experiencing issues after updating to the Windows 10 Fall Creators Update. Unfortunately, the provided historical evidence does not contain specific troubleshooting steps for the problems you encountered. Please contact Microsoft support directly for further assistance.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "1404222",
+        "source_tweet_id": null,
+        "text": "I was one of the peeps who installed Win10 FCU on launch day, but I don't seem to encounter problems with the update. Pretty weird.",
+        "score": 0.737875,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1539648",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Yeah i had to reinstall and rollback to 1703, blocked windows update just to be safe. | @MicrosoftHelps Unfortunately it sfc and dism didn't find any error :/ I also have the windows defender cpu hog issue (this started before the FCU though). | @MicrosoftHelps Ever since FCU, 9 out of 10 times at boot/reboot, i can't use the start menu, it doesn't pop when i click. Known issue on the net, no fix. | @MicrosoftHelps Any idea when there'll be a fix for W10 FCU so i can use the start menu again ??",
+        "score": 0.71895,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 4,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "909364",
+        "source_tweet_id": null,
+        "text": "@31174 @microsofthelps So.. i updated to FCU AND I REGRET IT..the colors are messed up, games lagging, no sound...wtf just happened :(",
+        "score": 0.676942,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

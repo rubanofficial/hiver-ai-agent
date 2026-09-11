@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0101",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "a172d05de1f7109306e8c2defeb8183b7bc3819151f73722c7160cc6f2e7f85b",
+  "prediction": {
+    "golden_id": "GOLDEN-0101",
+    "predicted_intent": "Product / Feature How-To",
+    "predicted_intent_confidence": 0.65,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "I apologize for the inconvenience, but I cannot fully resolve this issue based on the available information. Please contact Microsoft support directly for further assistance.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "2563112",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps \nPlease unblocked my email 😔",
+        "score": 0.735973,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2560143",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps \nPlease unblocked my email 😔",
+        "score": 0.735973,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1075154",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps please read your dms I've done all of that none sense and you've blocked my account | @MicrosoftHelps WHY have you blocked my account",
+        "score": 0.734438,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

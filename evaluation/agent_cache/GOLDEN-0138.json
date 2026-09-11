@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0138",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "4f55388ff746ef20a2bc00a04ed3fe038bc628c399a2d650b64eb6d6c26aa6f2",
+  "prediction": {
+    "golden_id": "GOLDEN-0138",
+    "predicted_intent": "Account & Login",
+    "predicted_intent_confidence": 0.85,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "We understand you are having trouble signing in to use Office with your email offline. Since the provided information is insufficient to fully resolve your issue, please contact Microsoft support directly for further assistance.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "442745",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps It want let me sign in to my account please help https://t.co/A4unxSMFgn",
+        "score": 0.754547,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1480992",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps It’s telling me that my account doesn’t exist. And its the account that I use daily for work.",
+        "score": 0.748532,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "110758",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps i can not looking in my Account",
+        "score": 0.748444,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

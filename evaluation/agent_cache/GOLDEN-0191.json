@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0191",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "239183dc9414feb7a036be8e50f69bdf1fc8b6a439a7c5062e52afc202adf93c",
+  "prediction": {
+    "golden_id": "GOLDEN-0191",
+    "predicted_intent": "Product / Feature How-To",
+    "predicted_intent_confidence": 0.85,
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "No evidence reached the confidence threshold for a safe autonomous reply (minimum 0.60); human review is required.",
+    "predicted_reply": "We hear you regarding pinning live tiles to the desktop on Windows 10. Based on our available information, we don't have a direct troubleshooting step for this specific feature limitation. If you need further assistance, please reach out to Microsoft support directly.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "918092",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps All good. | @116230 If I remove a tile, it inevitably comes back. If I try to move a tile to a new group, it hangs for a bit then closes, reset. https://t.co/RfLiTP5nzn | Fresh install of @116230 10 FCU and the start menu is busted badly. | @MicrosoftHelps Ultimately I just deleted the user account and created a new one.",
+        "score": 0.587048,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 4,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2599656",
+        "source_tweet_id": null,
+        "text": "@116230 Much appreciated. I've been using the desktop and start list when the PowerShell method didn't restore my ability to move add/remove/Move tiles where they're needed. I haven't tried creating a new user account as administrator yet though. | @735937 Hey, there. We wanted to check in. Are you still experiencing this at the moment? We're here to help if you need us. | This is also Windows 10 Start tiles locking up in the most recent build. I'm sure we'll eventually figure out a way to make it work. Doesn't change things currently. | This is so me right about now. https://t.co/oJxQDOGC82",
+        "score": 0.560396,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 4,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1044790",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps logging in with my Microsoft account. Strange, as I never had to do that before I think. (2/2) | @MicrosoftHelps No, but I did a clean install again and didn't solve it. I just removed the tiles. Regarding the Windows Store I solved it by (1/2) | @116230 while everything worked fine before. How can I solve this? (2/2)",
+        "score": 0.551896,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 3,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

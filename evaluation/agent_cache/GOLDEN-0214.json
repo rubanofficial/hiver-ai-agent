@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0214",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "a2e671021523f6b1a5beebf9dbe7c6f6eda4b5a7f344e3b908b485e627a4a19c",
+  "prediction": {
+    "golden_id": "GOLDEN-0214",
+    "predicted_intent": "Order / Delivery",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "Hello! I'm sorry to hear that you haven't received your pre-ordered copy of FIFA 18 and that FedEx hasn't received it either. Unfortunately, I cannot fully resolve this delivery issue with the information available. Please contact Microsoft support directly for further assistance with your order.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "949603",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps I'm trying to buy fifa 18 but it says its having trouble processing my payment, and it tells me to contact you. Please help",
+        "score": 0.748935,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "205",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps @XboxSupport Brilliant, thank you! | @MicrosoftHelps hi, having trouble making purchases on Xbox one store for fifa points, can you help?",
+        "score": 0.651784,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "634152",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps I downloaded FIFA 18 Ronaldo edition and did not get any of the add on's. Only got the game",
+        "score": 0.629048,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

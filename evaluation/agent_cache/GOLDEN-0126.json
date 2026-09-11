@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0126",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "1230ecdf8fcb118d663a6018b915909b581e5a2faddc859041910505887e15a0",
+  "prediction": {
+    "golden_id": "GOLDEN-0126",
+    "predicted_intent": "Product / Feature How-To",
+    "predicted_intent_confidence": 0.85,
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "No evidence reached the confidence threshold for a safe autonomous reply (minimum 0.60); human review is required.",
+    "predicted_reply": "I cannot fully resolve your issue with the cloud files display based on the available information. Please contact Microsoft support directly for further assistance.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "1419889",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Desktop PC, the specific parts have been switched out heavily since I originally bought it, so it's a bit of a mix n match at the moment. | @116230 Windows 10 home edition | @450080 How odd! Which version of Windows is this happening with? | @116230 No but I have had my windows 10 deactivate on me twice now despite buying a new key for it after the first time. | @450080 How interesting! Have you had any performance issues after trying this fix? | Okay, I managed to find a solution to my drawing program issue. It involved purging my PC of everything adobe, including the cloud.",
+        "score": 0.599787,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 6,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "196765",
+        "source_tweet_id": null,
+        "text": "Windows 10 Creator's Update nice :)",
+        "score": 0.532255,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2283831",
+        "source_tweet_id": null,
+        "text": "oh windows 10 just had a new huge update",
+        "score": 0.523237,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

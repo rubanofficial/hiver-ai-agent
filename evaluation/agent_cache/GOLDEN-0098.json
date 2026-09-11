@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0098",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "c36680123762cde6ef185bfb5b08217d08fe600732514a57a4b589214e4e6c0d",
+  "prediction": {
+    "golden_id": "GOLDEN-0098",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 0.85,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "We are sorry to hear you are experiencing issues with the Groove Music and Spotify integration on your Windows Phone. Unfortunately, the provided historical information does not contain troubleshooting steps for this specific issue. Please contact Microsoft support directly for further assistance.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "1334789",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps it says this app can’t run on your pc https://t.co/8F9sK3UobV | @MicrosoftHelps hi, is there a reason why i can’t download spotify on my surface? | @MicrosoftHelps  https://t.co/tlSOGWpFCc",
+        "score": 0.693415,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 3,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "631963",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps when you switch to Spotify will my playlist from groove be switched aswell?",
+        "score": 0.627946,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "196710",
+        "source_tweet_id": null,
+        "text": "@115890 @139370 Groove Music is one of the best streaming music app, why are they shutting down? #GrooveMusic 😭",
+        "score": 0.612652,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

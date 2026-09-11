@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0209",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "13e6fd40ec5a14a35faedfc4490e5818acf100af88b703e5fb66c147b535128a",
+  "prediction": {
+    "golden_id": "GOLDEN-0209",
+    "predicted_intent": "Cancellation / Subscription",
+    "predicted_intent_confidence": 0.98,
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Intent 'Cancellation / Subscription' is high-risk and requires human handling.",
+    "predicted_reply": "We apologize for the frustration with cancelling your auto-renewal for Xbox Gold. Since our available information is insufficient to resolve this specific issue directly, please contact Microsoft support directly for further assistance.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "2208286",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps I keep getting this result. It auto renewed this morning, but I don't need the service now. I was hoping to cancel it now and get refunded https://t.co/qxgUpXaIlU | @MicrosoftHelps @MicrosoftHelps can you help me cancel my EA Access subscription that auto renewed today? | @MicrosoftHelps Ok thanks for your help; I got my issue resolved. The customer service rep Stephanie was a great help via the chat",
+        "score": 0.702323,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 3,
+          "has_resolution_signal": true
+        }
+      },
+      {
+        "evidence_id": "2658433",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps my Xbox Live account auto renewed on an expired card and I didn’t want it to. I want to buy a one month for $1 subscription but can’t. Who can I talk to?",
+        "score": 0.691513,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "719844",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps I’ve already bought a new subscription for Xbox gold but I can’t even use it. There’s something wrong with your system? 😞 !",
+        "score": 0.681092,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

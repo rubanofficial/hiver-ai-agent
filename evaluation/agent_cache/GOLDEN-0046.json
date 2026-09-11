@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0046",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "af581452775cd1b34d1a75906b3110479c2a2887afc38d97a6533b5649f34c40",
+  "prediction": {
+    "golden_id": "GOLDEN-0046",
+    "predicted_intent": "Order / Delivery",
+    "predicted_intent_confidence": 0.85,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "Hello! I would be happy to help you with your gift purchase. Could you please share a few more details about what you need assistance with so I can best support you?",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "2661212",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Thanks.  My gift recipient missed the email they received :/  #allgoodnow | @MicrosoftHelps just bought Xbox digital game gift for a friend and they aren’t sure how to redeem it. Can you help us out?",
+        "score": 0.731482,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2658495",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Thank you! I was able to redeem it :) | @MicrosoftHelps I received a $5 gift card. I tried to redeem it but everytime I do it won't let me. Any help? https://t.co/UC0NvTC900",
+        "score": 0.730156,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2888116",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Not going well so far. | @115786 @130179 @MicrosoftHelps you guys got any tips to make it work? | @MicrosoftHelps Yes, took a while but I found someone who could help. | Yo @115786 and or @130179 got this sweet gift sent to me but I can't redeem the code? I assume it's for American regions? https://t.co/zw5TSWfh9p",
+        "score": 0.715036,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 4,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

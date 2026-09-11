@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0141",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "c2b66859293af10f77e7ed4fd3bf3038b22ebbeafd2184e8389dd9900ed392ac",
+  "prediction": {
+    "golden_id": "GOLDEN-0141",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 0.98,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "Hello, we understand how frustrating it is when your PC won't boot up properly. Based on similar issues, sometimes letting the computer sit for an extended period (such as overnight) may allow it to finish pending updates. However, since the historical evidence is insufficient to fully resolve your specific startup loop, we recommend contacting Microsoft support directly for further assistance.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "2721807",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Hi. No I have not made any changes. I shut it down after I finished using it and the next day this happened. | @MicrosoftHelps I've been getting this for over a week now. What's the issue? I most definitely do not have the money to go out and buy a new laptop. Windows 10 is the worst! https://t.co/Q9PGhnw0Co | @MicrosoftHelps Is there another way to do this? The computer will not load up to anything. It just keeps looping. | @MicrosoftHelps Hi. I pressed and held the power button 3 times but its not going in to boot repair",
+        "score": 0.656017,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 4,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "198526",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps I let it sit overnight and came back to find that it finally booted, i guess it needed an hour or so to finish updating | @MicrosoftHelps This is all i get https://t.co/P5SB0T5deQ | @MicrosoftHelps Yea, I was able to boot it | @MicrosoftHelps Windows 10 | @MicrosoftHelps did you guys release a new update recently? i went to use my laptop, and it brought up the welcome screen, now it wont boot",
+        "score": 0.629922,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 5,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1061506",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps laptop running Windows 10 stuck on \"preparing to configure windows, please don't turn off your computer\" any suggestions?",
+        "score": 0.592102,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

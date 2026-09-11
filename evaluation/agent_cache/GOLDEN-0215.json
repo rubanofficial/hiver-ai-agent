@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0215",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "30b7dffc7704ec22c093c3f605b5dee681522be30861be4ca0b642111000ebce",
+  "prediction": {
+    "golden_id": "GOLDEN-0215",
+    "predicted_intent": "Order / Delivery",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "We apologize for the frustration with your order status. As we are unable to fully resolve this issue with the current information, please contact Microsoft support directly for further assistance.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "522024",
+        "source_tweet_id": null,
+        "text": "@115890 @MicrosoftHelps | .@135958 my Xbox One S was supposed to be delivered today but it still hasn’t shipped?",
+        "score": 0.702171,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2067219",
+        "source_tweet_id": null,
+        "text": "Dear @MicrosoftHelps. My online order can't be processed &amp; chat/support not working on weekends? \"Offices closed\" #hellocustomerservice",
+        "score": 0.676961,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "607977",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps I still haven't received a call about a missing order",
+        "score": 0.658012,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

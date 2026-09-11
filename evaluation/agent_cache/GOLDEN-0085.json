@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0085",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "aaba77cc360b5c56a88cd374f12fccbc690a46c5e2b8664ab35a7caeb2c5cf1d",
+  "prediction": {
+    "golden_id": "GOLDEN-0085",
+    "predicted_intent": "Product / Feature How-To",
+    "predicted_intent_confidence": 0.85,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "We're glad to hear you were able to resolve the issue using the explorer settings! If you need any further assistance, feel free to reach out.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "1231678",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Thanks for the solution. It's fixed! Again, thanks. | THX @115890. Is it probably possible to delete the folder @MicrosoftHelps ? https://t.co/0vvQDkps98",
+        "score": 0.66354,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2774091",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Nevermind, it quite literally fixed itself after I walked away for a few minutes. Thanks for the reply, though.",
+        "score": 0.605603,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": true
+        }
+      },
+      {
+        "evidence_id": "297081",
+        "source_tweet_id": null,
+        "text": "Seriously, @MicrosoftHelps how do I tell what app this is for to remove it? https://t.co/Dqnwprolmu | . @115890 Need more information. #Windows10 https://t.co/0FjAFmRHxR",
+        "score": 0.599679,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

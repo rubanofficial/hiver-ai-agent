@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0125",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "1db917744b54519ba3628723ef3223915fb8f00fcac962fc491c2bfa2246d1f2",
+  "prediction": {
+    "golden_id": "GOLDEN-0125",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "Hello, I apologize for the trouble with your PC not starting after deactivating Quick Start. Unfortunately, I do not have specific troubleshooting steps in my current resources for this issue. Please contact Microsoft support directly for further assistance.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "1125732",
+        "source_tweet_id": null,
+        "text": "@115890 @MicrosoftHelps There's a reason I turned off 'fast start-up'! (It breaks WoL!) Stop turning it back on with every major upgrade! | @MicrosoftHelps No. I am not linking my Windows installation to a Microsoft account, thank you very much.",
+        "score": 0.670533,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": true
+        }
+      },
+      {
+        "evidence_id": "2519170",
+        "source_tweet_id": null,
+        "text": ".@MicrosoftHelps Hello I. Think my computer is broken",
+        "score": 0.639386,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "385209",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps sorry, after hours of waiting, as soon as i message you, it comes to life | @MicrosoftHelps stuck on 'Restoring your previous version of Windows', the same happens when I reboot.. what can I do? thanks",
+        "score": 0.609542,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": true
+        }
+      }
+    ]
+  }
+}

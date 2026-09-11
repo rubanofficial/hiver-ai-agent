@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0065",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "c572dfb15db611813981136f6b4735b2ab373a5b071b753273c0ca73cb1a2822",
+  "prediction": {
+    "golden_id": "GOLDEN-0065",
+    "predicted_intent": "Product / Feature How-To",
+    "predicted_intent_confidence": 0.85,
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Generated reply could not be grounded in historical evidence; human review is required.",
+    "predicted_reply": "Hello! I understand you are looking for your download email after joining the beta test for Microsoft Edge on iOS. Because the provided information is insufficient to resolve this issue, I recommend contacting Microsoft support directly for further assistance.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "712838",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps where can I join the beta for MicrosoftEdge #iPhone #TestFlight",
+        "score": 0.761928,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "592577",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps is edge for iOS only available in the US?",
+        "score": 0.666786,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2266546",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Okay, let's give it a try 🤔 https://t.co/sKdelrCDYR | \"Try Microsoft Edge Preview for iOS and Android. Available exclusively to Windows Insiders\" - wow, going in broad...",
+        "score": 0.640284,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

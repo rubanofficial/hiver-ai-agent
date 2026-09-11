@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0052",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "1508b840374791116f2fe5f98b9d860ec50173f17420314ff33b797d0087ac2f",
+  "prediction": {
+    "golden_id": "GOLDEN-0052",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "Hello, I'm sorry to hear that your PC crashed and is not working properly after a hard shutdown. Based on the provided information, I am unable to fully resolve your issue. Please contact Microsoft support directly for further assistance.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "2064962",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Thanks for replying. It's a work laptop updated to Windows 10. I think it crashed because of lack of memory, but it's not a persistent issue | I'm trying to like you @116230 10 but crashing randomly isn't helping your case | @MicrosoftHelps There was no error message. It just restarted automatically | @MicrosoftHelps None. No troubleshooting is needed. Thanks for the support",
+        "score": 0.683336,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 4,
+          "has_resolution_signal": true
+        }
+      },
+      {
+        "evidence_id": "919655",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Should have known something was up when during the 'update' process that broke everything, got several blue screens of sadness | @MicrosoftHelps In the end I had to reinstall Windows and lost a full day to reinstalling all my programs needed for development. Annoying but no work lost! | @MicrosoftHelps Hi! Tried safe mode 1st, no desktop flashing but options wouldn't open and even hovering over the ^ in the task tray crashed windows",
+        "score": 0.652309,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 3,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2971758",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps I have no idea what i'm updating to it just said it needed to restart and nothing the pc stopped /crashed when i pushed the start button i had that on my screen | @MicrosoftHelps my pc crashed while doing an update now i have this https://t.co/q2LwHB3rwW | @MicrosoftHelps When i came back home it was fine, i guess it was a big update and maybe i had no more battery so the pc turned off",
+        "score": 0.629806,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 3,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

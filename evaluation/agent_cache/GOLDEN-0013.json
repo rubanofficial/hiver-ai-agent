@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0013",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "4b1233c193c49293bed3e08b5da45c861e1944a493f72880e1a341766da34ca2",
+  "prediction": {
+    "golden_id": "GOLDEN-0013",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 0.98,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "We are sorry to hear that your laptop is not booting properly after the recent update. As the provided evidence indicates others experiencing boot issues following updates, please contact Microsoft support directly so our team can help you troubleshoot this specific startup loop.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "1372281",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Oct update laptop fails to boot. System Restore gets it workng agn temp but can't turn updates off so just repeats same prob",
+        "score": 0.645361,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2721807",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Hi. No I have not made any changes. I shut it down after I finished using it and the next day this happened. | @MicrosoftHelps I've been getting this for over a week now. What's the issue? I most definitely do not have the money to go out and buy a new laptop. Windows 10 is the worst! https://t.co/Q9PGhnw0Co | @MicrosoftHelps Is there another way to do this? The computer will not load up to anything. It just keeps looping. | @MicrosoftHelps Hi. I pressed and held the power button 3 times but its not going in to boot repair",
+        "score": 0.631121,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 4,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2769444",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps @116230 I cannot use my laptop after the recent update, two updates totalling roughly 2 1/2 hours now this and I’ve restarted my laptop about 10 times and this still happens....HELP ME! https://t.co/LgueiZWQOw",
+        "score": 0.625479,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

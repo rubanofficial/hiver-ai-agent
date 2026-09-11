@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0090",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "6d30f6ca13ae548e240a9b3b9d40dec9d870140cba49219077d68fa31df89a7f",
+  "prediction": {
+    "golden_id": "GOLDEN-0090",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "Hello, we understand you are having trouble getting your Surface Pro 2 to switch on and are seeing a blank screen while it is on charge. Unfortunately, our current resources do not provide enough specific troubleshooting steps for this exact power issue. Please contact Microsoft Support directly for further assistance.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "1020829",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps it shows the surface logo for a second and then goes to the drained battery logo. it was plugged in for an hour and still wont reboot | @MicrosoftHelps now it goes on finally but wont say its charging | @MicrosoftHelps my surface pro 3 is plugged in and has been for enough time for it to start, but wait, it doesnt work. BS!",
+        "score": 0.723596,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 3,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1717129",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps I bought it back in Poland and yes, I plugged it in the power adapter, the diode is working, however it still doesn't turn on | @123127 I bought a new surface pro 4. 35 minutes ago I turned it off &amp; now wanted to turn it on again but it doesn't work. What can I do? | @MicrosoftHelps At the first attempt the red light went on but not anymore",
+        "score": 0.71737,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 3,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "911095",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Surface 3. It started about a week ago. I don't use it daily, but a restart might have done the trick 🤔 | @123127 my pro is turning off after 29 seconds. It just turns off and I have to sign back in. Whyyy",
+        "score": 0.711662,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

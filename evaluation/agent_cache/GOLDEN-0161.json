@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0161",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "2f0d45678acfb18bb5474710baf761cab7b92ff40356ef8f2fbc353c2ca39589",
+  "prediction": {
+    "golden_id": "GOLDEN-0161",
+    "predicted_intent": "Product / Feature How-To",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "Hello! We apologize for the trouble you are experiencing with signing into your Windows 10 PC. Unfortunately, our current resources do not contain the specific steps to resolve this sign-in behavior issue. Please contact Microsoft support directly for further assistance.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "599364",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Always had windows 10 on my laptop, it told me to restart the laptop, I done that and seems to have fixed it | @MicrosoftHelps on my laptop when I try and sign in using pin I get error code 0x80070032 any idea to sort this?",
+        "score": 0.689219,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1609622",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps @115890 b4 feature update i was using pin to login in to pc. But after update it shows. Not supported. 2/2 https://t.co/p3GoG9toTk | @MicrosoftHelps ThankYou for addressing. But i just resolved the problem. 👍",
+        "score": 0.633685,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": true
+        }
+      },
+      {
+        "evidence_id": "1857956",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Screw it. Nothing is working. Rolling it back to previous version in hopes that works. | @MicrosoftHelps But they are in Store, after I opened it with Search. But \"Pin to Start\" is greyed out. https://t.co/A0FRC6yqOf",
+        "score": 0.609957,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

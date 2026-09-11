@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0166",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "aab5a71eff0e8076ef1b2866083f9e255d6ab286c100bf7da673cf124b3aa3ce",
+  "prediction": {
+    "golden_id": "GOLDEN-0166",
+    "predicted_intent": "Product / Feature How-To",
+    "predicted_intent_confidence": 0.85,
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Best evidence similarity (0.35) is below the auto-handle threshold (0.50); human review is required.",
+    "predicted_reply": "We cannot confirm from our current resources whether individual nibs can be purchased separately without the pack. Please contact Microsoft support directly for further assistance with your parts inquiry.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "712831",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps I bought it from https://t.co/cuVJab7ses in May of 2015",
+        "score": 0.346904,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2557966",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Can I purchase a replacement usb receiver for a natural 7000 keyboard?",
+        "score": 0.344365,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1218696",
+        "source_tweet_id": null,
+        "text": "@128786 do you have any surface stores in the uk, id like to get my surface pro 4 replaced or repaired. without having togo through mail",
+        "score": 0.330983,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0020",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "de0c09304d2277f524d8d2c9c4a0b4352b2510c1846f74d4597bc7a7f8f542fc",
+  "prediction": {
+    "golden_id": "GOLDEN-0020",
+    "predicted_intent": "Complaint / Feedback",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+    "predicted_reply": "We apologize for the frustration you've experienced being transferred between support channels. Since our current information is insufficient to directly resolve your issue here, please contact Microsoft support directly for further assistance.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "1540736",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps I don't want to use the live chat because I have a complicated problem, does Microsoft have a support *email*? | @MicrosoftHelps Yes and they were unfortunately unable to help. Thanks for trying though!",
+        "score": 0.847784,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": true
+        }
+      },
+      {
+        "evidence_id": "2320915",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps can you send me a link to the live chat support please?",
+        "score": 0.843912,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1727617",
+        "source_tweet_id": null,
+        "text": "hey @MicrosoftHelps is there a way to get a live chat? there's no solution available for my problem.",
+        "score": 0.814338,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

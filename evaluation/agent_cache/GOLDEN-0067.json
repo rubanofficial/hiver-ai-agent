@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0067",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "a34e3f993654b4507cbeb66e81edd15d8eca8af6a2162da7a3a1b49a0fa48183",
+  "prediction": {
+    "golden_id": "GOLDEN-0067",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "We apologize, but based on the available information, we are unable to fully resolve your keyboard and mouse issues after a clean boot. Please contact Microsoft support directly for further assistance.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "2469677",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Hello. So I recently updated my computer and when I'm playing my games it's lagging when it wasn't before. please help. | @MicrosoftHelps Sorry i haven't replied back in a long time. But after the tweet i sent it was fine but the recent update its started to lag again. not as much as before but still there. I've also closed all other applications, virus scanners and all that stuff and still there. Please help https://t.co/8lWlaTTTWb | @MicrosoftHelps Great. But now I can’t log back in. It says “user profile cannot be loaded”. I’ve try to reset my password but nothing. | @MicrosoftHelps Never mind I just had to restart the computer | @MicrosoftHelps BTW. What’s a clean boot? I’m kinda scared it would change my computer. | @MicrosoftHelps I said. What’s a clean boot? | @MicrosoftHelps Yes. Thank you for your support. I’ve got another question as a different tweet if that’s ok.",
+        "score": 0.630987,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 7,
+          "has_resolution_signal": true
+        }
+      },
+      {
+        "evidence_id": "1825705",
+        "source_tweet_id": null,
+        "text": "@116230 latest update broke. Initially i had a group service policy error so i couldnt sign in. Rebooted and now its bugged trying 2 update https://t.co/I0FH4wQdZ9 | @MicrosoftHelps All other troubleshooting options needed my pw but it kept saying that my pw was wrong even tho it wasnt so that was the work around i found | @MicrosoftHelps Yeh i had to boot in to safe mode with command prompt, then i could restore to a previous safe point. | @MicrosoftHelps Version 1703, OS build 15063.674, the update that seemed to cause my problem was either KB4041676 or KB890830",
+        "score": 0.610823,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 4,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1246576",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps I get Critical_Process_Died error in crash usually. The recovery image from what I recall just gives an error and no progress can be made. | @123127 @MicrosoftHelps I've tried the \"Clean Start\" and Reset options to no avail it will just BSOD part way in. Recover drive is also failing to progress. | @MicrosoftHelps I have followed these steps. Everything was disabled including on startup. However it is still suffering the same issue. https://t.co/82dHVcGB5m | @MicrosoftHelps I don't know of any Microsoft stores in the area or generally in the UK. No, I'll try this later. Do I have a quote number at all? | @123127 @MicrosoftHelps Hi, got a Surface Pro 4 it BSOD almost randomly, sometimes on boot of after a few miuntes. Want to clean install.",
+        "score": 0.598901,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 5,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

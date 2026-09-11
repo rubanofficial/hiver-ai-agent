@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0105",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "97b309fa70c29a6edc83bf27183ee5e550cf9ac42e6dab3922604683341a4a32",
+  "prediction": {
+    "golden_id": "GOLDEN-0105",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 0.85,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "We are sorry to hear that you are experiencing this random issue since last Friday. As the provided information is insufficient to fully resolve your specific technical problem, please contact Microsoft support directly for further assistance.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "824514",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps No I have never had this problem before. I went  through bios setting but that did nothing | @MicrosoftHelps Windows 10 and reset back to factory settings like I normally do every 6 months | @MicrosoftHelps No unfortunately after seeing this error code in the picture? Will I just be able to install a new Windows using a disc? | @MicrosoftHelps I'm reinstalling Windows 7 but I had 10 will I need to buy another disc just to upgrade? | @116230 ?? https://t.co/IfXuWqGP4H",
+        "score": 0.610241,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 5,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "264219",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps I haven't made any changes. It's been on Win 10 for a long time. | @MicrosoftHelps is there any reason this has happened to my laptop 3 times in the past 2 weeks? I have to take online exams on this! https://t.co/DfJjW5JOFu",
+        "score": 0.602633,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2721807",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Hi. No I have not made any changes. I shut it down after I finished using it and the next day this happened. | @MicrosoftHelps I've been getting this for over a week now. What's the issue? I most definitely do not have the money to go out and buy a new laptop. Windows 10 is the worst! https://t.co/Q9PGhnw0Co | @MicrosoftHelps Is there another way to do this? The computer will not load up to anything. It just keeps looping. | @MicrosoftHelps Hi. I pressed and held the power button 3 times but its not going in to boot repair",
+        "score": 0.60191,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 4,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

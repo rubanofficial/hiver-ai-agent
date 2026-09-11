@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0075",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "28e6dc08c49a4cfd51319b21da0fbdd19368ef3bf020cf439e697b5e63972dde",
+  "prediction": {
+    "golden_id": "GOLDEN-0075",
+    "predicted_intent": "Product / Feature How-To",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Generated reply could not be grounded in historical evidence; human review is required.",
+    "predicted_reply": "Hello! The provided historical evidence is insufficient to answer how to find your Windows 10 product key. Please contact Microsoft support directly for further assistance.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "505662",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps hi there\n\nSo I’m from the UK and I just purchased a new laptop from @235983 but I’m curious of how I go about obtaining my windows 10 product key.\n\nI can’t seem to see it any where on the box is there a way I can find it out ?",
+        "score": 0.82577,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "120594",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps where do I buy official windows 10 product keys?",
+        "score": 0.817433,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2716765",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Having issues with activating my Windows 10 Home product key. It says the product key has already been used (0xC004C008), but I've removed my key from all my other devices. I also can't find the receipt/key in my order history anymore. Thanks in advance! :)",
+        "score": 0.763714,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": true
+        }
+      }
+    ]
+  }
+}

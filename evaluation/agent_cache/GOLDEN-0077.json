@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0077",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "6110d98cdb87bcadb9a9e3efcfe859484d10ff86d9e63dfadf28d4cfba15ba69",
+  "prediction": {
+    "golden_id": "GOLDEN-0077",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 0.85,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "I am unable to fully resolve your issue based on the provided information. If you continue to experience random reboots or issues with your operating system, please contact Microsoft support directly for further assistance.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "385209",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps sorry, after hours of waiting, as soon as i message you, it comes to life | @MicrosoftHelps stuck on 'Restoring your previous version of Windows', the same happens when I reboot.. what can I do? thanks",
+        "score": 0.671537,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": true
+        }
+      },
+      {
+        "evidence_id": "1087118",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps I finally found some to help me. There was corrupted files or something... Fine now. I don't hate you guys anymore | 3rd time I chatted for help in 13 days. 0 help @MicrosoftHelps online chatters just tell me to update; again &amp;again &amp; again. Never works https://t.co/j2llezbTlZ | @MicrosoftHelps At my wit's end here. I can't even do my work anymore. Trys to update again and again and again | @MicrosoftHelps Next day same problem. We even went change the updater from automatic to manual yesterday. Found it set to manual, disabled it after update https://t.co/W47jOBtxI0 | @MicrosoftHelps Main probable is I bought the pc 3 years ago, but it was on a shelf probably for 2 before that. Haha | @MicrosoftHelps They got it... I think haha | @MicrosoftHelps Nope this morning it says \"restoring previous version of Windows\" for two hours... I'm super considering ditching you guys",
+        "score": 0.605737,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 7,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2196468",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps please help, had this from turning on pc and repeats when try to restore previous versions. Never restarts https://t.co/KzkimPdLGG",
+        "score": 0.594224,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

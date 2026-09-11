@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0048",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "bfc3bf7772df584156f746d959718a98889c5804e23779971032d01784a0d604",
+  "prediction": {
+    "golden_id": "GOLDEN-0048",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "We understand your frustration regarding the OS update on your Lumia 930, and we apologize that the previous steps did not resolve the issue. Since the historical evidence is insufficient to provide a working solution without a hard reset, we recommend contacting Microsoft support directly for further assistance.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "627523",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps As per your advice I have had reset of my device but the error on update still  persists. Please help to resolve this issue. | @MicrosoftHelps After the suggested Reset how would I get my all contacts, Cortana, etc.  Back to my phone again. | @MicrosoftHelps Yes date and time are set according to my region. Please confirm what to do. | @MicrosoftHelps As suggested manually set the time,date and region. Then the problem submitted to feedback hub. | @MicrosoftHelps Good morning. Sill no response from feedback hub. Should I take it as Microsoft don't have any solution of the problem. If yes then close it | @MicrosoftHelps Yes the same error persisting unfortunately. | @MicrosoftHelps As advised turned off device encryption but the error remained the same. Please confirm. Regards. | @MicrosoftHelps Thanks for ur quick response I have done it as advised but the error remained the same. Pls advise and resolve the issue. | @MicrosoftHelps Since last week update 10.0.14393.1884 not getting downloaded and error no. 0x8018830f is showing on my Lumia 730. Pls help",
+        "score": 0.679369,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 9,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "229954",
+        "source_tweet_id": null,
+        "text": "Last month I update my lumia950xl but debice auto reboot no help from @MicrosoftHelps pl.fix bug | @MicrosoftHelps thanx for rpl I already device done soft reset also using Windows recovery tools but facing same prblm.pl do the needful.",
+        "score": 0.608629,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1188421",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Hard reset means installing everything again? The Lumia 650 was updated about 40 days ago | @MicrosoftHelps windows MOBILE update 1703 hangs on 1% ... what can I do? restarting phone doesnt help? mobile is dead?",
+        "score": 0.590809,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

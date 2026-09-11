@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0060",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "2a2bac25ba9ff57658ccaf783cb0b606a4afe52622e8519cbfc942621202fb92",
+  "prediction": {
+    "golden_id": "GOLDEN-0060",
+    "predicted_intent": "Complaint / Feedback",
+    "predicted_intent_confidence": 0.4,
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+    "predicted_reply": "Hello, thank you for reaching out to MicrosoftHelps. Since we do not have enough information from your message to resolve your issue, please contact Microsoft support directly for further assistance.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "781366",
+        "source_tweet_id": null,
+        "text": "@115890 @MicrosoftHelps https://t.co/gkdTGiIBAj",
+        "score": 0.92749,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1817333",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps  @72784 https://t.co/GgDIDMEYlj",
+        "score": 0.919127,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1862234",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps @556535 https://t.co/uja9UxQeHf",
+        "score": 0.918731,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

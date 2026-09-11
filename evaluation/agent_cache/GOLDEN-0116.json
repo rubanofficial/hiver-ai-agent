@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0116",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "a2947be869c47047f2e7e2f609740ea86670236f55fa392f4b334d28e855ee08",
+  "prediction": {
+    "golden_id": "GOLDEN-0116",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "Hello! We understand your concern about seeing the update for AMD systems on your Intel CPU device. While we don't have specific troubleshooting steps for this in our current records, \"amd64\" refers to the 64-bit architecture (x64) compatible with both Intel and AMD processors, which is why it may be appearing on your system. If you continue to experience issues, please contact Microsoft support directly for further assistance.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "520607",
+        "source_tweet_id": null,
+        "text": "Hey @MicrosoftHelps why am I getting an update for \"amd64\" CPUs, I have an Intel one.",
+        "score": 0.693858,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2742560",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Have tried all the information in the article and it didn't fix it. I looks like it only happens on AMD processors | @105173 @MicrosoftHelps #WindowsInsiders  I think there is an issue on build 17090.1000 on AMD based machines. When I try and upgrade it either hangs or doesn't install with error 0Xc1900101. It then goes back to 17025 and tries to download it again - it constantly does this. | @MicrosoftHelps Have already done this.",
+        "score": 0.688179,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 3,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1700560",
+        "source_tweet_id": null,
+        "text": "@115890 @116230 you’re feature 1709 update won’t install after many attempts even using WUT #fixit",
+        "score": 0.631218,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

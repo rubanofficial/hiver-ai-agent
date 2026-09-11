@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0117",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "0eff3ff70835cc767042b09b4519aae3731b2369c9b8f2b8f58c2a38bcc9714b",
+  "prediction": {
+    "golden_id": "GOLDEN-0117",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "Hello! We see you are experiencing an issue with your update getting stuck. Since the historical evidence does not provide specific troubleshooting steps for an update stuck at 80%, we recommend contacting Microsoft support directly for further assistance.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "2375109",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps I keep getting prompted that my computer needs to update, but it will not update. It hangs at  \"Preparing your update 0%\" and was stuck there over-night for 8+hours.",
+        "score": 0.821702,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1182046",
+        "source_tweet_id": null,
+        "text": "@116230 No, it always gets stuck at 40% and then can't continue and has to restore a previous version | @397974 Hello! Have you been able to get the update fully installed? We're checking in. | Update failed. Managed to get it up to 45% tho, usually it fails at 40%. Screw you Windows | @MicrosoftHelps Yeah, now it doesn't try to update at all. I click on update and restart and now it just restarts, doesnt attempt any update",
+        "score": 0.799191,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 4,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "699130",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps my Windows 10 update has been stuck at 23% for over an hour.  Troubleshooter didn't help.  Reboot didn't help. | @MicrosoftHelps My download speed is not great and the progress bar for the update was not moving. Fixed after a forced reboot. Thanks!",
+        "score": 0.787144,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": true
+        }
+      }
+    ]
+  }
+}

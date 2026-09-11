@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0210",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "d12bbf8d3722e71775c1414bd4ce668fbe5234512d5269de500601d8a1afda85",
+  "prediction": {
+    "golden_id": "GOLDEN-0210",
+    "predicted_intent": "Complaint / Feedback",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+    "predicted_reply": "We apologize for the frustration regarding turning off auto-renew on your console and managing your subscriptions. Because the available information does not fully address your specific concern, please contact Microsoft support directly so our agents can assist you further.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "2208286",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps I keep getting this result. It auto renewed this morning, but I don't need the service now. I was hoping to cancel it now and get refunded https://t.co/qxgUpXaIlU | @MicrosoftHelps @MicrosoftHelps can you help me cancel my EA Access subscription that auto renewed today? | @MicrosoftHelps Ok thanks for your help; I got my issue resolved. The customer service rep Stephanie was a great help via the chat",
+        "score": 0.732686,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 3,
+          "has_resolution_signal": true
+        }
+      },
+      {
+        "evidence_id": "2658433",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps my Xbox Live account auto renewed on an expired card and I didn’t want it to. I want to buy a one month for $1 subscription but can’t. Who can I talk to?",
+        "score": 0.708567,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "381798",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Hey, I renewed my xbox live subscription but it appears to have gone through twice so I paid twice. Can I get som help",
+        "score": 0.693455,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

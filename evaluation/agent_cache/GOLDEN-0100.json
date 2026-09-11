@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0100",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "29ce8bc8bb0014e7b2e6dee6ca3338ab6776ebf96dbf6c7c430ae149951aff27",
+  "prediction": {
+    "golden_id": "GOLDEN-0100",
+    "predicted_intent": "Network / Connectivity",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "We're glad to hear that your wireless adapter is working again and your connection is restored! If you run into any more network issues in the future, please let us know.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "2626560",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps I’ve tried every solution on the Microsoft website and system restore. I couldn’t update it as it doesn’t even show up on my command prompt | @116230 Yes please! My wireless network adapter seems to be missing. I have tried every possible solution found on the internet but to no avail ! | @MicrosoftHelps It started few weeks ago out of a sudden. I then did system restore, and it was okay for a while. However, the issue resurfaced again. | @741880 Hello! Are you still having WiFi issues? Perhaps we can help! | this is a very random question but anyone using Windows 10 and has encountered missing wifi adapter issues? :/",
+        "score": 0.680543,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 5,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2276601",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps I fixed it. After a painstakingly long 2 hour search, I found how to fix it. | @MicrosoftHelps can you guys please help me? My computer is unable to connect to WiFi. Even  when I go to Settings - Network and Internet\n\nIt only gives me these options:\n\nData Usage\nVPN\nDial-Up\nEthernet\nProxy\n\nNo WiFi.",
+        "score": 0.661309,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2947254",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps /errorcode had nothing on this particular one, this happened when I tried to open network settings. Please help https://t.co/F0Kif0QLVY",
+        "score": 0.655489,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

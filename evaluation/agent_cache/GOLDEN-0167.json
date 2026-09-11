@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0167",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "4235c27e5ad6f34742a2bd644e03bc2455d0a18d52aeeca4d6d52127e6c18c7a",
+  "prediction": {
+    "golden_id": "GOLDEN-0167",
+    "predicted_intent": "Product / Feature How-To",
+    "predicted_intent_confidence": 0.92,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "Hello! I understand you are having trouble with non-existent email addresses disappearing instead of bouncing back. Unfortunately, I do not have the specific troubleshooting steps for this in my available resources. Please contact Microsoft support directly for further assistance.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "1170870",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps none of my email addresses ending on https://t.co/Gu5SbTbvau\rnot working | @MicrosoftHelps https://t.co/Gu5SbTbvau extension e-mail addresses what the problem is they don't work | @MicrosoftHelps I get this message:This Microsoft account does not exist. Enter a different account or create a new account | @MicrosoftHelps the middle of last month",
+        "score": 0.682384,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 4,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2498624",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps How can I ask for a delist if my emails are bouncing back from your support email?",
+        "score": 0.675022,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1558142",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps There hasnt been any changes recently | @MicrosoftHelps \n\nHello, i just tried to log in to my email and its says “email address does not exist” please help",
+        "score": 0.663744,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

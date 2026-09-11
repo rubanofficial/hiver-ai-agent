@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0173",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "2377291980af37dbb24e139dee25293ef08282261559110adbc4b0921e1084ae",
+  "prediction": {
+    "golden_id": "GOLDEN-0173",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 0.85,
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "No evidence reached the confidence threshold for a safe autonomous reply (minimum 0.60); human review is required.",
+    "predicted_reply": "We are sorry to hear you are experiencing issues with TweetDeck on Windows 10. As the provided historical evidence is insufficient to fully resolve your platform compatibility issue, we recommend contacting Microsoft support directly for further assistance.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "627530",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Windows 10 Version 1709 (Build 16299.64)\r\rTwitter 5.8.1.0_x86 | @123765 @116230 @TwitterSupport @MicrosoftHelps WTH??? https://t.co/OhXr4w7nhd | .@123765 for @116230 doesn't support Moments yet. SAD! @TwitterSupport @MicrosoftHelps | ตอนไปไทย - When I was in Thailand https://t.co/Ybvn4BoLug",
+        "score": 0.571621,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 4,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1853151",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Problem with Twitter in Microsoft Surface Pro https://t.co/UO9ZNLZo6V",
+        "score": 0.567813,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "422426",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Forwarded my tweet to see if I get a reply from support https://t.co/kI1fGayQ6v",
+        "score": 0.561351,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0012",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "64f63443e7644d3e779de53aae92fd610119c11dddd6ed99d2799446edbcc1e6",
+  "prediction": {
+    "golden_id": "GOLDEN-0012",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "No evidence reached the confidence threshold for a safe autonomous reply (minimum 0.60); human review is required.",
+    "predicted_reply": "Hello! Based on similar issues, sometimes thumbnail and preview problems are related to account permissions. You might try testing with a new user account to see if the issue persists, or check your folder permissions (such as in the Pictures folder) to ensure child object permissions are correctly applied. If the issue continues, please contact Microsoft support directly for further assistance.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "681461",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Heads up, uninstalling KB4041085 fixed the issues. Symptoms began after that update. Explorer.exe peaked at 100% sporadically, media thumbnails weren't rendering, and I'd get constant ~30 second lags. Healthy PC, no viruses. 8.1 Pro https://t.co/nuB2AXoANF",
+        "score": 0.558329,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": true
+        }
+      },
+      {
+        "evidence_id": "883178",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps win 10....this started after new update | @MicrosoftHelps Why video clip? My problem is when i click my folder with videos or photos their thumbnails are reloading every day. | @MicrosoftHelps win 10 home, version 1709 | @MicrosoftHelps I have Thumbnail Cache Automatic Deletion Problem in Windows ...every day my video and photos thumbnails must reload...help",
+        "score": 0.549737,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 4,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2249215",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Created a new account and had no issues with seeing thumbnails. Turns out it was a permission problem on my original account, I fixed permissions in \"Pictures\" and checked \"Replace all child object permissions...\" and voila! :-) | @MicrosoftHelps Thanks I'll give it a try | @MicrosoftHelps  https://t.co/4EOwxDI5so | @MicrosoftHelps  https://t.co/6m0yu1BhHE | @MicrosoftHelps Hi, thanks. HP Envy laptop. Issue has been there since I purchased it. Tried a few times to fix it, gave up, just trying again. https://t.co/Rf9b90Ysxa | @MicrosoftHelps Seeing icons instead of thumbnails in W10. Folder Options/View “always show icons, never thumbnails” box is NOT checked and System Properties/Performance/VisualEffects “Show thumbnails instead of icons” IS checked but I still see icons in my Pictures folder. Help!",
+        "score": 0.533519,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 6,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

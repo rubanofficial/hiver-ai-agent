@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0205",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "f271c7c6839ab117697788f744de4af295f5082dc6460787f56f214243854266",
+  "prediction": {
+    "golden_id": "GOLDEN-0205",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "We understand how frustrating it is to experience slow performance and a loss of Wi-Fi connection after an update. Since the provided evidence is insufficient to fully resolve update and network glitches of this nature, we recommend contacting Microsoft support directly for further assistance.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "1935005",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps The thing is that particular update doesn't like being installed at all. What should I do? | @MicrosoftHelps Yes I have tried resetting my modem and my router and I am currently using Lenovo G40-80 | @microsofthelps @16942 this is what happens when this update gets downloaded or installed, and it slows down my internet speed. help? https://t.co/7IhzoG1wBM",
+        "score": 0.707021,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 3,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2647872",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps *windows 10 I am using | @MicrosoftHelps I am using windows. The update didn't fully update and since I have no connection to anything because it glitched I can't finish the update | @MicrosoftHelps New update didn't complete glitched out my pc can't connect to networks or my internet",
+        "score": 0.672712,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 3,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "268052",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps windows 10. does it need internet connection? | @MicrosoftHelps hello I’ve done it many times but still it get stuck during windows update. Stuck at 32% , no movement at all https://t.co/8hTjIofSMR | @MicrosoftHelps yep still. Maybe my wifi is poor as hell. Thanks for the help btw | @MicrosoftHelps Hello. It still stuck at 32% | @MicrosoftHelps Hi. After several attempt it finally works updating my windows. Thanks for the help | @MicrosoftHelps There’s a sudden update on mu computer on start up. Then my screen went blank. I couldn’t do the safe mode either",
+        "score": 0.672101,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 6,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

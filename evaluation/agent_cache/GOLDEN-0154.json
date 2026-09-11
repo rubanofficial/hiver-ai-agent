@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0154",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "046a309b6d9a2607761bb9a1e58849644191cf1d1423ca23933e648a4e292b9f",
+  "prediction": {
+    "golden_id": "GOLDEN-0154",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "I see you are inquiring about the Windows 10 Fall Creators Update. Unfortunately, I do not have enough information in my current resources to address specific bugs related to this update. Please contact Microsoft support directly for further assistance.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "155913",
+        "source_tweet_id": null,
+        "text": "That Windows 10 Fall Creators Update is something else; isn't it?",
+        "score": 0.775637,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "847864",
+        "source_tweet_id": null,
+        "text": "Windows 10 fall creators update done 🔥🔥🔥",
+        "score": 0.709712,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1574938",
+        "source_tweet_id": null,
+        "text": "Get the Windows 10 Fall Creators Update!\nhttps://t.co/yKql3pzN8R",
+        "score": 0.709063,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

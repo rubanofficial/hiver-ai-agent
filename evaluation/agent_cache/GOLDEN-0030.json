@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0030",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "21608320cc6b2c410b32918fdcb5328a857270409ee5c38a30882d6d0289cc94",
+  "prediction": {
+    "golden_id": "GOLDEN-0030",
+    "predicted_intent": "Account & Login",
+    "predicted_intent_confidence": 0.99,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "We are sorry to hear that you are having trouble signing in. Please use our online account recovery form to try and regain access to your account. If you need further assistance, please contact Microsoft support directly.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "2528205",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps someone hacked my account and now i cant sign in",
+        "score": 0.908164,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "338497",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps does this email seem@legit to you i got a txt aswell! https://t.co/roAv5mj3ld | @MicrosoftHelps Hi, i dont think so but i am still unsure why i got the email in the first place...how do i work out if my@account has actually been hacked",
+        "score": 0.846286,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2625867",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Tried that online form but the thing said i didnt give enough info to recover the account | Gotta love @MicrosoftHelps my email gets hacked and i cant get it back cause i cant provide info for stuff i used years ago",
+        "score": 0.839808,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,274 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/evaluate.py",
+  "source_label": "Majority Intent Baseline + Majority Escalation Baseline",
+  "evaluated_at": "2026-09-11T13:40:26+00:00",
+  "golden_set": "evaluation/golden_set.labeled.json",
+  "labels_file": null,
+  "predictions_file": "D:\\WEB\\project\\hiver-ai-agent\\evaluation\\baseline_results\\majority\\predictions.json",
+  "intent_taxonomy": [
+    "Technical Troubleshooting",
+    "Product / Feature How-To",
+    "Account & Login",
+    "Billing & Payments",
+    "Order / Delivery",
+    "Warranty / Repair",
+    "Network / Connectivity",
+    "Microsoft Store",
+    "Complaint / Feedback",
+    "Cancellation / Subscription"
+  ],
+  "golden_records_total": 216,
+  "examples_evaluated": 44,
+  "warnings": {
+    "missing_predictions": [],
+    "unexpected_golden_ids": []
+  },
+  "intent_metrics": {
+    "overall_accuracy": 0.454545,
+    "macro_f1": 0.069444,
+    "macro_precision": 0.050505,
+    "macro_recall": 0.111111,
+    "weighted_f1": 0.284091,
+    "weighted_precision": 0.206612,
+    "weighted_recall": 0.454545,
+    "per_intent": {
+      "Technical Troubleshooting": {
+        "precision": 0.454545,
+        "recall": 1.0,
+        "f1": 0.625,
+        "support": 20
+      },
+      "Product / Feature How-To": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 7
+      },
+      "Account & Login": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 4
+      },
+      "Billing & Payments": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 3
+      },
+      "Order / Delivery": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 1
+      },
+      "Warranty / Repair": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 1
+      },
+      "Network / Connectivity": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 1
+      },
+      "Microsoft Store": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 0
+      },
+      "Complaint / Feedback": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 6
+      },
+      "Cancellation / Subscription": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 1
+      }
+    },
+    "confusion_matrix": {
+      "labels": [
+        "Technical Troubleshooting",
+        "Product / Feature How-To",
+        "Account & Login",
+        "Billing & Payments",
+        "Order / Delivery",
+        "Warranty / Repair",
+        "Network / Connectivity",
+        "Microsoft Store",
+        "Complaint / Feedback",
+        "Cancellation / Subscription"
+      ],
+      "matrix": [
+        [
+          20,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          7,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          6,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  },
+  "escalation_metrics": {
+    "accuracy": 0.795455,
+    "macro_f1": 0.443038,
+    "positive_class": "ESCALATE_TO_HUMAN",
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "per_class": {
+      "AUTO_HANDLE": {
+        "precision": 0.795455,
+        "recall": 1.0,
+        "f1": 0.886076,
+        "support": 35
+      },
+      "ESCALATE_TO_HUMAN": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 9
+      }
+    },
+    "confusion_matrix": {
+      "labels": [
+        "AUTO_HANDLE",
+        "ESCALATE_TO_HUMAN"
+      ],
+      "matrix": [
+        [
+          35,
+          0
+        ],
+        [
+          9,
+          0
+        ]
+      ]
+    }
+  },
+  "notes": "Ground truth comes only from human labels. No AI model was called by this evaluator and no performance values were fabricated.",
+  "baseline_name": "Majority Intent Baseline + Majority Escalation Baseline"
+}

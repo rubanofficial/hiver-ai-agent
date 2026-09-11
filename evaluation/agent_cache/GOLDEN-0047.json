@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0047",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "a0994d85e4bba323aeff4ddaed800b0b15c1b173a20da73c51e49354725a5468",
+  "prediction": {
+    "golden_id": "GOLDEN-0047",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "No evidence reached the confidence threshold for a safe autonomous reply (minimum 0.60); human review is required.",
+    "predicted_reply": "Hello! We apologize for the trouble you are experiencing with the Excel update loop on your Insider Fast Build. Since we do not have specific troubleshooting steps available in our current resources for this specific update loop issue, we recommend contacting Microsoft support directly for further assistance.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "153383",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Also, I’m not the only one on my team having these issues. So it is not an isolated incident. | @MicrosoftHelps No changes. It’s a brand new computer running Office 2016 and Windows 10. In terms of updates, it is up-to-date. These issues have made me check more frequently. | @122427 These days, Excel just behaves like a virus. Hogs all system resources and has to be forced to shut down. The risk of loss of work done is also high. Not sure why it has to be like this. \n @MicrosoftHelps | @MicrosoftHelps Thanks for the link. So in your estimation, the Office needs to be repaired? Mind you, I’m not the only one having this issue. I will try it though and get back to you.",
+        "score": 0.578154,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 4,
+          "has_resolution_signal": true
+        }
+      },
+      {
+        "evidence_id": "2542863",
+        "source_tweet_id": null,
+        "text": "So, yesterday, #Microsoft releases an #update for #Office365 which being a trusting fool, I duly install.  Today, magically, #Excel2016 #breaks continually!  So I am left scratching my end - which I suppose is better than cursing. But I am #angry  @115890 @MicrosoftHelps",
+        "score": 0.56286,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1111198",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps  https://t.co/GU2OvyioWC | @116230 It has been stuck at 91% for over 36 hours. | @279491 Oh, no! Has it moved at all since then? A force-shutdown would be the easiest way to stop the update. | @116230 Yup. This happened when I was resetting my computer for the updates. I had set it down last night to finish and it's still stuck at 91% | @279491 Hi, Megan. We just wanted to check in. Are you still experiencing this at the moment? We're here to help if you need us. | Coming up on hour 9 of the @116230 update saga. I have lost all #Hope of ever regaining access. I'll have to wait until taxes for a new one https://t.co/uw3D1pLmoo",
+        "score": 0.526225,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 6,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0086",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "c3c51fc7dcee9be6604c79f5b67f78c000f3c94ea21409149dfec78c35919af2",
+  "prediction": {
+    "golden_id": "GOLDEN-0086",
+    "predicted_intent": "Warranty / Repair",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "No evidence reached the confidence threshold for a safe autonomous reply (minimum 0.60); human review is required.",
+    "predicted_reply": "Hello! I apologize, but I do not have enough information in my current resources to confirm warranty coverage details for your controller. Please contact Microsoft support directly so we can ensure your device is properly covered and prevent any future issues.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "900282",
+        "source_tweet_id": null,
+        "text": "My controller doesn’t work after I updated it @MicrosoftHelps",
+        "score": 0.570271,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2751561",
+        "source_tweet_id": null,
+        "text": "@115890 I need your help please! pre-ordered a surface laptop in May. There was no warranty options offered at the time in Canada, and i just noticed the new Microsoft Complete Service Plan. Your rep hung up on me when I called to purchase it and explain my situation.",
+        "score": 0.552389,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2469680",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps How long after purchase can you extend the warranty of a Surface Pro?",
+        "score": 0.547599,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

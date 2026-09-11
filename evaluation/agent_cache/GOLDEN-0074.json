@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0074",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "1aa6bf77bec690d820c598e12f18622e5fe3a8505699fcda91033e3d3ce29742",
+  "prediction": {
+    "golden_id": "GOLDEN-0074",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "We understand how frustrating failed updates can be. Since the retrieved historical cases show similar issues with the Fall Creators Update, one workaround that has helped other users is downloading the ISO from the official Windows 10 download page and performing the installation using a bootable USB. If this does not resolve your issue, please contact Microsoft support directly for further assistance.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "1088599",
+        "source_tweet_id": null,
+        "text": "finally got the error when trying to install fall creators update: 0x80070490 - 0x20003 apparently i'm not alone on the @123127 :(",
+        "score": 0.713962,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1964206",
+        "source_tweet_id": null,
+        "text": "@116230 I'm having some trouble with your Fall Creators Update, my computers refuse to boot after attempted install, no signal to screen.",
+        "score": 0.649692,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2314972",
+        "source_tweet_id": null,
+        "text": "Why is the fall creator's update failing to install via Windows Update on my Lenovo Legion Core Y520 @671264 @132789 @116230 | @671264 @132789 @116230 There was no error other than Windows Update showing \"Waiting for restart\" but after restart it started downloading update from beginning. | @MicrosoftHelps I actually had to download the iso off the Windows 10 download page and install it using a bootable USB and it worked for me. Thanks.",
+        "score": 0.635063,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 3,
+          "has_resolution_signal": true
+        }
+      }
+    ]
+  }
+}

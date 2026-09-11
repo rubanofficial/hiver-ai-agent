@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0044",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "81505df1221f46808f085b8baf2ee42bc652afa095f8cf1d7f5f0ac921e22db4",
+  "prediction": {
+    "golden_id": "GOLDEN-0044",
+    "predicted_intent": "Microsoft Store",
+    "predicted_intent_confidence": 0.85,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "Hello! I'm sorry to hear you're having trouble downloading on your laptop. Unfortunately, I don't have enough specific information in my current resources to fully resolve this issue. Please contact Microsoft support directly for further assistance.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "908378",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Not my computer but a friend.",
+        "score": 0.742047,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1901646",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps can you guys help me my computer won’t update",
+        "score": 0.700097,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1028820",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps please help I can't download what's app or update it",
+        "score": 0.69601,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0119",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "4d6ca74cfbf2b65f2e2349e8383f25a04f311c0799a8b17687272cc24ef421fa",
+  "prediction": {
+    "golden_id": "GOLDEN-0119",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "I understand that seeing the update progress stay at 100% for a period of time can be frustrating. However, the retrieved historical evidence does not provide specific troubleshooting steps or an explanation for this update behavior. Please contact Microsoft support directly for further assistance with this issue.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "1405210",
+        "source_tweet_id": null,
+        "text": "@115890 @116230 that moment when you see your FCU updater jumping from 99% back to 1%... srsly Fall Creator Update? Why??",
+        "score": 0.608972,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2503211",
+        "source_tweet_id": null,
+        "text": "Trying to update Windows 10. 3 minutes ago it said 65% complete. 2 minutes ago we had 8% complete. 1 minute ago it was at 3% complete. Do Microsoft even understand how percentages work!?",
+        "score": 0.602048,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2151581",
+        "source_tweet_id": null,
+        "text": "@116230 WTF!? Just updated my laptop and got this bloody message thanks for the update. Bloody Hell! https://t.co/OnoZTugoPe",
+        "score": 0.568978,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": true
+        }
+      }
+    ]
+  }
+}

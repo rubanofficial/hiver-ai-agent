@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0127",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "1223eb60f8f6fc3c312b6c20fea788a671369b5bfdf0e267b89592903ef68b26",
+  "prediction": {
+    "golden_id": "GOLDEN-0127",
+    "predicted_intent": "Complaint / Feedback",
+    "predicted_intent_confidence": 0.85,
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+    "predicted_reply": "We apologize for the frustration you've experienced with your recent update and support tickets. As we do not have sufficient information in our current system to resolve this specific issue, please contact Microsoft support directly for further assistance.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "1346131",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps SUCKS, they keep closing my ticket without fixing my issue.",
+        "score": 0.606559,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2343232",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps I have. I emailed them. No response. Hence I am contacting on a social platform where responses are more immediate :) | @152402 I was told my problem will be transferred to higher level tech support because it was ‘unique’ and they didn’t know how to handle it. I’m still waiting for that tech support. No contact. | @553753 Hi. Could you check this link: https://t.co/Yh42FZSQoM if you got everything covered? Let us know how it goes. | @219951 I brought the Office Home/student for mac. Upgraded my laptop recently. Office keeps asking me to ‘purchase’. Tech support is no help at all. Made me re-download office twice, eating all up my data pack, and still not solved. I was promised ‘higher lvl’ support.",
+        "score": 0.599855,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 4,
+          "has_resolution_signal": true
+        }
+      },
+      {
+        "evidence_id": "2353282",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps @631226 I've tweeted you several times can you please address my issue. | @MicrosoftHelps I have been trying to follow up with Microsoft support on a ticket: 1402447076 but not getting any response. Can you please help me on this?.",
+        "score": 0.590434,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

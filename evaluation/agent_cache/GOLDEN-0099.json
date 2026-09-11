@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0099",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "7f37fd96e5ca7b04fe2c1308813c096df0dcdef313118a3740f536f0cb9e9c2f",
+  "prediction": {
+    "golden_id": "GOLDEN-0099",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 0.98,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "We are sorry to hear that you are experiencing issues installing updates. Since we do not have specific troubleshooting steps for error code 0xc1900204 in our current history, please contact Microsoft support directly for further assistance.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "2084734",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Downloaded the Windows 10 update assistant and got this error code 0x80070652 | 11 failed attempts at installing Windows 10, version 1709 @116230 @6580 https://t.co/zThVfNAFXu | @MicrosoftHelps I've ran the troubleshooting three or four times and keeps saying its fixed the following errors each time but still not install the update. https://t.co/FHRhA4oKk5 | @MicrosoftHelps I have started the Media Creation Tool and it says There was a problem running this tool error code 0x80072F76 - 0x20017",
+        "score": 0.710834,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 4,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "320544",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Hi! Checking my history of updates, I see several errors and updates not installed, but there is no progress in the download https://t.co/wJrB8JH5F4 | @MicrosoftHelps Hi! I executed a manual update of the whole system and worked. Thank you anyway!",
+        "score": 0.708014,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": true
+        }
+      },
+      {
+        "evidence_id": "1717002",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps All working fine now thanks. | . @116230 update fail @115890 #Windows10 https://t.co/V3QD204L8f",
+        "score": 0.706048,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

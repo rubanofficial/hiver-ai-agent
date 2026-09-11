@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0016",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "1ab5e1b40ad38dae1b10544d3d09233b92bf8377889be0dae2b1b8de693c6a43",
+  "prediction": {
+    "golden_id": "GOLDEN-0016",
+    "predicted_intent": "Order / Delivery",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "Thanks for reaching out to MicrosoftHelps. We understand waiting for your order can be frustrating. Since the provided evidence does not contain specific processing times for standard orders beyond general delivery timeframes, please contact Microsoft support directly for assistance with your specific order status.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "522024",
+        "source_tweet_id": null,
+        "text": "@115890 @MicrosoftHelps | .@135958 my Xbox One S was supposed to be delivered today but it still hasn’t shipped?",
+        "score": 0.69622,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1704483",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps I did and they just tell me 3-7 business days -.- I thought it was release day shipping :/ | @MicrosoftHelps hey! I preordered the Xbox one x  Scorpio edition from the Microsoft store on August 22nd and haven't gotten tracking info:( | @MicrosoftHelps THAT WAS 6 DAYS AGO WTF. I had to call like 4 different representatives.. so yes it was resolved but not thanks to twitter.",
+        "score": 0.682269,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 3,
+          "has_resolution_signal": true
+        }
+      },
+      {
+        "evidence_id": "1555098",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps hi I got this email yesterday about my Xbox one X pre order, Ive updated the payment method how would I know it’s sorted? 👍🏼 https://t.co/0EREIgNvDh | @MicrosoftHelps Sorted now thanks, Xbox just been delivered",
+        "score": 0.676898,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": true
+        }
+      }
+    ]
+  }
+}

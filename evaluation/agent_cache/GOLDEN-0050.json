@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0050",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "e0b13d712b26e382d634b7aeb5f5001e27b832cc023da44765ca4bf66764a472",
+  "prediction": {
+    "golden_id": "GOLDEN-0050",
+    "predicted_intent": "Account & Login",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "No evidence reached the confidence threshold for a safe autonomous reply (minimum 0.60); human review is required.",
+    "predicted_reply": "Hello, I apologize for the trouble you and your classmates are experiencing with signing into your student email. Since I don't have the specific steps to resolve this looping language and time zone prompt in the available information, I recommend contacting Microsoft support directly for further assistance.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "643178",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps I can’t sign in to my ancient old email and the form is not working. Is there anything else I can do?",
+        "score": 0.595645,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "442745",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps It want let me sign in to my account please help https://t.co/A4unxSMFgn",
+        "score": 0.588917,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1888026",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Hi, I'm using https://t.co/xnyFpKoQpL | Email help please #msn #hotmail #outlook #email https://t.co/6ukiakgL7S | @MicrosoftHelps Hello, these have helped me sign back into my acct. Thank you so much!",
+        "score": 0.587927,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 3,
+          "has_resolution_signal": true
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,354 @@
+[
+  {
+    "golden_id": "GOLDEN-0127",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 1.0,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_reply": "",
+    "retrieved_evidence": []
+  },
+  {
+    "golden_id": "GOLDEN-0069",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 1.0,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_reply": "",
+    "retrieved_evidence": []
+  },
+  {
+    "golden_id": "GOLDEN-0192",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 1.0,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_reply": "",
+    "retrieved_evidence": []
+  },
+  {
+    "golden_id": "GOLDEN-0185",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 1.0,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_reply": "",
+    "retrieved_evidence": []
+  },
+  {
+    "golden_id": "GOLDEN-0184",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 1.0,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_reply": "",
+    "retrieved_evidence": []
+  },
+  {
+    "golden_id": "GOLDEN-0053",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 1.0,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_reply": "",
+    "retrieved_evidence": []
+  },
+  {
+    "golden_id": "GOLDEN-0018",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 1.0,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_reply": "",
+    "retrieved_evidence": []
+  },
+  {
+    "golden_id": "GOLDEN-0052",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 1.0,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_reply": "",
+    "retrieved_evidence": []
+  },
+  {
+    "golden_id": "GOLDEN-0032",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 1.0,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_reply": "",
+    "retrieved_evidence": []
+  },
+  {
+    "golden_id": "GOLDEN-0201",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 1.0,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_reply": "",
+    "retrieved_evidence": []
+  },
+  {
+    "golden_id": "GOLDEN-0090",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 1.0,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_reply": "",
+    "retrieved_evidence": []
+  },
+  {
+    "golden_id": "GOLDEN-0082",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 1.0,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_reply": "",
+    "retrieved_evidence": []
+  },
+  {
+    "golden_id": "GOLDEN-0026",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 1.0,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_reply": "",
+    "retrieved_evidence": []
+  },
+  {
+    "golden_id": "GOLDEN-0163",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 1.0,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_reply": "",
+    "retrieved_evidence": []
+  },
+  {
+    "golden_id": "GOLDEN-0096",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 1.0,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_reply": "",
+    "retrieved_evidence": []
+  },
+  {
+    "golden_id": "GOLDEN-0200",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 1.0,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_reply": "",
+    "retrieved_evidence": []
+  },
+  {
+    "golden_id": "GOLDEN-0020",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 1.0,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_reply": "",
+    "retrieved_evidence": []
+  },
+  {
+    "golden_id": "GOLDEN-0139",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 1.0,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_reply": "",
+    "retrieved_evidence": []
+  },
+  {
+    "golden_id": "GOLDEN-0155",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 1.0,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_reply": "",
+    "retrieved_evidence": []
+  },
+  {
+    "golden_id": "GOLDEN-0074",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 1.0,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_reply": "",
+    "retrieved_evidence": []
+  },
+  {
+    "golden_id": "GOLDEN-0186",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 1.0,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_reply": "",
+    "retrieved_evidence": []
+  },
+  {
+    "golden_id": "GOLDEN-0038",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 1.0,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_reply": "",
+    "retrieved_evidence": []
+  },
+  {
+    "golden_id": "GOLDEN-0003",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 1.0,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_reply": "",
+    "retrieved_evidence": []
+  },
+  {
+    "golden_id": "GOLDEN-0152",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 1.0,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_reply": "",
+    "retrieved_evidence": []
+  },
+  {
+    "golden_id": "GOLDEN-0144",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 1.0,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_reply": "",
+    "retrieved_evidence": []
+  },
+  {
+    "golden_id": "GOLDEN-0059",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 1.0,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_reply": "",
+    "retrieved_evidence": []
+  },
+  {
+    "golden_id": "GOLDEN-0028",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 1.0,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_reply": "",
+    "retrieved_evidence": []
+  },
+  {
+    "golden_id": "GOLDEN-0070",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 1.0,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_reply": "",
+    "retrieved_evidence": []
+  },
+  {
+    "golden_id": "GOLDEN-0195",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 1.0,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_reply": "",
+    "retrieved_evidence": []
+  },
+  {
+    "golden_id": "GOLDEN-0128",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 1.0,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_reply": "",
+    "retrieved_evidence": []
+  },
+  {
+    "golden_id": "GOLDEN-0180",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 1.0,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_reply": "",
+    "retrieved_evidence": []
+  },
+  {
+    "golden_id": "GOLDEN-0014",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 1.0,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_reply": "",
+    "retrieved_evidence": []
+  },
+  {
+    "golden_id": "GOLDEN-0154",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 1.0,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_reply": "",
+    "retrieved_evidence": []
+  },
+  {
+    "golden_id": "GOLDEN-0145",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 1.0,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_reply": "",
+    "retrieved_evidence": []
+  },
+  {
+    "golden_id": "GOLDEN-0207",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 1.0,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_reply": "",
+    "retrieved_evidence": []
+  },
+  {
+    "golden_id": "GOLDEN-0030",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 1.0,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_reply": "",
+    "retrieved_evidence": []
+  },
+  {
+    "golden_id": "GOLDEN-0161",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 1.0,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_reply": "",
+    "retrieved_evidence": []
+  },
+  {
+    "golden_id": "GOLDEN-0137",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 1.0,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_reply": "",
+    "retrieved_evidence": []
+  },
+  {
+    "golden_id": "GOLDEN-0215",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 1.0,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_reply": "",
+    "retrieved_evidence": []
+  },
+  {
+    "golden_id": "GOLDEN-0210",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 1.0,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_reply": "",
+    "retrieved_evidence": []
+  },
+  {
+    "golden_id": "GOLDEN-0114",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 1.0,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_reply": "",
+    "retrieved_evidence": []
+  },
+  {
+    "golden_id": "GOLDEN-0021",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 1.0,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_reply": "",
+    "retrieved_evidence": []
+  },
+  {
+    "golden_id": "GOLDEN-0193",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 1.0,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_reply": "",
+    "retrieved_evidence": []
+  },
+  {
+    "golden_id": "GOLDEN-0010",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 1.0,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_reply": "",
+    "retrieved_evidence": []
+  }
+]

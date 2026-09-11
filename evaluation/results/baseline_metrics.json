@@ -1,0 +1,558 @@
+{
+  "schema_version": "1.0.0",
+  "dataset": "evaluation/golden_set.labeled.json",
+  "total_examples": 216,
+  "split_methodology": {
+    "type": "stratified_train_test_split",
+    "test_size": 0.2,
+    "random_state": 42,
+    "train_count": 172,
+    "test_count": 44
+  },
+  "majority_baseline": {
+    "majority_intent": "Technical Troubleshooting",
+    "majority_escalation": "AUTO_HANDLE",
+    "intent_metrics": {
+      "overall_accuracy": 0.454545,
+      "macro_f1": 0.069444,
+      "macro_precision": 0.050505,
+      "macro_recall": 0.111111,
+      "weighted_f1": 0.284091,
+      "weighted_precision": 0.206612,
+      "weighted_recall": 0.454545,
+      "per_intent": {
+        "Technical Troubleshooting": {
+          "precision": 0.454545,
+          "recall": 1.0,
+          "f1": 0.625,
+          "support": 20
+        },
+        "Product / Feature How-To": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 7
+        },
+        "Account & Login": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 4
+        },
+        "Billing & Payments": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 3
+        },
+        "Order / Delivery": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 1
+        },
+        "Warranty / Repair": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 1
+        },
+        "Network / Connectivity": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 1
+        },
+        "Microsoft Store": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        },
+        "Complaint / Feedback": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 6
+        },
+        "Cancellation / Subscription": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 1
+        }
+      },
+      "confusion_matrix": {
+        "labels": [
+          "Technical Troubleshooting",
+          "Product / Feature How-To",
+          "Account & Login",
+          "Billing & Payments",
+          "Order / Delivery",
+          "Warranty / Repair",
+          "Network / Connectivity",
+          "Microsoft Store",
+          "Complaint / Feedback",
+          "Cancellation / Subscription"
+        ],
+        "matrix": [
+          [
+            20,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            7,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            4,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    "escalation_metrics": {
+      "accuracy": 0.795455,
+      "macro_f1": 0.443038,
+      "positive_class": "ESCALATE_TO_HUMAN",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "per_class": {
+        "AUTO_HANDLE": {
+          "precision": 0.795455,
+          "recall": 1.0,
+          "f1": 0.886076,
+          "support": 35
+        },
+        "ESCALATE_TO_HUMAN": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 9
+        }
+      },
+      "confusion_matrix": {
+        "labels": [
+          "AUTO_HANDLE",
+          "ESCALATE_TO_HUMAN"
+        ],
+        "matrix": [
+          [
+            35,
+            0
+          ],
+          [
+            9,
+            0
+          ]
+        ]
+      }
+    }
+  },
+  "tfidf_logistic_regression_baseline": {
+    "model_description": "TfidfVectorizer(lowercase=True) -> LogisticRegression(max_iter=1000, random_state=42)",
+    "intent_metrics": {
+      "overall_accuracy": 0.454545,
+      "macro_f1": 0.069444,
+      "macro_precision": 0.050505,
+      "macro_recall": 0.111111,
+      "weighted_f1": 0.284091,
+      "weighted_precision": 0.206612,
+      "weighted_recall": 0.454545,
+      "per_intent": {
+        "Technical Troubleshooting": {
+          "precision": 0.454545,
+          "recall": 1.0,
+          "f1": 0.625,
+          "support": 20
+        },
+        "Product / Feature How-To": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 7
+        },
+        "Account & Login": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 4
+        },
+        "Billing & Payments": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 3
+        },
+        "Order / Delivery": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 1
+        },
+        "Warranty / Repair": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 1
+        },
+        "Network / Connectivity": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 1
+        },
+        "Microsoft Store": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        },
+        "Complaint / Feedback": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 6
+        },
+        "Cancellation / Subscription": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 1
+        }
+      },
+      "confusion_matrix": {
+        "labels": [
+          "Technical Troubleshooting",
+          "Product / Feature How-To",
+          "Account & Login",
+          "Billing & Payments",
+          "Order / Delivery",
+          "Warranty / Repair",
+          "Network / Connectivity",
+          "Microsoft Store",
+          "Complaint / Feedback",
+          "Cancellation / Subscription"
+        ],
+        "matrix": [
+          [
+            20,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            7,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            4,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            3,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            6,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      }
+    },
+    "escalation_metrics": {
+      "accuracy": 0.795455,
+      "macro_f1": 0.443038,
+      "positive_class": "ESCALATE_TO_HUMAN",
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "per_class": {
+        "AUTO_HANDLE": {
+          "precision": 0.795455,
+          "recall": 1.0,
+          "f1": 0.886076,
+          "support": 35
+        },
+        "ESCALATE_TO_HUMAN": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 9
+        }
+      },
+      "confusion_matrix": {
+        "labels": [
+          "AUTO_HANDLE",
+          "ESCALATE_TO_HUMAN"
+        ],
+        "matrix": [
+          [
+            35,
+            0
+          ],
+          [
+            9,
+            0
+          ]
+        ]
+      }
+    }
+  },
+  "comparison_table": {
+    "headers": [
+      "Baseline / System",
+      "Evaluation Scope",
+      "Intent Accuracy",
+      "Intent Macro F1",
+      "Intent Weighted F1",
+      "Escalation Accuracy",
+      "Escalation F1"
+    ],
+    "rows": [
+      [
+        "Majority baseline",
+        "Test Set (N=44)",
+        0.454545,
+        0.069444,
+        0.284091,
+        0.795455,
+        0.0
+      ],
+      [
+        "TF-IDF + Logistic Regression",
+        "Test Set (N=44)",
+        0.454545,
+        0.069444,
+        0.284091,
+        0.795455,
+        0.0
+      ],
+      [
+        "Gemini AI Agent (Held-out Test)",
+        "Test Set (N=44)",
+        0.363636,
+        0.213639,
+        0.360507,
+        0.590909,
+        0.25
+      ],
+      [
+        "Gemini AI Agent (Full Evaluation Set)",
+        "Full Set (N=215)",
+        0.413953,
+        0.313168,
+        0.404368,
+        0.604651,
+        0.297521
+      ]
+    ]
+  }
+}

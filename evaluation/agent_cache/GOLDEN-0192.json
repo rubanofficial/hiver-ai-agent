@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0192",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "47ff194893bad33b0c7fef534ce5388b784959d9a53694fe9968012c46d37195",
+  "prediction": {
+    "golden_id": "GOLDEN-0192",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "Hello, we are sorry to hear that your laptop is not opening after the Windows 10 update. Based on the available information, we cannot fully resolve this startup issue here. Please contact Microsoft support directly for further assistance.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "1794589",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps done the windows 10 update now cant get on as gettin blue screen how do i fix help plz",
+        "score": 0.690262,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2698849",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Windows 10 is not responding after the update and mouse is loading all the time so I am unable to click on anything. #saveme | Dear @115890 / @MicrosoftHelps \nThats what happened to my laptop after your latest update #microsoftupdate .what should I do now? https://t.co/IMc9TcCrti https://t.co/XJX7iH5hcu | @MicrosoftHelps I would have done this if I was able to do it | @MicrosoftHelps Thank you @MicrosoftHelps ,I lost my important files but now windows is working.\nThank you for your time",
+        "score": 0.680336,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 4,
+          "has_resolution_signal": true
+        }
+      },
+      {
+        "evidence_id": "1209921",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps I'm using windows 10,went on the settings and the notification read 'updates unavailabe but Windows will notify me when they're available'. | Hi @MicrosoftHelps, my laptop has a start issue. It loads forever&amp;then restarts. it has been like this for three weeks now.I can't get in :(",
+        "score": 0.669502,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

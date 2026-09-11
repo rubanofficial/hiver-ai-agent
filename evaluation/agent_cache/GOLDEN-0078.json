@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0078",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "e7a8cad1df738bcb93a92fbbe18f2e42df4ac5d405b4f47d883eb67d779ad16b",
+  "prediction": {
+    "golden_id": "GOLDEN-0078",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 0.4,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "Hello! I am here to help. Please let me know what issue you are experiencing with your Microsoft product or service so we can get started.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "1017288",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps I'm in need of assistance I have messaged you",
+        "score": 0.912508,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1416195",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps can you guys help me please",
+        "score": 0.901459,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2224439",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps hello?? Help please.",
+        "score": 0.901233,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

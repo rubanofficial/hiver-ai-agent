@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0133",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "f8915e2086507b880f8388a97d5f84fb9ee2308d32ffb305da722cfabfe0e900",
+  "prediction": {
+    "golden_id": "GOLDEN-0133",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "We are sorry to hear you are having trouble accessing your pins after the update. Since the provided information is insufficient to fully resolve this issue, please contact Microsoft support directly for further assistance.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "1609622",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps @115890 b4 feature update i was using pin to login in to pc. But after update it shows. Not supported. 2/2 https://t.co/p3GoG9toTk | @MicrosoftHelps ThankYou for addressing. But i just resolved the problem. 👍",
+        "score": 0.670591,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": true
+        }
+      },
+      {
+        "evidence_id": "1857956",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Screw it. Nothing is working. Rolling it back to previous version in hopes that works. | @MicrosoftHelps But they are in Store, after I opened it with Search. But \"Pin to Start\" is greyed out. https://t.co/A0FRC6yqOf",
+        "score": 0.621767,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2163734",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Oh yes i have tried everything that XBOX support told me to do and its still not fixed",
+        "score": 0.610219,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": true
+        }
+      }
+    ]
+  }
+}

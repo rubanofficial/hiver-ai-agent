@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0063",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "74567a27ee689db7cf1c8c939069273e6beedba73bf47259f5207ea533d4faf4",
+  "prediction": {
+    "golden_id": "GOLDEN-0063",
+    "predicted_intent": "Complaint / Feedback",
+    "predicted_intent_confidence": 0.85,
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+    "predicted_reply": "We are thrilled to hear that you love your new Surface Pro! If you ever need any assistance or have questions in the future, please feel free to reach out to Microsoft support.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "658749",
+        "source_tweet_id": null,
+        "text": "@123127 Soooo disappointed I was gifted with 2 surface pros and neither work. I’m stuck with 2 machines that my husband bought me bcuz I REALLY WANTED IT! 😡😩 | Location scout Leann doesn’t have an office. Good thing the new Surface Pro is thin &amp; light. https://t.co/6SPmTPiakU https://t.co/EhRiQYRXDa",
+        "score": 0.73398,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1084792",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Oh, it's all good now. The screen was frozen and had some terrible lag. | And guess who's Surface Pro isn't working thanks to a certain Fall Creator Update? This guy's 😑 can't even use the thing now.",
+        "score": 0.676301,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": true
+        }
+      },
+      {
+        "evidence_id": "409615",
+        "source_tweet_id": null,
+        "text": "@102684 .Spent the whole day trying to reach ur support for a surface PRO 2017 replacement due to broken screen...Is that normal to struggle that much for a premium brand as MS???",
+        "score": 0.671351,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

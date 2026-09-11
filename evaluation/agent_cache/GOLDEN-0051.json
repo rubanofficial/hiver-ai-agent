@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0051",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "ba2e65527a585be12d33eacec4cb2dbd38e638d6b97e4b4917c779d647f1f5d5",
+  "prediction": {
+    "golden_id": "GOLDEN-0051",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 0.85,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "Hello, thank you for reaching out to MicrosoftHelps. The provided historical evidence does not contain information regarding a security issue where an administrator login bypasses the password prompt via 'Run as an administrator'. Since the evidence is insufficient to safely answer your question, we recommend contacting Microsoft support directly for further assistance with this security concern.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "2064949",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Its not a page, Its on the login screen. It just started after the windows 10 1709 update last night. I just want this issue resolved :( | @MicrosoftHelps Is it a known issue with fall update to win10 to cause to ask password twice?",
+        "score": 0.615071,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1620353",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps It was a local account. Brand new computer. The computer had been on sleep mode. I had to reset Windows. | @MicrosoftHelps I can't log into Win10. I've only had this computer for 2 days. Nothing is on it. What is happening?? | @MicrosoftHelps No errors. But I know I wasn't typing in my password incorrectly. | @MicrosoftHelps So, an hour+ later I'm back in. But, the fix sucks. You all should AT LEAST prompt users to create a password recovery disk upon 1st login. | @MicrosoftHelps It's not helpful to show that as an option after the fact.",
+        "score": 0.592037,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 5,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "644514",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps I have to enter Windows login password twice after restarting or shutting down a machine running on Windows10 Fall Creators Update. After entering the login password, they subsequently get redirected back to the Welcome screen prompting to enter the password again | @MicrosoftHelps Sure",
+        "score": 0.58643,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

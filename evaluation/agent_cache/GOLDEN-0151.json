@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0151",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "722e52264f598372739354d7dadd9c64606dc6fc121d1f755c5225a71e7f3ee0",
+  "prediction": {
+    "golden_id": "GOLDEN-0151",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "We are sorry to hear that you are experiencing issues opening apps on your Lumia 950 after the update. Since resetting the app does not resolve the issue, and the provided evidence is insufficient to fully troubleshoot this specific problem, please contact Microsoft support directly for further assistance.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "54813",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps None at all. Successfully ran the update and been having problems opening almost all apps since | What’s going on with the new update @116230 @MicrosoftHelps I’m unable to do/open anything! https://t.co/FFCyqKLRAp",
+        "score": 0.748535,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "236991",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Hi! Everything is working fine now. Maybe it was just a server problem. Thanks for your support! | @MicrosoftHelps @172447 I can't show or provide any Feedback. Reinstalling or resetting the app does not resolve the issue. Is there any solution for the problem? | @MicrosoftHelps @172447  Problem with Feedback Hub on my Lumia 950. App is always trying to load content, but nothing is displayed.",
+        "score": 0.673252,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 3,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2201409",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Can't seem to download any apps from @115890 app store on my @86616 T100H @116230. Shows \"Working.. .  .   .   .\" 💻",
+        "score": 0.667617,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

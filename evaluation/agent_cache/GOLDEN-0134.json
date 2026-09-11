@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0134",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "f6a2cbf614e4cc2c8d99bc4474e26716a9b133d3878a01581226dcf32e593d39",
+  "prediction": {
+    "golden_id": "GOLDEN-0134",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "Hello, I apologize for the frustration you are experiencing with the update process. Based on the provided information, I am unable to fully resolve your specific error code issue at this time. Please contact Microsoft support directly for further assistance.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "2742560",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Have tried all the information in the article and it didn't fix it. I looks like it only happens on AMD processors | @105173 @MicrosoftHelps #WindowsInsiders  I think there is an issue on build 17090.1000 on AMD based machines. When I try and upgrade it either hangs or doesn't install with error 0Xc1900101. It then goes back to 17025 and tries to download it again - it constantly does this. | @MicrosoftHelps Have already done this.",
+        "score": 0.657104,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 3,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2375109",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps I keep getting prompted that my computer needs to update, but it will not update. It hangs at  \"Preparing your update 0%\" and was stuck there over-night for 8+hours.",
+        "score": 0.654799,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "920354",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps He does not work with me\nI waited 18 hours but the update did not work\nI want the reason and how to solve it | @MicrosoftHelps What is the reason? Fixed figure 64 from yesterday\nIs there a simple and fast solution? https://t.co/xmiFqsAkiW | @MicrosoftHelps Ok.go direct",
+        "score": 0.651851,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 3,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0140",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "196d624e107083106b735ceee7ed3b4dd0efb7d6cd1997068846fc180b0e238c",
+  "prediction": {
+    "golden_id": "GOLDEN-0140",
+    "predicted_intent": "Account & Login",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "We are sorry you are having trouble with the authenticator and missing verification notifications and contacts. The available information does not contain specific troubleshooting steps for this issue. Please contact Microsoft support directly for further assistance.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "547008",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Request for Microsoft call back won't accept my phone number. | @MicrosoftHelps Can't reach any website, including Microsoft and ATT support. | @MicrosoftHelps Lumia 950 activated yesterday. The outlook inbox is empty. Can't locate or access Gmail account. | @MicrosoftHelps Help! I need to talk with a human! It shouldn't be this hard!",
+        "score": 0.67445,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 4,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "864110",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Eventually received email with codes. All sorted. Thanks anyway! | @MicrosoftHelps Trying to login but forgotten password &amp; am not receiving the emails with verification code. Please help. | @MicrosoftHelps @325216 Lol. Improve your service?",
+        "score": 0.668568,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 3,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2062987",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Finally worked after several minutes",
+        "score": 0.651147,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

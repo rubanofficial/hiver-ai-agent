@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0080",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "766333c4e2c6653be52a1048ccf8466ecda14c72ba50e73d209f6544d5727dc1",
+  "prediction": {
+    "golden_id": "GOLDEN-0080",
+    "predicted_intent": "Product / Feature How-To",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Generated reply could not be grounded in historical evidence; human review is required.",
+    "predicted_reply": "I apologize, but I do not have sufficient information in my current resources to confirm the domain controller requirements for installing Exchange Server 2016. Please contact Microsoft support directly for further assistance.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "2248690",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Got an answer from an IRC channel already: yes, it's required. | @MicrosoftHelps do I need Desktop Experience on Server 2016 to install a WDS server?",
+        "score": 0.598829,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2277739",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Unable to direct message? Says 'Internal server error.'? | @MicrosoftHelps Hi, trying to auto configure a 365 email on Outlook 2016 but get get the error, An encrypted connection to your mail server is not avalilable. Click next to attempt using an unencrypted connection.  DNS is fine??",
+        "score": 0.486745,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "218823",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Its fine. I want to keep office 2016 anyway. Does the phone version of 365 have VBA or is that just for PC? | @MicrosoftHelps any chance that the so called help desk can answer this? | @MicrosoftHelps i dont want to call anyone. Just need to know if possible to have both on same laptop and same microsoft account. | @MicrosoftHelps hi, i have standalone professional plus 2016 on my laptop as a work package but want to install office 365 personal also. | @MicrosoftHelps ffs. is this an account that is meant to give support or not?",
+        "score": 0.484717,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 5,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

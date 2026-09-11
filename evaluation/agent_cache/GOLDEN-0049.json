@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0049",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "b2ba6a70df081ced3272ae37ef2182594b325bf7925e47932bb928cba8d84ab1",
+  "prediction": {
+    "golden_id": "GOLDEN-0049",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 0.85,
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "No evidence reached the confidence threshold for a safe autonomous reply (minimum 0.60); human review is required.",
+    "predicted_reply": "We apologize, but we do not have specific troubleshooting steps in our current records for a keyboard and mouse not connecting during the initial PC setup screen. Please contact Microsoft support directly for further assistance with this setup issue.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "621123",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Yup still the same issue. Tried configuring through BIOS but didnt work HALP! | @116230 Nope some of my keys aren't still working. I literally formatted the PC so that I can start over. | @267410 Hi, Ashani. Have you been able to get your keyboard working again after the update? We're here to help if you need us. | I honestly hate this new @116230 update...i struggle to get my keyboard working gaaaaaaaaaaah!",
+        "score": 0.593619,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 4,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1174472",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps You're way too late, and you missed my lower tweets explaining more. I already refreshed Windows. What happened? How do I fix it in future? | @MicrosoftHelps They work fine in recovery mode, but not in safe mode. I can use Chrome Remote Desktop to interface in the meantime. | @MicrosoftHelps My Windows 10 PC is not recognizing any USB mice or keyboards, but is supplying power - they light up. Please help?",
+        "score": 0.591465,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 3,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "911408",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Everything works now, thanks for following up | After the Fall Creators update my Microsoft Sculpt keyboard and mouse aren't recognized. @MicrosoftHelps is this a known issue?",
+        "score": 0.564558,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

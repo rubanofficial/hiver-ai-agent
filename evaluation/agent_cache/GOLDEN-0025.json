@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0025",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "3966354f4a574117166205472e0f564a76f7aa8dd63211e5e411d17957845e04",
+  "prediction": {
+    "golden_id": "GOLDEN-0025",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "We are sorry to hear you are having trouble connecting to your FTP server after the update. As we do not have specific troubleshooting steps or details regarding a security change for this in our current records, please contact Microsoft support directly for further assistance.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "524621",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps with the latest windows update I can’t event connect to the internet wtf?",
+        "score": 0.63093,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2451946",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps something always goes wrong with the security update pls do something i am tired https://t.co/4mZYzSl3gH",
+        "score": 0.62106,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "351268",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Guys, two hours updating so far, this is killing me. Need access to my machine. Any way of bypassing this?",
+        "score": 0.602862,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

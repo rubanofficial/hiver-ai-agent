@@ -3,15 +3,15 @@
   "generator": "evaluation/run_agent.py",
   "golden_id": "GOLDEN-0001",
   "status": "ok",
-  "model": "gemini-2.5-flash",
-  "input_fingerprint": "f191493e71d8bb0920ac8e51be56eabe3ef58a113493609c49e5e743bdc7b24a",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "7e78bddbcfa0294c77db1b5002ea92aa7e1792897887a22b8c6a0dc16a173f07",
   "prediction": {
     "golden_id": "GOLDEN-0001",
     "predicted_intent": "Order / Delivery",
-    "predicted_intent_confidence": 1.0,
+    "predicted_intent_confidence": 0.95,
     "predicted_escalation": "AUTO_HANDLE",
     "predicted_escalation_reason": null,
-    "predicted_reply": "For changes to an existing Microsoft Store order, such as updating a shipping address, we recommend contacting Microsoft Support directly. They can assist you with your request.",
+    "predicted_reply": "Hello! The available historical evidence is insufficient to confirm whether shipping addresses can be updated on existing Microsoft Store orders. Please contact Microsoft support directly for assistance with your order.",
     "retrieved_evidence": [
       {
         "evidence_id": "54888",

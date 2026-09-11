@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0131",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "7b688962098334d13d4c30db718c1a46990b15e79a65af437dbbac806ecb62cf",
+  "prediction": {
+    "golden_id": "GOLDEN-0131",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 0.65,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "I apologize, but I am unable to fully resolve this issue based on the available information. Since the retrieved historical evidence does not contain troubleshooting steps for re-activation after a format, please contact Microsoft support directly for further assistance.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "2732542",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps What do I do about this ? https://t.co/xTUAqGAOfi | @MicrosoftHelps I have a problem",
+        "score": 0.757904,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1657137",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Thank you for your prompt reply sir. So far no trouble shooting steps taken. No changes were made sir. | @116230 experiencing this for a month. Kindly help.. https://t.co/1ieTkD1chR",
+        "score": 0.748951,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1150656",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps what do i need to do to fix?",
+        "score": 0.747146,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

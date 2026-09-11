@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0158",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "1830ec199e9b922cffdd54e5255a5c79ef335689f73e6cb3506b679f552604a7",
+  "prediction": {
+    "golden_id": "GOLDEN-0158",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Generated reply could not be grounded in historical evidence; human review is required.",
+    "predicted_reply": "I understand your concern about background downloads while using the Windows Update Assistant. Based on our available information, we cannot fully resolve or explain this behavior here. Please contact Microsoft support directly for further assistance.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "2361042",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Ok so now it says because I'm on a metered connection I'll have to download the update. Its a 2.39 GB update | @MicrosoftHelps I did that and it's still trying to install it. Its the windows 10 version 1709 | @116230 The fall creators update slowed down my laptop to a crawl, videos that I play on it while I have an HDMI cord connected to my tv I cannot close the lid because I will have no video just audio. I reverted back to previous update. Can I stop auto updates? | @MicrosoftHelps No I'm not. Its just saying if I want that update I need to manually download it. I'm just going to not download it. That update has way too many flaws and glitches in it. I will continue to update Windows defender though. Thanks for checking up on me though, I appreciate it | @MicrosoftHelps Ok thanks. I just did the survey for you | @681787 We wanted to check in. Could you share with us a few more details about this? Perhaps we can help. | @116230 your latest update the fall creators update I think they call it, screwed up my laptop. It slowed it down to a stall. Now I have to reset my laptop. Thanks guys",
+        "score": 0.671129,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 7,
+          "has_resolution_signal": true
+        }
+      },
+      {
+        "evidence_id": "2060701",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps I've managed to get around it by using the Windows 10 Update Assistant instead of the Windows Update service for that device. Tnx for reply | @116230 Did the 1709 update get pulled. My download was @ 20% but then error out and I cant see it anymore. https://t.co/rKHVxQsn1r",
+        "score": 0.669621,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "843794",
+        "source_tweet_id": null,
+        "text": "New windows 10 update taking forever to  do... 😩",
+        "score": 0.665103,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

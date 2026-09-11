@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0089",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "6f35f5513dade2d86449fdc0b9f7fd32c54c9e72ab06f7daba4f64e9f0f83af6",
+  "prediction": {
+    "golden_id": "GOLDEN-0089",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 0.85,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "We're sorry to hear you're experiencing issues with your Windows 10 start menu and game store updates. Can you please tell us more about what's going on so we can help sort this out?",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "2365605",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Windows 10. There have been no changes to my device recently. After the update multiple of my games won’t run. Some would run but would have to be changed to windowed mode. Will not run in full screen. | @116230 Games would launch, but then not load. Stuck in purgatory pretty much. Task manager can’t be pulled up. Started happen after the last big update. | @185598 Hi, Kevin. Can you tell us more about what you're experiencing? We're happy to help. | Dear @116230 your last update screwed up so many computers. FIX YOURSELF.",
+        "score": 0.696864,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 4,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1550951",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps I need help regarding window 10 and my start menu not working as their is ‘a critical error’ something to do with bios too",
+        "score": 0.676001,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1637474",
+        "source_tweet_id": null,
+        "text": "@116230 Apps disappear from the start menu and the windows store is mad. | @500791 Can you please tell us more about what's going on? We're here to help. | @116230 the new creators update has lots of faults! | @500791 Hi, Morley! What makes you say that? We'd love to help sort this out. | I don't like windows 10 anymore | @MicrosoftHelps i already looked up a fix on youtube, im good now.",
+        "score": 0.673608,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 6,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

@@ -1,7 +1,12 @@
 {
   "schema_version": "1.0.0",
   "generator": "evaluation/run_agent.py",
-  "generated_at": "2026-09-11T06:41:51+00:00",
-  "count": 0,
-  "failures": []
+  "generated_at": "2026-09-11T13:26:03+00:00",
+  "count": 1,
+  "failures": [
+    {
+      "golden_id": "GOLDEN-0157",
+      "error": "InvalidIntentResponseError: Gemini returned intent 'MicrosoftStore', which is not in the configured taxonomy."
+    }
+  ]
 }

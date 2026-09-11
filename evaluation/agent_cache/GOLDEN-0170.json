@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0170",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "b26d4dfa21dcce8091cb5d70bbbd4f172aa6efba78b66289b969becc855f6cc7",
+  "prediction": {
+    "golden_id": "GOLDEN-0170",
+    "predicted_intent": "Network / Connectivity",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "Hello! We see you are experiencing random Wi-Fi disconnections on Windows 10. Unfortunately, our current historical information does not contain specific troubleshooting steps for this issue. We recommend contacting Microsoft support directly for further assistance.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "2060637",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps hello, can u give me sollution.my windows 10 have a trouble in wifi connection sometimes it disconnect, thanks",
+        "score": 0.702769,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": true
+        }
+      },
+      {
+        "evidence_id": "251682",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Sleep Mode Disconnects Wireless Connections in Windows 10, how can this issue be resolved.",
+        "score": 0.680963,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": true
+        }
+      },
+      {
+        "evidence_id": "2031395",
+        "source_tweet_id": null,
+        "text": "Why does #Windows10 always gotta screw up in a new way every single time, why do you disconnect then reconnect WiFi every couple of minutes? https://t.co/NAAmK1llTC",
+        "score": 0.640334,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

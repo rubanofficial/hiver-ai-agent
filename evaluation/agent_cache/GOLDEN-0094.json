@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0094",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "64e8d3c9edf3235f304afdc310e10a985638396414ab16eb5f121810302327b3",
+  "prediction": {
+    "golden_id": "GOLDEN-0094",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 0.65,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "Hello! The historical evidence provided is insufficient to determine what you are experiencing. Please contact Microsoft support directly so we can better assist you with your specific issue.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "811807",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps what is this? https://t.co/R5H3Vjh2o8",
+        "score": 0.804305,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "123903",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps I don’t think I understand what’s going on here? https://t.co/o5utBKiBYl",
+        "score": 0.760073,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "630624",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Yes | What should i do??? @MicrosoftHelps https://t.co/7suJn868I0",
+        "score": 0.73876,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

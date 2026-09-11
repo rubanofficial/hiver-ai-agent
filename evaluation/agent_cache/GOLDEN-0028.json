@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0028",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "a3951d79dfc48f7d1e1e827faba7dccad6d1b3a32338904fe085b4f69025430c",
+  "prediction": {
+    "golden_id": "GOLDEN-0028",
+    "predicted_intent": "Product / Feature How-To",
+    "predicted_intent_confidence": 0.9,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "Hello! Based on the information available, we do not have the specific steps to change network adapter priorities in Windows 10 in our current resources. Please contact Microsoft support directly for further assistance.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "986267",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps I am happy to, is it possible to this via DM so I can explain fully the issue? | @MicrosoftHelps @122425 If there appears to be a driver issue in Windows 10, should this be reported to you guys? Intel I219-M ethernet card.",
+        "score": 0.640269,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1963312",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Thx, will try these later and let u know how it goes. (btw had many different devices over the yrs and never seen this until now on new HP) | @MicrosoftHelps Ran the Troubleshooter, screenshot attached. Cmd prompt sequence allowed me to change networks but not a permanent fix. ie still no internet https://t.co/0qGrA9hBfE | @116230 Yes, it works ,except when I move to another router/network, it connects but blocks traffic.Solution is reboot adapter via control panel | @MicrosoftHelps Finally installed latest driver from Intel on (new machine!) and problem fixed, it now changes networks with no issues.\n\nThx for your help. | @MicrosoftHelps Ta, much appreciated. | @582124 Hello, there! Are you still having these issues with the adapter? We're here to help. | New laptop HP Win 10, and can only change wifi networks after manually rebooting adapter. Can't find why. Annoying.\n\nUgh! 'Puters!",
+        "score": 0.639131,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 7,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "978977",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Hi, my Windows 10 PC says can't connect to network. My other laptops can so. But this laptop only connects to mobile hotspot",
+        "score": 0.595387,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

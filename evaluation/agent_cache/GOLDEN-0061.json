@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0061",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "6c2427c3c91c200456b7d385856b280f44de51baf0af7a1e17915c02e5301274",
+  "prediction": {
+    "golden_id": "GOLDEN-0061",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Generated reply could not be grounded in historical evidence; human review is required.",
+    "predicted_reply": "Hello! We apologize for the trouble you are experiencing with your storage space and updates. Based on the provided evidence, we recommend contacting Microsoft support directly so we can better assist you with this issue.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "1380117",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Hello again. The only thing I downloaded was the creators update when it came out early this year. That’s all I downloaded | @MicrosoftHelps I did click on the button multiple times and it would say download 100% but then it would crash and say the warning as in the picture I sent | @MicrosoftHelps Ok cool. I’ll review the steps now and tell you what happens | @MicrosoftHelps I followed the steps and I still can’t seem to update still | @MicrosoftHelps Hello again. Thanks for offering to help. This is what my PC kept saying as I tried to update to fall creators update https://t.co/qH2CDXxM1I | @MicrosoftHelps Yes I am not home right now but I will send screen shots for sure later tonight. Thank you for going to help me. | @116230 I have 1,800GB left on my PC &amp; I have great internet connection",
+        "score": 0.649956,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 7,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "153390",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps My internet speed is fine, this update has taken 2 hours. I can download and install large game files much quicker than that. | @MicrosoftHelps why do these windows updates always take so long? Basically stops me being able to do anything.",
+        "score": 0.648999,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "826860",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps It says I’m low on storage but those are the only files on the drive | @MicrosoftHelps nope | @MicrosoftHelps 10 | @MicrosoftHelps uhhhhh just recently my dude | @MicrosoftHelps I’ve tried moving files around and nothing’s helped | @MicrosoftHelps it free'd up a couple MB's of data.... | @MicrosoftHelps  https://t.co/KtQ5qmIpKq | @MicrosoftHelps i am nno longer getting that notice, but I shouldnt have that much space taken up if there is nothing there | @MicrosoftHelps Okay that’s the c drive | @MicrosoftHelps So why the hell do I have no space | @116230 yah cause that makes sense https://t.co/WTPu2q9Qlm",
+        "score": 0.648316,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 11,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}
