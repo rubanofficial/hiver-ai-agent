@@ -16,7 +16,7 @@ from src.golden_set import (
     DEFAULT_OUTPUT_DIR,
     DEFAULT_SEED,
     DEFAULT_TARGET_SIZE,
-    MIN_CURRENT_TURN_LEN,
+    MIN_PROBLEM_TURN_LEN,
     build_golden_set,
     build_labeling_guide_text,
     format_golden_record,
@@ -116,6 +116,47 @@ def _cbcb_conv(conv_id):
     )
 
 
+def _problem_detail_conv(conv_id):
+    """C(problem) -> B -> C(detail) -> B -> C(resolution/thanks).
+
+    The customer's final turn is a pure thank-you; the best problem-bearing
+    turn is the middle one that reports what was tried and the error.
+    """
+    return _conv(
+        conv_id,
+        tweets=[
+            _tweet(conv_id * 10 + 1, "customer", True,
+                   "My Surface screen is flickering after the update."),
+            _tweet(
+                conv_id * 10 + 2, "MicrosoftHelps", False,
+                "Please update your display drivers.",
+                in_response_to_tweet_id=str(conv_id * 10 + 1),
+            ),
+            _tweet(
+                conv_id * 10 + 3, "customer", True,
+                "I updated them but it still flickers, error 0x80070005.",
+                in_response_to_tweet_id=str(conv_id * 10 + 2),
+            ),
+            _tweet(
+                conv_id * 10 + 4, "MicrosoftHelps", False,
+                "Please review the event viewer log.",
+                in_response_to_tweet_id=str(conv_id * 10 + 3),
+            ),
+            _tweet(
+                conv_id * 10 + 5, "customer", True,
+                "That worked, thanks a lot!",
+                in_response_to_tweet_id=str(conv_id * 10 + 4),
+            ),
+        ],
+        customer_messages=[
+            "My Surface screen is flickering after the update.",
+            "I updated them but it still flickers, error 0x80070005.",
+            "That worked, thanks a lot!",
+        ],
+        has_resolution_signal=True,
+    )
+
+
 def _no_brand_conv(conv_id):
     """Customer message but zero MicrosoftHelps replies - not sampleable."""
     return _conv(
@@ -167,9 +208,24 @@ class TestSampling:
     def test_ineligible_conversations_are_excluded(self, mixed_pool):
         sampled = sample_evidence(mixed_pool, target_size=100, seed=1)
         conv_ids = {int(s["conv_id"]) for s in sampled}
-        # conv 4 has no brand response; conv 5 has a too-short final message.
+        # conv 4 has no brand response; conv 5 has no problem-bearing turn.
         assert 4 not in conv_ids
         assert 5 not in conv_ids
+
+    def test_thank_you_only_conversation_is_ineligible(self):
+        rec = _conv(
+            9,
+            tweets=[
+                _tweet(91, "customer", True, "That worked, thanks a lot!"),
+                _tweet(92, "MicrosoftHelps", False, "You're welcome!",
+                       in_response_to_tweet_id="91"),
+            ],
+            customer_messages=["That worked, thanks a lot!"],
+            brand_responses=["You're welcome!"],
+        )
+        # A conversation whose only customer turn is a resolution/thanks
+        # message is a poor evaluation input and must be excluded.
+        assert sample_evidence([rec], target_size=200, seed=1) == []
 
     def test_deterministic_given_seed(self, mixed_pool):
         a = sample_evidence(mixed_pool, target_size=4, seed=42)
@@ -187,7 +243,7 @@ class TestSampling:
     def test_target_larger_than_pool_returns_all(self, mixed_pool):
         sampled = sample_evidence(mixed_pool, target_size=200, seed=1)
         # 6 of the 8 convs are eligible (excludes 4: no brand reply,
-        # and 5: too-short final customer message).
+        # and 5: no problem-bearing customer turn).
         assert len(sampled) == 6
         conv_ids = {int(s["conv_id"]) for s in sampled}
         assert conv_ids == {1, 2, 3, 6, 7, 8}
@@ -221,24 +277,39 @@ class TestSampling:
 # ---------------------------------------------------------------------------
 
 class TestRecordFormatting:
-    def test_current_turn_is_last_customer_message(self):
+    def test_current_turn_is_a_problem_bearing_turn(self):
+        rec = _problem_detail_conv(1)
+        record = format_golden_record(sample_evidence([rec])[0], golden_index=1)
+        detail = "I updated them but it still flickers, error 0x80070005."
+        assert record["customer_message"] == detail
+        # The final thank-you / resolution turn must NOT be selected.
+        assert record["customer_message"] != "That worked, thanks a lot!"
+
+    def test_resolution_thanks_turn_is_not_selected(self):
         rec = _cbcb_conv(1)
         record = format_golden_record(sample_evidence([rec])[0], golden_index=1)
-        assert record["customer_message"] == (
-            "That worked, the screen is fine now. Thanks!"
+        # The problem statement is selected, not the closing thanks turn.
+        assert record["customer_message"] == _LONG_MSG
+        assert "That worked, the screen is fine now" not in record["customer_message"]
+        # The skipped resolution turn is still preserved as source traceability.
+        assert any(
+            t.get("inbound") and "That worked" in t["text"]
+            for t in record["source_tweets"]
         )
 
     def test_conversation_context_preserves_previous_turns(self):
-        rec = _cbcb_conv(1)
+        rec = _problem_detail_conv(1)
         record = format_golden_record(sample_evidence([rec])[0], golden_index=1)
         context = record["conversation_context"]
-        assert _LONG_MSG in context
+        # Earlier problem turn and the brand reply are preserved.
+        assert "screen is flickering after the update" in context
         assert "Please update your display drivers." in context
-        # The current customer turn must NOT appear in the context.
-        assert "That worked, the screen is fine now" not in context
+        # The selected (current) turn and the later resolution turn are NOT.
+        assert "error 0x80070005" not in context
+        assert "That worked, thanks" not in context
 
     def test_context_labels_roles(self):
-        rec = _cbcb_conv(1)
+        rec = _problem_detail_conv(1)
         record = format_golden_record(sample_evidence([rec])[0], golden_index=1)
         assert "CUSTOMER (" in record["conversation_context"]
         assert "MICROSOFT (" in record["conversation_context"]
@@ -369,7 +440,9 @@ class TestEvidenceBuilderIntegration:
         assert len(records) == 1
         rec = records[0]
         assert rec["conversation_id"] == 10
-        assert rec["customer_message"] == "Thanks, fixed now! Screen is stable."
+        # The problem statement is selected, NOT the closing thanks turn.
+        assert rec["customer_message"] == _LONG_MSG
+        assert "Thanks, fixed now!" not in rec["customer_message"]
         assert "Please update display drivers." in rec["microsoft_responses"]
 
     def test_dict_records_match_builder_output_schema(self, mixed_pool):
@@ -420,6 +493,26 @@ class TestTaxonomyAndGuide:
         assert "ESCALATE_TO_HUMAN" in guide
         assert "must be assigned by a human" in guide
 
+    def test_escalation_instructions_are_independent_of_runtime_policy(self):
+        guide = build_labeling_guide_text([{"name": "Test Intent", "definition": "x"}])
+        esc_section = guide.split("## Escalation label", 1)[1]
+        # The human decides using two independent judgment questions.
+        assert "would I confidently allow the AI to send" in esc_section
+        assert "would I want a human involved" in esc_section
+        assert "AUTO_HANDLE" in esc_section
+        assert "ESCALATE_TO_HUMAN" in esc_section
+        # The runtime escalation policy (and its intent->escalation rules)
+        # must not leak into the human guidance.
+        for name in (
+            "Complaint / Feedback",
+            "Cancellation / Subscription",
+            "Billing & Payments",
+            "Account & Login",
+        ):
+            assert name not in esc_section
+        # The human is explicitly told not to copy the runtime policy.
+        assert "automated escalation policy" in esc_section
+
     def test_save_labeling_guide(self, tmp_path):
         out = save_labeling_guide("# Guide", output_dir=str(tmp_path))
         assert (out / "labeling_guide.md").exists()
@@ -437,8 +530,8 @@ class TestDefaults:
     def test_default_output_dir_is_evaluation(self):
         assert DEFAULT_OUTPUT_DIR.name == "evaluation"
 
-    def test_min_customer_turn_length_sanity(self):
-        assert MIN_CURRENT_TURN_LEN >= 1
+    def test_min_problem_turn_length_sanity(self):
+        assert MIN_PROBLEM_TURN_LEN >= 1
 
 
 # This module must never import or reference the Gemini SDK.

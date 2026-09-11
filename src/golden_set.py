@@ -13,6 +13,7 @@ in using the labeling guide (evaluation/labeling_guide.md).
 import csv
 import json
 import random
+import re
 from dataclasses import asdict
 from pathlib import Path
 from typing import Any, Dict, List, Optional
@@ -29,8 +30,27 @@ from .evidence import ConversationEvidence
 DEFAULT_TARGET_SIZE = 200
 DEFAULT_SEED = 42
 RICH_RATIO = 0.7            # fraction of the sample drawn from "rich" convs
-MIN_CURRENT_TURN_LEN = 15   # minimum chars in the customer's final message
+MIN_PROBLEM_TURN_LEN = 12   # minimum chars for a problem-bearing customer turn
 REQUIRE_BRAND_RESPONSE = True  # only label conversations Microsoft replied to
+
+# Phrases that signal a resolution / thank-you / acknowledgment closure.
+_RESOLUTION_OR_ACK_RE = re.compile(
+    r"\b(?:thank\s+you|thanks\b|that\s+worked|it\s+worked|works\s+now|"
+    r"fixed\b|sorted\b|resolved\b|solved\b|all\s+set\b|appreciate\b|"
+    r"great\s+help|good\s+help|back\s+up|back\s+online|got\s+it\s+working|"
+    r"problem\s+solved|issue\s+(?:is\s+)?fixed|finally\s+working|"
+    r"that\s+did\s+it|you'?re\s+welcome|no\s+problem\b|of\s+course\b|"
+    r"perfect\b|awesome\b|great\b)",
+    re.IGNORECASE,
+)
+# Signals that the customer's issue is STILL ongoing; these rescue a turn that
+# otherwise looks like a thank-you (e.g. "Thanks, but it still doesn't work").
+_CONTINUATION_RE = re.compile(
+    r"\b(?:but\b|still\b|yet\b|again\b|not\s+(?:working|fixed|resolved)|"
+    r"doesn'?t\b|does\s+not\b|can'?t\b|cannot\b|won'?t\b|error\b|broken\b|"
+    r"failing\b)",
+    re.IGNORECASE,
+)
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_CONFIG_PATH = PROJECT_ROOT / "config" / "intents.yaml"
@@ -88,7 +108,12 @@ def load_intent_taxonomy(config_path: Optional[str] = None) -> List[Dict[str, st
 def _evidence_to_dict(rec: Any) -> Dict[str, Any]:
     """Normalize a ConversationEvidence object or plain dict to a dict."""
     if isinstance(rec, dict):
-        return rec
+        tweets = []
+        for t in rec.get("tweets", []) or []:
+            tweets.append(t if isinstance(t, dict) else asdict(t))
+        intable = dict(rec)
+        intable["tweets"] = tweets
+        return intable
     if isinstance(rec, ConversationEvidence):
         return {
             "conv_id": rec.conv_id,
@@ -130,17 +155,44 @@ def _richness_score(rec: Dict[str, Any]) -> int:
     )
 
 
-def _is_eligible(rec: Dict[str, Any]) -> bool:
-    """A conversation is sampleable when the issue is understandable."""
-    cust_msgs = _customer_texts(rec)
-    if not cust_msgs:
+def _is_problem_bearing(text: str, min_len: int = MIN_PROBLEM_TURN_LEN) -> bool:
+    """True when ``text`` is a meaningful problem-bearing customer turn.
+
+    Resolution / thank-you / acknowledgment messages (e.g. "That worked,
+    thanks!") are NOT problem-bearing: they are poor evaluation inputs.
+    A turn that reports the issue is STILL ongoing is always kept, even if
+    it also contains a politeness phrase.
+    """
+    cleaned = re.sub(r"^\s*@\S+\s*", "", text or "").strip()
+    if len(cleaned) < min_len:
         return False
-    current_turn = cust_msgs[-1]
-    if len(current_turn.strip()) < MIN_CURRENT_TURN_LEN:
-        return False
-    if REQUIRE_BRAND_RESPONSE and not _brand_texts(rec):
+    if _RESOLUTION_OR_ACK_RE.search(cleaned) and not _CONTINUATION_RE.search(cleaned):
         return False
     return True
+
+
+def _problem_turn_tweet(rec: Dict[str, Any]) -> Optional[Dict[str, Any]]:
+    """Return the customer tweet chosen to represent the conversation.
+
+    The LAST problem-bearing customer turn is used (preferring the most
+    complete problem statement) rather than the final resolution/thanks
+    message.  Falls back to ``customer_messages`` when no tweet list exists.
+    """
+    for t in reversed(rec.get("tweets", []) or []):
+        if t.get("inbound") and _is_problem_bearing(str(t.get("text", "") or "")):
+            return t
+    for msg in reversed(_customer_texts(rec)):
+        if _is_problem_bearing(msg):
+            return {"tweet_id": None, "text": msg}
+    return None
+
+
+def _is_eligible(rec: Dict[str, Any]) -> bool:
+    """A conversation is sampleable when it has a problem-bearing customer
+    turn and (optionally) at least one MicrosoftHelps response."""
+    if REQUIRE_BRAND_RESPONSE and not _brand_texts(rec):
+        return False
+    return _problem_turn_tweet(rec) is not None
 
 
 def _is_rich(rec: Dict[str, Any]) -> bool:
@@ -161,8 +213,8 @@ def sample_evidence(
     """Deterministically sample approximately ``target_size`` conversations.
 
     Sampling strategy (all deterministic, no AI involved):
-        1. Keep only eligible conversations (a substantial final customer
-           message and at least one MicrosoftHelps response).
+        1. Keep only eligible conversations (at least one problem-bearing
+           customer turn and at least one MicrosoftHelps response).
         2. Order candidates by conversation richness (most context first),
            using conv_id as a stable tie-breaker.
         3. Split into a "rich" tier (>= 3 turns or >= 2 customer messages)
@@ -214,22 +266,20 @@ def sample_evidence(
 # Record formatting
 # ---------------------------------------------------------------------------
 
-def _turns_before_current(rec: Dict[str, Any]) -> str:
-    """Build a readable transcript of the tweets BEFORE the customer's
-    final message (the current turn).  Other-brand replies are labeled OTHER.
+def _turns_before_tweet(rec: Dict[str, Any], current) -> str:
+    """Build a readable transcript of the tweets BEFORE the selected
+    customer turn (``current``).  Other-brand replies are labeled OTHER.
+    The selected turn itself and anything after it are excluded.
     """
     tweets = rec.get("tweets", [])
-    if not tweets:
+    if not tweets or current is None:
         return ""
     brand = rec.get("metadata", {}).get("brand", BRAND_DEFAULT)
-    customer_tweets = [t for t in tweets if t.get("inbound")]
-    if not customer_tweets:
-        return ""
-    current = customer_tweets[-1]
+    current_id = current.get("tweet_id")
 
     lines: List[str] = []
     for t in tweets:
-        if t is current:
+        if current_id is not None and t.get("tweet_id") == current_id and t.get("inbound"):
             break
         if t.get("inbound"):
             role = "CUSTOMER"
@@ -244,24 +294,23 @@ def _turns_before_current(rec: Dict[str, Any]) -> str:
 def format_golden_record(rec: Dict[str, Any], golden_index: int) -> Dict[str, Any]:
     """Wrap one sampled conversation into a GoldenEval record.
 
+    ``customer_message`` is the selected PROBLEM-BEARING customer turn (not
+    the final resolution/thank-you message), and ``conversation_context``
+    preserves every tweet that precedes it so the turn is understandable.
+
     Label fields (intent_label, escalation_label, notes) are always EMPTY:
     they are ground-truth fields reserved for a human labeler.
     """
-    tweets = rec.get("tweets", [])
-    customer_tweets = [t for t in tweets if t.get("inbound")]
-    current_text = (
-        customer_tweets[-1].get("text", "").strip()
-        if customer_tweets
-        else (_customer_texts(rec)[-1] if _customer_texts(rec) else "")
-    )
+    current = _problem_turn_tweet(rec)
+    current_text = str(current.get("text", "")).strip() if current else ""
 
     return {
         "golden_id": f"GOLDEN-{golden_index:04d}",
         "conversation_id": int(rec["conv_id"]),
         "customer_message": current_text,
-        "conversation_context": _turns_before_current(rec),
+        "conversation_context": _turns_before_tweet(rec, current),
         "microsoft_responses": _brand_texts(rec),
-        "source_tweets": tweets,
+        "source_tweets": rec.get("tweets", []),
         "metadata": rec.get("metadata", {}),
         "intent_label": "",
         "escalation_label": "",
@@ -387,21 +436,34 @@ def build_labeling_guide_text(taxonomy: List[Dict[str, str]]) -> str:
         "",
         "---",
         "",
-        "## Escalation label",
+        "## Escalation label (independent judgment)",
         "",
-        "- `AUTO_HANDLE`: the conversation shows a clear, relevant Microsoft",
-        "  resolution. A reply can be safely grounded in the historical",
-        "  evidence without guessing.",
-        "- `ESCALATE_TO_HUMAN`: use this when the evidence is missing, weak, or",
-        "  unrelated, the Microsoft reply would require unsupported facts, or",
-        "  the issue involves a sensitive/high-risk intent such as:",
-        "  - Complaint / Feedback",
-        "  - Cancellation / Subscription",
-        "  - Billing & Payments",
-        "  - Account & Login (security-sensitive cases)",
+        "This is YOUR decision as a reviewer, not a copy of any automated",
+        "rule. Base it on the evidence in this record alone. Ask yourself",
+        "two questions:",
         "",
-        "Prefer `ESCALATE_TO_HUMAN` whenever you would not confidently send the",
-        "reply to a real customer yourself.",
+        "- `AUTO_HANDLE`: would I confidently allow the AI to send a",
+        "  grounded, accurate response to this customer right now?",
+        "- `ESCALATE_TO_HUMAN`: would I want a human involved because the",
+        "  evidence, the situation, or the risk makes autonomous handling",
+        "  inappropriate?",
+        "",
+        "Choose `ESCALATE_TO_HUMAN` when any of the following holds (none of",
+        "them is a strict rule; use your judgment):",
+        "",
+        "- the conversation context is missing, weak, or unrelated to the",
+        "  customer's issue, so an accurate reply cannot be grounded in it;",
+        "- answering correctly would require facts that are not present in",
+        "  the record;",
+        "- getting the answer wrong could cause real harm (financial, legal,",
+        "  privacy, safety, or security impact); or",
+        "- you personally would not feel comfortable sending the reply",
+        "  to a real customer.",
+        "",
+        "The runtime agent runs its own automated escalation policy. Do NOT",
+        "use it (or any intent list) as your source of truth here: judge each",
+        "record independently. Your escalation label is the ground truth",
+        "that the agent's policy will later be measured against.",
         "",
         "---",
         "",
