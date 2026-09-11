@@ -261,12 +261,11 @@ class TestPredictionValidation:
         assert "no golden_id" in str(exc.value)
 
     def test_missing_required_field_raises(self, populated):
-        taxonomy = E.load_taxonomy(populated["taxonomy"])
-        truth = self._truth(populated)
         bad = dict(prediction("GOLDEN-0001", INTENTS["TT"], AH))
         del bad["predicted_escalation"]
+        pred_path = write_predictions(populated["tmp_path"], [bad])
         with pytest.raises(E.EvaluationError) as exc:
-            E.validate_predictions(truth, [bad], taxonomy)
+            E.load_predictions(pred_path)
         assert "missing required field" in str(exc.value)
 
 
@@ -450,14 +449,14 @@ class TestEndToEnd:
         assert metrics["golden_records_total"] == 3
         assert metrics["examples_evaluated"] == 3
         assert metrics["intent_metrics"]["overall_accuracy"] == 1.0
-        names = [str(p) for p in written]
+        names = {str(p) for p in written}
         expected = {
-            out / "metrics.json", out / "confusion_matrix.csv",
-            out / "per_intent_metrics.csv",
-            out / "escalation_confusion_matrix.csv",
-            out / "evaluation_report.md",
+            str(out / "metrics.json"), str(out / "confusion_matrix.csv"),
+            str(out / "per_intent_metrics.csv"),
+            str(out / "escalation_confusion_matrix.csv"),
+            str(out / "evaluation_report.md"),
         }
-        assert expected <= set(names)
+        assert expected <= names
         report = (out / "evaluation_report.md").read_text(encoding="utf-8")
         assert "Examples evaluated: 3" in report
         assert "1.0000" in report

@@ -410,11 +410,17 @@ def assemble_metrics(
     predictions_path: str,
     golden_total: int,
     labels_path: Optional[str],
+    source_label: Optional[str] = None,
 ) -> Dict[str, Any]:
-    """Assemble the full machine-readable metrics document."""
+    """Assemble the full machine-readable metrics document.
+
+    ``source_label`` is an optional human-readable name (e.g. a baseline name)
+    recorded in the results so every metrics document is clearly identified.
+    """
     return {
         "schema_version": SCHEMA_VERSION,
         "generator": EVALUATOR_NAME,
+        "source_label": source_label or EVALUATOR_NAME,
         "evaluated_at": _now_iso(),
         "golden_set": str(golden_set_path),
         "labels_file": labels_path,
@@ -513,6 +519,8 @@ def build_report(metrics: Dict[str, Any]) -> str:
     lines.append(
         f"- Generated: {metrics['evaluated_at']}"
     )
+    if metrics.get("source_label"):
+        lines.append(f"- Baseline: `{metrics['source_label']}`")
     lines.append(f"- Golden Set: `{metrics['golden_set']}`")
     lines.append(f"- Predictions: `{metrics['predictions_file']}`")
     lines.append(f"- Records with ground truth: {metrics['golden_records_total']}")

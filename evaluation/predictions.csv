@@ -1,0 +1,2 @@
+golden_id,predicted_intent,predicted_intent_confidence,predicted_escalation,predicted_escalation_reason,predicted_reply,evidence_count,evidence_ids
+GOLDEN-0001,Order / Delivery,1.0,AUTO_HANDLE,,"For changes to an existing Microsoft Store order, such as updating a shipping address, we recommend contacting Microsoft Support directly. They can assist you with your request.",3,54888; 1917595; 38521
