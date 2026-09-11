@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "generated_by": "src/golden_set.py (human-label infrastructure)",
   "source": "dataset/twcs.csv",
-  "count": 200,
+  "count": 216,
   "label_fields": [
     "intent_label",
     "escalation_label"
@@ -11255,6 +11255,937 @@
         "brand": "MicrosoftHelps",
         "num_brand_turns": 1,
         "num_customer_turns": 1
+      },
+      "intent_label": "",
+      "escalation_label": "",
+      "notes": ""
+    },
+    {
+      "golden_id": "GOLDEN-0201",
+      "conversation_id": 50486,
+      "customer_message": "@MicrosoftHelps 40 minutes on hold for Surface support, no option for callback. Time to go home, do I hangup &amp; start the wait over tomorrow?",
+      "conversation_context": "MICROSOFT (50477): @127326 If that's the case, then you may contact our Business Support team here: https://t.co/vHbEoDkHkm\nCUSTOMER (50478): @MicrosoftHelps I did, their response was that we don't have coverage, How is it that our purchase of extend support coverage is not linked to device's s/n?\nCUSTOMER (50479): @MicrosoftHelps Yes, this is a business device with extended warranty coverage.\nMICROSOFT (50480): @127326 Got it. We'll get to the bottom of this. Mind sending us the most recent Service Request #? Please meet us in DM. https://t.co/3qcAsLFkaY\nMICROSOFT (50481): @127326 We'd like to know if you have an extended warranty for Surface. If you're using Surface for business, check here: https://t.co/gNa6Yp6bVx\nCUSTOMER (50482): @MicrosoftHelps If the Surface has extended business support, does that change the process or who to contact?\nMICROSOFT (50483): @127326 We suggest that you contact the Answer Desk here: https://t.co/MSgCHnzSRr or our Global Customer Service team here: https://t.co/DXgKnHal4h\nCUSTOMER (50484): @MicrosoftHelps Surface Pro with a crack screened. Was calling to initiate repair process.\nMICROSOFT (50485): @127326 Hello Moses. We're here to help. Can you give us more details of your concern? Can you also tell us which Surface device you are using?",
+      "microsoft_responses": [
+        "@127326 If that's the case, then you may contact our Business Support team here: https://t.co/vHbEoDkHkm",
+        "@127326 Got it. We'll get to the bottom of this. Mind sending us the most recent Service Request #? Please meet us in DM. https://t.co/3qcAsLFkaY",
+        "@127326 We'd like to know if you have an extended warranty for Surface. If you're using Surface for business, check here: https://t.co/gNa6Yp6bVx",
+        "@127326 We suggest that you contact the Answer Desk here: https://t.co/MSgCHnzSRr or our Global Customer Service team here: https://t.co/DXgKnHal4h",
+        "@127326 Hello Moses. We're here to help. Can you give us more details of your concern? Can you also tell us which Surface device you are using?"
+      ],
+      "source_tweets": [
+        {
+          "tweet_id": 50477,
+          "author_id": "MicrosoftHelps",
+          "inbound": false,
+          "text": "@127326 If that's the case, then you may contact our Business Support team here: https://t.co/vHbEoDkHkm",
+          "created_at": "Wed Nov 01 17:35:00 +0000 2017"
+        },
+        {
+          "tweet_id": 50478,
+          "author_id": "127326",
+          "inbound": true,
+          "text": "@MicrosoftHelps I did, their response was that we don't have coverage, How is it that our purchase of extend support coverage is not linked to device's s/n?",
+          "created_at": "Wed Nov 01 23:27:25 +0000 2017"
+        },
+        {
+          "tweet_id": 50479,
+          "author_id": "127326",
+          "inbound": true,
+          "text": "@MicrosoftHelps Yes, this is a business device with extended warranty coverage.",
+          "created_at": "Wed Nov 01 16:23:13 +0000 2017"
+        },
+        {
+          "tweet_id": 50480,
+          "author_id": "MicrosoftHelps",
+          "inbound": false,
+          "text": "@127326 Got it. We'll get to the bottom of this. Mind sending us the most recent Service Request #? Please meet us in DM. https://t.co/3qcAsLFkaY",
+          "created_at": "Thu Nov 02 00:29:56 +0000 2017"
+        },
+        {
+          "tweet_id": 50481,
+          "author_id": "MicrosoftHelps",
+          "inbound": false,
+          "text": "@127326 We'd like to know if you have an extended warranty for Surface. If you're using Surface for business, check here: https://t.co/gNa6Yp6bVx",
+          "created_at": "Wed Nov 01 00:41:00 +0000 2017"
+        },
+        {
+          "tweet_id": 50482,
+          "author_id": "127326",
+          "inbound": true,
+          "text": "@MicrosoftHelps If the Surface has extended business support, does that change the process or who to contact?",
+          "created_at": "Tue Oct 31 23:40:46 +0000 2017"
+        },
+        {
+          "tweet_id": 50483,
+          "author_id": "MicrosoftHelps",
+          "inbound": false,
+          "text": "@127326 We suggest that you contact the Answer Desk here: https://t.co/MSgCHnzSRr or our Global Customer Service team here: https://t.co/DXgKnHal4h",
+          "created_at": "Tue Oct 31 22:58:26 +0000 2017"
+        },
+        {
+          "tweet_id": 50484,
+          "author_id": "127326",
+          "inbound": true,
+          "text": "@MicrosoftHelps Surface Pro with a crack screened. Was calling to initiate repair process.",
+          "created_at": "Tue Oct 31 21:50:59 +0000 2017"
+        },
+        {
+          "tweet_id": 50485,
+          "author_id": "MicrosoftHelps",
+          "inbound": false,
+          "text": "@127326 Hello Moses. We're here to help. Can you give us more details of your concern? Can you also tell us which Surface device you are using?",
+          "created_at": "Tue Oct 31 01:36:28 +0000 2017"
+        },
+        {
+          "tweet_id": 50486,
+          "author_id": "127326",
+          "inbound": true,
+          "text": "@MicrosoftHelps 40 minutes on hold for Surface support, no option for callback. Time to go home, do I hangup &amp; start the wait over tomorrow?",
+          "created_at": "Tue Oct 31 00:43:44 +0000 2017"
+        }
+      ],
+      "metadata": {
+        "brand": "MicrosoftHelps",
+        "num_brand_turns": 5,
+        "num_customer_turns": 5
+      },
+      "intent_label": "",
+      "escalation_label": "",
+      "notes": ""
+    },
+    {
+      "golden_id": "GOLDEN-0202",
+      "conversation_id": 130508,
+      "customer_message": "@MicrosoftHelps Yes I checked for drivers and there were no updates. I messed around with the resolution to see if anything would change but nothing. At this point I might just return it and get a new one seen as I have a 2 year warranty",
+      "conversation_context": "MICROSOFT (130506): @145446 Hi Austin. Let's investigate. Can you tell us which Surface device you are using? Did you recently make changes in the settings of your device like installing new software? What troubleshooting step have you tried so far to resolve the issue?\nCUSTOMER (130507): @MicrosoftHelps I’m using a surface pro 4, I haven’t made any changes to my device in the past week, I factory reset it and the purple colour has gone away but now everything looks very pixilated, see photo https://t.co/uePoN8xep3\nCUSTOMER (130508): @MicrosoftHelps I restarted my Surface, and now the screen has gone weird, and changes colour every time I restart it? (My background is a solid black colour, the purple colour is the issue) https://t.co/KWWFqXGZ1j\nMICROSOFT (130509): @145446 We suggest that you perform two-button reset. You may refer to SteveG47 reply on how to perform two-button reset on this link: https://t.co/gaknTep4gW Keep us updated on the status of the issue. We will be glad to assist you further.\nCUSTOMER (130510): @MicrosoftHelps That didn’t change anything unfortunately\nMICROSOFT (130511): @145446 That's odd. Since you've mentioned that you performed a factory reset on you Surface, were you able to update the necessary drivers? Have you tried reconfiguring the display settings? Were there any differences? https://t.co/3qcAsLFkaY",
+      "microsoft_responses": [
+        "@145446 Hi Austin. Let's investigate. Can you tell us which Surface device you are using? Did you recently make changes in the settings of your device like installing new software? What troubleshooting step have you tried so far to resolve the issue?",
+        "@145446 We suggest that you perform two-button reset. You may refer to SteveG47 reply on how to perform two-button reset on this link: https://t.co/gaknTep4gW Keep us updated on the status of the issue. We will be glad to assist you further.",
+        "@145446 That's odd. Since you've mentioned that you performed a factory reset on you Surface, were you able to update the necessary drivers? Have you tried reconfiguring the display settings? Were there any differences? https://t.co/3qcAsLFkaY",
+        "@145446 Thanks for updating us. In case that the issue persists after reconfiguring the display settings, you can get in touch with our Answer Desk for warranty option. You can contact them on this link: https://t.co/3u0TOxuhgF. You can also visit any of our Microsoft Stores."
+      ],
+      "source_tweets": [
+        {
+          "tweet_id": 130506,
+          "author_id": "MicrosoftHelps",
+          "inbound": false,
+          "text": "@145446 Hi Austin. Let's investigate. Can you tell us which Surface device you are using? Did you recently make changes in the settings of your device like installing new software? What troubleshooting step have you tried so far to resolve the issue?",
+          "created_at": "Fri Nov 24 06:18:53 +0000 2017"
+        },
+        {
+          "tweet_id": 130507,
+          "author_id": "145446",
+          "inbound": true,
+          "text": "@MicrosoftHelps I’m using a surface pro 4, I haven’t made any changes to my device in the past week, I factory reset it and the purple colour has gone away but now everything looks very pixilated, see photo https://t.co/uePoN8xep3",
+          "created_at": "Fri Nov 24 06:25:22 +0000 2017"
+        },
+        {
+          "tweet_id": 130508,
+          "author_id": "145446",
+          "inbound": true,
+          "text": "@MicrosoftHelps I restarted my Surface, and now the screen has gone weird, and changes colour every time I restart it? (My background is a solid black colour, the purple colour is the issue) https://t.co/KWWFqXGZ1j",
+          "created_at": "Fri Nov 24 01:32:17 +0000 2017"
+        },
+        {
+          "tweet_id": 130509,
+          "author_id": "MicrosoftHelps",
+          "inbound": false,
+          "text": "@145446 We suggest that you perform two-button reset. You may refer to SteveG47 reply on how to perform two-button reset on this link: https://t.co/gaknTep4gW Keep us updated on the status of the issue. We will be glad to assist you further.",
+          "created_at": "Fri Nov 24 08:18:31 +0000 2017"
+        },
+        {
+          "tweet_id": 130510,
+          "author_id": "145446",
+          "inbound": true,
+          "text": "@MicrosoftHelps That didn’t change anything unfortunately",
+          "created_at": "Fri Nov 24 12:50:03 +0000 2017"
+        },
+        {
+          "tweet_id": 130511,
+          "author_id": "MicrosoftHelps",
+          "inbound": false,
+          "text": "@145446 That's odd. Since you've mentioned that you performed a factory reset on you Surface, were you able to update the necessary drivers? Have you tried reconfiguring the display settings? Were there any differences? https://t.co/3qcAsLFkaY",
+          "created_at": "Fri Nov 24 15:47:32 +0000 2017"
+        },
+        {
+          "tweet_id": 130512,
+          "author_id": "145446",
+          "inbound": true,
+          "text": "@MicrosoftHelps Yes I checked for drivers and there were no updates. I messed around with the resolution to see if anything would change but nothing. At this point I might just return it and get a new one seen as I have a 2 year warranty",
+          "created_at": "Fri Nov 24 15:49:24 +0000 2017"
+        },
+        {
+          "tweet_id": 130513,
+          "author_id": "MicrosoftHelps",
+          "inbound": false,
+          "text": "@145446 Thanks for updating us. In case that the issue persists after reconfiguring the display settings, you can get in touch with our Answer Desk for warranty option. You can contact them on this link: https://t.co/3u0TOxuhgF. You can also visit any of our Microsoft Stores.",
+          "created_at": "Fri Nov 24 16:33:28 +0000 2017"
+        }
+      ],
+      "metadata": {
+        "brand": "MicrosoftHelps",
+        "num_brand_turns": 4,
+        "num_customer_turns": 4
+      },
+      "intent_label": "",
+      "escalation_label": "",
+      "notes": ""
+    },
+    {
+      "golden_id": "GOLDEN-0203",
+      "conversation_id": 186521,
+      "customer_message": "@123127 @MicrosoftHelps @2696 Second time I receive SP4 from assistance with this problem why? :( https://t.co/8ZX0q3CdQ5",
+      "conversation_context": "MICROSOFT (186516): @159869 Have you tried contacting our Answer Desk team for assistance? You can contact them here: https://t.co/JryaRvNjWi\nCUSTOMER (186517): @MicrosoftHelps I'll try, but I'm shocked about same problem two times\nCUSTOMER (186518): @151785 2/2 I'm tired to send my device to repair I need it\nCUSTOMER (186519): @151785 1/2 It's a HW issue. White light aroud the screen too visible. It's 2° sp4 I receive from assistance with this. My first device hadn't it\nCUSTOMER (186520): @159869 Let's look into this, Alberto. What was the activity when this screen appeared? Have you tried to do a forced shutdown?",
+      "microsoft_responses": [
+        "@159869 Have you tried contacting our Answer Desk team for assistance? You can contact them here: https://t.co/JryaRvNjWi"
+      ],
+      "source_tweets": [
+        {
+          "tweet_id": 186516,
+          "author_id": "MicrosoftHelps",
+          "inbound": false,
+          "text": "@159869 Have you tried contacting our Answer Desk team for assistance? You can contact them here: https://t.co/JryaRvNjWi",
+          "created_at": "Wed Oct 04 01:02:57 +0000 2017"
+        },
+        {
+          "tweet_id": 186517,
+          "author_id": "159869",
+          "inbound": true,
+          "text": "@MicrosoftHelps I'll try, but I'm shocked about same problem two times",
+          "created_at": "Wed Oct 04 07:17:33 +0000 2017"
+        },
+        {
+          "tweet_id": 186518,
+          "author_id": "159869",
+          "inbound": true,
+          "text": "@151785 2/2 I'm tired to send my device to repair I need it",
+          "created_at": "Tue Oct 03 20:46:50 +0000 2017"
+        },
+        {
+          "tweet_id": 186519,
+          "author_id": "159869",
+          "inbound": true,
+          "text": "@151785 1/2 It's a HW issue. White light aroud the screen too visible. It's 2° sp4 I receive from assistance with this. My first device hadn't it",
+          "created_at": "Tue Oct 03 20:46:17 +0000 2017"
+        },
+        {
+          "tweet_id": 186520,
+          "author_id": "151785",
+          "inbound": true,
+          "text": "@159869 Let's look into this, Alberto. What was the activity when this screen appeared? Have you tried to do a forced shutdown?",
+          "created_at": "Tue Oct 03 20:34:26 +0000 2017"
+        },
+        {
+          "tweet_id": 186521,
+          "author_id": "159869",
+          "inbound": true,
+          "text": "@123127 @MicrosoftHelps @2696 Second time I receive SP4 from assistance with this problem why? :( https://t.co/8ZX0q3CdQ5",
+          "created_at": "Tue Oct 03 17:52:29 +0000 2017"
+        }
+      ],
+      "metadata": {
+        "brand": "MicrosoftHelps",
+        "num_brand_turns": 1,
+        "num_customer_turns": 5
+      },
+      "intent_label": "",
+      "escalation_label": "",
+      "notes": ""
+    },
+    {
+      "golden_id": "GOLDEN-0204",
+      "conversation_id": 60643,
+      "customer_message": "@MicrosoftHelps I have now had my left bumper fall out of 6 Elite controllers. Yes 6! I need reason to even use my warranty this time :/",
+      "conversation_context": "MICROSOFT (60641): @129891 Following up with you to see if your issue got resolved. If so, let us know your experience here: https://t.co/rAst2Ray56.\nCUSTOMER (60642): @MicrosoftHelps Honestly. I returned the controller and with with a Scuf. Hated to do so, but 6 left bumpers falling  out 😕",
+      "microsoft_responses": [
+        "@129891 Following up with you to see if your issue got resolved. If so, let us know your experience here: https://t.co/rAst2Ray56.",
+        "@129891 Hello! Glad you reached out. We suggest posting a tweet to @XboxSupport or chat with them here: https://t.co/Iy8LPNXe4e."
+      ],
+      "source_tweets": [
+        {
+          "tweet_id": 60641,
+          "author_id": "MicrosoftHelps",
+          "inbound": false,
+          "text": "@129891 Following up with you to see if your issue got resolved. If so, let us know your experience here: https://t.co/rAst2Ray56.",
+          "created_at": "Wed Nov 01 20:54:00 +0000 2017"
+        },
+        {
+          "tweet_id": 60642,
+          "author_id": "129891",
+          "inbound": true,
+          "text": "@MicrosoftHelps Honestly. I returned the controller and with with a Scuf. Hated to do so, but 6 left bumpers falling  out 😕",
+          "created_at": "Wed Nov 01 21:42:42 +0000 2017"
+        },
+        {
+          "tweet_id": 60643,
+          "author_id": "129891",
+          "inbound": true,
+          "text": "@MicrosoftHelps I have now had my left bumper fall out of 6 Elite controllers. Yes 6! I need reason to even use my warranty this time :/",
+          "created_at": "Sun Oct 29 16:36:16 +0000 2017"
+        },
+        {
+          "tweet_id": 60644,
+          "author_id": "MicrosoftHelps",
+          "inbound": false,
+          "text": "@129891 Hello! Glad you reached out. We suggest posting a tweet to @XboxSupport or chat with them here: https://t.co/Iy8LPNXe4e.",
+          "created_at": "Sun Oct 29 18:27:31 +0000 2017"
+        },
+        {
+          "tweet_id": 2453134,
+          "author_id": "129891",
+          "inbound": true,
+          "text": "@MicrosoftHelps @XboxSupport Thank you",
+          "created_at": "Sun Oct 29 18:28:21 +0000 2017"
+        }
+      ],
+      "metadata": {
+        "brand": "MicrosoftHelps",
+        "num_brand_turns": 2,
+        "num_customer_turns": 3
+      },
+      "intent_label": "",
+      "escalation_label": "",
+      "notes": ""
+    },
+    {
+      "golden_id": "GOLDEN-0205",
+      "conversation_id": 113493,
+      "customer_message": "After updating system is dead slow! Now encountered new problem, no internet connection over wifi!!!! @MicrosoftHelps @26626",
+      "conversation_context": "MICROSOFT (113489): @141204 Just to clarify, what do you mean by \"some pages are not opening\"? Are you referring to websites? Are you experiencing same issue using different device?\nCUSTOMER (113490): @MicrosoftHelps Able to get ! But some pages not opening! Showing no internet\nMICROSOFT (113491): @141204 Hi. Haven't heard back from you yet. Are you still experiencing issues with the connection? Please let us know.\nMICROSOFT (113492): @141204 Hi, Kiran! Were we able to resolve your concern? If no, feel free to reach out if you need further assistance. We're here for you. 😃👍",
+      "microsoft_responses": [
+        "@141204 Just to clarify, what do you mean by \"some pages are not opening\"? Are you referring to websites? Are you experiencing same issue using different device?",
+        "@141204 Hi. Haven't heard back from you yet. Are you still experiencing issues with the connection? Please let us know.",
+        "@141204 Hi, Kiran! Were we able to resolve your concern? If no, feel free to reach out if you need further assistance. We're here for you. 😃👍",
+        "@141204 Hello, Kiran. We're glad to help! You can follow the step by step troubleshooting here: https://t.co/YLrQpGXWqE to resolved network connection issues in Windows 10. Feel free to reach out if you need further assistance."
+      ],
+      "source_tweets": [
+        {
+          "tweet_id": 113489,
+          "author_id": "MicrosoftHelps",
+          "inbound": false,
+          "text": "@141204 Just to clarify, what do you mean by \"some pages are not opening\"? Are you referring to websites? Are you experiencing same issue using different device?",
+          "created_at": "Thu Nov 23 20:14:51 +0000 2017"
+        },
+        {
+          "tweet_id": 113490,
+          "author_id": "141204",
+          "inbound": true,
+          "text": "@MicrosoftHelps Able to get ! But some pages not opening! Showing no internet",
+          "created_at": "Thu Nov 23 18:15:01 +0000 2017"
+        },
+        {
+          "tweet_id": 113491,
+          "author_id": "MicrosoftHelps",
+          "inbound": false,
+          "text": "@141204 Hi. Haven't heard back from you yet. Are you still experiencing issues with the connection? Please let us know.",
+          "created_at": "Thu Nov 30 20:26:32 +0000 2017"
+        },
+        {
+          "tweet_id": 113492,
+          "author_id": "MicrosoftHelps",
+          "inbound": false,
+          "text": "@141204 Hi, Kiran! Were we able to resolve your concern? If no, feel free to reach out if you need further assistance. We're here for you. 😃👍",
+          "created_at": "Thu Nov 23 18:08:26 +0000 2017"
+        },
+        {
+          "tweet_id": 113493,
+          "author_id": "141204",
+          "inbound": true,
+          "text": "After updating system is dead slow! Now encountered new problem, no internet connection over wifi!!!! @MicrosoftHelps @26626",
+          "created_at": "Wed Nov 22 13:27:47 +0000 2017"
+        },
+        {
+          "tweet_id": 113494,
+          "author_id": "MicrosoftHelps",
+          "inbound": false,
+          "text": "@141204 Hello, Kiran. We're glad to help! You can follow the step by step troubleshooting here: https://t.co/YLrQpGXWqE to resolved network connection issues in Windows 10. Feel free to reach out if you need further assistance.",
+          "created_at": "Wed Nov 22 13:55:01 +0000 2017"
+        }
+      ],
+      "metadata": {
+        "brand": "MicrosoftHelps",
+        "num_brand_turns": 4,
+        "num_customer_turns": 2
+      },
+      "intent_label": "",
+      "escalation_label": "",
+      "notes": ""
+    },
+    {
+      "golden_id": "GOLDEN-0206",
+      "conversation_id": 158301,
+      "customer_message": "@MicrosoftHelps Hey, thanks for making my ASUS wifi card completely useless in your latest update.  it doesn't work anymore.  Can I send you an invoice for it?",
+      "conversation_context": "MICROSOFT (158300): @152396 Hello, Eric. Help is here. Are you referring to the Fall Creators Update? Can you provide us more details about the issue that you're experiencing after the update?",
+      "microsoft_responses": [
+        "@152396 Hello, Eric. Help is here. Are you referring to the Fall Creators Update? Can you provide us more details about the issue that you're experiencing after the update?",
+        "@152396 Checking back with you. Is everything working on your end? Feel free to contact us back if you need further help."
+      ],
+      "source_tweets": [
+        {
+          "tweet_id": 158300,
+          "author_id": "MicrosoftHelps",
+          "inbound": false,
+          "text": "@152396 Hello, Eric. Help is here. Are you referring to the Fall Creators Update? Can you provide us more details about the issue that you're experiencing after the update?",
+          "created_at": "Fri Nov 24 17:43:49 +0000 2017"
+        },
+        {
+          "tweet_id": 158301,
+          "author_id": "152396",
+          "inbound": true,
+          "text": "@MicrosoftHelps Hey, thanks for making my ASUS wifi card completely useless in your latest update.  it doesn't work anymore.  Can I send you an invoice for it?",
+          "created_at": "Fri Nov 24 15:23:11 +0000 2017"
+        },
+        {
+          "tweet_id": 158302,
+          "author_id": "MicrosoftHelps",
+          "inbound": false,
+          "text": "@152396 Checking back with you. Is everything working on your end? Feel free to contact us back if you need further help.",
+          "created_at": "Wed Nov 29 18:13:26 +0000 2017"
+        }
+      ],
+      "metadata": {
+        "brand": "MicrosoftHelps",
+        "num_brand_turns": 2,
+        "num_customer_turns": 1
+      },
+      "intent_label": "",
+      "escalation_label": "",
+      "notes": ""
+    },
+    {
+      "golden_id": "GOLDEN-0207",
+      "conversation_id": 172140,
+      "customer_message": "@MicrosoftHelps @9390 So after updating to windows 10 update 1709, Microsoft store doesn't open and Teamviewer isn't see the internet connection  when chrome does. Please help",
+      "conversation_context": "MICROSOFT (172138): @156220 Hi. Thank you for reaching out, Chris. Just to clarify, are you getting any error messages? What troubleshooting steps have you tried to resolve the issue?\nCUSTOMER (172139): @MicrosoftHelps Hey, there was no error messages just refused to load. I tried deleting the cache, going to a previous version of 10. Nothing worked",
+      "microsoft_responses": [
+        "@156220 Hi. Thank you for reaching out, Chris. Just to clarify, are you getting any error messages? What troubleshooting steps have you tried to resolve the issue?"
+      ],
+      "source_tweets": [
+        {
+          "tweet_id": 172138,
+          "author_id": "MicrosoftHelps",
+          "inbound": false,
+          "text": "@156220 Hi. Thank you for reaching out, Chris. Just to clarify, are you getting any error messages? What troubleshooting steps have you tried to resolve the issue?",
+          "created_at": "Fri Nov 24 22:27:00 +0000 2017"
+        },
+        {
+          "tweet_id": 172139,
+          "author_id": "156220",
+          "inbound": true,
+          "text": "@MicrosoftHelps Hey, there was no error messages just refused to load. I tried deleting the cache, going to a previous version of 10. Nothing worked",
+          "created_at": "Fri Nov 24 22:30:07 +0000 2017"
+        },
+        {
+          "tweet_id": 172140,
+          "author_id": "156220",
+          "inbound": true,
+          "text": "@MicrosoftHelps @9390 So after updating to windows 10 update 1709, Microsoft store doesn't open and Teamviewer isn't see the internet connection  when chrome does. Please help",
+          "created_at": "Fri Nov 24 19:04:06 +0000 2017"
+        }
+      ],
+      "metadata": {
+        "brand": "MicrosoftHelps",
+        "num_brand_turns": 1,
+        "num_customer_turns": 2
+      },
+      "intent_label": "",
+      "escalation_label": "",
+      "notes": ""
+    },
+    {
+      "golden_id": "GOLDEN-0208",
+      "conversation_id": 19895,
+      "customer_message": "@MicrosoftHelps [2/2] Can't sync, can't send, can't receive email. Tried WiFi and LTE, reboot, soft reset, hard reset. No dice. Please help.",
+      "conversation_context": "MICROSOFT (19884): @120367 Hi, Ryan. How's it going? Please let us know if you need further assistance. We're here for you.\nCUSTOMER (19885): @MicrosoftHelps If possible, please escalate to the right people. I can't use email on my Lumia. Nor can my father on his. Both email failed at same time.\nCUSTOMER (19886): @MicrosoftHelps Still stuck. Microsoft Support chat has been kind but they could not find a fix. Support docs from https://t.co/QxtzK3XTQD not helpful.[1/2]\nCUSTOMER (19887): @MicrosoftHelps Error code 80072EFD is a server issue. Any idea what’s going on with https://t.co/kyAFzGCRGU for Windows Phone devices on your end? [2/2]\nCUSTOMER (19888): @MicrosoftHelps Email is set up correctly on all three devices as per instructions. Still can't sync properly.\nMICROSOFT (19889): @120367 We'll do. Were you given a case number after contacting our support? If yes, kindly DM it so we can look into it.\nCUSTOMER (19890): @MicrosoftHelps Done. Case numbers sent via DM.\nMICROSOFT (19891): @120367 That's strange. It'd be best to get in touch with our Answer Desk team for in-depth support here: https://t.co/VXGrUK3x2q. https://t.co/3qcAsLFkaY\nMICROSOFT (19892): @120367 We suggest that you check if you set up your email correctly. Visit this link: https://t.co/FVDi6i31pS. Tweet us back!\nCUSTOMER (19893): @MicrosoftHelps There is no version number. Outlook on WP8.1 is a built-in non-updateable app.\nMICROSOFT (19894): @120367 Let's sort this out, Ryan. Could you check your Outlook version? Here's how: https://t.co/XvqZQyTwN6.",
+      "microsoft_responses": [
+        "@120367 Hi, Ryan. How's it going? Please let us know if you need further assistance. We're here for you.",
+        "@120367 We'll do. Were you given a case number after contacting our support? If yes, kindly DM it so we can look into it.",
+        "@120367 That's strange. It'd be best to get in touch with our Answer Desk team for in-depth support here: https://t.co/VXGrUK3x2q. https://t.co/3qcAsLFkaY",
+        "@120367 We suggest that you check if you set up your email correctly. Visit this link: https://t.co/FVDi6i31pS. Tweet us back!",
+        "@120367 Let's sort this out, Ryan. Could you check your Outlook version? Here's how: https://t.co/XvqZQyTwN6."
+      ],
+      "source_tweets": [
+        {
+          "tweet_id": 19884,
+          "author_id": "MicrosoftHelps",
+          "inbound": false,
+          "text": "@120367 Hi, Ryan. How's it going? Please let us know if you need further assistance. We're here for you.",
+          "created_at": "Wed Nov 01 06:22:51 +0000 2017"
+        },
+        {
+          "tweet_id": 19885,
+          "author_id": "120367",
+          "inbound": true,
+          "text": "@MicrosoftHelps If possible, please escalate to the right people. I can't use email on my Lumia. Nor can my father on his. Both email failed at same time.",
+          "created_at": "Wed Nov 01 08:19:01 +0000 2017"
+        },
+        {
+          "tweet_id": 19886,
+          "author_id": "120367",
+          "inbound": true,
+          "text": "@MicrosoftHelps Still stuck. Microsoft Support chat has been kind but they could not find a fix. Support docs from https://t.co/QxtzK3XTQD not helpful.[1/2]",
+          "created_at": "Wed Nov 01 08:15:55 +0000 2017"
+        },
+        {
+          "tweet_id": 19887,
+          "author_id": "120367",
+          "inbound": true,
+          "text": "@MicrosoftHelps Error code 80072EFD is a server issue. Any idea what’s going on with https://t.co/kyAFzGCRGU for Windows Phone devices on your end? [2/2]",
+          "created_at": "Wed Nov 01 08:16:05 +0000 2017"
+        },
+        {
+          "tweet_id": 19888,
+          "author_id": "120367",
+          "inbound": true,
+          "text": "@MicrosoftHelps Email is set up correctly on all three devices as per instructions. Still can't sync properly.",
+          "created_at": "Tue Oct 31 00:19:24 +0000 2017"
+        },
+        {
+          "tweet_id": 19889,
+          "author_id": "MicrosoftHelps",
+          "inbound": false,
+          "text": "@120367 We'll do. Were you given a case number after contacting our support? If yes, kindly DM it so we can look into it.",
+          "created_at": "Wed Nov 01 11:24:00 +0000 2017"
+        },
+        {
+          "tweet_id": 19890,
+          "author_id": "120367",
+          "inbound": true,
+          "text": "@MicrosoftHelps Done. Case numbers sent via DM.",
+          "created_at": "Thu Nov 02 00:27:21 +0000 2017"
+        },
+        {
+          "tweet_id": 19891,
+          "author_id": "MicrosoftHelps",
+          "inbound": false,
+          "text": "@120367 That's strange. It'd be best to get in touch with our Answer Desk team for in-depth support here: https://t.co/VXGrUK3x2q. https://t.co/3qcAsLFkaY",
+          "created_at": "Tue Oct 31 02:46:24 +0000 2017"
+        },
+        {
+          "tweet_id": 19892,
+          "author_id": "MicrosoftHelps",
+          "inbound": false,
+          "text": "@120367 We suggest that you check if you set up your email correctly. Visit this link: https://t.co/FVDi6i31pS. Tweet us back!",
+          "created_at": "Mon Oct 30 19:04:32 +0000 2017"
+        },
+        {
+          "tweet_id": 19893,
+          "author_id": "120367",
+          "inbound": true,
+          "text": "@MicrosoftHelps There is no version number. Outlook on WP8.1 is a built-in non-updateable app.",
+          "created_at": "Mon Oct 30 15:43:41 +0000 2017"
+        },
+        {
+          "tweet_id": 19894,
+          "author_id": "MicrosoftHelps",
+          "inbound": false,
+          "text": "@120367 Let's sort this out, Ryan. Could you check your Outlook version? Here's how: https://t.co/XvqZQyTwN6.",
+          "created_at": "Mon Oct 30 12:29:30 +0000 2017"
+        },
+        {
+          "tweet_id": 19895,
+          "author_id": "120367",
+          "inbound": true,
+          "text": "@MicrosoftHelps [2/2] Can't sync, can't send, can't receive email. Tried WiFi and LTE, reboot, soft reset, hard reset. No dice. Please help.",
+          "created_at": "Mon Oct 30 10:55:27 +0000 2017"
+        }
+      ],
+      "metadata": {
+        "brand": "MicrosoftHelps",
+        "num_brand_turns": 5,
+        "num_customer_turns": 7
+      },
+      "intent_label": "",
+      "escalation_label": "",
+      "notes": ""
+    },
+    {
+      "golden_id": "GOLDEN-0209",
+      "conversation_id": 121907,
+      "customer_message": "@MicrosoftHelps why can’t I cancel auto renew for gold on Xbox one?? it says directly on your support website that I should be able to.",
+      "conversation_context": "MICROSOFT (121906): @143163 Hello. Let's get this sorted. It'd be best if you contact the Xbox team for them to have this checked: https://t.co/KiaMQXVEfb. You'll be in good hands.",
+      "microsoft_responses": [
+        "@143163 Hello. Let's get this sorted. It'd be best if you contact the Xbox team for them to have this checked: https://t.co/KiaMQXVEfb. You'll be in good hands.",
+        "@143163 Hello. Let us know on how we can improve our support here: https://t.co/gO4ESzkoKz. Thank you."
+      ],
+      "source_tweets": [
+        {
+          "tweet_id": 121906,
+          "author_id": "MicrosoftHelps",
+          "inbound": false,
+          "text": "@143163 Hello. Let's get this sorted. It'd be best if you contact the Xbox team for them to have this checked: https://t.co/KiaMQXVEfb. You'll be in good hands.",
+          "created_at": "Thu Nov 23 23:44:55 +0000 2017"
+        },
+        {
+          "tweet_id": 121907,
+          "author_id": "143163",
+          "inbound": true,
+          "text": "@MicrosoftHelps why can’t I cancel auto renew for gold on Xbox one?? it says directly on your support website that I should be able to.",
+          "created_at": "Thu Nov 23 22:03:31 +0000 2017"
+        },
+        {
+          "tweet_id": 121908,
+          "author_id": "MicrosoftHelps",
+          "inbound": false,
+          "text": "@143163 Hello. Let us know on how we can improve our support here: https://t.co/gO4ESzkoKz. Thank you.",
+          "created_at": "Fri Nov 24 17:27:57 +0000 2017"
+        }
+      ],
+      "metadata": {
+        "brand": "MicrosoftHelps",
+        "num_brand_turns": 2,
+        "num_customer_turns": 1
+      },
+      "intent_label": "",
+      "escalation_label": "",
+      "notes": ""
+    },
+    {
+      "golden_id": "GOLDEN-0210",
+      "conversation_id": 477055,
+      "customer_message": "On support chat with @MicrosoftHelps right now and was just told that you cant turn off auto renew for subscriptions on your console anymore. Wow, just wow. It holds your credit card hostage until you go to their site. This used to be an option on the console. Unacceptable. #scam",
+      "conversation_context": "MICROSOFT (477054): @228373 Hi there. We're here to help. Can you DM us the Service Request number from our support? Let us escalate your concern for more in-depth assistance. https://t.co/3qcAsLFkaY",
+      "microsoft_responses": [
+        "@228373 Hi there. We're here to help. Can you DM us the Service Request number from our support? Let us escalate your concern for more in-depth assistance. https://t.co/3qcAsLFkaY"
+      ],
+      "source_tweets": [
+        {
+          "tweet_id": 477054,
+          "author_id": "MicrosoftHelps",
+          "inbound": false,
+          "text": "@228373 Hi there. We're here to help. Can you DM us the Service Request number from our support? Let us escalate your concern for more in-depth assistance. https://t.co/3qcAsLFkaY",
+          "created_at": "Fri Dec 01 11:35:00 +0000 2017"
+        },
+        {
+          "tweet_id": 477055,
+          "author_id": "228373",
+          "inbound": true,
+          "text": "On support chat with @MicrosoftHelps right now and was just told that you cant turn off auto renew for subscriptions on your console anymore. Wow, just wow. It holds your credit card hostage until you go to their site. This used to be an option on the console. Unacceptable. #scam",
+          "created_at": "Fri Dec 01 10:46:45 +0000 2017"
+        }
+      ],
+      "metadata": {
+        "brand": "MicrosoftHelps",
+        "num_brand_turns": 1,
+        "num_customer_turns": 1
+      },
+      "intent_label": "",
+      "escalation_label": "",
+      "notes": ""
+    },
+    {
+      "golden_id": "GOLDEN-0211",
+      "conversation_id": 2089738,
+      "customer_message": "@MicrosoftHelps unable to verify information on a 10 year old xbox live account. unable to do so. have proof of cancellation. stop charging my parents",
+      "conversation_context": "MICROSOFT (2089737): @617712 We understand. In that case, kindly contact our Xbox support for immediate assistance on this link: https://t.co/aMzte2v5YW.",
+      "microsoft_responses": [
+        "@617712 We understand. In that case, kindly contact our Xbox support for immediate assistance on this link: https://t.co/aMzte2v5YW.",
+        "@617712 Hi! How's everything? Please let us know more about your experience here: https://t.co/qH80PG33ka."
+      ],
+      "source_tweets": [
+        {
+          "tweet_id": 2089737,
+          "author_id": "MicrosoftHelps",
+          "inbound": false,
+          "text": "@617712 We understand. In that case, kindly contact our Xbox support for immediate assistance on this link: https://t.co/aMzte2v5YW.",
+          "created_at": "Wed Nov 08 04:58:00 +0000 2017"
+        },
+        {
+          "tweet_id": 2089738,
+          "author_id": "617712",
+          "inbound": true,
+          "text": "@MicrosoftHelps unable to verify information on a 10 year old xbox live account. unable to do so. have proof of cancellation. stop charging my parents",
+          "created_at": "Wed Nov 08 01:38:02 +0000 2017"
+        },
+        {
+          "tweet_id": 2089739,
+          "author_id": "MicrosoftHelps",
+          "inbound": false,
+          "text": "@617712 Hi! How's everything? Please let us know more about your experience here: https://t.co/qH80PG33ka.",
+          "created_at": "Thu Nov 09 10:27:53 +0000 2017"
+        }
+      ],
+      "metadata": {
+        "brand": "MicrosoftHelps",
+        "num_brand_turns": 2,
+        "num_customer_turns": 1
+      },
+      "intent_label": "",
+      "escalation_label": "",
+      "notes": ""
+    },
+    {
+      "golden_id": "GOLDEN-0212",
+      "conversation_id": 1613003,
+      "customer_message": "@MicrosoftHelps quite disappointed with the level of support I’ve received from OneDrive and Office 365. My OneDrive is just not working and no one from support teams seem to be able to help me. Where do I go from here? Should I cancel my subscription?",
+      "conversation_context": "MICROSOFT (1613002): @494914 1/2 Hi, Matt. We certainly want to get this taken care of. Were you able to obtain a service request number from our support",
+      "microsoft_responses": [
+        "@494914 1/2 Hi, Matt. We certainly want to get this taken care of. Were you able to obtain a service request number from our support",
+        "@494914 2/2 team, that we can use as a reference to follow up your concern? Send it via direct message, it usually starts with SRX."
+      ],
+      "source_tweets": [
+        {
+          "tweet_id": 1613002,
+          "author_id": "MicrosoftHelps",
+          "inbound": false,
+          "text": "@494914 1/2 Hi, Matt. We certainly want to get this taken care of. Were you able to obtain a service request number from our support",
+          "created_at": "Sun Nov 05 12:30:00 +0000 2017"
+        },
+        {
+          "tweet_id": 1613003,
+          "author_id": "494914",
+          "inbound": true,
+          "text": "@MicrosoftHelps quite disappointed with the level of support I’ve received from OneDrive and Office 365. My OneDrive is just not working and no one from support teams seem to be able to help me. Where do I go from here? Should I cancel my subscription?",
+          "created_at": "Sun Nov 05 12:11:24 +0000 2017"
+        },
+        {
+          "tweet_id": 1613004,
+          "author_id": "MicrosoftHelps",
+          "inbound": false,
+          "text": "@494914 2/2 team, that we can use as a reference to follow up your concern? Send it via direct message, it usually starts with SRX.",
+          "created_at": "Sun Nov 05 12:32:00 +0000 2017"
+        },
+        {
+          "tweet_id": 1614110,
+          "author_id": "494914",
+          "inbound": true,
+          "text": "@MicrosoftHelps Thank you so much for getting back to me! I’ve received a Help Ticket number #30099-1236424",
+          "created_at": "Sun Nov 05 12:34:23 +0000 2017"
+        }
+      ],
+      "metadata": {
+        "brand": "MicrosoftHelps",
+        "num_brand_turns": 2,
+        "num_customer_turns": 2
+      },
+      "intent_label": "",
+      "escalation_label": "",
+      "notes": ""
+    },
+    {
+      "golden_id": "GOLDEN-0213",
+      "conversation_id": 557703,
+      "customer_message": "@MicrosoftHelps Order status in my order history shows that the order was shipped. When I track the order in FedEx it just shows that the label was printed, no further status. When I asked FedEx I was told they have not yet received the actual shipment",
+      "conversation_context": "MICROSOFT (557701): @250251 Hi, Jay! We're here to help. For better assistance, may we know where did you place your order? Is it from Microsoft Store or in an authorized retail store?\nCUSTOMER (557702): @MicrosoftHelps In Microsoft store\nCUSTOMER (557703): @MicrosoftHelps hello two of my orders placed on 27th Nov is not shipped out yet\nMICROSOFT (557704): @250251 Got that! Have you tried checking the status of your order online? Here's how: https://t.co/0NVMBjKGMW.",
+      "microsoft_responses": [
+        "@250251 Hi, Jay! We're here to help. For better assistance, may we know where did you place your order? Is it from Microsoft Store or in an authorized retail store?",
+        "@250251 Got that! Have you tried checking the status of your order online? Here's how: https://t.co/0NVMBjKGMW.",
+        "@250251 If that's the case, let's get in touch with our Microsoft Store Support here: https://t.co/1r8Js93chY to further assist you on that matter."
+      ],
+      "source_tweets": [
+        {
+          "tweet_id": 557701,
+          "author_id": "MicrosoftHelps",
+          "inbound": false,
+          "text": "@250251 Hi, Jay! We're here to help. For better assistance, may we know where did you place your order? Is it from Microsoft Store or in an authorized retail store?",
+          "created_at": "Sat Dec 02 21:25:53 +0000 2017"
+        },
+        {
+          "tweet_id": 557702,
+          "author_id": "250251",
+          "inbound": true,
+          "text": "@MicrosoftHelps In Microsoft store",
+          "created_at": "Sat Dec 02 22:24:59 +0000 2017"
+        },
+        {
+          "tweet_id": 557703,
+          "author_id": "250251",
+          "inbound": true,
+          "text": "@MicrosoftHelps hello two of my orders placed on 27th Nov is not shipped out yet",
+          "created_at": "Sat Dec 02 19:31:10 +0000 2017"
+        },
+        {
+          "tweet_id": 557704,
+          "author_id": "MicrosoftHelps",
+          "inbound": false,
+          "text": "@250251 Got that! Have you tried checking the status of your order online? Here's how: https://t.co/0NVMBjKGMW.",
+          "created_at": "Sun Dec 03 00:04:00 +0000 2017"
+        },
+        {
+          "tweet_id": 557705,
+          "author_id": "250251",
+          "inbound": true,
+          "text": "@MicrosoftHelps Order status in my order history shows that the order was shipped. When I track the order in FedEx it just shows that the label was printed, no further status. When I asked FedEx I was told they have not yet received the actual shipment",
+          "created_at": "Sun Dec 03 00:57:46 +0000 2017"
+        },
+        {
+          "tweet_id": 557706,
+          "author_id": "MicrosoftHelps",
+          "inbound": false,
+          "text": "@250251 If that's the case, let's get in touch with our Microsoft Store Support here: https://t.co/1r8Js93chY to further assist you on that matter.",
+          "created_at": "Sun Dec 03 02:15:55 +0000 2017"
+        }
+      ],
+      "metadata": {
+        "brand": "MicrosoftHelps",
+        "num_brand_turns": 3,
+        "num_customer_turns": 3
+      },
+      "intent_label": "",
+      "escalation_label": "",
+      "notes": ""
+    },
+    {
+      "golden_id": "GOLDEN-0214",
+      "conversation_id": 199610,
+      "customer_message": "@MicrosoftHelps I pre-ordered FIFA 18 from Msft Store and never received it. FedEx says they never got it either. Was told to contact you.",
+      "conversation_context": "MICROSOFT (199605): @163083 We hope everything is fine now. Share us your thoughts about your customer experience with us: https://t.co/xdm3EXKeFs.\nCUSTOMER (199606): @MicrosoftHelps I've been trying to resolve this for days.\nCUSTOMER (199607): @MicrosoftHelps The store help doesn't seem to have any links that provide an answer. I can't find why Msft seems to not have sent the pckg to FedEx.\nCUSTOMER (199608): @MicrosoftHelps When I track an order  I get sent to FedEx. That just tells me that they haven't received the pckg from Microsoft.\nMICROSOFT (199609): @163083 2/2 Also, can you try contacting our support team again: https://t.co/vLFOaSHKFD? Keep us updated.",
+      "microsoft_responses": [
+        "@163083 We hope everything is fine now. Share us your thoughts about your customer experience with us: https://t.co/xdm3EXKeFs.",
+        "@163083 2/2 Also, can you try contacting our support team again: https://t.co/vLFOaSHKFD? Keep us updated."
+      ],
+      "source_tweets": [
+        {
+          "tweet_id": 199605,
+          "author_id": "MicrosoftHelps",
+          "inbound": false,
+          "text": "@163083 We hope everything is fine now. Share us your thoughts about your customer experience with us: https://t.co/xdm3EXKeFs.",
+          "created_at": "Wed Oct 04 01:48:25 +0000 2017"
+        },
+        {
+          "tweet_id": 199606,
+          "author_id": "163083",
+          "inbound": true,
+          "text": "@MicrosoftHelps I've been trying to resolve this for days.",
+          "created_at": "Mon Oct 02 15:44:45 +0000 2017"
+        },
+        {
+          "tweet_id": 199607,
+          "author_id": "163083",
+          "inbound": true,
+          "text": "@MicrosoftHelps The store help doesn't seem to have any links that provide an answer. I can't find why Msft seems to not have sent the pckg to FedEx.",
+          "created_at": "Sun Oct 01 01:49:08 +0000 2017"
+        },
+        {
+          "tweet_id": 199608,
+          "author_id": "163083",
+          "inbound": true,
+          "text": "@MicrosoftHelps When I track an order  I get sent to FedEx. That just tells me that they haven't received the pckg from Microsoft.",
+          "created_at": "Sun Oct 01 01:47:07 +0000 2017"
+        },
+        {
+          "tweet_id": 199609,
+          "author_id": "MicrosoftHelps",
+          "inbound": false,
+          "text": "@163083 2/2 Also, can you try contacting our support team again: https://t.co/vLFOaSHKFD? Keep us updated.",
+          "created_at": "Sun Oct 01 01:34:56 +0000 2017"
+        },
+        {
+          "tweet_id": 199610,
+          "author_id": "163083",
+          "inbound": true,
+          "text": "@MicrosoftHelps I pre-ordered FIFA 18 from Msft Store and never received it. FedEx says they never got it either. Was told to contact you.",
+          "created_at": "Sun Oct 01 00:38:41 +0000 2017"
+        }
+      ],
+      "metadata": {
+        "brand": "MicrosoftHelps",
+        "num_brand_turns": 2,
+        "num_customer_turns": 4
+      },
+      "intent_label": "",
+      "escalation_label": "",
+      "notes": ""
+    },
+    {
+      "golden_id": "GOLDEN-0215",
+      "conversation_id": 424743,
+      "customer_message": "@microsofthelps your service on my recent order has been terrible.  My online order is stuck in no-man's land, saying it's \"shipped\", however label created status and \"ship date\" are 11/15.  it's no longer 11/15.  you guys gotta figure out your issues and call me back",
+      "conversation_context": "MICROSOFT (424742): @216084 Hi, Marc. We'd like this taken care of. To clear things out about your order, we suggest contacting Microsoft Store here: https://t.co/K6W9fZ2nJC. Let us know how it goes.",
+      "microsoft_responses": [
+        "@216084 Hi, Marc. We'd like this taken care of. To clear things out about your order, we suggest contacting Microsoft Store here: https://t.co/K6W9fZ2nJC. Let us know how it goes.",
+        "@216084 Hello, Marc. We'd like to know your feedback on our support by answering a quick survey here: https://t.co/fhoKE8Tdfp. Thank you."
+      ],
+      "source_tweets": [
+        {
+          "tweet_id": 424742,
+          "author_id": "MicrosoftHelps",
+          "inbound": false,
+          "text": "@216084 Hi, Marc. We'd like this taken care of. To clear things out about your order, we suggest contacting Microsoft Store here: https://t.co/K6W9fZ2nJC. Let us know how it goes.",
+          "created_at": "Tue Nov 21 04:47:26 +0000 2017"
+        },
+        {
+          "tweet_id": 424743,
+          "author_id": "216084",
+          "inbound": true,
+          "text": "@microsofthelps your service on my recent order has been terrible.  My online order is stuck in no-man's land, saying it's \"shipped\", however label created status and \"ship date\" are 11/15.  it's no longer 11/15.  you guys gotta figure out your issues and call me back",
+          "created_at": "Tue Nov 21 02:02:51 +0000 2017"
+        },
+        {
+          "tweet_id": 424744,
+          "author_id": "MicrosoftHelps",
+          "inbound": false,
+          "text": "@216084 Hello, Marc. We'd like to know your feedback on our support by answering a quick survey here: https://t.co/fhoKE8Tdfp. Thank you.",
+          "created_at": "Wed Nov 22 10:28:53 +0000 2017"
+        }
+      ],
+      "metadata": {
+        "brand": "MicrosoftHelps",
+        "num_brand_turns": 2,
+        "num_customer_turns": 1
+      },
+      "intent_label": "",
+      "escalation_label": "",
+      "notes": ""
+    },
+    {
+      "golden_id": "GOLDEN-0216",
+      "conversation_id": 92027,
+      "customer_message": "@135958 Whom should I contact to know about my order status. Calling Store support is not helping.From last three days, they keeps saying that this has been forwarded to escalation team and I don't know what is happening with my order",
+      "conversation_context": "MICROSOFT (92022): @135957 We certainly want to help you with this, Sujith. Can you send us the Service Request number provided by our support? We'll be escalating your concern for more in-depth assistance.\nCUSTOMER (92023): @MicrosoftHelps Service request number is 1406102664\nCUSTOMER (92024): @MicrosoftHelps Calling Microsoft Store Sales and Customer Support did not help. I called them multiple times since last three days and they keep saying that this has been forwarded to escalation team. Now three days are over and still I don't know what happened to my order\nMICROSOFT (92025): @135957 Kindly delete this tweet as this include your personal information. Let's continue the discussion via Direct Message.\nMICROSOFT (92026): @135957 Thank you for sending us a DM. We suggest contacting our Microsoft Store Sales and Customer Support regarding this matter. Call them at 1-877-696-7786. https://t.co/3qcAsLFkaY",
+      "microsoft_responses": [
+        "@135957 We certainly want to help you with this, Sujith. Can you send us the Service Request number provided by our support? We'll be escalating your concern for more in-depth assistance.",
+        "@135957 Kindly delete this tweet as this include your personal information. Let's continue the discussion via Direct Message.",
+        "@135957 Thank you for sending us a DM. We suggest contacting our Microsoft Store Sales and Customer Support regarding this matter. Call them at 1-877-696-7786. https://t.co/3qcAsLFkaY"
+      ],
+      "source_tweets": [
+        {
+          "tweet_id": 92022,
+          "author_id": "MicrosoftHelps",
+          "inbound": false,
+          "text": "@135957 We certainly want to help you with this, Sujith. Can you send us the Service Request number provided by our support? We'll be escalating your concern for more in-depth assistance.",
+          "created_at": "Thu Nov 30 14:44:35 +0000 2017"
+        },
+        {
+          "tweet_id": 92023,
+          "author_id": "135957",
+          "inbound": true,
+          "text": "@MicrosoftHelps Service request number is 1406102664",
+          "created_at": "Thu Nov 30 15:10:57 +0000 2017"
+        },
+        {
+          "tweet_id": 92024,
+          "author_id": "135957",
+          "inbound": true,
+          "text": "@MicrosoftHelps Calling Microsoft Store Sales and Customer Support did not help. I called them multiple times since last three days and they keep saying that this has been forwarded to escalation team. Now three days are over and still I don't know what happened to my order",
+          "created_at": "Thu Nov 30 14:10:42 +0000 2017"
+        },
+        {
+          "tweet_id": 92025,
+          "author_id": "MicrosoftHelps",
+          "inbound": false,
+          "text": "@135957 Kindly delete this tweet as this include your personal information. Let's continue the discussion via Direct Message.",
+          "created_at": "Thu Nov 30 16:00:23 +0000 2017"
+        },
+        {
+          "tweet_id": 92026,
+          "author_id": "MicrosoftHelps",
+          "inbound": false,
+          "text": "@135957 Thank you for sending us a DM. We suggest contacting our Microsoft Store Sales and Customer Support regarding this matter. Call them at 1-877-696-7786. https://t.co/3qcAsLFkaY",
+          "created_at": "Thu Nov 30 06:09:30 +0000 2017"
+        },
+        {
+          "tweet_id": 92027,
+          "author_id": "135957",
+          "inbound": true,
+          "text": "@135958 Whom should I contact to know about my order status. Calling Store support is not helping.From last three days, they keeps saying that this has been forwarded to escalation team and I don't know what is happening with my order",
+          "created_at": "Thu Nov 30 03:59:24 +0000 2017"
+        }
+      ],
+      "metadata": {
+        "brand": "MicrosoftHelps",
+        "num_brand_turns": 3,
+        "num_customer_turns": 3
       },
       "intent_label": "",
       "escalation_label": "",

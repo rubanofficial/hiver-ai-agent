@@ -75,6 +75,7 @@ import hashlib
 import json
 import os
 import sys
+import time
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Callable, Dict, List, Optional, Tuple
@@ -90,6 +91,12 @@ from src.agent import (
     SupportPipeline,
 )
 
+try:
+    import dotenv
+    dotenv.load_dotenv()
+except ImportError:
+    pass
+
 from evaluation.evaluate import load_taxonomy
 
 # ---------------------------------------------------------------------------
@@ -98,12 +105,17 @@ from evaluation.evaluate import load_taxonomy
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 
-DEFAULT_GOLDEN_SET_PATH = PROJECT_ROOT / "evaluation" / "golden_set.json"
+DEFAULT_GOLDEN_SET_PATH = (
+    PROJECT_ROOT / "evaluation" / "golden_set.labeled.json"
+    if (PROJECT_ROOT / "evaluation" / "golden_set.labeled.json").exists()
+    else PROJECT_ROOT / "evaluation" / "golden_set.json"
+)
 DEFAULT_INTENTS_YAML = PROJECT_ROOT / "config" / "intents.yaml"
 DEFAULT_PREDICTIONS_PATH = PROJECT_ROOT / "evaluation" / "predictions.json"
 DEFAULT_PREDICTIONS_CSV_PATH = PROJECT_ROOT / "evaluation" / "predictions.csv"
 DEFAULT_FAILURES_PATH = PROJECT_ROOT / "evaluation" / "predictions_failures.json"
 DEFAULT_CACHE_DIR = PROJECT_ROOT / "evaluation" / "agent_cache"
+DEFAULT_EMBEDDING_INDEX = PROJECT_ROOT / "evaluation" / "twcs_evidence_index.json"
 
 SCHEMA_VERSION = "1.0.0"
 RUNNER_NAME = "evaluation/run_agent.py"
@@ -667,6 +679,7 @@ def run_agent_run(
     all_examples: bool = False,
     ignore_cache: bool = False,
     embedding_index: Optional[str] = None,
+    delay_seconds: float = 0.0,
 ) -> Dict[str, Any]:
     """Run the agent over the selected example(s) and write the artifacts.
 
@@ -706,27 +719,49 @@ def run_agent_run(
         if limit is not None and limit > 0 and processed >= limit:
             continue
 
-        try:
-            prediction = process_record(record, pipeline, model_name)
-            validate_prediction(prediction, taxonomy)
-            save_cache_ok(
-                cache_dir, record, prediction, model_name, embedding_index
-            )
-            cache[gid] = {
-                "status": "ok",
-                "input_fingerprint": agent_input_fingerprint(
-                    record, model_name, embedding_index
-                ),
-                "prediction": prediction,
-            }
-            processed += 1
-        except Exception as exc:
-            error = f"{type(exc).__name__}: {exc}"
-            save_cache_error(
-                cache_dir, record, error, model_name, embedding_index
-            )
-            cache[gid] = {"status": "error", "error": error}
-            failures.append({"golden_id": gid, "error": error})
+        max_retries = 5
+        for attempt in range(max_retries):
+            try:
+                prediction = process_record(record, pipeline, model_name)
+                validate_prediction(prediction, taxonomy)
+                save_cache_ok(
+                    cache_dir, record, prediction, model_name, embedding_index
+                )
+                cache[gid] = {
+                    "status": "ok",
+                    "input_fingerprint": agent_input_fingerprint(
+                        record, model_name, embedding_index
+                    ),
+                    "prediction": prediction,
+                }
+                processed += 1
+                print(
+                    f"[agent] [{processed + reused}/{len(selected)}] {gid} -> "
+                    f"{prediction['predicted_intent']} ({prediction['predicted_escalation']})",
+                    flush=True,
+                )
+                if delay_seconds > 0:
+                    time.sleep(delay_seconds)  # Pacing to stay under 15 RPM
+                break
+            except Exception as exc:
+                err_str = f"{type(exc).__name__}: {exc}"
+                if ("429" in err_str or "ResourceExhausted" in err_str or "quota" in err_str.lower()) and attempt < max_retries - 1:
+                    wait_time = 12 + attempt * 4
+                    print(
+                        f"[agent] Rate limit on {gid} (attempt {attempt+1}/{max_retries}). "
+                        f"Backing off for {wait_time}s...",
+                        flush=True,
+                    )
+                    time.sleep(wait_time)
+                    continue
+                error = err_str
+                save_cache_error(
+                    cache_dir, record, error, model_name, embedding_index
+                )
+                cache[gid] = {"status": "error", "error": error}
+                failures.append({"golden_id": gid, "error": error})
+                print(f"[agent] ERROR on {gid}: {error}", flush=True)
+                break
 
     predictions = build_predictions_artifact(records, cache, taxonomy)
 
@@ -811,7 +846,7 @@ def parse_args(argv: Optional[List[str]]) -> argparse.Namespace:
 
 
 def main(argv: Optional[List[str]] = None) -> int:
-    sys.stdout.reconfigure(encoding="utf-8")
+    sys.stdout.reconfigure(encoding="utf-8", line_buffering=True)
     args = parse_args(argv)
 
     golden_ids: List[str] = list(args.golden_id or []) + list(args.golden_ids or [])
@@ -824,8 +859,10 @@ def main(argv: Optional[List[str]] = None) -> int:
 
     model_name = args.model or default_model_name()
 
-    embedding_index = args.embedding_index or os.environ.get(
-        "AGENT_EMBEDDING_INDEX"
+    embedding_index = (
+        args.embedding_index
+        or os.environ.get("AGENT_EMBEDDING_INDEX")
+        or (str(DEFAULT_EMBEDDING_INDEX) if DEFAULT_EMBEDDING_INDEX.exists() else None)
     )
     if embedding_index and not os.path.exists(embedding_index):
         print(
@@ -874,9 +911,7 @@ def main(argv: Optional[List[str]] = None) -> int:
         )
         return 1
 
-    embedding_index = args.embedding_index or os.environ.get(
-        "AGENT_EMBEDDING_INDEX"
-    )
+
     if not embedding_index:
         print(
             "[agent] INFO: no embedding index configured; the existing evidence "
@@ -909,6 +944,7 @@ def main(argv: Optional[List[str]] = None) -> int:
             all_examples=args.all,
             ignore_cache=args.all,
             embedding_index=embedding_index,
+            delay_seconds=2.0,
         )
     except AgentRunnerError as exc:
         print(f"[agent] Cannot run.\n{exc}", file=sys.stderr)

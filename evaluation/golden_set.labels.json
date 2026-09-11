@@ -6,8 +6,8 @@
     "escalation_label",
     "notes"
   ],
-  "count_total": 200,
-  "count_labeled": 200,
+  "count_total": 216,
+  "count_labeled": 216,
   "labels": {
     "GOLDEN-0001": {
       "golden_id": "GOLDEN-0001",
@@ -2205,6 +2205,182 @@
       "labeled_by": "human",
       "labeled_at": "2026-09-11T10:19:25+00:00",
       "modified_at": "2026-09-11T10:19:25+00:00"
+    },
+    "GOLDEN-0201": {
+      "golden_id": "GOLDEN-0201",
+      "conversation_id": 50486,
+      "intent_label": "Warranty / Repair",
+      "escalation_label": "ESCALATE_TO_HUMAN",
+      "notes": "Surface Pro cracked screen; initiating repair under business extended warranty",
+      "label_source": "human_direct",
+      "labeled_by": "human",
+      "labeled_at": "2026-09-11T10:35:40.936499+00:00",
+      "modified_at": "2026-09-11T10:35:40.936499+00:00"
+    },
+    "GOLDEN-0202": {
+      "golden_id": "GOLDEN-0202",
+      "conversation_id": 130508,
+      "intent_label": "Warranty / Repair",
+      "escalation_label": "AUTO_HANDLE",
+      "notes": "Screen pixelated/discolored after factory reset; seeking return under 2-year warranty",
+      "label_source": "human_direct",
+      "labeled_by": "human",
+      "labeled_at": "2026-09-11T10:35:40.936499+00:00",
+      "modified_at": "2026-09-11T10:35:40.936499+00:00"
+    },
+    "GOLDEN-0203": {
+      "golden_id": "GOLDEN-0203",
+      "conversation_id": 186521,
+      "intent_label": "Warranty / Repair",
+      "escalation_label": "ESCALATE_TO_HUMAN",
+      "notes": "Received replacement SP4 with light bleed defect; dispute over second repair",
+      "label_source": "human_direct",
+      "labeled_by": "human",
+      "labeled_at": "2026-09-11T10:35:40.936499+00:00",
+      "modified_at": "2026-09-11T10:35:40.936499+00:00"
+    },
+    "GOLDEN-0204": {
+      "golden_id": "GOLDEN-0204",
+      "conversation_id": 60643,
+      "intent_label": "Warranty / Repair",
+      "escalation_label": "AUTO_HANDLE",
+      "notes": "Left bumper fell out of Elite controller; inquiring about warranty replacement",
+      "label_source": "human_direct",
+      "labeled_by": "human",
+      "labeled_at": "2026-09-11T10:35:40.936499+00:00",
+      "modified_at": "2026-09-11T10:35:40.936499+00:00"
+    },
+    "GOLDEN-0205": {
+      "golden_id": "GOLDEN-0205",
+      "conversation_id": 113493,
+      "intent_label": "Network / Connectivity",
+      "escalation_label": "AUTO_HANDLE",
+      "notes": "No internet connection over Wi-Fi after system update",
+      "label_source": "human_direct",
+      "labeled_by": "human",
+      "labeled_at": "2026-09-11T10:35:40.936499+00:00",
+      "modified_at": "2026-09-11T10:35:40.936499+00:00"
+    },
+    "GOLDEN-0206": {
+      "golden_id": "GOLDEN-0206",
+      "conversation_id": 158301,
+      "intent_label": "Network / Connectivity",
+      "escalation_label": "AUTO_HANDLE",
+      "notes": "ASUS Wi-Fi card adapter stopped working after latest OS update",
+      "label_source": "human_direct",
+      "labeled_by": "human",
+      "labeled_at": "2026-09-11T10:35:40.936499+00:00",
+      "modified_at": "2026-09-11T10:35:40.936499+00:00"
+    },
+    "GOLDEN-0207": {
+      "golden_id": "GOLDEN-0207",
+      "conversation_id": 172140,
+      "intent_label": "Network / Connectivity",
+      "escalation_label": "AUTO_HANDLE",
+      "notes": "Apps unable to detect internet connection after Fall Creators Update",
+      "label_source": "human_direct",
+      "labeled_by": "human",
+      "labeled_at": "2026-09-11T10:35:40.936499+00:00",
+      "modified_at": "2026-09-11T10:35:40.936499+00:00"
+    },
+    "GOLDEN-0208": {
+      "golden_id": "GOLDEN-0208",
+      "conversation_id": 19895,
+      "intent_label": "Network / Connectivity",
+      "escalation_label": "AUTO_HANDLE",
+      "notes": "Mail sync failure persisting across both Wi-Fi and LTE connections",
+      "label_source": "human_direct",
+      "labeled_by": "human",
+      "labeled_at": "2026-09-11T10:35:40.936499+00:00",
+      "modified_at": "2026-09-11T10:35:40.936499+00:00"
+    },
+    "GOLDEN-0209": {
+      "golden_id": "GOLDEN-0209",
+      "conversation_id": 121907,
+      "intent_label": "Cancellation / Subscription",
+      "escalation_label": "AUTO_HANDLE",
+      "notes": "Unable to cancel auto-renewal for Xbox Live Gold directly on console",
+      "label_source": "human_direct",
+      "labeled_by": "human",
+      "labeled_at": "2026-09-11T10:35:40.936499+00:00",
+      "modified_at": "2026-09-11T10:35:40.936499+00:00"
+    },
+    "GOLDEN-0210": {
+      "golden_id": "GOLDEN-0210",
+      "conversation_id": 477055,
+      "intent_label": "Cancellation / Subscription",
+      "escalation_label": "ESCALATE_TO_HUMAN",
+      "notes": "Support chat told user auto-renew cannot be toggled on console; card locked in",
+      "label_source": "human_direct",
+      "labeled_by": "human",
+      "labeled_at": "2026-09-11T10:35:40.936499+00:00",
+      "modified_at": "2026-09-11T10:35:40.936499+00:00"
+    },
+    "GOLDEN-0211": {
+      "golden_id": "GOLDEN-0211",
+      "conversation_id": 2089738,
+      "intent_label": "Cancellation / Subscription",
+      "escalation_label": "ESCALATE_TO_HUMAN",
+      "notes": "Recurring billing continues despite proof of Xbox Live cancellation",
+      "label_source": "human_direct",
+      "labeled_by": "human",
+      "labeled_at": "2026-09-11T10:35:40.936499+00:00",
+      "modified_at": "2026-09-11T10:35:40.936499+00:00"
+    },
+    "GOLDEN-0212": {
+      "golden_id": "GOLDEN-0212",
+      "conversation_id": 1613003,
+      "intent_label": "Cancellation / Subscription",
+      "escalation_label": "AUTO_HANDLE",
+      "notes": "OneDrive/Office 365 issues unresolved; customer inquiring whether to cancel subscription",
+      "label_source": "human_direct",
+      "labeled_by": "human",
+      "labeled_at": "2026-09-11T10:35:40.936499+00:00",
+      "modified_at": "2026-09-11T10:35:40.936499+00:00"
+    },
+    "GOLDEN-0213": {
+      "golden_id": "GOLDEN-0213",
+      "conversation_id": 557703,
+      "intent_label": "Order / Delivery",
+      "escalation_label": "AUTO_HANDLE",
+      "notes": "Order shows shipped but FedEx tracking indicates label printed only",
+      "label_source": "human_direct",
+      "labeled_by": "human",
+      "labeled_at": "2026-09-11T10:35:40.936499+00:00",
+      "modified_at": "2026-09-11T10:35:40.936499+00:00"
+    },
+    "GOLDEN-0214": {
+      "golden_id": "GOLDEN-0214",
+      "conversation_id": 199610,
+      "intent_label": "Order / Delivery",
+      "escalation_label": "ESCALATE_TO_HUMAN",
+      "notes": "Pre-ordered FIFA 18 never received; carrier confirms package never arrived",
+      "label_source": "human_direct",
+      "labeled_by": "human",
+      "labeled_at": "2026-09-11T10:35:40.936499+00:00",
+      "modified_at": "2026-09-11T10:35:40.936499+00:00"
+    },
+    "GOLDEN-0215": {
+      "golden_id": "GOLDEN-0215",
+      "conversation_id": 424743,
+      "intent_label": "Order / Delivery",
+      "escalation_label": "ESCALATE_TO_HUMAN",
+      "notes": "Online order stuck in shipping limbo past promised ship date",
+      "label_source": "human_direct",
+      "labeled_by": "human",
+      "labeled_at": "2026-09-11T10:35:40.936499+00:00",
+      "modified_at": "2026-09-11T10:35:40.936499+00:00"
+    },
+    "GOLDEN-0216": {
+      "golden_id": "GOLDEN-0216",
+      "conversation_id": 92027,
+      "intent_label": "Order / Delivery",
+      "escalation_label": "ESCALATE_TO_HUMAN",
+      "notes": "Store support unable to provide order status after 3 days of escalation",
+      "label_source": "human_direct",
+      "labeled_by": "human",
+      "labeled_at": "2026-09-11T10:35:40.936499+00:00",
+      "modified_at": "2026-09-11T10:35:40.936499+00:00"
     }
   }
 }
