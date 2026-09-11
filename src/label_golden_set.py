@@ -1,10 +1,10 @@
 """
 Interactive local labeler for the Golden Evaluation Set.
 
-Fully offline and human-only:
-
-* it never calls Gemini or any other AI model,
-* it never generates or suggests labels.
+Fully offline and human-driven:
+* Supports optional AI-assisted suggestions for faster labeling.
+* Every final label MUST be confirmed/approved by a human annotator.
+* AI suggestions are purely advisory and never automatically become ground truth.
 
 Usage::
 
@@ -16,11 +16,11 @@ Usage::
 Inside the labeler you can type, at the intent / escalation prompts:
 
   - a number to select that option (exactly one per record),
+  - ``a`` (accept) to accept the advisory AI suggestion (if available),
   - ``q`` (quit)  to save progress and exit,
   - ``b`` (back)  to go back to the previous record,
   - ``s`` (skip)  to leave the current record unlabeled and move on.
 
-The optional notes prompt takes free-form text; leave it empty for no note.
 Progress is saved to disk after every labeled record, so closing the program
 never loses work.
 """
@@ -35,6 +35,7 @@ from . import labeling as L
 QUIT_COMMANDS = {"quit", "q", "exit"}
 BACK_COMMANDS = {"back", "b"}
 SKIP_COMMANDS = {"skip", "s"}
+ACCEPT_COMMANDS = {"accept", "a"}
 
 
 # ---------------------------------------------------------------------------
@@ -51,13 +52,18 @@ def _read_line(prompt: str) -> str:
 def _prompt_option(
     name: str,
     options: List[str],
+    has_suggestion: bool = False,
 ) -> Tuple[str, Optional[str]]:
     """Prompt until a valid option number or a navigation command is entered.
 
-    Returns ``("ok", value)`` on a valid selection, or ``("quit" | "back" |
-    "skip", None)`` for a navigation command.
+    Returns ``("ok", value)`` on a valid selection, ``("accept", None)`` to
+    accept the AI suggestion, or ``("quit" | "back" | "skip", None)`` for navigation.
     """
-    commands = "q=quit b=back s=skip"
+    cmd_parts = ["q=quit", "b=back", "s=skip"]
+    if has_suggestion:
+        cmd_parts.insert(0, "a=accept suggestion")
+    commands = " ".join(cmd_parts)
+
     while True:
         raw = _read_line(f"  [{name} (1-{len(options)} | {commands})] > ")
         low = raw.lower()
@@ -67,11 +73,13 @@ def _prompt_option(
             return ("back", None)
         if low in SKIP_COMMANDS:
             return ("skip", None)
+        if has_suggestion and low in ACCEPT_COMMANDS:
+            return ("accept", None)
         if raw.isdigit() and 1 <= int(raw) <= len(options):
             return ("ok", options[int(raw) - 1])
         print(
             f"  Please enter a number 1..{len(options)} (or "
-            f"q/b/s). Got: {raw!r}"
+            f"{'/'.join(cmd_parts)}). Got: {raw!r}"
         )
 
 
@@ -92,6 +100,7 @@ def _print_record(
     index: int,
     total: int,
     store: Dict[str, Any],
+    suggestion: Optional[Dict[str, Any]] = None,
 ) -> None:
     entry = store.get("labels", {}).get(record.get("golden_id"))
     status = "UNLABELED" if not L.is_complete(entry) else "PREVIOUSLY LABELED"
@@ -114,10 +123,21 @@ def _print_record(
     else:
         print("  (none)")
     print()
+
+    if suggestion:
+        conf_pct = int(float(suggestion.get("confidence", 1.0)) * 100)
+        print("ADVISORY AI SUGGESTION (type 'a' to accept, or enter numbers manually):")
+        print(f"  Suggested Intent     : {suggestion.get('suggested_intent')}")
+        print(f"  Suggested Escalation : {suggestion.get('suggested_escalation')}")
+        print(f"  Confidence           : {conf_pct}%")
+        print(f"  Reason               : {suggestion.get('reason')}")
+        print()
+
     if L.is_complete(entry):
         print("CURRENTLY SAVED")
         print(f"  intent_label      : {entry.get('intent_label', '')}")
         print(f"  escalation_label  : {entry.get('escalation_label', '')}")
+        print(f"  label_source      : {entry.get('label_source', 'human_direct')}")
         print(f"  notes             : {entry.get('notes', '') or '(none)'}")
     print(bar)
 
@@ -149,10 +169,13 @@ def run_interactive(
     labels_path: str,
     start_index: int,
     intents: List[str],
+    suggestions_store: Optional[Dict[str, Any]] = None,
 ) -> int:
     records = L.golden_records(payload)
     total = len(records)
     idx = start_index
+
+    sug_map = suggestions_store.get("suggestions", {}) if suggestions_store else {}
 
     while True:
         if idx >= total:
@@ -163,7 +186,10 @@ def run_interactive(
             return 0
 
         record = records[idx]
-        _print_record(record, idx, total, store)
+        gid = record.get("golden_id")
+        suggestion = sug_map.get(gid)
+
+        _print_record(record, idx, total, store, suggestion=suggestion)
 
         print("INTENT (choose exactly one):")
         for i, name in enumerate(intents, 1):
@@ -172,7 +198,9 @@ def run_interactive(
         for i, esc in enumerate(L.ESCALATION_VALUES, 1):
             print(f"  {i}) {esc}")
 
-        action, intent_value = _prompt_option("intent", intents)
+        action, intent_value = _prompt_option(
+            "intent", intents, has_suggestion=(suggestion is not None)
+        )
         if action == "quit":
             return _save_and_exit(store, labels_path, payload)
         if action == "back":
@@ -182,6 +210,39 @@ def run_interactive(
             idx = _next_unlabeled_after(records, store, idx)
             continue
 
+        if action == "accept" and suggestion:
+            intent_value = suggestion.get("suggested_intent")
+            esc_value = suggestion.get("suggested_escalation")
+            print(f"  [accepting AI suggestion: intent={intent_value}, escalation={esc_value}]")
+            notes = _read_line("  [notes (optional, press Enter to skip)] > ")
+            if notes.lower() in QUIT_COMMANDS:
+                return _save_and_exit(store, labels_path, payload)
+            if notes.lower() in SKIP_COMMANDS:
+                idx = _next_unlabeled_after(records, store, idx)
+                continue
+
+            try:
+                L.set_label(
+                    store,
+                    record,
+                    intent_value,
+                    esc_value,
+                    notes=notes,
+                    valid_intents=intents,
+                    label_source="human_accepted_ai",
+                    ai_suggestion=suggestion,
+                )
+            except ValueError as exc:
+                print(f"  Invalid label: {exc}")
+                continue
+            L.save_labels(store, labels_path)
+            print(f"  [saved] {record['golden_id']}: "
+                  f"intent={intent_value}, escalation={esc_value} (human_accepted_ai) "
+                  f"({idx + 1}/{total})")
+            idx = _next_unlabeled_after(records, store, idx)
+            continue
+
+        # Otherwise continue with manual escalation prompt
         action, esc_value = _prompt_option("escalation", L.ESCALATION_VALUES)
         if action == "quit":
             return _save_and_exit(store, labels_path, payload)
@@ -207,13 +268,16 @@ def run_interactive(
                 esc_value,
                 notes=notes,
                 valid_intents=intents,
+                ai_suggestion=suggestion,
             )
         except ValueError as exc:
             print(f"  Invalid label: {exc}")
             continue
         L.save_labels(store, labels_path)
+        saved_entry = store.get("labels", {}).get(record["golden_id"], {})
+        src = saved_entry.get("label_source", "human_direct")
         print(f"  [saved] {record['golden_id']}: "
-              f"intent={intent_value}, escalation={esc_value} "
+              f"intent={intent_value}, escalation={esc_value} ({src}) "
               f"({idx + 1}/{total})")
         idx = _next_unlabeled_after(records, store, idx)
 
@@ -276,6 +340,10 @@ def main(argv: Optional[List[str]] = None) -> int:
         help="Where labels are stored (default: evaluation/golden_set.labels.json)",
     )
     parser.add_argument(
+        "--suggestions-path", default=str(L.DEFAULT_SUGGESTIONS_PATH),
+        help="Where AI suggestions are stored (default: evaluation/golden_set.suggestions.json)",
+    )
+    parser.add_argument(
         "--record", default=None,
         help="Start labeling at this golden_id (e.g. GOLDEN-0010)",
     )
@@ -291,6 +359,7 @@ def main(argv: Optional[List[str]] = None) -> int:
 
     payload = L.load_golden_set(args.golden_path)
     store = L.load_labels(args.labels_path)
+    suggestions_store = L.load_suggestions(args.suggestions_path)
     records = L.golden_records(payload)
     store["count_total"] = len(records)
     if not Path(args.labels_path).exists():
@@ -321,7 +390,14 @@ def main(argv: Optional[List[str]] = None) -> int:
         print(f"Resuming at record {start + 1}/{len(records)} "
               f"({rec['golden_id']}), the first unlabeled record.")
 
-    return run_interactive(payload, store, args.labels_path, start, intents)
+    return run_interactive(
+        payload,
+        store,
+        args.labels_path,
+        start,
+        intents,
+        suggestions_store=suggestions_store,
+    )
 
 
 if __name__ == "__main__":

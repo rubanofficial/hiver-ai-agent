@@ -71,52 +71,54 @@ shared with the runtime agent. Do not invent new intents._
 
 ---
 
-## Running the interactive labeler (recommended)
+---
 
-You do not have to edit JSON by hand. A small interactive labeling tool is
-provided. It is fully local: it never calls Gemini or any other AI model and
-never suggests labels — every value below comes from you.
+## AI-Assisted Labeling & Provenance Tracking
 
-Start (or resume) labeling:
+To speed up annotation while guaranteeing 100% human-approved ground truth, you can pre-generate advisory AI suggestions using Gemini:
+
+```bash
+# Generate and cache advisory suggestions for all 200 records:
+python -m src.suggest_labels
+```
+
+### Key Principles:
+1. **Advisory Only**: AI suggestions are advisory hints displayed in the UI and CLI.
+2. **Human in the Loop**: Every label must be explicitly approved or modified by a human.
+3. **Strict Data Isolation**: Gemini receives ONLY customer message, conversation context, historical Microsoft responses, the 10 taxonomy definitions, and human guidance. It NEVER receives existing human labels.
+4. **Caching**: Every AI suggestion is cached in `evaluation/golden_set.suggestions.json` so rerunning never makes redundant API calls.
+5. **Provenance Auditing**: Every saved record records `label_source`:
+   - `human_accepted_ai` — human reviewed and accepted the AI suggestion.
+   - `human_modified_ai` — human reviewed the AI suggestion and modified intent/escalation.
+   - `human_direct` — human entered labels directly without an AI suggestion.
+
+---
+
+## Running the interactive labeler (CLI)
+
+Start (or resume) labeling in terminal:
 
 ```bash
 python -m src.label_golden_set
 ```
 
-It opens at the first unlabeled record (`evaluation/golden_set.json` is read
-but never modified). For each record it prints the golden id, the customer
-message, the conversation context, and Microsoft's historical responses, then
-asks you to:
+For each record, it prints the customer message, conversation context, historical Microsoft responses, and the advisory AI suggestion (if available).
 
-- pick **exactly one** intent (number `1`..`10`), and
-- pick **exactly one** escalation label (number `1` or `2`), and
-- optionally type a note (or press Enter to skip).
+- Type `a` to **accept the advisory suggestion** (records with `human_accepted_ai`).
+- Or enter numbers `1`..`10` for intent and `1`..`2` for escalation to select manually.
+- Navigation keys: `b` (back), `s` (skip), `q` (save and quit).
 
-At any intent/escalation prompt you can also type:
-
-- `q` — save progress and quit
-- `b` — go back to the previous record
-- `s` — skip this record for now
-
-Progress is saved to `evaluation/golden_set.labels.json` after every record,
-so closing the program never loses work. Useful extras:
+Useful CLI commands:
 
 ```bash
-python -m src.label_golden_set --list                 # show progress only
-python -m src.label_golden_set --record GOLDEN-0010   # jump to a record
+python -m src.label_golden_set --list                 # show progress and provenance breakdown
+python -m src.label_golden_set --record GOLDEN-0010   # jump directly to a record
 python -m src.label_golden_set --export evaluation    # write labeled copy
 ```
-
-`--export` writes a *copy* (`evaluation/golden_set.labeled.json`) with the
-labels merged in. `golden_set.json` is never overwritten.
 
 ---
 
 ## Web interface (dropdown-based, recommended)
-
-A browser-based labeling interface is also available.  It uses only the
-Python standard library (no new dependencies) and provides native HTML
-dropdowns for intent and escalation selection.
 
 Start the local server:
 
@@ -124,27 +126,11 @@ Start the local server:
 python -m src.labeling_server
 ```
 
-This opens a browser at `http://127.0.0.1:8000`.  The left sidebar lists all
-200 records (labeled / unlabeled).  The right panel shows the customer
-message, conversation context, and Microsoft responses, with two dropdowns:
+This opens a browser at `http://127.0.0.1:8000`.
 
-- **Intent** — pick exactly one of the 10 taxonomy values.
-- **Escalation** — pick `AUTO_HANDLE` or `ESCALATE_TO_HUMAN`.
-
-There is also an optional notes textarea.  Click **Save** after each record;
-progress is written to `evaluation/golden_set.labels.json` immediately, so
-closing the browser or stopping the server never loses work.
-
-On restart, the interface opens at the first unlabeled record automatically
-(resume).
-
-Other options:
-
-```bash
-python -m src.labeling_server --port 9000     # custom port
-python -m src.labeling_server --no-open       # print URL, no browser
-```
-
-The **Export labeled copy** button writes a complete
-`evaluation/golden_set.labeled.json` with human labels merged into every
-record.  `golden_set.json` is never modified.
+- **Sidebar**: Lists all 200 records with `todo` and `labeled` badges.
+- **AI Suggestion Box**: Displays suggested intent, suggested escalation, confidence percentage, and reason.
+- **Accept Suggestion Button**: One click accepts the suggestion and saves with `label_source: "human_accepted_ai"`.
+- **Manual Select**: Use the dropdowns to choose or modify any intent/escalation.
+- **Save Decision**: Persists progress to `evaluation/golden_set.labels.json`.
+- **Export labeled copy**: Exports a merged copy to `evaluation/golden_set.labeled.json`. `golden_set.json` is never modified.

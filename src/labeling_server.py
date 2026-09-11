@@ -2,10 +2,11 @@
 Minimal local web labeler for the Golden Evaluation Set (stdlib only).
 
 Zero new dependencies — runs on Python's built-in ``http.server`` and serves
-a small single-page HTML+JS interface with native <select> dropdowns for
-the intent and escalation labels.  Labels are saved incrementally to
-``evaluation/golden_set.labels.json``; the original Golden Set JSON is
-**never** modified.
+a clean HTML+JS interface with native <select> dropdowns for intent and
+escalation labels, plus an AI Advisory Suggestion card.
+
+Labels are saved incrementally to ``evaluation/golden_set.labels.json``; the
+original Golden Set JSON is **never** modified.
 
 Usage::
 
@@ -13,9 +14,8 @@ Usage::
     python -m src.labeling_server --port 9000
     python -m src.labeling_server --no-open   # print URL only
 
-The server exposes a tiny JSON API (``/api/index``, ``/api/record/<id>``,
-``/api/intents``, ``POST /api/export``) plus a single ``GET /`` page that
-consumes it via plain ``fetch``.  No AI model is called at any point.
+The server exposes a JSON API (``/api/index``, ``/api/record/<id>``,
+``/api/intents``, ``POST /api/export``) plus a single ``GET /`` page.
 """
 
 import argparse
@@ -33,6 +33,7 @@ from . import labeling as L
 DEFAULT_HOST = "127.0.0.1"
 DEFAULT_PORT = 8000
 
+
 # ---------------------------------------------------------------------------
 # Application state
 # ---------------------------------------------------------------------------
@@ -40,16 +41,23 @@ DEFAULT_PORT = 8000
 class LabelerApp:
     """Thin wrapper around ``src.labeling`` that holds the in-memory state."""
 
-    def __init__(self, golden_path: str, labels_path: str,
-                 config_path: str = None) -> None:
+    def __init__(
+        self,
+        golden_path: str,
+        labels_path: str,
+        config_path: str = None,
+        suggestions_path: str = None,
+    ) -> None:
         self.golden_path = Path(golden_path)
         self.labels_path = Path(labels_path)
+        self.suggestions_path = Path(suggestions_path) if suggestions_path else Path(L.DEFAULT_SUGGESTIONS_PATH)
         self.payload = L.load_golden_set(golden_path)
         self.records = L.golden_records(self.payload)
         self.store = L.load_labels(labels_path)
         self.store["count_total"] = len(self.records)
         if not self.labels_path.exists():
             self.store["source"] = str(self.golden_path)
+        self.suggestions_store = L.load_suggestions(str(self.suggestions_path))
         self.intents = L.load_intent_names(config_path)
         self.lock = threading.Lock()
 
@@ -79,7 +87,7 @@ class LabelerApp:
         }
 
     def get_record(self, golden_id: str) -> dict | None:
-        """Return full record content plus the current label (if any)."""
+        """Return full record content plus the current label and AI suggestion (if any)."""
         with self.lock:
             rec = next(
                 (r for r in self.records if r["golden_id"] == golden_id), None
@@ -87,6 +95,7 @@ class LabelerApp:
             if rec is None:
                 return None
             entry = self.store.get("labels", {}).get(golden_id) or {}
+            suggestion = self.suggestions_store.get("suggestions", {}).get(golden_id)
             return {
                 "golden_id": rec["golden_id"],
                 "conversation_id": rec.get("conversation_id"),
@@ -95,13 +104,15 @@ class LabelerApp:
                 "microsoft_responses": rec.get("microsoft_responses", []) or [],
                 "intent_label": entry.get(L.INTENT_FIELD, ""),
                 "escalation_label": entry.get(L.ESCALATION_FIELD, ""),
+                "label_source": entry.get(L.LABEL_SOURCE_FIELD, ""),
                 "notes": entry.get(L.NOTES_FIELD, ""),
+                "suggestion": suggestion,
             }
 
     # ---- write helpers ---------------------------------------------------
 
     def save(self, golden_id: str, body: dict) -> dict:
-        """Validate + persist one label; raise ``ValueError`` on bad input."""
+        """Validate + persist one human label; raise ``ValueError`` on bad input."""
         rec = next(
             (r for r in self.records if r["golden_id"] == golden_id), None
         )
@@ -111,15 +122,29 @@ class LabelerApp:
         intent = (body.get("intent_label") or "").strip()
         escalation = (body.get("escalation_label") or "").strip()
         notes = (body.get("notes") or "").strip()
+        label_source = (body.get("label_source") or "").strip() or None
 
-        errors = L.validate_label(intent, escalation, notes, self.intents)
+        errors = L.validate_label(
+            intent,
+            escalation,
+            notes,
+            self.intents,
+            label_source=label_source,
+        )
         if errors:
             raise ValueError("; ".join(errors))
 
         with self.lock:
+            suggestion = self.suggestions_store.get("suggestions", {}).get(golden_id)
             entry = L.set_label(
-                self.store, rec, intent, escalation, notes,
+                self.store,
+                rec,
+                intent,
+                escalation,
+                notes=notes,
                 valid_intents=self.intents,
+                label_source=label_source,
+                ai_suggestion=suggestion,
             )
             L.save_labels(self.store, str(self.labels_path))
         fu_idx = L.first_unlabeled_index(self.records, self.store)
@@ -147,11 +172,11 @@ class LabelerApp:
 
 
 # ---------------------------------------------------------------------------
-# HTTP handler (thin shim — all logic lives in LabelerApp)
+# HTTP handler
 # ---------------------------------------------------------------------------
 
 class LabelingHandler(BaseHTTPRequestHandler):
-    """Serves the static page + JSON API.  ``app`` is injected via partial."""
+    """Serves the static page + JSON API. ``app`` is injected via partial."""
 
     protocol_version = "HTTP/1.1"
 
@@ -159,7 +184,6 @@ class LabelingHandler(BaseHTTPRequestHandler):
         self.app = app
         super().__init__(*args, **kwargs)
 
-    # No request-level logging to keep the console clean.
     def log_message(self, fmt, *args):  # noqa: D401
         pass
 
@@ -242,7 +266,7 @@ class LabelingHandler(BaseHTTPRequestHandler):
 
 
 # ---------------------------------------------------------------------------
-# Embedded HTML + JS  (single page, no frameworks, no build step)
+# Embedded HTML + JS
 # ---------------------------------------------------------------------------
 
 PAGE_HTML = r"""<!DOCTYPE html>
@@ -250,7 +274,7 @@ PAGE_HTML = r"""<!DOCTYPE html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Golden Set Labeler</title>
+<title>Golden Set Labeler (AI-Assisted Human Review)</title>
 <style>
   *{box-sizing:border-box;margin:0;padding:0}
   body{font-family:system-ui,-apple-system,sans-serif;background:#f5f6f8;
@@ -276,7 +300,7 @@ PAGE_HTML = r"""<!DOCTYPE html>
   #main-header h2{font-size:15px;font-weight:600}
   #main-body{flex:1;overflow-y:auto;padding:20px 24px;display:flex;gap:24px}
   #record-panel{flex:2;min-width:0}
-  #label-panel{flex:1;min-width:240px;max-width:340px}
+  #label-panel{flex:1;min-width:280px;max-width:380px}
   .section{margin-bottom:16px}
   .section-label{font-size:12px;font-weight:600;text-transform:uppercase;
                  color:#555;margin-bottom:4px;letter-spacing:.3px}
@@ -302,9 +326,24 @@ PAGE_HTML = r"""<!DOCTYPE html>
   .msg-ok{color:#065f46}
   .msg-err{color:#991b1b}
   #toolbar{display:flex;gap:6px;align-items:center}
-  .hint{font-size:11px;color:#888;margin-top:12px}
+  .hint{font-size:11px;color:#888;margin-top:12px;line-height:1.4}
   #all-done-banner{padding:10px 16px;background:#d1fae5;color:#065f46;
                    font-weight:600;font-size:13px;display:none;text-align:center}
+
+  /* AI Advisory Card */
+  .ai-card{background:#eff6ff;border:1px solid #bfdbfe;border-radius:6px;padding:12px 14px;margin-bottom:16px}
+  .ai-card-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
+  .ai-badge{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.4px;color:#1e40af;background:#dbeafe;padding:2px 7px;border-radius:4px}
+  .ai-conf{font-size:12px;font-weight:600;color:#1e40af}
+  .ai-card-body{font-size:13px;line-height:1.5;margin-bottom:10px}
+  .ai-prop{margin-bottom:4px}
+  .ai-reason{color:#374151;font-style:italic;margin-top:6px;font-size:12px;border-left:2px solid #93c5fd;padding-left:8px}
+  .btn-accept-ai{background:#2563eb;color:#fff;width:100%;padding:8px 12px;font-size:13px;font-weight:600;border:none;border-radius:4px;cursor:pointer;margin-top:6px}
+  .btn-accept-ai:hover{background:#1d4ed8}
+  .source-badge{display:inline-block;font-size:11px;font-weight:600;padding:2px 6px;border-radius:4px;margin-top:4px}
+  .source-accepted{background:#dbeafe;color:#1e40af}
+  .source-modified{background:#fef3c7;color:#92400e}
+  .source-direct{background:#f3f4f6;color:#374151}
 </style>
 </head>
 <body>
@@ -344,6 +383,20 @@ PAGE_HTML = r"""<!DOCTYPE html>
       </div>
     </div>
     <div id="label-panel">
+      <!-- AI Advisory Box -->
+      <div id="ai-suggestion-box" class="ai-card" style="display:none;">
+        <div class="ai-card-header">
+          <span class="ai-badge">AI Advisory Suggestion</span>
+          <span id="ai-confidence" class="ai-conf"></span>
+        </div>
+        <div class="ai-card-body">
+          <div class="ai-prop"><strong>Intent:</strong> <span id="ai-intent"></span></div>
+          <div class="ai-prop"><strong>Escalation:</strong> <span id="ai-escalation"></span></div>
+          <div class="ai-reason" id="ai-reason"></div>
+        </div>
+        <button type="button" class="btn btn-accept-ai" id="btn-accept-ai">Accept Suggestion</button>
+      </div>
+
       <div class="section">
         <label for="intent">Intent</label>
         <select id="intent"><option value="">-- select --</option></select>
@@ -360,13 +413,17 @@ PAGE_HTML = r"""<!DOCTYPE html>
         <label for="notes">Notes (optional)</label>
         <textarea id="notes" placeholder="Optional judgment note ..."></textarea>
       </div>
+      <div id="current-source-container" style="margin-bottom:10px;display:none;">
+        <span class="section-label">Label Provenance: </span>
+        <span id="current-source-badge" class="source-badge"></span>
+      </div>
       <div id="controls">
-        <button class="btn btn-primary" id="btn-save">Save</button>
+        <button class="btn btn-primary" id="btn-save">Save Decision</button>
       </div>
       <div id="status-msg"></div>
       <div class="hint">
-        No AI model is invoked.<br>
-        All labels are entered by you (human ground truth).
+        No AI model is invoked directly by this page.<br>
+        All saved labels represent human decisions (human ground truth).
       </div>
     </div>
   </div>
@@ -377,7 +434,7 @@ PAGE_HTML = r"""<!DOCTYPE html>
 
 const $ = id => document.getElementById(id);
 
-const state = { records: [], idx: -1 };
+const state = { records: [], idx: -1, currentRec: null };
 
 async function api(method, url, body){
   const opts = { method, headers: {"Content-Type":"application/json"} };
@@ -421,6 +478,8 @@ async function showRecord(idx){
   renderList();
 
   const rec = await api("GET", "/api/record/" + encodeURIComponent(r.golden_id));
+  state.currentRec = rec;
+
   $("customer-message").textContent = rec.customer_message || "(none)";
   $("conversation-context").textContent = rec.conversation_context || "(none)";
 
@@ -437,9 +496,35 @@ async function showRecord(idx){
     ul.appendChild(li);
   }
 
+  // AI Suggestion Box
+  const aiBox = $("ai-suggestion-box");
+  if(rec.suggestion){
+    $("ai-intent").textContent = rec.suggestion.suggested_intent || "(none)";
+    $("ai-escalation").textContent = rec.suggestion.suggested_escalation || "(none)";
+    const conf = Math.round(parseFloat(rec.suggestion.confidence || 1.0) * 100);
+    $("ai-confidence").textContent = `${conf}% confidence`;
+    $("ai-reason").textContent = rec.suggestion.reason ? `"${rec.suggestion.reason}"` : "";
+    aiBox.style.display = "block";
+  } else {
+    aiBox.style.display = "none";
+  }
+
   $("intent").value     = rec.intent_label     || "";
   $("escalation").value = rec.escalation_label || "";
   $("notes").value      = rec.notes            || "";
+
+  const srcBox = $("current-source-container");
+  const srcBadge = $("current-source-badge");
+  if(rec.label_source){
+    srcBadge.textContent = rec.label_source;
+    srcBadge.className = "source-badge " +
+      (rec.label_source === "human_accepted_ai" ? "source-accepted" :
+       rec.label_source === "human_modified_ai" ? "source-modified" : "source-direct");
+    srcBox.style.display = "block";
+  } else {
+    srcBox.style.display = "none";
+  }
+
   $("status-msg").textContent = "";
   $("btn-save").disabled = false;
 }
@@ -456,7 +541,7 @@ function setMsg(text, ok){
   el.className = ok ? "msg-ok" : "msg-err";
 }
 
-$("btn-save").addEventListener("click", async () => {
+async function performSave(labelSource){
   const intent     = $("intent").value;
   const escalation = $("escalation").value;
   const notes      = $("notes").value.trim();
@@ -466,14 +551,15 @@ $("btn-save").addEventListener("click", async () => {
   const gid = state.records[state.idx].golden_id;
   try {
     $("btn-save").disabled = true;
-    const res = await api("PUT",
-      "/api/record/" + encodeURIComponent(gid),
-      { intent_label: intent, escalation_label: escalation, notes }
-    );
+    const body = { intent_label: intent, escalation_label: escalation, notes: notes };
+    if(labelSource) body.label_source = labelSource;
+
+    const res = await api("PUT", "/api/record/" + encodeURIComponent(gid), body);
     state.records[state.idx].labeled = true;
     renderProgress(res.count_labeled, res.count_total);
     renderList();
-    setMsg(`Saved ${gid}  (${res.count_labeled} / ${res.count_total})`, true);
+    const savedSrc = res.saved ? res.saved.label_source : (labelSource || "saved");
+    setMsg(`Saved ${gid} (${savedSrc}) [${res.count_labeled} / ${res.count_total}]`, true);
 
     const next = nextUnlabeled(state.idx + 1);
     if(next >= 0) showRecord(next);
@@ -481,6 +567,18 @@ $("btn-save").addEventListener("click", async () => {
     setMsg("Error: " + e.message, false);
     $("btn-save").disabled = false;
   }
+}
+
+$("btn-accept-ai").addEventListener("click", () => {
+  if(!state.currentRec || !state.currentRec.suggestion) return;
+  const sug = state.currentRec.suggestion;
+  $("intent").value = sug.suggested_intent || "";
+  $("escalation").value = sug.suggested_escalation || "";
+  performSave("human_accepted_ai");
+});
+
+$("btn-save").addEventListener("click", () => {
+  performSave(null);
 });
 
 $("btn-prev").addEventListener("click", () => {
@@ -552,11 +650,16 @@ def main(argv=None):
     parser.add_argument("--port", type=int, default=DEFAULT_PORT)
     parser.add_argument("--golden-path", default=str(L.DEFAULT_GOLDEN_SET_PATH))
     parser.add_argument("--labels-path", default=str(L.DEFAULT_LABELS_PATH))
+    parser.add_argument("--suggestions-path", default=str(L.DEFAULT_SUGGESTIONS_PATH))
     parser.add_argument("--no-open", action="store_true",
                         help="Do not auto-open a browser")
     args = parser.parse_args(argv)
 
-    app = LabelerApp(args.golden_path, args.labels_path)
+    app = LabelerApp(
+        golden_path=args.golden_path,
+        labels_path=args.labels_path,
+        suggestions_path=args.suggestions_path,
+    )
     free_port = _find_free_port(args.host, args.port)
 
     handler_factory = partial(LabelingHandler, app=app)
@@ -564,14 +667,13 @@ def main(argv=None):
 
     url = f"http://{args.host}:{free_port}"
     fu = L.first_unlabeled_index(app.records, app.store)
+    sug_count = len(app.suggestions_store.get("suggestions", {}))
     print(f"Golden Set Labeler listening on {url}")
-    print(
-        f"Progress: {L.count_labeled(app.store)} / "
-        f"{len(app.records)} labeled"
-    )
+    print(f"Progress   : {L.count_labeled(app.store)} / {len(app.records)} labeled")
+    print(f"Suggestions: {sug_count} / {len(app.records)} cached advisory suggestions")
     if fu < len(app.records):
         rec = app.records[fu]
-        print(f"Resume : {rec['golden_id']} (record {fu + 1})")
+        print(f"Resume     : {rec['golden_id']} (record {fu + 1})")
     else:
         print("All records are already labeled.")
     print("Press Ctrl+C to stop.\n")

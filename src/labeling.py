@@ -2,7 +2,7 @@
 Local human-labeling workflow for the Golden Evaluation Set.
 
 This module provides the file I/O, validation, and resume helpers used by the
-interactive labeling CLI (``src.label_golden_set``).  It is 100% offline:
+interactive labeling CLI (``src.label_golden_set``) and web server. It is 100% offline:
 
 * it never calls Gemini or any other AI model,
 * it never generates or suggests a label,
@@ -12,6 +12,12 @@ Labels are stored SEPARATELY from the source data (``golden_set.labels.json``)
 so the original Golden Set is never modified and every label keeps full
 conversation traceability (``golden_id`` + ``conversation_id``).  An export
 helper merges the labels into a *copy* of the set when labeling is finished.
+
+Audit trail:
+Each label record includes ``label_source`` to track provenance:
+- ``human_accepted_ai``: Human accepted the advisory AI suggestion.
+- ``human_modified_ai``: Human reviewed and modified the advisory AI suggestion.
+- ``human_direct``: Human labeled directly without an AI suggestion.
 """
 
 import json
@@ -27,6 +33,7 @@ from .golden_set import load_intent_taxonomy
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_GOLDEN_SET_PATH = PROJECT_ROOT / "evaluation" / "golden_set.json"
 DEFAULT_LABELS_PATH = PROJECT_ROOT / "evaluation" / "golden_set.labels.json"
+DEFAULT_SUGGESTIONS_PATH = PROJECT_ROOT / "evaluation" / "golden_set.suggestions.json"
 DEFAULT_EVALUATION_DIR = PROJECT_ROOT / "evaluation"
 
 LABELS_SCHEMA_VERSION = "1.0.0"
@@ -35,7 +42,14 @@ HUMAN_LABELER = "human"
 INTENT_FIELD = "intent_label"
 ESCALATION_FIELD = "escalation_label"
 NOTES_FIELD = "notes"
+LABEL_SOURCE_FIELD = "label_source"
 LABEL_FIELDS = [INTENT_FIELD, ESCALATION_FIELD, NOTES_FIELD]
+
+LABEL_SOURCES = [
+    "human_accepted_ai",
+    "human_modified_ai",
+    "human_direct",
+]
 
 # Valid escalation values; must match the runtime agent's enum exactly.
 ESCALATION_VALUES = ["AUTO_HANDLE", "ESCALATE_TO_HUMAN"]
@@ -101,6 +115,38 @@ def load_labels(path: str = str(DEFAULT_LABELS_PATH)) -> Dict[str, Any]:
     return store
 
 
+def load_suggestions(path: str = str(DEFAULT_SUGGESTIONS_PATH)) -> Dict[str, Any]:
+    """Load AI suggestions store; return empty store if file does not exist."""
+    p = Path(path)
+    if not p.exists():
+        return {
+            "schema_version": "1.0.0",
+            "source": str(DEFAULT_GOLDEN_SET_PATH),
+            "count_total": 0,
+            "count_suggested": 0,
+            "suggestions": {},
+        }
+    with open(p, "r", encoding="utf-8-sig") as f:
+        store = json.load(f)
+    if not isinstance(store, dict) or not isinstance(store.get("suggestions"), dict):
+        raise ValueError(f"Invalid suggestions store: missing 'suggestions' map in {p}")
+    store.setdefault("schema_version", "1.0.0")
+    store.setdefault("suggestions", {})
+    store["count_suggested"] = len(store["suggestions"])
+    return store
+
+
+def save_suggestions(
+    store: Dict[str, Any],
+    path: str = str(DEFAULT_SUGGESTIONS_PATH),
+) -> Path:
+    """Persist the suggestions store atomically."""
+    p = Path(path)
+    store["count_suggested"] = len(store.get("suggestions", {}))
+    _atomic_write_json(p, store)
+    return p
+
+
 # ---------------------------------------------------------------------------
 # Saving (incremental, atomic)
 # ---------------------------------------------------------------------------
@@ -150,11 +196,12 @@ def validate_label(
     escalation_label: str,
     notes: Optional[str] = None,
     valid_intents: Optional[List[str]] = None,
+    label_source: Optional[str] = None,
 ) -> List[str]:
     """Return a list of validation errors (empty list means valid).
 
     A label is valid when exactly one taxonomy intent and exactly one
-    escalation value are provided.  ``notes`` is optional.
+    escalation value are provided. ``notes`` is optional.
     """
     errors: List[str] = []
     if intent_label is None or str(intent_label).strip() == "":
@@ -171,6 +218,10 @@ def validate_label(
         )
     if notes is not None and not isinstance(notes, str):
         errors.append("notes must be a string.")
+    if label_source is not None and label_source not in LABEL_SOURCES:
+        errors.append(
+            f"label_source must be one of {LABEL_SOURCES}, got {label_source!r}."
+        )
     return errors
 
 
@@ -181,14 +232,39 @@ def set_label(
     escalation_label: str,
     notes: Optional[str] = None,
     valid_intents: Optional[List[str]] = None,
+    label_source: Optional[str] = None,
+    ai_suggestion: Optional[Dict[str, Any]] = None,
 ) -> Dict[str, Any]:
     """Record one human label inside ``store`` (mutates and returns entry).
 
-    Raises ``ValueError`` when the label is invalid; no AI and no automated
-    suggestion is involved at any point.
+    Provenance auditing:
+    - If ``label_source`` is not given, it is automatically derived:
+      - ``human_accepted_ai`` when intent and escalation match the AI suggestion.
+      - ``human_modified_ai`` when an AI suggestion exists but was altered.
+      - ``human_direct`` when no AI suggestion was available.
+
+    Raises ``ValueError`` when the label is invalid.
     """
     golden_id = record.get("golden_id", "")
-    errors = validate_label(intent_label, escalation_label, notes, valid_intents)
+
+    if label_source is None:
+        if ai_suggestion and isinstance(ai_suggestion, dict):
+            sug_intent = ai_suggestion.get("suggested_intent")
+            sug_esc = ai_suggestion.get("suggested_escalation")
+            if intent_label == sug_intent and escalation_label == sug_esc:
+                label_source = "human_accepted_ai"
+            else:
+                label_source = "human_modified_ai"
+        else:
+            label_source = "human_direct"
+
+    errors = validate_label(
+        intent_label,
+        escalation_label,
+        notes,
+        valid_intents,
+        label_source=label_source,
+    )
     if errors:
         raise ValueError("; ".join(errors))
 
@@ -200,6 +276,7 @@ def set_label(
         INTENT_FIELD: intent_label,
         ESCALATION_FIELD: escalation_label,
         NOTES_FIELD: "" if notes is None else str(notes),
+        LABEL_SOURCE_FIELD: label_source,
         "labeled_by": HUMAN_LABELER,
         "labeled_at": entry.get("labeled_at", _now_iso()),
         "modified_at": _now_iso(),
@@ -241,8 +318,8 @@ def first_unlabeled_index(
 ) -> int:
     """Index of the first record (in Golden Set order) that still needs labels.
 
-    Returns ``len(records)`` when every record is already labeled.  This is
-    the resume point used by the CLI.
+    Returns ``len(records)`` when every record is already labeled. This is
+    the resume point used by the CLI and UI.
     """
     table = store.get("labels", {})
     for i, rec in enumerate(records):
@@ -281,10 +358,14 @@ def merge_labels(
             rec[INTENT_FIELD] = entry.get(INTENT_FIELD, "")
             rec[ESCALATION_FIELD] = entry.get(ESCALATION_FIELD, "")
             rec[NOTES_FIELD] = entry.get(NOTES_FIELD, "")
+            if LABEL_SOURCE_FIELD in entry:
+                rec[LABEL_SOURCE_FIELD] = entry.get(LABEL_SOURCE_FIELD, "")
         else:
             rec[INTENT_FIELD] = ""
             rec[ESCALATION_FIELD] = ""
             rec[NOTES_FIELD] = ""
+            if LABEL_SOURCE_FIELD in rec:
+                rec[LABEL_SOURCE_FIELD] = ""
     return records
 
 
@@ -341,6 +422,7 @@ def build_summary_text(
     ]
     intent_counts: Dict[str, int] = {}
     esc_counts: Dict[str, int] = {}
+    src_counts: Dict[str, int] = {}
     for entry in table.values():
         if is_complete(entry):
             intent_counts[entry.get(INTENT_FIELD, "")] = (
@@ -349,6 +431,9 @@ def build_summary_text(
             esc_counts[entry.get(ESCALATION_FIELD, "")] = (
                 esc_counts.get(entry.get(ESCALATION_FIELD, ""), 0) + 1
             )
+            src = entry.get(LABEL_SOURCE_FIELD, "human_direct")
+            src_counts[src] = src_counts.get(src, 0) + 1
+
     if intent_counts:
         for name in sorted(intent_counts):
             lines.append(f"  - {name}: {intent_counts[name]}")
@@ -357,4 +442,10 @@ def build_summary_text(
     lines.append("Escalation distribution:")
     for value in ESCALATION_VALUES:
         lines.append(f"  - {value}: {esc_counts.get(value, 0)}")
+
+    if src_counts:
+        lines.append("Label source breakdown:")
+        for src in LABEL_SOURCES:
+            lines.append(f"  - {src}: {src_counts.get(src, 0)}")
+
     return "\n".join(lines)

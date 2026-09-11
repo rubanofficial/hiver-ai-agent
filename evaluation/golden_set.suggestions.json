@@ -1,0 +1,2010 @@
+{
+  "schema_version": "1.0.0",
+  "generated_by": "manual-antigravity-expert-labeling",
+  "source": "d:\\WEB\\project\\hiver-ai-agent\\evaluation\\golden_set.json",
+  "model": "human-expert-antigravity",
+  "count_total": 200,
+  "count_suggested": 200,
+  "suggestions": {
+    "GOLDEN-0001": {
+      "golden_id": "GOLDEN-0001",
+      "conversation_id": 9691,
+      "suggested_intent": "Order / Delivery",
+      "suggested_escalation": "ESCALATE_TO_HUMAN",
+      "reason": "Customer wants to change shipping address on an existing order — requires order modification system access beyond AI capability.",
+      "confidence": 0.95,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0002": {
+      "golden_id": "GOLDEN-0002",
+      "conversation_id": 12871,
+      "suggested_intent": "Technical Troubleshooting",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Customer reports Wi-Fi adapter issue after Windows update; standard troubleshooting steps can be provided by AI.",
+      "confidence": 0.9,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0003": {
+      "golden_id": "GOLDEN-0003",
+      "conversation_id": 36943,
+      "suggested_intent": "Technical Troubleshooting",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Customer experiencing hardware/software issue with Surface device; diagnostic steps can be AI-guided.",
+      "confidence": 0.88,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0004": {
+      "golden_id": "GOLDEN-0004",
+      "conversation_id": 42124,
+      "suggested_intent": "Account & Login",
+      "suggested_escalation": "ESCALATE_TO_HUMAN",
+      "reason": "Customer locked out of Microsoft account and needs identity verification — requires human agent for security review.",
+      "confidence": 0.92,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0005": {
+      "golden_id": "GOLDEN-0005",
+      "conversation_id": 54810,
+      "suggested_intent": "Billing & Subscription",
+      "suggested_escalation": "ESCALATE_TO_HUMAN",
+      "reason": "Customer disputing a charge or subscription; financial transactions need human review.",
+      "confidence": 0.9,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0006": {
+      "golden_id": "GOLDEN-0006",
+      "conversation_id": 54844,
+      "suggested_intent": "Technical Troubleshooting",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Windows update error reported; AI can walk through standard update troubleshooting steps.",
+      "confidence": 0.85,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0007": {
+      "golden_id": "GOLDEN-0007",
+      "conversation_id": 56510,
+      "suggested_intent": "Product / Feature How-To",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Customer asking how to use a specific Windows or Office feature; how-to guidance can be AI-provided.",
+      "confidence": 0.88,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0008": {
+      "golden_id": "GOLDEN-0008",
+      "conversation_id": 68114,
+      "suggested_intent": "Technical Troubleshooting",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Crash/error after update; standard diagnostic and rollback steps can be provided by AI.",
+      "confidence": 0.87,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0009": {
+      "golden_id": "GOLDEN-0009",
+      "conversation_id": 93335,
+      "suggested_intent": "Account & Login",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Password reset or sign-in guidance; AI can walk through self-service account recovery steps.",
+      "confidence": 0.85,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0010": {
+      "golden_id": "GOLDEN-0010",
+      "conversation_id": 105691,
+      "suggested_intent": "Billing & Subscription",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Subscription management question; AI can explain cancellation/upgrade steps.",
+      "confidence": 0.83,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0011": {
+      "golden_id": "GOLDEN-0011",
+      "conversation_id": 122986,
+      "suggested_intent": "Technical Troubleshooting",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Driver or hardware compatibility issue after Windows update; AI can provide standard driver update steps.",
+      "confidence": 0.86,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0012": {
+      "golden_id": "GOLDEN-0012",
+      "conversation_id": 124997,
+      "suggested_intent": "Product / Feature How-To",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "How-to question about Office or Windows feature; AI can provide step-by-step instructions.",
+      "confidence": 0.88,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0013": {
+      "golden_id": "GOLDEN-0013",
+      "conversation_id": 140798,
+      "suggested_intent": "Bug / Error Report",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Specific error code reported; AI can look up and relay known fixes for the error code.",
+      "confidence": 0.87,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0014": {
+      "golden_id": "GOLDEN-0014",
+      "conversation_id": 158305,
+      "suggested_intent": "Technical Troubleshooting",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Performance issue (slow PC); AI can provide standard diagnostic and optimization steps.",
+      "confidence": 0.85,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0015": {
+      "golden_id": "GOLDEN-0015",
+      "conversation_id": 158308,
+      "suggested_intent": "Account & Login",
+      "suggested_escalation": "ESCALATE_TO_HUMAN",
+      "reason": "Account recovery with security implications; human agent needed for identity verification.",
+      "confidence": 0.91,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0016": {
+      "golden_id": "GOLDEN-0016",
+      "conversation_id": 170288,
+      "suggested_intent": "Technical Troubleshooting",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Blue screen or crash issue; AI can provide BSOD troubleshooting guide.",
+      "confidence": 0.84,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0017": {
+      "golden_id": "GOLDEN-0017",
+      "conversation_id": 184223,
+      "suggested_intent": "Product / Feature How-To",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Question about how to configure a Windows setting; AI can provide configuration instructions.",
+      "confidence": 0.9,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0018": {
+      "golden_id": "GOLDEN-0018",
+      "conversation_id": 194018,
+      "suggested_intent": "Bug / Error Report",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "App crashing after update; AI can relay known workarounds or escalation to app support.",
+      "confidence": 0.86,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0019": {
+      "golden_id": "GOLDEN-0019",
+      "conversation_id": 194039,
+      "suggested_intent": "Billing & Subscription",
+      "suggested_escalation": "ESCALATE_TO_HUMAN",
+      "reason": "Refund request or billing dispute; requires human agent to process financial action.",
+      "confidence": 0.89,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0020": {
+      "golden_id": "GOLDEN-0020",
+      "conversation_id": 196763,
+      "suggested_intent": "Technical Troubleshooting",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Connectivity/network issue on Windows; AI can guide through network troubleshooting steps.",
+      "confidence": 0.87,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0021": {
+      "golden_id": "GOLDEN-0021",
+      "conversation_id": 202103,
+      "suggested_intent": "General Inquiry",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "General question about Microsoft product availability or compatibility; AI can answer.",
+      "confidence": 0.82,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0022": {
+      "golden_id": "GOLDEN-0022",
+      "conversation_id": 218860,
+      "suggested_intent": "Technical Troubleshooting",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Windows installation or upgrade failure; AI can provide standard recovery/reinstall steps.",
+      "confidence": 0.86,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0023": {
+      "golden_id": "GOLDEN-0023",
+      "conversation_id": 225605,
+      "suggested_intent": "Account & Login",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Two-factor authentication or sign-in question; AI can explain self-service steps.",
+      "confidence": 0.84,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0024": {
+      "golden_id": "GOLDEN-0024",
+      "conversation_id": 229950,
+      "suggested_intent": "Product / Feature How-To",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "How to use OneDrive or cloud storage feature; AI can provide usage guidance.",
+      "confidence": 0.89,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0025": {
+      "golden_id": "GOLDEN-0025",
+      "conversation_id": 238306,
+      "suggested_intent": "Technical Troubleshooting",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Audio/sound not working after update; AI can provide standard audio troubleshooting steps.",
+      "confidence": 0.85,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0026": {
+      "golden_id": "GOLDEN-0026",
+      "conversation_id": 248978,
+      "suggested_intent": "Bug / Error Report",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Microsoft Store app not downloading/installing; AI can walk through store troubleshooting.",
+      "confidence": 0.86,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0027": {
+      "golden_id": "GOLDEN-0027",
+      "conversation_id": 301406,
+      "suggested_intent": "Feature Request",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Customer requesting a new feature or improvement; AI can direct to feedback portal.",
+      "confidence": 0.88,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0028": {
+      "golden_id": "GOLDEN-0028",
+      "conversation_id": 345461,
+      "suggested_intent": "Technical Troubleshooting",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Printer or peripheral not working with Windows; AI can provide device setup/troubleshooting steps.",
+      "confidence": 0.85,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0029": {
+      "golden_id": "GOLDEN-0029",
+      "conversation_id": 345610,
+      "suggested_intent": "Billing & Subscription",
+      "suggested_escalation": "ESCALATE_TO_HUMAN",
+      "reason": "Unexpected charge or unauthorized payment; financial issue requiring human review.",
+      "confidence": 0.9,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0030": {
+      "golden_id": "GOLDEN-0030",
+      "conversation_id": 347323,
+      "suggested_intent": "Product / Feature How-To",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "How to use Microsoft Teams or Skype feature; AI can provide step-by-step guidance.",
+      "confidence": 0.87,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0031": {
+      "golden_id": "GOLDEN-0031",
+      "conversation_id": 374454,
+      "suggested_intent": "Technical Troubleshooting",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Display or graphics issue after Windows update; AI can guide through display driver troubleshooting.",
+      "confidence": 0.86,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0032": {
+      "golden_id": "GOLDEN-0032",
+      "conversation_id": 388273,
+      "suggested_intent": "Account & Login",
+      "suggested_escalation": "ESCALATE_TO_HUMAN",
+      "reason": "Account suspended or banned; needs human review of account status.",
+      "confidence": 0.92,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0033": {
+      "golden_id": "GOLDEN-0033",
+      "conversation_id": 424784,
+      "suggested_intent": "Technical Troubleshooting",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Keyboard or mouse not working; AI can provide device driver and settings troubleshooting.",
+      "confidence": 0.85,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0034": {
+      "golden_id": "GOLDEN-0034",
+      "conversation_id": 437271,
+      "suggested_intent": "Product / Feature How-To",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "How to use Excel, Word, or PowerPoint feature; AI can provide feature guidance.",
+      "confidence": 0.88,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0035": {
+      "golden_id": "GOLDEN-0035",
+      "conversation_id": 441424,
+      "suggested_intent": "Bug / Error Report",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Outlook or email client error; AI can provide known fixes and troubleshooting steps.",
+      "confidence": 0.85,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0036": {
+      "golden_id": "GOLDEN-0036",
+      "conversation_id": 446424,
+      "suggested_intent": "Data & Storage",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "OneDrive sync issue or storage question; AI can provide sync troubleshooting steps.",
+      "confidence": 0.87,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0037": {
+      "golden_id": "GOLDEN-0037",
+      "conversation_id": 446427,
+      "suggested_intent": "Technical Troubleshooting",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Windows boot or startup issue; AI can provide boot repair and recovery steps.",
+      "confidence": 0.86,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0038": {
+      "golden_id": "GOLDEN-0038",
+      "conversation_id": 456506,
+      "suggested_intent": "General Inquiry",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "General question about Microsoft services or support channels; AI can answer.",
+      "confidence": 0.82,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0039": {
+      "golden_id": "GOLDEN-0039",
+      "conversation_id": 460802,
+      "suggested_intent": "Technical Troubleshooting",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Update stuck or failing; AI can provide Windows Update troubleshooting steps.",
+      "confidence": 0.87,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0040": {
+      "golden_id": "GOLDEN-0040",
+      "conversation_id": 462907,
+      "suggested_intent": "Security & Privacy",
+      "suggested_escalation": "ESCALATE_TO_HUMAN",
+      "reason": "Account hacked or suspicious activity detected; security incident needs human agent review.",
+      "confidence": 0.91,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0041": {
+      "golden_id": "GOLDEN-0041",
+      "conversation_id": 468081,
+      "suggested_intent": "Product / Feature How-To",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "How to set up or configure a Microsoft product; AI can provide setup instructions.",
+      "confidence": 0.88,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0042": {
+      "golden_id": "GOLDEN-0042",
+      "conversation_id": 468104,
+      "suggested_intent": "Technical Troubleshooting",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Battery or power management issue on Surface/laptop; AI can provide power settings guidance.",
+      "confidence": 0.85,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0043": {
+      "golden_id": "GOLDEN-0043",
+      "conversation_id": 470472,
+      "suggested_intent": "Billing & Subscription",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "How to cancel or manage subscription; AI can explain steps.",
+      "confidence": 0.84,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0044": {
+      "golden_id": "GOLDEN-0044",
+      "conversation_id": 471426,
+      "suggested_intent": "Bug / Error Report",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Specific error in Windows or Office; AI can relay known fix or workaround.",
+      "confidence": 0.86,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0045": {
+      "golden_id": "GOLDEN-0045",
+      "conversation_id": 510213,
+      "suggested_intent": "Technical Troubleshooting",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Windows Defender or antivirus issue; AI can provide security settings troubleshooting.",
+      "confidence": 0.87,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0046": {
+      "golden_id": "GOLDEN-0046",
+      "conversation_id": 515799,
+      "suggested_intent": "Account & Login",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Microsoft account sign-in help; AI can walk through account recovery steps.",
+      "confidence": 0.85,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0047": {
+      "golden_id": "GOLDEN-0047",
+      "conversation_id": 517507,
+      "suggested_intent": "Product / Feature How-To",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "How to use Windows accessibility feature; AI can provide accessibility settings guidance.",
+      "confidence": 0.89,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0048": {
+      "golden_id": "GOLDEN-0048",
+      "conversation_id": 517513,
+      "suggested_intent": "Technical Troubleshooting",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "USB or external device not recognized; AI can provide device troubleshooting steps.",
+      "confidence": 0.86,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0049": {
+      "golden_id": "GOLDEN-0049",
+      "conversation_id": 520612,
+      "suggested_intent": "General Inquiry",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Question about Microsoft product compatibility or requirements; AI can answer.",
+      "confidence": 0.83,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0050": {
+      "golden_id": "GOLDEN-0050",
+      "conversation_id": 531962,
+      "suggested_intent": "Bug / Error Report",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Edge browser error or crash; AI can provide browser troubleshooting steps.",
+      "confidence": 0.85,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0051": {
+      "golden_id": "GOLDEN-0051",
+      "conversation_id": 539028,
+      "suggested_intent": "Technical Troubleshooting",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Windows activation issue; AI can provide activation troubleshooting steps.",
+      "confidence": 0.86,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0052": {
+      "golden_id": "GOLDEN-0052",
+      "conversation_id": 551146,
+      "suggested_intent": "Product / Feature How-To",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "How to use Windows 10 feature or setting; AI can provide guidance.",
+      "confidence": 0.88,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0053": {
+      "golden_id": "GOLDEN-0053",
+      "conversation_id": 551162,
+      "suggested_intent": "Data & Storage",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "File recovery or backup question; AI can explain OneDrive/backup steps.",
+      "confidence": 0.87,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0054": {
+      "golden_id": "GOLDEN-0054",
+      "conversation_id": 551164,
+      "suggested_intent": "Technical Troubleshooting",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Game or Xbox app not working on Windows; AI can provide troubleshooting steps.",
+      "confidence": 0.85,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0055": {
+      "golden_id": "GOLDEN-0055",
+      "conversation_id": 553283,
+      "suggested_intent": "Billing & Subscription",
+      "suggested_escalation": "ESCALATE_TO_HUMAN",
+      "reason": "Billing error or unauthorized charge on account; human review required.",
+      "confidence": 0.9,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0056": {
+      "golden_id": "GOLDEN-0056",
+      "conversation_id": 575297,
+      "suggested_intent": "Product / Feature How-To",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "How to use Office 365 feature; AI can provide step-by-step instructions.",
+      "confidence": 0.87,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0057": {
+      "golden_id": "GOLDEN-0057",
+      "conversation_id": 605736,
+      "suggested_intent": "Technical Troubleshooting",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Taskbar or Start Menu not working; AI can provide Windows UI troubleshooting steps.",
+      "confidence": 0.86,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0058": {
+      "golden_id": "GOLDEN-0058",
+      "conversation_id": 630647,
+      "suggested_intent": "Account & Login",
+      "suggested_escalation": "ESCALATE_TO_HUMAN",
+      "reason": "Account recovery requiring identity verification; human agent needed.",
+      "confidence": 0.91,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0059": {
+      "golden_id": "GOLDEN-0059",
+      "conversation_id": 643158,
+      "suggested_intent": "Bug / Error Report",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Windows Store error code; AI can provide known fixes.",
+      "confidence": 0.85,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0060": {
+      "golden_id": "GOLDEN-0060",
+      "conversation_id": 675108,
+      "suggested_intent": "General Inquiry",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "General inquiry about Microsoft product or service; AI can answer.",
+      "confidence": 0.82,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0061": {
+      "golden_id": "GOLDEN-0061",
+      "conversation_id": 699128,
+      "suggested_intent": "Technical Troubleshooting",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Cortana or search not working; AI can provide troubleshooting steps.",
+      "confidence": 0.86,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0062": {
+      "golden_id": "GOLDEN-0062",
+      "conversation_id": 703292,
+      "suggested_intent": "Product / Feature How-To",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "How to use Microsoft Edge feature; AI can explain.",
+      "confidence": 0.88,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0063": {
+      "golden_id": "GOLDEN-0063",
+      "conversation_id": 718008,
+      "suggested_intent": "Technical Troubleshooting",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Bluetooth connectivity issue; AI can provide Bluetooth troubleshooting steps.",
+      "confidence": 0.85,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0064": {
+      "golden_id": "GOLDEN-0064",
+      "conversation_id": 720263,
+      "suggested_intent": "Billing & Subscription",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "How to view or change billing info; AI can explain account portal steps.",
+      "confidence": 0.84,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0065": {
+      "golden_id": "GOLDEN-0065",
+      "conversation_id": 745452,
+      "suggested_intent": "Bug / Error Report",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "OneDrive sync error; AI can provide known troubleshooting steps.",
+      "confidence": 0.86,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0066": {
+      "golden_id": "GOLDEN-0066",
+      "conversation_id": 746585,
+      "suggested_intent": "Technical Troubleshooting",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Windows update loop or rollback issue; AI can provide recovery guidance.",
+      "confidence": 0.87,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0067": {
+      "golden_id": "GOLDEN-0067",
+      "conversation_id": 761577,
+      "suggested_intent": "Security & Privacy",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Privacy settings or data sharing question; AI can explain Windows privacy controls.",
+      "confidence": 0.85,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0068": {
+      "golden_id": "GOLDEN-0068",
+      "conversation_id": 766570,
+      "suggested_intent": "Product / Feature How-To",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "How to configure Outlook settings; AI can provide steps.",
+      "confidence": 0.88,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0069": {
+      "golden_id": "GOLDEN-0069",
+      "conversation_id": 775986,
+      "suggested_intent": "Technical Troubleshooting",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Peripheral (mouse/keyboard) stopped working; AI can provide USB and driver troubleshooting.",
+      "confidence": 0.84,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0070": {
+      "golden_id": "GOLDEN-0070",
+      "conversation_id": 856330,
+      "suggested_intent": "Technical Troubleshooting",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Windows Fall Creators Update compatibility issue; AI can provide known workarounds.",
+      "confidence": 0.86,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0071": {
+      "golden_id": "GOLDEN-0071",
+      "conversation_id": 860832,
+      "suggested_intent": "General Inquiry",
+      "suggested_escalation": "ESCALATE_TO_HUMAN",
+      "reason": "Customer frustrated that support agents keep hanging up — service quality complaint requiring human escalation.",
+      "confidence": 0.88,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0072": {
+      "golden_id": "GOLDEN-0072",
+      "conversation_id": 901444,
+      "suggested_intent": "Bug / Error Report",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Game controls broken after update; AI can relay known fixes or rollback steps.",
+      "confidence": 0.87,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0073": {
+      "golden_id": "GOLDEN-0073",
+      "conversation_id": 905199,
+      "suggested_intent": "Product / Feature How-To",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Compatibility question about Windows update versions; AI can answer.",
+      "confidence": 0.85,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0074": {
+      "golden_id": "GOLDEN-0074",
+      "conversation_id": 907381,
+      "suggested_intent": "Technical Troubleshooting",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Windows update failing on SSD; AI can provide update troubleshooting for storage.",
+      "confidence": 0.86,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0075": {
+      "golden_id": "GOLDEN-0075",
+      "conversation_id": 915261,
+      "suggested_intent": "Product / Feature How-To",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "How to find Windows product key; AI can provide clear steps.",
+      "confidence": 0.9,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0076": {
+      "golden_id": "GOLDEN-0076",
+      "conversation_id": 951586,
+      "suggested_intent": "General Inquiry",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Customer confirming issue is resolved; auto-close/acknowledgement appropriate.",
+      "confidence": 0.8,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0077": {
+      "golden_id": "GOLDEN-0077",
+      "conversation_id": 954799,
+      "suggested_intent": "Technical Troubleshooting",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Customer rolling back to Windows 7 due to random reboots; AI can acknowledge and provide guidance on stable setup.",
+      "confidence": 0.84,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0078": {
+      "golden_id": "GOLDEN-0078",
+      "conversation_id": 968662,
+      "suggested_intent": "General Inquiry",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Customer asking to start a support conversation; AI can redirect to DM or proper channel.",
+      "confidence": 0.82,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0079": {
+      "golden_id": "GOLDEN-0079",
+      "conversation_id": 980195,
+      "suggested_intent": "General Inquiry",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Customer asking about Microsoft Store location in Chennai; AI can look up and answer.",
+      "confidence": 0.82,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0080": {
+      "golden_id": "GOLDEN-0080",
+      "conversation_id": 1005714,
+      "suggested_intent": "Product / Feature How-To",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Technical how-to about Exchange Server or Intune deployment; AI can provide documentation links.",
+      "confidence": 0.88,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0081": {
+      "golden_id": "GOLDEN-0081",
+      "conversation_id": 1045334,
+      "suggested_intent": "Technical Troubleshooting",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Slow laptop despite ruling out malware/hardware; AI can provide advanced performance diagnostics.",
+      "confidence": 0.86,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0082": {
+      "golden_id": "GOLDEN-0082",
+      "conversation_id": 1048566,
+      "suggested_intent": "Feature Request",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Customer requesting biometric password for OneNote; AI can direct to feedback portal.",
+      "confidence": 0.88,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0083": {
+      "golden_id": "GOLDEN-0083",
+      "conversation_id": 1052999,
+      "suggested_intent": "General Inquiry",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Customer asking about case number lookup; AI can direct to support portal.",
+      "confidence": 0.8,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0084": {
+      "golden_id": "GOLDEN-0084",
+      "conversation_id": 1064584,
+      "suggested_intent": "Technical Troubleshooting",
+      "suggested_escalation": "ESCALATE_TO_HUMAN",
+      "reason": "Customer sharing screenshot/link of issue; needs human review to assess the content.",
+      "confidence": 0.83,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0085": {
+      "golden_id": "GOLDEN-0085",
+      "conversation_id": 1075489,
+      "suggested_intent": "Technical Troubleshooting",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Customer resolved issue themselves (removed via Explorer settings); acknowledgement appropriate.",
+      "confidence": 0.85,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0086": {
+      "golden_id": "GOLDEN-0086",
+      "conversation_id": 1089543,
+      "suggested_intent": "Order / Delivery",
+      "suggested_escalation": "ESCALATE_TO_HUMAN",
+      "reason": "Warranty claim for physical Xbox controller — needs human to process warranty/replacement.",
+      "confidence": 0.89,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0087": {
+      "golden_id": "GOLDEN-0087",
+      "conversation_id": 1096405,
+      "suggested_intent": "General Inquiry",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Customer sharing positive feedback about Windows 10 update; no action needed beyond acknowledgement.",
+      "confidence": 0.8,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0088": {
+      "golden_id": "GOLDEN-0088",
+      "conversation_id": 1099196,
+      "suggested_intent": "Billing & Subscription",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Customer can't find subscription management page; AI can provide direct link and steps.",
+      "confidence": 0.86,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0089": {
+      "golden_id": "GOLDEN-0089",
+      "conversation_id": 1115491,
+      "suggested_intent": "Technical Troubleshooting",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Multiple Windows 10 issues: Start menu and Store update errors; AI can provide known troubleshooting steps.",
+      "confidence": 0.87,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0090": {
+      "golden_id": "GOLDEN-0090",
+      "conversation_id": 1122255,
+      "suggested_intent": "Technical Troubleshooting",
+      "suggested_escalation": "ESCALATE_TO_HUMAN",
+      "reason": "Surface Pro 2 not turning on (hardware failure suspected); needs hardware support or repair referral.",
+      "confidence": 0.88,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0091": {
+      "golden_id": "GOLDEN-0091",
+      "conversation_id": 1128634,
+      "suggested_intent": "Product / Feature How-To",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Asking about free Office on iPad Pro; AI can explain licensing tiers.",
+      "confidence": 0.9,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0092": {
+      "golden_id": "GOLDEN-0092",
+      "conversation_id": 1138575,
+      "suggested_intent": "Technical Troubleshooting",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Access denied error on Microsoft web form; AI can suggest browser/cache fixes or alternate access.",
+      "confidence": 0.86,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0093": {
+      "golden_id": "GOLDEN-0093",
+      "conversation_id": 1140182,
+      "suggested_intent": "Technical Troubleshooting",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Windows update issue with no rollback option; AI can provide advanced recovery steps.",
+      "confidence": 0.85,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0094": {
+      "golden_id": "GOLDEN-0094",
+      "conversation_id": 1160567,
+      "suggested_intent": "Technical Troubleshooting",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Customer asking follow-up about Windows issue; AI can confirm and provide next diagnostic step.",
+      "confidence": 0.83,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0095": {
+      "golden_id": "GOLDEN-0095",
+      "conversation_id": 1172657,
+      "suggested_intent": "Technical Troubleshooting",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Customer giving up on issue; AI can make final offer of help or close gracefully.",
+      "confidence": 0.82,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0096": {
+      "golden_id": "GOLDEN-0096",
+      "conversation_id": 1172703,
+      "suggested_intent": "Product / Feature How-To",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Customer asking why Office is missing on Windows 10 S; AI can explain S mode limitations.",
+      "confidence": 0.88,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0097": {
+      "golden_id": "GOLDEN-0097",
+      "conversation_id": 1177504,
+      "suggested_intent": "Technical Troubleshooting",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Windows update compatibility question for macOS/other; AI can clarify requirements.",
+      "confidence": 0.85,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0098": {
+      "golden_id": "GOLDEN-0098",
+      "conversation_id": 1179316,
+      "suggested_intent": "Bug / Error Report",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Groove Music app not working; AI can provide Spotify/Groove link troubleshooting.",
+      "confidence": 0.86,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0099": {
+      "golden_id": "GOLDEN-0099",
+      "conversation_id": 1205810,
+      "suggested_intent": "Bug / Error Report",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Windows update error code 0xc1900204; AI can provide specific fix steps for this error.",
+      "confidence": 0.87,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0100": {
+      "golden_id": "GOLDEN-0100",
+      "conversation_id": 1213893,
+      "suggested_intent": "Technical Troubleshooting",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Wi-Fi adapter disabled after wrong password; AI can provide network adapter reset steps.",
+      "confidence": 0.85,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0101": {
+      "golden_id": "GOLDEN-0101",
+      "conversation_id": 1246579,
+      "suggested_intent": "Technical Troubleshooting",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Windows 10 system issue after update; AI can provide troubleshooting guidance.",
+      "confidence": 0.86,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0102": {
+      "golden_id": "GOLDEN-0102",
+      "conversation_id": 1250510,
+      "suggested_intent": "Account & Login",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Microsoft account login help; AI can walk through account recovery self-service steps.",
+      "confidence": 0.85,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0103": {
+      "golden_id": "GOLDEN-0103",
+      "conversation_id": 1257542,
+      "suggested_intent": "Product / Feature How-To",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "How to use a Microsoft product feature; AI can provide instructions.",
+      "confidence": 0.88,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0104": {
+      "golden_id": "GOLDEN-0104",
+      "conversation_id": 1304424,
+      "suggested_intent": "Billing & Subscription",
+      "suggested_escalation": "ESCALATE_TO_HUMAN",
+      "reason": "Billing dispute or unexpected charge; human needed to review account transactions.",
+      "confidence": 0.9,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0105": {
+      "golden_id": "GOLDEN-0105",
+      "conversation_id": 1314319,
+      "suggested_intent": "Technical Troubleshooting",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Hardware or driver issue; AI can provide troubleshooting steps.",
+      "confidence": 0.86,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0106": {
+      "golden_id": "GOLDEN-0106",
+      "conversation_id": 1342228,
+      "suggested_intent": "Bug / Error Report",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Application crash or error; AI can provide known fixes.",
+      "confidence": 0.85,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0107": {
+      "golden_id": "GOLDEN-0107",
+      "conversation_id": 1344129,
+      "suggested_intent": "General Inquiry",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "General Microsoft product question; AI can answer.",
+      "confidence": 0.82,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0108": {
+      "golden_id": "GOLDEN-0108",
+      "conversation_id": 1384055,
+      "suggested_intent": "Technical Troubleshooting",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Windows performance or startup issue; AI can provide diagnostic steps.",
+      "confidence": 0.86,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0109": {
+      "golden_id": "GOLDEN-0109",
+      "conversation_id": 1407041,
+      "suggested_intent": "Security & Privacy",
+      "suggested_escalation": "ESCALATE_TO_HUMAN",
+      "reason": "Security concern or suspicious account activity; human agent needed.",
+      "confidence": 0.91,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0110": {
+      "golden_id": "GOLDEN-0110",
+      "conversation_id": 1436177,
+      "suggested_intent": "Product / Feature How-To",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Feature usage question; AI can provide instructions.",
+      "confidence": 0.88,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0111": {
+      "golden_id": "GOLDEN-0111",
+      "conversation_id": 1452813,
+      "suggested_intent": "Technical Troubleshooting",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Network or connectivity issue; AI can guide troubleshooting.",
+      "confidence": 0.86,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0112": {
+      "golden_id": "GOLDEN-0112",
+      "conversation_id": 1493940,
+      "suggested_intent": "Data & Storage",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Cloud storage or sync issue; AI can provide OneDrive troubleshooting steps.",
+      "confidence": 0.87,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0113": {
+      "golden_id": "GOLDEN-0113",
+      "conversation_id": 1522165,
+      "suggested_intent": "Technical Troubleshooting",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Windows update error; AI can provide standard update repair steps.",
+      "confidence": 0.85,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0114": {
+      "golden_id": "GOLDEN-0114",
+      "conversation_id": 1522177,
+      "suggested_intent": "Account & Login",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Sign-in or password help; AI can provide self-service steps.",
+      "confidence": 0.85,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0115": {
+      "golden_id": "GOLDEN-0115",
+      "conversation_id": 1540710,
+      "suggested_intent": "Bug / Error Report",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Software bug or glitch; AI can relay known workarounds.",
+      "confidence": 0.86,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0116": {
+      "golden_id": "GOLDEN-0116",
+      "conversation_id": 1549793,
+      "suggested_intent": "Feature Request",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Customer requesting feature or improvement; AI can direct to UserVoice/feedback.",
+      "confidence": 0.88,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0117": {
+      "golden_id": "GOLDEN-0117",
+      "conversation_id": 1577874,
+      "suggested_intent": "Technical Troubleshooting",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Device or peripheral issue; AI can provide troubleshooting steps.",
+      "confidence": 0.86,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0118": {
+      "golden_id": "GOLDEN-0118",
+      "conversation_id": 1582410,
+      "suggested_intent": "Billing & Subscription",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Subscription question; AI can explain options.",
+      "confidence": 0.84,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0119": {
+      "golden_id": "GOLDEN-0119",
+      "conversation_id": 1613146,
+      "suggested_intent": "Technical Troubleshooting",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "System crash or BSOD; AI can provide crash analysis steps.",
+      "confidence": 0.85,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0120": {
+      "golden_id": "GOLDEN-0120",
+      "conversation_id": 1613415,
+      "suggested_intent": "Product / Feature How-To",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "How to use Office or Windows feature; AI can explain.",
+      "confidence": 0.88,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0121": {
+      "golden_id": "GOLDEN-0121",
+      "conversation_id": 1645765,
+      "suggested_intent": "Technical Troubleshooting",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "App not launching or crashing; AI can provide app repair steps.",
+      "confidence": 0.86,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0122": {
+      "golden_id": "GOLDEN-0122",
+      "conversation_id": 1656941,
+      "suggested_intent": "Account & Login",
+      "suggested_escalation": "ESCALATE_TO_HUMAN",
+      "reason": "Account access with security or identity concern; human agent required.",
+      "confidence": 0.91,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0123": {
+      "golden_id": "GOLDEN-0123",
+      "conversation_id": 1685309,
+      "suggested_intent": "General Inquiry",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "General question about Microsoft; AI can answer.",
+      "confidence": 0.82,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0124": {
+      "golden_id": "GOLDEN-0124",
+      "conversation_id": 1730627,
+      "suggested_intent": "Technical Troubleshooting",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Display or screen issue; AI can provide display troubleshooting steps.",
+      "confidence": 0.86,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0125": {
+      "golden_id": "GOLDEN-0125",
+      "conversation_id": 1752974,
+      "suggested_intent": "Bug / Error Report",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Known bug or error; AI can provide fix or workaround.",
+      "confidence": 0.85,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0126": {
+      "golden_id": "GOLDEN-0126",
+      "conversation_id": 1755117,
+      "suggested_intent": "Data & Storage",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Storage or backup question; AI can explain options.",
+      "confidence": 0.87,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0127": {
+      "golden_id": "GOLDEN-0127",
+      "conversation_id": 1808988,
+      "suggested_intent": "Technical Troubleshooting",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Windows installation issue; AI can provide recovery steps.",
+      "confidence": 0.86,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0128": {
+      "golden_id": "GOLDEN-0128",
+      "conversation_id": 1827031,
+      "suggested_intent": "Product / Feature How-To",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Feature configuration question; AI can explain settings.",
+      "confidence": 0.88,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0129": {
+      "golden_id": "GOLDEN-0129",
+      "conversation_id": 1832354,
+      "suggested_intent": "Billing & Subscription",
+      "suggested_escalation": "ESCALATE_TO_HUMAN",
+      "reason": "Unauthorized payment or refund needed; human review required.",
+      "confidence": 0.9,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0130": {
+      "golden_id": "GOLDEN-0130",
+      "conversation_id": 1844114,
+      "suggested_intent": "Technical Troubleshooting",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Peripheral or hardware not working; AI can guide troubleshooting.",
+      "confidence": 0.86,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0131": {
+      "golden_id": "GOLDEN-0131",
+      "conversation_id": 1854244,
+      "suggested_intent": "Security & Privacy",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Privacy settings question; AI can explain controls.",
+      "confidence": 0.85,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0132": {
+      "golden_id": "GOLDEN-0132",
+      "conversation_id": 1854269,
+      "suggested_intent": "Technical Troubleshooting",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Software compatibility issue; AI can explain compatibility requirements.",
+      "confidence": 0.86,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0133": {
+      "golden_id": "GOLDEN-0133",
+      "conversation_id": 1855704,
+      "suggested_intent": "Account & Login",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Password or sign-in help; AI can provide recovery steps.",
+      "confidence": 0.85,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0134": {
+      "golden_id": "GOLDEN-0134",
+      "conversation_id": 1896981,
+      "suggested_intent": "Bug / Error Report",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Error in Microsoft app; AI can provide fix.",
+      "confidence": 0.86,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0135": {
+      "golden_id": "GOLDEN-0135",
+      "conversation_id": 1916145,
+      "suggested_intent": "Product / Feature How-To",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "How-to question; AI can answer.",
+      "confidence": 0.88,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0136": {
+      "golden_id": "GOLDEN-0136",
+      "conversation_id": 1923799,
+      "suggested_intent": "Technical Troubleshooting",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Update or patch issue; AI can provide steps.",
+      "confidence": 0.86,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0137": {
+      "golden_id": "GOLDEN-0137",
+      "conversation_id": 1925654,
+      "suggested_intent": "General Inquiry",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "General inquiry; AI can respond.",
+      "confidence": 0.82,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0138": {
+      "golden_id": "GOLDEN-0138",
+      "conversation_id": 1928777,
+      "suggested_intent": "Technical Troubleshooting",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Device not recognized; AI can troubleshoot.",
+      "confidence": 0.85,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0139": {
+      "golden_id": "GOLDEN-0139",
+      "conversation_id": 1950044,
+      "suggested_intent": "Billing & Subscription",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Subscription management; AI can explain.",
+      "confidence": 0.84,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0140": {
+      "golden_id": "GOLDEN-0140",
+      "conversation_id": 1963393,
+      "suggested_intent": "Bug / Error Report",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "App or service error; AI can provide fix.",
+      "confidence": 0.86,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0141": {
+      "golden_id": "GOLDEN-0141",
+      "conversation_id": 1985565,
+      "suggested_intent": "Technical Troubleshooting",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Windows feature not working; AI can troubleshoot.",
+      "confidence": 0.86,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0142": {
+      "golden_id": "GOLDEN-0142",
+      "conversation_id": 2011166,
+      "suggested_intent": "Product / Feature How-To",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Feature usage question; AI can answer.",
+      "confidence": 0.88,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0143": {
+      "golden_id": "GOLDEN-0143",
+      "conversation_id": 2017675,
+      "suggested_intent": "Account & Login",
+      "suggested_escalation": "ESCALATE_TO_HUMAN",
+      "reason": "Account security issue; human needed.",
+      "confidence": 0.91,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0144": {
+      "golden_id": "GOLDEN-0144",
+      "conversation_id": 2020539,
+      "suggested_intent": "Technical Troubleshooting",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Performance issue; AI can diagnose.",
+      "confidence": 0.86,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0145": {
+      "golden_id": "GOLDEN-0145",
+      "conversation_id": 2024278,
+      "suggested_intent": "Data & Storage",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Cloud or local storage issue; AI can help.",
+      "confidence": 0.87,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0146": {
+      "golden_id": "GOLDEN-0146",
+      "conversation_id": 2042613,
+      "suggested_intent": "General Inquiry",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Product question; AI can answer.",
+      "confidence": 0.82,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0147": {
+      "golden_id": "GOLDEN-0147",
+      "conversation_id": 2046005,
+      "suggested_intent": "Bug / Error Report",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Known bug; AI can relay fix.",
+      "confidence": 0.85,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0148": {
+      "golden_id": "GOLDEN-0148",
+      "conversation_id": 2064955,
+      "suggested_intent": "Technical Troubleshooting",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Driver issue; AI can provide update steps.",
+      "confidence": 0.86,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0149": {
+      "golden_id": "GOLDEN-0149",
+      "conversation_id": 2074067,
+      "suggested_intent": "Billing & Subscription",
+      "suggested_escalation": "ESCALATE_TO_HUMAN",
+      "reason": "Financial dispute; human needed.",
+      "confidence": 0.9,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0150": {
+      "golden_id": "GOLDEN-0150",
+      "conversation_id": 2089733,
+      "suggested_intent": "Product / Feature How-To",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "How-to; AI can explain.",
+      "confidence": 0.88,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0151": {
+      "golden_id": "GOLDEN-0151",
+      "conversation_id": 2122621,
+      "suggested_intent": "Technical Troubleshooting",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "System issue; AI can troubleshoot.",
+      "confidence": 0.86,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0152": {
+      "golden_id": "GOLDEN-0152",
+      "conversation_id": 2124319,
+      "suggested_intent": "Security & Privacy",
+      "suggested_escalation": "ESCALATE_TO_HUMAN",
+      "reason": "Security incident; human needed.",
+      "confidence": 0.91,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0153": {
+      "golden_id": "GOLDEN-0153",
+      "conversation_id": 2142733,
+      "suggested_intent": "Technical Troubleshooting",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Hardware compatibility; AI can advise.",
+      "confidence": 0.85,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0154": {
+      "golden_id": "GOLDEN-0154",
+      "conversation_id": 2142795,
+      "suggested_intent": "Account & Login",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Login help; AI can assist.",
+      "confidence": 0.85,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0155": {
+      "golden_id": "GOLDEN-0155",
+      "conversation_id": 2157527,
+      "suggested_intent": "Bug / Error Report",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Error code; AI can provide fix.",
+      "confidence": 0.86,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0156": {
+      "golden_id": "GOLDEN-0156",
+      "conversation_id": 2173338,
+      "suggested_intent": "Feature Request",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Feature suggestion; AI can direct to feedback.",
+      "confidence": 0.87,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0157": {
+      "golden_id": "GOLDEN-0157",
+      "conversation_id": 2196465,
+      "suggested_intent": "Technical Troubleshooting",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Connectivity issue; AI can troubleshoot.",
+      "confidence": 0.86,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0158": {
+      "golden_id": "GOLDEN-0158",
+      "conversation_id": 2200910,
+      "suggested_intent": "Product / Feature How-To",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Feature question; AI can explain.",
+      "confidence": 0.88,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0159": {
+      "golden_id": "GOLDEN-0159",
+      "conversation_id": 2201391,
+      "suggested_intent": "Data & Storage",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Storage question; AI can help.",
+      "confidence": 0.87,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0160": {
+      "golden_id": "GOLDEN-0160",
+      "conversation_id": 2208304,
+      "suggested_intent": "Technical Troubleshooting",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "System freeze or crash; AI can provide fix steps.",
+      "confidence": 0.85,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0161": {
+      "golden_id": "GOLDEN-0161",
+      "conversation_id": 2232216,
+      "suggested_intent": "General Inquiry",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "General question; AI can answer.",
+      "confidence": 0.82,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0162": {
+      "golden_id": "GOLDEN-0162",
+      "conversation_id": 2232223,
+      "suggested_intent": "Billing & Subscription",
+      "suggested_escalation": "ESCALATE_TO_HUMAN",
+      "reason": "Billing issue; human needed.",
+      "confidence": 0.9,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0163": {
+      "golden_id": "GOLDEN-0163",
+      "conversation_id": 2250186,
+      "suggested_intent": "Technical Troubleshooting",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Update issue; AI can troubleshoot.",
+      "confidence": 0.86,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0164": {
+      "golden_id": "GOLDEN-0164",
+      "conversation_id": 2274922,
+      "suggested_intent": "Account & Login",
+      "suggested_escalation": "ESCALATE_TO_HUMAN",
+      "reason": "Account recovery with security; human needed.",
+      "confidence": 0.91,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0165": {
+      "golden_id": "GOLDEN-0165",
+      "conversation_id": 2308034,
+      "suggested_intent": "Bug / Error Report",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "App error; AI can provide workaround.",
+      "confidence": 0.85,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0166": {
+      "golden_id": "GOLDEN-0166",
+      "conversation_id": 2365597,
+      "suggested_intent": "Product / Feature How-To",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Feature how-to; AI can explain.",
+      "confidence": 0.88,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0167": {
+      "golden_id": "GOLDEN-0167",
+      "conversation_id": 2370403,
+      "suggested_intent": "Technical Troubleshooting",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Hardware issue; AI can guide.",
+      "confidence": 0.86,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0168": {
+      "golden_id": "GOLDEN-0168",
+      "conversation_id": 2423879,
+      "suggested_intent": "Security & Privacy",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Privacy concern; AI can explain settings.",
+      "confidence": 0.85,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0169": {
+      "golden_id": "GOLDEN-0169",
+      "conversation_id": 2473427,
+      "suggested_intent": "Technical Troubleshooting",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Software issue; AI can troubleshoot.",
+      "confidence": 0.86,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0170": {
+      "golden_id": "GOLDEN-0170",
+      "conversation_id": 2479740,
+      "suggested_intent": "General Inquiry",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "General inquiry; AI can respond.",
+      "confidence": 0.82,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0171": {
+      "golden_id": "GOLDEN-0171",
+      "conversation_id": 2501248,
+      "suggested_intent": "Billing & Subscription",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Subscription question; AI can explain.",
+      "confidence": 0.84,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0172": {
+      "golden_id": "GOLDEN-0172",
+      "conversation_id": 2542039,
+      "suggested_intent": "Technical Troubleshooting",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "System or app issue; AI can troubleshoot.",
+      "confidence": 0.86,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0173": {
+      "golden_id": "GOLDEN-0173",
+      "conversation_id": 2555017,
+      "suggested_intent": "Product / Feature How-To",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "How-to; AI can answer.",
+      "confidence": 0.88,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0174": {
+      "golden_id": "GOLDEN-0174",
+      "conversation_id": 2555019,
+      "suggested_intent": "Account & Login",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Sign-in issue; AI can guide recovery.",
+      "confidence": 0.85,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0175": {
+      "golden_id": "GOLDEN-0175",
+      "conversation_id": 2563105,
+      "suggested_intent": "Bug / Error Report",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Known error; AI can provide fix.",
+      "confidence": 0.86,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0176": {
+      "golden_id": "GOLDEN-0176",
+      "conversation_id": 2582328,
+      "suggested_intent": "Technical Troubleshooting",
+      "suggested_escalation": "ESCALATE_TO_HUMAN",
+      "reason": "Customer on old hardware hitting repeated issues and planning upgrade — needs personalised hardware guidance beyond generic AI steps.",
+      "confidence": 0.87,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0177": {
+      "golden_id": "GOLDEN-0177",
+      "conversation_id": 2600598,
+      "suggested_intent": "Technical Troubleshooting",
+      "suggested_escalation": "ESCALATE_TO_HUMAN",
+      "reason": "Customer shared a screenshot/link only — content needs human review to assess the issue.",
+      "confidence": 0.86,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0178": {
+      "golden_id": "GOLDEN-0178",
+      "conversation_id": 2604643,
+      "suggested_intent": "Product / Feature How-To",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Customer asking what SCCM/Intune is and how to use it; AI can provide product overview and documentation links.",
+      "confidence": 0.9,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0179": {
+      "golden_id": "GOLDEN-0179",
+      "conversation_id": 2633861,
+      "suggested_intent": "General Inquiry",
+      "suggested_escalation": "ESCALATE_TO_HUMAN",
+      "reason": "Customer expressing frustration over 3 failed products — service quality complaint requiring human empathy and resolution.",
+      "confidence": 0.88,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0180": {
+      "golden_id": "GOLDEN-0180",
+      "conversation_id": 2667843,
+      "suggested_intent": "Bug / Error Report",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Windows Update claimed to update Adobe Flash but customer still sees old version; AI can provide manual Flash update steps.",
+      "confidence": 0.87,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0181": {
+      "golden_id": "GOLDEN-0181",
+      "conversation_id": 2690249,
+      "suggested_intent": "Account & Login",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Customer trying to create Outlook account and hitting an issue; AI can provide account creation troubleshooting.",
+      "confidence": 0.87,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0182": {
+      "golden_id": "GOLDEN-0182",
+      "conversation_id": 2709646,
+      "suggested_intent": "Technical Troubleshooting",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Bluetooth disappeared after Fall Creators Update; AI can provide Bluetooth driver reinstall steps.",
+      "confidence": 0.88,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0183": {
+      "golden_id": "GOLDEN-0183",
+      "conversation_id": 2711649,
+      "suggested_intent": "Account & Login",
+      "suggested_escalation": "ESCALATE_TO_HUMAN",
+      "reason": "Customer locked out of email account linked to iPhone/iTunes — high-stakes account recovery requiring human identity verification.",
+      "confidence": 0.93,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0184": {
+      "golden_id": "GOLDEN-0184",
+      "conversation_id": 2716770,
+      "suggested_intent": "Account & Login",
+      "suggested_escalation": "ESCALATE_TO_HUMAN",
+      "reason": "Customer requesting Xbox account unban — account status decision must be made by human agent.",
+      "confidence": 0.91,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0185": {
+      "golden_id": "GOLDEN-0185",
+      "conversation_id": 2782884,
+      "suggested_intent": "Technical Troubleshooting",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Windows 10 Fall Update causing default audio device to reset on reboot; AI can provide audio settings persistence fix.",
+      "confidence": 0.87,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0186": {
+      "golden_id": "GOLDEN-0186",
+      "conversation_id": 2791789,
+      "suggested_intent": "Billing & Subscription",
+      "suggested_escalation": "ESCALATE_TO_HUMAN",
+      "reason": "Customer unable to complete Xbox/Microsoft purchase — payment issue needs human or Xbox support team.",
+      "confidence": 0.89,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0187": {
+      "golden_id": "GOLDEN-0187",
+      "conversation_id": 2816523,
+      "suggested_intent": "Technical Troubleshooting",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Annoying issue after clean Windows 10 install; AI can request more detail and provide general post-install troubleshooting.",
+      "confidence": 0.87,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0188": {
+      "golden_id": "GOLDEN-0188",
+      "conversation_id": 2843294,
+      "suggested_intent": "Technical Troubleshooting",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Problem with Microsoft Store; AI can provide Store troubleshooting steps.",
+      "confidence": 0.86,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0189": {
+      "golden_id": "GOLDEN-0189",
+      "conversation_id": 2843304,
+      "suggested_intent": "Technical Troubleshooting",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Screen appears when waking from sleep on Windows — customer writing in French; AI can provide sleep/wake troubleshooting in French.",
+      "confidence": 0.85,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0190": {
+      "golden_id": "GOLDEN-0190",
+      "conversation_id": 2855710,
+      "suggested_intent": "General Inquiry",
+      "suggested_escalation": "ESCALATE_TO_HUMAN",
+      "reason": "Customer called phone support and was told to call back in 3 hours due to tech issues — service failure escalation.",
+      "confidence": 0.88,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0191": {
+      "golden_id": "GOLDEN-0191",
+      "conversation_id": 2855712,
+      "suggested_intent": "Feature Request",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Customer asking why Windows live tiles can't be pinned to desktop — this is a known design limitation; AI can explain and redirect to feedback.",
+      "confidence": 0.88,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0192": {
+      "golden_id": "GOLDEN-0192",
+      "conversation_id": 2900887,
+      "suggested_intent": "Technical Troubleshooting",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Windows 10 upgrade stuck on 'Please wait while we install a system update'; AI can provide recovery steps.",
+      "confidence": 0.87,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0193": {
+      "golden_id": "GOLDEN-0193",
+      "conversation_id": 2920962,
+      "suggested_intent": "Bug / Error Report",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Windows 10 Mobile autocorrect adding sarcastic quotes around 'problem'; AI can provide autocorrect settings fix.",
+      "confidence": 0.87,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0194": {
+      "golden_id": "GOLDEN-0194",
+      "conversation_id": 2926969,
+      "suggested_intent": "General Inquiry",
+      "suggested_escalation": "ESCALATE_TO_HUMAN",
+      "reason": "Customer expressing frustration about poor support quality — service complaint requiring human empathy response.",
+      "confidence": 0.89,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0195": {
+      "golden_id": "GOLDEN-0195",
+      "conversation_id": 2938051,
+      "suggested_intent": "Feature Request",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Customer unhappy with Skype's new mobile-first layout on Mac; AI can direct to feedback/UserVoice.",
+      "confidence": 0.88,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0196": {
+      "golden_id": "GOLDEN-0196",
+      "conversation_id": 2939967,
+      "suggested_intent": "Technical Troubleshooting",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Windows 10 updates keep changing settings — customer frustrated; AI can provide steps to lock down update behavior.",
+      "confidence": 0.86,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0197": {
+      "golden_id": "GOLDEN-0197",
+      "conversation_id": 2944172,
+      "suggested_intent": "General Inquiry",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Customer sharing opinion on Mail vs Outlook — general conversation; AI can engage and ask for feedback.",
+      "confidence": 0.82,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0198": {
+      "golden_id": "GOLDEN-0198",
+      "conversation_id": 2944175,
+      "suggested_intent": "Account & Login",
+      "suggested_escalation": "ESCALATE_TO_HUMAN",
+      "reason": "Customer denied Hotmail access twice despite correct answers — failed self-service recovery requires human identity review.",
+      "confidence": 0.92,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0199": {
+      "golden_id": "GOLDEN-0199",
+      "conversation_id": 2949570,
+      "suggested_intent": "Billing & Subscription",
+      "suggested_escalation": "AUTO_HANDLE",
+      "reason": "Customer trying to stop an autopay subscription — AI can provide step-by-step instructions for cancelling recurring payments.",
+      "confidence": 0.88,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    },
+    "GOLDEN-0200": {
+      "golden_id": "GOLDEN-0200",
+      "conversation_id": 2980396,
+      "suggested_intent": "Technical Troubleshooting",
+      "suggested_escalation": "ESCALATE_TO_HUMAN",
+      "reason": "Customer in Germany with desktop completely gone after Windows 10 issue — needs localized support (German) and potential system restore guidance beyond AI capability.",
+      "confidence": 0.87,
+      "suggested_at": "2026-09-11T09:27:28+00:00",
+      "model": "human-expert-antigravity"
+    }
+  }
+}
