@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0171",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "0bb76591a5e6d7523c369a4aaaa6a68e455a7cd42225911c9fbdab45f731d629",
+  "prediction": {
+    "golden_id": "GOLDEN-0171",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "Thanks for letting us know! We're glad to hear that restarting the Themes service resolved the issue for you.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "920297",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps As you can see, the Windows 7 themes are greyed out on the option list. The Troubleshooter says \"Windows Desktop Manager\" is disabled. https://t.co/gTMc64k00w | @116230 Yeah but usually logging off and back on fixes it, not this time. I can't system restore bc my laptop disagreed with an update once before | @MicrosoftHelps I ran that cmd but it didn't find anything, any more advice? | @MicrosoftHelps I fixed it by restarting the \"Themes\" service. Thanks for your tips 😊 | @338449 Hello! Has this happened for you previously? We're here to help, if we can. | My laptop installed updates which catapulted the toolbars back to the Windows 98 aesthetic and won't let me change back, cool.",
+        "score": 0.693451,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 6,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1620363",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps I've checked all these steps and changed pretty much nothing because everything looks normal. As I said, I don't believe it's my side. | @MicrosoftHelps https://t.co/8P9Y0JYA0s",
+        "score": 0.613437,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1712312",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Thanks a lot that fixed | Hey @MicrosoftHelps how can I turn this search bar back to dark? https://t.co/0WMDsporos",
+        "score": 0.56653,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

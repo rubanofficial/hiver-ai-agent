@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0183",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "7382e5452118bb48ee08d1ba25866464c3518f441b73e279d269bcbaa2dcbb1a",
+  "prediction": {
+    "golden_id": "GOLDEN-0183",
+    "predicted_intent": "Account & Login",
+    "predicted_intent_confidence": 0.99,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "We understand how stressful it is to lose access to your account, especially when it is linked to your important services. Based on similar cases where users experienced trouble with the recovery system, please keep trying the account recovery form. If you continue to face issues, we recommend reaching out to Microsoft Support directly for further assistance.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "423902",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps I can't recover my email account I've used for nearly 20 years &amp; is linked to all my online accounts, bank, Apple ID, etc.. Everytime I submit a recovery form I receive an email asking me to do it again. I'm devastated as I can't get any real customer service! 😥",
+        "score": 0.774555,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "392944",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps im having trouble recovering the account or even just signing in and cant access the original email what do i need to do? https://t.co/Ka377wkL87",
+        "score": 0.740737,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1136016",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps All good. Thanks guys! :) | @MicrosoftHelps it seems like i've lost access to an e-mail account that I can't afford to lose. The recovery system failed me. Help?",
+        "score": 0.723303,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0041",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "208749f6a1153e2dac65411f6f6c96277d022f8c1381b1614cd79b217bde367a",
+  "prediction": {
+    "golden_id": "GOLDEN-0041",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 0.9,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "We understand how frustrating it is to repeatedly reinstall Windows without error codes to help troubleshoot. Because this issue requires further investigation into your specific OS error and system setup, please contact Microsoft Support so we can look into what might be causing these recurring issues.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "2947254",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps /errorcode had nothing on this particular one, this happened when I tried to open network settings. Please help https://t.co/F0Kif0QLVY",
+        "score": 0.680948,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "824514",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps No I have never had this problem before. I went  through bios setting but that did nothing | @MicrosoftHelps Windows 10 and reset back to factory settings like I normally do every 6 months | @MicrosoftHelps No unfortunately after seeing this error code in the picture? Will I just be able to install a new Windows using a disc? | @MicrosoftHelps I'm reinstalling Windows 7 but I had 10 will I need to buy another disc just to upgrade? | @116230 ?? https://t.co/IfXuWqGP4H",
+        "score": 0.65104,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 5,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "950623",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps I will clean instal and then check and update all drivers | @MicrosoftHelps what is this error ? https://t.co/eGBvOW0JQX | @MicrosoftHelps Clean instal again | @MicrosoftHelps Yes it has occurred again",
+        "score": 0.635734,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 4,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

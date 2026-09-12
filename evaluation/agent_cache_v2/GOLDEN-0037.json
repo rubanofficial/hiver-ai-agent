@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0037",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "4d0f68443af4632d980cb2e54a8c853b19c252dd44860e7b4c39e50bfcad032d",
+  "prediction": {
+    "golden_id": "GOLDEN-0037",
+    "predicted_intent": "Complaint / Feedback",
+    "predicted_intent_confidence": 0.35,
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+    "predicted_reply": "Thank you for the update! Please feel free to reach back out whenever you are ready to follow up on your ideas, and we will be happy to assist you further.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "1281720",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Thankyou. Ive replied back with the information! | @MicrosoftHelps I've send you a dm, can you help out!",
+        "score": 0.827967,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "437778",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps following https://t.co/uhiQqMSpTf any ideas on what i'm suppose to do here? https://t.co/3Mymdeern7",
+        "score": 0.807611,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "209286",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Thank you for the answer",
+        "score": 0.80681,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": true
+        }
+      }
+    ]
+  }
+}

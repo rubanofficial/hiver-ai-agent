@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0019",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "66a7e06c7e1bf91e4296d1784d1dff2ce90614dd87e58aeb00aa56e2227335f9",
+  "prediction": {
+    "golden_id": "GOLDEN-0019",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "Hello! Based on a similar case, we understand you are having trouble opening iTunes after a Windows 10 update, even after reinstalling. While we cannot guarantee a specific fix, some users have experienced similar issues following updates. If reinstalling hasn't helped, we recommend reaching out to Microsoft Support for further assistance.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "2755154",
+        "source_tweet_id": null,
+        "text": "I Have A Quick Question @MicrosoftHelps Could Y'all Help Me Resolve This Issue I'm Having In The Screenshot I Took Windows 10 Isn't Allowing Me To Download ITunes Thanks Again.! https://t.co/kP25iUbq5H",
+        "score": 0.820417,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": true
+        }
+      },
+      {
+        "evidence_id": "710968",
+        "source_tweet_id": null,
+        "text": "@116230 For some reasons I can’t update iTunes. And when I unsuitable it to re download. It wouldn’t download. | @290019 Hi, there! We would love to share our recommendations. Which apps and programs do you use the most on your laptop? | I need a new laptop so badly. Even though mine still works. It also doesn’t work at the same time. | @MicrosoftHelps Nothing is fixed yet. My computer had a bunch of updates. It still won’t let me download it. Says something is wrong with app installer. | @MicrosoftHelps I’m running Windows 10 Home. And this is the message I get. https://t.co/w9KLj2DFdQ | @MicrosoftHelps Didn’t work. | @MicrosoftHelps My iTunes wouldn’t update for the same problem. So I uninstalled it and tried to clean install. Now it won’t let me install it at all. | @MicrosoftHelps So the company that makes the computer?",
+        "score": 0.63583,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 8,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2403448",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Listen Microsoft support, you guys were no help! | After six months I have finally gotten Windows 10 to update. It only took reinstalling it from scratch.",
+        "score": 0.617015,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

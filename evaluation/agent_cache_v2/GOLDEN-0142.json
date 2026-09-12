@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0142",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "8b316fa764d701cf5fffe0c9bf14508b2635e5eda5fc325c6cb6e1e4decc90a6",
+  "prediction": {
+    "golden_id": "GOLDEN-0142",
+    "predicted_intent": "Product / Feature How-To",
+    "predicted_intent_confidence": 0.6,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "Thanks for providing your operating system version. Based on a similar case, users have noted issues arising around the time of recent updates on Windows 10. If you are experiencing unexpected behavior following an update, please let us know specific details about the issue you are facing so we can help further.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "568811",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps  Windows 10  64-bit version...",
+        "score": 0.851324,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2375112",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Also I'm on Windows 10",
+        "score": 0.784957,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2767221",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Windows 10, since today, that I'm not sure aside from the update",
+        "score": 0.72995,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

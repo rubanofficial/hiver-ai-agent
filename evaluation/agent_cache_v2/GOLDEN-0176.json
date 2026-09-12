@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0176",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "2ecd4692b96dbd8838ceda9fc8bee4ed3fe34f717e80b6795eb677fde3740d27",
+  "prediction": {
+    "golden_id": "GOLDEN-0176",
+    "predicted_intent": "Complaint / Feedback",
+    "predicted_intent_confidence": 0.85,
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+    "predicted_reply": "Thank you for reaching out and for your continued loyalty to Surface! We are glad to hear your current device has lasted well, and we appreciate your feedback as you plan for an upgrade.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "1374374",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Sure. 6 tablets deployed ~Sept 2016, 1st tablet replaced under warranty for keyboard issues in July. Another tablet w/ dead SSD this week. | @MicrosoftHelps OK, Microsoft, 2 of my 6 field deployed Surface Pro 4's should not die after 15 months of gentle use. Help me.",
+        "score": 0.640082,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2521555",
+        "source_tweet_id": null,
+        "text": "bought a microsoft surface. had it for 2hours now. here are my problems with it so far:\n-can’t download google apps (docs, youtube,tumblr)",
+        "score": 0.633348,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "643182",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps I have taken it back to pc world and they have now sent it back yourselves with hard drive failure 😥. Really not happy as I paid more than I was looking to spend because I thought the surface was a safe option and this happens within 12 mths.  Would appreciate it back soon | @123127 Not Happy - surface pro 4 less than 12 months old and it appears hard drive has gone - not good 😡😱",
+        "score": 0.623262,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

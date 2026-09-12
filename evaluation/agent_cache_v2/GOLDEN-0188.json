@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0188",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "7d2b4b8f4771cffb814cfc016481131783282499083b145ba0674b4b827f001d",
+  "prediction": {
+    "golden_id": "GOLDEN-0188",
+    "predicted_intent": "Microsoft Store",
+    "predicted_intent_confidence": 0.98,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "Hello! I understand you are having trouble with the Microsoft Store. Based on a similar case, users have experienced issues launching the Windows Store app where standard troubleshooting did not initially help, but it was eventually resolved. If you need further assistance, please reach out to Microsoft Support.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "372774",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps \n                       hello microsoft, i need help. i cannot access the store and not the website",
+        "score": 0.837669,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "963068",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps @152814 so i got this message but i go to the store it get this, so what do i do? https://t.co/7MwBNKDDtW",
+        "score": 0.793226,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1607987",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps It's already fixed. Thank you for your help 😊 | I am unable to lauch Windows Store App. How to fix this? Troubleshoot also doesn't help. @MicrosoftHelps",
+        "score": 0.774804,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

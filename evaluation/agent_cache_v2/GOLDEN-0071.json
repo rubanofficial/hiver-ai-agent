@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0071",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "aa5b034afc723470deeb27f7777965a3acc5def37bcefa3bcd1ddd89da06fda5",
+  "prediction": {
+    "golden_id": "GOLDEN-0071",
+    "predicted_intent": "Complaint / Feedback",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+    "predicted_reply": "We apologize for the frustration and difficulty you've experienced with being disconnected during your calls today. Based on similar cases where users faced communication and wait-time issues, we recommend reaching out directly to Microsoft Support for further assistance so we can help resolve your issue.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "1594174",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps I just spoke to 6 different technicians and the last one hung up mid call after 36 mins.",
+        "score": 0.785847,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "572322",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps I needed support and I was put on a waiting list for a phone call. Was told “approximately 82 minutes” and it’s been 2+ hours now",
+        "score": 0.776758,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2243854",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Never got a call | @MicrosoftHelps someone was supposed to call me in 5 minutes 15 minutes ago??",
+        "score": 0.772305,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0175",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "4113e33208ba7b31b4dd1d0fa8453594496d37c65912d23325407c3ddc15c7ff",
+  "prediction": {
+    "golden_id": "GOLDEN-0175",
+    "predicted_intent": "Warranty / Repair",
+    "predicted_intent_confidence": 0.9,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "We understand you are experiencing a 'no service error' with your phone, but we need further investigation into your device warranty and account entitlements to assist you with a repair or replacement. Please contact Microsoft Support so an agent can look up your specific device and order details.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "547008",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Request for Microsoft call back won't accept my phone number. | @MicrosoftHelps Can't reach any website, including Microsoft and ATT support. | @MicrosoftHelps Lumia 950 activated yesterday. The outlook inbox is empty. Can't locate or access Gmail account. | @MicrosoftHelps Help! I need to talk with a human! It shouldn't be this hard!",
+        "score": 0.666956,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 4,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "260703",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps The number I previously tweeted is supposed to go to support but does not. | @MicrosoftHelps 800-642-7676 is listed as a \"Global Customer Service phone number\" but answers very oddly.",
+        "score": 0.632962,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "572322",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps I needed support and I was put on a waiting list for a phone call. Was told “approximately 82 minutes” and it’s been 2+ hours now",
+        "score": 0.630772,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

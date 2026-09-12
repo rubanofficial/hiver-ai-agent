@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0005",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "38c2a73530742f23efcb9dc6ea8857e049f9f75fb9c732982843a5845e104101",
+  "prediction": {
+    "golden_id": "GOLDEN-0005",
+    "predicted_intent": "Complaint / Feedback",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+    "predicted_reply": "Hi there! We appreciate you reaching out and sharing your feedback with us. Based on similar cases where users experienced frustrations with updates, is there something specific we can help you with to improve your experience?",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "2018807",
+        "source_tweet_id": null,
+        "text": "@116230 Mostly I'm just tried of every Win10 update fixing some things and breaking others that used to work. | @597023 Hi, there. Is there something specific we can help you with? We want you to enjoy your experience with Windows 10! | Windows 10: Constantly broken in new and surprising ways.\rI miss Windows 8.",
+        "score": 0.713456,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 3,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2173350",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Hahaha thanks for getting in touch, but it's just long updates when I really need to work! Appreciate the offer to help, though. | Y u hate me #windows10? https://t.co/6Q8QxRWRdF",
+        "score": 0.679645,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "711569",
+        "source_tweet_id": null,
+        "text": "@116230 If my PC would ever stop preparing to configure Windows I'd let you know. | It's 10/10, so we're celebrating #Windows10. What's your favorite feature? | @116230 This screen. https://t.co/xyAeZ3CPbg",
+        "score": 0.661685,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 3,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

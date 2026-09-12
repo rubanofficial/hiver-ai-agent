@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0144",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "3fd23d69a2ed4199ccdb20998dfe39926030f6415edc2aa42e8c577500859b57",
+  "prediction": {
+    "golden_id": "GOLDEN-0144",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "We understand you are experiencing issues with Cortana hearing you using your Turtle Beach P11s headset on Windows 10. Since standard troubleshooting steps and driver updates may not resolve update-specific hardware and software interactions, this case requires further investigation into your specific system configuration and device compatibility. Please contact Microsoft Support so an agent can perform a deeper check into your audio settings and device entitlements.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "1087139",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps what's going on with Cortana on windows mobile 10? Won't set alarm on either of my win10 phones, works fine on my 8.1 phone",
+        "score": 0.66676,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1084808",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps The only thing that works is my headset audio hooked up usb, no other audio output works. | @MicrosoftHelps I have run trouble shooter, i have updated all my drivers, i gave control of my computer to your tech support. None of it worked | @MicrosoftHelps Well i have done everything that support knows of, i have temporarily found a work around but the main problem still exists | @MicrosoftHelps  this is unacceptable what ever has taken the sound away needs addressed immediately,",
+        "score": 0.609404,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 4,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1685353",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps I rolled it back to the previous update and it fixed it. The new update ruined my sound | @MicrosoftHelps Can you please  explain how after the windows update, my headphone sound completely fucked, sounds like Im in a Pringles can",
+        "score": 0.601524,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0155",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "ec56d46e6937264baa1aad5fc84b350dc1b855664e639eed23b7a4585b3a2606",
+  "prediction": {
+    "golden_id": "GOLDEN-0155",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "Hello! Based on a similar case from our history where a Windows update caused slow startup times, a customer was able to get the issue sorted out. While we cannot guarantee the exact same result for your device, we recommend checking your system settings or reaching out to Microsoft Support if the slow boot times persist.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "997887",
+        "source_tweet_id": null,
+        "text": "18 hours and no @MicrosoftHelps response to my #UpdateBootLoop problem.",
+        "score": 0.781624,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "984981",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps I got it sorted. Thanks for checking back. | // @MicrosoftHelps I’m having issues with a windows update. It’s been updating for 10 hours. What should I do?",
+        "score": 0.7316,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2386516",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps new update for windows 10 isn't working properly. Taking more than 10 min just to start.",
+        "score": 0.72717,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

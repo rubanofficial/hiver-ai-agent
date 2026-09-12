@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0023",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "c8a5903decbfe75d3b4d5eb871a766abb643b8f665d9bb274146bf3f4da25b18",
+  "prediction": {
+    "golden_id": "GOLDEN-0023",
+    "predicted_intent": "Complaint / Feedback",
+    "predicted_intent_confidence": 0.5,
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+    "predicted_reply": "We would like to help you further, but this case requires additional investigation into your account entitlements and specifics to provide an accurate resolution. Please contact Microsoft Support so we can look into this for you.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "165703",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Nope. Your suggestion was the answer. Thanks!",
+        "score": 0.697718,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": true
+        }
+      },
+      {
+        "evidence_id": "824494",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Yes! :) | @MicrosoftHelps Thank you.",
+        "score": 0.689372,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": true
+        }
+      },
+      {
+        "evidence_id": "209286",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Thank you for the answer",
+        "score": 0.677955,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": true
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0193",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "d1bcdea87bcad6371a1f89812fde002fa053a1ad62d709419bc41ca8dd9da42f",
+  "prediction": {
+    "golden_id": "GOLDEN-0193",
+    "predicted_intent": "Product / Feature How-To",
+    "predicted_intent_confidence": 0.85,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "We understand you are experiencing an autocorrect issue on Windows 10 Mobile. Because this case requires further investigation into your specific build and device settings, please contact Microsoft Support so we can look into this for you.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "143944",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps I hope you'll still be able to be the problem? | Windows 10 understand how buggy, wow.",
+        "score": 0.614201,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2290467",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Windows 10 mobile, version 1703. OS build 10.0.15063.0001 | @MicrosoftHelps I could not do a soft restart that way. It only took me to the Feedback hub (I did report my issue there). What now?",
+        "score": 0.579279,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "375025",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps I 've the last W10 Mobile build 15252 ,.. https://t.co/y9DTJjKs3L | #WindowsInsiders .@115890 Please tell me any fix to build 10.0.15252 ?? The store is fall in my Lumia 640XL @135958 https://t.co/itbtDaFmrc | @MicrosoftHelps Ok, Just this is the problem, because after update my phone to build 15252, issue its present,..",
+        "score": 0.572132,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 3,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

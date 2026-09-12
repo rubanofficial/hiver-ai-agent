@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0107",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "7401794be37efd646616372fd5c449c20942e4131ca9e245a101436d6a7fec38",
+  "prediction": {
+    "golden_id": "GOLDEN-0107",
+    "predicted_intent": "Product / Feature How-To",
+    "predicted_intent_confidence": 0.85,
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "No evidence reached the confidence threshold for a safe autonomous reply (minimum 0.60); human review is required.",
+    "predicted_reply": "Hello! We would like to look into this further to help you with the issue you are experiencing with your PC and File Explorer. Since the historical evidence does not provide a specific troubleshooting step for this appearance, this case requires further investigation into your system setup and recent updates. Please contact Microsoft Support so we can perform the necessary checks.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "293221",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Not at all. I had my IT guy at work take a look at it and he said to return it. There was no way to fix it | @123127 what do I do😢 | @MicrosoftHelps I did a few times, still nothing | @MicrosoftHelps Okay, thank you | @MicrosoftHelps I called, nothing worked | So I was in the middle of typing a paper and forgot to save it before this happened🙃 https://t.co/6a4soOVrNT",
+        "score": 0.554002,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 6,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2625187",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps I had it but I forgot to back it up when I reinstalled Windows | @116230 I had to reinstall Windows and I am not even sure it's gonna work properly again | @MicrosoftHelps I remember his name was James A | @MicrosoftHelps I don't know what that is nor where it is, sorry! | @116230 y'all should consider getting new software engineers or something because the latest update is flawed af | @444732 Hello, there! Are you still experiencing these issues? Perhaps we can help. | my PC is in the brink of death because of this stupid Creator's update I am suffering :))))",
+        "score": 0.50107,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 7,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2243859",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Thanks for the reply! Everything's fine now. It got autosaved👍 | @654127 @MicrosoftHelps | After writing around 900 words this happens. https://t.co/UsYU9j5fNL",
+        "score": 0.493218,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 3,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

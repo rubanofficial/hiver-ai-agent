@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0064",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "e0259951bdd3f860fd7a9b79b8d4b4df390262252621d2d8662f3f1823a3ee2d",
+  "prediction": {
+    "golden_id": "GOLDEN-0064",
+    "predicted_intent": "Product / Feature How-To",
+    "predicted_intent_confidence": 0.85,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "We understand you are having trouble finding the appearance or theme settings. Since the historical evidence does not provide the exact steps for this specific interface, this case requires further investigation into your current product version and account settings. Please contact Microsoft Support so we can check your account entitlements and guide you through the correct navigation steps.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "165703",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Nope. Your suggestion was the answer. Thanks!",
+        "score": 0.613997,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": true
+        }
+      },
+      {
+        "evidence_id": "2307874",
+        "source_tweet_id": null,
+        "text": "I really like the new interface but there are some features I wish you'd bring back. Overall tho, it's really nice. @115786 @MicrosoftHelps",
+        "score": 0.559595,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1571871",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps it is not necessary, but yes I have.",
+        "score": 0.556725,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

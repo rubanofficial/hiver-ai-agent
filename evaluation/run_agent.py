@@ -661,6 +661,73 @@ def write_failures(path: str, failures: List[Dict[str, Any]]) -> Path:
 
 
 # ---------------------------------------------------------------------------
+# Cache-only export (no pipeline, no Gemini, no fingerprint validation)
+# ---------------------------------------------------------------------------
+
+def export_from_cache(
+    records: List[Dict[str, Any]],
+    cache_dir: str,
+    predictions_path: str,
+    predictions_csv_path: str,
+    failures_path: str,
+    intents_yaml: Optional[str] = None,
+    taxonomy: Optional[List[str]] = None,
+) -> Dict[str, Any]:
+    """Compile prediction files directly from existing cache entries.
+
+    This function NEVER calls the pipeline, NEVER calls Gemini, and NEVER
+    validates input fingerprints.  It reads every cache entry whose
+    ``status`` is ``"ok"``, validates the prediction schema against the
+    taxonomy, and writes the three artifact files.
+
+    Entries with ``status != "ok"`` are counted but never turned into
+    predictions.  Golden records with no cache entry are left out of the
+    artifact (they stay unattempted).
+    """
+    if taxonomy is None:
+        taxonomy = load_taxonomy(intents_yaml)
+
+    cache = load_cache(cache_dir)
+
+    predictions = build_predictions_artifact(records, cache, taxonomy)
+
+    # Count non-ok cache entries for reporting (never fabricate predictions).
+    non_ok = [
+        {"golden_id": gid, "error": entry.get("error", "status=" + str(entry.get("status")))}
+        for gid, entry in cache.items()
+        if entry.get("status") != "ok"
+    ]
+
+    written = [
+        write_predictions_json(predictions_path, predictions),
+        write_predictions_csv(predictions_csv_path, predictions),
+        write_failures(failures_path, non_ok),
+    ]
+
+    return {
+        "total": len(records),
+        "cache_entries": len(cache),
+        "cache_ok": sum(1 for e in cache.values() if e.get("status") == "ok"),
+        "cache_non_ok": len(non_ok),
+        "unattempted": len(records) - len(cache),
+        "predictions_exported": len(predictions),
+        "written": [str(p) for p in written],
+    }
+
+
+def print_export_summary(summary: Dict[str, Any]) -> None:
+    print(f"[export] golden records           : {summary['total']}")
+    print(f"[export] cache entries found      : {summary['cache_entries']}")
+    print(f"[export] cache entries ok         : {summary['cache_ok']}")
+    print(f"[export] cache entries non-ok     : {summary['cache_non_ok']}")
+    print(f"[export] unattempted (no cache)   : {summary['unattempted']}")
+    print(f"[export] predictions exported     : {summary['predictions_exported']}")
+    print("[export] written:")
+    for path in summary["written"]:
+        print(f"  - {path}")
+
+
+# ---------------------------------------------------------------------------
 # Core run
 # ---------------------------------------------------------------------------
 
@@ -842,6 +909,12 @@ def parse_args(argv: Optional[List[str]]) -> argparse.Namespace:
         "--dry-run", action="store_true",
         help="Print which examples would call Gemini; write nothing.",
     )
+    parser.add_argument(
+        "--export-cache", action="store_true",
+        help="Compile prediction files from all status=ok cache entries without "
+             "calling Gemini or validating input fingerprints.  Safe to run "
+             "at any time; never modifies individual cache files.",
+    )
     return parser.parse_args(argv)
 
 
@@ -856,6 +929,24 @@ def main(argv: Optional[List[str]] = None) -> int:
     except AgentRunnerError as exc:
         print(f"[agent] Cannot run.\n{exc}", file=sys.stderr)
         return 1
+
+    # --export-cache: compile prediction files from existing cache without
+    # calling Gemini or checking fingerprints.  Does not require an API key.
+    if args.export_cache:
+        try:
+            summary = export_from_cache(
+                records,
+                cache_dir=args.cache_dir,
+                predictions_path=args.predictions,
+                predictions_csv_path=args.predictions_csv,
+                failures_path=args.failures,
+                intents_yaml=args.intents_yaml,
+            )
+        except AgentRunnerError as exc:
+            print(f"[export] Cannot export.\n{exc}", file=sys.stderr)
+            return 1
+        print_export_summary(summary)
+        return 0
 
     model_name = args.model or default_model_name()
 

@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0195",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "8e9c8969b116cd290fe2fe2ed64e81b887460723b9bd7a8c84f2dab2dc4e7fe2",
+  "prediction": {
+    "golden_id": "GOLDEN-0195",
+    "predicted_intent": "Complaint / Feedback",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Generated reply could not be grounded in historical evidence; human review is required.",
+    "predicted_reply": "We understand your frustration with the layout on your Mac. Because we do not have enough information in our current system to resolve this autonomously, please contact Microsoft Support directly for further assistance.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "1821194",
+        "source_tweet_id": null,
+        "text": "@118334 If I'm not able to unlink my skype from my Microsoft account I should at least be able to change my skype name...",
+        "score": 0.49658,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1417557",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps My laptop with the latest Skype for Windows 10 app | does anyone know how to turn the skype call sound off with the windows 10 app?\n@118334 \n\nSeriously...need help urgently",
+        "score": 0.491236,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "643627",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps When I uninstalled the Skype app and reinstalled it created a new Skype account without me knowing. | I do not enjoy the new Skype for Windows 10. @115890 @118334 @6986",
+        "score": 0.489004,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

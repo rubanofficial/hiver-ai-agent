@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0200",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "4f2350e969bbfeac4f072b36e8056c4b2b481bda15197616bac34e00de591d41",
+  "prediction": {
+    "golden_id": "GOLDEN-0200",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "Hello, thank you for reaching out to MicrosoftHelps. Since the historical evidence does not provide a specific resolution or support contact path for your location in Germany regarding your missing Windows 10 desktop, this case requires further investigation to check your specific setup and account details. Please contact Microsoft Support so an agent can investigate your system further, and feel free to provide any additional details about when the desktop disappeared.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "2147442",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps  I am frustrated beyond belief. I have tried online support and phone support with ZERO  help or an actual live person. How may I get actual support for Windows 10?????",
+        "score": 0.639732,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "520597",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps I have so many problems with Windows. Talked to 10 techs and laptop is still not working.  Help!!",
+        "score": 0.638977,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "906306",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps We're in England. Spent all day trying to resolve. Just want money back so can buy alternative | @MicrosoftHelps need help with 2 month surface that won't work. No joy on phone to \"helpline\". Need the laptop exchanged for working model | @MicrosoftHelps What’s best way to escalate? | @MicrosoftHelps May do-waiting for action still via FB messenger.There is no UK support here.",
+        "score": 0.61904,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 4,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0162",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "43d3ef4ee7e17aafa625c278408f9488f69de4356c130da0093ec494aac1d47c",
+  "prediction": {
+    "golden_id": "GOLDEN-0162",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "We understand how frustrating it is when Microsoft Word crashes, especially on a new laptop. Based on similar cases where users experienced crashing, please note that previous versions may work fine if the current update is causing issues. For further assistance, please reach out to Microsoft Support so we can help get this resolved for you.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "1622033",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps No, too busy for that. Just need a product that works and doesn't crash. | @MicrosoftHelps Your Word update is broken. Crashing all day. No, I don't want to send you more info or go anywhere for help. Just fix it.",
+        "score": 0.701119,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "616701",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Yes, multiple times, hoping an update had come along to fix it, but with no luck | @MicrosoftHelps It crashes at startup, I've tried previous versions and they work fine. | @MicrosoftHelps Office Lens and Word aren't working on my phone running Android 7.11 https://t.co/lQgzbj1Fpg",
+        "score": 0.666286,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 3,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "643172",
+        "source_tweet_id": null,
+        "text": "Me: tries to edit MS Word chart.\nWord: crashes, freezes, panics\nMe: 😧😤😡",
+        "score": 0.662449,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

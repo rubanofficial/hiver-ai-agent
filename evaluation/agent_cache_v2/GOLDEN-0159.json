@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0159",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "e92dd9b85eeaad75afb77164ca4316af2ada366c8cb9473650798f9c8e2aa606",
+  "prediction": {
+    "golden_id": "GOLDEN-0159",
+    "predicted_intent": "Complaint / Feedback",
+    "predicted_intent_confidence": 0.85,
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+    "predicted_reply": "Hi, there. We want you to have a great experience with Windows. Are you still experiencing this at the moment? We're here to help if you need us.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "1530250",
+        "source_tweet_id": null,
+        "text": "@116230 All gone, update completely stuffed my computer. LOST EVERYTHING!!! | @474914 Hi, there. Just wanted to check in. Are you still experiencing this at the moment? We're here to help if you need us. | Yaaaaay...thanks @116230 #windowsupdate https://t.co/vuNryUjk4h | @MicrosoftHelps I've reinstalled, lost everything",
+        "score": 0.684895,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 4,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1558120",
+        "source_tweet_id": null,
+        "text": "@116230 1. Updates itself 2. This just happened ? https://t.co/cHB6vlK0Fr | @481593 Hey, there. What's happening to make you say that? We want you to have a great experience with Windows. | @118197 &amp; @116230 is the worst !",
+        "score": 0.649216,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 3,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "910479",
+        "source_tweet_id": null,
+        "text": "Thanks for completely screwing my pc with your terrible update @116230",
+        "score": 0.64565,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": true
+        }
+      }
+    ]
+  }
+}

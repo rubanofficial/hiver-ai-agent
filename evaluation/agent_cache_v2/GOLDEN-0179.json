@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0179",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "3f1988a6901075772cef7ec66255e5282278342c16ffc4466bd01ea9e7f3df34",
+  "prediction": {
+    "golden_id": "GOLDEN-0179",
+    "predicted_intent": "Complaint / Feedback",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+    "predicted_reply": "We understand your frustration regarding your product experiences and the delay in receiving assistance. Because this requires further investigation into your specific account entitlements and product history, please reach out to Microsoft Support directly so we can look into these issues and assist you further.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "621110",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps WHY WONT YOUR TEAM RESPOND TO ANY ISSUES I HAVE SENT TO YOU?  is your customer service as bad as the products you sell? | @MicrosoftHelps @267409 I've tweeted you several times can you please address my issue.",
+        "score": 0.529005,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "196247",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Just as I thought. I DM you guys just as you stated and no response. You could care less about the issues at hand. All you care about is $ | @MicrosoftHelps There isn't enough space for me to even start. | @MicrosoftHelps No, everything is still at a stand still. I've been waiting 2weeks and nothing has happened. Smh. | @115890 @MicrosoftHelps I won't ever buy another Microsoft product again. Your customer service just completely killed it for me. 👎🏽💩",
+        "score": 0.512878,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 4,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1092824",
+        "source_tweet_id": null,
+        "text": "Absolutely let down today, can't believe a corporation as big as Microsoft cannot help a problem they induced @MicrosoftHelps",
+        "score": 0.485998,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

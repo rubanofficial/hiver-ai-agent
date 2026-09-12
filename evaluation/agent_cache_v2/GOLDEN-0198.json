@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0198",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "1d6a89cf45f62e717b9461926f1b895d4a457c99f6509e00e84d09767542c51f",
+  "prediction": {
+    "golden_id": "GOLDEN-0198",
+    "predicted_intent": "Account & Login",
+    "predicted_intent_confidence": 0.98,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "We understand how urgent it is to access your Hotmail account. Based on similar cases where users experienced blocked accounts and difficulties with the recovery form, we recommend reaching out directly to Microsoft Support for further assistance with your account recovery.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "1427171",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps I have done this and I'm still not getting any answers! | @MicrosoftHelps please can you reply to my message. Have been blocked from using my hotmail account and I need to access my emails urgently. | @MicrosoftHelps I am getting absolutely nowhere with this. Disgusted with the lack of help in getting me back into my account.",
+        "score": 0.844836,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 3,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2287765",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps I have no way to access the account to add security information | @MicrosoftHelps hotmail account keeps getting blocked after several account recovery form submissions HELP",
+        "score": 0.786251,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1465579",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps @MicrosoftHelps still no response... | @MicrosoftHelps after 4 hours on the telephone, told that I am permanently blocked from my hotmail account. This is not good",
+        "score": 0.780295,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

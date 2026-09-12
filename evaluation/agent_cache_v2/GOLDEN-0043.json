@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0043",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "2c8bf5c9407f1ecdf2b341f5e7284baffcbecea91e12ca27dc7ccca4170b4e9b",
+  "prediction": {
+    "golden_id": "GOLDEN-0043",
+    "predicted_intent": "Warranty / Repair",
+    "predicted_intent_confidence": 0.85,
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "No evidence reached the confidence threshold for a safe autonomous reply (minimum 0.60); human review is required.",
+    "predicted_reply": "We are sorry to hear that your new Patrol Tech controller is having connection issues and that you are encountering trouble registering it on our site. Because this requires further investigation regarding your device registration and exchange options, please contact Microsoft Support so our team can look into your account and device entitlements.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "900282",
+        "source_tweet_id": null,
+        "text": "My controller doesn’t work after I updated it @MicrosoftHelps",
+        "score": 0.50782,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "291012",
+        "source_tweet_id": null,
+        "text": ". @MicrosoftHelps hmm seem to be caught in a loop, the link here just keeps redirecting me back to the page I'm on : https://t.co/Fj4vgkRRVF https://t.co/vjWPtiKuL2",
+        "score": 0.500783,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "761790",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Useless lol | @MicrosoftHelps hi, my Xbox account has an active enforcement stopping me playing online and I don’t know why? Can you help?",
+        "score": 0.498512,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

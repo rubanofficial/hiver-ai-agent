@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0187",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "42962e0176532d387322412f1a70064f3db1cf657bbb7799584746ad537130cc",
+  "prediction": {
+    "golden_id": "GOLDEN-0187",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "No evidence reached the confidence threshold for a safe autonomous reply (minimum 0.60); human review is required.",
+    "predicted_reply": "We are sorry to hear you are experiencing high CPU usage following your clean installation of Windows 10. Because this case requires further investigation into your specific system performance and update status, please contact Microsoft Support so we can look into what needs to be checked.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "13794",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps That link just gives me gibberish: 2a0 TQo0~_­&amp;6Eci/P'(BsM!%j5L@ZnTa,&amp;NER&lt;umd&gt;o=RSzw^m9H&lt;vcd&gt;:r{A^PhmX$9Y) | @MicrosoftHelps Has any other Windows 10 user noticed massive data when first connecting to net? | @MicrosoftHelps Dialup service provider said no previous customer reported same problem. | @MicrosoftHelps When Windows 10 first is connected to net, does it try to download upgrades to latest version? | @MicrosoftHelps What can my dialup service provider do to stop Windows 10 from flooding connection? | @MicrosoftHelps No, didn't modify modem. No, didn't ask dialup provider about problem with Windows 10. | @MicrosoftHelps I.e. Task Manager claims no process is using even 1% of available net bandwidth, contrary to fact. | @MicrosoftHelps https://t.co/7MGGNUiyxi -&gt; https://t.co/DccmlONsXq which claims to have sent a code to my landline. | @MicrosoftHelps In Task Manager I looked for any task using bandwidth, but total was 0%. | @MicrosoftHelps When modem data flood stops for awhile, TELNET responds immediately, and all other net appls run normal dialup speed. | @MicrosoftHelps Update: I found live view of total data sent and received during connection: 200bps sent, 5000bps rcvd. | @MicrosoftHelps Brand new computer, setup, plugged 56k Zoom modem into USB port, configured dial-up parameters, connected, and immediate data flood... | @MicrosoftHelps ...data light on modem flashing constantly, TELNET and other normal dialup usage very sluggish or unusable. | @MicrosoftHelps What kind of details do you need? From Friday afternoon when I first opened dialup PPP, massive data churning. | @MicrosoftHelps Brand new Acer Spin 1 running Windows 10, using 56k dialup modem; unknown process constantly churning modem hogging bandw. | @MicrosoftHelps @MicrosoftHelps How am I supposed to know what code it sent my landline so I can enter the code in the form? | @MicrosoftHelps @MicrosoftHelps I also found system update log: Shows Windows 10 update FAILED several times per day. | @MicrosoftHelps @MicrosoftHelps Conclusion: Acer Spin 1 spends all day all night repeatedly swamping dialup connection with system update downloads which repeatedly fail to install. | @MicrosoftHelps @MicrosoftHelps So yesterday I returned Acer Spin 1 to Target to get full refund. Windows 10 is crap. | @MicrosoftHelps What do you want me to say in a DM?",
+        "score": 0.50441,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 20,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1545378",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Creators Fall Update build 1709 | @MicrosoftHelps You should provide an option to disable or pause updates / install selective updates !!!! | Feature Update to win 10,Ver 1709 is really laggy !!!\nMemory consumed 80% on idle state?? Lags inspite of having good h/w @MicrosoftHelps",
+        "score": 0.502613,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 3,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "843794",
+        "source_tweet_id": null,
+        "text": "New windows 10 update taking forever to  do... 😩",
+        "score": 0.501736,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

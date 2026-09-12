@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0145",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "e5a489885afbcc366a762dec80a77e8da9750d5cf6e681b8c885092505ad7645",
+  "prediction": {
+    "golden_id": "GOLDEN-0145",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 0.85,
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "No evidence reached the confidence threshold for a safe autonomous reply (minimum 0.60); human review is required.",
+    "predicted_reply": "We understand your frustration regarding Windows updates interrupting your work. Because this requires further investigation into your system settings and update preferences, please contact Microsoft Support so we can look into how to better manage your update schedule.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "2031524",
+        "source_tweet_id": null,
+        "text": "Microsoft Windows, making your work life harder one update at a time.",
+        "score": 0.557763,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "522039",
+        "source_tweet_id": null,
+        "text": ".@MicrosoftHelps Just spent a chunk of my life doing your stupid update. Now going to have to spend another chunk getting rid of things I don't want. I'm an adult, Let me use my computer as working adult.",
+        "score": 0.534158,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "610635",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps after all these years have you not figured out how to update at night when I'm not in the middle of something? #Windows10",
+        "score": 0.511767,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0152",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "13e1d9ce9b711e00bb208093c2fc2355c3e38886b5ec7406cf17a5585a6bfbe7",
+  "prediction": {
+    "golden_id": "GOLDEN-0152",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 0.89,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "We understand you want to keep your PC on the version prior to the Fall Creators Update to avoid any potential bugs. Based on a similar historical case where a customer's PC got stuck during the update process, the issue was successfully resolved and their PC was restored to working order. If you need any assistance or run into questions while managing your Windows updates, please feel free to reach out to Microsoft Support.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "703297",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Thanks! Haven't tried anything yet! But if i need the help, I'll let ya know! | Sooo.. I just got the windows 10 fall creators update. Hopefully it doesn’t wreck the pc. Lol",
+        "score": 0.722801,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1574938",
+        "source_tweet_id": null,
+        "text": "Get the Windows 10 Fall Creators Update!\nhttps://t.co/yKql3pzN8R",
+        "score": 0.69435,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "125002",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Thanks ... It worked... ✌✌.. My PC is good as new and I love this Windows Fall Creator Update 🔥 | @MicrosoftHelps Windows 10...I updated to Windows Fall Creator Update a day ago | @MicrosoftHelps my PC has Stuck in \"Diagonosing your PC'',, it's been hours... Help",
+        "score": 0.682859,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 3,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

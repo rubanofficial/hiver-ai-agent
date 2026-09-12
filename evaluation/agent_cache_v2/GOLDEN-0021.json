@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0021",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "7fad4581b483ae05fdd17d9fd2c02d082e0112e9e1b05682426f3c9f6b05a5dd",
+  "prediction": {
+    "golden_id": "GOLDEN-0021",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 0.85,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "Thanks for reaching out. Because this issue involves unexpected prompts when closing Office applications like Word and Excel, further investigation is required. Please contact Microsoft Support so our Answer desk team can look into your account details and office subscription setup to help resolve this.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "1992727",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps why does this keep appearing whenever I open a game. It’s been like this for days https://t.co/eAsdg9MKbo",
+        "score": 0.647841,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "896607",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps V.10 | @MicrosoftHelps If you're listening, please stop asking me to confirm my account every. time. I. open. a file. | @MicrosoftHelps Opening any file in the Office suite prompts me to confirm. https://t.co/Oa0nXAfekE | @MicrosoftHelps No, when I try to open Word, Excel, etc. from my computer. Here is the window I get after I've \"confirmed.\" (I subscribe to Office 365) https://t.co/Wg1FAthp2T | @MicrosoftHelps Like I said, this happens every time I open a file. | @MicrosoftHelps That did not work. | @MicrosoftHelps Answer desk team got it done. Thanks!",
+        "score": 0.636199,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 7,
+          "has_resolution_signal": true
+        }
+      },
+      {
+        "evidence_id": "48940",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Thanks. Word in Office 2016 with Office 365 subscription. | @MicrosoftHelps Hi! How do I turn off the \"Help\" box in Microsoft Word? It's coming up every time I open a document. Thanks! https://t.co/sxXIiRFfG8 | @MicrosoftHelps Yes, of course. I close it 100 times a day because it opens with every. single. document. How to keep it from opening in the first place?",
+        "score": 0.565519,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 3,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0181",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "80bea791f5a9977de9c4eca157dd3609c74aa7aef64618665251af002a6545d2",
+  "prediction": {
+    "golden_id": "GOLDEN-0181",
+    "predicted_intent": "Account & Login",
+    "predicted_intent_confidence": 0.92,
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "No evidence reached the confidence threshold for a safe autonomous reply (minimum 0.60); human review is required.",
+    "predicted_reply": "Hello! It sounds like you are encountering an issue with account creation limits. Since the evidence does not contain a direct resolution for daily account creation limits, this case requires further investigation into your current account status and potential restrictions. Please contact Microsoft Support so an agent can look into your account details and help resolve this issue.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "1540712",
+        "source_tweet_id": null,
+        "text": "@115890 why are my outlook settings out of date every day,surely i dont have to recover my account daily 😕",
+        "score": 0.575617,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1480992",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps It’s telling me that my account doesn’t exist. And its the account that I use daily for work.",
+        "score": 0.54125,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2301997",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Yes - receiving this message. Thanks. https://t.co/rnKq000AEt | I'm trying to add our kids to @MicrosoftHelps and it's not possible to have more than six people in an account. So either I don't connect with my husband or I have to leave a kid out and can't monitor screen time or content restrictions. Surely this is an oversight? | @668065 @MicrosoftHelps Hi Kelly, yes, as you have discovered, currently there is a limit of 6 members in a Microsoft Family. We have some workarounds at https://t.co/cWUvDuqkdM | @667242 @MicrosoftHelps Hi Daniel - When will this be resolved? I'm not seeing anything in your FAQ link that helps us address this problem for our family. Why not just remove the limit? | @668065 @MicrosoftHelps We agree that the family limit is a painful issue that we need to address, but I can't speak for the team as to specific plans or timelines. | @668065 @MicrosoftHelps Oops, you are right, I need to add that section still. Currently the workaround is to have more than one family, or to create a shared account that you and your husband can use to manage parental controls.",
+        "score": 0.533156,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 6,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0135",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "07050734e18149fc01818870dd9c2f9e0afbe34d1964db0f87c1d3a74d9102cf",
+  "prediction": {
+    "golden_id": "GOLDEN-0135",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 0.85,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "We understand how frustrating it is to experience issues after a Windows update. Since the provided evidence does not contain a concrete resolution for missing files following an update, this case requires further investigation to check your specific system updates and file locations. Please contact Microsoft Support so an agent can look into your system details and help investigate what happened to your files.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "1496891",
+        "source_tweet_id": null,
+        "text": "Just love a windows 10 update.... #HowLong",
+        "score": 0.615089,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2248325",
+        "source_tweet_id": null,
+        "text": "Happy Windows 10 Fall Creators Update Day! https://t.co/ZICZm4dGz8",
+        "score": 0.598381,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2283831",
+        "source_tweet_id": null,
+        "text": "oh windows 10 just had a new huge update",
+        "score": 0.585944,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

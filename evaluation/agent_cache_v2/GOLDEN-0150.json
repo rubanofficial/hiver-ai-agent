@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0150",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "b690bd105321c3552a775d1f5175bdc1618ad54ae9ae14b653983f255000b5e2",
+  "prediction": {
+    "golden_id": "GOLDEN-0150",
+    "predicted_intent": "Warranty / Repair",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "We are sorry to hear that you are experiencing this issue with your device and that your local Microsoft store visit was unhelpful. Since the retrieved evidence does not contain a concrete resolution or replacement options for this specific issue, this case requires further investigation into your device warranty and service options. Please contact Microsoft Support so an agent can look into further troubleshooting and repair possibilities for you.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "1300327",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps guys if my elite joypad grip is coming off will you repair it as I'm sure it shouldn't just come unstuck its only 1 side",
+        "score": 0.632302,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1150656",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps what do i need to do to fix?",
+        "score": 0.61938,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1077610",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Started happening in the last week. Will push back on for a bit then comes back off. Both strips on the bottom of the unit. https://t.co/jSbvpAemfj | @MicrosoftHelps The strips on the bottom of my Surface book are coming off. Fix available? | @MicrosoftHelps Thanks for wasting my time. Finally got to a store and it was no help for me. You don't have replacement strips for the bottom of my surface book. Pretty dumb to allow me to have open holes on the bottom of my laptop. | @MicrosoftHelps Lots of chatter before, zero now eh? Very telling Microsoft.",
+        "score": 0.619089,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 4,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0110",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "45edb4a3086787e5929a7478fb1af9eeb539ccedb8bd9dd71589f3eb4bfc599d",
+  "prediction": {
+    "golden_id": "GOLDEN-0110",
+    "predicted_intent": "Product / Feature How-To",
+    "predicted_intent_confidence": 0.45,
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Generated reply could not be grounded in historical evidence; human review is required.",
+    "predicted_reply": "We do not have enough information to resolve your request autonomously at this time. Please contact Microsoft Support directly for further assistance.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "658749",
+        "source_tweet_id": null,
+        "text": "@123127 Soooo disappointed I was gifted with 2 surface pros and neither work. I’m stuck with 2 machines that my husband bought me bcuz I REALLY WANTED IT! 😡😩 | Location scout Leann doesn’t have an office. Good thing the new Surface Pro is thin &amp; light. https://t.co/6SPmTPiakU https://t.co/EhRiQYRXDa",
+        "score": 0.352945,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "662518",
+        "source_tweet_id": null,
+        "text": "Hey @MicrosoftHelps - major props to Mary Jane F. on the live chat. She did a killer job helping me out. You should throw her some love. Like a bonus, or a car, or lunch. Coffee even, but probably a car.",
+        "score": 0.342476,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "512263",
+        "source_tweet_id": null,
+        "text": "thank's god i have a @123127 #book to keep my flat warm on these cold winter days! and that's just after boot. wait until i start visual studio! #theHeatIsOn! #sad #notamused #surfacebook #reallybad https://t.co/qPcU3Q0aH1",
+        "score": 0.309633,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

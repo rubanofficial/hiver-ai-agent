@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0137",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "e11461001d5bedda52ae3453d2f947cc857983c5833fdc6904f11ec94f754e8f",
+  "prediction": {
+    "golden_id": "GOLDEN-0137",
+    "predicted_intent": "Product / Feature How-To",
+    "predicted_intent_confidence": 0.89,
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "No evidence reached the confidence threshold for a safe autonomous reply (minimum 0.60); human review is required.",
+    "predicted_reply": "Thank you for reaching out to MicrosoftHelps. The historical evidence does not provide specific details on messaging integration when moving from Windows Phone 10 to an iPhone X. Please contact Microsoft Support so an agent can further investigate your device settings and account configuration.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "1538472",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Did that. Still happening. Very sporadic. | @MicrosoftHelps No one has heard of this. Texts not arriving, not even on reboot. I have no clue who's texting me. It's gotta be OS related. | @MicrosoftHelps I've done that. I have two phones myself and many others at my disposal. Texts come in sporadically while testing. AT&amp;T verified network ok | @MicrosoftHelps Any new phones on the horizon? | @MicrosoftHelps so they called and the rest is history. I believe this happened after the latest OS updates. At this point I'd like to upgrade | @MicrosoftHelps It is. Texts will work, then randomly I won't receive SOME. Only reason I know was bc something important was happening, &amp; I wasn't replying | @MicrosoftHelps thanks, sounds like WP is dead. If Bill Gates is using an Android, I might as well stop with this two phone nonsense. lol. TY again. | @MicrosoftHelps Anything new in the past two years??? | @115890 @MicrosoftHelps my 950 is dying. I want to upgrade. What can I upgrade to for being a loyal Win Phan? Anything? 950.5?",
+        "score": 0.545243,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 9,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2104821",
+        "source_tweet_id": null,
+        "text": "Here we go #Windows10 upgrade started. | @MicrosoftHelps All good. Initially a few teething problems but behaving now. Just issues with Skype for Business on iPhone. As long as my laptop works, I can work ! :-)",
+        "score": 0.502155,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "725208",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Please bring windows phone OS back | @MicrosoftHelps please bring windows phone back please",
+        "score": 0.501256,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

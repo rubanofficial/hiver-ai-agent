@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0168",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "efdfb42d7372b35cd2d1dfa31a98a58bc3e70f50e48c03acb44d3926d7bc39b7",
+  "prediction": {
+    "golden_id": "GOLDEN-0168",
+    "predicted_intent": "Product / Feature How-To",
+    "predicted_intent_confidence": 0.6,
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "No evidence reached the confidence threshold for a safe autonomous reply (minimum 0.60); human review is required.",
+    "predicted_reply": "Thanks for sharing your excitement about your new Surface! Enjoy setting up your device.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "1513812",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Game performance sucks. Can't even play Company of Heroes anymore. | @123127 man, I love how the new creators update made my Surface useless!",
+        "score": 0.585928,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "997871",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Thank you! I'll check it out! | @MicrosoftHelps Personal use and not primarily but having that option is good. | @MicrosoftHelps I don't know which Surface to get. Help. My old one lasted almost 4 years.",
+        "score": 0.558928,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 3,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2146332",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps purchased Surface Pro (4.5) in May, now crashing. Support team told me to send back but i'll be without a PC until replacement arrives. I've had to send serveal Sufaces back over years &amp; you've been able to send replacement before receiving broken one back. why not with this one? | @128786 @84015 I wish I could use my surface pro 4.5 but alas it’s broken and despite being under Warranty your support service is very poor. | @MicrosoftHelps its a surface Pro (newest model) not 4 | Watch how @84015's Eva Rawson uses #Surface to help her as a #design #director.\nRead the interview: https://t.co/aK1JcrDarQ\n\n#ThisIsMyOffice https://t.co/FMi2JlzCsD",
+        "score": 0.550787,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 4,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

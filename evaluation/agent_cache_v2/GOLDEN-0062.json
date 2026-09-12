@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0062",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "3e42a23a74265aa2ffdeb50448e1b8b70eeddd0aafe41af54ea686161b140e53",
+  "prediction": {
+    "golden_id": "GOLDEN-0062",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 0.85,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "We're glad to hear that everything is working again! If you need any further assistance in the future, please don't hesitate to reach out.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "423899",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps What’s going on? https://t.co/rorMFB2Oj8 | @MicrosoftHelps I got everything working. Thank you!",
+        "score": 0.895321,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": true
+        }
+      },
+      {
+        "evidence_id": "403942",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Issue resolved! I was just in a chat with a Support Agent and we started working it out. Thanks!",
+        "score": 0.84165,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": true
+        }
+      },
+      {
+        "evidence_id": "929466",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Nevermind. Fixed it. | Hi @MicrosoftHelps https://t.co/XdZ8CgcCXs",
+        "score": 0.839116,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

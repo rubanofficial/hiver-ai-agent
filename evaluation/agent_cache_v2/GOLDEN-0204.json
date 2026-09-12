@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0204",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "52ce372840cdb413198a0034e84c8cbe3b45d4c9720abca4f16c56b859e8c568",
+  "prediction": {
+    "golden_id": "GOLDEN-0204",
+    "predicted_intent": "Warranty / Repair",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "We understand your frustration with having multiple Elite controllers experience bumper issues. Based on similar cases, customers often utilize the device warranty to request a repair or replacement through Microsoft Support. We recommend reaching out to Microsoft Support directly so we can assist you with your warranty options.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "1015456",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Hi, the left bumper on my 3 months old elite controller begin to fall appart. How can I send it to you for a return? :)",
+        "score": 0.722142,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1553943",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Indeed I am | @MicrosoftHelps Either way you need to fix this for me, it's less than a year old and the elite controller breaks like this, sort it out | My left bumper broke mid fifa, @MicrosoftHelps, 100 pound controller too 😶😑",
+        "score": 0.6433,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 3,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "174093",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps I've been trying to get help for my elite xbox one controller since. 1. the grips fell off 2. The right bumper broke and now 3. My contoller just turns off even though I've changed my batteries and even plugged it directly to my xbox. Can I please get real help",
+        "score": 0.578441,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

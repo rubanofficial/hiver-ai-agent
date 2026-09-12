@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0157",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "ac9ea1eabe770fe0f657095b48a679b98d8b6ceb543eac42842900435358173c",
+  "prediction": {
+    "golden_id": "GOLDEN-0157",
+    "predicted_intent": "Microsoft Store",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Generated reply could not be grounded in historical evidence; human review is required.",
+    "predicted_reply": "We apologize, but we do not have enough information in our current system to resolve this issue for you autonomously. Please contact Microsoft Support directly for further assistance.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "954793",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps I am game sharing with my friend and he bought a game and I did not get anything he bought",
+        "score": 0.477412,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2089755",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps It came up as I tried to launch the game. It turns out that even though I was installing it, the store hadn't registered that I had it so I deleted it and redownloaded it. It works now. | @MicrosoftHelps So... this is what I get when I try to launch the FREE game Fortnite Battle Royal... https://t.co/RP5lfK32oP",
+        "score": 0.468659,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2742557",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps My DMs with you to try to download a game I purchased have not been helpful – what's the deal?",
+        "score": 0.457703,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

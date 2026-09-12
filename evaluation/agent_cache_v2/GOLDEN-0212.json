@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0212",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "ea891e7fff947ec5117069a9f2d5912aac8f64ccde8c84c023a6e61e5ea84c4f",
+  "prediction": {
+    "golden_id": "GOLDEN-0212",
+    "predicted_intent": "Complaint / Feedback",
+    "predicted_intent_confidence": 0.85,
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+    "predicted_reply": "We are very sorry to hear about the frustration and difficulties you have experienced with OneDrive and Office 365 support. Based on similar cases where users faced challenges reaching the right support team for OneDrive issues, we recommend reaching out directly through the OneDrive in-app support or contacting Microsoft Support for further assistance with your subscription and technical concerns.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "2829247",
+        "source_tweet_id": null,
+        "text": "Just been completely dropped by Live Chat @MicrosoftHelps . The guy couldn't help me after controlling my computer for 35 minutes. Told me he would pass me on to the OneDrive in-app support. Turns out they do not offer live support. So now I am still stuck!!",
+        "score": 0.75221,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2104817",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps \"We are all good everything is running\" But it isn't :( | @MicrosoftHelps all your software just says Broken try later.  Can somebody help me speak to somebody human now who can help me? https://t.co/oZaSaoEXRc | @MicrosoftHelps Both | @MicrosoftHelps Still trying just to talk to someone.  But I do rather enjoy receiving the emails addressed Hey. https://t.co/e5Thy52kvc | @MicrosoftHelps Yes I have spoken to your customer care on the 03448002400 number.  They were unable to provide OneDrive support or connect me to a team that could help.",
+        "score": 0.73997,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 5,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1620360",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps I bought an office365 subscription on June 28th because my precious one was expiring. Somehow my subscription was cancelled on July 25th | @MicrosoftHelps I have a problem with a subscription to Office365, can you help?",
+        "score": 0.692807,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

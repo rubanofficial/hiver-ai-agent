@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0104",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "a7045f7f9e64653052c0f9789e56a7f60cd74fda820bb1d6ee3ae4e57453c8e4",
+  "prediction": {
+    "golden_id": "GOLDEN-0104",
+    "predicted_intent": "Account & Login",
+    "predicted_intent_confidence": 0.85,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "Hello! Based on similar cases where users experienced issues accessing or looking into their accounts, we recommend reaching out directly to Microsoft Support for further assistance with your local account login.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "653458",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps",
+        "score": 0.837562,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "110758",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps i can not looking in my Account",
+        "score": 0.80795,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1904232",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Help",
+        "score": 0.792439,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

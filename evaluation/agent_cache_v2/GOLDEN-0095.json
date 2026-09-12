@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0095",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "9b410298deeb13ce46cf3bb8f40f5efee7eee14bdfb91a08293acb71469f6455",
+  "prediction": {
+    "golden_id": "GOLDEN-0095",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 0.65,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "We understand your frustration, and we're glad to hear you're planning an upgrade soon. If you need any assistance with your current setup or the upcoming installation, please let us know. Based on similar cases, issues sometimes resolve themselves after stepping away or working directly with a support agent. We're here to help whenever you need us!",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "403942",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Issue resolved! I was just in a chat with a Support Agent and we started working it out. Thanks!",
+        "score": 0.743341,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": true
+        }
+      },
+      {
+        "evidence_id": "423899",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps What’s going on? https://t.co/rorMFB2Oj8 | @MicrosoftHelps I got everything working. Thank you!",
+        "score": 0.739343,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": true
+        }
+      },
+      {
+        "evidence_id": "2774091",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Nevermind, it quite literally fixed itself after I walked away for a few minutes. Thanks for the reply, though.",
+        "score": 0.735632,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": true
+        }
+      }
+    ]
+  }
+}

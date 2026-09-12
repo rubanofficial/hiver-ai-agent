@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0111",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "8dff52bd6105d5f96b6a21245ad3b8219ba38104c6e22b5e16d73c26dd944d75",
+  "prediction": {
+    "golden_id": "GOLDEN-0111",
+    "predicted_intent": "Order / Delivery",
+    "predicted_intent_confidence": 0.99,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "Hello! Based on similar inquiries regarding the preordered Xbox One X Scorpio Edition, delivery dates and shipping schedules can vary depending on the retailer you placed your order with. We recommend checking directly with your retailer for the most up-to-date shipping status on your preorder.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "1433153",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps I preordered my Xbox One X Scorpio Edition from Amazon and they are telling me they don’t know when it is released...",
+        "score": 0.881058,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1716997",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps When will the preordered Project Scorpio Xbox Ones ship?",
+        "score": 0.873717,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1439263",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Still don’t have a delivery date? | @MicrosoftHelps hi do you know when the Xbox One X Scorpio Edition is being delivered? Ive pre ordered it, does it get delivered on release?",
+        "score": 0.841285,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

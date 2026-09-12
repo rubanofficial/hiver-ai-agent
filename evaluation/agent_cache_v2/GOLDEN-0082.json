@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0082",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "9f67644f406fa8fd408073c5681ab1f677bdfbf9da808ba00e4785889b74d21c",
+  "prediction": {
+    "golden_id": "GOLDEN-0082",
+    "predicted_intent": "Product / Feature How-To",
+    "predicted_intent_confidence": 0.85,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "We understand it can be frustrating to repeatedly enter your password in OneNote after an application upgrade. Because the provided historical evidence does not contain a specific troubleshooting step or policy for biometric sign-in feature requests during upgrades, this case requires further investigation into your current account settings and application version. Please contact Microsoft Support so an agent can perform an account entitlement check and look into your sign-in configuration.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "1121098",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Wonder if you can help, I getting this error when trying to sign into OneNote even though i already have a pin set up. https://t.co/RAVmkKBldf",
+        "score": 0.66359,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1786685",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps In the past you could insert a @123196.com Ms account. Now you need a @71440.com O365 Account. The first one won't be accepted | @MicrosoftHelps why do I need an O365 Account to open Onenote Free Edition on a Win 7 PC? An https://t.co/IKailTwHW1 Acc doesn`t work?",
+        "score": 0.64578,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1350465",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps great, can you follow me so that i can DM you? :) | @123196 is there a problem with @18795 web? I can't open OneNote, login gets stuck on a loop &amp; get this message @MicrosoftHelps https://t.co/toK1Kd5pGI",
+        "score": 0.570915,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

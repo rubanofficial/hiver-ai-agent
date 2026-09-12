@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0148",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "1febabd456f45eb4916ab0ba6976abc47f5a93d2dcdda62b8aee23cca212cf98",
+  "prediction": {
+    "golden_id": "GOLDEN-0148",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "No evidence reached the confidence threshold for a safe autonomous reply (minimum 0.60); human review is required.",
+    "predicted_reply": "We understand how frustrating it is when updates take a long time or restart during the process. Because the retrieved evidence does not contain a specific resolution or troubleshooting steps for this update resumption behavior, this case requires further investigation, such as looking into your specific update status and system entitlements. Please contact Microsoft Support so we can investigate the cause of the update delay.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "685221",
+        "source_tweet_id": null,
+        "text": "Because #Windows10 #WindowsUpdate keeps my computer HOSTAGE (Downloads at 0%), I just can't use it for anything else!",
+        "score": 0.573606,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "684074",
+        "source_tweet_id": null,
+        "text": "I chose to restart my laptop without updating and it actually did just that\nWhat a concept that happens 20% of the time on Windows 10",
+        "score": 0.549366,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "739240",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Win 10 Home. Was forced to reset &amp; restore as I needed to do some work. Concerned I'll have another update this week that never ends | @MicrosoftHelps started update 6pm GMT. Stuck on 87% since 7pm. Third update this week. Not impressed. https://t.co/yIflQHkdVA",
+        "score": 0.547539,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

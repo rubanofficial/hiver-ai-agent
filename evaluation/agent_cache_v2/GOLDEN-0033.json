@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0033",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "7fb5c44c0b64fd9b8c37fb5d3268e973cdd2dcb56af908743f1b3a5c5da599d4",
+  "prediction": {
+    "golden_id": "GOLDEN-0033",
+    "predicted_intent": "Complaint / Feedback",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+    "predicted_reply": "Thank you for reaching out to MicrosoftHelps! We are so glad to hear that you are very happy with your experience and that your Surface was returned to you successfully.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "442731",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps @123127 I trusted you when you said support and returns were easy and trouble free with surface. 1 hour waiting for support to answer &amp; no advertised support email address’ says otherwise. Need to return this device! https://t.co/aLqg5VP5nq",
+        "score": 0.832678,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "997871",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Thank you! I'll check it out! | @MicrosoftHelps Personal use and not primarily but having that option is good. | @MicrosoftHelps I don't know which Surface to get. Help. My old one lasted almost 4 years.",
+        "score": 0.812303,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 3,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "566173",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Surface pro 4 I sent a DM with the details yesterday | @MicrosoftHelps received surface back from repair today, apparently no fault found, on for an hour and it's not working! Please advise",
+        "score": 0.7576,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

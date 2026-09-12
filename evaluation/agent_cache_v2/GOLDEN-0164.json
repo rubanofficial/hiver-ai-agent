@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0164",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "c359794a0a411fb3d4f2187b371a4ad262f0714fb75ca0073197d867ebc86598",
+  "prediction": {
+    "golden_id": "GOLDEN-0164",
+    "predicted_intent": "Complaint / Feedback",
+    "predicted_intent_confidence": 0.6,
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+    "predicted_reply": "Thanks for reaching out! Yes, sending a direct message is the right way to get assistance with your issue. Based on similar cases, our support team will review your message and respond to you there as soon as possible.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "2188191",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Any chance I can get a reply on the DM I sent back to you?",
+        "score": 0.863516,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2892480",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps can someone respond to my dm please",
+        "score": 0.85667,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2041167",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Ok thank you | @MicrosoftHelps I sent you a DM",
+        "score": 0.829201,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0014",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "a360aef5688acf338738141fbd97ba7490da76841cdb7a59b4e3fff9e8699bd5",
+  "prediction": {
+    "golden_id": "GOLDEN-0014",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "Based on a similar historical case where a user successfully resolved their update issues after reinstalling Windows from scratch, we hope your update process completes smoothly now. If you continue to experience any issues, please let us know.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "1378005",
+        "source_tweet_id": null,
+        "text": "@116230 \n\nWindows 10\n\"Couldn't complete the updates. Undoing changes\"\n\nHow in the blue hell do I fix this? | @MicrosoftHelps Windows 10 Pro.\nYeah, I've tried the troubleshooter. Disn't work though. I always get the same thing whenever I update and restart.",
+        "score": 0.739679,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2142770",
+        "source_tweet_id": null,
+        "text": "@116230 No...i have to start from the beginnings... | @630014 Hey, there. Just checking in! Were you able to complete your update? | @116230 sorry please how can i continue my window10upgrade i mistakenly restart my pc...so painfull. | @MicrosoftHelps Am gonna get internet access today so i will tell you how it went.thanks | @MicrosoftHelps Service registration is missing or corrupt | @MicrosoftHelps  https://t.co/0oiaIfFnTn | @MicrosoftHelps Am stock...the update is not progressing | @MicrosoftHelps I finally succeded...i got the updates",
+        "score": 0.722095,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 8,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2403448",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Listen Microsoft support, you guys were no help! | After six months I have finally gotten Windows 10 to update. It only took reinstalling it from scratch.",
+        "score": 0.719936,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

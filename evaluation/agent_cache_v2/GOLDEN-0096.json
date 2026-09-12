@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0096",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "b566e4efe425b15c398c244310fe6eb06e651682857b10f7d53b53f89a11e215",
+  "prediction": {
+    "golden_id": "GOLDEN-0096",
+    "predicted_intent": "Microsoft Store",
+    "predicted_intent_confidence": 0.85,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "Hello! Based on similar cases regarding Windows 10 S and Office installations, we recommend reaching out to Microsoft Support directly so our technicians can assist you with getting Office set up.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "1440878",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Hey Windows, why is it that after doing a fresh install of W10 pro i no longer have Office?🤔",
+        "score": 0.788256,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": true
+        }
+      },
+      {
+        "evidence_id": "1788244",
+        "source_tweet_id": null,
+        "text": "@115890 Windows 10 S won't let me install office through the store and your technicians are useless...",
+        "score": 0.698691,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "618229",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps MS10 is a joke, what is going on with Microsoft?",
+        "score": 0.68146,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

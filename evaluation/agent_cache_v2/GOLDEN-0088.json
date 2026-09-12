@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0088",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "94aa54ad009123162d00274c99dc309f56769ad36d1d0808ff5bd7f685bee9e1",
+  "prediction": {
+    "golden_id": "GOLDEN-0088",
+    "predicted_intent": "Cancellation / Subscription",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Intent 'Cancellation / Subscription' is high-risk and requires human handling.",
+    "predicted_reply": "We are sorry you are experiencing issues managing your subscription and getting redirected. Because this requires looking into your account status, please contact Microsoft Support so an agent can perform an account entitlement check and assist you further.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "603879",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Every single time I try to purchase personal subscription on any browser this is what I get. https://t.co/mQEJQGl7nL",
+        "score": 0.691735,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1107016",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps trying to cancel my office 365 subscription and your website won’t let me?  Help",
+        "score": 0.673517,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2732542",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps What do I do about this ? https://t.co/xTUAqGAOfi | @MicrosoftHelps I have a problem",
+        "score": 0.662056,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

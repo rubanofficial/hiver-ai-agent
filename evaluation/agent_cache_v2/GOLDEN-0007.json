@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0007",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "69193df69352a3e828a53412f83ba2438aafacdc388d22167cb4e6b3c84f2d72",
+  "prediction": {
+    "golden_id": "GOLDEN-0007",
+    "predicted_intent": "Warranty / Repair",
+    "predicted_intent_confidence": 0.85,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "We understand how frustrating it is to break a pen tip. Based on a similar case, support options and replacement tips can vary depending on your specific pen model, and some users were directed to purchase the tip kit. For further assistance with your Surface Pro 3 pen tips, please reach out to Microsoft Support directly so they can review your options.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "1291417",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps But the only tips on sale are for the pen with one button, where can I find the ones for my pen? https://t.co/lPiKZ1s700 | Hi @MicrosoftHelps where can I buy a new tip for surface pro 3's pen (double side button, purple top button)?",
+        "score": 0.76303,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "294068",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Hi, thank you for reaching to me. It was online. | @123127 I'm very dissatisfied with Microsoft Surface Pro, Lots of bugs and the support is bad. Sent me a defective pen with missing parts:( | @MicrosoftHelps purchase date is June 13, 2017 | @MicrosoftHelps No I still have the pen missing parts and this is the 2nd time they send me a replacement with missing parts | @MicrosoftHelps Microsoft Customer service has NOT been helpful. | @MicrosoftHelps This is the second time they send me a replacement pen with missing parts.. I'm tired of contacting customer service.",
+        "score": 0.735004,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 6,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1925692",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Why even make the tips replaceable if you don't offer the parts? Love my SP4 but not enough to put up with bs like this. | @MicrosoftHelps I need a replacement tip for my SP4 pen. It's a tiny plastic part folks. I would gladly pay you the $.99 it's worth plus shipping. | @MicrosoftHelps They told me if I had the new surface pen, the would replace the tip without hesitation. Now your suggestion is that I buy a new pen! | @MicrosoftHelps Your responses in DM were even worse than the ones I had with the support tech the other day! | @MicrosoftHelps Waiting for some more of your prepackaged, algorithmic responses. \"Help is here.\" 😂😂😂 | @MicrosoftHelps Support rep said they can only send replacement tip for new Surface Pen, not pen for SP4, even though my SP4 is still covered under warranty | @MicrosoftHelps Need 1 tip, not 4 overpriced tips. I get it, this is the business model you've set up. I'm just here to tell you it's a shitty one. | @MicrosoftHelps Suggestion was to buy SP4 tip kit, even though rep explicitly said that this problem was normally covered. I smell BS. | @MicrosoftHelps ironic name considering you guys can't even seem to find a way to get me a single replacement tip for my SP4 pen 👍",
+        "score": 0.734299,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 9,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

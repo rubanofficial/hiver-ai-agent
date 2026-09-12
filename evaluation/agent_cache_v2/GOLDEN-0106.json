@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0106",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "815065dddfd4ef4fd4bee8df7eca457002091c088e44deab80b29453e808912a",
+  "prediction": {
+    "golden_id": "GOLDEN-0106",
+    "predicted_intent": "Complaint / Feedback",
+    "predicted_intent_confidence": 0.85,
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+    "predicted_reply": "We apologize for the frustration with your latest installation and the wait for a response. Because this case requires further investigation into your specific installation issues and update errors, please contact Microsoft Support so we can properly look into your account and system details.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "1563667",
+        "source_tweet_id": null,
+        "text": "@151785 Thanks problem now solved | @320221 Checking back with you, Abir! Let us know if you still need help. We're always available for you. | @116230 @6580 @MicrosoftHelps @115890 After so many failed attempt, now I'm installing it newly.. https://t.co/osIFgSTOZb | What would i do? @116230 @6580 @MicrosoftHelps @115890 https://t.co/XmJRR2F3n5",
+        "score": 0.630903,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 4,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2151581",
+        "source_tweet_id": null,
+        "text": "@116230 WTF!? Just updated my laptop and got this bloody message thanks for the update. Bloody Hell! https://t.co/OnoZTugoPe",
+        "score": 0.612403,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": true
+        }
+      },
+      {
+        "evidence_id": "886975",
+        "source_tweet_id": null,
+        "text": ". @116230 update once again breaks another one of my PC's. Of course.",
+        "score": 0.605027,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

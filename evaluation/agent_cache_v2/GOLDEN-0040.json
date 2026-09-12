@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0040",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "337a63d0c230aba60189ae93f42d69ea35f3c115457c86ce3debb62d680c5ab4",
+  "prediction": {
+    "golden_id": "GOLDEN-0040",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "We are sorry to hear that you are experiencing issues with features and apps not working on your Windows 10 laptop. Because the historical evidence indicates that issues like start button and search function problems require further troubleshooting and investigation, please contact Microsoft Support so we can look into your specific system state and help find a fix.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "2861561",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Thanks, will send dm now | @MicrosoftHelps Hi guys having issues with Windows 10 on pc...start button/search function and numerous other issues Such as Windows cannot find Ms settings. Any ideas for a fix? Thanks | @MicrosoftHelps Where can I see the Windows 10 build version?",
+        "score": 0.689987,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 3,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "105735",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps start menu search isn't working - https://t.co/K5hiGEBTLA says \"Our services aren't available right now\" - what gives?",
+        "score": 0.678987,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "40111",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Your Supporter has done his Job as well. Everything Works. Thanks | @MicrosoftHelps new Problem. My Windows Search didn't works. I can't search Programms https://t.co/M4Ft4sZ97b",
+        "score": 0.672493,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

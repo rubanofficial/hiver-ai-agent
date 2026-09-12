@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0018",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "068492216b6cfa6af6bcf855bff6cedfb7c04baa9f9f0f552cf985237ff0ac31",
+  "prediction": {
+    "golden_id": "GOLDEN-0018",
+    "predicted_intent": "Microsoft Store",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "Hello! I understand you are having trouble opening a chat window and are experiencing issues with the Microsoft Store looping during the 'Starting Download' phase. Based on a similar case, users have noted difficulties accessing live chat and finding solutions on the website. For further assistance with this Microsoft Store issue, we recommend reaching out directly to Microsoft Support.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "1981626",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Everytime I try, to get support, the website just loops back to the start. Any help would be greatly appreciated. Thanks. | @MicrosoftHelps Need some assistance with MS Store order. Xbox Chat Support told me to go to MS Chat Support, but can't find it anywhere.",
+        "score": 0.712579,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "697719",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps I’m getting this message when I try to open the Store. I’m running Windows 10 https://t.co/1oaggnsYbK",
+        "score": 0.665141,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1727617",
+        "source_tweet_id": null,
+        "text": "hey @MicrosoftHelps is there a way to get a live chat? there's no solution available for my problem.",
+        "score": 0.621258,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

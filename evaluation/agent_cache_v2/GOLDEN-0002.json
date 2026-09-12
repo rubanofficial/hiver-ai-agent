@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0002",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "3da8a24d64560a210b7e35ba219ea2d6ba65b3ecb949d172606e78098321ea78",
+  "prediction": {
+    "golden_id": "GOLDEN-0002",
+    "predicted_intent": "Account & Login",
+    "predicted_intent_confidence": 0.98,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "Hello! I understand you are having trouble receiving the password reset text to your phone. Based on a similar past case, one user found success by trying the reset process through a different device, such as switching between their phone and a desktop. You may also want to check our support resources if the issue persists.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "610129",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps microsoft 365.  I'm trying to log in to check something.  It says my password is incorrect and now its locked my account.  To resolve this it says contact you but you need to be logged in to do that.  A temporary account cannot be set up either.  Please assist asap thanks | @MicrosoftHelps How do you log into your account when it says your password is incorrect.  You need to log in to contact you, very frustrating.  Is the systems down? | @MicrosoftHelps The link does not resolve this sadly.  I now have been sent a password code but no screen offered to insert the code? | @MicrosoftHelps I’ve sorted it now thank you, bizarrely I was able to do it via my phone but not desktop, all good and happy now, thank you for the response",
+        "score": 0.755384,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 4,
+          "has_resolution_signal": true
+        }
+      },
+      {
+        "evidence_id": "1082680",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Hi guys, managed to get into my pc but the password reset is still an issue. | @MicrosoftHelps getting a password is incorrect msg when I try and log in. When I attempt to reset, I am told I have no access. Help?",
+        "score": 0.752088,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "988686",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps @MicrosoftHelps I got it Sorted out But thx Fir trying to help Anyways | @MicrosoftHelps My password won't work and it won't let me reset my password https://t.co/DXREUr8ggL",
+        "score": 0.748148,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

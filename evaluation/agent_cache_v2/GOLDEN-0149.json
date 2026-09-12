@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0149",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "45ef5553d913d5c6d6be4412b56514a3130be7796b48866fe2b33e4ef7494a98",
+  "prediction": {
+    "golden_id": "GOLDEN-0149",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 0.85,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "Thanks for reaching out to MicrosoftHelps. Based on a similar case, users have been eagerly awaiting the Windows 10 Fall Creators Update rollout. If you have not yet received the notification, we recommend checking your Windows Update settings directly in your system, or visiting official Microsoft Support channels for more information on the rollout phases.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "1054648",
+        "source_tweet_id": null,
+        "text": "@116230 very excited for Windows 10 fall creators update on 10/17. I know I said that already but so hard to keep excitement in",
+        "score": 0.798677,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "847864",
+        "source_tweet_id": null,
+        "text": "Windows 10 fall creators update done 🔥🔥🔥",
+        "score": 0.766894,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1884344",
+        "source_tweet_id": null,
+        "text": "@116230 when fall crater update will be available for all users?. Waiting from 17 Oct.",
+        "score": 0.720684,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

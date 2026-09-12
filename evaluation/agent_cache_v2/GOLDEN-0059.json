@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0059",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "d5afc9034ff0ba7c3558e73465e9c7c55c07b0cad0b643e8039b5f1e3a2a78aa",
+  "prediction": {
+    "golden_id": "GOLDEN-0059",
+    "predicted_intent": "Product / Feature How-To",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "Hello! While the historical evidence mentions one-time payment lifetime licenses purchased in the past (such as Office 2013 Home and Student), it does not provide current purchase options or pricing for a one-time payment version of Microsoft Office today. Because we need to look into current product offerings and your student options, please contact Microsoft Support so an agent can check available licenses and help you find the right product.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "105755",
+        "source_tweet_id": null,
+        "text": "How to install the Microsoft Office software  (free for students) I'm stuck here @MicrosoftHelps https://t.co/E02BLnpbtP",
+        "score": 0.681908,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2319883",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps I'm not using Office 365. I bought a lifetime licence for Office 2013 (Home and Student). I've found my key and reinstalled, but am confused as to why it expired, when it wasn't a subscription. | @115890 @MicrosoftHelps | @MicrosoftHelps No because I've reinstalled everything. It just said that the subscription had expired. | @115890 I don't have a subscription to 365 - I bought my copies when you could still do the one off payment, and keep it for life. So why it is expired is beyond me. Unless they want me to pay for something I've already paid for. | Open up laptop to begin marking essays and @115890 tells me my non-existent subscription to Word has expired. Just what I need today.",
+        "score": 0.645152,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 5,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "196640",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps How to download the office 365 for free on my desktop ? , because my account is an educational account",
+        "score": 0.637796,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

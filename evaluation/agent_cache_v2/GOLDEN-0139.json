@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0139",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "ae0a7ac1959a835ec2188b7102917e499679b1ff03d141a80342b906913d166e",
+  "prediction": {
+    "golden_id": "GOLDEN-0139",
+    "predicted_intent": "Complaint / Feedback",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+    "predicted_reply": "We understand your frustration that the previous steps didn't resolve your issue. Since this requires further investigation into your specific device and system state, please contact Microsoft Support so we can look into the exact cause of the update failure.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "1901646",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps can you guys help me my computer won’t update",
+        "score": 0.633511,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1028820",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps please help I can't download what's app or update it",
+        "score": 0.609748,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1549791",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps hey, I need some help please",
+        "score": 0.602349,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

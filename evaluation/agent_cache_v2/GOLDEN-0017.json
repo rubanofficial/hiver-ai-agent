@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0017",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "9450893e73cf9e4d5cd36aef41525ea5aa2cb587eac7cca425dd08edc4982794",
+  "prediction": {
+    "golden_id": "GOLDEN-0017",
+    "predicted_intent": "Product / Feature How-To",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "No evidence reached the confidence threshold for a safe autonomous reply (minimum 0.60); human review is required.",
+    "predicted_reply": "Thank you for reaching out to MicrosoftHelps. To ensure your Ethernet connection has priority over Wi-Fi, this case requires further investigation to review your specific network configuration and adapter settings. Please contact Microsoft Support so an agent can look into your setup and provide the appropriate steps.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "1571871",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps it is not necessary, but yes I have.",
+        "score": 0.529239,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "165703",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Nope. Your suggestion was the answer. Thanks!",
+        "score": 0.490439,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": true
+        }
+      },
+      {
+        "evidence_id": "986267",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps I am happy to, is it possible to this via DM so I can explain fully the issue? | @MicrosoftHelps @122425 If there appears to be a driver issue in Windows 10, should this be reported to you guys? Intel I219-M ethernet card.",
+        "score": 0.484104,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

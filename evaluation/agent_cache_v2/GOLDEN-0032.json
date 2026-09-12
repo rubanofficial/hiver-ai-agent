@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0032",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "967d7aa6917dd04de23b31f00c43b6a3bde222050b685b1390716a0f73647dd7",
+  "prediction": {
+    "golden_id": "GOLDEN-0032",
+    "predicted_intent": "Complaint / Feedback",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+    "predicted_reply": "We understand your frustration regarding unlinking or deleting your Microsoft accounts. Because this requires looking into specific account details and entitlements, further investigation is needed. Please contact Microsoft Support so we can check your account status and assist you further.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "841614",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps The explanation sounds like it just adds another email address to an existing account unless I’m reading it wrong? | @microsofthelps the content and anything in my old account to the newer microsoft account | @MicrosoftHelps will then login with this onto my laptop as well and move over my settings etc from current profile | @MicrosoftHelps Is there any way I can see what services are associated with which account? im thinkimg maybe i just move to using the MCP linked login",
+        "score": 0.633837,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 4,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "817884",
+        "source_tweet_id": null,
+        "text": "WHY THE F DOES IT TAKE 3 WEEKS TO DELETE MY MICROSOFT ACCOUNT, DO IT NOW @MicrosoftHelps",
+        "score": 0.623612,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "820396",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps if you can delete my account.I would like to provide you the account. | @MicrosoftHelps so can I create a new account with the same email ID.\nI am unable to do that | @MicrosoftHelps need help to recover my blocked account created two years ago during #win10  release | @MicrosoftHelps i haven't logged in this gap, then why didn't it get deleted. Can you you please delete it.",
+        "score": 0.613853,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 4,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

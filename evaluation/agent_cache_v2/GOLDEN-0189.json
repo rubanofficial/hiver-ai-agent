@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0189",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "c0749acf931aa928d5d9836ddf5336d89ade943da98caff2becd5d00037e8dd9",
+  "prediction": {
+    "golden_id": "GOLDEN-0189",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "No evidence reached the confidence threshold for a safe autonomous reply (minimum 0.60); human review is required.",
+    "predicted_reply": "Bonjour ! Ce cas nécessite une investigation plus approfondie, notamment pour examiner l'état de votre système et les pilotes associés à la sortie de veille sur Windows 10 famille. N'hésitez pas à nous fournir plus de détails sur les étapes déjà tentées afin que nous puissions vous orienter vers le support Microsoft si nécessaire.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "1610654",
+        "source_tweet_id": null,
+        "text": "@115890 \n@MicrosoftHelps | Ok, não tô usando nada que deixe o windows lagado e mesmo assim tá falando que 90% da cpu tá sendo usada",
+        "score": 0.526943,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2411871",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps @11184 Thanks | @693388 @94183 @116230 No. He intentado ya eso actualizando todo. He visti unos 40 tutoriales y nada. Es el error de pasar de win8 a win10. Me compraré otro ordena en navidades y ya. Hasta el momento seguire con esta chatarra.\n\nGracias por la sugerencia 👍💪 | @MicrosoftHelps @11184 Ahora a rezar https://t.co/yfTa3kcPWn | @693387 @94183 @116230 Bro,  prueba a ir a administrador de dispositivos y actualizar el driver de la grafica,  aunque no te ponga que se te actualizo pu3de que se te resuelva por que es un error de windows | @94183 @116230 4 veces hoy... https://t.co/DFPR0SLy3L",
+        "score": 0.52656,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 5,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2970107",
+        "source_tweet_id": null,
+        "text": "#Windows10 po ostat. aktuali. spowodował że komputer działa znacznie wolniej, co jakiś czas sam uruchamia w domyślnej przeglądarce  https://t.co/CsHzNG5naI, ping w LANie co którąś próbę ma ponad 300ms, zabił czytnik kart SD, Instagram stracił dostęp do internetu @MicrosoftHelps",
+        "score": 0.518121,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0079",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "0d5e971706387810d4f9524b53fc9d3fbd2a000f26af8b0afb84de48f22ba1b7",
+  "prediction": {
+    "golden_id": "GOLDEN-0079",
+    "predicted_intent": "Microsoft Store",
+    "predicted_intent_confidence": 0.85,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "We recommend contacting Microsoft Support for further assistance regarding store locations in Chennai, as this requires checking our current store directory and entitlements. Please reach out to us at https://t.co/HAejmsSSNc or https://t.co/B25ziqkCpo for help.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "429838",
+        "source_tweet_id": null,
+        "text": "@174957 @MicrosoftHelps Team suggest any store in Chennai, India | @217231 @1107 Hi Sunjay, we suggest contacting @microsofthelps, https://t.co/HAejmsSSNc or https://t.co/B25ziqkCpo for help :) | @174957 @1107 I am having Nokia N8 one of the Best phone. Is der any chances to service this phone ? https://t.co/irYsDDYPyI",
+        "score": 0.645725,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 3,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "913266",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps why Microsoft cortana app is not available for India App Store?",
+        "score": 0.597372,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2324337",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Will you provide support to surface book 2 in India? Also will it be sold in India?",
+        "score": 0.569453,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

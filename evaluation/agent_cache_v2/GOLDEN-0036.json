@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0036",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "350ed1a5cfb691e17e255a45899465cab74596b846a8ac1c5c3cc22cca444dcf",
+  "prediction": {
+    "golden_id": "GOLDEN-0036",
+    "predicted_intent": "Complaint / Feedback",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+    "predicted_reply": "We are sorry to hear that the Windows 10 update disrupted your day and productivity. Based on similar cases, we understand that lengthy update times can be frustrating. While we do not have specific troubleshooting steps for this issue in our historical records, we appreciate your feedback and recommend reaching out to Microsoft Support if you continue to experience difficulties.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "105707",
+        "source_tweet_id": null,
+        "text": "Windows 10 update times are a joke. I DONT HAVE TIME FOR THIS",
+        "score": 0.795471,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "660831",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps The 3 hours that it took to update once restarted has gone a long way to ruining my day. | @MicrosoftHelps  Windows 10 updates are a great way to ruin any chance of productivity in your day aren’t they?  #grrrr",
+        "score": 0.763388,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1415417",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Windows 10 auto-update ruins another productive work day.  Feel like I should bill you guys for the last 45 minutes sitting around doing nothing on the clock.",
+        "score": 0.739421,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

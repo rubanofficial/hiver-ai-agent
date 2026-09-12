@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0184",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "6e0adb5fe4102a77620587dc4fec27842964d1351aab4f44df73966891ef4f5c",
+  "prediction": {
+    "golden_id": "GOLDEN-0184",
+    "predicted_intent": "Account & Login",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "Hello, we understand your frustration regarding your account ban. While our historical cases show that other users have experienced similar issues with account restrictions and bans, we recommend reaching out directly to Microsoft Support for further assistance with your account status.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "2590644",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps No I'm not allowed send messages or be in party chats | @MicrosoftHelps why has my account been banned? | @MicrosoftHelps It's fixed now bud",
+        "score": 0.759923,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 3,
+          "has_resolution_signal": true
+        }
+      },
+      {
+        "evidence_id": "2658488",
+        "source_tweet_id": null,
+        "text": "@115786 @115890 @XboxSupport @MicrosoftHelps I just got banned for harresment on all my accounts through one acc all because of a toxic butthurt player and it's for 15 days all from just one report which if you ask normal person thats complete bs can you please look into this ty",
+        "score": 0.751679,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1075154",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps please read your dms I've done all of that none sense and you've blocked my account | @MicrosoftHelps WHY have you blocked my account",
+        "score": 0.748992,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

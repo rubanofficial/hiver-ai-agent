@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0123",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "7246dadf1dbbfd26f75fefe41247f4724c8ca7ca52bea38e326d09e9e6951add",
+  "prediction": {
+    "golden_id": "GOLDEN-0123",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "We understand high CPU usage and performance issues after closing apps like Groove can be very frustrating, especially after multiple restarts. Because this requires further investigation into your system's specific behavior and resource management, please contact Microsoft Support so our team can look into what is causing these performance issues.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "2698595",
+        "source_tweet_id": null,
+        "text": ".@115890 @116230  @MicrosoftHelps Despite 7th Restart here I am!!\nVery vexing, due to this my laptop's performance is bad, Can you help already? https://t.co/sKbROZKhpM",
+        "score": 0.645155,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1121096",
+        "source_tweet_id": null,
+        "text": "Has @MicrosoftHelps crashed?? Can't get a tech online?? @122427",
+        "score": 0.593967,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2667151",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps so out of this new update my powerful computer is having issues doing basic things.",
+        "score": 0.588839,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

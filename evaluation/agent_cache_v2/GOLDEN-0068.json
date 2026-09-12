@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0068",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "e39b42f43b7016186a6889b144415288153637b7b2a23ddf3ea45b5a01fa2475",
+  "prediction": {
+    "golden_id": "GOLDEN-0068",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "Hello! Based on similar historical cases, users have experienced frustrating delays and getting stuck during updates and restorations. While we cannot guarantee a specific outcome for your current update, please allow the process time to complete, or reach out to Microsoft Support if the issue persists.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "385209",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps sorry, after hours of waiting, as soon as i message you, it comes to life | @MicrosoftHelps stuck on 'Restoring your previous version of Windows', the same happens when I reboot.. what can I do? thanks",
+        "score": 0.798976,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": true
+        }
+      },
+      {
+        "evidence_id": "2625187",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps I had it but I forgot to back it up when I reinstalled Windows | @116230 I had to reinstall Windows and I am not even sure it's gonna work properly again | @MicrosoftHelps I remember his name was James A | @MicrosoftHelps I don't know what that is nor where it is, sorry! | @116230 y'all should consider getting new software engineers or something because the latest update is flawed af | @444732 Hello, there! Are you still experiencing these issues? Perhaps we can help. | my PC is in the brink of death because of this stupid Creator's update I am suffering :))))",
+        "score": 0.716632,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 7,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1522174",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps On the phone again and back at the same issue | @MicrosoftHelps Thanks - I received some help via phone but now I have been stuck on this screen for almost an hour....m https://t.co/g3tZgDvxcn | @MicrosoftHelps @473051 the status is that you have 5 minutes to tell me how to reactivate my windows before i just do it myself | @MicrosoftHelps since the last update my laptop has been v slow taking 10 mins plus to open applications. Any suggestions? V frustrated!",
+        "score": 0.710584,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 4,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

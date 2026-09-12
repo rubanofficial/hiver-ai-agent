@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0115",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "e6b67aa5112a07d638aa9b45142235c01b569c802d07a931c4eb9256143b62f8",
+  "prediction": {
+    "golden_id": "GOLDEN-0115",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "We are very sorry to hear about the trouble with your computers after the update and the impact on your files. Because this case involves driver incompatibility and system stability issues following the update, it requires further investigation into your system specifics and recent update logs. Please contact Microsoft Support so we can look into what happened during the update process.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "297742",
+        "source_tweet_id": null,
+        "text": "@116230 Nope. It’s as if it never tried to update. | @186929 Oh no! Are you seeing any error codes or messages? | @116230 Things are running exactly as before because the update failed and it had to restore a previous version. | @186929 Hi, Hans. We appreciate your patience. How are things running for you after the update? We're here to help if you need us. | @116230 And after all that, the install failed. Thanks for stealing over an hour of my day. #NoForcedUpdates | Screw you @116230 for forcing this update w/o letting me schedule for convenience. Screw you twice for rebooting me w/o letting me save.",
+        "score": 0.625744,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 6,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "910479",
+        "source_tweet_id": null,
+        "text": "Thanks for completely screwing my pc with your terrible update @116230",
+        "score": 0.566904,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": true
+        }
+      },
+      {
+        "evidence_id": "1573948",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps What a mess this Fall update. Just lost a whole morning restoring two PC's with driver incompatibility and Power State Fail",
+        "score": 0.537497,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

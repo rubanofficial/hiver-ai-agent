@@ -1,0 +1,11 @@
+actual \ predicted,Technical Troubleshooting,Product / Feature How-To,Account & Login,Billing & Payments,Order / Delivery,Warranty / Repair,Network / Connectivity,Microsoft Store,Complaint / Feedback,Cancellation / Subscription
+Technical Troubleshooting,55,8,4,1,2,1,2,6,18,1
+Product / Feature How-To,15,10,1,0,1,2,0,1,2,1
+Account & Login,6,2,5,0,2,0,0,0,5,1
+Billing & Payments,6,2,2,0,0,1,0,1,3,2
+Order / Delivery,0,0,0,0,4,1,0,0,0,0
+Warranty / Repair,0,0,0,0,0,3,0,0,1,0
+Network / Connectivity,3,0,0,0,0,0,1,0,0,0
+Microsoft Store,0,1,0,0,0,0,0,0,1,0
+Complaint / Feedback,9,6,1,0,0,1,2,1,8,0
+Cancellation / Subscription,0,0,0,1,0,0,0,0,2,1

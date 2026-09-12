@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0093",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "9420f8a625378d889f2275a2f4b403bcdfcd113f706fbcb26a2d57a738394d86",
+  "prediction": {
+    "golden_id": "GOLDEN-0093",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "Hello! Based on a similar case, some customers found that the issue resolved itself after stepping away for a few minutes, while others were able to work it out directly with a support agent. If the issue persists, we recommend connecting with a Microsoft Support agent for further assistance.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "403942",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Issue resolved! I was just in a chat with a Support Agent and we started working it out. Thanks!",
+        "score": 0.725815,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": true
+        }
+      },
+      {
+        "evidence_id": "1657137",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Thank you for your prompt reply sir. So far no trouble shooting steps taken. No changes were made sir. | @116230 experiencing this for a month. Kindly help.. https://t.co/1ieTkD1chR",
+        "score": 0.714142,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2774091",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Nevermind, it quite literally fixed itself after I walked away for a few minutes. Thanks for the reply, though.",
+        "score": 0.688033,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": true
+        }
+      }
+    ]
+  }
+}

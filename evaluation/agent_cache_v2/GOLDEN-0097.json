@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0097",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "f8f0ae7953d18e956525f69be18ee807ba9cbf4615bd188149db6f3219409877",
+  "prediction": {
+    "golden_id": "GOLDEN-0097",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 0.85,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "Hello! Based on similar historical cases, customers have found their own solutions or worked through related issues when encountering update concerns. If you need further assistance with your updates, please reach out to Microsoft Support so we can help you get this sorted out.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "165703",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Nope. Your suggestion was the answer. Thanks!",
+        "score": 0.71564,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": true
+        }
+      },
+      {
+        "evidence_id": "563371",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Yes it has but not from following the steps you gave me. I fixed it myself but thanks anyway. | @MicrosoftHelps https://t.co/H1OL6JOdoN",
+        "score": 0.679486,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2985863",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Yes! Any Ways Or methods that we can solve it!!",
+        "score": 0.647762,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

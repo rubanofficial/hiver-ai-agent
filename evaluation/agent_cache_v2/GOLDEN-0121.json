@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0121",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "1655ff5fef898d3d5990cfcd9a144fc9e434fd880ab77135c9d4d929ca2df2ca",
+  "prediction": {
+    "golden_id": "GOLDEN-0121",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 0.85,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "We hear your frustration regarding security updates. While we understand forced updates can be frustrating, please note that no specific resolution steps are available in our similar historical cases for disabling them entirely. For further assistance, please reach out to Microsoft Support.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "973555",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps @6580  Best update ever. https://t.co/0enm3wERpO",
+        "score": 0.799961,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2451946",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps something always goes wrong with the security update pls do something i am tired https://t.co/4mZYzSl3gH",
+        "score": 0.779226,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "737385",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps forced updates are like the worst thing invented since popups...",
+        "score": 0.775817,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0073",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "26df29764ec3a20a868524a5b7b94b29fe85e5becf5ebfbeda6a40127b2d2bb8",
+  "prediction": {
+    "golden_id": "GOLDEN-0073",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 0.85,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "Hello! Based on similar cases regarding Windows 10 updates, compatibility with previous updates like the Creators Update does not automatically guarantee compatibility with subsequent releases like the Fall Creators Update, as system requirements and performance can vary. We recommend checking the official Windows 10 system requirements for the specific update version.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "155913",
+        "source_tweet_id": null,
+        "text": "That Windows 10 Fall Creators Update is something else; isn't it?",
+        "score": 0.752334,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1526790",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps I've HP Notebook-15-ay085tu\nIt has Intel Pentium N3710 processor 4GB ram. Can I smoothly run Windows 10 Fall Creators Update",
+        "score": 0.707677,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "847864",
+        "source_tweet_id": null,
+        "text": "Windows 10 fall creators update done 🔥🔥🔥",
+        "score": 0.679304,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

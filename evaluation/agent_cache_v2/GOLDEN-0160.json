@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0160",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "6ba3563346eb93752dafbf699ebdf2573d511682131410695b7ce44cb9e6ba04",
+  "prediction": {
+    "golden_id": "GOLDEN-0160",
+    "predicted_intent": "Complaint / Feedback",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+    "predicted_reply": "We're thrilled to hear you're loving the Windows 10 Fall Creators Update! If you ever need any assistance or have questions, feel free to reach out to us here at MicrosoftHelps.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "847864",
+        "source_tweet_id": null,
+        "text": "Windows 10 fall creators update done 🔥🔥🔥",
+        "score": 0.91156,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1574938",
+        "source_tweet_id": null,
+        "text": "Get the Windows 10 Fall Creators Update!\nhttps://t.co/yKql3pzN8R",
+        "score": 0.838894,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2248325",
+        "source_tweet_id": null,
+        "text": "Happy Windows 10 Fall Creators Update Day! https://t.co/ZICZm4dGz8",
+        "score": 0.816669,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

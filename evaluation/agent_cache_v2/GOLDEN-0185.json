@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0185",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "c02e330e5d082e3cc17b648e7c4988ef7a2ae71fd11832e16b868afdc9bb4f1e",
+  "prediction": {
+    "golden_id": "GOLDEN-0185",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "Hello! We understand how frustrating it is to have your audio settings and default devices affected after installing updates. Because this case requires further investigation into your specific system and driver behavior following the update, please contact Microsoft Support so we can perform a proper troubleshooting review. When you reach out, it would be helpful to provide your specific audio hardware details and the exact version of the update installed.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "2168372",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps guys, it has become terribly frustrating to always have my audio disappear whenever there's an update! This new update dated 8/11/2017 has basically rendered my audio driver useless once again. Why does this always have to happen? | @MicrosoftHelps Thanks for your response. Believe me, I try everything, from cleaning the registry to, as you suggest, going to the manufacturer's website to get the latest driver updates, but only two options work: restore or reset. Today I had no choice but to reset.",
+        "score": 0.666423,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": true
+        }
+      },
+      {
+        "evidence_id": "1691364",
+        "source_tweet_id": null,
+        "text": "@116230 It reset my audio settings in every program. I record stuff for a living so this is pretty frustrating. | @513428 Hello, there! Are you still having issues with your audio settings after the updates? We're here to help. | Just had two massive Windows 10 updates.  Took over and hour and reset all of my audio settings, including in recording software. FUN!",
+        "score": 0.664195,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 3,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "196650",
+        "source_tweet_id": null,
+        "text": "update: for whatever reason the auto-update broke my audio. thanks windows 10, it's completely useless | started my vacation by waiting literal hours for my laptop to install updates &amp; function. this is fine",
+        "score": 0.617463,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

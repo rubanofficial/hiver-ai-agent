@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0203",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "92d76f3590076d7fb08ab745b5e168bc8b047d44246aa7ebef9d357a125483ed",
+  "prediction": {
+    "golden_id": "GOLDEN-0203",
+    "predicted_intent": "Warranty / Repair",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "We understand your frustration regarding receiving multiple Surface Pro 4 devices with the same problem. Based on similar cases, we recommend reaching out directly to Microsoft Support to follow up on your ongoing service ticket and ensure this is properly resolved for you.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "1098251",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Hi, Thank you for your support. | I guess this is bad. @116230 @10604 https://t.co/1srOjRkKwS",
+        "score": 0.710117,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2353282",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps @631226 I've tweeted you several times can you please address my issue. | @MicrosoftHelps I have been trying to follow up with Microsoft support on a ticket: 1402447076 but not getting any response. Can you please help me on this?.",
+        "score": 0.687859,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2622407",
+        "source_tweet_id": null,
+        "text": "How to fix this @MicrosoftHelps https://t.co/6YASi23rfO",
+        "score": 0.680292,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

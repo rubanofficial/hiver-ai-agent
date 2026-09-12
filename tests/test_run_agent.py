@@ -525,3 +525,178 @@ class TestValidation:
         pred = {"predicted_intent": INTENTS[0], "predicted_escalation": AH}
         with pytest.raises(RA.AgentRunnerError, match="golden_id"):
             RA.validate_prediction(pred, INTENTS)
+
+
+# ---------------------------------------------------------------------------
+# export_from_cache
+# ---------------------------------------------------------------------------
+
+def _make_prediction(gid, intent="Technical Troubleshooting", escalation=AH):
+    return {
+        "golden_id": gid,
+        "predicted_intent": intent,
+        "predicted_intent_confidence": 0.9,
+        "predicted_escalation": escalation,
+        "predicted_escalation_reason": None,
+        "predicted_reply": "A grounded reply.",
+        "retrieved_evidence": [],
+    }
+
+
+def _write_cache_entry(cache_dir, gid, prediction, status="ok", error=None,
+                       fingerprint="any-fingerprint", model=MODEL):
+    """Write a raw cache file the way run_agent.py would."""
+    entry = {
+        "schema_version": "1.0.0",
+        "generator": "evaluation/run_agent.py",
+        "golden_id": gid,
+        "status": status,
+        "model": model,
+        "input_fingerprint": fingerprint,
+    }
+    if status == "ok":
+        entry["prediction"] = prediction
+    if error:
+        entry["error"] = error
+    path = Path(cache_dir) / f"{gid}.json"
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(entry, indent=2), encoding="utf-8")
+
+
+class TestExportFromCache:
+    """export_from_cache reads existing cache files and writes predictions
+    without calling Gemini or checking input fingerprints."""
+
+    def test_exports_all_ok_entries(self, tmp_path):
+        cache_dir = str(tmp_path / "cache")
+        recs = [record("GOLDEN-0001"), record("GOLDEN-0002")]
+        for r in recs:
+            _write_cache_entry(cache_dir, r["golden_id"],
+                               _make_prediction(r["golden_id"]))
+
+        p = paths(tmp_path)
+        summary = RA.export_from_cache(
+            recs, cache_dir=cache_dir, taxonomy=INTENTS, **{
+                k: v for k, v in p.items() if k != "cache_dir"
+            }
+        )
+
+        assert summary["cache_ok"] == 2
+        assert summary["predictions_exported"] == 2
+        assert summary["cache_non_ok"] == 0
+        assert summary["unattempted"] == 0
+
+        preds = load_json(p["predictions_path"])
+        assert len(preds) == 2
+        assert {x["golden_id"] for x in preds} == {"GOLDEN-0001", "GOLDEN-0002"}
+
+    def test_skips_non_ok_entries(self, tmp_path):
+        cache_dir = str(tmp_path / "cache")
+        recs = [record("GOLDEN-0001"), record("GOLDEN-0002")]
+        _write_cache_entry(cache_dir, "GOLDEN-0001", _make_prediction("GOLDEN-0001"))
+        _write_cache_entry(cache_dir, "GOLDEN-0002", None, status="error",
+                           error="Something went wrong")
+
+        p = paths(tmp_path)
+        summary = RA.export_from_cache(
+            recs, cache_dir=cache_dir, taxonomy=INTENTS, **{
+                k: v for k, v in p.items() if k != "cache_dir"
+            }
+        )
+
+        assert summary["cache_ok"] == 1
+        assert summary["cache_non_ok"] == 1
+        assert summary["predictions_exported"] == 1
+
+        preds = load_json(p["predictions_path"])
+        assert [x["golden_id"] for x in preds] == ["GOLDEN-0001"]
+
+        failures = load_json(p["failures_path"])
+        assert failures["count"] == 1
+        assert failures["failures"][0]["golden_id"] == "GOLDEN-0002"
+
+    def test_mismatched_fingerprint_does_not_block_export(self, tmp_path):
+        """The whole point of export_from_cache: stale fingerprints are fine."""
+        cache_dir = str(tmp_path / "cache")
+        recs = [record("GOLDEN-0001")]
+        # Write a cache entry with an obviously wrong fingerprint.
+        _write_cache_entry(cache_dir, "GOLDEN-0001", _make_prediction("GOLDEN-0001"),
+                           fingerprint="completely-wrong-fingerprint")
+
+        p = paths(tmp_path)
+        summary = RA.export_from_cache(
+            recs, cache_dir=cache_dir, taxonomy=INTENTS, **{
+                k: v for k, v in p.items() if k != "cache_dir"
+            }
+        )
+
+        # Must still export the cached prediction.
+        assert summary["predictions_exported"] == 1
+        preds = load_json(p["predictions_path"])
+        assert len(preds) == 1
+
+    def test_unattempted_records_absent_from_predictions(self, tmp_path):
+        cache_dir = str(tmp_path / "cache")
+        # Only cache entry for GOLDEN-0001; GOLDEN-0002 has no cache file.
+        recs = [record("GOLDEN-0001"), record("GOLDEN-0002")]
+        _write_cache_entry(cache_dir, "GOLDEN-0001", _make_prediction("GOLDEN-0001"))
+
+        p = paths(tmp_path)
+        summary = RA.export_from_cache(
+            recs, cache_dir=cache_dir, taxonomy=INTENTS, **{
+                k: v for k, v in p.items() if k != "cache_dir"
+            }
+        )
+
+        assert summary["unattempted"] == 1
+        assert summary["predictions_exported"] == 1
+        preds = load_json(p["predictions_path"])
+        assert [x["golden_id"] for x in preds] == ["GOLDEN-0001"]
+
+    def test_export_cache_cli_flag_writes_artifacts_without_api_key(
+        self, tmp_path, monkeypatch
+    ):
+        monkeypatch.delenv("GEMINI_API_KEY", raising=False)
+        cache_dir = str(tmp_path / "cache")
+        recs_data = [record("GOLDEN-0001")]
+        _write_cache_entry(cache_dir, "GOLDEN-0001", _make_prediction("GOLDEN-0001"))
+        gs_path = write_golden_set(tmp_path, recs_data)
+        p = paths(tmp_path)
+
+        code = RA.main([
+            "--golden-set", gs_path,
+            "--cache-dir", cache_dir,
+            "--predictions", p["predictions_path"],
+            "--predictions-csv", p["predictions_csv_path"],
+            "--failures", p["failures_path"],
+            "--export-cache",
+        ])
+
+        assert code == 0
+        preds = load_json(p["predictions_path"])
+        assert len(preds) == 1
+        assert preds[0]["golden_id"] == "GOLDEN-0001"
+
+    def test_export_preserves_exact_cached_prediction_contents(self, tmp_path):
+        cache_dir = str(tmp_path / "cache")
+        recs = [record("GOLDEN-0001")]
+        expected_pred = _make_prediction("GOLDEN-0001",
+                                         intent="Billing & Payments",
+                                         escalation=EH)
+        expected_pred["predicted_escalation_reason"] = "Needs human review."
+        expected_pred["predicted_reply"] = "We'll escalate this."
+        expected_pred["retrieved_evidence"] = [
+            {"evidence_id": "X1", "source_tweet_id": None, "text": "t",
+             "score": 0.5, "source": "twcs_historical", "metadata": {}}
+        ]
+        _write_cache_entry(cache_dir, "GOLDEN-0001", expected_pred)
+
+        p = paths(tmp_path)
+        RA.export_from_cache(
+            recs, cache_dir=cache_dir, taxonomy=INTENTS + ["Billing & Payments"],
+            **{k: v for k, v in p.items() if k != "cache_dir"}
+        )
+
+        preds = load_json(p["predictions_path"])
+        assert len(preds) == 1
+        assert preds[0] == expected_pred

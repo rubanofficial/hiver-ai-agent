@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0194",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "e186dd1876dca14ab4ca65656eed7a29f9f1ba81ecd1ac7c1151a1cc294c1a65",
+  "prediction": {
+    "golden_id": "GOLDEN-0194",
+    "predicted_intent": "Complaint / Feedback",
+    "predicted_intent_confidence": 0.98,
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+    "predicted_reply": "We are very sorry to hear about your frustrating experience with customer service. Because your case requires further investigation into your support history and the difficulties you encountered, please reach out to Microsoft Support directly so we can look into what happened and help get this resolved for you.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "1985958",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps @115890 @122427 - any reason why support is ignoring me when your team have so clearly failed with my customer service?!",
+        "score": 0.600198,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "795044",
+        "source_tweet_id": null,
+        "text": "Second time Microsoft Support has hung up on me -- Is that part of their training @MicrosoftHelps? Still need help -- that's why I called.",
+        "score": 0.573433,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "372776",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Really?  TWO hours and could not get help online?  ONLINE!What a joke.  You suck @153744. Focus on MS and get out of Ed.",
+        "score": 0.562817,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

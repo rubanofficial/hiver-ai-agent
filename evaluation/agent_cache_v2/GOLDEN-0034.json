@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0034",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "10a7b809f2b2d5321e9f85373968081c49d18e6c56ef33048638e72dc702d601",
+  "prediction": {
+    "golden_id": "GOLDEN-0034",
+    "predicted_intent": "Complaint / Feedback",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Generated reply could not be grounded in historical evidence; human review is required.",
+    "predicted_reply": "We apologize for the frustration you are experiencing. We do not have enough information to resolve this issue autonomously. Please contact Microsoft Support directly for further assistance.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "2433614",
+        "source_tweet_id": null,
+        "text": "@116230 - explain https://t.co/ICJJ8elEKR",
+        "score": 0.333708,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "274564",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Few months ago! And it says the account doesn't exist. | @MicrosoftHelps Hi my email was deleted and now I can't access my Instagram account! Help? | @MicrosoftHelps Yes I want my email back 😂 | @MicrosoftHelps How do I keep my name? | @MicrosoftHelps @10233.co.uk isn't an option anymore so I can't get access to my emails for my Instagram... | @MicrosoftHelps So basically you deleted it, I can't get it back and I can't get on my Instagram. GREAT!",
+        "score": 0.325028,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 6,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2658490",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps I've done everything on that link and it did nothing and I may have to reset my computer because of YOUR forced update",
+        "score": 0.318142,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

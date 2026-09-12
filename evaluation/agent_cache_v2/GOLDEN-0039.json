@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0039",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "50bda0490fdac062598f6c702fe900678f4c71f65bc45ed3f39ad0fd9adbc0ab",
+  "prediction": {
+    "golden_id": "GOLDEN-0039",
+    "predicted_intent": "Product / Feature How-To",
+    "predicted_intent_confidence": 0.92,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "Thanks for reaching out! To help reclaim storage space on your Surface Pro 4, this case requires further investigation into your device storage usage and system configuration.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "469175",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps So the operating system takes up 50% of the storage space on a surface 3?? | @226711 Hi there @MicrosoftHelps that has already been done on the surface before I took the screenshot. Still over 50% taken up leaving the surface useless at the moment. What is my next step? Thanks | @226711 hello there.. how can I get some of my system and reserved space back. It's over 50% of the storage space on my surface. You can see there is very little saved on the SSD other than this segment of memory the surface uses itself.. thanks. https://t.co/4VnFihPY8i",
+        "score": 0.647353,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 3,
+          "has_resolution_signal": true
+        }
+      },
+      {
+        "evidence_id": "2369313",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps seems to moving along now but I'm concerned about my storage i have left out the box | @MicrosoftHelps hey guys my surface as been on the same update for like ages any way to start it again.",
+        "score": 0.63141,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2211917",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps yes, doing that and reclaiming the space. Thanks for the suggestion though! | @116230 All the features I like in them, except this. More the space you give to @116230 10, more it consumes. Always hungry! https://t.co/DwgtZehzii | @646501 Thanks for the great feedback, Pavan! Which features are you loving at the moment? | Tried #Windows10 fall creators update, OS is bit faster now, need to explore more features @115890 @116230",
+        "score": 0.623434,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 4,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0092",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "ea703397a86410d19b030c18084f2e0a013f2c64cd44efe1cc2a039f761de433",
+  "prediction": {
+    "golden_id": "GOLDEN-0092",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "Hello, we understand you are receiving an access denied or error message when trying to submit the form. Because this issue involves form submission access and potential account or verification errors as seen in similar situations, this case requires further investigation to check your account entitlement and submission status. Please contact Microsoft Support so an agent can look into why your submissions are being blocked.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "251679",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Thanks for the link, but this is an official #Microsoft website... | @MicrosoftHelps when I try to sign in on https://t.co/8XyCwvMj8M, I get this 403 Error :( https://t.co/TjkdrxZi1G",
+        "score": 0.651714,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "11909",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Hi, I can't take a screen shot as it's the only place I'm logged in is there a way of someone telling me the password? | @MicrosoftHelps I can't reset my password and I can't talk to an agent as I need to log into my account please help | @MicrosoftHelps Says my information was not sufficient and submit a new form | @MicrosoftHelps Hi I just keep getting rejected by the form so I have given up",
+        "score": 0.616081,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 4,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "934270",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps All information sent is correct, there is enough information for me to use my account!! Why am I not being allowed access? Can you fix this | @MicrosoftHelps Forgot Xbox one password, tried multiple times to change password but Microsoft are claiming my personal info is incorrect | @MicrosoftHelps You didn't even fix my problem!!",
+        "score": 0.59574,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 3,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

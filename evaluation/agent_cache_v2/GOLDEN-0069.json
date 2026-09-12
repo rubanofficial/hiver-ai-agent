@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0069",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "3e8a8d2f8681177dcd20a63e3c1d1f648039654cd59957e6ca7ccf2b0626f75b",
+  "prediction": {
+    "golden_id": "GOLDEN-0069",
+    "predicted_intent": "Complaint / Feedback",
+    "predicted_intent_confidence": 0.85,
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+    "predicted_reply": "We understand your frustration regarding needing to replace your mouse and managing multiple USB keys. Because this requires further investigation into your hardware replacement options and account details, please contact Microsoft Support so we can look into this for you.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "991525",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps I have done everything on that list multiple times before contacting you. | @MicrosoftHelps I’ve changed keyboards and mouse. All I can do is just stare at this stupid screen. | @MicrosoftHelps umm, read my initial post. That last tweet I can’t do. Please Advise. | @MicrosoftHelps last update rendered my pc useless. The usb drives apparently not working I’m stuck on this screen. https://t.co/ixny08hUuw",
+        "score": 0.668186,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 4,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2696758",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps @MicrosoftHelps thanks for the suggestions I tried them all, I tried to put new batteries but nothing has changed. I can't after such a short time it does not work. 😞 | @MicrosoftHelps so disappointed at Microsoft wireless mouse. I was so excited when bought and 3 months later does not work. I called Microsoft support and after 30 mins was sent to a voicemail machine 😣 https://t.co/8cgYtaPnHi | @MicrosoftHelps I'm very disappointed with this. After 20 minutes of my time all that was resolved was that I had to physically take it in to a Microsoft store. This is such a waste of time. There should be a better way than wasting so much time.",
+        "score": 0.659042,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 3,
+          "has_resolution_signal": true
+        }
+      },
+      {
+        "evidence_id": "621106",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps They hung up on me.  I keep getting the run around.  But I'll keep trying - what else can be done? | @MicrosoftHelps I did. It has been such a hassle, and I am so dismayed (apparently with hundreds of others) with such a widespread hardware flaw, for which neither Ebay nor Amazon nor any other retailer is responsible!  May I get a working replacement from you? | @MicrosoftHelps Highly rated Ebay &amp; Amazon stores...  https://t.co/RjCqeGUCAw | I loved (past tense) the wireless @115890 Universal Mobile Keyboard. The first one broke, and I ordered three replacements in a row - ALL of which were defective and would not work unless plugged into a USB port. @MicrosoftHelps - ?!",
+        "score": 0.65256,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 4,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

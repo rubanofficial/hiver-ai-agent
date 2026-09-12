@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0042",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "dd4c003f3550f7a8b276f2ed498648b4d51815ba925188495942d6f24dafd98e",
+  "prediction": {
+    "golden_id": "GOLDEN-0042",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 0.85,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "Thank you for reaching out to MicrosoftHelps. To help us better understand your issue and determine if uninstalling and reinstalling is the right step, we need a bit more information about the specific app and the error you are experiencing. Please provide additional details so we can investigate further.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "1028820",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps please help I can't download what's app or update it",
+        "score": 0.667082,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "297081",
+        "source_tweet_id": null,
+        "text": "Seriously, @MicrosoftHelps how do I tell what app this is for to remove it? https://t.co/Dqnwprolmu | . @115890 Need more information. #Windows10 https://t.co/0FjAFmRHxR",
+        "score": 0.625867,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "630624",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Yes | What should i do??? @MicrosoftHelps https://t.co/7suJn868I0",
+        "score": 0.62406,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

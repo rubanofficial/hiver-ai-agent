@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0129",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "960ef17110a89546ba0740483d0990b81abd1dca380e2676185015ed72d060a0",
+  "prediction": {
+    "golden_id": "GOLDEN-0129",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "No evidence reached the confidence threshold for a safe autonomous reply (minimum 0.60); human review is required.",
+    "predicted_reply": "Hello! Based on the available information, this case requires further investigation to determine why a service's startup type is changing after being disabled. Please contact Microsoft Support so an agent can look into your system settings and service behavior.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "155906",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps No changes, it's been doing this for weeks. Windows search service disabled, stopping a random useless service from the list each time seems to sort it until the next startup https://t.co/2YA7XY0Mg5 | @MicrosoftHelps Any idea why disck usage is at 100% after every reboot/startup https://t.co/KBl57CLkxo | @MicrosoftHelps Superfetch service already disabled, no dice I'm afraid! | @MicrosoftHelps Chrome options have different names now, but I've unticked the preload pages option; watch this space I guess! | @MicrosoftHelps No joy I'm afraid; it's still flat out at 100%",
+        "score": 0.52883,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 5,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "105735",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps start menu search isn't working - https://t.co/K5hiGEBTLA says \"Our services aren't available right now\" - what gives?",
+        "score": 0.50497,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "68123",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps nothing has been changed other than the normal updates, and I have disabled fast start | Hello @MicrosoftHelps im having problems with my pc, it keeps restarting and starting randomly. im running win 10 home edition 64 bit. https://t.co/ESqLdmGXY4 | @MicrosoftHelps I'll do it tomorrow",
+        "score": 0.502971,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 3,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

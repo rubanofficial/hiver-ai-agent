@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0081",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "703933d1e17217e77f3ef97d67e39faebbd24279b7aff479963225c18829e0d0",
+  "prediction": {
+    "golden_id": "GOLDEN-0081",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "Hello! Based on similar cases where users experienced a slow system following updates, restarting the computer was noted. While we cannot guarantee it will resolve the issue, you may want to try restarting your laptop to see if performance improves. If the issue persists, please reach out to Microsoft Support for further assistance.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "1644929",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps okay thanks | @MicrosoftHelps after updating my laptop its really slow, everything keeps crashing, &amp; things won’t open when i click on them, etc. help??",
+        "score": 0.734627,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "476022",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps It's still slow and I have random apps crashing  😔 | @MicrosoftHelps No and no. I just restarted the computer... lol it's slow | @MicrosoftHelps YES!!",
+        "score": 0.670973,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 3,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "251690",
+        "source_tweet_id": null,
+        "text": "So thanks to the latest forced update my Windows 10 laptop has gone from booting in 20 seconds to 3 minutes - and then running sluggishly slow across the board. Thanks @MicrosoftHelps @115890 !",
+        "score": 0.653026,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": true
+        }
+      }
+    ]
+  }
+}

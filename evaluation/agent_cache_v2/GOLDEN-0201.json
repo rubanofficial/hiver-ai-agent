@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0201",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "87c338cefb2d23f3c6fa69f25a8232eceeb76f06cb35f26604b62606920c26f1",
+  "prediction": {
+    "golden_id": "GOLDEN-0201",
+    "predicted_intent": "Complaint / Feedback",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+    "predicted_reply": "We apologize for the lengthy wait and the frustration with reaching Surface support. Based on similar cases where customers experienced long hold times or missed callbacks, we recommend continuing to wait if possible, or trying to schedule support again through our online portal. We appreciate your patience.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "95582",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps I spent a few hours on chat with your support team. while very helpful they could not solve the problem which is why I wanted to speak to a human.  But, my Surface is still under warranty and I'm sending it back for a new one. | @115890 @MicrosoftHelps @115890 No one called.  I'm not surprised. | @115890 I scheduled a tech support call for today at 7:15 p.m. I'm still waiting for that call.  What's the point in having a call scheduler when you can't keep your commitment. My time is just as valuable as yours.",
+        "score": 0.746013,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 3,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2880378",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps I was supposed to get a callback from support two hours ago. The machine said it'd be 15 minutes, confirmed my number too. Did they just give up on me?",
+        "score": 0.726755,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "572322",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps I needed support and I was put on a waiting list for a phone call. Was told “approximately 82 minutes” and it’s been 2+ hours now",
+        "score": 0.725914,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

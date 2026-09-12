@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0056",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "b32eee4e60b905036f5fcd6c7e749e7732cbc0f4874e23a9a43741ce7c29afe3",
+  "prediction": {
+    "golden_id": "GOLDEN-0056",
+    "predicted_intent": "Product / Feature How-To",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "Hello! Based on previous customer experiences, sync features have been active on Windows phones, but this case requires further investigation to confirm current feature availability and account entitlements for syncing your specific phone to your PC. Please contact Microsoft Support so we can look into your device setup.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "68116",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Hello! Can We Install Android Apps On Windows Phone.",
+        "score": 0.68599,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "942638",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Yes, sync is active on both my laptop and my windows phone. | @MicrosoftHelps Was I provided with accurate information here? https://t.co/MUbtoiFNNI",
+        "score": 0.670465,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "519184",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps my Windows Phone doesn’t have the app I want 😕 https://t.co/vb3XQs4lCm | @MicrosoftHelps thank you. 🙂",
+        "score": 0.633364,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": true
+        }
+      }
+    ]
+  }
+}

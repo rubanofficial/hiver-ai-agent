@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0065",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "c572dfb15db611813981136f6b4735b2ab373a5b071b753273c0ca73cb1a2822",
+  "prediction": {
+    "golden_id": "GOLDEN-0065",
+    "predicted_intent": "Product / Feature How-To",
+    "predicted_intent_confidence": 0.85,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "Hello! Based on similar cases, Microsoft Edge Preview for iOS and Android is available exclusively to Windows Insiders. You can check the preview page for more details.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "712838",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps where can I join the beta for MicrosoftEdge #iPhone #TestFlight",
+        "score": 0.761928,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "592577",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps is edge for iOS only available in the US?",
+        "score": 0.666786,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2266546",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Okay, let's give it a try 🤔 https://t.co/sKdelrCDYR | \"Try Microsoft Edge Preview for iOS and Android. Available exclusively to Windows Insiders\" - wow, going in broad...",
+        "score": 0.640284,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

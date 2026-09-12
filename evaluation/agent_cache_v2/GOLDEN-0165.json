@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0165",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "9e9123f9f85ab0d24275fbcab33b7c1fc4fb64fd3c3cff114eee3ab919f861fa",
+  "prediction": {
+    "golden_id": "GOLDEN-0165",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "Thank you for reaching out to MicrosoftHelps. Since the historical evidence shows users experiencing various display driver installation and performance issues following the Windows 10 Creators Update 1709, this case requires further investigation into your specific video card and driver installation details. Please contact Microsoft Support so we can look into your system's driver compatibility and setup.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "1080838",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps was previously installed the basic driver microsoft, when I wanted to install the driver nvidia 388.00 happened this. | I have problems with the falls creators update 1709, the video card stops working when I install the drivers @116230 https://t.co/JmBNqSpZ68 | @MicrosoftHelps yes, it is the last version of the driver. I tried a previous version and the same thing happens.",
+        "score": 0.630441,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 3,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2161496",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps In my 4th attempts, the update works. I feel my @116230 10 feel snappier than before. I hope no issues in the future. Keep up the good work | @MicrosoftHelps I spent 6 hours already waiting, barely do anything with my laptop because the update keep re downloading by itself after failed. | @MicrosoftHelps @116230 God, it has been 2 hours already. now my windows10 cannot detect any nvidia driver i installed | @MicrosoftHelps Yes, i tried installing driver from asus website, nvidia website. And when i let geforce experience update my driver, i got this. https://t.co/VbjkXahJGv | @MicrosoftHelps this is the 4th times,Feature update to #Windows10, version 1709 failed to install. And why it needs to redownloading again?",
+        "score": 0.626826,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 5,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1129602",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps PC of course, before update, i got stable 60 fps while using Game DVR, i already update VGA driver, but nothing change | @MicrosoftHelps hei we (all gamers) got drop fps when play game on windows 10 creators update, can you give us solution? | @MicrosoftHelps all of them or just Nvidia? | @MicrosoftHelps okay, I'll try that ASAP | @MicrosoftHelps Hei, can i download intel graphic driver using driver booster? Or just download from Intel website? | @MicrosoftHelps hei, i have try your solution, but nothing change, my fps still droping when i play the game (overwatch), and please read your PM | @MicrosoftHelps I can get 60 fps (Vsync On) when using Game DVR before update to Windows 10 creator update, after update, it drop 30 fps when using Game DVR | @MicrosoftHelps it still make no different for me, if you can't solve this problem, i will roll back | @MicrosoftHelps thanks for your help, just want to roll back and then waiting for you guys fix this issue | @MicrosoftHelps I have roll back to Windows 10 anniversary update, and I can play the game with 60fps (DVR On), no more drop fps | @MicrosoftHelps Just tell us when you guys have fix this issue and then I will update Windows",
+        "score": 0.607453,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 11,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

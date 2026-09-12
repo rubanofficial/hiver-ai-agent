@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0024",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "c8b44b66d3cfe26cf06ad46974e14007d1da8b3657fac4971054a9408401021f",
+  "prediction": {
+    "golden_id": "GOLDEN-0024",
+    "predicted_intent": "Cancellation / Subscription",
+    "predicted_intent_confidence": 0.99,
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Intent 'Cancellation / Subscription' is high-risk and requires human handling.",
+    "predicted_reply": "Hello! Based on similar cases where customers experienced issues cancelling or managing their Office 365 subscriptions on the website, we recommend reaching out to us via direct message so we can assist you with your cancellation before your renewal today.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "1107016",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps trying to cancel my office 365 subscription and your website won’t let me?  Help",
+        "score": 0.760105,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2658503",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Office 365 Personal. Already tried, Case number: 1405022833 | @122427 @115890 @MicrosoftHelps I cannot cancel my Office 365 subscription. Please, get in touch with me on __email__ | @MicrosoftHelps OK, I sent you a DM. Please, help me",
+        "score": 0.756184,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 3,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1620360",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps I bought an office365 subscription on June 28th because my precious one was expiring. Somehow my subscription was cancelled on July 25th | @MicrosoftHelps I have a problem with a subscription to Office365, can you help?",
+        "score": 0.695545,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0186",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "b2183941db027545c23d76161c2c40a9e6473d5a1b30c7091a68b1926efb3000",
+  "prediction": {
+    "golden_id": "GOLDEN-0186",
+    "predicted_intent": "Microsoft Store",
+    "predicted_intent_confidence": 0.9,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "Hola. Para ayudarte con los problemas para realizar una compra desde Xbox o el sitio web, este caso requiere mayor investigación para revisar detalles de tu cuenta y transacciones. Por favor, contacta directamente con el soporte de Microsoft para que puedan verificar tu situación y brindarte la ayuda necesaria.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "2696735",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps  ayuda plis no puedo iniciar secion",
+        "score": 0.670894,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "660845",
+        "source_tweet_id": null,
+        "text": "Mi peor experiencia hasta el momento en atención a cliente y servicios sin duda ha sido #Microsoft365 @MicrosoftHelps",
+        "score": 0.618649,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1253471",
+        "source_tweet_id": null,
+        "text": "What is this @MicrosoftHelps  and how does one fix it #xboxProblems https://t.co/jknmWxCRNJ",
+        "score": 0.586126,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

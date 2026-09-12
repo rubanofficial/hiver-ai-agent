@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0054",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "2217ba19b7d978c7eebe24b63535477cba9e22e15565c7ca7f9897490148f4f8",
+  "prediction": {
+    "golden_id": "GOLDEN-0054",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "We understand how frustrating it is when an update takes a very long time or appears to restart. Based on similar cases, updates can sometimes be lengthy and require patience to complete successfully, though we know how disruptive this is to your day.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "102036",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps It was finally updated and running after 16 hours | @MicrosoftHelps Hey Microsoft, next time don’t make your updates so large that is takes 17 hours to install. Started my update at 530pm last night and it STILL isn’t complete. This is my work laptop and I haven’t been able to do ANYTHING today",
+        "score": 0.780032,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "27112",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Thank you it updated perfectly, no further issues. | @MicrosoftHelps So I have now waited for more than 36 hours and the windows 10 updater is still at 99%. Anything else I can do besides wait?",
+        "score": 0.772281,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "739240",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Win 10 Home. Was forced to reset &amp; restore as I needed to do some work. Concerned I'll have another update this week that never ends | @MicrosoftHelps started update 6pm GMT. Stuck on 87% since 7pm. Third update this week. Not impressed. https://t.co/yIflQHkdVA",
+        "score": 0.767359,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

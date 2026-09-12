@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0003",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "a87a40dd275bf875d5d2dadfe9fe91ffd2737a0f9ee59a64a2bd3860c0e02200",
+  "prediction": {
+    "golden_id": "GOLDEN-0003",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "We want you to have a great experience with Windows 10. Are you getting any error codes or messages when this occurs?",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "2421464",
+        "source_tweet_id": null,
+        "text": "@116230 It just says windows didn't load correctly | @695549 Interesting. Are you getting any error codes or messages when this occurs? | @116230 It's randomly shutting off (even after reinstalling and updated drivers and a replacement system) | @695549 Hey, there. What’s happening to make you say that? We want you to have a great experience with Windows 10. | This windows 10 computer is the worst thing I've ever purchased",
+        "score": 0.617392,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 5,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1738537",
+        "source_tweet_id": null,
+        "text": "Am I the only one who isn't getting Windows 10 crashes?",
+        "score": 0.608103,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2477354",
+        "source_tweet_id": null,
+        "text": "Windows 10 is a plague",
+        "score": 0.596637,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

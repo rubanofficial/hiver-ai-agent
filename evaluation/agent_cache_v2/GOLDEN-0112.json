@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0112",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "5e317c25e895e9608033a5dcf7395dd617b7a5561144e24ae167e074a409c743",
+  "prediction": {
+    "golden_id": "GOLDEN-0112",
+    "predicted_intent": "Microsoft Store",
+    "predicted_intent_confidence": 0.85,
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": null,
+    "predicted_reply": "Hello! Based on a similar case regarding Microsoft Store game deals and purchases, we recommend checking the official Microsoft Store website for the most up-to-date information on Black Friday sales and game availability.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "2751567",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps trying to buy a game in the blck friday deals and i cant pls help",
+        "score": 0.70097,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1574936",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps If I preordered the scorpio xbox online at the ms store, will it arrive launch day or ship launch day?",
+        "score": 0.654185,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "1716997",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps When will the preordered Project Scorpio Xbox Ones ship?",
+        "score": 0.647804,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

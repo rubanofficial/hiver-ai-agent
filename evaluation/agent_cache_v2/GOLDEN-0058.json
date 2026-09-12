@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0058",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "1b2bcbbcc3b86259ce921d6cefa21412629c229df52017e12067e0b7e6e4b072",
+  "prediction": {
+    "golden_id": "GOLDEN-0058",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_intent_confidence": 0.85,
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "No evidence reached the confidence threshold for a safe autonomous reply (minimum 0.60); human review is required.",
+    "predicted_reply": "We're happy to help! Can you tell us more about what you're experiencing with Acrobat Reader on Windows 10?",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "131587",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps After i install pdf app, i m asked 2 options. Then i can choose @145674 and it works. After uninstall app, again unable to open pdf. | @MicrosoftHelps As i see many ppl ve posted similar issue in Feedback Hub. Not sure its gonna help. Add my comments in there | @MicrosoftHelps No updates. Everything is latest | @MicrosoftHelps Lumia 730. Issue started yday after I performed factory reset. OS 1607, 10.0.14393.1884 | @MicrosoftHelps Does not help. Phone is not opening PDF in edge. | @16942 @MicrosoftHelps can u help? https://t.co/SGqliFlMKh",
+        "score": 0.559019,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 6,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "2521549",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps I will give the version # tomorrow. | @115890 #Windows10 #PowerPoint opens only 50% of the time. Address this common issue. I need to PDF my presentations as I can't trust your program.",
+        "score": 0.537515,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 2,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "12856",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Windows 10 | @116230  https://t.co/F6bCW3QbNT | @118602 Hi, there. We're happy to help! Can you tell us more about what you're experiencing? | @116230  please help me out I’m having trouble",
+        "score": 0.516869,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 4,
+          "has_resolution_signal": false
+        }
+      }
+    ]
+  }
+}

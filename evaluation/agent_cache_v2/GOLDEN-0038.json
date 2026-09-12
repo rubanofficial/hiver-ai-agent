@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "generator": "evaluation/run_agent.py",
+  "golden_id": "GOLDEN-0038",
+  "status": "ok",
+  "model": "gemini-3.5-flash-lite",
+  "input_fingerprint": "54f42ee5c2dd4136774c7a32418ce83d4f2ac9fce119ebf615aa17d2074a927d",
+  "prediction": {
+    "golden_id": "GOLDEN-0038",
+    "predicted_intent": "Complaint / Feedback",
+    "predicted_intent_confidence": 0.95,
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+    "predicted_reply": "We are sorry to hear about your frustration with reaching support for Microsoft Office. Because this case requires further investigation into your specific support history and account details, please contact Microsoft Support directly so an agent can look into why your previous assistance took longer than expected and help resolve your Office issue.",
+    "retrieved_evidence": [
+      {
+        "evidence_id": "575299",
+        "source_tweet_id": null,
+        "text": "Send help @MicrosoftHelps",
+        "score": 0.650086,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": false
+        }
+      },
+      {
+        "evidence_id": "46331",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps Hello, I’m trying to get help with my defective Microsoft Office and online support staff are not helpful at all. Can you refer me to someone senior who can resolve my issues? Thank you",
+        "score": 0.620979,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 1,
+          "has_resolution_signal": true
+        }
+      },
+      {
+        "evidence_id": "1496341",
+        "source_tweet_id": null,
+        "text": "@MicrosoftHelps My office stopped working on an employee’s computer and I chatted for 4 hours yesterday with 4 or 5 people. No one could fix it. | @MicrosoftHelps The last person said they would email me today to try and fix it. He said it would take another 2-3 hours. Wasting a lot of time at work. | 3 hours of chatting with @MicrosoftHelps and they still haven’t fixed my Microsoft Office. Insane!",
+        "score": 0.602801,
+        "source": "twcs_historical",
+        "metadata": {
+          "num_customer_messages": 3,
+          "has_resolution_signal": true
+        }
+      }
+    ]
+  }
+}
