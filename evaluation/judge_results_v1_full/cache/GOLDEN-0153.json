@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0153",
+  "input_fingerprint": "0510ace4bd25f54ba1811abbf6c2e466e0c99382d4a72cd0b677d9b85d9240ee",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:43:21+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0153",
+    "customer_message": "@MicrosoftHelps There was a #Windows10 update today that seemed to correct the problem.",
+    "conversation_context": "MICROSOFT (2142730): @630008 Thank you for the info. Let's troubleshoot the issue by performing a clean boot: https://t.co/1BaSrMDQxe. Keep us posted.\nCUSTOMER (2142731): @116230 What details are you looking for, in particular? As I mentioned previously, the slow loading for @144408 started after the recent #Windows10 update. I never had this problem before. There's a delay/freeze of about 5 seconds when clicking on links. Computer boots slower, too.\nMICROSOFT (2142732): @630008 May we know if the link worked for you? If you need further assistance, feel free to send us a message.\nCUSTOMER (2142733): @630008 Hi, Mike. Could you share with us a few more details about this? We'd like to help, if we can.",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"774405\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.883884, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Thanks for reaching out. The problem resolved itself after a reboot and some waiting | Loving the Windows 10 update ❤️#techgore https://t.co/mErQxgi6wk\"}\n{\"evidence_id\": \"845435\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 2}, \"score\": 0.850489, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Refreshed #Windows10 and works like a charm! | @MicrosoftHelps No thanks, got it working! Running great :)\"}\n{\"evidence_id\": \"380956\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.803567, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps NOOOOO!!! Please look at all the recent posts in that topic. The problem is NOT FIXED. You should NOT have to clear the cache manually! | @MicrosoftHelps HOW COMPLETELY INCOMPETENT ARE YOUR ENGINEERS that can't fix this #Windows10 problem for MONTHS!?!\\nhttps://t.co/4rnaGaC5M8\"}",
+    "generated_reply": "Thanks for letting us know! We're glad to hear that the Windows 10 update helped resolve the issue. If you need any further assistance, feel free to reach out."
+  },
+  "raw_response": "{\n  \"correctness\": 5,\n  \"helpfulness\": 5,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 5,\n  \"evidence_support\": 5,\n  \"unsupported_claims\": 5,\n  \"evidence_relevance\": 4,\n  \"grounding_score\": 5,\n  \"reason\": \"The reply directly addresses the customer's statement that the update fixed their issue, is polite, clear, and appropriately acknowledges the resolution.\"\n}",
+  "result": {
+    "correctness": 5,
+    "helpfulness": 5,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 5,
+    "evidence_support": 5,
+    "unsupported_claims": 5,
+    "evidence_relevance": 4,
+    "grounding_score": 5,
+    "reason": "The reply directly addresses the customer's statement that the update fixed their issue, is polite, clear, and appropriately acknowledges the resolution.",
+    "overall_score": 5,
+    "short_reason": "The reply directly addresses the customer's statement that the update fixed their issue, is polite, clear, and appropriately acknowledges the resolution.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 5,
+      "helpfulness": 5,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 5,
+      "unsupported_claims": 5,
+      "evidence_relevance": 4
+    },
+    "golden_id": "GOLDEN-0153",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0153",
+      "customer_message": "@MicrosoftHelps There was a #Windows10 update today that seemed to correct the problem.",
+      "conversation_context": "MICROSOFT (2142730): @630008 Thank you for the info. Let's troubleshoot the issue by performing a clean boot: https://t.co/1BaSrMDQxe. Keep us posted.\nCUSTOMER (2142731): @116230 What details are you looking for, in particular? As I mentioned previously, the slow loading for @144408 started after the recent #Windows10 update. I never had this problem before. There's a delay/freeze of about 5 seconds when clicking on links. Computer boots slower, too.\nMICROSOFT (2142732): @630008 May we know if the link worked for you? If you need further assistance, feel free to send us a message.\nCUSTOMER (2142733): @630008 Hi, Mike. Could you share with us a few more details about this? We'd like to help, if we can.",
+      "predicted_intent": "Technical Troubleshooting",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"774405\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.883884, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Thanks for reaching out. The problem resolved itself after a reboot and some waiting | Loving the Windows 10 update ❤️#techgore https://t.co/mErQxgi6wk\"}\n{\"evidence_id\": \"845435\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 2}, \"score\": 0.850489, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Refreshed #Windows10 and works like a charm! | @MicrosoftHelps No thanks, got it working! Running great :)\"}\n{\"evidence_id\": \"380956\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.803567, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps NOOOOO!!! Please look at all the recent posts in that topic. The problem is NOT FIXED. You should NOT have to clear the cache manually! | @MicrosoftHelps HOW COMPLETELY INCOMPETENT ARE YOUR ENGINEERS that can't fix this #Windows10 problem for MONTHS!?!\\nhttps://t.co/4rnaGaC5M8\"}",
+      "generated_reply": "Thanks for letting us know! We're glad to hear that the Windows 10 update helped resolve the issue. If you need any further assistance, feel free to reach out."
+    }
+  }
+}

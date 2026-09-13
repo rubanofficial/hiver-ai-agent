@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0213",
+  "input_fingerprint": "decd41879b4b1d4f89e38e064534c79cad8cc185157550fb74f9f127b3371451",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:05:56+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0213",
+    "customer_message": "@MicrosoftHelps Order status in my order history shows that the order was shipped. When I track the order in FedEx it just shows that the label was printed, no further status. When I asked FedEx I was told they have not yet received the actual shipment",
+    "conversation_context": "MICROSOFT (557701): @250251 Hi, Jay! We're here to help. For better assistance, may we know where did you place your order? Is it from Microsoft Store or in an authorized retail store?\nCUSTOMER (557702): @MicrosoftHelps In Microsoft store\nCUSTOMER (557703): @MicrosoftHelps hello two of my orders placed on 27th Nov is not shipped out yet\nMICROSOFT (557704): @250251 Got that! Have you tried checking the status of your order online? Here's how: https://t.co/0NVMBjKGMW.",
+    "predicted_intent": "Order / Delivery",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"522024\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.601362, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@115890 @MicrosoftHelps | .@135958 my Xbox One S was supposed to be delivered today but it still hasn’t shipped?\"}\n{\"evidence_id\": \"54888\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 18}, \"score\": 0.55485, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps @123127 @MicrosoftHelps Got my replacement from FedEx today! It was a pleasant surprise! Thank you! | @MicrosoftHelps @123127 @2696 Any updates on this issue? Its been 2 weeks... | @MicrosoftHelps @123127 @2696 @123127 @MicrosoftHelps Any update on the address change? I was told I was going to get a call back 5 days ago and also requested via email | @MicrosoftHelps @123127 @2696 change the shipping address?  The shipping address you are sending to is old as I do not live there anymore.  Thanks again! | @MicrosoftHelps @123127 @MicrosoftHelps @2696 Thank you for the help!  I got the emails just now describing the process. Is there any way for me to | @MicrosoftHelps @123127 @MicrosoftHelps @2696  Still no call or contact beyond the email asking me again for my serial number Its been almost a week | @MicrosoftHelps @123127 @2696 Thank you! Received email from support saying its escalated to Tier 3 now.  I am cautiously optimistic this will be resolved. | @MicrosoftHelps @123127 @2696 Another picture, this time with the glass actually started to come away from the body. https://t.co/zhHF3fSUTH | @MicrosoftHelps @123127 @2696 Some pictures if you need to see what happened. You can see where the edges were flat and where the bulge is taking place on both sides. https://t.co/askEqTWkac | @MicrosoftHelps @123127 @2696 I'll send in again my proof of purchase. Whatever happen to the escalation and the call from \\\"Rapid Response\\\"? Just more misinformation? | @MicrosoftHelps @123127 @2696 @MicrosoftHelps so after 4 days I get a dm on Twitter to do the exact same thing I already did the first time I called | @MicrosoftHelps No I am still waiting for a call back. It's been 2 days and I can't use my surface in fear of the battery exploding... | @123127 @2696 Eventually got escalated to Lewis, here's hoping I get a call today to address this... | @123127 @2696 Called in this morning and was told \\\"Sorry they are late, there is no one I can escalate this too.\\\" Is this the kind of service I can expect | @123127 @2696 @123127 so I called in last night and was told that I would be getting a call by 8AM. No call, cancelled my morning meetings | @123127 I loved my Surface Pro 4! | @123127 my battery is bulging out. Called support and am waiting for a call back tomorrow. Really hoping we can resolve the issue! | @MicrosoftHelps Not yet, I'm still waiting for confirmation of address change on the shipment.\"}\n{\"evidence_id\": \"607977\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.551403, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I still haven't received a call about a missing order\"}",
+    "generated_reply": "We understand you are concerned about your order status since FedEx indicates only the label was printed. This case requires further investigation through an order lookup to check the actual shipment status. Please contact Microsoft Support so we can investigate this issue for you."
+  },
+  "raw_response": "{\n  \"correctness\": 4,\n  \"helpfulness\": 4,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 4,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 4,\n  \"evidence_relevance\": 2,\n  \"grounding_score\": 3,\n  \"reason\": \"The reply directly addresses the customer's shipping discrepancy issue and recommends contacting Microsoft support since the evidence does not contain specific tracking resolutions. The evidence provided is largely irrelevant historical tweets, but the agent's response is safe and clear.\"\n}",
+  "result": {
+    "correctness": 4,
+    "helpfulness": 4,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 4,
+    "evidence_support": 3,
+    "unsupported_claims": 4,
+    "evidence_relevance": 2,
+    "grounding_score": 3,
+    "reason": "The reply directly addresses the customer's shipping discrepancy issue and recommends contacting Microsoft support since the evidence does not contain specific tracking resolutions. The evidence provided is largely irrelevant historical tweets, but the agent's response is safe and clear.",
+    "overall_score": 4,
+    "short_reason": "The reply directly addresses the customer's shipping discrepancy issue and recommends contacting Microsoft support since the evidence does not contain specific tracking resolutions. The evidence provided is largely irrelevant historical tweets, but the agent's response is safe and clear.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 4,
+      "helpfulness": 4,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 4,
+      "evidence_relevance": 2
+    },
+    "golden_id": "GOLDEN-0213",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0213",
+      "customer_message": "@MicrosoftHelps Order status in my order history shows that the order was shipped. When I track the order in FedEx it just shows that the label was printed, no further status. When I asked FedEx I was told they have not yet received the actual shipment",
+      "conversation_context": "MICROSOFT (557701): @250251 Hi, Jay! We're here to help. For better assistance, may we know where did you place your order? Is it from Microsoft Store or in an authorized retail store?\nCUSTOMER (557702): @MicrosoftHelps In Microsoft store\nCUSTOMER (557703): @MicrosoftHelps hello two of my orders placed on 27th Nov is not shipped out yet\nMICROSOFT (557704): @250251 Got that! Have you tried checking the status of your order online? Here's how: https://t.co/0NVMBjKGMW.",
+      "predicted_intent": "Order / Delivery",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"522024\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.601362, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@115890 @MicrosoftHelps | .@135958 my Xbox One S was supposed to be delivered today but it still hasn’t shipped?\"}\n{\"evidence_id\": \"54888\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 18}, \"score\": 0.55485, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps @123127 @MicrosoftHelps Got my replacement from FedEx today! It was a pleasant surprise! Thank you! | @MicrosoftHelps @123127 @2696 Any updates on this issue? Its been 2 weeks... | @MicrosoftHelps @123127 @2696 @123127 @MicrosoftHelps Any update on the address change? I was told I was going to get a call back 5 days ago and also requested via email | @MicrosoftHelps @123127 @2696 change the shipping address?  The shipping address you are sending to is old as I do not live there anymore.  Thanks again! | @MicrosoftHelps @123127 @MicrosoftHelps @2696 Thank you for the help!  I got the emails just now describing the process. Is there any way for me to | @MicrosoftHelps @123127 @MicrosoftHelps @2696  Still no call or contact beyond the email asking me again for my serial number Its been almost a week | @MicrosoftHelps @123127 @2696 Thank you! Received email from support saying its escalated to Tier 3 now.  I am cautiously optimistic this will be resolved. | @MicrosoftHelps @123127 @2696 Another picture, this time with the glass actually started to come away from the body. https://t.co/zhHF3fSUTH | @MicrosoftHelps @123127 @2696 Some pictures if you need to see what happened. You can see where the edges were flat and where the bulge is taking place on both sides. https://t.co/askEqTWkac | @MicrosoftHelps @123127 @2696 I'll send in again my proof of purchase. Whatever happen to the escalation and the call from \\\"Rapid Response\\\"? Just more misinformation? | @MicrosoftHelps @123127 @2696 @MicrosoftHelps so after 4 days I get a dm on Twitter to do the exact same thing I already did the first time I called | @MicrosoftHelps No I am still waiting for a call back. It's been 2 days and I can't use my surface in fear of the battery exploding... | @123127 @2696 Eventually got escalated to Lewis, here's hoping I get a call today to address this... | @123127 @2696 Called in this morning and was told \\\"Sorry they are late, there is no one I can escalate this too.\\\" Is this the kind of service I can expect | @123127 @2696 @123127 so I called in last night and was told that I would be getting a call by 8AM. No call, cancelled my morning meetings | @123127 I loved my Surface Pro 4! | @123127 my battery is bulging out. Called support and am waiting for a call back tomorrow. Really hoping we can resolve the issue! | @MicrosoftHelps Not yet, I'm still waiting for confirmation of address change on the shipment.\"}\n{\"evidence_id\": \"607977\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.551403, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I still haven't received a call about a missing order\"}",
+      "generated_reply": "We understand you are concerned about your order status since FedEx indicates only the label was printed. This case requires further investigation through an order lookup to check the actual shipment status. Please contact Microsoft Support so we can investigate this issue for you."
+    }
+  }
+}

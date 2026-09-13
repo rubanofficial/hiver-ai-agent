@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0016",
+  "input_fingerprint": "b694f9ce722e8a40c5f77cb7a0b048f7a7f492b5141a93957a05b9dcd1a728be",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-12T04:28:29+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0016",
+    "customer_message": "@MicrosoftHelps how long does it take for your store to process orders I ordered an Xbox One S over 24 hours ago and it is still processing, I understand it's busy but honestly this should be automated by a computer seriously.",
+    "conversation_context": "MICROSOFT (170286): @154395 Thank you for reaching out, Chris! To track your order, click here: https://t.co/toD3wygojA. Let us know if you still have other concern.\nCUSTOMER (170287): @MicrosoftHelps That didn't help but ok. I was just wondering why it was taking so long to process the order but I guess you can't help with that.",
+    "predicted_intent": "Order / Delivery",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"522024\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.69622, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@115890 @MicrosoftHelps | .@135958 my Xbox One S was supposed to be delivered today but it still hasn’t shipped?\"}\n{\"evidence_id\": \"1704483\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 3}, \"score\": 0.682269, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I did and they just tell me 3-7 business days -.- I thought it was release day shipping :/ | @MicrosoftHelps hey! I preordered the Xbox one x  Scorpio edition from the Microsoft store on August 22nd and haven't gotten tracking info:( | @MicrosoftHelps THAT WAS 6 DAYS AGO WTF. I had to call like 4 different representatives.. so yes it was resolved but not thanks to twitter.\"}\n{\"evidence_id\": \"1555098\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 2}, \"score\": 0.676898, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps hi I got this email yesterday about my Xbox one X pre order, Ive updated the payment method how would I know it’s sorted? 👍🏼 https://t.co/0EREIgNvDh | @MicrosoftHelps Sorted now thanks, Xbox just been delivered\"}",
+    "generated_reply": "We understand waiting for your order can be frustrating. Because we need to look up your specific order details and check its processing status, please contact Microsoft Support so we can investigate your order further."
+  },
+  "raw_response": "{\n  \"correctness\": 4,\n  \"helpfulness\": 4,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 4,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 4,\n  \"evidence_relevance\": 3,\n  \"grounding_score\": 3,\n  \"reason\": \"The reply correctly directs the customer to Microsoft Support for specific order processing inquiries since Twitter agents lack account access, though it relies slightly on general support protocol rather than direct evidence.\"\n}",
+  "result": {
+    "correctness": 4,
+    "helpfulness": 4,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 4,
+    "evidence_support": 3,
+    "unsupported_claims": 4,
+    "evidence_relevance": 3,
+    "grounding_score": 3,
+    "reason": "The reply correctly directs the customer to Microsoft Support for specific order processing inquiries since Twitter agents lack account access, though it relies slightly on general support protocol rather than direct evidence.",
+    "overall_score": 4,
+    "short_reason": "The reply correctly directs the customer to Microsoft Support for specific order processing inquiries since Twitter agents lack account access, though it relies slightly on general support protocol rather than direct evidence.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 4,
+      "helpfulness": 4,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 4,
+      "evidence_relevance": 3
+    },
+    "golden_id": "GOLDEN-0016",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0016",
+      "customer_message": "@MicrosoftHelps how long does it take for your store to process orders I ordered an Xbox One S over 24 hours ago and it is still processing, I understand it's busy but honestly this should be automated by a computer seriously.",
+      "conversation_context": "MICROSOFT (170286): @154395 Thank you for reaching out, Chris! To track your order, click here: https://t.co/toD3wygojA. Let us know if you still have other concern.\nCUSTOMER (170287): @MicrosoftHelps That didn't help but ok. I was just wondering why it was taking so long to process the order but I guess you can't help with that.",
+      "predicted_intent": "Order / Delivery",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"522024\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.69622, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@115890 @MicrosoftHelps | .@135958 my Xbox One S was supposed to be delivered today but it still hasn’t shipped?\"}\n{\"evidence_id\": \"1704483\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 3}, \"score\": 0.682269, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I did and they just tell me 3-7 business days -.- I thought it was release day shipping :/ | @MicrosoftHelps hey! I preordered the Xbox one x  Scorpio edition from the Microsoft store on August 22nd and haven't gotten tracking info:( | @MicrosoftHelps THAT WAS 6 DAYS AGO WTF. I had to call like 4 different representatives.. so yes it was resolved but not thanks to twitter.\"}\n{\"evidence_id\": \"1555098\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 2}, \"score\": 0.676898, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps hi I got this email yesterday about my Xbox one X pre order, Ive updated the payment method how would I know it’s sorted? 👍🏼 https://t.co/0EREIgNvDh | @MicrosoftHelps Sorted now thanks, Xbox just been delivered\"}",
+      "generated_reply": "We understand waiting for your order can be frustrating. Because we need to look up your specific order details and check its processing status, please contact Microsoft Support so we can investigate your order further."
+    }
+  }
+}

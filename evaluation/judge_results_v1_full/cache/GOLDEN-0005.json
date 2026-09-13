@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0005",
+  "input_fingerprint": "3238be8358a0f4235ab884683c4c0cd01cd999819fc90e0ee10b92db07295146",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:28:17+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0005",
+    "customer_message": "@116230 I just ditched Windows 10 for Windows 8.1. I'm sick and tired of win 10 \n\n#Windows10 \n#WednesdayWisdom",
+    "conversation_context": "MICROSOFT (54806): @128427 Let's get this sorted. Just to make it clear, could you tell us the details of your concern about your device's performance?\nCUSTOMER (54807): @116230 Why will Microsoft keep rolling out updates for Windows 10 when users are having issues with the previous updates\nMICROSOFT (54808): @128427 Hi. Just checking back with you, may we know if your issue got resolved?\nCUSTOMER (54809): @128427 Hi, Emmy! Could you share with us what you disliked about Windows 10? We strive to keep improving.",
+    "predicted_intent": "Complaint / Feedback",
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+    "retrieved_evidence": "{\"evidence_id\": \"2018807\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 3}, \"score\": 0.713456, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@116230 Mostly I'm just tried of every Win10 update fixing some things and breaking others that used to work. | @597023 Hi, there. Is there something specific we can help you with? We want you to enjoy your experience with Windows 10! | Windows 10: Constantly broken in new and surprising ways.\\rI miss Windows 8.\"}\n{\"evidence_id\": \"2173350\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.679645, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Hahaha thanks for getting in touch, but it's just long updates when I really need to work! Appreciate the offer to help, though. | Y u hate me #windows10? https://t.co/6Q8QxRWRdF\"}\n{\"evidence_id\": \"711569\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 3}, \"score\": 0.661685, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@116230 If my PC would ever stop preparing to configure Windows I'd let you know. | It's 10/10, so we're celebrating #Windows10. What's your favorite feature? | @116230 This screen. https://t.co/xyAeZ3CPbg\"}",
+    "generated_reply": "Hi, there. Is there something specific we can help you with? We want you to enjoy your experience with Windows 10!"
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 3,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 2,\n  \"overall_reply_score\": 3,\n  \"evidence_support\": 4,\n  \"unsupported_claims\": 5,\n  \"evidence_relevance\": 4,\n  \"grounding_score\": 4,\n  \"reason\": \"The reply uses standard canned text that matches the retrieved evidence, but fails to address the customer's specific context that they already downgraded to Windows 8.1 and represents a missed opportunity for proper escalation given the predicted intent.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 3,
+    "clarity": 5,
+    "escalation_appropriateness": 2,
+    "overall_reply_score": 3,
+    "evidence_support": 4,
+    "unsupported_claims": 5,
+    "evidence_relevance": 4,
+    "grounding_score": 4,
+    "reason": "The reply uses standard canned text that matches the retrieved evidence, but fails to address the customer's specific context that they already downgraded to Windows 8.1 and represents a missed opportunity for proper escalation given the predicted intent.",
+    "overall_score": 3,
+    "short_reason": "The reply uses standard canned text that matches the retrieved evidence, but fails to address the customer's specific context that they already downgraded to Windows 8.1 and represents a missed opportunity for proper escalation given the predicted intent.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 3,
+      "clarity": 5,
+      "escalation_appropriateness": 2
+    },
+    "evidence_grounding": {
+      "evidence_support": 4,
+      "unsupported_claims": 5,
+      "evidence_relevance": 4
+    },
+    "golden_id": "GOLDEN-0005",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0005",
+      "customer_message": "@116230 I just ditched Windows 10 for Windows 8.1. I'm sick and tired of win 10 \n\n#Windows10 \n#WednesdayWisdom",
+      "conversation_context": "MICROSOFT (54806): @128427 Let's get this sorted. Just to make it clear, could you tell us the details of your concern about your device's performance?\nCUSTOMER (54807): @116230 Why will Microsoft keep rolling out updates for Windows 10 when users are having issues with the previous updates\nMICROSOFT (54808): @128427 Hi. Just checking back with you, may we know if your issue got resolved?\nCUSTOMER (54809): @128427 Hi, Emmy! Could you share with us what you disliked about Windows 10? We strive to keep improving.",
+      "predicted_intent": "Complaint / Feedback",
+      "predicted_escalation": "ESCALATE_TO_HUMAN",
+      "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+      "retrieved_evidence": "{\"evidence_id\": \"2018807\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 3}, \"score\": 0.713456, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@116230 Mostly I'm just tried of every Win10 update fixing some things and breaking others that used to work. | @597023 Hi, there. Is there something specific we can help you with? We want you to enjoy your experience with Windows 10! | Windows 10: Constantly broken in new and surprising ways.\\rI miss Windows 8.\"}\n{\"evidence_id\": \"2173350\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.679645, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Hahaha thanks for getting in touch, but it's just long updates when I really need to work! Appreciate the offer to help, though. | Y u hate me #windows10? https://t.co/6Q8QxRWRdF\"}\n{\"evidence_id\": \"711569\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 3}, \"score\": 0.661685, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@116230 If my PC would ever stop preparing to configure Windows I'd let you know. | It's 10/10, so we're celebrating #Windows10. What's your favorite feature? | @116230 This screen. https://t.co/xyAeZ3CPbg\"}",
+      "generated_reply": "Hi, there. Is there something specific we can help you with? We want you to enjoy your experience with Windows 10!"
+    }
+  }
+}

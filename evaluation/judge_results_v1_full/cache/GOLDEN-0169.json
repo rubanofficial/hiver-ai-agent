@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0169",
+  "input_fingerprint": "05ffba0aa9f08d6ec2a2bfe6c7b6a4b592b6b37a0e8c05521c280746f4e61c25",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:45:13+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0169",
+    "customer_message": "@MicrosoftHelps Any ETA on when the Surface Pro 4 will support tilt detection with the new Pen? It's been coming soon for months now.",
+    "conversation_context": "MICROSOFT (2473426): @570141 Hi, Brian. As of the moment, we still don't have ETA. Rest assured that our engineers are working on it. We suggest you to continue keeping your Surface up-to-date to make sure that your device has the latest software and firmware.",
+    "predicted_intent": "Product / Feature How-To",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"400709\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.868666, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps what ever happened to the Surface Pro 4 firmware update to add tilt support with the new pen?\"}\n{\"evidence_id\": \"720863\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 3}, \"score\": 0.69856, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps @115890 does the surface pen 2 support my surface pro 3? | @MicrosoftHelps Thanks for the info | @MicrosoftHelps Yup resolved the issue right away.\"}\n{\"evidence_id\": \"2789717\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.687736, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@223118 @123127 @122425 @MicrosoftHelps When will you post updates for the Surface 4 Pro? | This is bad: Intel Chip Flaws Leave Millions of Devices Exposed https://t.co/7oQbbMg6T3 via @223118 -- download the tool and then contact your vendor! (No test for Mac?) https://t.co/aYXhn0qbcV\"}",
+    "generated_reply": "We understand your anticipation regarding the tilt support update for the Surface Pro 4 with the new Pen. However, we currently do not have a specific ETA available in our system. Please contact Microsoft support directly for further assistance."
+  },
+  "raw_response": "{\n  \"correctness\": 4,\n  \"helpfulness\": 4,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 4,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 4,\n  \"evidence_relevance\": 3,\n  \"grounding_score\": 3,\n  \"reason\": \"The reply directly addresses the customer's question about the Surface Pro 4 tilt support ETA, aligns well with standard support practices, and maintains high clarity, though evidence correlation is minimal.\"\n}",
+  "result": {
+    "correctness": 4,
+    "helpfulness": 4,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 4,
+    "evidence_support": 3,
+    "unsupported_claims": 4,
+    "evidence_relevance": 3,
+    "grounding_score": 3,
+    "reason": "The reply directly addresses the customer's question about the Surface Pro 4 tilt support ETA, aligns well with standard support practices, and maintains high clarity, though evidence correlation is minimal.",
+    "overall_score": 4,
+    "short_reason": "The reply directly addresses the customer's question about the Surface Pro 4 tilt support ETA, aligns well with standard support practices, and maintains high clarity, though evidence correlation is minimal.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 4,
+      "helpfulness": 4,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 4,
+      "evidence_relevance": 3
+    },
+    "golden_id": "GOLDEN-0169",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0169",
+      "customer_message": "@MicrosoftHelps Any ETA on when the Surface Pro 4 will support tilt detection with the new Pen? It's been coming soon for months now.",
+      "conversation_context": "MICROSOFT (2473426): @570141 Hi, Brian. As of the moment, we still don't have ETA. Rest assured that our engineers are working on it. We suggest you to continue keeping your Surface up-to-date to make sure that your device has the latest software and firmware.",
+      "predicted_intent": "Product / Feature How-To",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"400709\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.868666, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps what ever happened to the Surface Pro 4 firmware update to add tilt support with the new pen?\"}\n{\"evidence_id\": \"720863\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 3}, \"score\": 0.69856, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps @115890 does the surface pen 2 support my surface pro 3? | @MicrosoftHelps Thanks for the info | @MicrosoftHelps Yup resolved the issue right away.\"}\n{\"evidence_id\": \"2789717\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.687736, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@223118 @123127 @122425 @MicrosoftHelps When will you post updates for the Surface 4 Pro? | This is bad: Intel Chip Flaws Leave Millions of Devices Exposed https://t.co/7oQbbMg6T3 via @223118 -- download the tool and then contact your vendor! (No test for Mac?) https://t.co/aYXhn0qbcV\"}",
+      "generated_reply": "We understand your anticipation regarding the tilt support update for the Surface Pro 4 with the new Pen. However, we currently do not have a specific ETA available in our system. Please contact Microsoft support directly for further assistance."
+    }
+  }
+}

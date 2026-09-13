@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0125",
+  "input_fingerprint": "595d04f9157bd410ed1fdde5ba85595344c8f43adfd39f69f2ebe7df7121e8ac",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:41:08+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0125",
+    "customer_message": "@MicrosoftHelps Well I deactivaded the quick Start and now my pc dont Start anymore?????",
+    "conversation_context": "MICROSOFT (1752972): @247494 Hi. We're here to help. Could you tell us why did you say that all of your devices drivers are broken?\nCUSTOMER (1752973): @MicrosoftHelps i fixxed the problem with the drivers but i cant save and use the color profiles\nCUSTOMER (1752974): @MicrosoftHelps Hey, all my drivers are broken since the creators update and I cant calibrate my monitor any more (with spyder)",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"1125732\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 2}, \"score\": 0.670533, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@115890 @MicrosoftHelps There's a reason I turned off 'fast start-up'! (It breaks WoL!) Stop turning it back on with every major upgrade! | @MicrosoftHelps No. I am not linking my Windows installation to a Microsoft account, thank you very much.\"}\n{\"evidence_id\": \"2519170\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.639386, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \".@MicrosoftHelps Hello I. Think my computer is broken\"}\n{\"evidence_id\": \"385209\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 2}, \"score\": 0.609542, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps sorry, after hours of waiting, as soon as i message you, it comes to life | @MicrosoftHelps stuck on 'Restoring your previous version of Windows', the same happens when I reboot.. what can I do? thanks\"}",
+    "generated_reply": "Hello, I apologize for the trouble with your PC not starting after deactivating Quick Start. Unfortunately, I do not have specific troubleshooting steps in my current resources for this issue. Please contact Microsoft support directly for further assistance."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 2,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 3,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 5,\n  \"evidence_relevance\": 2,\n  \"grounding_score\": 3,\n  \"reason\": \"The reply correctly acknowledges the user's issue with Fast Start-up and gracefully escalates by advising them to contact Microsoft support when no specific troubleshooting steps are found in the evidence.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 2,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 3,
+    "evidence_support": 3,
+    "unsupported_claims": 5,
+    "evidence_relevance": 2,
+    "grounding_score": 3,
+    "reason": "The reply correctly acknowledges the user's issue with Fast Start-up and gracefully escalates by advising them to contact Microsoft support when no specific troubleshooting steps are found in the evidence.",
+    "overall_score": 3,
+    "short_reason": "The reply correctly acknowledges the user's issue with Fast Start-up and gracefully escalates by advising them to contact Microsoft support when no specific troubleshooting steps are found in the evidence.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 2,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 5,
+      "evidence_relevance": 2
+    },
+    "golden_id": "GOLDEN-0125",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0125",
+      "customer_message": "@MicrosoftHelps Well I deactivaded the quick Start and now my pc dont Start anymore?????",
+      "conversation_context": "MICROSOFT (1752972): @247494 Hi. We're here to help. Could you tell us why did you say that all of your devices drivers are broken?\nCUSTOMER (1752973): @MicrosoftHelps i fixxed the problem with the drivers but i cant save and use the color profiles\nCUSTOMER (1752974): @MicrosoftHelps Hey, all my drivers are broken since the creators update and I cant calibrate my monitor any more (with spyder)",
+      "predicted_intent": "Technical Troubleshooting",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"1125732\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 2}, \"score\": 0.670533, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@115890 @MicrosoftHelps There's a reason I turned off 'fast start-up'! (It breaks WoL!) Stop turning it back on with every major upgrade! | @MicrosoftHelps No. I am not linking my Windows installation to a Microsoft account, thank you very much.\"}\n{\"evidence_id\": \"2519170\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.639386, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \".@MicrosoftHelps Hello I. Think my computer is broken\"}\n{\"evidence_id\": \"385209\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 2}, \"score\": 0.609542, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps sorry, after hours of waiting, as soon as i message you, it comes to life | @MicrosoftHelps stuck on 'Restoring your previous version of Windows', the same happens when I reboot.. what can I do? thanks\"}",
+      "generated_reply": "Hello, I apologize for the trouble with your PC not starting after deactivating Quick Start. Unfortunately, I do not have specific troubleshooting steps in my current resources for this issue. Please contact Microsoft support directly for further assistance."
+    }
+  }
+}

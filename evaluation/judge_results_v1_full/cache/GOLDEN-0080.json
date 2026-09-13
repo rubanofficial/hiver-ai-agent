@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0080",
+  "input_fingerprint": "9f7aa27653768213ce249227b96a8af721ae98ed4890ae48de439b004ffef805",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:37:04+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0080",
+    "customer_message": "@MicrosoftHelps should installing Exchange Server 2016 must be on Additional Domain Controller, or only Joining the Machine to the DC like any computer?",
+    "conversation_context": "MICROSOFT (1005712): @358047 Hi. Let’s find answers for you. Just to verify, is it a personal or a business account?\nCUSTOMER (1005713): @MicrosoftHelps Personal??\nCUSTOMER (1005714): @MicrosoftHelps I need a document of how about MS exchange 2010 to 2016 Migration .Can you help ASAP?\nMICROSOFT (1005715): @358047 Thanks for the reply. To find out more about MS exchange 2010 to 2016 Migration, please go to this link: https://t.co/2Yogr6GXzH.\nCUSTOMER (1005716): @MicrosoftHelps Thanks alot\nMICROSOFT (1005717): @358047 You're welcome. Keep us in the loop on your progress. Feel free to send us another message if you need further help. Good day!\nMICROSOFT (1005718): @358047 Hi there. Checking back with you. Is everything good on your end? Feel free to send us a message if you need further help.\nMICROSOFT (1005719): @358047 Hello! We would like to improve our support. Please send us your feedback here: https://t.co/Hia9ejamRl. Have a great day!\nCUSTOMER (1005720): @MicrosoftHelps Sorry didn't begin the scenario yet.\nMICROSOFT (1005721): @358047 Thanks for the update. If you need further assistance, we're just a tweet away!",
+    "predicted_intent": "Product / Feature How-To",
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Generated reply could not be grounded in historical evidence; human review is required.",
+    "retrieved_evidence": "{\"evidence_id\": \"2248690\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.598829, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Got an answer from an IRC channel already: yes, it's required. | @MicrosoftHelps do I need Desktop Experience on Server 2016 to install a WDS server?\"}\n{\"evidence_id\": \"2277739\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.486745, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Unable to direct message? Says 'Internal server error.'? | @MicrosoftHelps Hi, trying to auto configure a 365 email on Outlook 2016 but get get the error, An encrypted connection to your mail server is not avalilable. Click next to attempt using an unencrypted connection.  DNS is fine??\"}\n{\"evidence_id\": \"218823\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 5}, \"score\": 0.484717, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Its fine. I want to keep office 2016 anyway. Does the phone version of 365 have VBA or is that just for PC? | @MicrosoftHelps any chance that the so called help desk can answer this? | @MicrosoftHelps i dont want to call anyone. Just need to know if possible to have both on same laptop and same microsoft account. | @MicrosoftHelps hi, i have standalone professional plus 2016 on my laptop as a work package but want to install office 365 personal also. | @MicrosoftHelps ffs. is this an account that is meant to give support or not?\"}",
+    "generated_reply": "I apologize, but I do not have sufficient information in my current resources to confirm the domain controller requirements for installing Exchange Server 2016. Please contact Microsoft support directly for further assistance."
+  },
+  "raw_response": "{\n  \"correctness\": 5,\n  \"helpfulness\": 4,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 5,\n  \"evidence_support\": 5,\n  \"unsupported_claims\": 5,\n  \"evidence_relevance\": 1,\n  \"grounding_score\": 5,\n  \"reason\": \"The retrieved evidence is completely irrelevant to Exchange Server 2016 domain controller requirements, so the model appropriately declines to guess and suggests contacting support.\"\n}",
+  "result": {
+    "correctness": 5,
+    "helpfulness": 4,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 5,
+    "evidence_support": 5,
+    "unsupported_claims": 5,
+    "evidence_relevance": 1,
+    "grounding_score": 5,
+    "reason": "The retrieved evidence is completely irrelevant to Exchange Server 2016 domain controller requirements, so the model appropriately declines to guess and suggests contacting support.",
+    "overall_score": 5,
+    "short_reason": "The retrieved evidence is completely irrelevant to Exchange Server 2016 domain controller requirements, so the model appropriately declines to guess and suggests contacting support.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 5,
+      "helpfulness": 4,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 5,
+      "unsupported_claims": 5,
+      "evidence_relevance": 1
+    },
+    "golden_id": "GOLDEN-0080",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0080",
+      "customer_message": "@MicrosoftHelps should installing Exchange Server 2016 must be on Additional Domain Controller, or only Joining the Machine to the DC like any computer?",
+      "conversation_context": "MICROSOFT (1005712): @358047 Hi. Let’s find answers for you. Just to verify, is it a personal or a business account?\nCUSTOMER (1005713): @MicrosoftHelps Personal??\nCUSTOMER (1005714): @MicrosoftHelps I need a document of how about MS exchange 2010 to 2016 Migration .Can you help ASAP?\nMICROSOFT (1005715): @358047 Thanks for the reply. To find out more about MS exchange 2010 to 2016 Migration, please go to this link: https://t.co/2Yogr6GXzH.\nCUSTOMER (1005716): @MicrosoftHelps Thanks alot\nMICROSOFT (1005717): @358047 You're welcome. Keep us in the loop on your progress. Feel free to send us another message if you need further help. Good day!\nMICROSOFT (1005718): @358047 Hi there. Checking back with you. Is everything good on your end? Feel free to send us a message if you need further help.\nMICROSOFT (1005719): @358047 Hello! We would like to improve our support. Please send us your feedback here: https://t.co/Hia9ejamRl. Have a great day!\nCUSTOMER (1005720): @MicrosoftHelps Sorry didn't begin the scenario yet.\nMICROSOFT (1005721): @358047 Thanks for the update. If you need further assistance, we're just a tweet away!",
+      "predicted_intent": "Product / Feature How-To",
+      "predicted_escalation": "ESCALATE_TO_HUMAN",
+      "predicted_escalation_reason": "Generated reply could not be grounded in historical evidence; human review is required.",
+      "retrieved_evidence": "{\"evidence_id\": \"2248690\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.598829, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Got an answer from an IRC channel already: yes, it's required. | @MicrosoftHelps do I need Desktop Experience on Server 2016 to install a WDS server?\"}\n{\"evidence_id\": \"2277739\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.486745, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Unable to direct message? Says 'Internal server error.'? | @MicrosoftHelps Hi, trying to auto configure a 365 email on Outlook 2016 but get get the error, An encrypted connection to your mail server is not avalilable. Click next to attempt using an unencrypted connection.  DNS is fine??\"}\n{\"evidence_id\": \"218823\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 5}, \"score\": 0.484717, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Its fine. I want to keep office 2016 anyway. Does the phone version of 365 have VBA or is that just for PC? | @MicrosoftHelps any chance that the so called help desk can answer this? | @MicrosoftHelps i dont want to call anyone. Just need to know if possible to have both on same laptop and same microsoft account. | @MicrosoftHelps hi, i have standalone professional plus 2016 on my laptop as a work package but want to install office 365 personal also. | @MicrosoftHelps ffs. is this an account that is meant to give support or not?\"}",
+      "generated_reply": "I apologize, but I do not have sufficient information in my current resources to confirm the domain controller requirements for installing Exchange Server 2016. Please contact Microsoft support directly for further assistance."
+    }
+  }
+}

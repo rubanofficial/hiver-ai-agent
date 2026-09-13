@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0189",
+  "input_fingerprint": "7b28547e160e72234e97e4fb09cbf8762aa0fd9eea90d6299d26727ef3be9c51",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:47:12+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0189",
+    "customer_message": "@MicrosoftHelps Bonjour, cet écran apparaît lorsque je clique sur enter pour sortir de l état de mise en veille de mon pc Hp avec win10 famille. j ai tout essayé. vous auriez une idée? merci https://t.co/CpTMIoNBpS",
+    "conversation_context": "MICROSOFT (2843302): @791021 Hello, Seb. We'd love to help. Can you translate your concern to English? In case you prefer France support, you can send a direct message at @5363.\nCUSTOMER (2843303): @MicrosoftHelps @5363 hi, all fixed! thanks to a lightning support from you both. Thanks again #microsoft",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "No evidence reached the confidence threshold for a safe autonomous reply (minimum 0.60); human review is required.",
+    "retrieved_evidence": "{\"evidence_id\": \"1610654\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.526943, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@115890 \\n@MicrosoftHelps | Ok, não tô usando nada que deixe o windows lagado e mesmo assim tá falando que 90% da cpu tá sendo usada\"}\n{\"evidence_id\": \"2411871\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 5}, \"score\": 0.52656, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps @11184 Thanks | @693388 @94183 @116230 No. He intentado ya eso actualizando todo. He visti unos 40 tutoriales y nada. Es el error de pasar de win8 a win10. Me compraré otro ordena en navidades y ya. Hasta el momento seguire con esta chatarra.\\n\\nGracias por la sugerencia 👍💪 | @MicrosoftHelps @11184 Ahora a rezar https://t.co/yfTa3kcPWn | @693387 @94183 @116230 Bro,  prueba a ir a administrador de dispositivos y actualizar el driver de la grafica,  aunque no te ponga que se te actualizo pu3de que se te resuelva por que es un error de windows | @94183 @116230 4 veces hoy... https://t.co/DFPR0SLy3L\"}\n{\"evidence_id\": \"2970107\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.518121, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"#Windows10 po ostat. aktuali. spowodował że komputer działa znacznie wolniej, co jakiś czas sam uruchamia w domyślnej przeglądarce  https://t.co/CsHzNG5naI, ping w LANie co którąś próbę ma ponad 300ms, zabił czytnik kart SD, Instagram stracił dostęp do internetu @MicrosoftHelps\"}",
+    "generated_reply": "Bonjour ! Nous sommes désolés d'apprendre que vous rencontrez ce problème avec votre PC HP sous Windows 10 lors de la sortie de veille. L'historique disponible ne nous permet pas de vous fournir une solution sûre pour ce cas précis. Nous vous invitons à contacter directement le support Microsoft pour obtenir de l'aide."
+  },
+  "raw_response": "{\n  \"correctness\": 4,\n  \"helpfulness\": 4,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 4,\n  \"evidence_support\": 5,\n  \"unsupported_claims\": 5,\n  \"evidence_relevance\": 2,\n  \"grounding_score\": 4,\n  \"reason\": \"The reply correctly identifies that the issue cannot be resolved with the low-confidence evidence available, appropriately advises contacting support, and is written clearly in French as requested by the context.\"\n}",
+  "result": {
+    "correctness": 4,
+    "helpfulness": 4,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 4,
+    "evidence_support": 5,
+    "unsupported_claims": 5,
+    "evidence_relevance": 2,
+    "grounding_score": 4,
+    "reason": "The reply correctly identifies that the issue cannot be resolved with the low-confidence evidence available, appropriately advises contacting support, and is written clearly in French as requested by the context.",
+    "overall_score": 4,
+    "short_reason": "The reply correctly identifies that the issue cannot be resolved with the low-confidence evidence available, appropriately advises contacting support, and is written clearly in French as requested by the context.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 4,
+      "helpfulness": 4,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 5,
+      "unsupported_claims": 5,
+      "evidence_relevance": 2
+    },
+    "golden_id": "GOLDEN-0189",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0189",
+      "customer_message": "@MicrosoftHelps Bonjour, cet écran apparaît lorsque je clique sur enter pour sortir de l état de mise en veille de mon pc Hp avec win10 famille. j ai tout essayé. vous auriez une idée? merci https://t.co/CpTMIoNBpS",
+      "conversation_context": "MICROSOFT (2843302): @791021 Hello, Seb. We'd love to help. Can you translate your concern to English? In case you prefer France support, you can send a direct message at @5363.\nCUSTOMER (2843303): @MicrosoftHelps @5363 hi, all fixed! thanks to a lightning support from you both. Thanks again #microsoft",
+      "predicted_intent": "Technical Troubleshooting",
+      "predicted_escalation": "ESCALATE_TO_HUMAN",
+      "predicted_escalation_reason": "No evidence reached the confidence threshold for a safe autonomous reply (minimum 0.60); human review is required.",
+      "retrieved_evidence": "{\"evidence_id\": \"1610654\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.526943, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@115890 \\n@MicrosoftHelps | Ok, não tô usando nada que deixe o windows lagado e mesmo assim tá falando que 90% da cpu tá sendo usada\"}\n{\"evidence_id\": \"2411871\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 5}, \"score\": 0.52656, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps @11184 Thanks | @693388 @94183 @116230 No. He intentado ya eso actualizando todo. He visti unos 40 tutoriales y nada. Es el error de pasar de win8 a win10. Me compraré otro ordena en navidades y ya. Hasta el momento seguire con esta chatarra.\\n\\nGracias por la sugerencia 👍💪 | @MicrosoftHelps @11184 Ahora a rezar https://t.co/yfTa3kcPWn | @693387 @94183 @116230 Bro,  prueba a ir a administrador de dispositivos y actualizar el driver de la grafica,  aunque no te ponga que se te actualizo pu3de que se te resuelva por que es un error de windows | @94183 @116230 4 veces hoy... https://t.co/DFPR0SLy3L\"}\n{\"evidence_id\": \"2970107\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.518121, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"#Windows10 po ostat. aktuali. spowodował że komputer działa znacznie wolniej, co jakiś czas sam uruchamia w domyślnej przeglądarce  https://t.co/CsHzNG5naI, ping w LANie co którąś próbę ma ponad 300ms, zabił czytnik kart SD, Instagram stracił dostęp do internetu @MicrosoftHelps\"}",
+      "generated_reply": "Bonjour ! Nous sommes désolés d'apprendre que vous rencontrez ce problème avec votre PC HP sous Windows 10 lors de la sortie de veille. L'historique disponible ne nous permet pas de vous fournir une solution sûre pour ce cas précis. Nous vous invitons à contacter directement le support Microsoft pour obtenir de l'aide."
+    }
+  }
+}

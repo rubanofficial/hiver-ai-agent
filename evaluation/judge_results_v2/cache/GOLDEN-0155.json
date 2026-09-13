@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0155",
+  "input_fingerprint": "7e41f75378a1e23b3396378b74845412bf07d8ef6fb58f3a758f3e8fda32da1a",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T11:42:12+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0155",
+    "customer_message": "@MicrosoftHelps Your latest major update has bogged down my boot up time ten fold. What gives??",
+    "conversation_context": "MICROSOFT (2157525): @633779 Hi. Glad you reached out. Just to clarify, which Windows version are you running? Are you getting any error messages?\nCUSTOMER (2157526): @MicrosoftHelps Win 10. No error messages but significantly slower boot up. Rolled back only to have update download and wait for installation again.",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"997887\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.781624, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"18 hours and no @MicrosoftHelps response to my #UpdateBootLoop problem.\"}\n{\"evidence_id\": \"984981\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.7316, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I got it sorted. Thanks for checking back. | // @MicrosoftHelps I’m having issues with a windows update. It’s been updating for 10 hours. What should I do?\"}\n{\"evidence_id\": \"2386516\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.72717, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps new update for windows 10 isn't working properly. Taking more than 10 min just to start.\"}",
+    "generated_reply": "Hello! Based on a similar case from our history where a Windows update caused slow startup times, a customer was able to get the issue sorted out. While we cannot guarantee the exact same result for your device, we recommend checking your system settings or reaching out to Microsoft Support if the slow boot times persist."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 4,\n  \"clarity\": 4,\n  \"escalation_appropriateness\": 4,\n  \"overall_reply_score\": 3,\n  \"evidence_support\": 2,\n  \"unsupported_claims\": 2,\n  \"evidence_relevance\": 3,\n  \"grounding_score\": 2,\n  \"reason\": \"The reply references a historical case vaguely without providing actual troubleshooting steps from the evidence, which only mentions that another customer got it sorted without details.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 4,
+    "clarity": 4,
+    "escalation_appropriateness": 4,
+    "overall_reply_score": 3,
+    "evidence_support": 2,
+    "unsupported_claims": 2,
+    "evidence_relevance": 3,
+    "grounding_score": 2,
+    "reason": "The reply references a historical case vaguely without providing actual troubleshooting steps from the evidence, which only mentions that another customer got it sorted without details.",
+    "overall_score": 3,
+    "short_reason": "The reply references a historical case vaguely without providing actual troubleshooting steps from the evidence, which only mentions that another customer got it sorted without details.",
+    "grounding_decision": "UNSUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 4,
+      "clarity": 4,
+      "escalation_appropriateness": 4
+    },
+    "evidence_grounding": {
+      "evidence_support": 2,
+      "unsupported_claims": 2,
+      "evidence_relevance": 3
+    },
+    "golden_id": "GOLDEN-0155",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0155",
+      "customer_message": "@MicrosoftHelps Your latest major update has bogged down my boot up time ten fold. What gives??",
+      "conversation_context": "MICROSOFT (2157525): @633779 Hi. Glad you reached out. Just to clarify, which Windows version are you running? Are you getting any error messages?\nCUSTOMER (2157526): @MicrosoftHelps Win 10. No error messages but significantly slower boot up. Rolled back only to have update download and wait for installation again.",
+      "predicted_intent": "Technical Troubleshooting",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"997887\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.781624, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"18 hours and no @MicrosoftHelps response to my #UpdateBootLoop problem.\"}\n{\"evidence_id\": \"984981\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.7316, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I got it sorted. Thanks for checking back. | // @MicrosoftHelps I’m having issues with a windows update. It’s been updating for 10 hours. What should I do?\"}\n{\"evidence_id\": \"2386516\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.72717, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps new update for windows 10 isn't working properly. Taking more than 10 min just to start.\"}",
+      "generated_reply": "Hello! Based on a similar case from our history where a Windows update caused slow startup times, a customer was able to get the issue sorted out. While we cannot guarantee the exact same result for your device, we recommend checking your system settings or reaching out to Microsoft Support if the slow boot times persist."
+    }
+  }
+}

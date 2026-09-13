@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0145",
+  "input_fingerprint": "d59030b886a97c4127349cb98727912a22428a17892b65924e6068da113b2400",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:43:07+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0145",
+    "customer_message": "I'm rapidly going to become one of those people that never updates their computer at this rate...",
+    "conversation_context": "MICROSOFT (2024275): @365539 We're here to help, Ben! Please send us a Direct Message for further assistance.\nCUSTOMER (2024276): @MicrosoftHelps Appreciated but it looks like many @213709 laptops are affected, so I'll probably have to wait for a fix from them?\nCUSTOMER (2024277): My last few graphics driver update attempts caused BSOD on boot, and the @116230 Fall Creator Update made my touchpad stop working! 😠",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "No evidence reached the confidence threshold for a safe autonomous reply (minimum 0.60); human review is required.",
+    "retrieved_evidence": "{\"evidence_id\": \"2031524\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.557763, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Microsoft Windows, making your work life harder one update at a time.\"}\n{\"evidence_id\": \"522039\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.534158, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \".@MicrosoftHelps Just spent a chunk of my life doing your stupid update. Now going to have to spend another chunk getting rid of things I don't want. I'm an adult, Let me use my computer as working adult.\"}\n{\"evidence_id\": \"610635\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.511767, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps after all these years have you not figured out how to update at night when I'm not in the middle of something? #Windows10\"}",
+    "generated_reply": "We are sorry to hear about your frustration with the update process. Since the provided information is insufficient to safely address your specific concern, please contact Microsoft support directly for further assistance."
+  },
+  "raw_response": "{\n  \"correctness\": 4,\n  \"helpfulness\": 4,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 4,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 5,\n  \"evidence_relevance\": 2,\n  \"grounding_score\": 3,\n  \"reason\": \"The reply appropriately identifies the need for human support due to insufficient evidence and handles the escalation safely, though the retrieved evidence was largely irrelevant social complaints.\"\n}",
+  "result": {
+    "correctness": 4,
+    "helpfulness": 4,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 4,
+    "evidence_support": 3,
+    "unsupported_claims": 5,
+    "evidence_relevance": 2,
+    "grounding_score": 3,
+    "reason": "The reply appropriately identifies the need for human support due to insufficient evidence and handles the escalation safely, though the retrieved evidence was largely irrelevant social complaints.",
+    "overall_score": 4,
+    "short_reason": "The reply appropriately identifies the need for human support due to insufficient evidence and handles the escalation safely, though the retrieved evidence was largely irrelevant social complaints.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 4,
+      "helpfulness": 4,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 5,
+      "evidence_relevance": 2
+    },
+    "golden_id": "GOLDEN-0145",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0145",
+      "customer_message": "I'm rapidly going to become one of those people that never updates their computer at this rate...",
+      "conversation_context": "MICROSOFT (2024275): @365539 We're here to help, Ben! Please send us a Direct Message for further assistance.\nCUSTOMER (2024276): @MicrosoftHelps Appreciated but it looks like many @213709 laptops are affected, so I'll probably have to wait for a fix from them?\nCUSTOMER (2024277): My last few graphics driver update attempts caused BSOD on boot, and the @116230 Fall Creator Update made my touchpad stop working! 😠",
+      "predicted_intent": "Technical Troubleshooting",
+      "predicted_escalation": "ESCALATE_TO_HUMAN",
+      "predicted_escalation_reason": "No evidence reached the confidence threshold for a safe autonomous reply (minimum 0.60); human review is required.",
+      "retrieved_evidence": "{\"evidence_id\": \"2031524\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.557763, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Microsoft Windows, making your work life harder one update at a time.\"}\n{\"evidence_id\": \"522039\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.534158, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \".@MicrosoftHelps Just spent a chunk of my life doing your stupid update. Now going to have to spend another chunk getting rid of things I don't want. I'm an adult, Let me use my computer as working adult.\"}\n{\"evidence_id\": \"610635\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.511767, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps after all these years have you not figured out how to update at night when I'm not in the middle of something? #Windows10\"}",
+      "generated_reply": "We are sorry to hear about your frustration with the update process. Since the provided information is insufficient to safely address your specific concern, please contact Microsoft support directly for further assistance."
+    }
+  }
+}

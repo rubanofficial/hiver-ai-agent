@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0091",
+  "input_fingerprint": "869846c8795ec9baa1d93a9dcfb2ea4ff9f216717680a790ef599066e57b105c",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-12T04:38:15+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0091",
+    "customer_message": "@MicrosoftHelps  Hello i would like to know if i can install and use for free Microsoft office on an Ipad Pro.",
+    "conversation_context": "MICROSOFT (1128633): @386056 Hi, Tilly! Were we able to resolve your issue? If so, please let us know about your experience here: https://t.co/bsPsswGRRG.",
+    "predicted_intent": "Product / Feature How-To",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"105755\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.618998, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"How to install the Microsoft Office software  (free for students) I'm stuck here @MicrosoftHelps https://t.co/E02BLnpbtP\"}\n{\"evidence_id\": \"1635674\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 3}, \"score\": 0.617346, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Thanks for responding.  I am using this version. https://t.co/OfgaCzI4LD | @MicrosoftHelps @122427 : When to expect drag/drop feature availability for MS Office for iPad Pro? Having to work on Keynote now!! | @MicrosoftHelps Not good enough. Was asking question.  Let it be. Will continue with Keynote.  Cheers\"}\n{\"evidence_id\": \"196640\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.565113, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps How to download the office 365 for free on my desktop ? , because my account is an educational account\"}",
+    "generated_reply": "Hello! Based on the available information regarding using Microsoft Office on an iPad Pro, this case requires further investigation to check your account entitlements and specific setup. Please contact Microsoft Support so they can look into your account details and provide the appropriate guidance for your device."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 4,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 3,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 4,\n  \"evidence_relevance\": 2,\n  \"grounding_score\": 3,\n  \"reason\": \"The retrieved evidence does not directly answer whether Office is free on an iPad Pro, so the agent appropriately recommends contacting support, though it lacks specific product guidance.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 4,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 3,
+    "evidence_support": 3,
+    "unsupported_claims": 4,
+    "evidence_relevance": 2,
+    "grounding_score": 3,
+    "reason": "The retrieved evidence does not directly answer whether Office is free on an iPad Pro, so the agent appropriately recommends contacting support, though it lacks specific product guidance.",
+    "overall_score": 3,
+    "short_reason": "The retrieved evidence does not directly answer whether Office is free on an iPad Pro, so the agent appropriately recommends contacting support, though it lacks specific product guidance.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 4,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 4,
+      "evidence_relevance": 2
+    },
+    "golden_id": "GOLDEN-0091",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0091",
+      "customer_message": "@MicrosoftHelps  Hello i would like to know if i can install and use for free Microsoft office on an Ipad Pro.",
+      "conversation_context": "MICROSOFT (1128633): @386056 Hi, Tilly! Were we able to resolve your issue? If so, please let us know about your experience here: https://t.co/bsPsswGRRG.",
+      "predicted_intent": "Product / Feature How-To",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"105755\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.618998, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"How to install the Microsoft Office software  (free for students) I'm stuck here @MicrosoftHelps https://t.co/E02BLnpbtP\"}\n{\"evidence_id\": \"1635674\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 3}, \"score\": 0.617346, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Thanks for responding.  I am using this version. https://t.co/OfgaCzI4LD | @MicrosoftHelps @122427 : When to expect drag/drop feature availability for MS Office for iPad Pro? Having to work on Keynote now!! | @MicrosoftHelps Not good enough. Was asking question.  Let it be. Will continue with Keynote.  Cheers\"}\n{\"evidence_id\": \"196640\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.565113, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps How to download the office 365 for free on my desktop ? , because my account is an educational account\"}",
+      "generated_reply": "Hello! Based on the available information regarding using Microsoft Office on an iPad Pro, this case requires further investigation to check your account entitlements and specific setup. Please contact Microsoft Support so they can look into your account details and provide the appropriate guidance for your device."
+    }
+  }
+}

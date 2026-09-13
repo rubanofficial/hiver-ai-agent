@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0182",
+  "input_fingerprint": "6b4202da3a5a34e679cac205254e0f1f8c3efa836a5e8b279a82ed56dbd18af2",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:45:44+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0182",
+    "customer_message": "@MicrosoftHelps My PC believes it's not Bluetooth capable after fall creator's update. Can't turn on; doesn't appear in Device Manager; Bluetooth troubleshooter says not capable. Worked fine up until now...",
+    "conversation_context": "MICROSOFT (2709644): @760884 Hi. Thank you for bringing this to our attention. To resolve this concern, we suggest to roll back to your previous version of Windows 10. Refer to this link: https://t.co/M5PXSCxrDu us know the result.\nCUSTOMER (2709645): @MicrosoftHelps Are there no plans of fixing this via update in the near future?",
+    "predicted_intent": "Network / Connectivity",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"2146287\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 4}, \"score\": 0.751145, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Managed to resolve the issue this morning. | @116230 Yes, I am. Been in touch with Microsoft via Facebook, but they can't fix the problem. | @630940 We wanted to check in. Are you still experiencing this at the moment? We’re here to help if you need us. | @116230 after waiting over an hour for the fall update to install, Bluetooth is now no longer available for use, why? I need this to work.\"}\n{\"evidence_id\": \"2049224\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.702268, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps  i cannot turn my bluetooth on, please im losing my mind https://t.co/EgtY9CLdal\"}\n{\"evidence_id\": \"1107012\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.595683, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Please let me know when you guys can offer a real solution. | @123127 Having many issues on #SurfacePro after #fallcreatorsupdate. Dead Windows Hello, dropped WiFI and now #BlueScreenOfDeath\"}",
+    "generated_reply": "We are aware that some users are experiencing Bluetooth issues after the fall update. Since the provided information is insufficient to resolve this specific hardware detection issue, we recommend contacting Microsoft support directly for further assistance."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 4,\n  \"clarity\": 4,\n  \"escalation_appropriateness\": 4,\n  \"overall_reply_score\": 3,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 3,\n  \"evidence_relevance\": 3,\n  \"grounding_score\": 3,\n  \"reason\": \"The reply correctly acknowledges the issue and recommends contacting support since it's a hardware/update conflict, but the conversation context in the prompt actually showed an agent suggesting a rollback link earlier. The reply is professional and clear, though moderately grounded in the retrieved tweets.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 4,
+    "clarity": 4,
+    "escalation_appropriateness": 4,
+    "overall_reply_score": 3,
+    "evidence_support": 3,
+    "unsupported_claims": 3,
+    "evidence_relevance": 3,
+    "grounding_score": 3,
+    "reason": "The reply correctly acknowledges the issue and recommends contacting support since it's a hardware/update conflict, but the conversation context in the prompt actually showed an agent suggesting a rollback link earlier. The reply is professional and clear, though moderately grounded in the retrieved tweets.",
+    "overall_score": 3,
+    "short_reason": "The reply correctly acknowledges the issue and recommends contacting support since it's a hardware/update conflict, but the conversation context in the prompt actually showed an agent suggesting a rollback link earlier. The reply is professional and clear, though moderately grounded in the retrieved tweets.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 4,
+      "clarity": 4,
+      "escalation_appropriateness": 4
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 3,
+      "evidence_relevance": 3
+    },
+    "golden_id": "GOLDEN-0182",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0182",
+      "customer_message": "@MicrosoftHelps My PC believes it's not Bluetooth capable after fall creator's update. Can't turn on; doesn't appear in Device Manager; Bluetooth troubleshooter says not capable. Worked fine up until now...",
+      "conversation_context": "MICROSOFT (2709644): @760884 Hi. Thank you for bringing this to our attention. To resolve this concern, we suggest to roll back to your previous version of Windows 10. Refer to this link: https://t.co/M5PXSCxrDu us know the result.\nCUSTOMER (2709645): @MicrosoftHelps Are there no plans of fixing this via update in the near future?",
+      "predicted_intent": "Network / Connectivity",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"2146287\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 4}, \"score\": 0.751145, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Managed to resolve the issue this morning. | @116230 Yes, I am. Been in touch with Microsoft via Facebook, but they can't fix the problem. | @630940 We wanted to check in. Are you still experiencing this at the moment? We’re here to help if you need us. | @116230 after waiting over an hour for the fall update to install, Bluetooth is now no longer available for use, why? I need this to work.\"}\n{\"evidence_id\": \"2049224\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.702268, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps  i cannot turn my bluetooth on, please im losing my mind https://t.co/EgtY9CLdal\"}\n{\"evidence_id\": \"1107012\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.595683, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Please let me know when you guys can offer a real solution. | @123127 Having many issues on #SurfacePro after #fallcreatorsupdate. Dead Windows Hello, dropped WiFI and now #BlueScreenOfDeath\"}",
+      "generated_reply": "We are aware that some users are experiencing Bluetooth issues after the fall update. Since the provided information is insufficient to resolve this specific hardware detection issue, we recommend contacting Microsoft support directly for further assistance."
+    }
+  }
+}

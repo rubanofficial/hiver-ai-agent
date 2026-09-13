@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0111",
+  "input_fingerprint": "24d0dbee3079c29405fba3c00da13ca2d1240e18524fe8557060a4976958064e",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T11:24:18+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0111",
+    "customer_message": "@MicrosoftHelps so when will my Xbox be shipped I was one of the first to preorder when it got released for the Scorpio edition",
+    "conversation_context": "MICROSOFT (1452812): @457155 Hi! Let’s get help from our @XboxSupport team: https://t.co/mrzhNsKo8O to provide you an accurate answer to your concern.",
+    "predicted_intent": "Order / Delivery",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"1433153\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.881058, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I preordered my Xbox One X Scorpio Edition from Amazon and they are telling me they don’t know when it is released...\"}\n{\"evidence_id\": \"1716997\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.873717, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps When will the preordered Project Scorpio Xbox Ones ship?\"}\n{\"evidence_id\": \"1439263\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.841285, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Still don’t have a delivery date? | @MicrosoftHelps hi do you know when the Xbox One X Scorpio Edition is being delivered? Ive pre ordered it, does it get delivered on release?\"}",
+    "generated_reply": "Hello! Based on similar inquiries regarding the preordered Xbox One X Scorpio Edition, delivery dates and shipping schedules can vary depending on the retailer you placed your order with. We recommend checking directly with your retailer for the most up-to-date shipping status on your preorder."
+  },
+  "raw_response": "{\n  \"correctness\": 4,\n  \"helpfulness\": 4,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 4,\n  \"evidence_support\": 4,\n  \"unsupported_claims\": 4,\n  \"evidence_relevance\": 4,\n  \"grounding_score\": 4,\n  \"reason\": \"The reply directly addresses the customer's question about Xbox Scorpio shipping by advising them to check with their retailer, which aligns well with the context of similar inquiries in the evidence.\"\n}",
+  "result": {
+    "correctness": 4,
+    "helpfulness": 4,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 4,
+    "evidence_support": 4,
+    "unsupported_claims": 4,
+    "evidence_relevance": 4,
+    "grounding_score": 4,
+    "reason": "The reply directly addresses the customer's question about Xbox Scorpio shipping by advising them to check with their retailer, which aligns well with the context of similar inquiries in the evidence.",
+    "overall_score": 4,
+    "short_reason": "The reply directly addresses the customer's question about Xbox Scorpio shipping by advising them to check with their retailer, which aligns well with the context of similar inquiries in the evidence.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 4,
+      "helpfulness": 4,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 4,
+      "unsupported_claims": 4,
+      "evidence_relevance": 4
+    },
+    "golden_id": "GOLDEN-0111",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0111",
+      "customer_message": "@MicrosoftHelps so when will my Xbox be shipped I was one of the first to preorder when it got released for the Scorpio edition",
+      "conversation_context": "MICROSOFT (1452812): @457155 Hi! Let’s get help from our @XboxSupport team: https://t.co/mrzhNsKo8O to provide you an accurate answer to your concern.",
+      "predicted_intent": "Order / Delivery",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"1433153\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.881058, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I preordered my Xbox One X Scorpio Edition from Amazon and they are telling me they don’t know when it is released...\"}\n{\"evidence_id\": \"1716997\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.873717, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps When will the preordered Project Scorpio Xbox Ones ship?\"}\n{\"evidence_id\": \"1439263\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.841285, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Still don’t have a delivery date? | @MicrosoftHelps hi do you know when the Xbox One X Scorpio Edition is being delivered? Ive pre ordered it, does it get delivered on release?\"}",
+      "generated_reply": "Hello! Based on similar inquiries regarding the preordered Xbox One X Scorpio Edition, delivery dates and shipping schedules can vary depending on the retailer you placed your order with. We recommend checking directly with your retailer for the most up-to-date shipping status on your preorder."
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0087",
+  "input_fingerprint": "c5d6f9582b28e050e088849d2a9f595d2285df87e2eff15f719eeeb0602d1bfb",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:37:16+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0087",
+    "customer_message": "Love the new Windows 10 update @115890 https://t.co/Gci28599Rz",
+    "conversation_context": "MICROSOFT (1096404): @378727 Hello! Just to clarify, are you still stuck at “Restoring your previous version of Windows” screen?",
+    "predicted_intent": "Complaint / Feedback",
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+    "retrieved_evidence": "{\"evidence_id\": \"1496891\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.765142, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Just love a windows 10 update.... #HowLong\"}\n{\"evidence_id\": \"2222483\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.739241, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Microsoft's big new Windows 10 update rolls out today; here's what's new https://t.co/YWgVJ8JC2U\"}\n{\"evidence_id\": \"2658533\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.739035, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Update finally finished.  There are some great new features. | This #windows10 update is taking much longer than I expected.\"}",
+    "generated_reply": "We appreciate you sharing your feedback about the Windows 10 update. If you need any assistance with the new features or encounter any issues, please let us know."
+  },
+  "raw_response": "{\n  \"correctness\": 5,\n  \"helpfulness\": 5,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 3,\n  \"overall_reply_score\": 4,\n  \"evidence_support\": 5,\n  \"unsupported_claims\": 5,\n  \"evidence_relevance\": 4,\n  \"grounding_score\": 5,\n  \"reason\": \"The reply appropriately acknowledges the customer's feedback and offers assistance, matching the context of a complaint/feedback tweet, though it glosses over the prior context regarding a potential installation hang.\"\n}",
+  "result": {
+    "correctness": 5,
+    "helpfulness": 5,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 3,
+    "overall_reply_score": 4,
+    "evidence_support": 5,
+    "unsupported_claims": 5,
+    "evidence_relevance": 4,
+    "grounding_score": 5,
+    "reason": "The reply appropriately acknowledges the customer's feedback and offers assistance, matching the context of a complaint/feedback tweet, though it glosses over the prior context regarding a potential installation hang.",
+    "overall_score": 4,
+    "short_reason": "The reply appropriately acknowledges the customer's feedback and offers assistance, matching the context of a complaint/feedback tweet, though it glosses over the prior context regarding a potential installation hang.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 5,
+      "helpfulness": 5,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 3
+    },
+    "evidence_grounding": {
+      "evidence_support": 5,
+      "unsupported_claims": 5,
+      "evidence_relevance": 4
+    },
+    "golden_id": "GOLDEN-0087",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0087",
+      "customer_message": "Love the new Windows 10 update @115890 https://t.co/Gci28599Rz",
+      "conversation_context": "MICROSOFT (1096404): @378727 Hello! Just to clarify, are you still stuck at “Restoring your previous version of Windows” screen?",
+      "predicted_intent": "Complaint / Feedback",
+      "predicted_escalation": "ESCALATE_TO_HUMAN",
+      "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+      "retrieved_evidence": "{\"evidence_id\": \"1496891\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.765142, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Just love a windows 10 update.... #HowLong\"}\n{\"evidence_id\": \"2222483\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.739241, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Microsoft's big new Windows 10 update rolls out today; here's what's new https://t.co/YWgVJ8JC2U\"}\n{\"evidence_id\": \"2658533\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.739035, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Update finally finished.  There are some great new features. | This #windows10 update is taking much longer than I expected.\"}",
+      "generated_reply": "We appreciate you sharing your feedback about the Windows 10 update. If you need any assistance with the new features or encounter any issues, please let us know."
+    }
+  }
+}

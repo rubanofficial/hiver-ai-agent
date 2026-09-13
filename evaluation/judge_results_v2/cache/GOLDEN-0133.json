@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0133",
+  "input_fingerprint": "5b9b7770abd03e05a6a1568ea14db972f9d4b1fc4af72187091aab6225a040dd",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T11:26:04+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0133",
+    "customer_message": "@MicrosoftHelps @XboxSupport i dont know what happened, but after the update, i cant seem to access my pins? is it bugged? https://t.co/85V00ozxse",
+    "conversation_context": "MICROSOFT (1855703): @555100 Hi there. We suggest contacting our technical support team regarding the concern. Contact them here: https://t.co/lHf0WIb2GU. https://t.co/3qcAsLFkaY",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"1609622\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 2}, \"score\": 0.670591, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps @115890 b4 feature update i was using pin to login in to pc. But after update it shows. Not supported. 2/2 https://t.co/p3GoG9toTk | @MicrosoftHelps ThankYou for addressing. But i just resolved the problem. 👍\"}\n{\"evidence_id\": \"1857956\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.621767, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Screw it. Nothing is working. Rolling it back to previous version in hopes that works. | @MicrosoftHelps But they are in Store, after I opened it with Search. But \\\"Pin to Start\\\" is greyed out. https://t.co/A0FRC6yqOf\"}\n{\"evidence_id\": \"2163734\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 1}, \"score\": 0.610219, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Oh yes i have tried everything that XBOX support told me to do and its still not fixed\"}",
+    "generated_reply": "We see you are having trouble accessing your pins after an update, and since previous troubleshooting steps have not resolved the issue, this case requires further investigation through an account entitlement and system check with Microsoft Support."
+  },
+  "raw_response": "{\n  \"correctness\": 4,\n  \"helpfulness\": 4,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 4,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 3,\n  \"evidence_relevance\": 4,\n  \"grounding_score\": 3,\n  \"reason\": \"The reply addresses the user's issue with accessing pins after an update and appropriately suggests contacting support, but introduces specific details about an account entitlement and system check that are not explicitly present in the retrieved evidence.\"\n}",
+  "result": {
+    "correctness": 4,
+    "helpfulness": 4,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 4,
+    "evidence_support": 3,
+    "unsupported_claims": 3,
+    "evidence_relevance": 4,
+    "grounding_score": 3,
+    "reason": "The reply addresses the user's issue with accessing pins after an update and appropriately suggests contacting support, but introduces specific details about an account entitlement and system check that are not explicitly present in the retrieved evidence.",
+    "overall_score": 4,
+    "short_reason": "The reply addresses the user's issue with accessing pins after an update and appropriately suggests contacting support, but introduces specific details about an account entitlement and system check that are not explicitly present in the retrieved evidence.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 4,
+      "helpfulness": 4,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 3,
+      "evidence_relevance": 4
+    },
+    "golden_id": "GOLDEN-0133",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0133",
+      "customer_message": "@MicrosoftHelps @XboxSupport i dont know what happened, but after the update, i cant seem to access my pins? is it bugged? https://t.co/85V00ozxse",
+      "conversation_context": "MICROSOFT (1855703): @555100 Hi there. We suggest contacting our technical support team regarding the concern. Contact them here: https://t.co/lHf0WIb2GU. https://t.co/3qcAsLFkaY",
+      "predicted_intent": "Technical Troubleshooting",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"1609622\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 2}, \"score\": 0.670591, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps @115890 b4 feature update i was using pin to login in to pc. But after update it shows. Not supported. 2/2 https://t.co/p3GoG9toTk | @MicrosoftHelps ThankYou for addressing. But i just resolved the problem. 👍\"}\n{\"evidence_id\": \"1857956\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.621767, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Screw it. Nothing is working. Rolling it back to previous version in hopes that works. | @MicrosoftHelps But they are in Store, after I opened it with Search. But \\\"Pin to Start\\\" is greyed out. https://t.co/A0FRC6yqOf\"}\n{\"evidence_id\": \"2163734\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 1}, \"score\": 0.610219, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Oh yes i have tried everything that XBOX support told me to do and its still not fixed\"}",
+      "generated_reply": "We see you are having trouble accessing your pins after an update, and since previous troubleshooting steps have not resolved the issue, this case requires further investigation through an account entitlement and system check with Microsoft Support."
+    }
+  }
+}

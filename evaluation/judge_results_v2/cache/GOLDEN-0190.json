@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0190",
+  "input_fingerprint": "9d64cbaed3563418736f6ac3cddba49bb23bbec785e5fa6f71159a05ffb5aa09",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T11:44:15+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0190",
+    "customer_message": "Called #Microsoft #CustomerSupport - they can't help; they're having tech issues! Told me to call back in 3 hrs. If @115890 @MicrosoftHelps can't help w/THEIR issues, how in the HAYLE can they help me?? #badcustomerservice",
+    "conversation_context": "MICROSOFT (2855709): @686017 Hello. We're here to help ypu. For us to assist you, we invite you to send us a DM. We'll wait for your message.",
+    "predicted_intent": "Complaint / Feedback",
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+    "retrieved_evidence": "{\"evidence_id\": \"375020\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 2}, \"score\": 0.781535, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Actually managed to get in contact with someone but thank you!! | @MicrosoftHelps hi! can't find a number to call and really need to get an issue sorted tonight. help please!!\"}\n{\"evidence_id\": \"158315\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.757277, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"After being on the phone to #Microsoftgeneralsupport for over an hour they are still no help. I am so angry and will never ever be using them again! @123196 @MicrosoftHelps @115890 #worstservice\"}\n{\"evidence_id\": \"2353282\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.739383, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps @631226 I've tweeted you several times can you please address my issue. | @MicrosoftHelps I have been trying to follow up with Microsoft support on a ticket: 1402447076 but not getting any response. Can you please help me on this?.\"}",
+    "generated_reply": "We sincerely apologize for the frustration and the difficulty you experienced reaching our support team today. Based on similar cases, we recommend trying to reach out to us again via direct message or checking back shortly so we can properly assist you with your issue."
+  },
+  "raw_response": "{\n  \"correctness\": 4,\n  \"helpfulness\": 4,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 4,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 4,\n  \"evidence_relevance\": 3,\n  \"grounding_score\": 3,\n  \"reason\": \"The reply professionally addresses the complaint and suggests alternative contact methods, though the evidence is mostly anecdotal historical tweets rather than specific troubleshooting steps.\"\n}",
+  "result": {
+    "correctness": 4,
+    "helpfulness": 4,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 4,
+    "evidence_support": 3,
+    "unsupported_claims": 4,
+    "evidence_relevance": 3,
+    "grounding_score": 3,
+    "reason": "The reply professionally addresses the complaint and suggests alternative contact methods, though the evidence is mostly anecdotal historical tweets rather than specific troubleshooting steps.",
+    "overall_score": 4,
+    "short_reason": "The reply professionally addresses the complaint and suggests alternative contact methods, though the evidence is mostly anecdotal historical tweets rather than specific troubleshooting steps.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 4,
+      "helpfulness": 4,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 4,
+      "evidence_relevance": 3
+    },
+    "golden_id": "GOLDEN-0190",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0190",
+      "customer_message": "Called #Microsoft #CustomerSupport - they can't help; they're having tech issues! Told me to call back in 3 hrs. If @115890 @MicrosoftHelps can't help w/THEIR issues, how in the HAYLE can they help me?? #badcustomerservice",
+      "conversation_context": "MICROSOFT (2855709): @686017 Hello. We're here to help ypu. For us to assist you, we invite you to send us a DM. We'll wait for your message.",
+      "predicted_intent": "Complaint / Feedback",
+      "predicted_escalation": "ESCALATE_TO_HUMAN",
+      "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+      "retrieved_evidence": "{\"evidence_id\": \"375020\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 2}, \"score\": 0.781535, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Actually managed to get in contact with someone but thank you!! | @MicrosoftHelps hi! can't find a number to call and really need to get an issue sorted tonight. help please!!\"}\n{\"evidence_id\": \"158315\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.757277, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"After being on the phone to #Microsoftgeneralsupport for over an hour they are still no help. I am so angry and will never ever be using them again! @123196 @MicrosoftHelps @115890 #worstservice\"}\n{\"evidence_id\": \"2353282\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.739383, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps @631226 I've tweeted you several times can you please address my issue. | @MicrosoftHelps I have been trying to follow up with Microsoft support on a ticket: 1402447076 but not getting any response. Can you please help me on this?.\"}",
+      "generated_reply": "We sincerely apologize for the frustration and the difficulty you experienced reaching our support team today. Based on similar cases, we recommend trying to reach out to us again via direct message or checking back shortly so we can properly assist you with your issue."
+    }
+  }
+}

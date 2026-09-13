@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0180",
+  "input_fingerprint": "ebfe97152e990f4bc81ca40d92cf2e3500d780bc5344ab5516640d6b090785b3",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:45:39+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0180",
+    "customer_message": ".@MicrosoftHelps, if Windows Update supposedly updated my Adobe Flash on the 15th, why am I seeing this on the 19th? https://t.co/vltFvpbyD9",
+    "conversation_context": "MICROSOFT (2667842): @175963 Hi, Dahna. Help is here. Have you tried clicking on check for updates? https://t.co/3qcAsLFkaY",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"64990\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 4}, \"score\": 0.616355, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Will do, update takes place sometime soon, can’t remember what date I set it too though | @MicrosoftHelps I have set a time for my PC to update, going to leave my PC on all night for the update to happen | @MicrosoftHelps I’ll just wake up one morning and have 1703 installed with no issues hopefully :) | @MicrosoftHelps My PC is forcing me to update to 1703 from 1607 but I have defer updates on, why is it doing this? I can't click remind me tomorrow, and I have work to do. What do I do?\"}\n{\"evidence_id\": \"424923\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.566135, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps but why is this happening? https://t.co/BmqqnrEVMY | @MicrosoftHelps Hi. Which one is Fall Creators Updates? https://t.co/0LA7mrWmKI\"}\n{\"evidence_id\": \"1456198\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.544652, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Thanks! | Starting the attempt to install a routine update for Windows 10 at 1:10 pm local time.\"}",
+    "generated_reply": "I am sorry to hear you are experiencing issues with Adobe Flash after a recent update. Unfortunately, I cannot fully resolve this issue based on the available information. Please contact Microsoft support directly for further assistance."
+  },
+  "raw_response": "{\n  \"correctness\": 2,\n  \"helpfulness\": 2,\n  \"relevance\": 3,\n  \"clarity\": 4,\n  \"escalation_appropriateness\": 4,\n  \"overall_reply_score\": 2,\n  \"evidence_support\": 1,\n  \"unsupported_claims\": 2,\n  \"evidence_relevance\": 1,\n  \"grounding_score\": 1,\n  \"reason\": \"The reply correctly identifies that it cannot resolve the issue and suggests contacting support, but it lacks specific grounding in the provided evidence and prematurely deflects the user without attempting further troubleshooting.\"\n}",
+  "result": {
+    "correctness": 2,
+    "helpfulness": 2,
+    "relevance": 3,
+    "clarity": 4,
+    "escalation_appropriateness": 4,
+    "overall_reply_score": 2,
+    "evidence_support": 1,
+    "unsupported_claims": 2,
+    "evidence_relevance": 1,
+    "grounding_score": 1,
+    "reason": "The reply correctly identifies that it cannot resolve the issue and suggests contacting support, but it lacks specific grounding in the provided evidence and prematurely deflects the user without attempting further troubleshooting.",
+    "overall_score": 2,
+    "short_reason": "The reply correctly identifies that it cannot resolve the issue and suggests contacting support, but it lacks specific grounding in the provided evidence and prematurely deflects the user without attempting further troubleshooting.",
+    "grounding_decision": "UNSUPPORTED",
+    "reply_quality": {
+      "correctness": 2,
+      "helpfulness": 2,
+      "relevance": 3,
+      "clarity": 4,
+      "escalation_appropriateness": 4
+    },
+    "evidence_grounding": {
+      "evidence_support": 1,
+      "unsupported_claims": 2,
+      "evidence_relevance": 1
+    },
+    "golden_id": "GOLDEN-0180",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0180",
+      "customer_message": ".@MicrosoftHelps, if Windows Update supposedly updated my Adobe Flash on the 15th, why am I seeing this on the 19th? https://t.co/vltFvpbyD9",
+      "conversation_context": "MICROSOFT (2667842): @175963 Hi, Dahna. Help is here. Have you tried clicking on check for updates? https://t.co/3qcAsLFkaY",
+      "predicted_intent": "Technical Troubleshooting",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"64990\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 4}, \"score\": 0.616355, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Will do, update takes place sometime soon, can’t remember what date I set it too though | @MicrosoftHelps I have set a time for my PC to update, going to leave my PC on all night for the update to happen | @MicrosoftHelps I’ll just wake up one morning and have 1703 installed with no issues hopefully :) | @MicrosoftHelps My PC is forcing me to update to 1703 from 1607 but I have defer updates on, why is it doing this? I can't click remind me tomorrow, and I have work to do. What do I do?\"}\n{\"evidence_id\": \"424923\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.566135, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps but why is this happening? https://t.co/BmqqnrEVMY | @MicrosoftHelps Hi. Which one is Fall Creators Updates? https://t.co/0LA7mrWmKI\"}\n{\"evidence_id\": \"1456198\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.544652, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Thanks! | Starting the attempt to install a routine update for Windows 10 at 1:10 pm local time.\"}",
+      "generated_reply": "I am sorry to hear you are experiencing issues with Adobe Flash after a recent update. Unfortunately, I cannot fully resolve this issue based on the available information. Please contact Microsoft support directly for further assistance."
+    }
+  }
+}

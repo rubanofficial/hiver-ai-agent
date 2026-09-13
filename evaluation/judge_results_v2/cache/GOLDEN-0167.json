@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0167",
+  "input_fingerprint": "8b52c407e912ea5f9395c662deb58f3295ff7c139221e4a973f14da0afb40a24",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T11:43:03+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0167",
+    "customer_message": "@MicrosoftHelps When I send out emails to email addresses that don't exist, I want them to bounce back, but they are just disappearing. What can I do to change this? Thanks.",
+    "conversation_context": "MICROSOFT (2370402): @683993 Hi. We've responded to your Direct Message. Thank you.",
+    "predicted_intent": "Product / Feature How-To",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"1170870\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 4}, \"score\": 0.682384, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps none of my email addresses ending on https://t.co/Gu5SbTbvau\\rnot working | @MicrosoftHelps https://t.co/Gu5SbTbvau extension e-mail addresses what the problem is they don't work | @MicrosoftHelps I get this message:This Microsoft account does not exist. Enter a different account or create a new account | @MicrosoftHelps the middle of last month\"}\n{\"evidence_id\": \"2498624\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.675022, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps How can I ask for a delist if my emails are bouncing back from your support email?\"}\n{\"evidence_id\": \"1558142\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.663744, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps There hasnt been any changes recently | @MicrosoftHelps \\n\\nHello, i just tried to log in to my email and its says “email address does not exist” please help\"}",
+    "generated_reply": "Hello! Because the retrieved historical evidence does not contain a specific troubleshooting step or policy for emails disappearing instead of bouncing back when sent to non-existent addresses, this issue requires further investigation. Please contact Microsoft Support so an agent can check your account settings and mail flow configuration. Could you please provide your email provider details and any error logs or message tracking information if available?"
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 4,\n  \"relevance\": 4,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 4,\n  \"evidence_support\": 5,\n  \"unsupported_claims\": 5,\n  \"evidence_relevance\": 1,\n  \"grounding_score\": 3,\n  \"reason\": \"The retrieved evidence was not relevant to the user's specific mail flow issue, so the agent appropriately escalated the issue to human support while remaining clear and professional.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 4,
+    "relevance": 4,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 4,
+    "evidence_support": 5,
+    "unsupported_claims": 5,
+    "evidence_relevance": 1,
+    "grounding_score": 3,
+    "reason": "The retrieved evidence was not relevant to the user's specific mail flow issue, so the agent appropriately escalated the issue to human support while remaining clear and professional.",
+    "overall_score": 4,
+    "short_reason": "The retrieved evidence was not relevant to the user's specific mail flow issue, so the agent appropriately escalated the issue to human support while remaining clear and professional.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 4,
+      "relevance": 4,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 5,
+      "unsupported_claims": 5,
+      "evidence_relevance": 1
+    },
+    "golden_id": "GOLDEN-0167",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0167",
+      "customer_message": "@MicrosoftHelps When I send out emails to email addresses that don't exist, I want them to bounce back, but they are just disappearing. What can I do to change this? Thanks.",
+      "conversation_context": "MICROSOFT (2370402): @683993 Hi. We've responded to your Direct Message. Thank you.",
+      "predicted_intent": "Product / Feature How-To",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"1170870\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 4}, \"score\": 0.682384, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps none of my email addresses ending on https://t.co/Gu5SbTbvau\\rnot working | @MicrosoftHelps https://t.co/Gu5SbTbvau extension e-mail addresses what the problem is they don't work | @MicrosoftHelps I get this message:This Microsoft account does not exist. Enter a different account or create a new account | @MicrosoftHelps the middle of last month\"}\n{\"evidence_id\": \"2498624\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.675022, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps How can I ask for a delist if my emails are bouncing back from your support email?\"}\n{\"evidence_id\": \"1558142\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.663744, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps There hasnt been any changes recently | @MicrosoftHelps \\n\\nHello, i just tried to log in to my email and its says “email address does not exist” please help\"}",
+      "generated_reply": "Hello! Because the retrieved historical evidence does not contain a specific troubleshooting step or policy for emails disappearing instead of bouncing back when sent to non-existent addresses, this issue requires further investigation. Please contact Microsoft Support so an agent can check your account settings and mail flow configuration. Could you please provide your email provider details and any error logs or message tracking information if available?"
+    }
+  }
+}

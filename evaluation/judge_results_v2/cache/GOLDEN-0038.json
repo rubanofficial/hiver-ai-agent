@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0038",
+  "input_fingerprint": "1fd0399b6f37b8a191b6434df00e14a569fb5cdfd3291f0c304a80a5c7137382",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-12T04:33:06+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0038",
+    "customer_message": "@microsofthelps I can only get help between 9 AM and 6 PM? #helpdeskfail #officefail #frustrated",
+    "conversation_context": "MICROSOFT (456505): @223407 Hello! Allow us to help. Tell us more details about your concern.",
+    "predicted_intent": "Complaint / Feedback",
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+    "retrieved_evidence": "{\"evidence_id\": \"575299\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.650086, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Send help @MicrosoftHelps\"}\n{\"evidence_id\": \"46331\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 1}, \"score\": 0.620979, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Hello, I’m trying to get help with my defective Microsoft Office and online support staff are not helpful at all. Can you refer me to someone senior who can resolve my issues? Thank you\"}\n{\"evidence_id\": \"1496341\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 3}, \"score\": 0.602801, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps My office stopped working on an employee’s computer and I chatted for 4 hours yesterday with 4 or 5 people. No one could fix it. | @MicrosoftHelps The last person said they would email me today to try and fix it. He said it would take another 2-3 hours. Wasting a lot of time at work. | 3 hours of chatting with @MicrosoftHelps and they still haven’t fixed my Microsoft Office. Insane!\"}",
+    "generated_reply": "We are sorry to hear about your frustration with reaching support for Microsoft Office. Because this case requires further investigation into your specific support history and account details, please contact Microsoft Support directly so an agent can look into why your previous assistance took longer than expected and help resolve your Office issue."
+  },
+  "raw_response": "{\n  \"correctness\": 4,\n  \"helpfulness\": 4,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 4,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 3,\n  \"evidence_relevance\": 3,\n  \"grounding_score\": 3,\n  \"reason\": \"The reply appropriately addresses the user's frustration, advises contacting support directly, and handles the escalation properly. However, the retrieved evidence does not mention support hours specifically, leading to minor assumptions about support history not strictly found in the evidence snippets.\"\n}",
+  "result": {
+    "correctness": 4,
+    "helpfulness": 4,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 4,
+    "evidence_support": 3,
+    "unsupported_claims": 3,
+    "evidence_relevance": 3,
+    "grounding_score": 3,
+    "reason": "The reply appropriately addresses the user's frustration, advises contacting support directly, and handles the escalation properly. However, the retrieved evidence does not mention support hours specifically, leading to minor assumptions about support history not strictly found in the evidence snippets.",
+    "overall_score": 4,
+    "short_reason": "The reply appropriately addresses the user's frustration, advises contacting support directly, and handles the escalation properly. However, the retrieved evidence does not mention support hours specifically, leading to minor assumptions about support history not strictly found in the evidence snippets.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 4,
+      "helpfulness": 4,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 3,
+      "evidence_relevance": 3
+    },
+    "golden_id": "GOLDEN-0038",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0038",
+      "customer_message": "@microsofthelps I can only get help between 9 AM and 6 PM? #helpdeskfail #officefail #frustrated",
+      "conversation_context": "MICROSOFT (456505): @223407 Hello! Allow us to help. Tell us more details about your concern.",
+      "predicted_intent": "Complaint / Feedback",
+      "predicted_escalation": "ESCALATE_TO_HUMAN",
+      "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+      "retrieved_evidence": "{\"evidence_id\": \"575299\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.650086, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Send help @MicrosoftHelps\"}\n{\"evidence_id\": \"46331\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 1}, \"score\": 0.620979, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Hello, I’m trying to get help with my defective Microsoft Office and online support staff are not helpful at all. Can you refer me to someone senior who can resolve my issues? Thank you\"}\n{\"evidence_id\": \"1496341\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 3}, \"score\": 0.602801, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps My office stopped working on an employee’s computer and I chatted for 4 hours yesterday with 4 or 5 people. No one could fix it. | @MicrosoftHelps The last person said they would email me today to try and fix it. He said it would take another 2-3 hours. Wasting a lot of time at work. | 3 hours of chatting with @MicrosoftHelps and they still haven’t fixed my Microsoft Office. Insane!\"}",
+      "generated_reply": "We are sorry to hear about your frustration with reaching support for Microsoft Office. Because this case requires further investigation into your specific support history and account details, please contact Microsoft Support directly so an agent can look into why your previous assistance took longer than expected and help resolve your Office issue."
+    }
+  }
+}

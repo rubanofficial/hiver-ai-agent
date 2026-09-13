@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0120",
+  "input_fingerprint": "2f279c42ec6765ae96d9f67a97a43a6be2f9a565daf8fe8025ec22870fb62bb6",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T11:25:08+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0120",
+    "customer_message": "My @MicrosoftHelps OneDrive can’t read my iPhone .HEIC photos! Is there a fix for this?? I did all the updates and it’s not fixed",
+    "conversation_context": "MICROSOFT (1613412): @494966 As of now, our development team are still running some drills to isolate this issue. It’s best to send us a report using the link that we provided so that it will go directly to our development team. https://t.co/3qcAsLFkaY\nCUSTOMER (1613413): @MicrosoftHelps Ok I’ll post there. Thanks. Do you know if a fix is in the works?\nMICROSOFT (1613414): @494966 Hi, Katie. The file is not yet supported in OneDrive. We encourage you to post this is our feedback page: https://t.co/Q3pp1PXZxN. Tweet us back if you have other queries.",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "No evidence reached the confidence threshold for a safe autonomous reply (minimum 0.60); human review is required.",
+    "retrieved_evidence": "{\"evidence_id\": \"1793463\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.579278, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Did not work got to delete OneDrive folders and reinstall it frome ground for get it to work.\"}\n{\"evidence_id\": \"2055932\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.567847, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@116230 When is HEIC file support coming to the Photos app?\"}\n{\"evidence_id\": \"2276987\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.564721, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I used both on the website and on the app, the pictures didn’t show up on either, and there wasn’t any error messages :) | @115890 @MicrosoftHelps @130906 I have over 400 old pictures and videos saved to my one drive and I can only view them on my PC, when I log in from my phone it says I have 0 pictures or videos!? What's going on?????\"}",
+    "generated_reply": "Hello! I understand you are having trouble viewing your .HEIC photos on OneDrive even after updating. Based on previous troubleshooting steps, some users have found success by completely deleting their OneDrive folders and reinstalling the app from the ground up. If this does not resolve the issue, further investigation into your specific account and app sync status will be required. Please let us know if reinstalling helps!"
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 4,\n  \"clarity\": 4,\n  \"escalation_appropriateness\": 4,\n  \"overall_reply_score\": 3,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 3,\n  \"evidence_relevance\": 2,\n  \"grounding_score\": 3,\n  \"reason\": \"The reply suggests a troubleshooting step found in the retrieved evidence (reinstalling OneDrive), but the evidence relevance to HEIC specific issues is weak and historical context indicates HEIC support limitations.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 4,
+    "clarity": 4,
+    "escalation_appropriateness": 4,
+    "overall_reply_score": 3,
+    "evidence_support": 3,
+    "unsupported_claims": 3,
+    "evidence_relevance": 2,
+    "grounding_score": 3,
+    "reason": "The reply suggests a troubleshooting step found in the retrieved evidence (reinstalling OneDrive), but the evidence relevance to HEIC specific issues is weak and historical context indicates HEIC support limitations.",
+    "overall_score": 3,
+    "short_reason": "The reply suggests a troubleshooting step found in the retrieved evidence (reinstalling OneDrive), but the evidence relevance to HEIC specific issues is weak and historical context indicates HEIC support limitations.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 4,
+      "clarity": 4,
+      "escalation_appropriateness": 4
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 3,
+      "evidence_relevance": 2
+    },
+    "golden_id": "GOLDEN-0120",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0120",
+      "customer_message": "My @MicrosoftHelps OneDrive can’t read my iPhone .HEIC photos! Is there a fix for this?? I did all the updates and it’s not fixed",
+      "conversation_context": "MICROSOFT (1613412): @494966 As of now, our development team are still running some drills to isolate this issue. It’s best to send us a report using the link that we provided so that it will go directly to our development team. https://t.co/3qcAsLFkaY\nCUSTOMER (1613413): @MicrosoftHelps Ok I’ll post there. Thanks. Do you know if a fix is in the works?\nMICROSOFT (1613414): @494966 Hi, Katie. The file is not yet supported in OneDrive. We encourage you to post this is our feedback page: https://t.co/Q3pp1PXZxN. Tweet us back if you have other queries.",
+      "predicted_intent": "Technical Troubleshooting",
+      "predicted_escalation": "ESCALATE_TO_HUMAN",
+      "predicted_escalation_reason": "No evidence reached the confidence threshold for a safe autonomous reply (minimum 0.60); human review is required.",
+      "retrieved_evidence": "{\"evidence_id\": \"1793463\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.579278, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Did not work got to delete OneDrive folders and reinstall it frome ground for get it to work.\"}\n{\"evidence_id\": \"2055932\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.567847, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@116230 When is HEIC file support coming to the Photos app?\"}\n{\"evidence_id\": \"2276987\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.564721, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I used both on the website and on the app, the pictures didn’t show up on either, and there wasn’t any error messages :) | @115890 @MicrosoftHelps @130906 I have over 400 old pictures and videos saved to my one drive and I can only view them on my PC, when I log in from my phone it says I have 0 pictures or videos!? What's going on?????\"}",
+      "generated_reply": "Hello! I understand you are having trouble viewing your .HEIC photos on OneDrive even after updating. Based on previous troubleshooting steps, some users have found success by completely deleting their OneDrive folders and reinstalling the app from the ground up. If this does not resolve the issue, further investigation into your specific account and app sync status will be required. Please let us know if reinstalling helps!"
+    }
+  }
+}

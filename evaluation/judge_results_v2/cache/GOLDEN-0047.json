@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0047",
+  "input_fingerprint": "517670b0a9dae4116464a7a2ea9716a9821d4a5d07a317320c895571140230a9",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-12T04:33:21+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0047",
+    "customer_message": "@MicrosoftHelps seems like Insider Fast Build Excel Update 16.9.0 (17112806) is stuck in a do loop.  Has shown up as available, and I have installed, six times now starting yesterday through today. https://t.co/4KnUafUNTd",
+    "conversation_context": "MICROSOFT (517506): @239331 Hi, Matt. Let's get this resolved with the help of our Office support here: https://t.co/sBid6CK9Uq. Kindly secure a Service Request Number for reference.",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "No evidence reached the confidence threshold for a safe autonomous reply (minimum 0.60); human review is required.",
+    "retrieved_evidence": "{\"evidence_id\": \"153383\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 4}, \"score\": 0.578154, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Also, I’m not the only one on my team having these issues. So it is not an isolated incident. | @MicrosoftHelps No changes. It’s a brand new computer running Office 2016 and Windows 10. In terms of updates, it is up-to-date. These issues have made me check more frequently. | @122427 These days, Excel just behaves like a virus. Hogs all system resources and has to be forced to shut down. The risk of loss of work done is also high. Not sure why it has to be like this. \\n @MicrosoftHelps | @MicrosoftHelps Thanks for the link. So in your estimation, the Office needs to be repaired? Mind you, I’m not the only one having this issue. I will try it though and get back to you.\"}\n{\"evidence_id\": \"2542863\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.56286, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"So, yesterday, #Microsoft releases an #update for #Office365 which being a trusting fool, I duly install.  Today, magically, #Excel2016 #breaks continually!  So I am left scratching my end - which I suppose is better than cursing. But I am #angry  @115890 @MicrosoftHelps\"}\n{\"evidence_id\": \"1111198\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 6}, \"score\": 0.526225, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps  https://t.co/GU2OvyioWC | @116230 It has been stuck at 91% for over 36 hours. | @279491 Oh, no! Has it moved at all since then? A force-shutdown would be the easiest way to stop the update. | @116230 Yup. This happened when I was resetting my computer for the updates. I had set it down last night to finish and it's still stuck at 91% | @279491 Hi, Megan. We just wanted to check in. Are you still experiencing this at the moment? We're here to help if you need us. | Coming up on hour 9 of the @116230 update saga. I have lost all #Hope of ever regaining access. I'll have to wait until taxes for a new one https://t.co/uw3D1pLmoo\"}",
+    "generated_reply": "We understand you are experiencing issues with the Excel update loop. Since this requires further investigation regarding your specific update status and system configuration, please contact Microsoft Support so we can look into this for you."
+  },
+  "raw_response": "{\n  \"correctness\": 4,\n  \"helpfulness\": 4,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 4,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 4,\n  \"evidence_relevance\": 2,\n  \"grounding_score\": 3,\n  \"reason\": \"The reply appropriately identifies the update issue and correctly escalates to human support since retrieved evidence lacks specific troubleshooting steps for the Excel update loop.\"\n}",
+  "result": {
+    "correctness": 4,
+    "helpfulness": 4,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 4,
+    "evidence_support": 3,
+    "unsupported_claims": 4,
+    "evidence_relevance": 2,
+    "grounding_score": 3,
+    "reason": "The reply appropriately identifies the update issue and correctly escalates to human support since retrieved evidence lacks specific troubleshooting steps for the Excel update loop.",
+    "overall_score": 4,
+    "short_reason": "The reply appropriately identifies the update issue and correctly escalates to human support since retrieved evidence lacks specific troubleshooting steps for the Excel update loop.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 4,
+      "helpfulness": 4,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 4,
+      "evidence_relevance": 2
+    },
+    "golden_id": "GOLDEN-0047",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0047",
+      "customer_message": "@MicrosoftHelps seems like Insider Fast Build Excel Update 16.9.0 (17112806) is stuck in a do loop.  Has shown up as available, and I have installed, six times now starting yesterday through today. https://t.co/4KnUafUNTd",
+      "conversation_context": "MICROSOFT (517506): @239331 Hi, Matt. Let's get this resolved with the help of our Office support here: https://t.co/sBid6CK9Uq. Kindly secure a Service Request Number for reference.",
+      "predicted_intent": "Technical Troubleshooting",
+      "predicted_escalation": "ESCALATE_TO_HUMAN",
+      "predicted_escalation_reason": "No evidence reached the confidence threshold for a safe autonomous reply (minimum 0.60); human review is required.",
+      "retrieved_evidence": "{\"evidence_id\": \"153383\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 4}, \"score\": 0.578154, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Also, I’m not the only one on my team having these issues. So it is not an isolated incident. | @MicrosoftHelps No changes. It’s a brand new computer running Office 2016 and Windows 10. In terms of updates, it is up-to-date. These issues have made me check more frequently. | @122427 These days, Excel just behaves like a virus. Hogs all system resources and has to be forced to shut down. The risk of loss of work done is also high. Not sure why it has to be like this. \\n @MicrosoftHelps | @MicrosoftHelps Thanks for the link. So in your estimation, the Office needs to be repaired? Mind you, I’m not the only one having this issue. I will try it though and get back to you.\"}\n{\"evidence_id\": \"2542863\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.56286, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"So, yesterday, #Microsoft releases an #update for #Office365 which being a trusting fool, I duly install.  Today, magically, #Excel2016 #breaks continually!  So I am left scratching my end - which I suppose is better than cursing. But I am #angry  @115890 @MicrosoftHelps\"}\n{\"evidence_id\": \"1111198\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 6}, \"score\": 0.526225, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps  https://t.co/GU2OvyioWC | @116230 It has been stuck at 91% for over 36 hours. | @279491 Oh, no! Has it moved at all since then? A force-shutdown would be the easiest way to stop the update. | @116230 Yup. This happened when I was resetting my computer for the updates. I had set it down last night to finish and it's still stuck at 91% | @279491 Hi, Megan. We just wanted to check in. Are you still experiencing this at the moment? We're here to help if you need us. | Coming up on hour 9 of the @116230 update saga. I have lost all #Hope of ever regaining access. I'll have to wait until taxes for a new one https://t.co/uw3D1pLmoo\"}",
+      "generated_reply": "We understand you are experiencing issues with the Excel update loop. Since this requires further investigation regarding your specific update status and system configuration, please contact Microsoft Support so we can look into this for you."
+    }
+  }
+}

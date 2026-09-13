@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0076",
+  "input_fingerprint": "b8aef5a42ce798f12623497009f5a0a8821bb4120c4423611f6a8afe9c3c5d2a",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:35:56+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0076",
+    "customer_message": "@MicrosoftHelps Hi Thankyou! I've managed to sort it out",
+    "conversation_context": "MICROSOFT (951583): @345742 You're welcome! Let us know if you need anything else.",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"1107629\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 1}, \"score\": 0.908455, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Thank you!\"}\n{\"evidence_id\": \"209286\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 1}, \"score\": 0.898426, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Thank you for the answer\"}\n{\"evidence_id\": \"2084741\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 1}, \"score\": 0.87866, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I figured it out thanks\"}",
+    "generated_reply": "You're welcome! I'm glad you were able to get that sorted out. If you need any further assistance in the future, feel free to reach out."
+  },
+  "raw_response": "{\n  \"correctness\": 5,\n  \"helpfulness\": 5,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 5,\n  \"evidence_support\": 5,\n  \"unsupported_claims\": 5,\n  \"evidence_relevance\": 5,\n  \"grounding_score\": 5,\n  \"reason\": \"The customer stated they managed to sort out their issue and thanked the support team. The generated reply appropriately acknowledges the resolution, maintains a polite and professional tone, and offers future assistance without making any unsupported claims.\"\n}",
+  "result": {
+    "correctness": 5,
+    "helpfulness": 5,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 5,
+    "evidence_support": 5,
+    "unsupported_claims": 5,
+    "evidence_relevance": 5,
+    "grounding_score": 5,
+    "reason": "The customer stated they managed to sort out their issue and thanked the support team. The generated reply appropriately acknowledges the resolution, maintains a polite and professional tone, and offers future assistance without making any unsupported claims.",
+    "overall_score": 5,
+    "short_reason": "The customer stated they managed to sort out their issue and thanked the support team. The generated reply appropriately acknowledges the resolution, maintains a polite and professional tone, and offers future assistance without making any unsupported claims.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 5,
+      "helpfulness": 5,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 5,
+      "unsupported_claims": 5,
+      "evidence_relevance": 5
+    },
+    "golden_id": "GOLDEN-0076",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0076",
+      "customer_message": "@MicrosoftHelps Hi Thankyou! I've managed to sort it out",
+      "conversation_context": "MICROSOFT (951583): @345742 You're welcome! Let us know if you need anything else.",
+      "predicted_intent": "Technical Troubleshooting",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"1107629\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 1}, \"score\": 0.908455, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Thank you!\"}\n{\"evidence_id\": \"209286\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 1}, \"score\": 0.898426, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Thank you for the answer\"}\n{\"evidence_id\": \"2084741\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 1}, \"score\": 0.87866, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I figured it out thanks\"}",
+      "generated_reply": "You're welcome! I'm glad you were able to get that sorted out. If you need any further assistance in the future, feel free to reach out."
+    }
+  }
+}

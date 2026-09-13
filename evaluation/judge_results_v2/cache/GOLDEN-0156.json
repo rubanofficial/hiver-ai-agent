@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0156",
+  "input_fingerprint": "8a48a0791d63e9b8ce8317d8578f84dee9e9cbd08976b24894c6042283e88afc",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T11:42:13+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0156",
+    "customer_message": "So far this WIN 10 migration install doing well on my laptop.",
+    "conversation_context": "MICROSOFT (2173337): @637317 Hi there! Don't hesitate to tweet us if you have questions or need our help. 👍 https://t.co/MUi8GkfeeP",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"2892495\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.639908, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Thanks - I'm still learning how to tailor Windows 10 to do what I need.  I appreciate the tip. | Late for work but have something I MUST do on my laptop before I go in - the same laptop that Windows 10 MUST update right now. *sigh*\"}\n{\"evidence_id\": \"2962470\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 2}, \"score\": 0.633528, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Cheers, that’s great 😃 | Laptop fixed, up &amp; running with a most excellent desktop too. #Windows10 👍 https://t.co/TZLFkTanKF\"}\n{\"evidence_id\": \"694257\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.632235, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Thanks. It's okay now. | 1 hr later... Win10 update on new laptop at 78%\\n\\n#saveme\"}",
+    "generated_reply": "Thanks for the update! We are glad to hear that the Windows 10 migration install is going well on your laptop. If you need any further assistance as you continue, please let us know."
+  },
+  "raw_response": "{\n  \"correctness\": 5,\n  \"helpfulness\": 5,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 5,\n  \"evidence_support\": 5,\n  \"unsupported_claims\": 5,\n  \"evidence_relevance\": 4,\n  \"grounding_score\": 5,\n  \"reason\": \"The reply accurately acknowledges the customer's positive update regarding the Windows 10 installation, maintains a helpful and professional tone, and offers further assistance appropriately without making unsupported claims.\"\n}",
+  "result": {
+    "correctness": 5,
+    "helpfulness": 5,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 5,
+    "evidence_support": 5,
+    "unsupported_claims": 5,
+    "evidence_relevance": 4,
+    "grounding_score": 5,
+    "reason": "The reply accurately acknowledges the customer's positive update regarding the Windows 10 installation, maintains a helpful and professional tone, and offers further assistance appropriately without making unsupported claims.",
+    "overall_score": 5,
+    "short_reason": "The reply accurately acknowledges the customer's positive update regarding the Windows 10 installation, maintains a helpful and professional tone, and offers further assistance appropriately without making unsupported claims.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 5,
+      "helpfulness": 5,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 5,
+      "unsupported_claims": 5,
+      "evidence_relevance": 4
+    },
+    "golden_id": "GOLDEN-0156",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0156",
+      "customer_message": "So far this WIN 10 migration install doing well on my laptop.",
+      "conversation_context": "MICROSOFT (2173337): @637317 Hi there! Don't hesitate to tweet us if you have questions or need our help. 👍 https://t.co/MUi8GkfeeP",
+      "predicted_intent": "Technical Troubleshooting",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"2892495\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.639908, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Thanks - I'm still learning how to tailor Windows 10 to do what I need.  I appreciate the tip. | Late for work but have something I MUST do on my laptop before I go in - the same laptop that Windows 10 MUST update right now. *sigh*\"}\n{\"evidence_id\": \"2962470\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 2}, \"score\": 0.633528, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Cheers, that’s great 😃 | Laptop fixed, up &amp; running with a most excellent desktop too. #Windows10 👍 https://t.co/TZLFkTanKF\"}\n{\"evidence_id\": \"694257\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.632235, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Thanks. It's okay now. | 1 hr later... Win10 update on new laptop at 78%\\n\\n#saveme\"}",
+      "generated_reply": "Thanks for the update! We are glad to hear that the Windows 10 migration install is going well on your laptop. If you need any further assistance as you continue, please let us know."
+    }
+  }
+}

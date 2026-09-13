@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0146",
+  "input_fingerprint": "f6ee0f0d263e8eaae869bb5e1ebf8c7fd968967eeee03e1fe8dad327883908f0",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:43:09+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0146",
+    "customer_message": "@MicrosoftHelps Considering this, I assume I have the right to a refund, no? Not only you shut down Groove, you removed the track I PAID for https://t.co/3i9pZ0L9uZ",
+    "conversation_context": "MICROSOFT (2042611): @273979 Hi, David. We suggest contacting our technical support regarding this matter. Contact them here: https://t.co/6GiId7wH1J. https://t.co/3qcAsLFkaY\nCUSTOMER (2042612): @MicrosoftHelps Thank you. I've now contacted them and the issue was solved.",
+    "predicted_intent": "Billing & Payments",
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Intent 'Billing & Payments' is high-risk and requires human handling.",
+    "retrieved_evidence": "{\"evidence_id\": \"2446951\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 1}, \"score\": 0.634695, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps so can I be given credit for the music I payed for on Groove that is no longer available for download in the store? #pissed\"}\n{\"evidence_id\": \"826864\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 3}, \"score\": 0.623272, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Still waiting for any kind of response to this... | @MicrosoftHelps No error message, just only a 30 day trial. I've transferred my music using the in-app flow. I have disabled auto renew on my Groove sub. | @MicrosoftHelps I've never signed up for @115888 before but I'm not seeing the 60 day trial period the Groove shutdown is touting? Only 30.\"}\n{\"evidence_id\": \"680200\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 1}, \"score\": 0.594563, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@microsofthelps Used your DM and got refunded, thank you\"}",
+    "generated_reply": "I understand your frustration regarding your purchased track after the Groove shutdown. Based on our support options, please reach out to us via Direct Message so we can assist you with your refund request."
+  },
+  "raw_response": "{\n  \"correctness\": 4,\n  \"helpfulness\": 4,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 4,\n  \"evidence_support\": 4,\n  \"unsupported_claims\": 4,\n  \"evidence_relevance\": 4,\n  \"grounding_score\": 4,\n  \"reason\": \"The reply directly addresses the customer's refund request for a Groove purchase by offering assistance via DM, aligning with historical evidence where refunds were handled through DMs.\"\n}",
+  "result": {
+    "correctness": 4,
+    "helpfulness": 4,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 4,
+    "evidence_support": 4,
+    "unsupported_claims": 4,
+    "evidence_relevance": 4,
+    "grounding_score": 4,
+    "reason": "The reply directly addresses the customer's refund request for a Groove purchase by offering assistance via DM, aligning with historical evidence where refunds were handled through DMs.",
+    "overall_score": 4,
+    "short_reason": "The reply directly addresses the customer's refund request for a Groove purchase by offering assistance via DM, aligning with historical evidence where refunds were handled through DMs.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 4,
+      "helpfulness": 4,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 4,
+      "unsupported_claims": 4,
+      "evidence_relevance": 4
+    },
+    "golden_id": "GOLDEN-0146",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0146",
+      "customer_message": "@MicrosoftHelps Considering this, I assume I have the right to a refund, no? Not only you shut down Groove, you removed the track I PAID for https://t.co/3i9pZ0L9uZ",
+      "conversation_context": "MICROSOFT (2042611): @273979 Hi, David. We suggest contacting our technical support regarding this matter. Contact them here: https://t.co/6GiId7wH1J. https://t.co/3qcAsLFkaY\nCUSTOMER (2042612): @MicrosoftHelps Thank you. I've now contacted them and the issue was solved.",
+      "predicted_intent": "Billing & Payments",
+      "predicted_escalation": "ESCALATE_TO_HUMAN",
+      "predicted_escalation_reason": "Intent 'Billing & Payments' is high-risk and requires human handling.",
+      "retrieved_evidence": "{\"evidence_id\": \"2446951\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 1}, \"score\": 0.634695, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps so can I be given credit for the music I payed for on Groove that is no longer available for download in the store? #pissed\"}\n{\"evidence_id\": \"826864\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 3}, \"score\": 0.623272, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Still waiting for any kind of response to this... | @MicrosoftHelps No error message, just only a 30 day trial. I've transferred my music using the in-app flow. I have disabled auto renew on my Groove sub. | @MicrosoftHelps I've never signed up for @115888 before but I'm not seeing the 60 day trial period the Groove shutdown is touting? Only 30.\"}\n{\"evidence_id\": \"680200\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 1}, \"score\": 0.594563, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@microsofthelps Used your DM and got refunded, thank you\"}",
+      "generated_reply": "I understand your frustration regarding your purchased track after the Groove shutdown. Based on our support options, please reach out to us via Direct Message so we can assist you with your refund request."
+    }
+  }
+}

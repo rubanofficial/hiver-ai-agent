@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0210",
+  "input_fingerprint": "754cdad875372ac8aec496f1d2b893e8241a6547fed98a0660854d0ab895221f",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:05:50+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0210",
+    "customer_message": "On support chat with @MicrosoftHelps right now and was just told that you cant turn off auto renew for subscriptions on your console anymore. Wow, just wow. It holds your credit card hostage until you go to their site. This used to be an option on the console. Unacceptable. #scam",
+    "conversation_context": "MICROSOFT (477054): @228373 Hi there. We're here to help. Can you DM us the Service Request number from our support? Let us escalate your concern for more in-depth assistance. https://t.co/3qcAsLFkaY",
+    "predicted_intent": "Complaint / Feedback",
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+    "retrieved_evidence": "{\"evidence_id\": \"2208286\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 3}, \"score\": 0.732686, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I keep getting this result. It auto renewed this morning, but I don't need the service now. I was hoping to cancel it now and get refunded https://t.co/qxgUpXaIlU | @MicrosoftHelps @MicrosoftHelps can you help me cancel my EA Access subscription that auto renewed today? | @MicrosoftHelps Ok thanks for your help; I got my issue resolved. The customer service rep Stephanie was a great help via the chat\"}\n{\"evidence_id\": \"2658433\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.708567, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps my Xbox Live account auto renewed on an expired card and I didn’t want it to. I want to buy a one month for $1 subscription but can’t. Who can I talk to?\"}\n{\"evidence_id\": \"381798\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.693455, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Hey, I renewed my xbox live subscription but it appears to have gone through twice so I paid twice. Can I get som help\"}",
+    "generated_reply": "We understand your frustration regarding managing auto-renewal settings for your subscriptions. Based on similar cases, customers who needed help with subscription cancellations and renewals found assistance by connecting with our support team via chat, where a representative was able to help resolve their issues."
+  },
+  "raw_response": "{\n  \"correctness\": 4,\n  \"helpfulness\": 4,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 4,\n  \"evidence_support\": 5,\n  \"unsupported_claims\": 5,\n  \"evidence_relevance\": 4,\n  \"grounding_score\": 5,\n  \"reason\": \"The reply directly addresses the customer's frustration, remains polite and clear, and appropriately suggests connecting with support as seen in the historical evidence without making unsupported policy claims.\"\n}",
+  "result": {
+    "correctness": 4,
+    "helpfulness": 4,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 4,
+    "evidence_support": 5,
+    "unsupported_claims": 5,
+    "evidence_relevance": 4,
+    "grounding_score": 5,
+    "reason": "The reply directly addresses the customer's frustration, remains polite and clear, and appropriately suggests connecting with support as seen in the historical evidence without making unsupported policy claims.",
+    "overall_score": 4,
+    "short_reason": "The reply directly addresses the customer's frustration, remains polite and clear, and appropriately suggests connecting with support as seen in the historical evidence without making unsupported policy claims.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 4,
+      "helpfulness": 4,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 5,
+      "unsupported_claims": 5,
+      "evidence_relevance": 4
+    },
+    "golden_id": "GOLDEN-0210",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0210",
+      "customer_message": "On support chat with @MicrosoftHelps right now and was just told that you cant turn off auto renew for subscriptions on your console anymore. Wow, just wow. It holds your credit card hostage until you go to their site. This used to be an option on the console. Unacceptable. #scam",
+      "conversation_context": "MICROSOFT (477054): @228373 Hi there. We're here to help. Can you DM us the Service Request number from our support? Let us escalate your concern for more in-depth assistance. https://t.co/3qcAsLFkaY",
+      "predicted_intent": "Complaint / Feedback",
+      "predicted_escalation": "ESCALATE_TO_HUMAN",
+      "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+      "retrieved_evidence": "{\"evidence_id\": \"2208286\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 3}, \"score\": 0.732686, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I keep getting this result. It auto renewed this morning, but I don't need the service now. I was hoping to cancel it now and get refunded https://t.co/qxgUpXaIlU | @MicrosoftHelps @MicrosoftHelps can you help me cancel my EA Access subscription that auto renewed today? | @MicrosoftHelps Ok thanks for your help; I got my issue resolved. The customer service rep Stephanie was a great help via the chat\"}\n{\"evidence_id\": \"2658433\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.708567, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps my Xbox Live account auto renewed on an expired card and I didn’t want it to. I want to buy a one month for $1 subscription but can’t. Who can I talk to?\"}\n{\"evidence_id\": \"381798\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.693455, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Hey, I renewed my xbox live subscription but it appears to have gone through twice so I paid twice. Can I get som help\"}",
+      "generated_reply": "We understand your frustration regarding managing auto-renewal settings for your subscriptions. Based on similar cases, customers who needed help with subscription cancellations and renewals found assistance by connecting with our support team via chat, where a representative was able to help resolve their issues."
+    }
+  }
+}

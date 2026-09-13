@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0083",
+  "input_fingerprint": "1fdf1fb21de24c771e9358909299b15b49f4a0b3b002f462188959f6d73607ad",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-12T04:38:03+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0083",
+    "customer_message": "@MicrosoftHelps Yes I did. How do I look up the case numbers?",
+    "conversation_context": "OTHER (1052996): @359278 That's strange! Can you DM us a screenshot of the email so we can direct you to the correct team to reach out to? ^AK\nCUSTOMER (1052997): @MicrosoftHelps How do I check the case number, like what they wanted? @XboxSupport  maybe you guys know too?\nMICROSOFT (1052998): @359278 Hi, Tara. Did you receive an email with a case number from our support?\nCUSTOMER (1052999): @MicrosoftHelps I keep getting satisfaction survey emails, but I haven’t contacted Microsoft support. Said I contacted on 10/11 &amp; I didn’t.",
+    "predicted_intent": "Product / Feature How-To",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"2243861\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 3}, \"score\": 0.648404, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps MICROSOFT windows customer support in the Phillipines does not help &amp; can’t access prior cases. Can you? | @MicrosoftHelps Not on Twitter. Please see my cases and call. | @MicrosoftHelps Yes\"}\n{\"evidence_id\": \"375020\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 2}, \"score\": 0.613289, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Actually managed to get in contact with someone but thank you!! | @MicrosoftHelps hi! can't find a number to call and really need to get an issue sorted tonight. help please!!\"}\n{\"evidence_id\": \"2738854\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.607848, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Thank you 😁 | What's your helpline number? @MicrosoftHelps https://t.co/ZRCxBxj0Lg\"}",
+    "generated_reply": "To look up your case numbers and check your prior cases, further investigation into your account entitlements is required. Please contact Microsoft Support so an agent can look up your order or case history."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 4,\n  \"clarity\": 4,\n  \"escalation_appropriateness\": 4,\n  \"overall_reply_score\": 3,\n  \"evidence_support\": 2,\n  \"unsupported_claims\": 2,\n  \"evidence_relevance\": 1,\n  \"grounding_score\": 2,\n  \"reason\": \"The reply suggests contacting Microsoft support to look up case history, which is reasonable, but the retrieved evidence is completely irrelevant and does not provide instructions on how a user can look up their own case numbers.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 4,
+    "clarity": 4,
+    "escalation_appropriateness": 4,
+    "overall_reply_score": 3,
+    "evidence_support": 2,
+    "unsupported_claims": 2,
+    "evidence_relevance": 1,
+    "grounding_score": 2,
+    "reason": "The reply suggests contacting Microsoft support to look up case history, which is reasonable, but the retrieved evidence is completely irrelevant and does not provide instructions on how a user can look up their own case numbers.",
+    "overall_score": 3,
+    "short_reason": "The reply suggests contacting Microsoft support to look up case history, which is reasonable, but the retrieved evidence is completely irrelevant and does not provide instructions on how a user can look up their own case numbers.",
+    "grounding_decision": "UNSUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 4,
+      "clarity": 4,
+      "escalation_appropriateness": 4
+    },
+    "evidence_grounding": {
+      "evidence_support": 2,
+      "unsupported_claims": 2,
+      "evidence_relevance": 1
+    },
+    "golden_id": "GOLDEN-0083",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0083",
+      "customer_message": "@MicrosoftHelps Yes I did. How do I look up the case numbers?",
+      "conversation_context": "OTHER (1052996): @359278 That's strange! Can you DM us a screenshot of the email so we can direct you to the correct team to reach out to? ^AK\nCUSTOMER (1052997): @MicrosoftHelps How do I check the case number, like what they wanted? @XboxSupport  maybe you guys know too?\nMICROSOFT (1052998): @359278 Hi, Tara. Did you receive an email with a case number from our support?\nCUSTOMER (1052999): @MicrosoftHelps I keep getting satisfaction survey emails, but I haven’t contacted Microsoft support. Said I contacted on 10/11 &amp; I didn’t.",
+      "predicted_intent": "Product / Feature How-To",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"2243861\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 3}, \"score\": 0.648404, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps MICROSOFT windows customer support in the Phillipines does not help &amp; can’t access prior cases. Can you? | @MicrosoftHelps Not on Twitter. Please see my cases and call. | @MicrosoftHelps Yes\"}\n{\"evidence_id\": \"375020\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 2}, \"score\": 0.613289, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Actually managed to get in contact with someone but thank you!! | @MicrosoftHelps hi! can't find a number to call and really need to get an issue sorted tonight. help please!!\"}\n{\"evidence_id\": \"2738854\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.607848, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Thank you 😁 | What's your helpline number? @MicrosoftHelps https://t.co/ZRCxBxj0Lg\"}",
+      "generated_reply": "To look up your case numbers and check your prior cases, further investigation into your account entitlements is required. Please contact Microsoft Support so an agent can look up your order or case history."
+    }
+  }
+}

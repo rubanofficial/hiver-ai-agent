@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0117",
+  "input_fingerprint": "87a04e67e157dc1b14d593dddeece9aaedcd611a38754f43fca5893da4c7bd13",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:39:33+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0117",
+    "customer_message": "@MicrosoftHelps  hi , my update has been stuck on 80% for a while .. any ideas how to fix it?",
+    "conversation_context": "MICROSOFT (1577872): @485982 2/2 https://t.co/35AaGL4FjE. Let us know how it turns out. https://t.co/3qcAsLFkaY\nCUSTOMER (1577873): @MicrosoftHelps its all good , got it to work thx",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"2375109\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.821702, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I keep getting prompted that my computer needs to update, but it will not update. It hangs at  \\\"Preparing your update 0%\\\" and was stuck there over-night for 8+hours.\"}\n{\"evidence_id\": \"1182046\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 4}, \"score\": 0.799191, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@116230 No, it always gets stuck at 40% and then can't continue and has to restore a previous version | @397974 Hello! Have you been able to get the update fully installed? We're checking in. | Update failed. Managed to get it up to 45% tho, usually it fails at 40%. Screw you Windows | @MicrosoftHelps Yeah, now it doesn't try to update at all. I click on update and restart and now it just restarts, doesnt attempt any update\"}\n{\"evidence_id\": \"699130\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 2}, \"score\": 0.787144, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps my Windows 10 update has been stuck at 23% for over an hour.  Troubleshooter didn't help.  Reboot didn't help. | @MicrosoftHelps My download speed is not great and the progress bar for the update was not moving. Fixed after a forced reboot. Thanks!\"}",
+    "generated_reply": "Hello! We see you are experiencing an issue with your update getting stuck. Since the historical evidence does not provide specific troubleshooting steps for an update stuck at 80%, we recommend contacting Microsoft support directly for further assistance."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 4,\n  \"evidence_support\": 5,\n  \"unsupported_claims\": 5,\n  \"evidence_relevance\": 2,\n  \"grounding_score\": 4,\n  \"reason\": \"The reply correctly identifies that the evidence lacks specific steps for an update stuck at 80% and appropriately suggests contacting support, maintaining high clarity and relevance.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 4,
+    "evidence_support": 5,
+    "unsupported_claims": 5,
+    "evidence_relevance": 2,
+    "grounding_score": 4,
+    "reason": "The reply correctly identifies that the evidence lacks specific steps for an update stuck at 80% and appropriately suggests contacting support, maintaining high clarity and relevance.",
+    "overall_score": 4,
+    "short_reason": "The reply correctly identifies that the evidence lacks specific steps for an update stuck at 80% and appropriately suggests contacting support, maintaining high clarity and relevance.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 5,
+      "unsupported_claims": 5,
+      "evidence_relevance": 2
+    },
+    "golden_id": "GOLDEN-0117",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0117",
+      "customer_message": "@MicrosoftHelps  hi , my update has been stuck on 80% for a while .. any ideas how to fix it?",
+      "conversation_context": "MICROSOFT (1577872): @485982 2/2 https://t.co/35AaGL4FjE. Let us know how it turns out. https://t.co/3qcAsLFkaY\nCUSTOMER (1577873): @MicrosoftHelps its all good , got it to work thx",
+      "predicted_intent": "Technical Troubleshooting",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"2375109\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.821702, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I keep getting prompted that my computer needs to update, but it will not update. It hangs at  \\\"Preparing your update 0%\\\" and was stuck there over-night for 8+hours.\"}\n{\"evidence_id\": \"1182046\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 4}, \"score\": 0.799191, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@116230 No, it always gets stuck at 40% and then can't continue and has to restore a previous version | @397974 Hello! Have you been able to get the update fully installed? We're checking in. | Update failed. Managed to get it up to 45% tho, usually it fails at 40%. Screw you Windows | @MicrosoftHelps Yeah, now it doesn't try to update at all. I click on update and restart and now it just restarts, doesnt attempt any update\"}\n{\"evidence_id\": \"699130\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 2}, \"score\": 0.787144, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps my Windows 10 update has been stuck at 23% for over an hour.  Troubleshooter didn't help.  Reboot didn't help. | @MicrosoftHelps My download speed is not great and the progress bar for the update was not moving. Fixed after a forced reboot. Thanks!\"}",
+      "generated_reply": "Hello! We see you are experiencing an issue with your update getting stuck. Since the historical evidence does not provide specific troubleshooting steps for an update stuck at 80%, we recommend contacting Microsoft support directly for further assistance."
+    }
+  }
+}

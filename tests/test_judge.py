@@ -42,13 +42,14 @@ VALID_RESULT = {
 # Synthetic data helpers
 # ---------------------------------------------------------------------------
 
-def prediction(gid, intent="Technical Troubleshooting", escalation=AH, reply="We can help.",
-               evidence=None):
+def prediction(gid, intent="Technical Troubleshooting", escalation=AH,
+               escalation_reason=None, reply="We can help.", evidence=None):
     return {
         "golden_id": gid,
         "predicted_intent": intent,
         "predicted_intent_confidence": 0.9,
         "predicted_escalation": escalation,
+        "predicted_escalation_reason": escalation_reason,
         "predicted_reply": reply,
         "retrieved_evidence": evidence if evidence is not None else [
             {"doc_id": "d1", "text": "Try a clean boot after the update."},
@@ -127,6 +128,8 @@ def _judged_result(gid, result=None):
         "customer_message": "My laptop will not start after the update.",
         "conversation_context": "MICROSOFT (1): How can we help?",
         "predicted_intent": "Technical Troubleshooting",
+        "predicted_escalation": "AUTO_HANDLE",
+        "predicted_escalation_reason": "",
         "retrieved_evidence": "doc: try a clean boot.",
         "generated_reply": "We can help.",
     }
@@ -272,6 +275,26 @@ class TestJudgeInput:
         # Even the golden_id is not sent to the model (only kept locally).
         assert "GOLDEN-0001" not in prompt
         assert "We can help." in prompt
+
+    def test_predicted_escalation_and_reason_in_input_and_prompt(self):
+        pred = prediction(
+            "GOLDEN-0001",
+            escalation="ESCALATE_TO_HUMAN",
+            escalation_reason="Billing dispute exceeds automated refund threshold.",
+        )
+        rec = record("GOLDEN-0001", msg="I was double charged.")
+        judge_input = J.build_judge_input(rec, pred)
+        assert judge_input["predicted_escalation"] == "ESCALATE_TO_HUMAN"
+        assert judge_input["predicted_escalation_reason"] == (
+            "Billing dispute exceeds automated refund threshold."
+        )
+
+        prompt = J.build_judge_prompt(judge_input)
+        assert "PREDICTED ESCALATION: ESCALATE_TO_HUMAN" in prompt
+        assert (
+            "PREDICTED ESCALATION REASON: Billing dispute exceeds automated refund threshold."
+            in prompt
+        )
 
     def test_missing_reply_raises(self):
         pred = prediction("GOLDEN-0001")
@@ -661,6 +684,10 @@ class TestRunJudge:
         assert "planned Gemini calls: 2" in result.stdout
 
     def test_cli_requires_gemini_api_key(self, judge_examples, tmp_path):
+        repo_root = str(Path(__file__).resolve().parent.parent)
+        env = {k: v for k, v in os.environ.items()}
+        env["GEMINI_API_KEY"] = ""
+        env["PYTHONPATH"] = repo_root
         result = subprocess.run(
             [sys.executable, "-m", "evaluation.run_judge",
              "--predictions", judge_examples["pred_path"],
@@ -669,10 +696,9 @@ class TestRunJudge:
              "--limit", "1",
              "--results-dir", str(tmp_path / "res"),
              "--human-review", str(tmp_path / "review.csv")],
-            cwd=str(Path(__file__).resolve().parent.parent),
+            cwd=str(tmp_path),
             capture_output=True, text=True, timeout=120,
-            env={k: v for k, v in os.environ.items()
-                 if k != "GEMINI_API_KEY"},
+            env=env,
         )
         assert result.returncode == 1
         assert "GEMINI_API_KEY is not set" in result.stderr

@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0215",
+  "input_fingerprint": "4556c0cb88ce0c08725680f6ac9b87d5fdf1515a39638e56ddbb5714aa783194",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:49:19+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0215",
+    "customer_message": "@microsofthelps your service on my recent order has been terrible.  My online order is stuck in no-man's land, saying it's \"shipped\", however label created status and \"ship date\" are 11/15.  it's no longer 11/15.  you guys gotta figure out your issues and call me back",
+    "conversation_context": "MICROSOFT (424742): @216084 Hi, Marc. We'd like this taken care of. To clear things out about your order, we suggest contacting Microsoft Store here: https://t.co/K6W9fZ2nJC. Let us know how it goes.",
+    "predicted_intent": "Order / Delivery",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"522024\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.702171, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@115890 @MicrosoftHelps | .@135958 my Xbox One S was supposed to be delivered today but it still hasn’t shipped?\"}\n{\"evidence_id\": \"2067219\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.676961, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Dear @MicrosoftHelps. My online order can't be processed &amp; chat/support not working on weekends? \\\"Offices closed\\\" #hellocustomerservice\"}\n{\"evidence_id\": \"607977\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.658012, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I still haven't received a call about a missing order\"}",
+    "generated_reply": "We apologize for the frustration with your order status. As we are unable to fully resolve this issue with the current information, please contact Microsoft support directly for further assistance."
+  },
+  "raw_response": "{\n  \"correctness\": 4,\n  \"helpfulness\": 4,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 4,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 4,\n  \"evidence_relevance\": 3,\n  \"grounding_score\": 3,\n  \"reason\": \"The reply is clear, professional, and appropriately directs the customer to support, but the provided evidence is sparse and general Twitter history rather than specific policy documents.\"\n}",
+  "result": {
+    "correctness": 4,
+    "helpfulness": 4,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 4,
+    "evidence_support": 3,
+    "unsupported_claims": 4,
+    "evidence_relevance": 3,
+    "grounding_score": 3,
+    "reason": "The reply is clear, professional, and appropriately directs the customer to support, but the provided evidence is sparse and general Twitter history rather than specific policy documents.",
+    "overall_score": 4,
+    "short_reason": "The reply is clear, professional, and appropriately directs the customer to support, but the provided evidence is sparse and general Twitter history rather than specific policy documents.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 4,
+      "helpfulness": 4,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 4,
+      "evidence_relevance": 3
+    },
+    "golden_id": "GOLDEN-0215",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0215",
+      "customer_message": "@microsofthelps your service on my recent order has been terrible.  My online order is stuck in no-man's land, saying it's \"shipped\", however label created status and \"ship date\" are 11/15.  it's no longer 11/15.  you guys gotta figure out your issues and call me back",
+      "conversation_context": "MICROSOFT (424742): @216084 Hi, Marc. We'd like this taken care of. To clear things out about your order, we suggest contacting Microsoft Store here: https://t.co/K6W9fZ2nJC. Let us know how it goes.",
+      "predicted_intent": "Order / Delivery",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"522024\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.702171, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@115890 @MicrosoftHelps | .@135958 my Xbox One S was supposed to be delivered today but it still hasn’t shipped?\"}\n{\"evidence_id\": \"2067219\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.676961, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Dear @MicrosoftHelps. My online order can't be processed &amp; chat/support not working on weekends? \\\"Offices closed\\\" #hellocustomerservice\"}\n{\"evidence_id\": \"607977\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.658012, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I still haven't received a call about a missing order\"}",
+      "generated_reply": "We apologize for the frustration with your order status. As we are unable to fully resolve this issue with the current information, please contact Microsoft support directly for further assistance."
+    }
+  }
+}

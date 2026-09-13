@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0212",
+  "input_fingerprint": "50f0a63210ffc6e10bf3958c353c55b301bb8b17ac5ed47784e27719e9428d3a",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:05:54+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0212",
+    "customer_message": "@MicrosoftHelps quite disappointed with the level of support I’ve received from OneDrive and Office 365. My OneDrive is just not working and no one from support teams seem to be able to help me. Where do I go from here? Should I cancel my subscription?",
+    "conversation_context": "MICROSOFT (1613002): @494914 1/2 Hi, Matt. We certainly want to get this taken care of. Were you able to obtain a service request number from our support",
+    "predicted_intent": "Complaint / Feedback",
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+    "retrieved_evidence": "{\"evidence_id\": \"2829247\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.75221, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Just been completely dropped by Live Chat @MicrosoftHelps . The guy couldn't help me after controlling my computer for 35 minutes. Told me he would pass me on to the OneDrive in-app support. Turns out they do not offer live support. So now I am still stuck!!\"}\n{\"evidence_id\": \"2104817\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 5}, \"score\": 0.73997, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps \\\"We are all good everything is running\\\" But it isn't :( | @MicrosoftHelps all your software just says Broken try later.  Can somebody help me speak to somebody human now who can help me? https://t.co/oZaSaoEXRc | @MicrosoftHelps Both | @MicrosoftHelps Still trying just to talk to someone.  But I do rather enjoy receiving the emails addressed Hey. https://t.co/e5Thy52kvc | @MicrosoftHelps Yes I have spoken to your customer care on the 03448002400 number.  They were unable to provide OneDrive support or connect me to a team that could help.\"}\n{\"evidence_id\": \"1620360\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.692807, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I bought an office365 subscription on June 28th because my precious one was expiring. Somehow my subscription was cancelled on July 25th | @MicrosoftHelps I have a problem with a subscription to Office365, can you help?\"}",
+    "generated_reply": "We are very sorry to hear about the frustration and difficulties you have experienced with OneDrive and Office 365 support. Based on similar cases where users faced challenges reaching the right support team for OneDrive issues, we recommend reaching out directly through the OneDrive in-app support or contacting Microsoft Support for further assistance with your subscription and technical concerns."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 4,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 4,\n  \"overall_reply_score\": 3,\n  \"evidence_support\": 2,\n  \"unsupported_claims\": 2,\n  \"evidence_relevance\": 2,\n  \"grounding_score\": 2,\n  \"reason\": \"The reply acknowledges the customer's frustration and suggests contacting OneDrive in-app support, but the retrieved evidence actually indicates that live support may not be offered there, making the guidance slightly misaligned with the historical context.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 4,
+    "clarity": 5,
+    "escalation_appropriateness": 4,
+    "overall_reply_score": 3,
+    "evidence_support": 2,
+    "unsupported_claims": 2,
+    "evidence_relevance": 2,
+    "grounding_score": 2,
+    "reason": "The reply acknowledges the customer's frustration and suggests contacting OneDrive in-app support, but the retrieved evidence actually indicates that live support may not be offered there, making the guidance slightly misaligned with the historical context.",
+    "overall_score": 3,
+    "short_reason": "The reply acknowledges the customer's frustration and suggests contacting OneDrive in-app support, but the retrieved evidence actually indicates that live support may not be offered there, making the guidance slightly misaligned with the historical context.",
+    "grounding_decision": "UNSUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 4,
+      "clarity": 5,
+      "escalation_appropriateness": 4
+    },
+    "evidence_grounding": {
+      "evidence_support": 2,
+      "unsupported_claims": 2,
+      "evidence_relevance": 2
+    },
+    "golden_id": "GOLDEN-0212",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0212",
+      "customer_message": "@MicrosoftHelps quite disappointed with the level of support I’ve received from OneDrive and Office 365. My OneDrive is just not working and no one from support teams seem to be able to help me. Where do I go from here? Should I cancel my subscription?",
+      "conversation_context": "MICROSOFT (1613002): @494914 1/2 Hi, Matt. We certainly want to get this taken care of. Were you able to obtain a service request number from our support",
+      "predicted_intent": "Complaint / Feedback",
+      "predicted_escalation": "ESCALATE_TO_HUMAN",
+      "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+      "retrieved_evidence": "{\"evidence_id\": \"2829247\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.75221, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Just been completely dropped by Live Chat @MicrosoftHelps . The guy couldn't help me after controlling my computer for 35 minutes. Told me he would pass me on to the OneDrive in-app support. Turns out they do not offer live support. So now I am still stuck!!\"}\n{\"evidence_id\": \"2104817\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 5}, \"score\": 0.73997, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps \\\"We are all good everything is running\\\" But it isn't :( | @MicrosoftHelps all your software just says Broken try later.  Can somebody help me speak to somebody human now who can help me? https://t.co/oZaSaoEXRc | @MicrosoftHelps Both | @MicrosoftHelps Still trying just to talk to someone.  But I do rather enjoy receiving the emails addressed Hey. https://t.co/e5Thy52kvc | @MicrosoftHelps Yes I have spoken to your customer care on the 03448002400 number.  They were unable to provide OneDrive support or connect me to a team that could help.\"}\n{\"evidence_id\": \"1620360\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.692807, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I bought an office365 subscription on June 28th because my precious one was expiring. Somehow my subscription was cancelled on July 25th | @MicrosoftHelps I have a problem with a subscription to Office365, can you help?\"}",
+      "generated_reply": "We are very sorry to hear about the frustration and difficulties you have experienced with OneDrive and Office 365 support. Based on similar cases where users faced challenges reaching the right support team for OneDrive issues, we recommend reaching out directly through the OneDrive in-app support or contacting Microsoft Support for further assistance with your subscription and technical concerns."
+    }
+  }
+}

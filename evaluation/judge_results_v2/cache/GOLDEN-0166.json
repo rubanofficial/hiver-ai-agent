@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0166",
+  "input_fingerprint": "ebe36782b6c6f82ab09bb91d932d80c2a640edd821ea7b7179605b8013658c23",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T11:42:30+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0166",
+    "customer_message": "@11446 @123127 I love this particular nib. Is there any way to buy just this one without having to buy the whole pack of other nibs? https://t.co/79WWGYdfJy",
+    "conversation_context": "MICROSOFT (2365596): @226860 Hi Shauna. Thank you for sharing what you love about our product. We love your idea on having the option to purchase a single nib. At the moment, we only have the Pen Tip Kit available for Surface Pens that need replacement tips. Just stay tuned for any updates.",
+    "predicted_intent": "Order / Delivery",
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Generated reply could not be grounded in historical evidence; human review is required.",
+    "retrieved_evidence": "{\"evidence_id\": \"712831\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.346904, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I bought it from https://t.co/cuVJab7ses in May of 2015\"}\n{\"evidence_id\": \"2557966\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.344365, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Can I purchase a replacement usb receiver for a natural 7000 keyboard?\"}\n{\"evidence_id\": \"1218696\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.330983, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@128786 do you have any surface stores in the uk, id like to get my surface pro 4 replaced or repaired. without having togo through mail\"}",
+    "generated_reply": "We apologize, but we do not have enough information to resolve this autonomously. We recommend contacting Microsoft Support directly for further assistance."
+  },
+  "raw_response": "{\n  \"correctness\": 2,\n  \"helpfulness\": 2,\n  \"relevance\": 3,\n  \"clarity\": 4,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 2,\n  \"evidence_support\": 1,\n  \"unsupported_claims\": 5,\n  \"evidence_relevance\": 1,\n  \"grounding_score\": 1,\n  \"reason\": \"The model correctly identified the need for escalation due to lack of relevant evidence, but the reply itself is a generic deflection rather than addressing the user's specific question about buying a single surface pen nib.\"\n}",
+  "result": {
+    "correctness": 2,
+    "helpfulness": 2,
+    "relevance": 3,
+    "clarity": 4,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 2,
+    "evidence_support": 1,
+    "unsupported_claims": 5,
+    "evidence_relevance": 1,
+    "grounding_score": 1,
+    "reason": "The model correctly identified the need for escalation due to lack of relevant evidence, but the reply itself is a generic deflection rather than addressing the user's specific question about buying a single surface pen nib.",
+    "overall_score": 2,
+    "short_reason": "The model correctly identified the need for escalation due to lack of relevant evidence, but the reply itself is a generic deflection rather than addressing the user's specific question about buying a single surface pen nib.",
+    "grounding_decision": "UNSUPPORTED",
+    "reply_quality": {
+      "correctness": 2,
+      "helpfulness": 2,
+      "relevance": 3,
+      "clarity": 4,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 1,
+      "unsupported_claims": 5,
+      "evidence_relevance": 1
+    },
+    "golden_id": "GOLDEN-0166",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0166",
+      "customer_message": "@11446 @123127 I love this particular nib. Is there any way to buy just this one without having to buy the whole pack of other nibs? https://t.co/79WWGYdfJy",
+      "conversation_context": "MICROSOFT (2365596): @226860 Hi Shauna. Thank you for sharing what you love about our product. We love your idea on having the option to purchase a single nib. At the moment, we only have the Pen Tip Kit available for Surface Pens that need replacement tips. Just stay tuned for any updates.",
+      "predicted_intent": "Order / Delivery",
+      "predicted_escalation": "ESCALATE_TO_HUMAN",
+      "predicted_escalation_reason": "Generated reply could not be grounded in historical evidence; human review is required.",
+      "retrieved_evidence": "{\"evidence_id\": \"712831\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.346904, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I bought it from https://t.co/cuVJab7ses in May of 2015\"}\n{\"evidence_id\": \"2557966\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.344365, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Can I purchase a replacement usb receiver for a natural 7000 keyboard?\"}\n{\"evidence_id\": \"1218696\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.330983, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@128786 do you have any surface stores in the uk, id like to get my surface pro 4 replaced or repaired. without having togo through mail\"}",
+      "generated_reply": "We apologize, but we do not have enough information to resolve this autonomously. We recommend contacting Microsoft Support directly for further assistance."
+    }
+  }
+}

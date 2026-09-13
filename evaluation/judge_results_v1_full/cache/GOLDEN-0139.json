@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0139",
+  "input_fingerprint": "b56a9c319d2fa9c513b47aa63f072db3e1d0bccfebcc7b0dccca6d4bce1eef25",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:41:32+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0139",
+    "customer_message": "@MicrosoftHelps I know how to update my phone and things. if I don't know, I won't do my computer science degree 😒 thank you for ur reply, but nothing help.",
+    "conversation_context": "MICROSOFT (1950042): @151781 Hi, Oshila! We want to know more. Are you getting an error message? When did the issue start? Have you tried any troubleshooting?\nCUSTOMER (1950043): @MicrosoftHelps nope. the problem is its has very low features, can't even go live. and app is too heavy. I think it's for 950, not other.\nCUSTOMER (1950044): what's the purpose of your #Windows10  mobile app @188 . its really really bad. #facebook #windowsphone @MicrosoftHelps @115890\nMICROSOFT (1950045): @151781 Got it. Let's check if there is a pending software update. Go to Settings&gt; Update and security&gt; Phone update&gt; Check for updates.",
+    "predicted_intent": "Complaint / Feedback",
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+    "retrieved_evidence": "{\"evidence_id\": \"1901646\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.633511, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps can you guys help me my computer won’t update\"}\n{\"evidence_id\": \"1028820\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.609748, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps please help I can't download what's app or update it\"}\n{\"evidence_id\": \"1549791\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.602349, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps hey, I need some help please\"}",
+    "generated_reply": "We apologize that the previous steps didn't resolve your issue. Since our provided information hasn't been helpful, we recommend contacting Microsoft support directly so a specialist can assist you further with your specific concern."
+  },
+  "raw_response": "{\n  \"correctness\": 5,\n  \"helpfulness\": 5,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 5,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 4,\n  \"evidence_relevance\": 2,\n  \"grounding_score\": 3,\n  \"reason\": \"The generated reply appropriately escalates to human support after the user states the troubleshooting steps didn't help. The retrieved evidence is only tangentially related to general support issues, but the agent's response is professional and correctly handles the complaint.\"\n}",
+  "result": {
+    "correctness": 5,
+    "helpfulness": 5,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 5,
+    "evidence_support": 3,
+    "unsupported_claims": 4,
+    "evidence_relevance": 2,
+    "grounding_score": 3,
+    "reason": "The generated reply appropriately escalates to human support after the user states the troubleshooting steps didn't help. The retrieved evidence is only tangentially related to general support issues, but the agent's response is professional and correctly handles the complaint.",
+    "overall_score": 5,
+    "short_reason": "The generated reply appropriately escalates to human support after the user states the troubleshooting steps didn't help. The retrieved evidence is only tangentially related to general support issues, but the agent's response is professional and correctly handles the complaint.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 5,
+      "helpfulness": 5,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 4,
+      "evidence_relevance": 2
+    },
+    "golden_id": "GOLDEN-0139",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0139",
+      "customer_message": "@MicrosoftHelps I know how to update my phone and things. if I don't know, I won't do my computer science degree 😒 thank you for ur reply, but nothing help.",
+      "conversation_context": "MICROSOFT (1950042): @151781 Hi, Oshila! We want to know more. Are you getting an error message? When did the issue start? Have you tried any troubleshooting?\nCUSTOMER (1950043): @MicrosoftHelps nope. the problem is its has very low features, can't even go live. and app is too heavy. I think it's for 950, not other.\nCUSTOMER (1950044): what's the purpose of your #Windows10  mobile app @188 . its really really bad. #facebook #windowsphone @MicrosoftHelps @115890\nMICROSOFT (1950045): @151781 Got it. Let's check if there is a pending software update. Go to Settings&gt; Update and security&gt; Phone update&gt; Check for updates.",
+      "predicted_intent": "Complaint / Feedback",
+      "predicted_escalation": "ESCALATE_TO_HUMAN",
+      "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+      "retrieved_evidence": "{\"evidence_id\": \"1901646\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.633511, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps can you guys help me my computer won’t update\"}\n{\"evidence_id\": \"1028820\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.609748, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps please help I can't download what's app or update it\"}\n{\"evidence_id\": \"1549791\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.602349, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps hey, I need some help please\"}",
+      "generated_reply": "We apologize that the previous steps didn't resolve your issue. Since our provided information hasn't been helpful, we recommend contacting Microsoft support directly so a specialist can assist you further with your specific concern."
+    }
+  }
+}

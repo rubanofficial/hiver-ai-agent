@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0151",
+  "input_fingerprint": "146cd8f5e207bea0cf15971fa173bc367050489381e6710894fdfebd17cbfe8a",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:43:18+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0151",
+    "customer_message": "@MicrosoftHelps @115888 stopped working on my Lumia 950 after the last update so I did a hard reset and the app still won't open",
+    "conversation_context": "MICROSOFT (2122620): @625323 Hi. Let's work on this. Do you experience the same issue on your other apps? Try to uninstall the app and then reinstall them back after 5 mins in case you haven't tried this yet.. Tweet us back if the issue persists.",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"54813\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.748535, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps None at all. Successfully ran the update and been having problems opening almost all apps since | What’s going on with the new update @116230 @MicrosoftHelps I’m unable to do/open anything! https://t.co/FFCyqKLRAp\"}\n{\"evidence_id\": \"236991\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 3}, \"score\": 0.673252, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Hi! Everything is working fine now. Maybe it was just a server problem. Thanks for your support! | @MicrosoftHelps @172447 I can't show or provide any Feedback. Reinstalling or resetting the app does not resolve the issue. Is there any solution for the problem? | @MicrosoftHelps @172447  Problem with Feedback Hub on my Lumia 950. App is always trying to load content, but nothing is displayed.\"}\n{\"evidence_id\": \"2201409\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.667617, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Can't seem to download any apps from @115890 app store on my @86616 T100H @116230. Shows \\\"Working.. .  .   .   .\\\" 💻\"}",
+    "generated_reply": "We are sorry to hear that you are experiencing issues opening apps on your Lumia 950 after the update. Since resetting the app does not resolve the issue, and the provided evidence is insufficient to fully troubleshoot this specific problem, please contact Microsoft support directly for further assistance."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 4,\n  \"clarity\": 4,\n  \"escalation_appropriateness\": 4,\n  \"overall_reply_score\": 3,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 3,\n  \"evidence_relevance\": 2,\n  \"grounding_score\": 3,\n  \"reason\": \"The reply correctly identifies the issue with the Lumia 950 after an update, but acknowledges limitations in the provided evidence and appropriately suggests contacting Microsoft support.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 4,
+    "clarity": 4,
+    "escalation_appropriateness": 4,
+    "overall_reply_score": 3,
+    "evidence_support": 3,
+    "unsupported_claims": 3,
+    "evidence_relevance": 2,
+    "grounding_score": 3,
+    "reason": "The reply correctly identifies the issue with the Lumia 950 after an update, but acknowledges limitations in the provided evidence and appropriately suggests contacting Microsoft support.",
+    "overall_score": 3,
+    "short_reason": "The reply correctly identifies the issue with the Lumia 950 after an update, but acknowledges limitations in the provided evidence and appropriately suggests contacting Microsoft support.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 4,
+      "clarity": 4,
+      "escalation_appropriateness": 4
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 3,
+      "evidence_relevance": 2
+    },
+    "golden_id": "GOLDEN-0151",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0151",
+      "customer_message": "@MicrosoftHelps @115888 stopped working on my Lumia 950 after the last update so I did a hard reset and the app still won't open",
+      "conversation_context": "MICROSOFT (2122620): @625323 Hi. Let's work on this. Do you experience the same issue on your other apps? Try to uninstall the app and then reinstall them back after 5 mins in case you haven't tried this yet.. Tweet us back if the issue persists.",
+      "predicted_intent": "Technical Troubleshooting",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"54813\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.748535, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps None at all. Successfully ran the update and been having problems opening almost all apps since | What’s going on with the new update @116230 @MicrosoftHelps I’m unable to do/open anything! https://t.co/FFCyqKLRAp\"}\n{\"evidence_id\": \"236991\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 3}, \"score\": 0.673252, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Hi! Everything is working fine now. Maybe it was just a server problem. Thanks for your support! | @MicrosoftHelps @172447 I can't show or provide any Feedback. Reinstalling or resetting the app does not resolve the issue. Is there any solution for the problem? | @MicrosoftHelps @172447  Problem with Feedback Hub on my Lumia 950. App is always trying to load content, but nothing is displayed.\"}\n{\"evidence_id\": \"2201409\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.667617, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Can't seem to download any apps from @115890 app store on my @86616 T100H @116230. Shows \\\"Working.. .  .   .   .\\\" 💻\"}",
+      "generated_reply": "We are sorry to hear that you are experiencing issues opening apps on your Lumia 950 after the update. Since resetting the app does not resolve the issue, and the provided evidence is insufficient to fully troubleshoot this specific problem, please contact Microsoft support directly for further assistance."
+    }
+  }
+}

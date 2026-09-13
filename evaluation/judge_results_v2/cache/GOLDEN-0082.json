@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0082",
+  "input_fingerprint": "e40332c4f0ad8df99a0be0191cbdd0c31aaf1613ee5abd67f323f2158ca4e254",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-12T04:36:31+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0082",
+    "customer_message": "@MicrosoftHelps it’s annoying to be putting the password in #OneNote every application’s upgrade; at least use fingerprint or face (future)",
+    "conversation_context": "MICROSOFT (1048565): @367812 Hi, William. We appreciate your feedback. For any suggestions, please post it here: https://t.co/zTkbR1pwnt.",
+    "predicted_intent": "Product / Feature How-To",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"1121098\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.66359, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Wonder if you can help, I getting this error when trying to sign into OneNote even though i already have a pin set up. https://t.co/RAVmkKBldf\"}\n{\"evidence_id\": \"1786685\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.64578, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps In the past you could insert a @123196.com Ms account. Now you need a @71440.com O365 Account. The first one won't be accepted | @MicrosoftHelps why do I need an O365 Account to open Onenote Free Edition on a Win 7 PC? An https://t.co/IKailTwHW1 Acc doesn`t work?\"}\n{\"evidence_id\": \"1350465\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.570915, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps great, can you follow me so that i can DM you? :) | @123196 is there a problem with @18795 web? I can't open OneNote, login gets stuck on a loop &amp; get this message @MicrosoftHelps https://t.co/toK1Kd5pGI\"}",
+    "generated_reply": "We understand it can be frustrating to repeatedly enter your password in OneNote after an application upgrade. Because the provided historical evidence does not contain a specific troubleshooting step or policy for biometric sign-in feature requests during upgrades, this case requires further investigation into your current account settings and application version. Please contact Microsoft Support so an agent can perform an account entitlement check and look into your sign-in configuration."
+  },
+  "raw_response": "{\n  \"correctness\": 2,\n  \"helpfulness\": 2,\n  \"relevance\": 3,\n  \"clarity\": 4,\n  \"escalation_appropriateness\": 2,\n  \"overall_reply_score\": 2,\n  \"evidence_support\": 2,\n  \"unsupported_claims\": 2,\n  \"evidence_relevance\": 1,\n  \"grounding_score\": 2,\n  \"reason\": \"The customer provided feedback and a feature request regarding biometric sign-in, but the agent incorrectly treated it as a complex technical issue requiring an account entitlement check and escalation, which is inappropriate for a simple feature feedback.\"\n}",
+  "result": {
+    "correctness": 2,
+    "helpfulness": 2,
+    "relevance": 3,
+    "clarity": 4,
+    "escalation_appropriateness": 2,
+    "overall_reply_score": 2,
+    "evidence_support": 2,
+    "unsupported_claims": 2,
+    "evidence_relevance": 1,
+    "grounding_score": 2,
+    "reason": "The customer provided feedback and a feature request regarding biometric sign-in, but the agent incorrectly treated it as a complex technical issue requiring an account entitlement check and escalation, which is inappropriate for a simple feature feedback.",
+    "overall_score": 2,
+    "short_reason": "The customer provided feedback and a feature request regarding biometric sign-in, but the agent incorrectly treated it as a complex technical issue requiring an account entitlement check and escalation, which is inappropriate for a simple feature feedback.",
+    "grounding_decision": "UNSUPPORTED",
+    "reply_quality": {
+      "correctness": 2,
+      "helpfulness": 2,
+      "relevance": 3,
+      "clarity": 4,
+      "escalation_appropriateness": 2
+    },
+    "evidence_grounding": {
+      "evidence_support": 2,
+      "unsupported_claims": 2,
+      "evidence_relevance": 1
+    },
+    "golden_id": "GOLDEN-0082",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0082",
+      "customer_message": "@MicrosoftHelps it’s annoying to be putting the password in #OneNote every application’s upgrade; at least use fingerprint or face (future)",
+      "conversation_context": "MICROSOFT (1048565): @367812 Hi, William. We appreciate your feedback. For any suggestions, please post it here: https://t.co/zTkbR1pwnt.",
+      "predicted_intent": "Product / Feature How-To",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"1121098\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.66359, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Wonder if you can help, I getting this error when trying to sign into OneNote even though i already have a pin set up. https://t.co/RAVmkKBldf\"}\n{\"evidence_id\": \"1786685\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.64578, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps In the past you could insert a @123196.com Ms account. Now you need a @71440.com O365 Account. The first one won't be accepted | @MicrosoftHelps why do I need an O365 Account to open Onenote Free Edition on a Win 7 PC? An https://t.co/IKailTwHW1 Acc doesn`t work?\"}\n{\"evidence_id\": \"1350465\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.570915, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps great, can you follow me so that i can DM you? :) | @123196 is there a problem with @18795 web? I can't open OneNote, login gets stuck on a loop &amp; get this message @MicrosoftHelps https://t.co/toK1Kd5pGI\"}",
+      "generated_reply": "We understand it can be frustrating to repeatedly enter your password in OneNote after an application upgrade. Because the provided historical evidence does not contain a specific troubleshooting step or policy for biometric sign-in feature requests during upgrades, this case requires further investigation into your current account settings and application version. Please contact Microsoft Support so an agent can perform an account entitlement check and look into your sign-in configuration."
+    }
+  }
+}

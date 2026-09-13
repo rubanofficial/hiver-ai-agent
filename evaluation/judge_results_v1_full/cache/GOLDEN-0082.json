@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0082",
+  "input_fingerprint": "c7722dd807b6aa9b55849234b881cf550201f03a13fab2a35688c7ddb8c417e1",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:37:07+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0082",
+    "customer_message": "@MicrosoftHelps it’s annoying to be putting the password in #OneNote every application’s upgrade; at least use fingerprint or face (future)",
+    "conversation_context": "MICROSOFT (1048565): @367812 Hi, William. We appreciate your feedback. For any suggestions, please post it here: https://t.co/zTkbR1pwnt.",
+    "predicted_intent": "Product / Feature How-To",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"1121098\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.66359, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Wonder if you can help, I getting this error when trying to sign into OneNote even though i already have a pin set up. https://t.co/RAVmkKBldf\"}\n{\"evidence_id\": \"1786685\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.64578, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps In the past you could insert a @123196.com Ms account. Now you need a @71440.com O365 Account. The first one won't be accepted | @MicrosoftHelps why do I need an O365 Account to open Onenote Free Edition on a Win 7 PC? An https://t.co/IKailTwHW1 Acc doesn`t work?\"}\n{\"evidence_id\": \"1350465\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.570915, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps great, can you follow me so that i can DM you? :) | @123196 is there a problem with @18795 web? I can't open OneNote, login gets stuck on a loop &amp; get this message @MicrosoftHelps https://t.co/toK1Kd5pGI\"}",
+    "generated_reply": "Hello! We understand how frustrating it can be to repeatedly enter your password in OneNote during updates. Unfortunately, the provided information is insufficient to fully resolve your feature request regarding fingerprint or face login. We recommend contacting Microsoft support directly for further assistance."
+  },
+  "raw_response": "{\n  \"correctness\": 2,\n  \"helpfulness\": 2,\n  \"relevance\": 3,\n  \"clarity\": 4,\n  \"escalation_appropriateness\": 3,\n  \"overall_reply_score\": 2,\n  \"evidence_support\": 1,\n  \"unsupported_claims\": 2,\n  \"evidence_relevance\": 1,\n  \"grounding_score\": 1,\n  \"reason\": \"The reply addresses a feature request as if it were a technical support issue, suggests contacting support for a feedback item, and awkwardly references 'insufficient information' based on irrelevant retrieved evidence.\"\n}",
+  "result": {
+    "correctness": 2,
+    "helpfulness": 2,
+    "relevance": 3,
+    "clarity": 4,
+    "escalation_appropriateness": 3,
+    "overall_reply_score": 2,
+    "evidence_support": 1,
+    "unsupported_claims": 2,
+    "evidence_relevance": 1,
+    "grounding_score": 1,
+    "reason": "The reply addresses a feature request as if it were a technical support issue, suggests contacting support for a feedback item, and awkwardly references 'insufficient information' based on irrelevant retrieved evidence.",
+    "overall_score": 2,
+    "short_reason": "The reply addresses a feature request as if it were a technical support issue, suggests contacting support for a feedback item, and awkwardly references 'insufficient information' based on irrelevant retrieved evidence.",
+    "grounding_decision": "UNSUPPORTED",
+    "reply_quality": {
+      "correctness": 2,
+      "helpfulness": 2,
+      "relevance": 3,
+      "clarity": 4,
+      "escalation_appropriateness": 3
+    },
+    "evidence_grounding": {
+      "evidence_support": 1,
+      "unsupported_claims": 2,
+      "evidence_relevance": 1
+    },
+    "golden_id": "GOLDEN-0082",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0082",
+      "customer_message": "@MicrosoftHelps it’s annoying to be putting the password in #OneNote every application’s upgrade; at least use fingerprint or face (future)",
+      "conversation_context": "MICROSOFT (1048565): @367812 Hi, William. We appreciate your feedback. For any suggestions, please post it here: https://t.co/zTkbR1pwnt.",
+      "predicted_intent": "Product / Feature How-To",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"1121098\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.66359, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Wonder if you can help, I getting this error when trying to sign into OneNote even though i already have a pin set up. https://t.co/RAVmkKBldf\"}\n{\"evidence_id\": \"1786685\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.64578, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps In the past you could insert a @123196.com Ms account. Now you need a @71440.com O365 Account. The first one won't be accepted | @MicrosoftHelps why do I need an O365 Account to open Onenote Free Edition on a Win 7 PC? An https://t.co/IKailTwHW1 Acc doesn`t work?\"}\n{\"evidence_id\": \"1350465\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.570915, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps great, can you follow me so that i can DM you? :) | @123196 is there a problem with @18795 web? I can't open OneNote, login gets stuck on a loop &amp; get this message @MicrosoftHelps https://t.co/toK1Kd5pGI\"}",
+      "generated_reply": "Hello! We understand how frustrating it can be to repeatedly enter your password in OneNote during updates. Unfortunately, the provided information is insufficient to fully resolve your feature request regarding fingerprint or face login. We recommend contacting Microsoft support directly for further assistance."
+    }
+  }
+}

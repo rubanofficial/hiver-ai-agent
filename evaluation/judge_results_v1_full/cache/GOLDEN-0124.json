@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0124",
+  "input_fingerprint": "9155b64993c63490018d7565a092cd706af491f3609ef53fa8952729dd894684",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:41:06+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0124",
+    "customer_message": "@MicrosoftHelps Fall Creators Update means Win10 RS3 RTM build?",
+    "conversation_context": "MICROSOFT (1730626): @522949 Hi, Pratap. Yes, the Fall Creators Update is Windows 10 Redstone 3 build. How can we assist you on this?",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"155913\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.675124, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"That Windows 10 Fall Creators Update is something else; isn't it?\"}\n{\"evidence_id\": \"847864\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.621082, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Windows 10 fall creators update done 🔥🔥🔥\"}\n{\"evidence_id\": \"424923\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.608314, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps but why is this happening? https://t.co/BmqqnrEVMY | @MicrosoftHelps Hi. Which one is Fall Creators Updates? https://t.co/0LA7mrWmKI\"}",
+    "generated_reply": "Hello! I am unable to fully confirm whether the Fall Creators Update corresponds to the Win10 RS3 RTM build based on the available information. Please contact Microsoft support directly for further assistance."
+  },
+  "raw_response": "{\n  \"correctness\": 2,\n  \"helpfulness\": 2,\n  \"relevance\": 3,\n  \"clarity\": 4,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 2,\n  \"evidence_support\": 2,\n  \"unsupported_claims\": 4,\n  \"evidence_relevance\": 1,\n  \"grounding_score\": 2,\n  \"reason\": \"The conversation context already confirmed that the Fall Creators Update is the Windows 10 Redstone 3 build, but the agent claimed it was unable to confirm this and recommended contacting support.\"\n}",
+  "result": {
+    "correctness": 2,
+    "helpfulness": 2,
+    "relevance": 3,
+    "clarity": 4,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 2,
+    "evidence_support": 2,
+    "unsupported_claims": 4,
+    "evidence_relevance": 1,
+    "grounding_score": 2,
+    "reason": "The conversation context already confirmed that the Fall Creators Update is the Windows 10 Redstone 3 build, but the agent claimed it was unable to confirm this and recommended contacting support.",
+    "overall_score": 2,
+    "short_reason": "The conversation context already confirmed that the Fall Creators Update is the Windows 10 Redstone 3 build, but the agent claimed it was unable to confirm this and recommended contacting support.",
+    "grounding_decision": "UNSUPPORTED",
+    "reply_quality": {
+      "correctness": 2,
+      "helpfulness": 2,
+      "relevance": 3,
+      "clarity": 4,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 2,
+      "unsupported_claims": 4,
+      "evidence_relevance": 1
+    },
+    "golden_id": "GOLDEN-0124",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0124",
+      "customer_message": "@MicrosoftHelps Fall Creators Update means Win10 RS3 RTM build?",
+      "conversation_context": "MICROSOFT (1730626): @522949 Hi, Pratap. Yes, the Fall Creators Update is Windows 10 Redstone 3 build. How can we assist you on this?",
+      "predicted_intent": "Technical Troubleshooting",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"155913\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.675124, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"That Windows 10 Fall Creators Update is something else; isn't it?\"}\n{\"evidence_id\": \"847864\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.621082, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Windows 10 fall creators update done 🔥🔥🔥\"}\n{\"evidence_id\": \"424923\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.608314, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps but why is this happening? https://t.co/BmqqnrEVMY | @MicrosoftHelps Hi. Which one is Fall Creators Updates? https://t.co/0LA7mrWmKI\"}",
+      "generated_reply": "Hello! I am unable to fully confirm whether the Fall Creators Update corresponds to the Win10 RS3 RTM build based on the available information. Please contact Microsoft support directly for further assistance."
+    }
+  }
+}

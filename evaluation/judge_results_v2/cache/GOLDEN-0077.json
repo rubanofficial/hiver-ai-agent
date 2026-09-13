@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0077",
+  "input_fingerprint": "821850916e53a7f3a2089e7c51b0825a20500d709001dfa812d152f4d0bbc509",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-12T04:36:20+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0077",
+    "customer_message": "@MicrosoftHelps System restore went well, it's up and running. I'm downloading win7, cannot use a OS that randomly reboots multiple times a day",
+    "conversation_context": "MICROSOFT (954797): @346552 Hi. We're here for you. To help you troubleshoot blue screen errors, see steps here: https://t.co/FO0ySfeV9g. Update us!\nCUSTOMER (954798): @MicrosoftHelps I've tried everything apart from system restoring, that is going right now, we'll see hos it goes\nCUSTOMER (954799): Win10 just destroyed itself. Worst OS i've ever used\nIt kept randomly restarting, until it possibly killed my SSD https://t.co/IJhNvNwZVg",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"385209\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 2}, \"score\": 0.671537, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps sorry, after hours of waiting, as soon as i message you, it comes to life | @MicrosoftHelps stuck on 'Restoring your previous version of Windows', the same happens when I reboot.. what can I do? thanks\"}\n{\"evidence_id\": \"1087118\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 7}, \"score\": 0.605737, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I finally found some to help me. There was corrupted files or something... Fine now. I don't hate you guys anymore | 3rd time I chatted for help in 13 days. 0 help @MicrosoftHelps online chatters just tell me to update; again &amp;again &amp; again. Never works https://t.co/j2llezbTlZ | @MicrosoftHelps At my wit's end here. I can't even do my work anymore. Trys to update again and again and again | @MicrosoftHelps Next day same problem. We even went change the updater from automatic to manual yesterday. Found it set to manual, disabled it after update https://t.co/W47jOBtxI0 | @MicrosoftHelps Main probable is I bought the pc 3 years ago, but it was on a shelf probably for 2 before that. Haha | @MicrosoftHelps They got it... I think haha | @MicrosoftHelps Nope this morning it says \\\"restoring previous version of Windows\\\" for two hours... I'm super considering ditching you guys\"}\n{\"evidence_id\": \"2196468\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.594224, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps please help, had this from turning on pc and repeats when try to restore previous versions. Never restarts https://t.co/KzkimPdLGG\"}",
+    "generated_reply": "Hello! I am glad to hear your system restore went well and it's up and running. However, because you are experiencing issues with random reboots and are looking to download Windows 7, this case requires further investigation to check your specific system stability and account entitlements. Please contact Microsoft Support so we can look into these recurring reboot issues and help investigate what is causing them."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 4,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 4,\n  \"overall_reply_score\": 3,\n  \"evidence_support\": 2,\n  \"unsupported_claims\": 2,\n  \"evidence_relevance\": 2,\n  \"grounding_score\": 2,\n  \"reason\": \"The reply acknowledges the customer's successful system restore and desire to downgrade, but unnecessarily pushes for an escalation and checking account entitlements, which is not supported by standard troubleshooting steps for this context.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 4,
+    "clarity": 5,
+    "escalation_appropriateness": 4,
+    "overall_reply_score": 3,
+    "evidence_support": 2,
+    "unsupported_claims": 2,
+    "evidence_relevance": 2,
+    "grounding_score": 2,
+    "reason": "The reply acknowledges the customer's successful system restore and desire to downgrade, but unnecessarily pushes for an escalation and checking account entitlements, which is not supported by standard troubleshooting steps for this context.",
+    "overall_score": 3,
+    "short_reason": "The reply acknowledges the customer's successful system restore and desire to downgrade, but unnecessarily pushes for an escalation and checking account entitlements, which is not supported by standard troubleshooting steps for this context.",
+    "grounding_decision": "UNSUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 4,
+      "clarity": 5,
+      "escalation_appropriateness": 4
+    },
+    "evidence_grounding": {
+      "evidence_support": 2,
+      "unsupported_claims": 2,
+      "evidence_relevance": 2
+    },
+    "golden_id": "GOLDEN-0077",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0077",
+      "customer_message": "@MicrosoftHelps System restore went well, it's up and running. I'm downloading win7, cannot use a OS that randomly reboots multiple times a day",
+      "conversation_context": "MICROSOFT (954797): @346552 Hi. We're here for you. To help you troubleshoot blue screen errors, see steps here: https://t.co/FO0ySfeV9g. Update us!\nCUSTOMER (954798): @MicrosoftHelps I've tried everything apart from system restoring, that is going right now, we'll see hos it goes\nCUSTOMER (954799): Win10 just destroyed itself. Worst OS i've ever used\nIt kept randomly restarting, until it possibly killed my SSD https://t.co/IJhNvNwZVg",
+      "predicted_intent": "Technical Troubleshooting",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"385209\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 2}, \"score\": 0.671537, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps sorry, after hours of waiting, as soon as i message you, it comes to life | @MicrosoftHelps stuck on 'Restoring your previous version of Windows', the same happens when I reboot.. what can I do? thanks\"}\n{\"evidence_id\": \"1087118\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 7}, \"score\": 0.605737, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I finally found some to help me. There was corrupted files or something... Fine now. I don't hate you guys anymore | 3rd time I chatted for help in 13 days. 0 help @MicrosoftHelps online chatters just tell me to update; again &amp;again &amp; again. Never works https://t.co/j2llezbTlZ | @MicrosoftHelps At my wit's end here. I can't even do my work anymore. Trys to update again and again and again | @MicrosoftHelps Next day same problem. We even went change the updater from automatic to manual yesterday. Found it set to manual, disabled it after update https://t.co/W47jOBtxI0 | @MicrosoftHelps Main probable is I bought the pc 3 years ago, but it was on a shelf probably for 2 before that. Haha | @MicrosoftHelps They got it... I think haha | @MicrosoftHelps Nope this morning it says \\\"restoring previous version of Windows\\\" for two hours... I'm super considering ditching you guys\"}\n{\"evidence_id\": \"2196468\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.594224, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps please help, had this from turning on pc and repeats when try to restore previous versions. Never restarts https://t.co/KzkimPdLGG\"}",
+      "generated_reply": "Hello! I am glad to hear your system restore went well and it's up and running. However, because you are experiencing issues with random reboots and are looking to download Windows 7, this case requires further investigation to check your specific system stability and account entitlements. Please contact Microsoft Support so we can look into these recurring reboot issues and help investigate what is causing them."
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0096",
+  "input_fingerprint": "c5a2b1af102adb9a14138723fac4b01124e0475f626c8cb7d64d375c7ae41cc6",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:37:33+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0096",
+    "customer_message": "Hey @MicrosoftHelps, why isn't office there?\n#Windows10S https://t.co/T0SEI4uSmU",
+    "conversation_context": "MICROSOFT (1172701): @353738 Hello, Florian! We'd like to know do you have Office installed.\nCUSTOMER (1172702): @MicrosoftHelps no. I actually got in touch with the chat support and managed to end up without a solution after 2 hours of remote assistance.",
+    "predicted_intent": "Microsoft Store",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"1440878\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 1}, \"score\": 0.788256, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Hey Windows, why is it that after doing a fresh install of W10 pro i no longer have Office?🤔\"}\n{\"evidence_id\": \"1788244\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.698691, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@115890 Windows 10 S won't let me install office through the store and your technicians are useless...\"}\n{\"evidence_id\": \"618229\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.68146, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps MS10 is a joke, what is going on with Microsoft?\"}",
+    "generated_reply": "We are unable to fully resolve your issue based on the available information. Please contact Microsoft support directly for further assistance with Windows 10 S and Office."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 4,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 3,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 4,\n  \"evidence_relevance\": 3,\n  \"grounding_score\": 3,\n  \"reason\": \"The customer already stated that chat support failed to help them for 2 hours, so recommending them to contact support again is unhelpful, though the escalation itself is appropriate given the complexity.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 4,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 3,
+    "evidence_support": 3,
+    "unsupported_claims": 4,
+    "evidence_relevance": 3,
+    "grounding_score": 3,
+    "reason": "The customer already stated that chat support failed to help them for 2 hours, so recommending them to contact support again is unhelpful, though the escalation itself is appropriate given the complexity.",
+    "overall_score": 3,
+    "short_reason": "The customer already stated that chat support failed to help them for 2 hours, so recommending them to contact support again is unhelpful, though the escalation itself is appropriate given the complexity.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 4,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 4,
+      "evidence_relevance": 3
+    },
+    "golden_id": "GOLDEN-0096",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0096",
+      "customer_message": "Hey @MicrosoftHelps, why isn't office there?\n#Windows10S https://t.co/T0SEI4uSmU",
+      "conversation_context": "MICROSOFT (1172701): @353738 Hello, Florian! We'd like to know do you have Office installed.\nCUSTOMER (1172702): @MicrosoftHelps no. I actually got in touch with the chat support and managed to end up without a solution after 2 hours of remote assistance.",
+      "predicted_intent": "Microsoft Store",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"1440878\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 1}, \"score\": 0.788256, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Hey Windows, why is it that after doing a fresh install of W10 pro i no longer have Office?🤔\"}\n{\"evidence_id\": \"1788244\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.698691, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@115890 Windows 10 S won't let me install office through the store and your technicians are useless...\"}\n{\"evidence_id\": \"618229\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.68146, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps MS10 is a joke, what is going on with Microsoft?\"}",
+      "generated_reply": "We are unable to fully resolve your issue based on the available information. Please contact Microsoft support directly for further assistance with Windows 10 S and Office."
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0062",
+  "input_fingerprint": "d9c4c9bf82c61181255c10405b8a1e9185615de4f93898c56f1533339da9cc00",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-12T04:35:30+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0062",
+    "customer_message": "@MicrosoftHelps All right thx ! Seems to be working again :)",
+    "conversation_context": "MICROSOFT (703285): @288017 Hello, Jonas! Checking back with you if everything is good on your end? If so, hope you can complete a survey for us? We would love to hear from you about your experience with us. Click here: https://t.co/Gw2gRvHRbF\nCUSTOMER (703286): @MicrosoftHelps No but I dont think it can be fixed without giving the device in a service but I need it everyday and theres no microsoft store in my area\nMICROSOFT (703287): @288017 Thanks for getting back to us. Please be informed that we’re working on it to resolve this as soon as possible. In the meantime, please continue to check Windows Updates for an update. You can also check Surface update history. Regards.\nMICROSOFT (703288): @288017 Hello. Checking back with you to see if everything is good on your end?\nCUSTOMER (703289): @MicrosoftHelps With that my surface book loses basically all usability and makes it a 2000$ regular laptop. I need that fixed !\nCUSTOMER (703290): @MicrosoftHelps As the surface pen stopped working. It wilm work for several minutes after a restart then only the button on the put will sometimes work...\nCUSTOMER (703291): @MicrosoftHelps @MicrosoftHelps hello after doing a clean install of wndws 10 and everything newly installed, the pinch zoom stopped working again aswell...\nCUSTOMER (703292): @MicrosoftHelps pinch and zoom stopped working after the update ! I need that feature !\nMICROSOFT (703293): @288017 Hi, Jonas. We're here to help. Just to clarify, which version of Windows are you using? What is the make and model of your device?\nCUSTOMER (2173351): @MicrosoftHelps Hello, I use windows 10 on a first gen surface book. When I do a reset it will work again but only for as long as it is not put in sleepmode\nMICROSOFT (2173352): @288017 Instead of a reset. We suggest that you perform a clean install of Windows 10 on your Surface Book. You may download a recovery image in a USB of the operating system from this link: https://t.co/eyouX4YCJa and the drivers can be found here: https://t.co/kJPiPzoCSL\nMICROSOFT (2173353): @288017 Hello Jonas. We wanted to check if you were able to perform the clean installation of Windows 10. Thank you.\nCUSTOMER (2173354): @MicrosoftHelps Do you guys have a german version of this software ? thanks !\nMICROSOFT (2173355): @288017 To get more information in language packs, you can check this link: https://t.co/ZKCz2YGXl6\nMICROSOFT (2173356): @288017 We would like to follow-up on the status of your concern. We want to ensure that you receive the best support needed. Send us your feedback and suggestion about our Twitter support. Share it here: https://t.co/sQHFG2CXfo. Kindly include Social Media Case #1259981. Thanks.",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"423899\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 2}, \"score\": 0.895321, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps What’s going on? https://t.co/rorMFB2Oj8 | @MicrosoftHelps I got everything working. Thank you!\"}\n{\"evidence_id\": \"403942\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 1}, \"score\": 0.84165, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Issue resolved! I was just in a chat with a Support Agent and we started working it out. Thanks!\"}\n{\"evidence_id\": \"929466\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.839116, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Nevermind. Fixed it. | Hi @MicrosoftHelps https://t.co/XdZ8CgcCXs\"}",
+    "generated_reply": "We're glad to hear that everything is working again! If you need any further assistance in the future, please don't hesitate to reach out."
+  },
+  "raw_response": "{\n  \"correctness\": 5,\n  \"helpfulness\": 5,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 5,\n  \"evidence_support\": 5,\n  \"unsupported_claims\": 5,\n  \"evidence_relevance\": 4,\n  \"grounding_score\": 5,\n  \"reason\": \"The customer stated the issue is resolved and working again. The agent appropriately acknowledged this and offered future assistance, perfectly matching the conversational context and standard closure protocol.\"\n}",
+  "result": {
+    "correctness": 5,
+    "helpfulness": 5,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 5,
+    "evidence_support": 5,
+    "unsupported_claims": 5,
+    "evidence_relevance": 4,
+    "grounding_score": 5,
+    "reason": "The customer stated the issue is resolved and working again. The agent appropriately acknowledged this and offered future assistance, perfectly matching the conversational context and standard closure protocol.",
+    "overall_score": 5,
+    "short_reason": "The customer stated the issue is resolved and working again. The agent appropriately acknowledged this and offered future assistance, perfectly matching the conversational context and standard closure protocol.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 5,
+      "helpfulness": 5,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 5,
+      "unsupported_claims": 5,
+      "evidence_relevance": 4
+    },
+    "golden_id": "GOLDEN-0062",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0062",
+      "customer_message": "@MicrosoftHelps All right thx ! Seems to be working again :)",
+      "conversation_context": "MICROSOFT (703285): @288017 Hello, Jonas! Checking back with you if everything is good on your end? If so, hope you can complete a survey for us? We would love to hear from you about your experience with us. Click here: https://t.co/Gw2gRvHRbF\nCUSTOMER (703286): @MicrosoftHelps No but I dont think it can be fixed without giving the device in a service but I need it everyday and theres no microsoft store in my area\nMICROSOFT (703287): @288017 Thanks for getting back to us. Please be informed that we’re working on it to resolve this as soon as possible. In the meantime, please continue to check Windows Updates for an update. You can also check Surface update history. Regards.\nMICROSOFT (703288): @288017 Hello. Checking back with you to see if everything is good on your end?\nCUSTOMER (703289): @MicrosoftHelps With that my surface book loses basically all usability and makes it a 2000$ regular laptop. I need that fixed !\nCUSTOMER (703290): @MicrosoftHelps As the surface pen stopped working. It wilm work for several minutes after a restart then only the button on the put will sometimes work...\nCUSTOMER (703291): @MicrosoftHelps @MicrosoftHelps hello after doing a clean install of wndws 10 and everything newly installed, the pinch zoom stopped working again aswell...\nCUSTOMER (703292): @MicrosoftHelps pinch and zoom stopped working after the update ! I need that feature !\nMICROSOFT (703293): @288017 Hi, Jonas. We're here to help. Just to clarify, which version of Windows are you using? What is the make and model of your device?\nCUSTOMER (2173351): @MicrosoftHelps Hello, I use windows 10 on a first gen surface book. When I do a reset it will work again but only for as long as it is not put in sleepmode\nMICROSOFT (2173352): @288017 Instead of a reset. We suggest that you perform a clean install of Windows 10 on your Surface Book. You may download a recovery image in a USB of the operating system from this link: https://t.co/eyouX4YCJa and the drivers can be found here: https://t.co/kJPiPzoCSL\nMICROSOFT (2173353): @288017 Hello Jonas. We wanted to check if you were able to perform the clean installation of Windows 10. Thank you.\nCUSTOMER (2173354): @MicrosoftHelps Do you guys have a german version of this software ? thanks !\nMICROSOFT (2173355): @288017 To get more information in language packs, you can check this link: https://t.co/ZKCz2YGXl6\nMICROSOFT (2173356): @288017 We would like to follow-up on the status of your concern. We want to ensure that you receive the best support needed. Send us your feedback and suggestion about our Twitter support. Share it here: https://t.co/sQHFG2CXfo. Kindly include Social Media Case #1259981. Thanks.",
+      "predicted_intent": "Technical Troubleshooting",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"423899\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 2}, \"score\": 0.895321, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps What’s going on? https://t.co/rorMFB2Oj8 | @MicrosoftHelps I got everything working. Thank you!\"}\n{\"evidence_id\": \"403942\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 1}, \"score\": 0.84165, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Issue resolved! I was just in a chat with a Support Agent and we started working it out. Thanks!\"}\n{\"evidence_id\": \"929466\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.839116, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Nevermind. Fixed it. | Hi @MicrosoftHelps https://t.co/XdZ8CgcCXs\"}",
+      "generated_reply": "We're glad to hear that everything is working again! If you need any further assistance in the future, please don't hesitate to reach out."
+    }
+  }
+}

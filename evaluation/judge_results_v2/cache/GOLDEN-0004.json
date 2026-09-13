@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0004",
+  "input_fingerprint": "1af2f47de54d623b21c0acb53dd91880d7f3ed4a4ac9ef52ed2f1af795f3e9ad",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-12T04:28:10+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0004",
+    "customer_message": "I'm in up to date version of my @116230 10, however I don't get the new fluent design as shown in XAML control gallery app !!😐",
+    "conversation_context": "MICROSOFT (42120): @125295 2/2 take a look at it and do the necessities: https://t.co/2rGFoc843Q. Feel free to reach out if you have any queries.\nCUSTOMER (42121): @116230 For eg, that circle animation around the cursor when I click somewhere in UWP app. But the same circle effect can't be seen on start menu !! https://t.co/EeF9R2XN1e\nMICROSOFT (42122): @125295 1/2 Thank you for the feedback. We suggest that you send this directly to our developers via the Feedback Hub so they can\nCUSTOMER (42123): @125295 Hi, Madhes. We'd love to help sort things out. Can you share a few more details about what you're experiencing?",
+    "predicted_intent": "Product / Feature How-To",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"2230036\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.635323, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"MS Edge got a Fluent Design upgrade on Windows 10 Fall Creators Update https://t.co/OnAfdopVoQ\"}\n{\"evidence_id\": \"2307874\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.48158, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"I really like the new interface but there are some features I wish you'd bring back. Overall tho, it's really nice. @115786 @MicrosoftHelps\"}\n{\"evidence_id\": \"2696755\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.462862, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Great. But I don't have that kind of energy. | @116230 needs to make the old Leonardo da Vinci theme from win95 available for win10\"}",
+    "generated_reply": "Thank you for reaching out to MicrosoftHelps. Because the provided evidence does not contain specific troubleshooting steps for obtaining the new Fluent Design seen in the XAML control gallery app on your current version, this case requires further investigation into your specific system and app setup. Please contact Microsoft Support so they can investigate your account entitlements and app configuration. When you contact support, it would be helpful to provide your exact Windows build version and the specific XAML control gallery app version you are using."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 4,\n  \"clarity\": 4,\n  \"escalation_appropriateness\": 4,\n  \"overall_reply_score\": 3,\n  \"evidence_support\": 2,\n  \"unsupported_claims\": 2,\n  \"evidence_relevance\": 1,\n  \"grounding_score\": 2,\n  \"reason\": \"The reply suggests contacting Microsoft Support for account entitlements, which is not relevant to a Windows/UWP feature request, and the evidence does not support this claim.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 4,
+    "clarity": 4,
+    "escalation_appropriateness": 4,
+    "overall_reply_score": 3,
+    "evidence_support": 2,
+    "unsupported_claims": 2,
+    "evidence_relevance": 1,
+    "grounding_score": 2,
+    "reason": "The reply suggests contacting Microsoft Support for account entitlements, which is not relevant to a Windows/UWP feature request, and the evidence does not support this claim.",
+    "overall_score": 3,
+    "short_reason": "The reply suggests contacting Microsoft Support for account entitlements, which is not relevant to a Windows/UWP feature request, and the evidence does not support this claim.",
+    "grounding_decision": "UNSUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 4,
+      "clarity": 4,
+      "escalation_appropriateness": 4
+    },
+    "evidence_grounding": {
+      "evidence_support": 2,
+      "unsupported_claims": 2,
+      "evidence_relevance": 1
+    },
+    "golden_id": "GOLDEN-0004",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0004",
+      "customer_message": "I'm in up to date version of my @116230 10, however I don't get the new fluent design as shown in XAML control gallery app !!😐",
+      "conversation_context": "MICROSOFT (42120): @125295 2/2 take a look at it and do the necessities: https://t.co/2rGFoc843Q. Feel free to reach out if you have any queries.\nCUSTOMER (42121): @116230 For eg, that circle animation around the cursor when I click somewhere in UWP app. But the same circle effect can't be seen on start menu !! https://t.co/EeF9R2XN1e\nMICROSOFT (42122): @125295 1/2 Thank you for the feedback. We suggest that you send this directly to our developers via the Feedback Hub so they can\nCUSTOMER (42123): @125295 Hi, Madhes. We'd love to help sort things out. Can you share a few more details about what you're experiencing?",
+      "predicted_intent": "Product / Feature How-To",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"2230036\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.635323, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"MS Edge got a Fluent Design upgrade on Windows 10 Fall Creators Update https://t.co/OnAfdopVoQ\"}\n{\"evidence_id\": \"2307874\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.48158, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"I really like the new interface but there are some features I wish you'd bring back. Overall tho, it's really nice. @115786 @MicrosoftHelps\"}\n{\"evidence_id\": \"2696755\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.462862, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Great. But I don't have that kind of energy. | @116230 needs to make the old Leonardo da Vinci theme from win95 available for win10\"}",
+      "generated_reply": "Thank you for reaching out to MicrosoftHelps. Because the provided evidence does not contain specific troubleshooting steps for obtaining the new Fluent Design seen in the XAML control gallery app on your current version, this case requires further investigation into your specific system and app setup. Please contact Microsoft Support so they can investigate your account entitlements and app configuration. When you contact support, it would be helpful to provide your exact Windows build version and the specific XAML control gallery app version you are using."
+    }
+  }
+}

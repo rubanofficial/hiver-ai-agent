@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0098",
+  "input_fingerprint": "1b717e8470a6bdaaffd7b159bba1e95d1ebd1ed616344e2d2615abbc1f73d6be",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:37:36+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0098",
+    "customer_message": "@115888 @MicrosoftHelps Groove music links to Spotify on Windoes Phone but the funny thing is APP DOES NOT WORK!  M$ fails customers again!",
+    "conversation_context": "MICROSOFT (1179315): @397366 Thanks for reaching out. Are you getting any error messages while using the app? Have you tried any troubleshooting steps?",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"1334789\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 3}, \"score\": 0.693415, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps it says this app can’t run on your pc https://t.co/8F9sK3UobV | @MicrosoftHelps hi, is there a reason why i can’t download spotify on my surface? | @MicrosoftHelps  https://t.co/tlSOGWpFCc\"}\n{\"evidence_id\": \"631963\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.627946, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps when you switch to Spotify will my playlist from groove be switched aswell?\"}\n{\"evidence_id\": \"196710\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.612652, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@115890 @139370 Groove Music is one of the best streaming music app, why are they shutting down? #GrooveMusic 😭\"}",
+    "generated_reply": "We are sorry to hear you are experiencing issues with the Groove Music and Spotify integration on your Windows Phone. Unfortunately, the provided historical information does not contain troubleshooting steps for this specific issue. Please contact Microsoft support directly for further assistance."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 4,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 4,\n  \"evidence_support\": 5,\n  \"unsupported_claims\": 5,\n  \"evidence_relevance\": 2,\n  \"grounding_score\": 4,\n  \"reason\": \"The reply acknowledges the customer's issue with Groove Music and Spotify on Windows Phone, correctly identifies that the retrieved evidence lacks specific troubleshooting steps, and appropriately recommends contacting support directly.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 4,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 4,
+    "evidence_support": 5,
+    "unsupported_claims": 5,
+    "evidence_relevance": 2,
+    "grounding_score": 4,
+    "reason": "The reply acknowledges the customer's issue with Groove Music and Spotify on Windows Phone, correctly identifies that the retrieved evidence lacks specific troubleshooting steps, and appropriately recommends contacting support directly.",
+    "overall_score": 4,
+    "short_reason": "The reply acknowledges the customer's issue with Groove Music and Spotify on Windows Phone, correctly identifies that the retrieved evidence lacks specific troubleshooting steps, and appropriately recommends contacting support directly.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 4,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 5,
+      "unsupported_claims": 5,
+      "evidence_relevance": 2
+    },
+    "golden_id": "GOLDEN-0098",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0098",
+      "customer_message": "@115888 @MicrosoftHelps Groove music links to Spotify on Windoes Phone but the funny thing is APP DOES NOT WORK!  M$ fails customers again!",
+      "conversation_context": "MICROSOFT (1179315): @397366 Thanks for reaching out. Are you getting any error messages while using the app? Have you tried any troubleshooting steps?",
+      "predicted_intent": "Technical Troubleshooting",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"1334789\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 3}, \"score\": 0.693415, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps it says this app can’t run on your pc https://t.co/8F9sK3UobV | @MicrosoftHelps hi, is there a reason why i can’t download spotify on my surface? | @MicrosoftHelps  https://t.co/tlSOGWpFCc\"}\n{\"evidence_id\": \"631963\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.627946, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps when you switch to Spotify will my playlist from groove be switched aswell?\"}\n{\"evidence_id\": \"196710\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.612652, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@115890 @139370 Groove Music is one of the best streaming music app, why are they shutting down? #GrooveMusic 😭\"}",
+      "generated_reply": "We are sorry to hear you are experiencing issues with the Groove Music and Spotify integration on your Windows Phone. Unfortunately, the provided historical information does not contain troubleshooting steps for this specific issue. Please contact Microsoft support directly for further assistance."
+    }
+  }
+}

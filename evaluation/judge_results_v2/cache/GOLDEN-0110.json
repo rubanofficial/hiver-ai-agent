@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0110",
+  "input_fingerprint": "e4138b617fc21a46e60fa023f1b3885cbe77d97d4f7994510619b23234f9841a",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T11:24:16+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0110",
+    "customer_message": "Stock up on toaster waffles, you’ve got the power for an all-day binge. Watch #StrangerThings2 with #Surface and @116602. https://t.co/UgmL6nBypY",
+    "conversation_context": "MICROSOFT (1436174): @453414 Hi Gregory. We suggest that you contact our Store Support for better assistance for your query: https://t.co/rDfmkysR2m\nCUSTOMER (1436175): @MicrosoftHelps That is who I called.  Once again today, 7 days in a row.  Three​ \"escalations\" to other agents.  And still they are \"investigating\"! Right.\nCUSTOMER (1436176): @123127 @135958 @116602 Ordered on October 11.  Got a Fed Ex confirmation number still no surface.  Called and called.  No one can give me a straight answer.",
+    "predicted_intent": "Product / Feature How-To",
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Generated reply could not be grounded in historical evidence; human review is required.",
+    "retrieved_evidence": "{\"evidence_id\": \"658749\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.352945, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@123127 Soooo disappointed I was gifted with 2 surface pros and neither work. I’m stuck with 2 machines that my husband bought me bcuz I REALLY WANTED IT! 😡😩 | Location scout Leann doesn’t have an office. Good thing the new Surface Pro is thin &amp; light. https://t.co/6SPmTPiakU https://t.co/EhRiQYRXDa\"}\n{\"evidence_id\": \"662518\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.342476, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Hey @MicrosoftHelps - major props to Mary Jane F. on the live chat. She did a killer job helping me out. You should throw her some love. Like a bonus, or a car, or lunch. Coffee even, but probably a car.\"}\n{\"evidence_id\": \"512263\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.309633, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"thank's god i have a @123127 #book to keep my flat warm on these cold winter days! and that's just after boot. wait until i start visual studio! #theHeatIsOn! #sad #notamused #surfacebook #reallybad https://t.co/qPcU3Q0aH1\"}",
+    "generated_reply": "We do not have enough information to resolve your request autonomously at this time. Please contact Microsoft Support directly for further assistance."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 2,\n  \"relevance\": 3,\n  \"clarity\": 4,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 3,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 5,\n  \"evidence_relevance\": 1,\n  \"grounding_score\": 3,\n  \"reason\": \"The customer is complaining about a missing Surface order after multiple escalations. The generated reply appropriately escalates/directs them to support, but the retrieved evidence is completely irrelevant to order tracking.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 2,
+    "relevance": 3,
+    "clarity": 4,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 3,
+    "evidence_support": 3,
+    "unsupported_claims": 5,
+    "evidence_relevance": 1,
+    "grounding_score": 3,
+    "reason": "The customer is complaining about a missing Surface order after multiple escalations. The generated reply appropriately escalates/directs them to support, but the retrieved evidence is completely irrelevant to order tracking.",
+    "overall_score": 3,
+    "short_reason": "The customer is complaining about a missing Surface order after multiple escalations. The generated reply appropriately escalates/directs them to support, but the retrieved evidence is completely irrelevant to order tracking.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 2,
+      "relevance": 3,
+      "clarity": 4,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 5,
+      "evidence_relevance": 1
+    },
+    "golden_id": "GOLDEN-0110",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0110",
+      "customer_message": "Stock up on toaster waffles, you’ve got the power for an all-day binge. Watch #StrangerThings2 with #Surface and @116602. https://t.co/UgmL6nBypY",
+      "conversation_context": "MICROSOFT (1436174): @453414 Hi Gregory. We suggest that you contact our Store Support for better assistance for your query: https://t.co/rDfmkysR2m\nCUSTOMER (1436175): @MicrosoftHelps That is who I called.  Once again today, 7 days in a row.  Three​ \"escalations\" to other agents.  And still they are \"investigating\"! Right.\nCUSTOMER (1436176): @123127 @135958 @116602 Ordered on October 11.  Got a Fed Ex confirmation number still no surface.  Called and called.  No one can give me a straight answer.",
+      "predicted_intent": "Product / Feature How-To",
+      "predicted_escalation": "ESCALATE_TO_HUMAN",
+      "predicted_escalation_reason": "Generated reply could not be grounded in historical evidence; human review is required.",
+      "retrieved_evidence": "{\"evidence_id\": \"658749\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.352945, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@123127 Soooo disappointed I was gifted with 2 surface pros and neither work. I’m stuck with 2 machines that my husband bought me bcuz I REALLY WANTED IT! 😡😩 | Location scout Leann doesn’t have an office. Good thing the new Surface Pro is thin &amp; light. https://t.co/6SPmTPiakU https://t.co/EhRiQYRXDa\"}\n{\"evidence_id\": \"662518\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.342476, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Hey @MicrosoftHelps - major props to Mary Jane F. on the live chat. She did a killer job helping me out. You should throw her some love. Like a bonus, or a car, or lunch. Coffee even, but probably a car.\"}\n{\"evidence_id\": \"512263\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.309633, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"thank's god i have a @123127 #book to keep my flat warm on these cold winter days! and that's just after boot. wait until i start visual studio! #theHeatIsOn! #sad #notamused #surfacebook #reallybad https://t.co/qPcU3Q0aH1\"}",
+      "generated_reply": "We do not have enough information to resolve your request autonomously at this time. Please contact Microsoft Support directly for further assistance."
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0008",
+  "input_fingerprint": "19feaeccf8e019035404b64e2375522895782175ccda10988cc086c331e7d83d",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-12T04:28:16+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0008",
+    "customer_message": "@microsofthelps\nWhy I am getting the message your browser third party cookies are disabled please activate to proceed. I am using IE 11 browser",
+    "conversation_context": "MICROSOFT (68113): @131546 Hi, Shriram. Thank you for tweeting us. May we know which version Windows you are using? Please reply to us via DM. Thank you. https://t.co/3qcAsLFkaY",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"247987\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.630721, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I haven't tried to delete the cookies but tried in incognito mode as well. I tried with safari and chrome. | @MicrosoftHelps Please fix your website links https://t.co/PvuYMUl5pe\"}\n{\"evidence_id\": \"2271013\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.54357, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps What is the problem ? The browser doesn’t work ? https://t.co/5gbyA6A1Xm\"}\n{\"evidence_id\": \"2322073\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.529017, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Can You Update The Page Saying Instructions On How To Turn off Restrictions It Would Be More Helpful. | @MicrosoftHelps I Am Trying To Install Chrome On My Childs Computer I Have Fully Installed But I Get This Screen When I Click Send Email And Press The Link Nothing Happens One Of Your Support Team Said There Was A Tweak I Had To Do For Chrome But I Cannot Get In Any Reach Of Them https://t.co/FQj3r0kvwD\"}",
+    "generated_reply": "Thank you for reaching out to MicrosoftHelps. Because this issue involves browser settings and third-party cookies in Internet Explorer 11, we need to further investigate your account and browser configurations. Please contact Microsoft Support so our team can look into this for you."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 4,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 4,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 4,\n  \"evidence_relevance\": 2,\n  \"grounding_score\": 3,\n  \"reason\": \"The reply is professional and appropriately suggests contacting support for an IE 11 cookie issue, though the retrieved evidence is largely irrelevant to the specific browser and cookie error mentioned.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 4,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 4,
+    "evidence_support": 3,
+    "unsupported_claims": 4,
+    "evidence_relevance": 2,
+    "grounding_score": 3,
+    "reason": "The reply is professional and appropriately suggests contacting support for an IE 11 cookie issue, though the retrieved evidence is largely irrelevant to the specific browser and cookie error mentioned.",
+    "overall_score": 4,
+    "short_reason": "The reply is professional and appropriately suggests contacting support for an IE 11 cookie issue, though the retrieved evidence is largely irrelevant to the specific browser and cookie error mentioned.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 4,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 4,
+      "evidence_relevance": 2
+    },
+    "golden_id": "GOLDEN-0008",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0008",
+      "customer_message": "@microsofthelps\nWhy I am getting the message your browser third party cookies are disabled please activate to proceed. I am using IE 11 browser",
+      "conversation_context": "MICROSOFT (68113): @131546 Hi, Shriram. Thank you for tweeting us. May we know which version Windows you are using? Please reply to us via DM. Thank you. https://t.co/3qcAsLFkaY",
+      "predicted_intent": "Technical Troubleshooting",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"247987\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.630721, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I haven't tried to delete the cookies but tried in incognito mode as well. I tried with safari and chrome. | @MicrosoftHelps Please fix your website links https://t.co/PvuYMUl5pe\"}\n{\"evidence_id\": \"2271013\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.54357, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps What is the problem ? The browser doesn’t work ? https://t.co/5gbyA6A1Xm\"}\n{\"evidence_id\": \"2322073\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.529017, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Can You Update The Page Saying Instructions On How To Turn off Restrictions It Would Be More Helpful. | @MicrosoftHelps I Am Trying To Install Chrome On My Childs Computer I Have Fully Installed But I Get This Screen When I Click Send Email And Press The Link Nothing Happens One Of Your Support Team Said There Was A Tweak I Had To Do For Chrome But I Cannot Get In Any Reach Of Them https://t.co/FQj3r0kvwD\"}",
+      "generated_reply": "Thank you for reaching out to MicrosoftHelps. Because this issue involves browser settings and third-party cookies in Internet Explorer 11, we need to further investigate your account and browser configurations. Please contact Microsoft Support so our team can look into this for you."
+    }
+  }
+}

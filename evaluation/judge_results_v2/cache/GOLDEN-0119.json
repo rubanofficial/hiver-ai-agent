@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0119",
+  "input_fingerprint": "f2e7a8e56a981b9db789728d94081d8fead26dc559cfca848f66539a19f83731",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T11:25:06+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0119",
+    "customer_message": "Why does @116230 always go straight to 100% when updating and then stay there for 5 minutes? Redundant message really.",
+    "conversation_context": "MICROSOFT (1613145): @494947 Allow us to help, Jamie. What is the make and model of your device? Can you tell us more information about your concern?",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"1405210\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.608972, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@115890 @116230 that moment when you see your FCU updater jumping from 99% back to 1%... srsly Fall Creator Update? Why??\"}\n{\"evidence_id\": \"2503211\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.602048, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Trying to update Windows 10. 3 minutes ago it said 65% complete. 2 minutes ago we had 8% complete. 1 minute ago it was at 3% complete. Do Microsoft even understand how percentages work!?\"}\n{\"evidence_id\": \"2151581\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 1}, \"score\": 0.568978, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@116230 WTF!? Just updated my laptop and got this bloody message thanks for the update. Bloody Hell! https://t.co/OnoZTugoPe\"}",
+    "generated_reply": "Thank you for reaching out to MicrosoftHelps. While we understand your frustration with the update progress indicator going straight to 100% and remaining there, the retrieved historical evidence does not contain specific troubleshooting steps or an explanation for this behavior. This case requires further investigation into the update process details. Please contact Microsoft Support so they can investigate the update behavior further, and please provide any additional details about your system or the update you are performing to help us assist you."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 4,\n  \"clarity\": 4,\n  \"escalation_appropriateness\": 4,\n  \"overall_reply_score\": 3,\n  \"evidence_support\": 4,\n  \"unsupported_claims\": 4,\n  \"evidence_relevance\": 2,\n  \"grounding_score\": 3,\n  \"reason\": \"The reply appropriately acknowledges the lack of specific evidence regarding the update progress bar behavior and suggests contacting support, but the retrieved evidence was largely irrelevant to explaining the technical issue.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 4,
+    "clarity": 4,
+    "escalation_appropriateness": 4,
+    "overall_reply_score": 3,
+    "evidence_support": 4,
+    "unsupported_claims": 4,
+    "evidence_relevance": 2,
+    "grounding_score": 3,
+    "reason": "The reply appropriately acknowledges the lack of specific evidence regarding the update progress bar behavior and suggests contacting support, but the retrieved evidence was largely irrelevant to explaining the technical issue.",
+    "overall_score": 3,
+    "short_reason": "The reply appropriately acknowledges the lack of specific evidence regarding the update progress bar behavior and suggests contacting support, but the retrieved evidence was largely irrelevant to explaining the technical issue.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 4,
+      "clarity": 4,
+      "escalation_appropriateness": 4
+    },
+    "evidence_grounding": {
+      "evidence_support": 4,
+      "unsupported_claims": 4,
+      "evidence_relevance": 2
+    },
+    "golden_id": "GOLDEN-0119",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0119",
+      "customer_message": "Why does @116230 always go straight to 100% when updating and then stay there for 5 minutes? Redundant message really.",
+      "conversation_context": "MICROSOFT (1613145): @494947 Allow us to help, Jamie. What is the make and model of your device? Can you tell us more information about your concern?",
+      "predicted_intent": "Technical Troubleshooting",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"1405210\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.608972, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@115890 @116230 that moment when you see your FCU updater jumping from 99% back to 1%... srsly Fall Creator Update? Why??\"}\n{\"evidence_id\": \"2503211\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.602048, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Trying to update Windows 10. 3 minutes ago it said 65% complete. 2 minutes ago we had 8% complete. 1 minute ago it was at 3% complete. Do Microsoft even understand how percentages work!?\"}\n{\"evidence_id\": \"2151581\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 1}, \"score\": 0.568978, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@116230 WTF!? Just updated my laptop and got this bloody message thanks for the update. Bloody Hell! https://t.co/OnoZTugoPe\"}",
+      "generated_reply": "Thank you for reaching out to MicrosoftHelps. While we understand your frustration with the update progress indicator going straight to 100% and remaining there, the retrieved historical evidence does not contain specific troubleshooting steps or an explanation for this behavior. This case requires further investigation into the update process details. Please contact Microsoft Support so they can investigate the update behavior further, and please provide any additional details about your system or the update you are performing to help us assist you."
+    }
+  }
+}

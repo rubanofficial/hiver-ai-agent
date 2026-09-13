@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0164",
+  "input_fingerprint": "38c5c1868031ee6d808340b00f1241691343dbe40a9c25c92985b23e191d7c75",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T11:42:27+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0164",
+    "customer_message": "@MicrosoftHelps I sent you guys a Dm about a problem I had today. Should I have messaged you here?",
+    "conversation_context": "MICROSOFT (2274921): @661687 Hi, Fabio! We've already responded to your direct message. Thank you. https://t.co/3qcAsLFkaY",
+    "predicted_intent": "Complaint / Feedback",
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+    "retrieved_evidence": "{\"evidence_id\": \"2188191\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.863516, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Any chance I can get a reply on the DM I sent back to you?\"}\n{\"evidence_id\": \"2892480\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.85667, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps can someone respond to my dm please\"}\n{\"evidence_id\": \"2041167\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.829201, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Ok thank you | @MicrosoftHelps I sent you a DM\"}",
+    "generated_reply": "Thanks for reaching out! Yes, sending a direct message is the right way to get assistance with your issue. Based on similar cases, our support team will review your message and respond to you there as soon as possible."
+  },
+  "raw_response": "{\n  \"correctness\": 4,\n  \"helpfulness\": 4,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 4,\n  \"overall_reply_score\": 4,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 3,\n  \"evidence_relevance\": 4,\n  \"grounding_score\": 3,\n  \"reason\": \"The reply directly addresses the customer's question about whether messaging via DM was correct and assures them of a response. However, it introduces some general claims about support team review not explicitly detailed in the retrieved evidence.\"\n}",
+  "result": {
+    "correctness": 4,
+    "helpfulness": 4,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 4,
+    "overall_reply_score": 4,
+    "evidence_support": 3,
+    "unsupported_claims": 3,
+    "evidence_relevance": 4,
+    "grounding_score": 3,
+    "reason": "The reply directly addresses the customer's question about whether messaging via DM was correct and assures them of a response. However, it introduces some general claims about support team review not explicitly detailed in the retrieved evidence.",
+    "overall_score": 4,
+    "short_reason": "The reply directly addresses the customer's question about whether messaging via DM was correct and assures them of a response. However, it introduces some general claims about support team review not explicitly detailed in the retrieved evidence.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 4,
+      "helpfulness": 4,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 4
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 3,
+      "evidence_relevance": 4
+    },
+    "golden_id": "GOLDEN-0164",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0164",
+      "customer_message": "@MicrosoftHelps I sent you guys a Dm about a problem I had today. Should I have messaged you here?",
+      "conversation_context": "MICROSOFT (2274921): @661687 Hi, Fabio! We've already responded to your direct message. Thank you. https://t.co/3qcAsLFkaY",
+      "predicted_intent": "Complaint / Feedback",
+      "predicted_escalation": "ESCALATE_TO_HUMAN",
+      "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+      "retrieved_evidence": "{\"evidence_id\": \"2188191\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.863516, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Any chance I can get a reply on the DM I sent back to you?\"}\n{\"evidence_id\": \"2892480\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.85667, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps can someone respond to my dm please\"}\n{\"evidence_id\": \"2041167\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.829201, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Ok thank you | @MicrosoftHelps I sent you a DM\"}",
+      "generated_reply": "Thanks for reaching out! Yes, sending a direct message is the right way to get assistance with your issue. Based on similar cases, our support team will review your message and respond to you there as soon as possible."
+    }
+  }
+}

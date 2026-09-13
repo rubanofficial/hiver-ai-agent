@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0137",
+  "input_fingerprint": "a0c07b3a742323602c6c0d73b090a9523bd660b4c6ac6edfca98f20a08334227",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:41:29+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0137",
+    "customer_message": "@MicrosoftHelps Guys, moving away from dead WinPhone10, will I lose getting message/texts on desktop if I move to iPhoneX.",
+    "conversation_context": "MICROSOFT (1925652): @500011 Can you tell us a bit more how would you want to receive text's? Is it text's from a mobile number, or emails to your PC?\nCUSTOMER (1925653): @MicrosoftHelps Regular texts to my cell phone, currently use winphone and get texts on desktop via notification on screen, but if go iphone it doesn work im told.  Why dont you get to work to fix that. You make all your products like Word on iOS. Need get text via iphone on desktop",
+    "predicted_intent": "Product / Feature How-To",
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Generated reply could not be grounded in historical evidence; human review is required.",
+    "retrieved_evidence": "{\"evidence_id\": \"1538472\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 9}, \"score\": 0.545243, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Did that. Still happening. Very sporadic. | @MicrosoftHelps No one has heard of this. Texts not arriving, not even on reboot. I have no clue who's texting me. It's gotta be OS related. | @MicrosoftHelps I've done that. I have two phones myself and many others at my disposal. Texts come in sporadically while testing. AT&amp;T verified network ok | @MicrosoftHelps Any new phones on the horizon? | @MicrosoftHelps so they called and the rest is history. I believe this happened after the latest OS updates. At this point I'd like to upgrade | @MicrosoftHelps It is. Texts will work, then randomly I won't receive SOME. Only reason I know was bc something important was happening, &amp; I wasn't replying | @MicrosoftHelps thanks, sounds like WP is dead. If Bill Gates is using an Android, I might as well stop with this two phone nonsense. lol. TY again. | @MicrosoftHelps Anything new in the past two years??? | @115890 @MicrosoftHelps my 950 is dying. I want to upgrade. What can I upgrade to for being a loyal Win Phan? Anything? 950.5?\"}\n{\"evidence_id\": \"2104821\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.502155, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Here we go #Windows10 upgrade started. | @MicrosoftHelps All good. Initially a few teething problems but behaving now. Just issues with Skype for Business on iPhone. As long as my laptop works, I can work ! :-)\"}\n{\"evidence_id\": \"725208\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.501256, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Please bring windows phone OS back | @MicrosoftHelps please bring windows phone back please\"}",
+    "generated_reply": "Hello! Based on the information available, I cannot fully resolve your question regarding messaging on your desktop if you switch to an iPhone X. I recommend contacting Microsoft support directly for further assistance."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 4,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 4,\n  \"evidence_support\": 5,\n  \"unsupported_claims\": 5,\n  \"evidence_relevance\": 2,\n  \"grounding_score\": 5,\n  \"reason\": \"The reply appropriately identifies that the retrieved evidence does not contain a solution, suggests contacting support, and avoids unsupported claims, matching the predicted escalation.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 4,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 4,
+    "evidence_support": 5,
+    "unsupported_claims": 5,
+    "evidence_relevance": 2,
+    "grounding_score": 5,
+    "reason": "The reply appropriately identifies that the retrieved evidence does not contain a solution, suggests contacting support, and avoids unsupported claims, matching the predicted escalation.",
+    "overall_score": 4,
+    "short_reason": "The reply appropriately identifies that the retrieved evidence does not contain a solution, suggests contacting support, and avoids unsupported claims, matching the predicted escalation.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 4,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 5,
+      "unsupported_claims": 5,
+      "evidence_relevance": 2
+    },
+    "golden_id": "GOLDEN-0137",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0137",
+      "customer_message": "@MicrosoftHelps Guys, moving away from dead WinPhone10, will I lose getting message/texts on desktop if I move to iPhoneX.",
+      "conversation_context": "MICROSOFT (1925652): @500011 Can you tell us a bit more how would you want to receive text's? Is it text's from a mobile number, or emails to your PC?\nCUSTOMER (1925653): @MicrosoftHelps Regular texts to my cell phone, currently use winphone and get texts on desktop via notification on screen, but if go iphone it doesn work im told.  Why dont you get to work to fix that. You make all your products like Word on iOS. Need get text via iphone on desktop",
+      "predicted_intent": "Product / Feature How-To",
+      "predicted_escalation": "ESCALATE_TO_HUMAN",
+      "predicted_escalation_reason": "Generated reply could not be grounded in historical evidence; human review is required.",
+      "retrieved_evidence": "{\"evidence_id\": \"1538472\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 9}, \"score\": 0.545243, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Did that. Still happening. Very sporadic. | @MicrosoftHelps No one has heard of this. Texts not arriving, not even on reboot. I have no clue who's texting me. It's gotta be OS related. | @MicrosoftHelps I've done that. I have two phones myself and many others at my disposal. Texts come in sporadically while testing. AT&amp;T verified network ok | @MicrosoftHelps Any new phones on the horizon? | @MicrosoftHelps so they called and the rest is history. I believe this happened after the latest OS updates. At this point I'd like to upgrade | @MicrosoftHelps It is. Texts will work, then randomly I won't receive SOME. Only reason I know was bc something important was happening, &amp; I wasn't replying | @MicrosoftHelps thanks, sounds like WP is dead. If Bill Gates is using an Android, I might as well stop with this two phone nonsense. lol. TY again. | @MicrosoftHelps Anything new in the past two years??? | @115890 @MicrosoftHelps my 950 is dying. I want to upgrade. What can I upgrade to for being a loyal Win Phan? Anything? 950.5?\"}\n{\"evidence_id\": \"2104821\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.502155, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Here we go #Windows10 upgrade started. | @MicrosoftHelps All good. Initially a few teething problems but behaving now. Just issues with Skype for Business on iPhone. As long as my laptop works, I can work ! :-)\"}\n{\"evidence_id\": \"725208\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.501256, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Please bring windows phone OS back | @MicrosoftHelps please bring windows phone back please\"}",
+      "generated_reply": "Hello! Based on the information available, I cannot fully resolve your question regarding messaging on your desktop if you switch to an iPhone X. I recommend contacting Microsoft support directly for further assistance."
+    }
+  }
+}

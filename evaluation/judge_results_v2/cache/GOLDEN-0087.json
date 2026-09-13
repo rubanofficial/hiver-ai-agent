@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0087",
+  "input_fingerprint": "0195c5fd35564cda30f6ad925d8f37057c05ca333b8b842100129527abce1e95",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-12T04:38:09+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0087",
+    "customer_message": "Love the new Windows 10 update @115890 https://t.co/Gci28599Rz",
+    "conversation_context": "MICROSOFT (1096404): @378727 Hello! Just to clarify, are you still stuck at “Restoring your previous version of Windows” screen?",
+    "predicted_intent": "Complaint / Feedback",
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+    "retrieved_evidence": "{\"evidence_id\": \"1496891\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.765142, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Just love a windows 10 update.... #HowLong\"}\n{\"evidence_id\": \"2222483\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.739241, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Microsoft's big new Windows 10 update rolls out today; here's what's new https://t.co/YWgVJ8JC2U\"}\n{\"evidence_id\": \"2658533\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.739035, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Update finally finished.  There are some great new features. | This #windows10 update is taking much longer than I expected.\"}",
+    "generated_reply": "We are glad to hear that you are enjoying the new Windows 10 update, though we understand that the process can sometimes take longer than expected as similar cases have shown. Thank you for reaching out to MicrosoftHelps!"
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 3,\n  \"clarity\": 4,\n  \"escalation_appropriateness\": 2,\n  \"overall_reply_score\": 3,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 3,\n  \"evidence_relevance\": 3,\n  \"grounding_score\": 3,\n  \"reason\": \"The reply addresses the customer's sarcastic or positive feedback about the Windows 10 update using retrieved evidence about update durations, but it fails to properly handle the high-risk complaint intent by not escalating to a human as indicated by the predicted escalation.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 3,
+    "clarity": 4,
+    "escalation_appropriateness": 2,
+    "overall_reply_score": 3,
+    "evidence_support": 3,
+    "unsupported_claims": 3,
+    "evidence_relevance": 3,
+    "grounding_score": 3,
+    "reason": "The reply addresses the customer's sarcastic or positive feedback about the Windows 10 update using retrieved evidence about update durations, but it fails to properly handle the high-risk complaint intent by not escalating to a human as indicated by the predicted escalation.",
+    "overall_score": 3,
+    "short_reason": "The reply addresses the customer's sarcastic or positive feedback about the Windows 10 update using retrieved evidence about update durations, but it fails to properly handle the high-risk complaint intent by not escalating to a human as indicated by the predicted escalation.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 3,
+      "clarity": 4,
+      "escalation_appropriateness": 2
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 3,
+      "evidence_relevance": 3
+    },
+    "golden_id": "GOLDEN-0087",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0087",
+      "customer_message": "Love the new Windows 10 update @115890 https://t.co/Gci28599Rz",
+      "conversation_context": "MICROSOFT (1096404): @378727 Hello! Just to clarify, are you still stuck at “Restoring your previous version of Windows” screen?",
+      "predicted_intent": "Complaint / Feedback",
+      "predicted_escalation": "ESCALATE_TO_HUMAN",
+      "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+      "retrieved_evidence": "{\"evidence_id\": \"1496891\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.765142, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Just love a windows 10 update.... #HowLong\"}\n{\"evidence_id\": \"2222483\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.739241, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Microsoft's big new Windows 10 update rolls out today; here's what's new https://t.co/YWgVJ8JC2U\"}\n{\"evidence_id\": \"2658533\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.739035, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Update finally finished.  There are some great new features. | This #windows10 update is taking much longer than I expected.\"}",
+      "generated_reply": "We are glad to hear that you are enjoying the new Windows 10 update, though we understand that the process can sometimes take longer than expected as similar cases have shown. Thank you for reaching out to MicrosoftHelps!"
+    }
+  }
+}

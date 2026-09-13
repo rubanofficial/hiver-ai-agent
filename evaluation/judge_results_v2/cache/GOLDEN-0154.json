@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0154",
+  "input_fingerprint": "9daaad4ba5bd979dace42a1ddbb9e0bf810f3e443c66960907401521358a0a4b",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T11:42:10+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0154",
+    "customer_message": "Who experiencing some bugs on the new windows 10 fall creators update?",
+    "conversation_context": "MICROSOFT (2142790): @630017 Got it! This issue's strange. We encourage you to post this issue using the Feedback Hub: https://t.co/FKLiJ5IR7g.\nCUSTOMER (2142791): @116230 Unfortunately yes. Ive had to format my laptop back to the creators update luckily i always do a back up of my stuff. \nBut funny thing when i hold down shift + click on the shutdown button my laptop shuts down. I got that fix on a forum on the web. Kindly help\nCUSTOMER (2142792): @630017 Oh goodness! Is all of this only starting since the Fall Creators Update?\nCUSTOMER (2142793): @116230 Hi guys. When i try and shut down my laptop it doesnt go off it takes me directly to the lock screen, my hotspot has an issue in connectivity and also when i awake my laptop from hibernation or sleep the screen gets distorted and flickers end result i have to force shut down\nCUSTOMER (2142794): @630017 Hi, Steve. Could you share some details about what you're experiencing? Perhaps we can help.",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"155913\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.775637, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"That Windows 10 Fall Creators Update is something else; isn't it?\"}\n{\"evidence_id\": \"847864\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.709712, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Windows 10 fall creators update done 🔥🔥🔥\"}\n{\"evidence_id\": \"1574938\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.709063, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Get the Windows 10 Fall Creators Update!\\nhttps://t.co/yKql3pzN8R\"}",
+    "generated_reply": "Hello! Based on similar cases, many users have experienced the Windows 10 Fall Creators Update. If you are encountering bugs, please let us know specific details so we can assist you further, or you can check for updates and support directly through Microsoft Support."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 4,\n  \"clarity\": 4,\n  \"escalation_appropriateness\": 4,\n  \"overall_reply_score\": 3,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 3,\n  \"evidence_relevance\": 2,\n  \"grounding_score\": 3,\n  \"reason\": \"The reply acknowledges the customer's issues with the Fall Creators Update and asks for details, but the retrieved evidence only contains generic chatter about the update rather than specific troubleshooting steps for shutdown, hotspot, or display bugs.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 4,
+    "clarity": 4,
+    "escalation_appropriateness": 4,
+    "overall_reply_score": 3,
+    "evidence_support": 3,
+    "unsupported_claims": 3,
+    "evidence_relevance": 2,
+    "grounding_score": 3,
+    "reason": "The reply acknowledges the customer's issues with the Fall Creators Update and asks for details, but the retrieved evidence only contains generic chatter about the update rather than specific troubleshooting steps for shutdown, hotspot, or display bugs.",
+    "overall_score": 3,
+    "short_reason": "The reply acknowledges the customer's issues with the Fall Creators Update and asks for details, but the retrieved evidence only contains generic chatter about the update rather than specific troubleshooting steps for shutdown, hotspot, or display bugs.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 4,
+      "clarity": 4,
+      "escalation_appropriateness": 4
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 3,
+      "evidence_relevance": 2
+    },
+    "golden_id": "GOLDEN-0154",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0154",
+      "customer_message": "Who experiencing some bugs on the new windows 10 fall creators update?",
+      "conversation_context": "MICROSOFT (2142790): @630017 Got it! This issue's strange. We encourage you to post this issue using the Feedback Hub: https://t.co/FKLiJ5IR7g.\nCUSTOMER (2142791): @116230 Unfortunately yes. Ive had to format my laptop back to the creators update luckily i always do a back up of my stuff. \nBut funny thing when i hold down shift + click on the shutdown button my laptop shuts down. I got that fix on a forum on the web. Kindly help\nCUSTOMER (2142792): @630017 Oh goodness! Is all of this only starting since the Fall Creators Update?\nCUSTOMER (2142793): @116230 Hi guys. When i try and shut down my laptop it doesnt go off it takes me directly to the lock screen, my hotspot has an issue in connectivity and also when i awake my laptop from hibernation or sleep the screen gets distorted and flickers end result i have to force shut down\nCUSTOMER (2142794): @630017 Hi, Steve. Could you share some details about what you're experiencing? Perhaps we can help.",
+      "predicted_intent": "Technical Troubleshooting",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"155913\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.775637, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"That Windows 10 Fall Creators Update is something else; isn't it?\"}\n{\"evidence_id\": \"847864\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.709712, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Windows 10 fall creators update done 🔥🔥🔥\"}\n{\"evidence_id\": \"1574938\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.709063, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Get the Windows 10 Fall Creators Update!\\nhttps://t.co/yKql3pzN8R\"}",
+      "generated_reply": "Hello! Based on similar cases, many users have experienced the Windows 10 Fall Creators Update. If you are encountering bugs, please let us know specific details so we can assist you further, or you can check for updates and support directly through Microsoft Support."
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0200",
+  "input_fingerprint": "2a9dcec1499f44c39d867c42d91d22cbd8888b51a7da1104152e0fbd9c8c6eaf",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:47:32+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0200",
+    "customer_message": "@MicrosoftHelps Where can I get support from Germany? I've got a problem with Windows 10: My Desktop is gone.",
+    "conversation_context": "MICROSOFT (2980395): @822010 Help is here, Dominik! You can contact our Support team here: https://t.co/12xaHLkudr. Just find your country or region.",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"2147442\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.639732, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps  I am frustrated beyond belief. I have tried online support and phone support with ZERO  help or an actual live person. How may I get actual support for Windows 10?????\"}\n{\"evidence_id\": \"520597\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.638977, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I have so many problems with Windows. Talked to 10 techs and laptop is still not working.  Help!!\"}\n{\"evidence_id\": \"906306\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 4}, \"score\": 0.61904, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps We're in England. Spent all day trying to resolve. Just want money back so can buy alternative | @MicrosoftHelps need help with 2 month surface that won't work. No joy on phone to \\\"helpline\\\". Need the laptop exchanged for working model | @MicrosoftHelps What’s best way to escalate? | @MicrosoftHelps May do-waiting for action still via FB messenger.There is no UK support here.\"}",
+    "generated_reply": "Hello, I apologize for the frustration you are experiencing with your Windows 10 desktop. As I do not have specific information regarding support options for Germany in my current resources, I recommend contacting Microsoft support directly for assistance with your issue."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 3,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 4,\n  \"evidence_relevance\": 2,\n  \"grounding_score\": 3,\n  \"reason\": \"The reply addresses the customer's location query by suggesting they contact Microsoft support directly, but it fails to provide the specific German support link found in the context. The evidence provided was also largely irrelevant historical tweets.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 3,
+    "evidence_support": 3,
+    "unsupported_claims": 4,
+    "evidence_relevance": 2,
+    "grounding_score": 3,
+    "reason": "The reply addresses the customer's location query by suggesting they contact Microsoft support directly, but it fails to provide the specific German support link found in the context. The evidence provided was also largely irrelevant historical tweets.",
+    "overall_score": 3,
+    "short_reason": "The reply addresses the customer's location query by suggesting they contact Microsoft support directly, but it fails to provide the specific German support link found in the context. The evidence provided was also largely irrelevant historical tweets.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 4,
+      "evidence_relevance": 2
+    },
+    "golden_id": "GOLDEN-0200",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0200",
+      "customer_message": "@MicrosoftHelps Where can I get support from Germany? I've got a problem with Windows 10: My Desktop is gone.",
+      "conversation_context": "MICROSOFT (2980395): @822010 Help is here, Dominik! You can contact our Support team here: https://t.co/12xaHLkudr. Just find your country or region.",
+      "predicted_intent": "Technical Troubleshooting",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"2147442\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.639732, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps  I am frustrated beyond belief. I have tried online support and phone support with ZERO  help or an actual live person. How may I get actual support for Windows 10?????\"}\n{\"evidence_id\": \"520597\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.638977, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I have so many problems with Windows. Talked to 10 techs and laptop is still not working.  Help!!\"}\n{\"evidence_id\": \"906306\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 4}, \"score\": 0.61904, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps We're in England. Spent all day trying to resolve. Just want money back so can buy alternative | @MicrosoftHelps need help with 2 month surface that won't work. No joy on phone to \\\"helpline\\\". Need the laptop exchanged for working model | @MicrosoftHelps What’s best way to escalate? | @MicrosoftHelps May do-waiting for action still via FB messenger.There is no UK support here.\"}",
+      "generated_reply": "Hello, I apologize for the frustration you are experiencing with your Windows 10 desktop. As I do not have specific information regarding support options for Germany in my current resources, I recommend contacting Microsoft support directly for assistance with your issue."
+    }
+  }
+}

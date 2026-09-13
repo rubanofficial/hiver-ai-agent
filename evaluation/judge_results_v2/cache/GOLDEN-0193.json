@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0193",
+  "input_fingerprint": "4f48d2926f62dc65321d091959b92e9353ef2247a9f5f8deef7e123b078ddb07",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T11:44:19+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0193",
+    "customer_message": "Ugh. #Windows10Mobile is autocorrecting problem to 'problem'. I do not want sarcastic air quotes... Usually. @MicrosoftHelps",
+    "conversation_context": "MICROSOFT (2920960): @355968 Hi, Mark. We're here for you. If you want to disable auto correct on your phone, just go to Settings &gt; Time &amp; Language &gt; Keyboard and tap on your keyboard on the list of keyboards. There you will find all auto correct options. Keep us updated.\nCUSTOMER (2920961): @MicrosoftHelps I don't want to turn off autocorrect. I want to have problem be correctly displayed (no quotes) when using swipe gestures on my keyboard.",
+    "predicted_intent": "Product / Feature How-To",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"143944\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.614201, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I hope you'll still be able to be the problem? | Windows 10 understand how buggy, wow.\"}\n{\"evidence_id\": \"2290467\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.579279, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Windows 10 mobile, version 1703. OS build 10.0.15063.0001 | @MicrosoftHelps I could not do a soft restart that way. It only took me to the Feedback hub (I did report my issue there). What now?\"}\n{\"evidence_id\": \"375025\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 3}, \"score\": 0.572132, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I 've the last W10 Mobile build 15252 ,.. https://t.co/y9DTJjKs3L | #WindowsInsiders .@115890 Please tell me any fix to build 10.0.15252 ?? The store is fall in my Lumia 640XL @135958 https://t.co/itbtDaFmrc | @MicrosoftHelps Ok, Just this is the problem, because after update my phone to build 15252, issue its present,..\"}",
+    "generated_reply": "We understand you are experiencing an autocorrect issue on Windows 10 Mobile. Because this case requires further investigation into your specific build and device settings, please contact Microsoft Support so we can look into this for you."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 4,\n  \"clarity\": 4,\n  \"escalation_appropriateness\": 4,\n  \"overall_reply_score\": 3,\n  \"evidence_support\": 2,\n  \"unsupported_claims\": 3,\n  \"evidence_relevance\": 2,\n  \"grounding_score\": 2,\n  \"reason\": \"The customer reported a specific swipe typing autocorrect issue, but the agent gave a generic escalation response instead of troubleshooting specific to the swipe feature. The retrieved evidence is also mostly irrelevant to the customer's specific problem.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 4,
+    "clarity": 4,
+    "escalation_appropriateness": 4,
+    "overall_reply_score": 3,
+    "evidence_support": 2,
+    "unsupported_claims": 3,
+    "evidence_relevance": 2,
+    "grounding_score": 2,
+    "reason": "The customer reported a specific swipe typing autocorrect issue, but the agent gave a generic escalation response instead of troubleshooting specific to the swipe feature. The retrieved evidence is also mostly irrelevant to the customer's specific problem.",
+    "overall_score": 3,
+    "short_reason": "The customer reported a specific swipe typing autocorrect issue, but the agent gave a generic escalation response instead of troubleshooting specific to the swipe feature. The retrieved evidence is also mostly irrelevant to the customer's specific problem.",
+    "grounding_decision": "UNSUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 4,
+      "clarity": 4,
+      "escalation_appropriateness": 4
+    },
+    "evidence_grounding": {
+      "evidence_support": 2,
+      "unsupported_claims": 3,
+      "evidence_relevance": 2
+    },
+    "golden_id": "GOLDEN-0193",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0193",
+      "customer_message": "Ugh. #Windows10Mobile is autocorrecting problem to 'problem'. I do not want sarcastic air quotes... Usually. @MicrosoftHelps",
+      "conversation_context": "MICROSOFT (2920960): @355968 Hi, Mark. We're here for you. If you want to disable auto correct on your phone, just go to Settings &gt; Time &amp; Language &gt; Keyboard and tap on your keyboard on the list of keyboards. There you will find all auto correct options. Keep us updated.\nCUSTOMER (2920961): @MicrosoftHelps I don't want to turn off autocorrect. I want to have problem be correctly displayed (no quotes) when using swipe gestures on my keyboard.",
+      "predicted_intent": "Product / Feature How-To",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"143944\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.614201, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I hope you'll still be able to be the problem? | Windows 10 understand how buggy, wow.\"}\n{\"evidence_id\": \"2290467\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.579279, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Windows 10 mobile, version 1703. OS build 10.0.15063.0001 | @MicrosoftHelps I could not do a soft restart that way. It only took me to the Feedback hub (I did report my issue there). What now?\"}\n{\"evidence_id\": \"375025\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 3}, \"score\": 0.572132, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I 've the last W10 Mobile build 15252 ,.. https://t.co/y9DTJjKs3L | #WindowsInsiders .@115890 Please tell me any fix to build 10.0.15252 ?? The store is fall in my Lumia 640XL @135958 https://t.co/itbtDaFmrc | @MicrosoftHelps Ok, Just this is the problem, because after update my phone to build 15252, issue its present,..\"}",
+      "generated_reply": "We understand you are experiencing an autocorrect issue on Windows 10 Mobile. Because this case requires further investigation into your specific build and device settings, please contact Microsoft Support so we can look into this for you."
+    }
+  }
+}

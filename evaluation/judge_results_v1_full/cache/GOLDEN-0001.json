@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0001",
+  "input_fingerprint": "4879656495c7a52c5ffed685f483423cd4122cad9ccabf1e5306d6e9c932bb7f",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:28:00+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0001",
+    "customer_message": "@MicrosoftHelps Is there anyway to update the shipping address on an existing Microsoft Store order? I just recently moved.",
+    "conversation_context": "MICROSOFT (9684): @117762 We want to know your experience with us, James! Rate our support by clicking this link: https://t.co/V2K0N6f79E. Thanks!\nCUSTOMER (9685): @MicrosoftHelps Seems to be good.  Support responded by email saying that the order status won't change online, but the warehouse will ship to the new addr.\nMICROSOFT (9686): @117762 That sounds good! Feel free to contact us if you need assistance. 🙂\nMICROSOFT (9687): @117762 Just checking if you need further help. Is everything good now? https://t.co/3qcAsLFkaY\nCUSTOMER (9688): @MicrosoftHelps I was helped when I called support again. However, the address hasn't changed in the order status yet.\nMICROSOFT (9689): @117762 Thank you for your response. What was the feedback given to you by the support team? https://t.co/3qcAsLFkaY\nMICROSOFT (9690): @117762 Hello, James. Just doing a follow-up on your case. Are you successful in updating your address?",
+    "predicted_intent": "Order / Delivery",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"54888\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 18}, \"score\": 0.684384, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps @123127 @MicrosoftHelps Got my replacement from FedEx today! It was a pleasant surprise! Thank you! | @MicrosoftHelps @123127 @2696 Any updates on this issue? Its been 2 weeks... | @MicrosoftHelps @123127 @2696 @123127 @MicrosoftHelps Any update on the address change? I was told I was going to get a call back 5 days ago and also requested via email | @MicrosoftHelps @123127 @2696 change the shipping address?  The shipping address you are sending to is old as I do not live there anymore.  Thanks again! | @MicrosoftHelps @123127 @MicrosoftHelps @2696 Thank you for the help!  I got the emails just now describing the process. Is there any way for me to | @MicrosoftHelps @123127 @MicrosoftHelps @2696  Still no call or contact beyond the email asking me again for my serial number Its been almost a week | @MicrosoftHelps @123127 @2696 Thank you! Received email from support saying its escalated to Tier 3 now.  I am cautiously optimistic this will be resolved. | @MicrosoftHelps @123127 @2696 Another picture, this time with the glass actually started to come away from the body. https://t.co/zhHF3fSUTH | @MicrosoftHelps @123127 @2696 Some pictures if you need to see what happened. You can see where the edges were flat and where the bulge is taking place on both sides. https://t.co/askEqTWkac | @MicrosoftHelps @123127 @2696 I'll send in again my proof of purchase. Whatever happen to the escalation and the call from \\\"Rapid Response\\\"? Just more misinformation? | @MicrosoftHelps @123127 @2696 @MicrosoftHelps so after 4 days I get a dm on Twitter to do the exact same thing I already did the first time I called | @MicrosoftHelps No I am still waiting for a call back. It's been 2 days and I can't use my surface in fear of the battery exploding... | @123127 @2696 Eventually got escalated to Lewis, here's hoping I get a call today to address this... | @123127 @2696 Called in this morning and was told \\\"Sorry they are late, there is no one I can escalate this too.\\\" Is this the kind of service I can expect | @123127 @2696 @123127 so I called in last night and was told that I would be getting a call by 8AM. No call, cancelled my morning meetings | @123127 I loved my Surface Pro 4! | @123127 my battery is bulging out. Called support and am waiting for a call back tomorrow. Really hoping we can resolve the issue! | @MicrosoftHelps Not yet, I'm still waiting for confirmation of address change on the shipment.\"}\n{\"evidence_id\": \"1917595\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.652959, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Why can't I change my delivery address on an Xbox One X pre-order? That's been an option on other sites for years\"}\n{\"evidence_id\": \"38521\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.565973, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps i made a mistake when i ordered @116547 on Microsoft store, may you dDM me to fix it?\"}",
+    "generated_reply": "Hello! The available historical evidence is insufficient to confirm whether shipping addresses can be updated on existing Microsoft Store orders. Please contact Microsoft support directly for assistance with your order."
+  },
+  "raw_response": "{\n  \"correctness\": 4,\n  \"helpfulness\": 4,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 4,\n  \"evidence_support\": 5,\n  \"unsupported_claims\": 5,\n  \"evidence_relevance\": 3,\n  \"grounding_score\": 5,\n  \"reason\": \"The reply correctly identifies that the evidence lacks specific instructions for updating a shipping address and appropriately directs the customer to support without making unsupported claims.\"\n}",
+  "result": {
+    "correctness": 4,
+    "helpfulness": 4,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 4,
+    "evidence_support": 5,
+    "unsupported_claims": 5,
+    "evidence_relevance": 3,
+    "grounding_score": 5,
+    "reason": "The reply correctly identifies that the evidence lacks specific instructions for updating a shipping address and appropriately directs the customer to support without making unsupported claims.",
+    "overall_score": 4,
+    "short_reason": "The reply correctly identifies that the evidence lacks specific instructions for updating a shipping address and appropriately directs the customer to support without making unsupported claims.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 4,
+      "helpfulness": 4,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 5,
+      "unsupported_claims": 5,
+      "evidence_relevance": 3
+    },
+    "golden_id": "GOLDEN-0001",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0001",
+      "customer_message": "@MicrosoftHelps Is there anyway to update the shipping address on an existing Microsoft Store order? I just recently moved.",
+      "conversation_context": "MICROSOFT (9684): @117762 We want to know your experience with us, James! Rate our support by clicking this link: https://t.co/V2K0N6f79E. Thanks!\nCUSTOMER (9685): @MicrosoftHelps Seems to be good.  Support responded by email saying that the order status won't change online, but the warehouse will ship to the new addr.\nMICROSOFT (9686): @117762 That sounds good! Feel free to contact us if you need assistance. 🙂\nMICROSOFT (9687): @117762 Just checking if you need further help. Is everything good now? https://t.co/3qcAsLFkaY\nCUSTOMER (9688): @MicrosoftHelps I was helped when I called support again. However, the address hasn't changed in the order status yet.\nMICROSOFT (9689): @117762 Thank you for your response. What was the feedback given to you by the support team? https://t.co/3qcAsLFkaY\nMICROSOFT (9690): @117762 Hello, James. Just doing a follow-up on your case. Are you successful in updating your address?",
+      "predicted_intent": "Order / Delivery",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"54888\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 18}, \"score\": 0.684384, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps @123127 @MicrosoftHelps Got my replacement from FedEx today! It was a pleasant surprise! Thank you! | @MicrosoftHelps @123127 @2696 Any updates on this issue? Its been 2 weeks... | @MicrosoftHelps @123127 @2696 @123127 @MicrosoftHelps Any update on the address change? I was told I was going to get a call back 5 days ago and also requested via email | @MicrosoftHelps @123127 @2696 change the shipping address?  The shipping address you are sending to is old as I do not live there anymore.  Thanks again! | @MicrosoftHelps @123127 @MicrosoftHelps @2696 Thank you for the help!  I got the emails just now describing the process. Is there any way for me to | @MicrosoftHelps @123127 @MicrosoftHelps @2696  Still no call or contact beyond the email asking me again for my serial number Its been almost a week | @MicrosoftHelps @123127 @2696 Thank you! Received email from support saying its escalated to Tier 3 now.  I am cautiously optimistic this will be resolved. | @MicrosoftHelps @123127 @2696 Another picture, this time with the glass actually started to come away from the body. https://t.co/zhHF3fSUTH | @MicrosoftHelps @123127 @2696 Some pictures if you need to see what happened. You can see where the edges were flat and where the bulge is taking place on both sides. https://t.co/askEqTWkac | @MicrosoftHelps @123127 @2696 I'll send in again my proof of purchase. Whatever happen to the escalation and the call from \\\"Rapid Response\\\"? Just more misinformation? | @MicrosoftHelps @123127 @2696 @MicrosoftHelps so after 4 days I get a dm on Twitter to do the exact same thing I already did the first time I called | @MicrosoftHelps No I am still waiting for a call back. It's been 2 days and I can't use my surface in fear of the battery exploding... | @123127 @2696 Eventually got escalated to Lewis, here's hoping I get a call today to address this... | @123127 @2696 Called in this morning and was told \\\"Sorry they are late, there is no one I can escalate this too.\\\" Is this the kind of service I can expect | @123127 @2696 @123127 so I called in last night and was told that I would be getting a call by 8AM. No call, cancelled my morning meetings | @123127 I loved my Surface Pro 4! | @123127 my battery is bulging out. Called support and am waiting for a call back tomorrow. Really hoping we can resolve the issue! | @MicrosoftHelps Not yet, I'm still waiting for confirmation of address change on the shipment.\"}\n{\"evidence_id\": \"1917595\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.652959, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Why can't I change my delivery address on an Xbox One X pre-order? That's been an option on other sites for years\"}\n{\"evidence_id\": \"38521\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.565973, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps i made a mistake when i ordered @116547 on Microsoft store, may you dDM me to fix it?\"}",
+      "generated_reply": "Hello! The available historical evidence is insufficient to confirm whether shipping addresses can be updated on existing Microsoft Store orders. Please contact Microsoft support directly for assistance with your order."
+    }
+  }
+}

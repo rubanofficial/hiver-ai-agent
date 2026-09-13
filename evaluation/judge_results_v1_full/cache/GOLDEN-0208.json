@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0208",
+  "input_fingerprint": "371447071904af55ae97d7598459c2a4d69dfb1228501d7fb1b37b77e6106dc8",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:49:07+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0208",
+    "customer_message": "@MicrosoftHelps [2/2] Can't sync, can't send, can't receive email. Tried WiFi and LTE, reboot, soft reset, hard reset. No dice. Please help.",
+    "conversation_context": "MICROSOFT (19884): @120367 Hi, Ryan. How's it going? Please let us know if you need further assistance. We're here for you.\nCUSTOMER (19885): @MicrosoftHelps If possible, please escalate to the right people. I can't use email on my Lumia. Nor can my father on his. Both email failed at same time.\nCUSTOMER (19886): @MicrosoftHelps Still stuck. Microsoft Support chat has been kind but they could not find a fix. Support docs from https://t.co/QxtzK3XTQD not helpful.[1/2]\nCUSTOMER (19887): @MicrosoftHelps Error code 80072EFD is a server issue. Any idea what’s going on with https://t.co/kyAFzGCRGU for Windows Phone devices on your end? [2/2]\nCUSTOMER (19888): @MicrosoftHelps Email is set up correctly on all three devices as per instructions. Still can't sync properly.\nMICROSOFT (19889): @120367 We'll do. Were you given a case number after contacting our support? If yes, kindly DM it so we can look into it.\nCUSTOMER (19890): @MicrosoftHelps Done. Case numbers sent via DM.\nMICROSOFT (19891): @120367 That's strange. It'd be best to get in touch with our Answer Desk team for in-depth support here: https://t.co/VXGrUK3x2q. https://t.co/3qcAsLFkaY\nMICROSOFT (19892): @120367 We suggest that you check if you set up your email correctly. Visit this link: https://t.co/FVDi6i31pS. Tweet us back!\nCUSTOMER (19893): @MicrosoftHelps There is no version number. Outlook on WP8.1 is a built-in non-updateable app.\nMICROSOFT (19894): @120367 Let's sort this out, Ryan. Could you check your Outlook version? Here's how: https://t.co/XvqZQyTwN6.",
+    "predicted_intent": "Network / Connectivity",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"1741392\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 4}, \"score\": 0.744245, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Private. No. Was working fine yesterday and today it is not. Tried resetting Mail but the accounts are still there and not fixed. | @MicrosoftHelps Seems to resolve itself using  a different network, but windows mail is the only thing affected when using my normal network. | @MicrosoftHelps No error message. Occasionally get \\\"couldn't download attachments\\\".  Can't send or receive. | @MicrosoftHelps major problems with the mail app. Can't sync or download attachments. Emails stuck in outbox. Email provider is fine.\"}\n{\"evidence_id\": \"385569\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.738675, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Can`t log in... https://t.co/kQkwOph7so\"}\n{\"evidence_id\": \"750176\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.728778, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Hi, What my personnal mail server isn't able to send an email to your servers ? ^^ https://t.co/yVFQBznxDT\"}",
+    "generated_reply": "We understand how frustrating it is when you can't send, receive, or sync your emails. Based on similar issues, users have sometimes found that switching to a different network helps resolve the problem. If this persists, please contact Microsoft support directly for further assistance."
+  },
+  "raw_response": "{\n  \"correctness\": 4,\n  \"helpfulness\": 4,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 4,\n  \"evidence_support\": 4,\n  \"unsupported_claims\": 5,\n  \"evidence_relevance\": 4,\n  \"grounding_score\": 4,\n  \"reason\": \"The reply addresses the customer's sync issue, utilizes retrieved evidence regarding network switching, and maintains high clarity and professional tone.\"\n}",
+  "result": {
+    "correctness": 4,
+    "helpfulness": 4,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 4,
+    "evidence_support": 4,
+    "unsupported_claims": 5,
+    "evidence_relevance": 4,
+    "grounding_score": 4,
+    "reason": "The reply addresses the customer's sync issue, utilizes retrieved evidence regarding network switching, and maintains high clarity and professional tone.",
+    "overall_score": 4,
+    "short_reason": "The reply addresses the customer's sync issue, utilizes retrieved evidence regarding network switching, and maintains high clarity and professional tone.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 4,
+      "helpfulness": 4,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 4,
+      "unsupported_claims": 5,
+      "evidence_relevance": 4
+    },
+    "golden_id": "GOLDEN-0208",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0208",
+      "customer_message": "@MicrosoftHelps [2/2] Can't sync, can't send, can't receive email. Tried WiFi and LTE, reboot, soft reset, hard reset. No dice. Please help.",
+      "conversation_context": "MICROSOFT (19884): @120367 Hi, Ryan. How's it going? Please let us know if you need further assistance. We're here for you.\nCUSTOMER (19885): @MicrosoftHelps If possible, please escalate to the right people. I can't use email on my Lumia. Nor can my father on his. Both email failed at same time.\nCUSTOMER (19886): @MicrosoftHelps Still stuck. Microsoft Support chat has been kind but they could not find a fix. Support docs from https://t.co/QxtzK3XTQD not helpful.[1/2]\nCUSTOMER (19887): @MicrosoftHelps Error code 80072EFD is a server issue. Any idea what’s going on with https://t.co/kyAFzGCRGU for Windows Phone devices on your end? [2/2]\nCUSTOMER (19888): @MicrosoftHelps Email is set up correctly on all three devices as per instructions. Still can't sync properly.\nMICROSOFT (19889): @120367 We'll do. Were you given a case number after contacting our support? If yes, kindly DM it so we can look into it.\nCUSTOMER (19890): @MicrosoftHelps Done. Case numbers sent via DM.\nMICROSOFT (19891): @120367 That's strange. It'd be best to get in touch with our Answer Desk team for in-depth support here: https://t.co/VXGrUK3x2q. https://t.co/3qcAsLFkaY\nMICROSOFT (19892): @120367 We suggest that you check if you set up your email correctly. Visit this link: https://t.co/FVDi6i31pS. Tweet us back!\nCUSTOMER (19893): @MicrosoftHelps There is no version number. Outlook on WP8.1 is a built-in non-updateable app.\nMICROSOFT (19894): @120367 Let's sort this out, Ryan. Could you check your Outlook version? Here's how: https://t.co/XvqZQyTwN6.",
+      "predicted_intent": "Network / Connectivity",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"1741392\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 4}, \"score\": 0.744245, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Private. No. Was working fine yesterday and today it is not. Tried resetting Mail but the accounts are still there and not fixed. | @MicrosoftHelps Seems to resolve itself using  a different network, but windows mail is the only thing affected when using my normal network. | @MicrosoftHelps No error message. Occasionally get \\\"couldn't download attachments\\\".  Can't send or receive. | @MicrosoftHelps major problems with the mail app. Can't sync or download attachments. Emails stuck in outbox. Email provider is fine.\"}\n{\"evidence_id\": \"385569\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.738675, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Can`t log in... https://t.co/kQkwOph7so\"}\n{\"evidence_id\": \"750176\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.728778, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Hi, What my personnal mail server isn't able to send an email to your servers ? ^^ https://t.co/yVFQBznxDT\"}",
+      "generated_reply": "We understand how frustrating it is when you can't send, receive, or sync your emails. Based on similar issues, users have sometimes found that switching to a different network helps resolve the problem. If this persists, please contact Microsoft support directly for further assistance."
+    }
+  }
+}

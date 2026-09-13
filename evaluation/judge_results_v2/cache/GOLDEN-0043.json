@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0043",
+  "input_fingerprint": "616b193c22041f58e744634758d320ed71b282a101848b778f0a5a22c35e3f80",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-12T04:33:15+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0043",
+    "customer_message": "@MicrosoftHelps just bought a brand new Patrol Tech controller and not only does it not stay connected but your site will not let me register so I can make a Exchange. ER47140/16",
+    "conversation_context": "MICROSOFT (470470): @227016 Hi there! How is it going? Is everything working fine now? https://t.co/3qcAsLFkaY\nCUSTOMER (470471): @MicrosoftHelps No, I'm stuck without a controller for about another week or so until they send the replacement so I would say no everything is not worked out until I get the product I paid for last week",
+    "predicted_intent": "Warranty / Repair",
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "No evidence reached the confidence threshold for a safe autonomous reply (minimum 0.60); human review is required.",
+    "retrieved_evidence": "{\"evidence_id\": \"900282\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.50782, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"My controller doesn’t work after I updated it @MicrosoftHelps\"}\n{\"evidence_id\": \"291012\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.500783, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \". @MicrosoftHelps hmm seem to be caught in a loop, the link here just keeps redirecting me back to the page I'm on : https://t.co/Fj4vgkRRVF https://t.co/vjWPtiKuL2\"}\n{\"evidence_id\": \"761790\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.498512, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Useless lol | @MicrosoftHelps hi, my Xbox account has an active enforcement stopping me playing online and I don’t know why? Can you help?\"}",
+    "generated_reply": "We are sorry to hear that your new Patrol Tech controller is having connection issues and that you are encountering trouble registering it on our site. Because this requires further investigation regarding your device registration and exchange options, please contact Microsoft Support so our team can look into your account and device entitlements."
+  },
+  "raw_response": "{\n  \"correctness\": 4,\n  \"helpfulness\": 4,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 4,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 4,\n  \"evidence_relevance\": 2,\n  \"grounding_score\": 3,\n  \"reason\": \"The reply appropriately advises the customer to contact support for registration and exchange help, acknowledging the issues mentioned, though the retrieved evidence was mostly low relevance.\"\n}",
+  "result": {
+    "correctness": 4,
+    "helpfulness": 4,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 4,
+    "evidence_support": 3,
+    "unsupported_claims": 4,
+    "evidence_relevance": 2,
+    "grounding_score": 3,
+    "reason": "The reply appropriately advises the customer to contact support for registration and exchange help, acknowledging the issues mentioned, though the retrieved evidence was mostly low relevance.",
+    "overall_score": 4,
+    "short_reason": "The reply appropriately advises the customer to contact support for registration and exchange help, acknowledging the issues mentioned, though the retrieved evidence was mostly low relevance.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 4,
+      "helpfulness": 4,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 4,
+      "evidence_relevance": 2
+    },
+    "golden_id": "GOLDEN-0043",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0043",
+      "customer_message": "@MicrosoftHelps just bought a brand new Patrol Tech controller and not only does it not stay connected but your site will not let me register so I can make a Exchange. ER47140/16",
+      "conversation_context": "MICROSOFT (470470): @227016 Hi there! How is it going? Is everything working fine now? https://t.co/3qcAsLFkaY\nCUSTOMER (470471): @MicrosoftHelps No, I'm stuck without a controller for about another week or so until they send the replacement so I would say no everything is not worked out until I get the product I paid for last week",
+      "predicted_intent": "Warranty / Repair",
+      "predicted_escalation": "ESCALATE_TO_HUMAN",
+      "predicted_escalation_reason": "No evidence reached the confidence threshold for a safe autonomous reply (minimum 0.60); human review is required.",
+      "retrieved_evidence": "{\"evidence_id\": \"900282\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.50782, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"My controller doesn’t work after I updated it @MicrosoftHelps\"}\n{\"evidence_id\": \"291012\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.500783, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \". @MicrosoftHelps hmm seem to be caught in a loop, the link here just keeps redirecting me back to the page I'm on : https://t.co/Fj4vgkRRVF https://t.co/vjWPtiKuL2\"}\n{\"evidence_id\": \"761790\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.498512, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Useless lol | @MicrosoftHelps hi, my Xbox account has an active enforcement stopping me playing online and I don’t know why? Can you help?\"}",
+      "generated_reply": "We are sorry to hear that your new Patrol Tech controller is having connection issues and that you are encountering trouble registering it on our site. Because this requires further investigation regarding your device registration and exchange options, please contact Microsoft Support so our team can look into your account and device entitlements."
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0197",
+  "input_fingerprint": "dade495a03cc95e54f95236de3b7b28e20a3f41556806c129189b105e3146ffc",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T11:44:25+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0197",
+    "customer_message": "Am I the only one that prefers the Win 10 mail app over Outlook 2016?",
+    "conversation_context": "MICROSOFT (2944171): @813337 What other features would you like to be added to Outlook 2016? You can submit your suggestions and insights by going to this link: https://t.co/HGjfDIiTSJ.",
+    "predicted_intent": "Product / Feature How-To",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"1571367\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 3}, \"score\": 0.685996, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Right now i like the e mail thing best. (Only thing i have noticed) xD | @MicrosoftHelps I just downloaded it 😁 seems great! | Big update for windows10, does anyone know more? #Windows10\"}\n{\"evidence_id\": \"2089624\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.659537, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Gotta admit, I do like how the Mail app looks in the new Windows 10 update\"}\n{\"evidence_id\": \"2201385\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.655607, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Can we expect Outlook Mail client which is there on Windows Mobile 10 for Android ? Outlook Mai and Calendar is awesome on Windows Phone and we need same experience on Android.\"}",
+    "generated_reply": "Many users appreciate the design and features of the Windows 10 Mail app! You are certainly not alone in preferring it."
+  },
+  "raw_response": "{\n  \"correctness\": 5,\n  \"helpfulness\": 4,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 5,\n  \"evidence_support\": 5,\n  \"unsupported_claims\": 5,\n  \"evidence_relevance\": 4,\n  \"grounding_score\": 5,\n  \"reason\": \"The reply directly addresses the customer's subjective question with a friendly and accurate tone, supported by evidence showing other users also like the Windows 10 Mail app.\"\n}",
+  "result": {
+    "correctness": 5,
+    "helpfulness": 4,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 5,
+    "evidence_support": 5,
+    "unsupported_claims": 5,
+    "evidence_relevance": 4,
+    "grounding_score": 5,
+    "reason": "The reply directly addresses the customer's subjective question with a friendly and accurate tone, supported by evidence showing other users also like the Windows 10 Mail app.",
+    "overall_score": 5,
+    "short_reason": "The reply directly addresses the customer's subjective question with a friendly and accurate tone, supported by evidence showing other users also like the Windows 10 Mail app.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 5,
+      "helpfulness": 4,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 5,
+      "unsupported_claims": 5,
+      "evidence_relevance": 4
+    },
+    "golden_id": "GOLDEN-0197",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0197",
+      "customer_message": "Am I the only one that prefers the Win 10 mail app over Outlook 2016?",
+      "conversation_context": "MICROSOFT (2944171): @813337 What other features would you like to be added to Outlook 2016? You can submit your suggestions and insights by going to this link: https://t.co/HGjfDIiTSJ.",
+      "predicted_intent": "Product / Feature How-To",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"1571367\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 3}, \"score\": 0.685996, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Right now i like the e mail thing best. (Only thing i have noticed) xD | @MicrosoftHelps I just downloaded it 😁 seems great! | Big update for windows10, does anyone know more? #Windows10\"}\n{\"evidence_id\": \"2089624\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.659537, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Gotta admit, I do like how the Mail app looks in the new Windows 10 update\"}\n{\"evidence_id\": \"2201385\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.655607, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Can we expect Outlook Mail client which is there on Windows Mobile 10 for Android ? Outlook Mai and Calendar is awesome on Windows Phone and we need same experience on Android.\"}",
+      "generated_reply": "Many users appreciate the design and features of the Windows 10 Mail app! You are certainly not alone in preferring it."
+    }
+  }
+}

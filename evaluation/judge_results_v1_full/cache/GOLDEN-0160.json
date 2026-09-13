@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0160",
+  "input_fingerprint": "bf86bd8f4d97f2bc4ce3f7f1ffd0fa754ec8cc1ffe845c58f02dd7b6c8707548",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:43:31+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0160",
+    "customer_message": "Loving windows 10 Fall Creators Update 😍😊",
+    "conversation_context": "MICROSOFT (2208302): @645584 That's sweet! 😍 What's your favorite Fall Creators Update feature so far? 😍 https://t.co/3qcAsLFkaY\nCUSTOMER (2208303): @MicrosoftHelps I always loved Cortana and now she can turn off my pc😍😊 that's awesome. But my favorite Fall Creators Update so far is Fluent design😍",
+    "predicted_intent": "Complaint / Feedback",
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+    "retrieved_evidence": "{\"evidence_id\": \"847864\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.91156, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Windows 10 fall creators update done 🔥🔥🔥\"}\n{\"evidence_id\": \"1574938\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.838894, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Get the Windows 10 Fall Creators Update!\\nhttps://t.co/yKql3pzN8R\"}\n{\"evidence_id\": \"2248325\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.816669, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Happy Windows 10 Fall Creators Update Day! https://t.co/ZICZm4dGz8\"}",
+    "generated_reply": "We're thrilled to hear you're loving the Windows 10 Fall Creators Update! Thanks for sharing your excitement with MicrosoftHelps."
+  },
+  "raw_response": "{\n  \"correctness\": 5,\n  \"helpfulness\": 4,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 5,\n  \"evidence_support\": 5,\n  \"unsupported_claims\": 5,\n  \"evidence_relevance\": 5,\n  \"grounding_score\": 5,\n  \"reason\": \"The reply appropriately and positively engages with the customer's expression of satisfaction regarding the Windows 10 Fall Creators Update, maintaining a friendly tone consistent with the conversation context.\"\n}",
+  "result": {
+    "correctness": 5,
+    "helpfulness": 4,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 5,
+    "evidence_support": 5,
+    "unsupported_claims": 5,
+    "evidence_relevance": 5,
+    "grounding_score": 5,
+    "reason": "The reply appropriately and positively engages with the customer's expression of satisfaction regarding the Windows 10 Fall Creators Update, maintaining a friendly tone consistent with the conversation context.",
+    "overall_score": 5,
+    "short_reason": "The reply appropriately and positively engages with the customer's expression of satisfaction regarding the Windows 10 Fall Creators Update, maintaining a friendly tone consistent with the conversation context.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 5,
+      "helpfulness": 4,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 5,
+      "unsupported_claims": 5,
+      "evidence_relevance": 5
+    },
+    "golden_id": "GOLDEN-0160",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0160",
+      "customer_message": "Loving windows 10 Fall Creators Update 😍😊",
+      "conversation_context": "MICROSOFT (2208302): @645584 That's sweet! 😍 What's your favorite Fall Creators Update feature so far? 😍 https://t.co/3qcAsLFkaY\nCUSTOMER (2208303): @MicrosoftHelps I always loved Cortana and now she can turn off my pc😍😊 that's awesome. But my favorite Fall Creators Update so far is Fluent design😍",
+      "predicted_intent": "Complaint / Feedback",
+      "predicted_escalation": "ESCALATE_TO_HUMAN",
+      "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+      "retrieved_evidence": "{\"evidence_id\": \"847864\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.91156, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Windows 10 fall creators update done 🔥🔥🔥\"}\n{\"evidence_id\": \"1574938\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.838894, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Get the Windows 10 Fall Creators Update!\\nhttps://t.co/yKql3pzN8R\"}\n{\"evidence_id\": \"2248325\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.816669, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Happy Windows 10 Fall Creators Update Day! https://t.co/ZICZm4dGz8\"}",
+      "generated_reply": "We're thrilled to hear you're loving the Windows 10 Fall Creators Update! Thanks for sharing your excitement with MicrosoftHelps."
+    }
+  }
+}

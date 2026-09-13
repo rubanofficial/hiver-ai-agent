@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0093",
+  "input_fingerprint": "7a581c4832dac977133a02f07bcb36caa3e5bf2b9547ce9be2b636c4f647ad78",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:37:27+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0093",
+    "customer_message": "@MicrosoftHelps Also tried solutions here, https://t.co/O25MkE0R4I, but nothin works. Also, I can't do another rollback..!! https://t.co/ilsAPPNoVo",
+    "conversation_context": "MICROSOFT (1140180): @335344 We hear you. Just to verify, were you able to contact our Answer Desk as per previously advised?\nCUSTOMER (1140181): @MicrosoftHelps I did. They did troubleshooting &amp; reinstalls(3) but nothin worked. They tried a rollback las nite but problem persists and I'm still on 1709\nCUSTOMER (1140182): @115890 @MicrosoftHelps @116230 when are you gonna fix the missing apps bug? My machine is a pain to use at the moment...!!",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"403942\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 1}, \"score\": 0.725815, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Issue resolved! I was just in a chat with a Support Agent and we started working it out. Thanks!\"}\n{\"evidence_id\": \"1657137\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.714142, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Thank you for your prompt reply sir. So far no trouble shooting steps taken. No changes were made sir. | @116230 experiencing this for a month. Kindly help.. https://t.co/1ieTkD1chR\"}\n{\"evidence_id\": \"2774091\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 1}, \"score\": 0.688033, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Nevermind, it quite literally fixed itself after I walked away for a few minutes. Thanks for the reply, though.\"}",
+    "generated_reply": "We are sorry to hear that the troubleshooting steps and rollback options have not worked for you. Since the current information is insufficient to resolve your specific issue further, we recommend contacting Microsoft support directly for additional assistance."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 4,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 3,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 4,\n  \"evidence_relevance\": 2,\n  \"grounding_score\": 3,\n  \"reason\": \"The reply acknowledges the customer's frustration and prior unsuccessful troubleshooting, appropriately recommending further direct support since the user already tried multiple steps and rollbacks. However, the retrieved evidence was not particularly helpful for this specific technical bug.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 4,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 3,
+    "evidence_support": 3,
+    "unsupported_claims": 4,
+    "evidence_relevance": 2,
+    "grounding_score": 3,
+    "reason": "The reply acknowledges the customer's frustration and prior unsuccessful troubleshooting, appropriately recommending further direct support since the user already tried multiple steps and rollbacks. However, the retrieved evidence was not particularly helpful for this specific technical bug.",
+    "overall_score": 3,
+    "short_reason": "The reply acknowledges the customer's frustration and prior unsuccessful troubleshooting, appropriately recommending further direct support since the user already tried multiple steps and rollbacks. However, the retrieved evidence was not particularly helpful for this specific technical bug.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 4,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 4,
+      "evidence_relevance": 2
+    },
+    "golden_id": "GOLDEN-0093",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0093",
+      "customer_message": "@MicrosoftHelps Also tried solutions here, https://t.co/O25MkE0R4I, but nothin works. Also, I can't do another rollback..!! https://t.co/ilsAPPNoVo",
+      "conversation_context": "MICROSOFT (1140180): @335344 We hear you. Just to verify, were you able to contact our Answer Desk as per previously advised?\nCUSTOMER (1140181): @MicrosoftHelps I did. They did troubleshooting &amp; reinstalls(3) but nothin worked. They tried a rollback las nite but problem persists and I'm still on 1709\nCUSTOMER (1140182): @115890 @MicrosoftHelps @116230 when are you gonna fix the missing apps bug? My machine is a pain to use at the moment...!!",
+      "predicted_intent": "Technical Troubleshooting",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"403942\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 1}, \"score\": 0.725815, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Issue resolved! I was just in a chat with a Support Agent and we started working it out. Thanks!\"}\n{\"evidence_id\": \"1657137\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.714142, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Thank you for your prompt reply sir. So far no trouble shooting steps taken. No changes were made sir. | @116230 experiencing this for a month. Kindly help.. https://t.co/1ieTkD1chR\"}\n{\"evidence_id\": \"2774091\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 1}, \"score\": 0.688033, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Nevermind, it quite literally fixed itself after I walked away for a few minutes. Thanks for the reply, though.\"}",
+      "generated_reply": "We are sorry to hear that the troubleshooting steps and rollback options have not worked for you. Since the current information is insufficient to resolve your specific issue further, we recommend contacting Microsoft support directly for additional assistance."
+    }
+  }
+}

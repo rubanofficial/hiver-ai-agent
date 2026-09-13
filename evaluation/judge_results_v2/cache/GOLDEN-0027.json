@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0027",
+  "input_fingerprint": "e1ea8f6a8a5f8986e180094b10a22eccccb6f0e5ac9a0b3e0a6f42c3f9afca54",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-12T04:32:45+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0027",
+    "customer_message": "@MicrosoftHelps @153744 Haven't made any changes",
+    "conversation_context": "MICROSOFT (301404): @187894 Hi. Allow us to help. Which Office version are you using? Have you made any changes prior to this issue?\nCUSTOMER (301405): @MicrosoftHelps @153744 I'm using MS Office 2016\nCUSTOMER (301406): @153744 @MicrosoftHelps @122427 Why is MS Office interface so user unfriendly. A simple task of changing inches to cms took me 20 mins.",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"841623\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.830945, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps No software change.. it happend all of a sudden @MicrosoftHelps\"}\n{\"evidence_id\": \"1732382\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.830535, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps It's fine now.\"}\n{\"evidence_id\": \"1862234\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.81972, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps @556535 https://t.co/uja9UxQeHf\"}",
+    "generated_reply": "Hello! Based on a similar past case where an issue occurred suddenly without any recent software changes, the situation resolved itself shortly afterward. If you are still experiencing trouble, please let us know so we can assist further."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 4,\n  \"clarity\": 4,\n  \"escalation_appropriateness\": 4,\n  \"overall_reply_score\": 3,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 3,\n  \"evidence_relevance\": 2,\n  \"grounding_score\": 3,\n  \"reason\": \"The reply addresses the customer's comment about making no changes by referencing historical evidence where an issue resolved itself, but the retrieved evidence is weak and not directly relevant to changing units in Office 2016.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 4,
+    "clarity": 4,
+    "escalation_appropriateness": 4,
+    "overall_reply_score": 3,
+    "evidence_support": 3,
+    "unsupported_claims": 3,
+    "evidence_relevance": 2,
+    "grounding_score": 3,
+    "reason": "The reply addresses the customer's comment about making no changes by referencing historical evidence where an issue resolved itself, but the retrieved evidence is weak and not directly relevant to changing units in Office 2016.",
+    "overall_score": 3,
+    "short_reason": "The reply addresses the customer's comment about making no changes by referencing historical evidence where an issue resolved itself, but the retrieved evidence is weak and not directly relevant to changing units in Office 2016.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 4,
+      "clarity": 4,
+      "escalation_appropriateness": 4
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 3,
+      "evidence_relevance": 2
+    },
+    "golden_id": "GOLDEN-0027",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0027",
+      "customer_message": "@MicrosoftHelps @153744 Haven't made any changes",
+      "conversation_context": "MICROSOFT (301404): @187894 Hi. Allow us to help. Which Office version are you using? Have you made any changes prior to this issue?\nCUSTOMER (301405): @MicrosoftHelps @153744 I'm using MS Office 2016\nCUSTOMER (301406): @153744 @MicrosoftHelps @122427 Why is MS Office interface so user unfriendly. A simple task of changing inches to cms took me 20 mins.",
+      "predicted_intent": "Technical Troubleshooting",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"841623\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.830945, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps No software change.. it happend all of a sudden @MicrosoftHelps\"}\n{\"evidence_id\": \"1732382\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.830535, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps It's fine now.\"}\n{\"evidence_id\": \"1862234\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.81972, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps @556535 https://t.co/uja9UxQeHf\"}",
+      "generated_reply": "Hello! Based on a similar past case where an issue occurred suddenly without any recent software changes, the situation resolved itself shortly afterward. If you are still experiencing trouble, please let us know so we can assist further."
+    }
+  }
+}

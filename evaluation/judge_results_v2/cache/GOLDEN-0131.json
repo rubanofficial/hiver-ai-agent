@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0131",
+  "input_fingerprint": "7b3b55da8264c9d8b1df8abe7e9efcf53287d541edddcdeecc9e30a2c023f80a",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T11:25:26+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0131",
+    "customer_message": "@MicrosoftHelps yes, they cant help, it was activated before i reformated",
+    "conversation_context": "MICROSOFT (1854240): @554794 (1/2) Thank you for the info. Just to clarify, you've already contacted our support team regarding the issue. Is that correct? https://t.co/3qcAsLFkaY\nCUSTOMER (1854241): @MicrosoftHelps had win10 activated, reinstalled, no activate,  i dont have my old win 7 key. error 7001.  Microsoft account is __email__\nMICROSOFT (1854242): @554794 (2/2) For security purposes, we do not encourage posting your email in public. https://t.co/3qcAsLFkaY\nMICROSOFT (1854243): @554794 Oh dear! Let's investigate this, Dominic. What troubleshooting steps have you tried so far? Please tell us more details.\nCUSTOMER (1854244): @116230 Reinstalled a activated win10, now gives error 7001, support no help, getting tired of  these problems\nMICROSOFT (1866007): @554794 Thanks for the info. Were you able to obtain a service request number from our support team? If yes, send it to us via DM. https://t.co/3qcAsLFkaY\nCUSTOMER (1866008): @MicrosoftHelps same, still gives error, i did all this, ran the trouble shooter, did all the web based,help steps\nMICROSOFT (1866009): @554794 Got it. We have here some tips to resolve such issue. Check this link: https://t.co/fDwmtoytEX. Share us the result.\nCUSTOMER (1866010): @MicrosoftHelps still gives 7001 error, what upsets me, it was activated BEFORE the reformat, dont have the win 7 key anymore, other win7 i hve are oem bulk",
+    "predicted_intent": "Account & Login",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"2732542\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.757904, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps What do I do about this ? https://t.co/xTUAqGAOfi | @MicrosoftHelps I have a problem\"}\n{\"evidence_id\": \"1657137\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.748951, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Thank you for your prompt reply sir. So far no trouble shooting steps taken. No changes were made sir. | @116230 experiencing this for a month. Kindly help.. https://t.co/1ieTkD1chR\"}\n{\"evidence_id\": \"1150656\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.747146, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps what do i need to do to fix?\"}",
+    "generated_reply": "We understand you are experiencing issues after reformatting, even though your product was activated before. Based on similar cases where standard support was unable to resolve activation issues following a format, we recommend reaching out to official Microsoft Support for further assistance with your account and license status."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 4,\n  \"clarity\": 4,\n  \"escalation_appropriateness\": 4,\n  \"overall_reply_score\": 3,\n  \"evidence_support\": 2,\n  \"unsupported_claims\": 2,\n  \"evidence_relevance\": 1,\n  \"grounding_score\": 2,\n  \"reason\": \"The reply acknowledges the customer's activation issue after reformatting, but the retrieved evidence is irrelevant Twitter chatter that provides no actual support guidance. The model hallucinates details about 'similar cases' not found in the evidence.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 4,
+    "clarity": 4,
+    "escalation_appropriateness": 4,
+    "overall_reply_score": 3,
+    "evidence_support": 2,
+    "unsupported_claims": 2,
+    "evidence_relevance": 1,
+    "grounding_score": 2,
+    "reason": "The reply acknowledges the customer's activation issue after reformatting, but the retrieved evidence is irrelevant Twitter chatter that provides no actual support guidance. The model hallucinates details about 'similar cases' not found in the evidence.",
+    "overall_score": 3,
+    "short_reason": "The reply acknowledges the customer's activation issue after reformatting, but the retrieved evidence is irrelevant Twitter chatter that provides no actual support guidance. The model hallucinates details about 'similar cases' not found in the evidence.",
+    "grounding_decision": "UNSUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 4,
+      "clarity": 4,
+      "escalation_appropriateness": 4
+    },
+    "evidence_grounding": {
+      "evidence_support": 2,
+      "unsupported_claims": 2,
+      "evidence_relevance": 1
+    },
+    "golden_id": "GOLDEN-0131",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0131",
+      "customer_message": "@MicrosoftHelps yes, they cant help, it was activated before i reformated",
+      "conversation_context": "MICROSOFT (1854240): @554794 (1/2) Thank you for the info. Just to clarify, you've already contacted our support team regarding the issue. Is that correct? https://t.co/3qcAsLFkaY\nCUSTOMER (1854241): @MicrosoftHelps had win10 activated, reinstalled, no activate,  i dont have my old win 7 key. error 7001.  Microsoft account is __email__\nMICROSOFT (1854242): @554794 (2/2) For security purposes, we do not encourage posting your email in public. https://t.co/3qcAsLFkaY\nMICROSOFT (1854243): @554794 Oh dear! Let's investigate this, Dominic. What troubleshooting steps have you tried so far? Please tell us more details.\nCUSTOMER (1854244): @116230 Reinstalled a activated win10, now gives error 7001, support no help, getting tired of  these problems\nMICROSOFT (1866007): @554794 Thanks for the info. Were you able to obtain a service request number from our support team? If yes, send it to us via DM. https://t.co/3qcAsLFkaY\nCUSTOMER (1866008): @MicrosoftHelps same, still gives error, i did all this, ran the trouble shooter, did all the web based,help steps\nMICROSOFT (1866009): @554794 Got it. We have here some tips to resolve such issue. Check this link: https://t.co/fDwmtoytEX. Share us the result.\nCUSTOMER (1866010): @MicrosoftHelps still gives 7001 error, what upsets me, it was activated BEFORE the reformat, dont have the win 7 key anymore, other win7 i hve are oem bulk",
+      "predicted_intent": "Account & Login",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"2732542\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.757904, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps What do I do about this ? https://t.co/xTUAqGAOfi | @MicrosoftHelps I have a problem\"}\n{\"evidence_id\": \"1657137\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.748951, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Thank you for your prompt reply sir. So far no trouble shooting steps taken. No changes were made sir. | @116230 experiencing this for a month. Kindly help.. https://t.co/1ieTkD1chR\"}\n{\"evidence_id\": \"1150656\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.747146, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps what do i need to do to fix?\"}",
+      "generated_reply": "We understand you are experiencing issues after reformatting, even though your product was activated before. Based on similar cases where standard support was unable to resolve activation issues following a format, we recommend reaching out to official Microsoft Support for further assistance with your account and license status."
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0129",
+  "input_fingerprint": "f16ece1f8d98985e79b8fa5b565f1a2fda1fec5d94eb5af4e3da42c1f35733b9",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T11:25:22+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0129",
+    "customer_message": "@MicrosoftHelps Hi. The service still becomes running after disabling(after a few days). What can be the reason for the service switching it's startup type ?",
+    "conversation_context": "MICROSOFT (1832352): @549761 Hi. We hear you. We'd like to check what happened prior to this issue? What Windows version are you using? Let us know.\nCUSTOMER (1832353): @MicrosoftHelps I am using Windows 10 Home Single Language. Nothing specific happened prior to this issue. Just the service used to leech on to bandwidth (it claims to use idle network but doesn't) . I want it to stop from resetting Startup type from disabled to automatic.\nCUSTOMER (1832354): @MicrosoftHelps  my BITS service resets it's Startup type from disabled to automatic.It leeches on to my bandwidth like crazy. Please provide a solution.\nMICROSOFT (1832355): @549761 listed in this link: https://t.co/IBZ1MaTm1l. Kindly check the post of Jesinta Rozario. 2/2 https://t.co/3qcAsLFkaY\nMICROSOFT (1832356): @549761 Thanks for the info. For us to isolate your concern, let's try the troubleshooting steps 1/2 https://t.co/3qcAsLFkaY\nMICROSOFT (1832357): @549761 Hi, Pratik. How's it going? Please let us know if you need further assistance. We're here for you.",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "No evidence reached the confidence threshold for a safe autonomous reply (minimum 0.60); human review is required.",
+    "retrieved_evidence": "{\"evidence_id\": \"155906\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 5}, \"score\": 0.52883, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps No changes, it's been doing this for weeks. Windows search service disabled, stopping a random useless service from the list each time seems to sort it until the next startup https://t.co/2YA7XY0Mg5 | @MicrosoftHelps Any idea why disck usage is at 100% after every reboot/startup https://t.co/KBl57CLkxo | @MicrosoftHelps Superfetch service already disabled, no dice I'm afraid! | @MicrosoftHelps Chrome options have different names now, but I've unticked the preload pages option; watch this space I guess! | @MicrosoftHelps No joy I'm afraid; it's still flat out at 100%\"}\n{\"evidence_id\": \"105735\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.50497, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps start menu search isn't working - https://t.co/K5hiGEBTLA says \\\"Our services aren't available right now\\\" - what gives?\"}\n{\"evidence_id\": \"68123\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 3}, \"score\": 0.502971, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps nothing has been changed other than the normal updates, and I have disabled fast start | Hello @MicrosoftHelps im having problems with my pc, it keeps restarting and starting randomly. im running win 10 home edition 64 bit. https://t.co/ESqLdmGXY4 | @MicrosoftHelps I'll do it tomorrow\"}",
+    "generated_reply": "Hello! Based on the available information, this case requires further investigation to determine why a service's startup type is changing after being disabled. Please contact Microsoft Support so an agent can look into your system settings and service behavior."
+  },
+  "raw_response": "{\n  \"correctness\": 4,\n  \"helpfulness\": 4,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 4,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 5,\n  \"evidence_relevance\": 2,\n  \"grounding_score\": 3,\n  \"reason\": \"The model correctly followed the escalation prediction and advised contacting support since the retrieved evidence was irrelevant and low-confidence.\"\n}",
+  "result": {
+    "correctness": 4,
+    "helpfulness": 4,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 4,
+    "evidence_support": 3,
+    "unsupported_claims": 5,
+    "evidence_relevance": 2,
+    "grounding_score": 3,
+    "reason": "The model correctly followed the escalation prediction and advised contacting support since the retrieved evidence was irrelevant and low-confidence.",
+    "overall_score": 4,
+    "short_reason": "The model correctly followed the escalation prediction and advised contacting support since the retrieved evidence was irrelevant and low-confidence.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 4,
+      "helpfulness": 4,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 5,
+      "evidence_relevance": 2
+    },
+    "golden_id": "GOLDEN-0129",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0129",
+      "customer_message": "@MicrosoftHelps Hi. The service still becomes running after disabling(after a few days). What can be the reason for the service switching it's startup type ?",
+      "conversation_context": "MICROSOFT (1832352): @549761 Hi. We hear you. We'd like to check what happened prior to this issue? What Windows version are you using? Let us know.\nCUSTOMER (1832353): @MicrosoftHelps I am using Windows 10 Home Single Language. Nothing specific happened prior to this issue. Just the service used to leech on to bandwidth (it claims to use idle network but doesn't) . I want it to stop from resetting Startup type from disabled to automatic.\nCUSTOMER (1832354): @MicrosoftHelps  my BITS service resets it's Startup type from disabled to automatic.It leeches on to my bandwidth like crazy. Please provide a solution.\nMICROSOFT (1832355): @549761 listed in this link: https://t.co/IBZ1MaTm1l. Kindly check the post of Jesinta Rozario. 2/2 https://t.co/3qcAsLFkaY\nMICROSOFT (1832356): @549761 Thanks for the info. For us to isolate your concern, let's try the troubleshooting steps 1/2 https://t.co/3qcAsLFkaY\nMICROSOFT (1832357): @549761 Hi, Pratik. How's it going? Please let us know if you need further assistance. We're here for you.",
+      "predicted_intent": "Technical Troubleshooting",
+      "predicted_escalation": "ESCALATE_TO_HUMAN",
+      "predicted_escalation_reason": "No evidence reached the confidence threshold for a safe autonomous reply (minimum 0.60); human review is required.",
+      "retrieved_evidence": "{\"evidence_id\": \"155906\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 5}, \"score\": 0.52883, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps No changes, it's been doing this for weeks. Windows search service disabled, stopping a random useless service from the list each time seems to sort it until the next startup https://t.co/2YA7XY0Mg5 | @MicrosoftHelps Any idea why disck usage is at 100% after every reboot/startup https://t.co/KBl57CLkxo | @MicrosoftHelps Superfetch service already disabled, no dice I'm afraid! | @MicrosoftHelps Chrome options have different names now, but I've unticked the preload pages option; watch this space I guess! | @MicrosoftHelps No joy I'm afraid; it's still flat out at 100%\"}\n{\"evidence_id\": \"105735\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.50497, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps start menu search isn't working - https://t.co/K5hiGEBTLA says \\\"Our services aren't available right now\\\" - what gives?\"}\n{\"evidence_id\": \"68123\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 3}, \"score\": 0.502971, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps nothing has been changed other than the normal updates, and I have disabled fast start | Hello @MicrosoftHelps im having problems with my pc, it keeps restarting and starting randomly. im running win 10 home edition 64 bit. https://t.co/ESqLdmGXY4 | @MicrosoftHelps I'll do it tomorrow\"}",
+      "generated_reply": "Hello! Based on the available information, this case requires further investigation to determine why a service's startup type is changing after being disabled. Please contact Microsoft Support so an agent can look into your system settings and service behavior."
+    }
+  }
+}

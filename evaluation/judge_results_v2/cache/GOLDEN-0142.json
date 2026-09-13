@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0142",
+  "input_fingerprint": "8c27609d0320de5cc9a6738e27a481b3fcf231b25d3f22d298dfc7520d34ad55",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T11:26:17+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0142",
+    "customer_message": "@MicrosoftHelps The operating system version is windows 10",
+    "conversation_context": "MICROSOFT (2011164): @156658 Thanks for updating, David. Have you tried contacting your Internet Service Provider with regard to the slow connection? https://t.co/3qcAsLFkaY\nCUSTOMER (2011165): @MicrosoftHelps Yes but they ignore me. Do you know why i having the same slow mobile internet sometimes internet pages load faster that other times?",
+    "predicted_intent": "Product / Feature How-To",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"568811\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.851324, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps  Windows 10  64-bit version...\"}\n{\"evidence_id\": \"2375112\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.784957, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Also I'm on Windows 10\"}\n{\"evidence_id\": \"2767221\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.72995, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Windows 10, since today, that I'm not sure aside from the update\"}",
+    "generated_reply": "Thanks for providing your operating system version. Based on a similar case, users have noted issues arising around the time of recent updates on Windows 10. If you are experiencing unexpected behavior following an update, please let us know specific details about the issue you are facing so we can help further."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 4,\n  \"relevance\": 4,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 4,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 3,\n  \"evidence_relevance\": 2,\n  \"grounding_score\": 3,\n  \"reason\": \"The reply acknowledges the Windows 10 OS version provided by the user and asks for more details to assist with their slow internet issue, tying it loosely to potential update issues found in retrieved evidence.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 4,
+    "relevance": 4,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 4,
+    "evidence_support": 3,
+    "unsupported_claims": 3,
+    "evidence_relevance": 2,
+    "grounding_score": 3,
+    "reason": "The reply acknowledges the Windows 10 OS version provided by the user and asks for more details to assist with their slow internet issue, tying it loosely to potential update issues found in retrieved evidence.",
+    "overall_score": 4,
+    "short_reason": "The reply acknowledges the Windows 10 OS version provided by the user and asks for more details to assist with their slow internet issue, tying it loosely to potential update issues found in retrieved evidence.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 4,
+      "relevance": 4,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 3,
+      "evidence_relevance": 2
+    },
+    "golden_id": "GOLDEN-0142",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0142",
+      "customer_message": "@MicrosoftHelps The operating system version is windows 10",
+      "conversation_context": "MICROSOFT (2011164): @156658 Thanks for updating, David. Have you tried contacting your Internet Service Provider with regard to the slow connection? https://t.co/3qcAsLFkaY\nCUSTOMER (2011165): @MicrosoftHelps Yes but they ignore me. Do you know why i having the same slow mobile internet sometimes internet pages load faster that other times?",
+      "predicted_intent": "Product / Feature How-To",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"568811\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.851324, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps  Windows 10  64-bit version...\"}\n{\"evidence_id\": \"2375112\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.784957, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Also I'm on Windows 10\"}\n{\"evidence_id\": \"2767221\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.72995, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Windows 10, since today, that I'm not sure aside from the update\"}",
+      "generated_reply": "Thanks for providing your operating system version. Based on a similar case, users have noted issues arising around the time of recent updates on Windows 10. If you are experiencing unexpected behavior following an update, please let us know specific details about the issue you are facing so we can help further."
+    }
+  }
+}

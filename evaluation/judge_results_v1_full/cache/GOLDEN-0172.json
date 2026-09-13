@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0172",
+  "input_fingerprint": "ed01d0208f6c80368f74f67677df46b644095c2a0068d034e39739a1df3579c4",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:45:18+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0172",
+    "customer_message": "@MicrosoftHelps My laptop went into \"updates\" this morning and I now have lost all of my pictures. What was called \"This Computer\" is called \"My PC\".",
+    "conversation_context": "MICROSOFT (2542037): @722750 Hi, Mike. Let's work on this. Which version of Windows are you using? You may refer to this link as a guide: https://t.co/HIBs6hmV38. Have you done any troubleshooting steps?\nCUSTOMER (2542038): @MicrosoftHelps OK fixed now via Chat. They had to rollback to previous build because this one has \"a few problems\".",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"2331785\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 4}, \"score\": 0.630619, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Windows updated when I was out of the house, now my pc won't make it past the windows logo. Screen turns black and doesn't go any further. | @MicrosoftHelps Attempting a system restore corrupted the restore point as well so now I can't restore it to before the update. | @MicrosoftHelps 2 hours since you replied, and you say you want to help? | Fall Creator Update destroyed my computer, what do you have to say about that @MicrosoftHelps\"}\n{\"evidence_id\": \"1623382\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 5}, \"score\": 0.612055, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps @334892 this has happened to me :-( I had to reinstall Windows in the end, managed to recover the data, but had to install all my programs again | @MicrosoftHelps YOUR UPDATE HAS DESTROYED MY COMPUTER. | @334892 @MicrosoftHelps my PC is a £3500 paper weight now | .@MicrosoftHelps HELP. ME. PAY ATTENTION TO ME. https://t.co/yhz2iQEiRB | @616183 @MicrosoftHelps Mine too. I bet I will have to buy a new one but you can bet it won't be another @116230 or @118197  machine.\"}\n{\"evidence_id\": \"492288\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.608539, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps  @115890  Some important files I had on my desktop are gone after a windows 10 update?!?!\"}",
+    "generated_reply": "We are sorry to hear that you are missing your pictures after a Windows update. The provided historical evidence is insufficient to fully resolve your issue. Please contact Microsoft support directly for further assistance."
+  },
+  "raw_response": "{\n  \"correctness\": 2,\n  \"helpfulness\": 2,\n  \"relevance\": 3,\n  \"clarity\": 4,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 2,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 4,\n  \"evidence_relevance\": 2,\n  \"grounding_score\": 3,\n  \"reason\": \"The customer already resolved their issue via chat, but the agent replied saying the issue is unresolved and suggested contacting support, ignoring the resolution context.\"\n}",
+  "result": {
+    "correctness": 2,
+    "helpfulness": 2,
+    "relevance": 3,
+    "clarity": 4,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 2,
+    "evidence_support": 3,
+    "unsupported_claims": 4,
+    "evidence_relevance": 2,
+    "grounding_score": 3,
+    "reason": "The customer already resolved their issue via chat, but the agent replied saying the issue is unresolved and suggested contacting support, ignoring the resolution context.",
+    "overall_score": 2,
+    "short_reason": "The customer already resolved their issue via chat, but the agent replied saying the issue is unresolved and suggested contacting support, ignoring the resolution context.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 2,
+      "helpfulness": 2,
+      "relevance": 3,
+      "clarity": 4,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 4,
+      "evidence_relevance": 2
+    },
+    "golden_id": "GOLDEN-0172",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0172",
+      "customer_message": "@MicrosoftHelps My laptop went into \"updates\" this morning and I now have lost all of my pictures. What was called \"This Computer\" is called \"My PC\".",
+      "conversation_context": "MICROSOFT (2542037): @722750 Hi, Mike. Let's work on this. Which version of Windows are you using? You may refer to this link as a guide: https://t.co/HIBs6hmV38. Have you done any troubleshooting steps?\nCUSTOMER (2542038): @MicrosoftHelps OK fixed now via Chat. They had to rollback to previous build because this one has \"a few problems\".",
+      "predicted_intent": "Technical Troubleshooting",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"2331785\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 4}, \"score\": 0.630619, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Windows updated when I was out of the house, now my pc won't make it past the windows logo. Screen turns black and doesn't go any further. | @MicrosoftHelps Attempting a system restore corrupted the restore point as well so now I can't restore it to before the update. | @MicrosoftHelps 2 hours since you replied, and you say you want to help? | Fall Creator Update destroyed my computer, what do you have to say about that @MicrosoftHelps\"}\n{\"evidence_id\": \"1623382\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 5}, \"score\": 0.612055, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps @334892 this has happened to me :-( I had to reinstall Windows in the end, managed to recover the data, but had to install all my programs again | @MicrosoftHelps YOUR UPDATE HAS DESTROYED MY COMPUTER. | @334892 @MicrosoftHelps my PC is a £3500 paper weight now | .@MicrosoftHelps HELP. ME. PAY ATTENTION TO ME. https://t.co/yhz2iQEiRB | @616183 @MicrosoftHelps Mine too. I bet I will have to buy a new one but you can bet it won't be another @116230 or @118197  machine.\"}\n{\"evidence_id\": \"492288\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.608539, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps  @115890  Some important files I had on my desktop are gone after a windows 10 update?!?!\"}",
+      "generated_reply": "We are sorry to hear that you are missing your pictures after a Windows update. The provided historical evidence is insufficient to fully resolve your issue. Please contact Microsoft support directly for further assistance."
+    }
+  }
+}

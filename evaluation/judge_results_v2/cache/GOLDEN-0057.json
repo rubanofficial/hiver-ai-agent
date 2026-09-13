@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0057",
+  "input_fingerprint": "8a76ee8e20a2afc7fa3f8ba1fc76e63ddde20ea55d5434f73bc647f4daaabd1e",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-12T04:35:22+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0057",
+    "customer_message": "The SSD in my @123127 died and it isn’t even a week. Microsoft store is in Orlando and I’m in Jamaica. So annoyed.",
+    "conversation_context": "MICROSOFT (605735): @263958 Hi. For better assistance, we suggest that you contact the Answer Desk team here: https://t.co/yN1OrqjUDk or our Global Customer Service team here: https://t.co/xEEA6UaCE2 You can also open a service request on this link: https://t.co/Z6LVzaiVof",
+    "predicted_intent": "Warranty / Repair",
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "No evidence reached the confidence threshold for a safe autonomous reply (minimum 0.60); human review is required.",
+    "retrieved_evidence": "{\"evidence_id\": \"1991606\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.590676, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Buys a brand new  @123127 pro that’s bricked after setup. @MicrosoftHelps doesnt care but who cares if you lose a lifelong customer right?\"}\n{\"evidence_id\": \"1193622\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.590667, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps hi guys, my 950 just died. What can I do?\"}\n{\"evidence_id\": \"2056236\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.552015, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps BAD EXPERIENCE with Store Support.  Cancelled without informing me.  Ask to talk to sup, hung up on me instead.  Bad Service\"}",
+    "generated_reply": "We are sorry to hear that your device died so soon, especially while you are away from the Microsoft Store location in Orlando. Because the retrieved historical evidence does not provide a direct resolution or policy for hardware failures of this nature outside your local store area, this case requires further investigation, such as an account entitlement check or order lookup. Please contact Microsoft Support so an agent can properly investigate your hardware warranty options and assist you further."
+  },
+  "raw_response": "{\n  \"correctness\": 4,\n  \"helpfulness\": 4,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 4,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 3,\n  \"evidence_relevance\": 2,\n  \"grounding_score\": 3,\n  \"reason\": \"The reply appropriately identifies the need for human intervention due to hardware failure and lack of direct policy in the retrieved evidence, though it meta-references the evidence retrieval process which is slightly unconventional.\"\n}",
+  "result": {
+    "correctness": 4,
+    "helpfulness": 4,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 4,
+    "evidence_support": 3,
+    "unsupported_claims": 3,
+    "evidence_relevance": 2,
+    "grounding_score": 3,
+    "reason": "The reply appropriately identifies the need for human intervention due to hardware failure and lack of direct policy in the retrieved evidence, though it meta-references the evidence retrieval process which is slightly unconventional.",
+    "overall_score": 4,
+    "short_reason": "The reply appropriately identifies the need for human intervention due to hardware failure and lack of direct policy in the retrieved evidence, though it meta-references the evidence retrieval process which is slightly unconventional.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 4,
+      "helpfulness": 4,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 3,
+      "evidence_relevance": 2
+    },
+    "golden_id": "GOLDEN-0057",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0057",
+      "customer_message": "The SSD in my @123127 died and it isn’t even a week. Microsoft store is in Orlando and I’m in Jamaica. So annoyed.",
+      "conversation_context": "MICROSOFT (605735): @263958 Hi. For better assistance, we suggest that you contact the Answer Desk team here: https://t.co/yN1OrqjUDk or our Global Customer Service team here: https://t.co/xEEA6UaCE2 You can also open a service request on this link: https://t.co/Z6LVzaiVof",
+      "predicted_intent": "Warranty / Repair",
+      "predicted_escalation": "ESCALATE_TO_HUMAN",
+      "predicted_escalation_reason": "No evidence reached the confidence threshold for a safe autonomous reply (minimum 0.60); human review is required.",
+      "retrieved_evidence": "{\"evidence_id\": \"1991606\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.590676, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Buys a brand new  @123127 pro that’s bricked after setup. @MicrosoftHelps doesnt care but who cares if you lose a lifelong customer right?\"}\n{\"evidence_id\": \"1193622\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.590667, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps hi guys, my 950 just died. What can I do?\"}\n{\"evidence_id\": \"2056236\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.552015, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps BAD EXPERIENCE with Store Support.  Cancelled without informing me.  Ask to talk to sup, hung up on me instead.  Bad Service\"}",
+      "generated_reply": "We are sorry to hear that your device died so soon, especially while you are away from the Microsoft Store location in Orlando. Because the retrieved historical evidence does not provide a direct resolution or policy for hardware failures of this nature outside your local store area, this case requires further investigation, such as an account entitlement check or order lookup. Please contact Microsoft Support so an agent can properly investigate your hardware warranty options and assist you further."
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0099",
+  "input_fingerprint": "6870a918fa40d78810cc4251c220363f8675ffc4f33cdd97f62d08f4a5d16ed1",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T11:12:55+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0099",
+    "customer_message": "@MicrosoftHelps I attempted to install the updates through the assistant and got the error code 0xc1900204",
+    "conversation_context": "MICROSOFT (1205808): @403190 Hi, Corey. How's it going? Please let us know if you need further assistance. We're here for you.\nCUSTOMER (1205809): @MicrosoftHelps I was unable to update after running the troubleshooter.\nCUSTOMER (1205810): @MicrosoftHelps Please Help. I can't update for some reason https://t.co/C8OcEFYzGI\nMICROSOFT (1205811): @403190 We got your back. Let's continue your update using Update Assistant on this link: https://t.co/mxTRawDklL. Update us.",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"2084734\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 4}, \"score\": 0.710834, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Downloaded the Windows 10 update assistant and got this error code 0x80070652 | 11 failed attempts at installing Windows 10, version 1709 @116230 @6580 https://t.co/zThVfNAFXu | @MicrosoftHelps I've ran the troubleshooting three or four times and keeps saying its fixed the following errors each time but still not install the update. https://t.co/FHRhA4oKk5 | @MicrosoftHelps I have started the Media Creation Tool and it says There was a problem running this tool error code 0x80072F76 - 0x20017\"}\n{\"evidence_id\": \"320544\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 2}, \"score\": 0.708014, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Hi! Checking my history of updates, I see several errors and updates not installed, but there is no progress in the download https://t.co/wJrB8JH5F4 | @MicrosoftHelps Hi! I executed a manual update of the whole system and worked. Thank you anyway!\"}\n{\"evidence_id\": \"1717002\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.706048, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps All working fine now thanks. | . @116230 update fail @115890 #Windows10 https://t.co/V3QD204L8f\"}",
+    "generated_reply": "Hello! Based on a similar case, one customer was able to resolve their update issue by executing a manual update of the whole system. You may want to try this approach, though we cannot guarantee it will resolve the specific error code 0xc1900204."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 4,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 3,\n  \"evidence_support\": 4,\n  \"unsupported_claims\": 4,\n  \"evidence_relevance\": 3,\n  \"grounding_score\": 4,\n  \"reason\": \"The reply suggests a manual system update based on retrieved evidence where a customer resolved their issue that way. It clearly communicates the suggestion while acknowledging it may not fix the specific error code, maintaining safe and appropriate communication.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 4,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 3,
+    "evidence_support": 4,
+    "unsupported_claims": 4,
+    "evidence_relevance": 3,
+    "grounding_score": 4,
+    "reason": "The reply suggests a manual system update based on retrieved evidence where a customer resolved their issue that way. It clearly communicates the suggestion while acknowledging it may not fix the specific error code, maintaining safe and appropriate communication.",
+    "overall_score": 3,
+    "short_reason": "The reply suggests a manual system update based on retrieved evidence where a customer resolved their issue that way. It clearly communicates the suggestion while acknowledging it may not fix the specific error code, maintaining safe and appropriate communication.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 4,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 4,
+      "unsupported_claims": 4,
+      "evidence_relevance": 3
+    },
+    "golden_id": "GOLDEN-0099",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0099",
+      "customer_message": "@MicrosoftHelps I attempted to install the updates through the assistant and got the error code 0xc1900204",
+      "conversation_context": "MICROSOFT (1205808): @403190 Hi, Corey. How's it going? Please let us know if you need further assistance. We're here for you.\nCUSTOMER (1205809): @MicrosoftHelps I was unable to update after running the troubleshooter.\nCUSTOMER (1205810): @MicrosoftHelps Please Help. I can't update for some reason https://t.co/C8OcEFYzGI\nMICROSOFT (1205811): @403190 We got your back. Let's continue your update using Update Assistant on this link: https://t.co/mxTRawDklL. Update us.",
+      "predicted_intent": "Technical Troubleshooting",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"2084734\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 4}, \"score\": 0.710834, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Downloaded the Windows 10 update assistant and got this error code 0x80070652 | 11 failed attempts at installing Windows 10, version 1709 @116230 @6580 https://t.co/zThVfNAFXu | @MicrosoftHelps I've ran the troubleshooting three or four times and keeps saying its fixed the following errors each time but still not install the update. https://t.co/FHRhA4oKk5 | @MicrosoftHelps I have started the Media Creation Tool and it says There was a problem running this tool error code 0x80072F76 - 0x20017\"}\n{\"evidence_id\": \"320544\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 2}, \"score\": 0.708014, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Hi! Checking my history of updates, I see several errors and updates not installed, but there is no progress in the download https://t.co/wJrB8JH5F4 | @MicrosoftHelps Hi! I executed a manual update of the whole system and worked. Thank you anyway!\"}\n{\"evidence_id\": \"1717002\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.706048, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps All working fine now thanks. | . @116230 update fail @115890 #Windows10 https://t.co/V3QD204L8f\"}",
+      "generated_reply": "Hello! Based on a similar case, one customer was able to resolve their update issue by executing a manual update of the whole system. You may want to try this approach, though we cannot guarantee it will resolve the specific error code 0xc1900204."
+    }
+  }
+}

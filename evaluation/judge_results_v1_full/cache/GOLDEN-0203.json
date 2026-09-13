@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0203",
+  "input_fingerprint": "94b828142ac1bd6acfb088abd3384f60220a932ff9c2d1dccc401073a0397bd9",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:47:38+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0203",
+    "customer_message": "@123127 @MicrosoftHelps @2696 Second time I receive SP4 from assistance with this problem why? :( https://t.co/8ZX0q3CdQ5",
+    "conversation_context": "MICROSOFT (186516): @159869 Have you tried contacting our Answer Desk team for assistance? You can contact them here: https://t.co/JryaRvNjWi\nCUSTOMER (186517): @MicrosoftHelps I'll try, but I'm shocked about same problem two times\nCUSTOMER (186518): @151785 2/2 I'm tired to send my device to repair I need it\nCUSTOMER (186519): @151785 1/2 It's a HW issue. White light aroud the screen too visible. It's 2° sp4 I receive from assistance with this. My first device hadn't it\nCUSTOMER (186520): @159869 Let's look into this, Alberto. What was the activity when this screen appeared? Have you tried to do a forced shutdown?",
+    "predicted_intent": "Warranty / Repair",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"1098251\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.710117, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Hi, Thank you for your support. | I guess this is bad. @116230 @10604 https://t.co/1srOjRkKwS\"}\n{\"evidence_id\": \"2353282\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.687859, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps @631226 I've tweeted you several times can you please address my issue. | @MicrosoftHelps I have been trying to follow up with Microsoft support on a ticket: 1402447076 but not getting any response. Can you please help me on this?.\"}\n{\"evidence_id\": \"2622407\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.680292, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"How to fix this @MicrosoftHelps https://t.co/6YASi23rfO\"}",
+    "generated_reply": "I apologize for the ongoing issue with your Surface Pro 4. Since I cannot fully resolve this from the available information, please contact Microsoft support directly for further assistance with your repair."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 4,\n  \"clarity\": 4,\n  \"escalation_appropriateness\": 4,\n  \"overall_reply_score\": 3,\n  \"evidence_support\": 2,\n  \"unsupported_claims\": 2,\n  \"evidence_relevance\": 1,\n  \"grounding_score\": 2,\n  \"reason\": \"The reply offers a polite response and directs the customer to support, but the retrieved evidence is irrelevant Twitter chatter and the model makes assumptions about not being able to resolve the issue from available info.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 4,
+    "clarity": 4,
+    "escalation_appropriateness": 4,
+    "overall_reply_score": 3,
+    "evidence_support": 2,
+    "unsupported_claims": 2,
+    "evidence_relevance": 1,
+    "grounding_score": 2,
+    "reason": "The reply offers a polite response and directs the customer to support, but the retrieved evidence is irrelevant Twitter chatter and the model makes assumptions about not being able to resolve the issue from available info.",
+    "overall_score": 3,
+    "short_reason": "The reply offers a polite response and directs the customer to support, but the retrieved evidence is irrelevant Twitter chatter and the model makes assumptions about not being able to resolve the issue from available info.",
+    "grounding_decision": "UNSUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 4,
+      "clarity": 4,
+      "escalation_appropriateness": 4
+    },
+    "evidence_grounding": {
+      "evidence_support": 2,
+      "unsupported_claims": 2,
+      "evidence_relevance": 1
+    },
+    "golden_id": "GOLDEN-0203",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0203",
+      "customer_message": "@123127 @MicrosoftHelps @2696 Second time I receive SP4 from assistance with this problem why? :( https://t.co/8ZX0q3CdQ5",
+      "conversation_context": "MICROSOFT (186516): @159869 Have you tried contacting our Answer Desk team for assistance? You can contact them here: https://t.co/JryaRvNjWi\nCUSTOMER (186517): @MicrosoftHelps I'll try, but I'm shocked about same problem two times\nCUSTOMER (186518): @151785 2/2 I'm tired to send my device to repair I need it\nCUSTOMER (186519): @151785 1/2 It's a HW issue. White light aroud the screen too visible. It's 2° sp4 I receive from assistance with this. My first device hadn't it\nCUSTOMER (186520): @159869 Let's look into this, Alberto. What was the activity when this screen appeared? Have you tried to do a forced shutdown?",
+      "predicted_intent": "Warranty / Repair",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"1098251\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.710117, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Hi, Thank you for your support. | I guess this is bad. @116230 @10604 https://t.co/1srOjRkKwS\"}\n{\"evidence_id\": \"2353282\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.687859, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps @631226 I've tweeted you several times can you please address my issue. | @MicrosoftHelps I have been trying to follow up with Microsoft support on a ticket: 1402447076 but not getting any response. Can you please help me on this?.\"}\n{\"evidence_id\": \"2622407\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.680292, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"How to fix this @MicrosoftHelps https://t.co/6YASi23rfO\"}",
+      "generated_reply": "I apologize for the ongoing issue with your Surface Pro 4. Since I cannot fully resolve this from the available information, please contact Microsoft support directly for further assistance with your repair."
+    }
+  }
+}

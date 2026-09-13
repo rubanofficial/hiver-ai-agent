@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0105",
+  "input_fingerprint": "5c7d1535c4dd8a375e8295208951613cc85e7d198694a46d2be3e43d92679d6f",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T11:24:09+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0105",
+    "customer_message": "@MicrosoftHelps Since last Friday and it happens at random. No I have the latest version of the bios since April.",
+    "conversation_context": "MICROSOFT (1314317): @334894 Hello, Mario! Let's work on this. Which version of Windows are you using?\nCUSTOMER (1314318): @MicrosoftHelps Windows 10 64 bit fall update.\nCUSTOMER (1314319): @MicrosoftHelps is there any tools built into Windows to help me determine which hardware is causing 0x00000124 AMD North bridge fatal error\nMICROSOFT (1314320): @334894 Did you update your motherboard BIOS? Did you modify your BIOS settings? How long have you been experiencing the fatal error?",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"824514\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 5}, \"score\": 0.610241, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps No I have never had this problem before. I went  through bios setting but that did nothing | @MicrosoftHelps Windows 10 and reset back to factory settings like I normally do every 6 months | @MicrosoftHelps No unfortunately after seeing this error code in the picture? Will I just be able to install a new Windows using a disc? | @MicrosoftHelps I'm reinstalling Windows 7 but I had 10 will I need to buy another disc just to upgrade? | @116230 ?? https://t.co/IfXuWqGP4H\"}\n{\"evidence_id\": \"264219\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.602633, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I haven't made any changes. It's been on Win 10 for a long time. | @MicrosoftHelps is there any reason this has happened to my laptop 3 times in the past 2 weeks? I have to take online exams on this! https://t.co/DfJjW5JOFu\"}\n{\"evidence_id\": \"2721807\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 4}, \"score\": 0.60191, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Hi. No I have not made any changes. I shut it down after I finished using it and the next day this happened. | @MicrosoftHelps I've been getting this for over a week now. What's the issue? I most definitely do not have the money to go out and buy a new laptop. Windows 10 is the worst! https://t.co/Q9PGhnw0Co | @MicrosoftHelps Is there another way to do this? The computer will not load up to anything. It just keeps looping. | @MicrosoftHelps Hi. I pressed and held the power button 3 times but its not going in to boot repair\"}",
+    "generated_reply": "Thank you for reaching out to MicrosoftHelps. Since you are experiencing random issues since last Friday and checking BIOS settings did not resolve it, this case requires further investigation, such as an account entitlement check or order lookup, to determine the next steps. Please contact Microsoft Support so we can investigate your specific situation further."
+  },
+  "raw_response": "{\n  \"correctness\": 1,\n  \"helpfulness\": 1,\n  \"relevance\": 1,\n  \"clarity\": 3,\n  \"escalation_appropriateness\": 1,\n  \"overall_reply_score\": 1,\n  \"evidence_support\": 1,\n  \"unsupported_claims\": 1,\n  \"evidence_relevance\": 1,\n  \"grounding_score\": 1,\n  \"reason\": \"The customer is asking for built-in Windows tools to diagnose a hardware fatal error (0x00000124 AMD North bridge fatal error). The generated reply completely misses the technical issue, hallucinating that it requires an 'account entitlement check or order lookup', which is entirely irrelevant and unhelpful.\"\n}",
+  "result": {
+    "correctness": 1,
+    "helpfulness": 1,
+    "relevance": 1,
+    "clarity": 3,
+    "escalation_appropriateness": 1,
+    "overall_reply_score": 1,
+    "evidence_support": 1,
+    "unsupported_claims": 1,
+    "evidence_relevance": 1,
+    "grounding_score": 1,
+    "reason": "The customer is asking for built-in Windows tools to diagnose a hardware fatal error (0x00000124 AMD North bridge fatal error). The generated reply completely misses the technical issue, hallucinating that it requires an 'account entitlement check or order lookup', which is entirely irrelevant and unhelpful.",
+    "overall_score": 1,
+    "short_reason": "The customer is asking for built-in Windows tools to diagnose a hardware fatal error (0x00000124 AMD North bridge fatal error). The generated reply completely misses the technical issue, hallucinating that it requires an 'account entitlement check or order lookup', which is entirely irrelevant and unhelpful.",
+    "grounding_decision": "UNSUPPORTED",
+    "reply_quality": {
+      "correctness": 1,
+      "helpfulness": 1,
+      "relevance": 1,
+      "clarity": 3,
+      "escalation_appropriateness": 1
+    },
+    "evidence_grounding": {
+      "evidence_support": 1,
+      "unsupported_claims": 1,
+      "evidence_relevance": 1
+    },
+    "golden_id": "GOLDEN-0105",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0105",
+      "customer_message": "@MicrosoftHelps Since last Friday and it happens at random. No I have the latest version of the bios since April.",
+      "conversation_context": "MICROSOFT (1314317): @334894 Hello, Mario! Let's work on this. Which version of Windows are you using?\nCUSTOMER (1314318): @MicrosoftHelps Windows 10 64 bit fall update.\nCUSTOMER (1314319): @MicrosoftHelps is there any tools built into Windows to help me determine which hardware is causing 0x00000124 AMD North bridge fatal error\nMICROSOFT (1314320): @334894 Did you update your motherboard BIOS? Did you modify your BIOS settings? How long have you been experiencing the fatal error?",
+      "predicted_intent": "Technical Troubleshooting",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"824514\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 5}, \"score\": 0.610241, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps No I have never had this problem before. I went  through bios setting but that did nothing | @MicrosoftHelps Windows 10 and reset back to factory settings like I normally do every 6 months | @MicrosoftHelps No unfortunately after seeing this error code in the picture? Will I just be able to install a new Windows using a disc? | @MicrosoftHelps I'm reinstalling Windows 7 but I had 10 will I need to buy another disc just to upgrade? | @116230 ?? https://t.co/IfXuWqGP4H\"}\n{\"evidence_id\": \"264219\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.602633, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I haven't made any changes. It's been on Win 10 for a long time. | @MicrosoftHelps is there any reason this has happened to my laptop 3 times in the past 2 weeks? I have to take online exams on this! https://t.co/DfJjW5JOFu\"}\n{\"evidence_id\": \"2721807\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 4}, \"score\": 0.60191, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Hi. No I have not made any changes. I shut it down after I finished using it and the next day this happened. | @MicrosoftHelps I've been getting this for over a week now. What's the issue? I most definitely do not have the money to go out and buy a new laptop. Windows 10 is the worst! https://t.co/Q9PGhnw0Co | @MicrosoftHelps Is there another way to do this? The computer will not load up to anything. It just keeps looping. | @MicrosoftHelps Hi. I pressed and held the power button 3 times but its not going in to boot repair\"}",
+      "generated_reply": "Thank you for reaching out to MicrosoftHelps. Since you are experiencing random issues since last Friday and checking BIOS settings did not resolve it, this case requires further investigation, such as an account entitlement check or order lookup, to determine the next steps. Please contact Microsoft Support so we can investigate your specific situation further."
+    }
+  }
+}

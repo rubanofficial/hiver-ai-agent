@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0052",
+  "input_fingerprint": "bf440afe44aeacaab743adf8aab99f62ad3e37c5c43ea40da4fc2f1e480bb943",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:33:14+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0052",
+    "customer_message": "@MicrosoftHelps Nope. It crashed and ctrl alt dlt wouldn't bring up task manager so pressed off button. Then turned on and this happened. No troubleshooting",
+    "conversation_context": "MICROSOFT (551143): @248418 We would like to know about your experience with the support you received. Please take a few moments and respond to this survey: https://t.co/C8Vg0fvgrl. Thank you and have a good day!\nCUSTOMER (551144): @MicrosoftHelps @112726\nMICROSOFT (551145): @248418 We received your Direct Message. Let's continue working on your concern there. Thank you!\nCUSTOMER (551146): Turn on laptop, see my profile, type in my password, accepts... to a blank computer with none of my files, photos etc. @MicrosoftHelps?? https://t.co/lWoYcWVJQv\nMICROSOFT (551148): @248418 Let's investigate this further, Becca. Were there any changes made prior to this issue? Tried any troubleshooting steps so far?",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"2064962\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 4}, \"score\": 0.683336, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Thanks for replying. It's a work laptop updated to Windows 10. I think it crashed because of lack of memory, but it's not a persistent issue | I'm trying to like you @116230 10 but crashing randomly isn't helping your case | @MicrosoftHelps There was no error message. It just restarted automatically | @MicrosoftHelps None. No troubleshooting is needed. Thanks for the support\"}\n{\"evidence_id\": \"919655\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 3}, \"score\": 0.652309, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Should have known something was up when during the 'update' process that broke everything, got several blue screens of sadness | @MicrosoftHelps In the end I had to reinstall Windows and lost a full day to reinstalling all my programs needed for development. Annoying but no work lost! | @MicrosoftHelps Hi! Tried safe mode 1st, no desktop flashing but options wouldn't open and even hovering over the ^ in the task tray crashed windows\"}\n{\"evidence_id\": \"2971758\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 3}, \"score\": 0.629806, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I have no idea what i'm updating to it just said it needed to restart and nothing the pc stopped /crashed when i pushed the start button i had that on my screen | @MicrosoftHelps my pc crashed while doing an update now i have this https://t.co/q2LwHB3rwW | @MicrosoftHelps When i came back home it was fine, i guess it was a big update and maybe i had no more battery so the pc turned off\"}",
+    "generated_reply": "Hello, I'm sorry to hear that your PC crashed and is not working properly after a hard shutdown. Based on the provided information, I am unable to fully resolve your issue. Please contact Microsoft support directly for further assistance."
+  },
+  "raw_response": "{\n  \"correctness\": 2,\n  \"helpfulness\": 2,\n  \"relevance\": 3,\n  \"clarity\": 4,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 2,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 4,\n  \"evidence_relevance\": 2,\n  \"grounding_score\": 3,\n  \"reason\": \"The agent gave up immediately and told the customer to contact Microsoft support, without attempting basic troubleshooting for a temporary user profile issue after a hard shutdown.\"\n}",
+  "result": {
+    "correctness": 2,
+    "helpfulness": 2,
+    "relevance": 3,
+    "clarity": 4,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 2,
+    "evidence_support": 3,
+    "unsupported_claims": 4,
+    "evidence_relevance": 2,
+    "grounding_score": 3,
+    "reason": "The agent gave up immediately and told the customer to contact Microsoft support, without attempting basic troubleshooting for a temporary user profile issue after a hard shutdown.",
+    "overall_score": 2,
+    "short_reason": "The agent gave up immediately and told the customer to contact Microsoft support, without attempting basic troubleshooting for a temporary user profile issue after a hard shutdown.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 2,
+      "helpfulness": 2,
+      "relevance": 3,
+      "clarity": 4,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 4,
+      "evidence_relevance": 2
+    },
+    "golden_id": "GOLDEN-0052",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0052",
+      "customer_message": "@MicrosoftHelps Nope. It crashed and ctrl alt dlt wouldn't bring up task manager so pressed off button. Then turned on and this happened. No troubleshooting",
+      "conversation_context": "MICROSOFT (551143): @248418 We would like to know about your experience with the support you received. Please take a few moments and respond to this survey: https://t.co/C8Vg0fvgrl. Thank you and have a good day!\nCUSTOMER (551144): @MicrosoftHelps @112726\nMICROSOFT (551145): @248418 We received your Direct Message. Let's continue working on your concern there. Thank you!\nCUSTOMER (551146): Turn on laptop, see my profile, type in my password, accepts... to a blank computer with none of my files, photos etc. @MicrosoftHelps?? https://t.co/lWoYcWVJQv\nMICROSOFT (551148): @248418 Let's investigate this further, Becca. Were there any changes made prior to this issue? Tried any troubleshooting steps so far?",
+      "predicted_intent": "Technical Troubleshooting",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"2064962\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 4}, \"score\": 0.683336, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Thanks for replying. It's a work laptop updated to Windows 10. I think it crashed because of lack of memory, but it's not a persistent issue | I'm trying to like you @116230 10 but crashing randomly isn't helping your case | @MicrosoftHelps There was no error message. It just restarted automatically | @MicrosoftHelps None. No troubleshooting is needed. Thanks for the support\"}\n{\"evidence_id\": \"919655\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 3}, \"score\": 0.652309, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Should have known something was up when during the 'update' process that broke everything, got several blue screens of sadness | @MicrosoftHelps In the end I had to reinstall Windows and lost a full day to reinstalling all my programs needed for development. Annoying but no work lost! | @MicrosoftHelps Hi! Tried safe mode 1st, no desktop flashing but options wouldn't open and even hovering over the ^ in the task tray crashed windows\"}\n{\"evidence_id\": \"2971758\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 3}, \"score\": 0.629806, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I have no idea what i'm updating to it just said it needed to restart and nothing the pc stopped /crashed when i pushed the start button i had that on my screen | @MicrosoftHelps my pc crashed while doing an update now i have this https://t.co/q2LwHB3rwW | @MicrosoftHelps When i came back home it was fine, i guess it was a big update and maybe i had no more battery so the pc turned off\"}",
+      "generated_reply": "Hello, I'm sorry to hear that your PC crashed and is not working properly after a hard shutdown. Based on the provided information, I am unable to fully resolve your issue. Please contact Microsoft support directly for further assistance."
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0097",
+  "input_fingerprint": "c37f3baa016c797301bfd0d870e95b7c9fe57922a517d95bd0478a9217e6509d",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T11:12:52+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0097",
+    "customer_message": "@AppleSupport yes, but something needs to be updated as Microsoft no longer offers Anniversary edition, and says it’s necessary. https://t.co/6L4B7V1Jtl",
+    "conversation_context": "MICROSOFT (1177502): @396954 Hello, Henry. Let us know on how we can improve our support here: https://t.co/sp5CeRdXVE. Thank you.\nCUSTOMER (1177503): @MicrosoftHelps you can drop this, I have a request in with MS PR.\nCUSTOMER (1177504): . @AppleSupport @MicrosoftHelps according to documentation online, Bootcamp installs require Anniversary Update. But that version is no longer available. Any help?\nMICROSOFT (1177505): @396954 The customer said that he has already requested with a Microsoft person https://t.co/3qcAsLFkaY\nMICROSOFT (1177506): @396954 No problem. Please do not hesitate to reach out to us if you need assistance. https://t.co/3qcAsLFkaY\nMICROSOFT (1177507): @396954 Help us improve our Twitter support by answering our survey on this link: https://t.co/hatQEyupwZ. Thank you.\nOTHER (1177508): @396954 We've got a great article that will provide the system requirements to install Windows using Boot Camp: https://t.co/ZIWhGT19kd\nMICROSOFT (1177509): @396954 Let's get this sorted, Henry. It'd be best if you contact our Answer Desk team to guide you: https://t.co/JySD4fRchw.\nOTHER (1871718): @396954 Take a look at this article for using Windows 10 on your Mac with Boot Camp: https://t.co/nbBLWg7wai Questions? DM us. https://t.co/GDrqU22YpT",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"165703\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 1}, \"score\": 0.71564, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Nope. Your suggestion was the answer. Thanks!\"}\n{\"evidence_id\": \"563371\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.679486, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Yes it has but not from following the steps you gave me. I fixed it myself but thanks anyway. | @MicrosoftHelps https://t.co/H1OL6JOdoN\"}\n{\"evidence_id\": \"2985863\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.647762, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Yes! Any Ways Or methods that we can solve it!!\"}",
+    "generated_reply": "Hello! Based on similar historical cases, customers have found their own solutions or worked through related issues when encountering update concerns. If you need further assistance with your updates, please reach out to Microsoft Support so we can help you get this sorted out."
+  },
+  "raw_response": "{\n  \"correctness\": 2,\n  \"helpfulness\": 2,\n  \"relevance\": 3,\n  \"clarity\": 4,\n  \"escalation_appropriateness\": 4,\n  \"overall_reply_score\": 2,\n  \"evidence_support\": 2,\n  \"unsupported_claims\": 3,\n  \"evidence_relevance\": 1,\n  \"grounding_score\": 2,\n  \"reason\": \"The reply addresses the customer vaguely and does not provide specific technical help regarding the Bootcamp Anniversary edition issue. The retrieved evidence is irrelevant chat history rather than documentation.\"\n}",
+  "result": {
+    "correctness": 2,
+    "helpfulness": 2,
+    "relevance": 3,
+    "clarity": 4,
+    "escalation_appropriateness": 4,
+    "overall_reply_score": 2,
+    "evidence_support": 2,
+    "unsupported_claims": 3,
+    "evidence_relevance": 1,
+    "grounding_score": 2,
+    "reason": "The reply addresses the customer vaguely and does not provide specific technical help regarding the Bootcamp Anniversary edition issue. The retrieved evidence is irrelevant chat history rather than documentation.",
+    "overall_score": 2,
+    "short_reason": "The reply addresses the customer vaguely and does not provide specific technical help regarding the Bootcamp Anniversary edition issue. The retrieved evidence is irrelevant chat history rather than documentation.",
+    "grounding_decision": "UNSUPPORTED",
+    "reply_quality": {
+      "correctness": 2,
+      "helpfulness": 2,
+      "relevance": 3,
+      "clarity": 4,
+      "escalation_appropriateness": 4
+    },
+    "evidence_grounding": {
+      "evidence_support": 2,
+      "unsupported_claims": 3,
+      "evidence_relevance": 1
+    },
+    "golden_id": "GOLDEN-0097",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0097",
+      "customer_message": "@AppleSupport yes, but something needs to be updated as Microsoft no longer offers Anniversary edition, and says it’s necessary. https://t.co/6L4B7V1Jtl",
+      "conversation_context": "MICROSOFT (1177502): @396954 Hello, Henry. Let us know on how we can improve our support here: https://t.co/sp5CeRdXVE. Thank you.\nCUSTOMER (1177503): @MicrosoftHelps you can drop this, I have a request in with MS PR.\nCUSTOMER (1177504): . @AppleSupport @MicrosoftHelps according to documentation online, Bootcamp installs require Anniversary Update. But that version is no longer available. Any help?\nMICROSOFT (1177505): @396954 The customer said that he has already requested with a Microsoft person https://t.co/3qcAsLFkaY\nMICROSOFT (1177506): @396954 No problem. Please do not hesitate to reach out to us if you need assistance. https://t.co/3qcAsLFkaY\nMICROSOFT (1177507): @396954 Help us improve our Twitter support by answering our survey on this link: https://t.co/hatQEyupwZ. Thank you.\nOTHER (1177508): @396954 We've got a great article that will provide the system requirements to install Windows using Boot Camp: https://t.co/ZIWhGT19kd\nMICROSOFT (1177509): @396954 Let's get this sorted, Henry. It'd be best if you contact our Answer Desk team to guide you: https://t.co/JySD4fRchw.\nOTHER (1871718): @396954 Take a look at this article for using Windows 10 on your Mac with Boot Camp: https://t.co/nbBLWg7wai Questions? DM us. https://t.co/GDrqU22YpT",
+      "predicted_intent": "Technical Troubleshooting",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"165703\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 1}, \"score\": 0.71564, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Nope. Your suggestion was the answer. Thanks!\"}\n{\"evidence_id\": \"563371\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.679486, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Yes it has but not from following the steps you gave me. I fixed it myself but thanks anyway. | @MicrosoftHelps https://t.co/H1OL6JOdoN\"}\n{\"evidence_id\": \"2985863\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.647762, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Yes! Any Ways Or methods that we can solve it!!\"}",
+      "generated_reply": "Hello! Based on similar historical cases, customers have found their own solutions or worked through related issues when encountering update concerns. If you need further assistance with your updates, please reach out to Microsoft Support so we can help you get this sorted out."
+    }
+  }
+}

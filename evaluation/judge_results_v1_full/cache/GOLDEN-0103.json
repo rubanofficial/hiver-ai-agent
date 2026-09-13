@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0103",
+  "input_fingerprint": "ca17a471c6195e0c61370c8835ef02166363392f9b7b69da66f6514d5d6378a5",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:39:07+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0103",
+    "customer_message": "@MicrosoftHelps I didn't store it. Let's wait if the problem is already fixed by the tool. If not I run again and send you a screenshot. thx",
+    "conversation_context": "MICROSOFT (1257539): @394797 We suggest that you run Surface Diagnostic Toolkit to resolve issues with your device. Here's the link: https://t.co/HVdw4AP3cL\nCUSTOMER (1257540): @MicrosoftHelps Surface Book i7-6600U, 16GB, 512SSD. It's not the performance update. Need Product or Device-Id?  All Windows Update installed\nMICROSOFT (1257541): @394797 Hello. Checking back with you to see if everything is good on your end?\nMICROSOFT (1257542): @394797 Oh no! This is not how it should be. Which Surface model are you using? Any errors encountered? Is the firmware updated?\nCUSTOMER (1564336): @MicrosoftHelps thx. Diagnostic Tool just told smth. about AC connector (Here I did smth. wrong I think). No other troubles found.\nMICROSOFT (1564337): @394797 Got it. Thank you for getting back to us. Can you share the screenshot of the results of the diagnostic toolkit? Meet us in DM. https://t.co/3qcAsLFkaY",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"2774091\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 1}, \"score\": 0.760641, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Nevermind, it quite literally fixed itself after I walked away for a few minutes. Thanks for the reply, though.\"}\n{\"evidence_id\": \"1657137\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.732198, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Thank you for your prompt reply sir. So far no trouble shooting steps taken. No changes were made sir. | @116230 experiencing this for a month. Kindly help.. https://t.co/1ieTkD1chR\"}\n{\"evidence_id\": \"1876189\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.70544, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps after i ran your tool i still get this https://t.co/6oU7PoEmdN\"}",
+    "generated_reply": "Sounds good! Please let us know if the issue persists or if you need to share a screenshot after running the tool again."
+  },
+  "raw_response": "{\n  \"correctness\": 5,\n  \"helpfulness\": 5,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 5,\n  \"evidence_support\": 5,\n  \"unsupported_claims\": 5,\n  \"evidence_relevance\": 4,\n  \"grounding_score\": 5,\n  \"reason\": \"The reply directly addresses the customer's statement, agrees to wait for them to run the tool again if needed, and maintains a professional, clear, and helpful tone.\"\n}",
+  "result": {
+    "correctness": 5,
+    "helpfulness": 5,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 5,
+    "evidence_support": 5,
+    "unsupported_claims": 5,
+    "evidence_relevance": 4,
+    "grounding_score": 5,
+    "reason": "The reply directly addresses the customer's statement, agrees to wait for them to run the tool again if needed, and maintains a professional, clear, and helpful tone.",
+    "overall_score": 5,
+    "short_reason": "The reply directly addresses the customer's statement, agrees to wait for them to run the tool again if needed, and maintains a professional, clear, and helpful tone.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 5,
+      "helpfulness": 5,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 5,
+      "unsupported_claims": 5,
+      "evidence_relevance": 4
+    },
+    "golden_id": "GOLDEN-0103",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0103",
+      "customer_message": "@MicrosoftHelps I didn't store it. Let's wait if the problem is already fixed by the tool. If not I run again and send you a screenshot. thx",
+      "conversation_context": "MICROSOFT (1257539): @394797 We suggest that you run Surface Diagnostic Toolkit to resolve issues with your device. Here's the link: https://t.co/HVdw4AP3cL\nCUSTOMER (1257540): @MicrosoftHelps Surface Book i7-6600U, 16GB, 512SSD. It's not the performance update. Need Product or Device-Id?  All Windows Update installed\nMICROSOFT (1257541): @394797 Hello. Checking back with you to see if everything is good on your end?\nMICROSOFT (1257542): @394797 Oh no! This is not how it should be. Which Surface model are you using? Any errors encountered? Is the firmware updated?\nCUSTOMER (1564336): @MicrosoftHelps thx. Diagnostic Tool just told smth. about AC connector (Here I did smth. wrong I think). No other troubles found.\nMICROSOFT (1564337): @394797 Got it. Thank you for getting back to us. Can you share the screenshot of the results of the diagnostic toolkit? Meet us in DM. https://t.co/3qcAsLFkaY",
+      "predicted_intent": "Technical Troubleshooting",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"2774091\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 1}, \"score\": 0.760641, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Nevermind, it quite literally fixed itself after I walked away for a few minutes. Thanks for the reply, though.\"}\n{\"evidence_id\": \"1657137\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.732198, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Thank you for your prompt reply sir. So far no trouble shooting steps taken. No changes were made sir. | @116230 experiencing this for a month. Kindly help.. https://t.co/1ieTkD1chR\"}\n{\"evidence_id\": \"1876189\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.70544, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps after i ran your tool i still get this https://t.co/6oU7PoEmdN\"}",
+      "generated_reply": "Sounds good! Please let us know if the issue persists or if you need to share a screenshot after running the tool again."
+    }
+  }
+}

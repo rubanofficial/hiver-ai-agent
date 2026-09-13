@@ -41,6 +41,12 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 
+try:
+    import dotenv
+    dotenv.load_dotenv()
+except ImportError:
+    pass
+
 from evaluation.judge import (
     DEFAULT_MODEL,
     JudgeError,

@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0141",
+  "input_fingerprint": "03508bb63175e2ccbc05ad7ca691fd5eda5839383e7f9e2a17e4728e0afa62da",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T11:26:15+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0141",
+    "customer_message": "@MicrosoftHelps My Acer PC wont start up, it just turns on and off trying to boot (windows 10)",
+    "conversation_context": "MICROSOFT (1985564): @587751 Hi there. Help is here. Have you made any changes prior to having this issue? Are you receiving any error messages? https://t.co/3qcAsLFkaY",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"2721807\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 4}, \"score\": 0.656017, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Hi. No I have not made any changes. I shut it down after I finished using it and the next day this happened. | @MicrosoftHelps I've been getting this for over a week now. What's the issue? I most definitely do not have the money to go out and buy a new laptop. Windows 10 is the worst! https://t.co/Q9PGhnw0Co | @MicrosoftHelps Is there another way to do this? The computer will not load up to anything. It just keeps looping. | @MicrosoftHelps Hi. I pressed and held the power button 3 times but its not going in to boot repair\"}\n{\"evidence_id\": \"198526\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 5}, \"score\": 0.629922, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I let it sit overnight and came back to find that it finally booted, i guess it needed an hour or so to finish updating | @MicrosoftHelps This is all i get https://t.co/P5SB0T5deQ | @MicrosoftHelps Yea, I was able to boot it | @MicrosoftHelps Windows 10 | @MicrosoftHelps did you guys release a new update recently? i went to use my laptop, and it brought up the welcome screen, now it wont boot\"}\n{\"evidence_id\": \"1061506\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.592102, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps laptop running Windows 10 stuck on \\\"preparing to configure windows, please don't turn off your computer\\\" any suggestions?\"}",
+    "generated_reply": "Hello! We see you are having trouble starting up your Windows 10 PC and it is looping during boot. Because the computer will not load up to anything and standard steps like pressing and holding the power button are not triggering boot repair, this case requires further investigation into your system's specific boot state. Please contact Microsoft Support so we can look further into this startup issue for you."
+  },
+  "raw_response": "{\n  \"correctness\": 4,\n  \"helpfulness\": 4,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 4,\n  \"evidence_support\": 5,\n  \"unsupported_claims\": 5,\n  \"evidence_relevance\": 4,\n  \"grounding_score\": 5,\n  \"reason\": \"The reply accurately addresses the customer's boot loop issue, incorporates details from the conversation context, and appropriately suggests contacting support when basic troubleshooting fails. All statements are supported by the evidence.\"\n}",
+  "result": {
+    "correctness": 4,
+    "helpfulness": 4,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 4,
+    "evidence_support": 5,
+    "unsupported_claims": 5,
+    "evidence_relevance": 4,
+    "grounding_score": 5,
+    "reason": "The reply accurately addresses the customer's boot loop issue, incorporates details from the conversation context, and appropriately suggests contacting support when basic troubleshooting fails. All statements are supported by the evidence.",
+    "overall_score": 4,
+    "short_reason": "The reply accurately addresses the customer's boot loop issue, incorporates details from the conversation context, and appropriately suggests contacting support when basic troubleshooting fails. All statements are supported by the evidence.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 4,
+      "helpfulness": 4,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 5,
+      "unsupported_claims": 5,
+      "evidence_relevance": 4
+    },
+    "golden_id": "GOLDEN-0141",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0141",
+      "customer_message": "@MicrosoftHelps My Acer PC wont start up, it just turns on and off trying to boot (windows 10)",
+      "conversation_context": "MICROSOFT (1985564): @587751 Hi there. Help is here. Have you made any changes prior to having this issue? Are you receiving any error messages? https://t.co/3qcAsLFkaY",
+      "predicted_intent": "Technical Troubleshooting",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"2721807\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 4}, \"score\": 0.656017, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Hi. No I have not made any changes. I shut it down after I finished using it and the next day this happened. | @MicrosoftHelps I've been getting this for over a week now. What's the issue? I most definitely do not have the money to go out and buy a new laptop. Windows 10 is the worst! https://t.co/Q9PGhnw0Co | @MicrosoftHelps Is there another way to do this? The computer will not load up to anything. It just keeps looping. | @MicrosoftHelps Hi. I pressed and held the power button 3 times but its not going in to boot repair\"}\n{\"evidence_id\": \"198526\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 5}, \"score\": 0.629922, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I let it sit overnight and came back to find that it finally booted, i guess it needed an hour or so to finish updating | @MicrosoftHelps This is all i get https://t.co/P5SB0T5deQ | @MicrosoftHelps Yea, I was able to boot it | @MicrosoftHelps Windows 10 | @MicrosoftHelps did you guys release a new update recently? i went to use my laptop, and it brought up the welcome screen, now it wont boot\"}\n{\"evidence_id\": \"1061506\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.592102, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps laptop running Windows 10 stuck on \\\"preparing to configure windows, please don't turn off your computer\\\" any suggestions?\"}",
+      "generated_reply": "Hello! We see you are having trouble starting up your Windows 10 PC and it is looping during boot. Because the computer will not load up to anything and standard steps like pressing and holding the power button are not triggering boot repair, this case requires further investigation into your system's specific boot state. Please contact Microsoft Support so we can look further into this startup issue for you."
+    }
+  }
+}

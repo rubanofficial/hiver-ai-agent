@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0195",
+  "input_fingerprint": "fbee5dff36b20c8ea06c18e569cdfc4e5e70780f395dc15204a3217156b88801",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:47:23+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0195",
+    "customer_message": "I am on a Mac...not a phone, I don't want the phone layout!!!!! @115890 @MicrosoftHelps Stop it plz -- Skype’s new mobile design comes to Windows and Mac today https://t.co/Zq5ymlaLGF",
+    "conversation_context": "MICROSOFT (2938050): @737057 Your voice matters to us, Hannah. We want it to be heard and to reach out to our Skype engineers to make improvements on this matter. You can provide your feedback and suggestion via following the steps here: https://t.co/Vb5vu9TQIF. Have a good one.",
+    "predicted_intent": "Complaint / Feedback",
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Best evidence similarity (0.50) is below the auto-handle threshold (0.50); human review is required.",
+    "retrieved_evidence": "{\"evidence_id\": \"1821194\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.49658, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@118334 If I'm not able to unlink my skype from my Microsoft account I should at least be able to change my skype name...\"}\n{\"evidence_id\": \"1417557\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.491236, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps My laptop with the latest Skype for Windows 10 app | does anyone know how to turn the skype call sound off with the windows 10 app?\\n@118334 \\n\\nSeriously...need help urgently\"}\n{\"evidence_id\": \"643627\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.489004, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps When I uninstalled the Skype app and reinstalled it created a new Skype account without me knowing. | I do not enjoy the new Skype for Windows 10. @115890 @118334 @6986\"}",
+    "generated_reply": "Hello! I understand you are frustrated with the new Skype layout on your Mac. Since I do not have specific steps available to change this interface based on our current support details, please contact Microsoft support directly for further assistance."
+  },
+  "raw_response": "{\n  \"correctness\": 4,\n  \"helpfulness\": 4,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 4,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 4,\n  \"evidence_relevance\": 2,\n  \"grounding_score\": 3,\n  \"reason\": \"The reply appropriately handles a complaint about the mobile layout on Mac by acknowledging the frustration and suggesting contacting support, as the retrieved evidence lacks specific troubleshooting steps for this issue.\"\n}",
+  "result": {
+    "correctness": 4,
+    "helpfulness": 4,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 4,
+    "evidence_support": 3,
+    "unsupported_claims": 4,
+    "evidence_relevance": 2,
+    "grounding_score": 3,
+    "reason": "The reply appropriately handles a complaint about the mobile layout on Mac by acknowledging the frustration and suggesting contacting support, as the retrieved evidence lacks specific troubleshooting steps for this issue.",
+    "overall_score": 4,
+    "short_reason": "The reply appropriately handles a complaint about the mobile layout on Mac by acknowledging the frustration and suggesting contacting support, as the retrieved evidence lacks specific troubleshooting steps for this issue.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 4,
+      "helpfulness": 4,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 4,
+      "evidence_relevance": 2
+    },
+    "golden_id": "GOLDEN-0195",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0195",
+      "customer_message": "I am on a Mac...not a phone, I don't want the phone layout!!!!! @115890 @MicrosoftHelps Stop it plz -- Skype’s new mobile design comes to Windows and Mac today https://t.co/Zq5ymlaLGF",
+      "conversation_context": "MICROSOFT (2938050): @737057 Your voice matters to us, Hannah. We want it to be heard and to reach out to our Skype engineers to make improvements on this matter. You can provide your feedback and suggestion via following the steps here: https://t.co/Vb5vu9TQIF. Have a good one.",
+      "predicted_intent": "Complaint / Feedback",
+      "predicted_escalation": "ESCALATE_TO_HUMAN",
+      "predicted_escalation_reason": "Best evidence similarity (0.50) is below the auto-handle threshold (0.50); human review is required.",
+      "retrieved_evidence": "{\"evidence_id\": \"1821194\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.49658, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@118334 If I'm not able to unlink my skype from my Microsoft account I should at least be able to change my skype name...\"}\n{\"evidence_id\": \"1417557\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.491236, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps My laptop with the latest Skype for Windows 10 app | does anyone know how to turn the skype call sound off with the windows 10 app?\\n@118334 \\n\\nSeriously...need help urgently\"}\n{\"evidence_id\": \"643627\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.489004, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps When I uninstalled the Skype app and reinstalled it created a new Skype account without me knowing. | I do not enjoy the new Skype for Windows 10. @115890 @118334 @6986\"}",
+      "generated_reply": "Hello! I understand you are frustrated with the new Skype layout on your Mac. Since I do not have specific steps available to change this interface based on our current support details, please contact Microsoft support directly for further assistance."
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0064",
+  "input_fingerprint": "2a51a6f0e70e13163bf40ef04a8fe85fd7e80911d080b41dde1933d8a9a2d47b",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:34:55+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0064",
+    "customer_message": "@MicrosoftHelps No i have not. There is no option anywhere i could navigate to.  Appearance, personalization, color, themes, high contrast, nothing.",
+    "conversation_context": "MICROSOFT (720261): @292397 Hi there! We definitely want to help. Just to clarify, did you make any changes before the issue started? Share us a screenshot.\nCUSTOMER (720262): @MicrosoftHelps Thank you for responding. This is with browser scaled to 125. Display scalled to 125 as well on both monitor and lap. Only your updates https://t.co/vYFnsbjKX5\nCUSTOMER (720263): OMG this fine font in Win 10 is driving me nutz and i can't work. Display scaling opt is meh, let me set my own system font @MicrosoftHelps\nMICROSOFT (720264): @292397 Thanks for the screenshot. Were you able to set your own font?",
+    "predicted_intent": "Product / Feature How-To",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"165703\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 1}, \"score\": 0.613997, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Nope. Your suggestion was the answer. Thanks!\"}\n{\"evidence_id\": \"2307874\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.559595, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"I really like the new interface but there are some features I wish you'd bring back. Overall tho, it's really nice. @115786 @MicrosoftHelps\"}\n{\"evidence_id\": \"1571871\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.556725, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps it is not necessary, but yes I have.\"}",
+    "generated_reply": "We apologize for the inconvenience. Since the provided information is insufficient to resolve your issue, please contact Microsoft support directly for further assistance."
+  },
+  "raw_response": "{\n  \"correctness\": 2,\n  \"helpfulness\": 2,\n  \"relevance\": 2,\n  \"clarity\": 4,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 2,\n  \"evidence_support\": 1,\n  \"unsupported_claims\": 3,\n  \"evidence_relevance\": 1,\n  \"grounding_score\": 1,\n  \"reason\": \"The agent prematurely gave up and deflected the customer to general support without attempting to troubleshoot the Windows 10 font and scaling issue, and the reply has no grounding in the retrieved evidence.\"\n}",
+  "result": {
+    "correctness": 2,
+    "helpfulness": 2,
+    "relevance": 2,
+    "clarity": 4,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 2,
+    "evidence_support": 1,
+    "unsupported_claims": 3,
+    "evidence_relevance": 1,
+    "grounding_score": 1,
+    "reason": "The agent prematurely gave up and deflected the customer to general support without attempting to troubleshoot the Windows 10 font and scaling issue, and the reply has no grounding in the retrieved evidence.",
+    "overall_score": 2,
+    "short_reason": "The agent prematurely gave up and deflected the customer to general support without attempting to troubleshoot the Windows 10 font and scaling issue, and the reply has no grounding in the retrieved evidence.",
+    "grounding_decision": "UNSUPPORTED",
+    "reply_quality": {
+      "correctness": 2,
+      "helpfulness": 2,
+      "relevance": 2,
+      "clarity": 4,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 1,
+      "unsupported_claims": 3,
+      "evidence_relevance": 1
+    },
+    "golden_id": "GOLDEN-0064",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0064",
+      "customer_message": "@MicrosoftHelps No i have not. There is no option anywhere i could navigate to.  Appearance, personalization, color, themes, high contrast, nothing.",
+      "conversation_context": "MICROSOFT (720261): @292397 Hi there! We definitely want to help. Just to clarify, did you make any changes before the issue started? Share us a screenshot.\nCUSTOMER (720262): @MicrosoftHelps Thank you for responding. This is with browser scaled to 125. Display scalled to 125 as well on both monitor and lap. Only your updates https://t.co/vYFnsbjKX5\nCUSTOMER (720263): OMG this fine font in Win 10 is driving me nutz and i can't work. Display scaling opt is meh, let me set my own system font @MicrosoftHelps\nMICROSOFT (720264): @292397 Thanks for the screenshot. Were you able to set your own font?",
+      "predicted_intent": "Product / Feature How-To",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"165703\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 1}, \"score\": 0.613997, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Nope. Your suggestion was the answer. Thanks!\"}\n{\"evidence_id\": \"2307874\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.559595, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"I really like the new interface but there are some features I wish you'd bring back. Overall tho, it's really nice. @115786 @MicrosoftHelps\"}\n{\"evidence_id\": \"1571871\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.556725, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps it is not necessary, but yes I have.\"}",
+      "generated_reply": "We apologize for the inconvenience. Since the provided information is insufficient to resolve your issue, please contact Microsoft support directly for further assistance."
+    }
+  }
+}

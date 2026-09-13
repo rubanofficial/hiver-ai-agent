@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0072",
+  "input_fingerprint": "e73955fb2f830cf95a67f1823e28477412e64b1c503104d9071c1a965a7812b8",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:35:49+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0072",
+    "customer_message": "@MicrosoftHelps After the update I can't play the games. Controls are not working. Reset the game. Tried on both W/Gamer mode. Nothing works.",
+    "conversation_context": "MICROSOFT (901442): @334001 Thank you for reporting this to us. For common update errors, check this link: https://t.co/opy8akfZGr. Keep us posted.\nCUSTOMER (901443): @MicrosoftHelps Hope this time it will work fine https://t.co/kwnxF10OsY\nCUSTOMER (901444): @MicrosoftHelps After 92% of downloading #Windows10FallCreatorsUpdate ISO it shows like this. What's this? https://t.co/GdMeuHDwFn\nMICROSOFT (901445): @334001 How is it going now? Is it installing now? https://t.co/3qcAsLFkaY\nCUSTOMER (901446): @MicrosoftHelps No it didn't work. Trying this method again. Lets see https://t.co/Vwtx3fxCkx\nMICROSOFT (901447): @334001 Sure! Give us an update when you're done. Send us a direct message to continue our conversation.\nCUSTOMER (901448): @MicrosoftHelps sure\nCUSTOMER (901449): @MicrosoftHelps Successfully installed. No more issues. Thanks team.\nhttps://t.co/jWWKeNRsew\nMICROSOFT (901450): @334001 You're very much welcome, Ashik! Have a great day. Cheers! 😀 https://t.co/3qcAsLFkaY\nCUSTOMER (901451): @MicrosoftHelps Thank you",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"2929046\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 3}, \"score\": 0.769463, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps They diddnt work. I have fixed the problem myself but your update broke things. | @MicrosoftHelps please explain why your latest update broke all my games :/ | After spending over an hour talking to tech support, it was hesitantly suggested that I roll back windows (which had been my plan since before I started the conversation) AND GUESS FUCKING WHAT it fixed everything\"}\n{\"evidence_id\": \"665022\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.682895, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Acct was reset during update. Can't get back in. All games are gone\"}\n{\"evidence_id\": \"1142553\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.663723, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps it was with the latest update (error 0x800704cf) but problem resolved i bought window pro | @MicrosoftHelps Hi i can't connect to my microsoft account on my pc. I can on browser web. Now i can't play game, using windows store...\"}",
+    "generated_reply": "We apologize for the trouble you are experiencing with your games after the update. Since the provided information is insufficient to fully resolve your control issues, we recommend contacting Microsoft support directly for further assistance."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 4,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 4,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 4,\n  \"evidence_relevance\": 3,\n  \"grounding_score\": 3,\n  \"reason\": \"The reply acknowledges the customer's issue with game controls after an update and suggests contacting support since more info is needed, which is a safe and appropriate handling, though the evidence focuses more on rolled-back updates or account resets.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 4,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 4,
+    "evidence_support": 3,
+    "unsupported_claims": 4,
+    "evidence_relevance": 3,
+    "grounding_score": 3,
+    "reason": "The reply acknowledges the customer's issue with game controls after an update and suggests contacting support since more info is needed, which is a safe and appropriate handling, though the evidence focuses more on rolled-back updates or account resets.",
+    "overall_score": 4,
+    "short_reason": "The reply acknowledges the customer's issue with game controls after an update and suggests contacting support since more info is needed, which is a safe and appropriate handling, though the evidence focuses more on rolled-back updates or account resets.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 4,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 4,
+      "evidence_relevance": 3
+    },
+    "golden_id": "GOLDEN-0072",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0072",
+      "customer_message": "@MicrosoftHelps After the update I can't play the games. Controls are not working. Reset the game. Tried on both W/Gamer mode. Nothing works.",
+      "conversation_context": "MICROSOFT (901442): @334001 Thank you for reporting this to us. For common update errors, check this link: https://t.co/opy8akfZGr. Keep us posted.\nCUSTOMER (901443): @MicrosoftHelps Hope this time it will work fine https://t.co/kwnxF10OsY\nCUSTOMER (901444): @MicrosoftHelps After 92% of downloading #Windows10FallCreatorsUpdate ISO it shows like this. What's this? https://t.co/GdMeuHDwFn\nMICROSOFT (901445): @334001 How is it going now? Is it installing now? https://t.co/3qcAsLFkaY\nCUSTOMER (901446): @MicrosoftHelps No it didn't work. Trying this method again. Lets see https://t.co/Vwtx3fxCkx\nMICROSOFT (901447): @334001 Sure! Give us an update when you're done. Send us a direct message to continue our conversation.\nCUSTOMER (901448): @MicrosoftHelps sure\nCUSTOMER (901449): @MicrosoftHelps Successfully installed. No more issues. Thanks team.\nhttps://t.co/jWWKeNRsew\nMICROSOFT (901450): @334001 You're very much welcome, Ashik! Have a great day. Cheers! 😀 https://t.co/3qcAsLFkaY\nCUSTOMER (901451): @MicrosoftHelps Thank you",
+      "predicted_intent": "Technical Troubleshooting",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"2929046\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 3}, \"score\": 0.769463, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps They diddnt work. I have fixed the problem myself but your update broke things. | @MicrosoftHelps please explain why your latest update broke all my games :/ | After spending over an hour talking to tech support, it was hesitantly suggested that I roll back windows (which had been my plan since before I started the conversation) AND GUESS FUCKING WHAT it fixed everything\"}\n{\"evidence_id\": \"665022\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.682895, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Acct was reset during update. Can't get back in. All games are gone\"}\n{\"evidence_id\": \"1142553\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.663723, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps it was with the latest update (error 0x800704cf) but problem resolved i bought window pro | @MicrosoftHelps Hi i can't connect to my microsoft account on my pc. I can on browser web. Now i can't play game, using windows store...\"}",
+      "generated_reply": "We apologize for the trouble you are experiencing with your games after the update. Since the provided information is insufficient to fully resolve your control issues, we recommend contacting Microsoft support directly for further assistance."
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0147",
+  "input_fingerprint": "0b6ca1a3b065c6504e6e6ec19f3e7b5633064905eb3585ecf1a298725e058856",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T11:26:24+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0147",
+    "customer_message": "@MicrosoftHelps I don't really have a suggestion for improvement other than don't tell me to do something to \"fix errors\" which then kills my machine",
+    "conversation_context": "MICROSOFT (2046003): @605083 Hi, Da. Allow us to help. Please tell us more about your concern.\nCUSTOMER (2046004): @MicrosoftHelps Windows told me to restart to fix hard drive errors. Resulted in explorer.exe becoming unstable and having to do system restore\nCUSTOMER (2046005): @116230 thanks for crapping out on me for the 2nd time in as many months for no reason #Windows10\nMICROSOFT (2046006): @605083 Were you able to do a system restore? Let us know so we'll know how to proceed.\nCUSTOMER (2046007): @MicrosoftHelps System restore and system reset failed 5 times. Eventually system restore was able to complete after approx. 4 hours of attempts and \"fixes\"\nMICROSOFT (2046008): @605083 2/2 help with your concern. You can also voice out your feedback and ideas for improvement. Here's how: https://t.co/3Oa6Wocchp.\nMICROSOFT (2046009): @605083 1/2 We’re relieved to know that it was a success. We want to make up for the time that was lost by always being available to",
+    "predicted_intent": "Complaint / Feedback",
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+    "retrieved_evidence": "{\"evidence_id\": \"2667151\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.69844, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps so out of this new update my powerful computer is having issues doing basic things.\"}\n{\"evidence_id\": \"1150656\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.690405, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps what do i need to do to fix?\"}\n{\"evidence_id\": \"590733\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.678164, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Still The Same Error Is Coming!!What Should i do??\"}",
+    "generated_reply": "We are sorry to hear that troubleshooting steps caused further issues with your machine following the recent update. Because this requires a closer look at what happened during the update and the specific errors you encountered, please reach out to Microsoft Support so we can investigate your system's behavior further. To help us assist you better, could you please provide the specific error message or steps you were advised to follow?"
+  },
+  "raw_response": "{\n  \"correctness\": 4,\n  \"helpfulness\": 4,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 4,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 4,\n  \"evidence_relevance\": 2,\n  \"grounding_score\": 3,\n  \"reason\": \"The reply appropriately acknowledges the customer's severe issue and suggests contacting support, handling the escalation well. However, the retrieved evidence is generic and does not contain specific information about the user's hard drive error or system restore failure.\"\n}",
+  "result": {
+    "correctness": 4,
+    "helpfulness": 4,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 4,
+    "evidence_support": 3,
+    "unsupported_claims": 4,
+    "evidence_relevance": 2,
+    "grounding_score": 3,
+    "reason": "The reply appropriately acknowledges the customer's severe issue and suggests contacting support, handling the escalation well. However, the retrieved evidence is generic and does not contain specific information about the user's hard drive error or system restore failure.",
+    "overall_score": 4,
+    "short_reason": "The reply appropriately acknowledges the customer's severe issue and suggests contacting support, handling the escalation well. However, the retrieved evidence is generic and does not contain specific information about the user's hard drive error or system restore failure.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 4,
+      "helpfulness": 4,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 4,
+      "evidence_relevance": 2
+    },
+    "golden_id": "GOLDEN-0147",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0147",
+      "customer_message": "@MicrosoftHelps I don't really have a suggestion for improvement other than don't tell me to do something to \"fix errors\" which then kills my machine",
+      "conversation_context": "MICROSOFT (2046003): @605083 Hi, Da. Allow us to help. Please tell us more about your concern.\nCUSTOMER (2046004): @MicrosoftHelps Windows told me to restart to fix hard drive errors. Resulted in explorer.exe becoming unstable and having to do system restore\nCUSTOMER (2046005): @116230 thanks for crapping out on me for the 2nd time in as many months for no reason #Windows10\nMICROSOFT (2046006): @605083 Were you able to do a system restore? Let us know so we'll know how to proceed.\nCUSTOMER (2046007): @MicrosoftHelps System restore and system reset failed 5 times. Eventually system restore was able to complete after approx. 4 hours of attempts and \"fixes\"\nMICROSOFT (2046008): @605083 2/2 help with your concern. You can also voice out your feedback and ideas for improvement. Here's how: https://t.co/3Oa6Wocchp.\nMICROSOFT (2046009): @605083 1/2 We’re relieved to know that it was a success. We want to make up for the time that was lost by always being available to",
+      "predicted_intent": "Complaint / Feedback",
+      "predicted_escalation": "ESCALATE_TO_HUMAN",
+      "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+      "retrieved_evidence": "{\"evidence_id\": \"2667151\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.69844, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps so out of this new update my powerful computer is having issues doing basic things.\"}\n{\"evidence_id\": \"1150656\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.690405, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps what do i need to do to fix?\"}\n{\"evidence_id\": \"590733\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.678164, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Still The Same Error Is Coming!!What Should i do??\"}",
+      "generated_reply": "We are sorry to hear that troubleshooting steps caused further issues with your machine following the recent update. Because this requires a closer look at what happened during the update and the specific errors you encountered, please reach out to Microsoft Support so we can investigate your system's behavior further. To help us assist you better, could you please provide the specific error message or steps you were advised to follow?"
+    }
+  }
+}

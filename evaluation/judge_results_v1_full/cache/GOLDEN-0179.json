@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0179",
+  "input_fingerprint": "0f4cf7f20d805ce3301810d07a4671986b1169bbb38e3d65ed7d8f439365707d",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:45:33+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0179",
+    "customer_message": "@MicrosoftHelps We have tried that. How do you explain 3 failed products in two years?! Do you think that is adequate? Is that your ethos for treating customers? There are many of us in this position, hence you stopping production. You should therefore treat people fairly. As your title implies",
+    "conversation_context": "MICROSOFT (2633859): @743642 Hello Keith. We wanted to help you as much as we can with regard to your Micorsoft Band problem. Can you send us the care number for your conversation with our Support team via DM?\nCUSTOMER (2633860): @MicrosoftHelps @743642 We were not offered a care number. Just very rude, no apology for the 3 defunct bands in TWO YEARS! I am £199 out of pocket. No offer of help, or recognition of the 3 failed products. Disgusting. Very upset.\nCUSTOMER (2633861): @MicrosoftHelps ...3rd ms band in 3 years....each one has failed. Called the support line &amp; no help whatsoever; clearly the product is not fit for purpose and I'm out of pocket...not happy; why such bad customer service??????\nMICROSOFT (2633862): @743643 Hi Faith. Let's investigate further. Can you tell us what issue you're having on your Microsoft Band?\nCUSTOMER (2633863): @MicrosoftHelps So what can you do to make this right for me? Can understand why production has stopped, but many people have had problems, are out of pocket and have been treated unfairly. I just want you to be fair https://t.co/euBdAMMfTy\nMICROSOFT (2633864): @743643 We hear you, Faith. Were there any recommendations provided to you by our support team? Please see this link: https://t.co/XZTyJNOPit for more information regarding Microsoft Band warranty coverage. https://t.co/3qcAsLFkaY\nCUSTOMER (2633865): @MicrosoftHelps So what are you doing to make this right? Bearing in mind this is the third Microsoft Band in two years, every one failing.\nMICROSOFT (2633866): @743643 We appreciate your response. We suggest that you visit the nearest Microsoft Store in your area or contact Global Customer Support for further assistance. You'll find the phone number for your country/region here: https://t.co/OvqCUhuC0S",
+    "predicted_intent": "Complaint / Feedback",
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+    "retrieved_evidence": "{\"evidence_id\": \"621110\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.529005, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps WHY WONT YOUR TEAM RESPOND TO ANY ISSUES I HAVE SENT TO YOU?  is your customer service as bad as the products you sell? | @MicrosoftHelps @267409 I've tweeted you several times can you please address my issue.\"}\n{\"evidence_id\": \"196247\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 4}, \"score\": 0.512878, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Just as I thought. I DM you guys just as you stated and no response. You could care less about the issues at hand. All you care about is $ | @MicrosoftHelps There isn't enough space for me to even start. | @MicrosoftHelps No, everything is still at a stand still. I've been waiting 2weeks and nothing has happened. Smh. | @115890 @MicrosoftHelps I won't ever buy another Microsoft product again. Your customer service just completely killed it for me. 👎🏽💩\"}\n{\"evidence_id\": \"1092824\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.485998, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Absolutely let down today, can't believe a corporation as big as Microsoft cannot help a problem they induced @MicrosoftHelps\"}",
+    "generated_reply": "We are sorry to hear about your frustration and experience with our products and support. Since the available information is insufficient to resolve your specific hardware or account concerns here, we strongly recommend contacting Microsoft support directly so our team can assist you further."
+  },
+  "raw_response": "{\n  \"correctness\": 4,\n  \"helpfulness\": 4,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 4,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 4,\n  \"evidence_relevance\": 2,\n  \"grounding_score\": 3,\n  \"reason\": \"The reply is empathetic, professional, and appropriately suggests contacting support for a complex hardware complaint, though the retrieved evidence was somewhat generic historical tweets.\"\n}",
+  "result": {
+    "correctness": 4,
+    "helpfulness": 4,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 4,
+    "evidence_support": 3,
+    "unsupported_claims": 4,
+    "evidence_relevance": 2,
+    "grounding_score": 3,
+    "reason": "The reply is empathetic, professional, and appropriately suggests contacting support for a complex hardware complaint, though the retrieved evidence was somewhat generic historical tweets.",
+    "overall_score": 4,
+    "short_reason": "The reply is empathetic, professional, and appropriately suggests contacting support for a complex hardware complaint, though the retrieved evidence was somewhat generic historical tweets.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 4,
+      "helpfulness": 4,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 4,
+      "evidence_relevance": 2
+    },
+    "golden_id": "GOLDEN-0179",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0179",
+      "customer_message": "@MicrosoftHelps We have tried that. How do you explain 3 failed products in two years?! Do you think that is adequate? Is that your ethos for treating customers? There are many of us in this position, hence you stopping production. You should therefore treat people fairly. As your title implies",
+      "conversation_context": "MICROSOFT (2633859): @743642 Hello Keith. We wanted to help you as much as we can with regard to your Micorsoft Band problem. Can you send us the care number for your conversation with our Support team via DM?\nCUSTOMER (2633860): @MicrosoftHelps @743642 We were not offered a care number. Just very rude, no apology for the 3 defunct bands in TWO YEARS! I am £199 out of pocket. No offer of help, or recognition of the 3 failed products. Disgusting. Very upset.\nCUSTOMER (2633861): @MicrosoftHelps ...3rd ms band in 3 years....each one has failed. Called the support line &amp; no help whatsoever; clearly the product is not fit for purpose and I'm out of pocket...not happy; why such bad customer service??????\nMICROSOFT (2633862): @743643 Hi Faith. Let's investigate further. Can you tell us what issue you're having on your Microsoft Band?\nCUSTOMER (2633863): @MicrosoftHelps So what can you do to make this right for me? Can understand why production has stopped, but many people have had problems, are out of pocket and have been treated unfairly. I just want you to be fair https://t.co/euBdAMMfTy\nMICROSOFT (2633864): @743643 We hear you, Faith. Were there any recommendations provided to you by our support team? Please see this link: https://t.co/XZTyJNOPit for more information regarding Microsoft Band warranty coverage. https://t.co/3qcAsLFkaY\nCUSTOMER (2633865): @MicrosoftHelps So what are you doing to make this right? Bearing in mind this is the third Microsoft Band in two years, every one failing.\nMICROSOFT (2633866): @743643 We appreciate your response. We suggest that you visit the nearest Microsoft Store in your area or contact Global Customer Support for further assistance. You'll find the phone number for your country/region here: https://t.co/OvqCUhuC0S",
+      "predicted_intent": "Complaint / Feedback",
+      "predicted_escalation": "ESCALATE_TO_HUMAN",
+      "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+      "retrieved_evidence": "{\"evidence_id\": \"621110\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.529005, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps WHY WONT YOUR TEAM RESPOND TO ANY ISSUES I HAVE SENT TO YOU?  is your customer service as bad as the products you sell? | @MicrosoftHelps @267409 I've tweeted you several times can you please address my issue.\"}\n{\"evidence_id\": \"196247\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 4}, \"score\": 0.512878, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Just as I thought. I DM you guys just as you stated and no response. You could care less about the issues at hand. All you care about is $ | @MicrosoftHelps There isn't enough space for me to even start. | @MicrosoftHelps No, everything is still at a stand still. I've been waiting 2weeks and nothing has happened. Smh. | @115890 @MicrosoftHelps I won't ever buy another Microsoft product again. Your customer service just completely killed it for me. 👎🏽💩\"}\n{\"evidence_id\": \"1092824\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.485998, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Absolutely let down today, can't believe a corporation as big as Microsoft cannot help a problem they induced @MicrosoftHelps\"}",
+      "generated_reply": "We are sorry to hear about your frustration and experience with our products and support. Since the available information is insufficient to resolve your specific hardware or account concerns here, we strongly recommend contacting Microsoft support directly so our team can assist you further."
+    }
+  }
+}

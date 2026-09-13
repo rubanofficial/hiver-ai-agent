@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0026",
+  "input_fingerprint": "870251d41f51bcec0f0faca82e6f0a948cfd8b04fbc2533ab005ca372cd8ff8e",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:30:05+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0026",
+    "customer_message": "@MicrosoftHelps is there anyway of doing a refund reversal on forza 7. Refunded it last night due to the VIP treatment but now they have....",
+    "conversation_context": "MICROSOFT (248965): @175163 2/2  from Xbox Store? We'll keep an eye out for your reply.\nCUSTOMER (248966): @MicrosoftHelps It was originally from the Xbox store.\nCUSTOMER (248967): @MicrosoftHelps Sorted it I want to buy it again. But the price has doubled :-/\nCUSTOMER (248968): @MicrosoftHelps https://t.co/Db2VZrvPbj\nCUSTOMER (248969): @MicrosoftHelps I had some credit on my account. I used the credit but after refunding the game had already gone up.\nCUSTOMER (248970): @MicrosoftHelps Sorry it was the online shop. Due to how the VIP pass was mis sold. I was planning on buying the deluxe version but didn't think to check.\nCUSTOMER (248971): @MicrosoftHelps Kicking myself now.\nMICROSOFT (248972): @175163 There's no need to worry. Our Sales and support team: https://t.co/w9VE8NhZs8 is here to take a closer look at your concern.\nCUSTOMER (248973): @MicrosoftHelps Ok thanks.\nCUSTOMER (248974): @MicrosoftHelps It keeps wanting me to use a virtual agent.\nI did speak to someone before and they said that There's pretty much nothing I can do :-(\nMICROSOFT (248975): @175163 In that case, you may contact our Global phone support on this link: https://t.co/4ILCTpye4L for further assistance.\nCUSTOMER (248976): @MicrosoftHelps Ok thanks very much.\nThink I'll probably be wasting my time.\nThat's for the reply though 😁\nMICROSOFT (248977): @175163 1/2 Hi. Happy to help here. Can you tell us which store are you planning to buy the game? Is it from the Windows Store or",
+    "predicted_intent": "Cancellation / Subscription",
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Intent 'Cancellation / Subscription' is high-risk and requires human handling.",
+    "retrieved_evidence": "{\"evidence_id\": \"955550\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.838229, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@115890 @MicrosoftHelps I want my money back. | @115890 I want a refund on my Forza 7 purchase. Even now I'm not being able to download it and I see no point in waiting. I want my money\"}\n{\"evidence_id\": \"208828\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.725237, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@5543 @MicrosoftHelps @XboxSupport @117347 @XboxSupport @115786 pls respond | Hey @5543 @MicrosoftHelps @XboxSupport @117347 can u get a refund for #Forza7 because it is super depressing because its 💩\"}\n{\"evidence_id\": \"2637747\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.656869, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I'd like a refund for a recent digital purchase from this morning. Any help?\"}",
+    "generated_reply": "Hello! I understand you are inquiring about a refund reversal for Forza 7. Based on the available information, I cannot fully resolve your issue here. Please contact Microsoft support directly for further assistance with your refund status."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 4,\n  \"clarity\": 4,\n  \"escalation_appropriateness\": 4,\n  \"overall_reply_score\": 3,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 4,\n  \"evidence_relevance\": 3,\n  \"grounding_score\": 3,\n  \"reason\": \"The reply appropriately directs the customer to contact support for a refund reversal, but the conversation context shows this was already attempted and the agent is restarting a conversation about store types.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 4,
+    "clarity": 4,
+    "escalation_appropriateness": 4,
+    "overall_reply_score": 3,
+    "evidence_support": 3,
+    "unsupported_claims": 4,
+    "evidence_relevance": 3,
+    "grounding_score": 3,
+    "reason": "The reply appropriately directs the customer to contact support for a refund reversal, but the conversation context shows this was already attempted and the agent is restarting a conversation about store types.",
+    "overall_score": 3,
+    "short_reason": "The reply appropriately directs the customer to contact support for a refund reversal, but the conversation context shows this was already attempted and the agent is restarting a conversation about store types.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 4,
+      "clarity": 4,
+      "escalation_appropriateness": 4
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 4,
+      "evidence_relevance": 3
+    },
+    "golden_id": "GOLDEN-0026",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0026",
+      "customer_message": "@MicrosoftHelps is there anyway of doing a refund reversal on forza 7. Refunded it last night due to the VIP treatment but now they have....",
+      "conversation_context": "MICROSOFT (248965): @175163 2/2  from Xbox Store? We'll keep an eye out for your reply.\nCUSTOMER (248966): @MicrosoftHelps It was originally from the Xbox store.\nCUSTOMER (248967): @MicrosoftHelps Sorted it I want to buy it again. But the price has doubled :-/\nCUSTOMER (248968): @MicrosoftHelps https://t.co/Db2VZrvPbj\nCUSTOMER (248969): @MicrosoftHelps I had some credit on my account. I used the credit but after refunding the game had already gone up.\nCUSTOMER (248970): @MicrosoftHelps Sorry it was the online shop. Due to how the VIP pass was mis sold. I was planning on buying the deluxe version but didn't think to check.\nCUSTOMER (248971): @MicrosoftHelps Kicking myself now.\nMICROSOFT (248972): @175163 There's no need to worry. Our Sales and support team: https://t.co/w9VE8NhZs8 is here to take a closer look at your concern.\nCUSTOMER (248973): @MicrosoftHelps Ok thanks.\nCUSTOMER (248974): @MicrosoftHelps It keeps wanting me to use a virtual agent.\nI did speak to someone before and they said that There's pretty much nothing I can do :-(\nMICROSOFT (248975): @175163 In that case, you may contact our Global phone support on this link: https://t.co/4ILCTpye4L for further assistance.\nCUSTOMER (248976): @MicrosoftHelps Ok thanks very much.\nThink I'll probably be wasting my time.\nThat's for the reply though 😁\nMICROSOFT (248977): @175163 1/2 Hi. Happy to help here. Can you tell us which store are you planning to buy the game? Is it from the Windows Store or",
+      "predicted_intent": "Cancellation / Subscription",
+      "predicted_escalation": "ESCALATE_TO_HUMAN",
+      "predicted_escalation_reason": "Intent 'Cancellation / Subscription' is high-risk and requires human handling.",
+      "retrieved_evidence": "{\"evidence_id\": \"955550\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.838229, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@115890 @MicrosoftHelps I want my money back. | @115890 I want a refund on my Forza 7 purchase. Even now I'm not being able to download it and I see no point in waiting. I want my money\"}\n{\"evidence_id\": \"208828\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.725237, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@5543 @MicrosoftHelps @XboxSupport @117347 @XboxSupport @115786 pls respond | Hey @5543 @MicrosoftHelps @XboxSupport @117347 can u get a refund for #Forza7 because it is super depressing because its 💩\"}\n{\"evidence_id\": \"2637747\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.656869, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I'd like a refund for a recent digital purchase from this morning. Any help?\"}",
+      "generated_reply": "Hello! I understand you are inquiring about a refund reversal for Forza 7. Based on the available information, I cannot fully resolve your issue here. Please contact Microsoft support directly for further assistance with your refund status."
+    }
+  }
+}

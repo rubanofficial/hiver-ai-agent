@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0185",
+  "input_fingerprint": "400899e77301be7dd09ae22a98909a2f528e93130feab0bb64de5e5505b8de66",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T11:44:07+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0185",
+    "customer_message": "i installed the windows 10 fall update and now it forgets the default audio device every time i turn my computer off",
+    "conversation_context": "MICROSOFT (2782882): @524676 Hi, Ruby. Let’s work on this. Just to verify, are you getting a specific error message?\nCUSTOMER (2782883): @MicrosoftHelps I don't get any error message.",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"2168372\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 2}, \"score\": 0.666423, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps guys, it has become terribly frustrating to always have my audio disappear whenever there's an update! This new update dated 8/11/2017 has basically rendered my audio driver useless once again. Why does this always have to happen? | @MicrosoftHelps Thanks for your response. Believe me, I try everything, from cleaning the registry to, as you suggest, going to the manufacturer's website to get the latest driver updates, but only two options work: restore or reset. Today I had no choice but to reset.\"}\n{\"evidence_id\": \"1691364\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 3}, \"score\": 0.664195, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@116230 It reset my audio settings in every program. I record stuff for a living so this is pretty frustrating. | @513428 Hello, there! Are you still having issues with your audio settings after the updates? We're here to help. | Just had two massive Windows 10 updates.  Took over and hour and reset all of my audio settings, including in recording software. FUN!\"}\n{\"evidence_id\": \"196650\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.617463, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"update: for whatever reason the auto-update broke my audio. thanks windows 10, it's completely useless | started my vacation by waiting literal hours for my laptop to install updates &amp; function. this is fine\"}",
+    "generated_reply": "Hello! We understand how frustrating it is to have your audio settings and default devices affected after installing updates. Because this case requires further investigation into your specific system and driver behavior following the update, please contact Microsoft Support so we can perform a proper troubleshooting review. When you reach out, it would be helpful to provide your specific audio hardware details and the exact version of the update installed."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 4,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 4,\n  \"evidence_support\": 4,\n  \"unsupported_claims\": 4,\n  \"evidence_relevance\": 4,\n  \"grounding_score\": 4,\n  \"reason\": \"The reply acknowledges the audio issue linked to the Windows 10 update, which is supported by the evidence. Since no immediate troubleshooting steps are provided in the evidence, appropriately escalating to support and asking for system details is a reasonable approach.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 4,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 4,
+    "evidence_support": 4,
+    "unsupported_claims": 4,
+    "evidence_relevance": 4,
+    "grounding_score": 4,
+    "reason": "The reply acknowledges the audio issue linked to the Windows 10 update, which is supported by the evidence. Since no immediate troubleshooting steps are provided in the evidence, appropriately escalating to support and asking for system details is a reasonable approach.",
+    "overall_score": 4,
+    "short_reason": "The reply acknowledges the audio issue linked to the Windows 10 update, which is supported by the evidence. Since no immediate troubleshooting steps are provided in the evidence, appropriately escalating to support and asking for system details is a reasonable approach.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 4,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 4,
+      "unsupported_claims": 4,
+      "evidence_relevance": 4
+    },
+    "golden_id": "GOLDEN-0185",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0185",
+      "customer_message": "i installed the windows 10 fall update and now it forgets the default audio device every time i turn my computer off",
+      "conversation_context": "MICROSOFT (2782882): @524676 Hi, Ruby. Let’s work on this. Just to verify, are you getting a specific error message?\nCUSTOMER (2782883): @MicrosoftHelps I don't get any error message.",
+      "predicted_intent": "Technical Troubleshooting",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"2168372\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 2}, \"score\": 0.666423, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps guys, it has become terribly frustrating to always have my audio disappear whenever there's an update! This new update dated 8/11/2017 has basically rendered my audio driver useless once again. Why does this always have to happen? | @MicrosoftHelps Thanks for your response. Believe me, I try everything, from cleaning the registry to, as you suggest, going to the manufacturer's website to get the latest driver updates, but only two options work: restore or reset. Today I had no choice but to reset.\"}\n{\"evidence_id\": \"1691364\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 3}, \"score\": 0.664195, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@116230 It reset my audio settings in every program. I record stuff for a living so this is pretty frustrating. | @513428 Hello, there! Are you still having issues with your audio settings after the updates? We're here to help. | Just had two massive Windows 10 updates.  Took over and hour and reset all of my audio settings, including in recording software. FUN!\"}\n{\"evidence_id\": \"196650\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.617463, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"update: for whatever reason the auto-update broke my audio. thanks windows 10, it's completely useless | started my vacation by waiting literal hours for my laptop to install updates &amp; function. this is fine\"}",
+      "generated_reply": "Hello! We understand how frustrating it is to have your audio settings and default devices affected after installing updates. Because this case requires further investigation into your specific system and driver behavior following the update, please contact Microsoft Support so we can perform a proper troubleshooting review. When you reach out, it would be helpful to provide your specific audio hardware details and the exact version of the update installed."
+    }
+  }
+}

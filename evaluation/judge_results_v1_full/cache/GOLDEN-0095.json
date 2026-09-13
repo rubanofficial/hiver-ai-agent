@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0095",
+  "input_fingerprint": "6437d59dd84a8595bb963e0b90374cf815e6d78f7d8d5d1dd745df0b93decce0",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:37:31+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0095",
+    "customer_message": "@MicrosoftHelps Not that it's working, I've just stopped caring.  Upgrading to a new personal build next month anyway so we'll see how the install goes.",
+    "conversation_context": "MICROSOFT (1172655): @395813 Let's investigate this, Timmy. What troubleshooting steps have you tried so far? How are you upgrading your computer?\nCUSTOMER (1172656): @MicrosoftHelps Windows Auto-Update (built-in) failed after much downloading.  The \"Windows Update Assistant\" also fails the same way.\nCUSTOMER (1172657): Oi @MicrosoftHelps @116230 I'm seeing some error 0x80070422 and 0x8024200D on #Windows10 Feature Update to 1703.\nMICROSOFT (1172658): @395813 Let's run Windows Update troubleshooter to resolve this update error: https://t.co/CS4r3It0bp. Keep us posted.\nCUSTOMER (1172659): @MicrosoftHelps Ran the troubleshooter - tried updating again.  It downloaded for 7 hrs this morning and failed in the same manner. https://t.co/B7gpJMANZp\nMICROSOFT (1172660): @395813 Hi. Just doing a follow-up, have you able to finish the update?\nMICROSOFT (1172661): @395813 We hope that everything is working fine now. We want to know your experience with us here:  \nhttps://t.co/Bek17NOg79.\nCUSTOMER (1172662): @MicrosoftHelps Was not able to. https://t.co/0CkDqXDR3P\nMICROSOFT (1172663): @395813 Hmm. Might as well you reset the Windows Update Component: https://t.co/UuqMAy0tXx. Update us with the result.\nCUSTOMER (1172664): @MicrosoftHelps Does not seem to have helped.  Would it help to see the problem first-hand?  https://t.co/UpUVQZR8EF\nMICROSOFT (1172665): @395813 Thanks for sending a video. We'd like to accurately look at it. May we ask for you to send a screenshot of your update history?\nCUSTOMER (1172666): @MicrosoftHelps Update history incoming (it only seems to go back to October) https://t.co/qVhgyLPi6l\nMICROSOFT (1172667): @395813 2/2 search box and select the first surfaced result. Please send an image of the outcome.\nMICROSOFT (1172668): @395813 1/2 Appreciated the effort on screenshot. Let's double check it further. Type in winver into the Cortana\nCUSTOMER (1172669): @MicrosoftHelps First surfaced result, as requested. https://t.co/mCkmGoBXy4\nMICROSOFT (1172670): @395813 To better assist you in this concern, kindly contact Answer Desk on this link: https://t.co/qLihyo85vV.",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"403942\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 1}, \"score\": 0.743341, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Issue resolved! I was just in a chat with a Support Agent and we started working it out. Thanks!\"}\n{\"evidence_id\": \"423899\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 2}, \"score\": 0.739343, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps What’s going on? https://t.co/rorMFB2Oj8 | @MicrosoftHelps I got everything working. Thank you!\"}\n{\"evidence_id\": \"2774091\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 1}, \"score\": 0.735632, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Nevermind, it quite literally fixed itself after I walked away for a few minutes. Thanks for the reply, though.\"}",
+    "generated_reply": "We understand this situation can be frustrating. If you need any assistance with your upcoming install or further troubleshooting when building your new PC, please feel free to reach out to Microsoft support directly."
+  },
+  "raw_response": "{\n  \"correctness\": 4,\n  \"helpfulness\": 4,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 4,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 4,\n  \"evidence_relevance\": 2,\n  \"grounding_score\": 3,\n  \"reason\": \"The customer stated they stopped caring and are building a new PC next month. The agent acknowledged the frustration and offered future support appropriately, though the retrieved evidence was mostly irrelevant historical resolution tweets.\"\n}",
+  "result": {
+    "correctness": 4,
+    "helpfulness": 4,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 4,
+    "evidence_support": 3,
+    "unsupported_claims": 4,
+    "evidence_relevance": 2,
+    "grounding_score": 3,
+    "reason": "The customer stated they stopped caring and are building a new PC next month. The agent acknowledged the frustration and offered future support appropriately, though the retrieved evidence was mostly irrelevant historical resolution tweets.",
+    "overall_score": 4,
+    "short_reason": "The customer stated they stopped caring and are building a new PC next month. The agent acknowledged the frustration and offered future support appropriately, though the retrieved evidence was mostly irrelevant historical resolution tweets.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 4,
+      "helpfulness": 4,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 4,
+      "evidence_relevance": 2
+    },
+    "golden_id": "GOLDEN-0095",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0095",
+      "customer_message": "@MicrosoftHelps Not that it's working, I've just stopped caring.  Upgrading to a new personal build next month anyway so we'll see how the install goes.",
+      "conversation_context": "MICROSOFT (1172655): @395813 Let's investigate this, Timmy. What troubleshooting steps have you tried so far? How are you upgrading your computer?\nCUSTOMER (1172656): @MicrosoftHelps Windows Auto-Update (built-in) failed after much downloading.  The \"Windows Update Assistant\" also fails the same way.\nCUSTOMER (1172657): Oi @MicrosoftHelps @116230 I'm seeing some error 0x80070422 and 0x8024200D on #Windows10 Feature Update to 1703.\nMICROSOFT (1172658): @395813 Let's run Windows Update troubleshooter to resolve this update error: https://t.co/CS4r3It0bp. Keep us posted.\nCUSTOMER (1172659): @MicrosoftHelps Ran the troubleshooter - tried updating again.  It downloaded for 7 hrs this morning and failed in the same manner. https://t.co/B7gpJMANZp\nMICROSOFT (1172660): @395813 Hi. Just doing a follow-up, have you able to finish the update?\nMICROSOFT (1172661): @395813 We hope that everything is working fine now. We want to know your experience with us here:  \nhttps://t.co/Bek17NOg79.\nCUSTOMER (1172662): @MicrosoftHelps Was not able to. https://t.co/0CkDqXDR3P\nMICROSOFT (1172663): @395813 Hmm. Might as well you reset the Windows Update Component: https://t.co/UuqMAy0tXx. Update us with the result.\nCUSTOMER (1172664): @MicrosoftHelps Does not seem to have helped.  Would it help to see the problem first-hand?  https://t.co/UpUVQZR8EF\nMICROSOFT (1172665): @395813 Thanks for sending a video. We'd like to accurately look at it. May we ask for you to send a screenshot of your update history?\nCUSTOMER (1172666): @MicrosoftHelps Update history incoming (it only seems to go back to October) https://t.co/qVhgyLPi6l\nMICROSOFT (1172667): @395813 2/2 search box and select the first surfaced result. Please send an image of the outcome.\nMICROSOFT (1172668): @395813 1/2 Appreciated the effort on screenshot. Let's double check it further. Type in winver into the Cortana\nCUSTOMER (1172669): @MicrosoftHelps First surfaced result, as requested. https://t.co/mCkmGoBXy4\nMICROSOFT (1172670): @395813 To better assist you in this concern, kindly contact Answer Desk on this link: https://t.co/qLihyo85vV.",
+      "predicted_intent": "Technical Troubleshooting",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"403942\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 1}, \"score\": 0.743341, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Issue resolved! I was just in a chat with a Support Agent and we started working it out. Thanks!\"}\n{\"evidence_id\": \"423899\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 2}, \"score\": 0.739343, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps What’s going on? https://t.co/rorMFB2Oj8 | @MicrosoftHelps I got everything working. Thank you!\"}\n{\"evidence_id\": \"2774091\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 1}, \"score\": 0.735632, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Nevermind, it quite literally fixed itself after I walked away for a few minutes. Thanks for the reply, though.\"}",
+      "generated_reply": "We understand this situation can be frustrating. If you need any assistance with your upcoming install or further troubleshooting when building your new PC, please feel free to reach out to Microsoft support directly."
+    }
+  }
+}

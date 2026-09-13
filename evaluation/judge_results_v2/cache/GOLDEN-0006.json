@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0006",
+  "input_fingerprint": "d77cef6ec1df059daa336f68a9efb1c164a4c569083a35f2d3634bed79fda34e",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-12T04:28:13+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0006",
+    "customer_message": "@116230 After installing #FallCreatorsUpdate MS store, picture app and groove are gone. Also, sound is only working infrequently..",
+    "conversation_context": "MICROSOFT (54829): @128431 Hi. Just checking back with you, may we know if your concern about Start menu is got resolved? Let us know so that we can help.\nCUSTOMER (54830): @MicrosoftHelps Still having this problem..\nCUSTOMER (54831): @MicrosoftHelps I ran the SFC tool. No integrity incidents were found.\nMICROSOFT (54832): @128431 Thank you for the update. To further assist you about this concern, contact Answer Desk on this link: https://t.co/nVOITHYsKZ.\nMICROSOFT (54833): @128431 We'd love to hear from you. Please let us know about your experience with us here: https://t.co/bEOvaoiKXn.\nMICROSOFT (54834): @128431 Here are some troubleshooting methods on how to troubleshoot problems with Start menu: https://t.co/cUVBqZJhKP. Keep us posted.\nMICROSOFT (54835): @128431 We'd love to hear from you. We want to know your experience with the help that you receive here:  \nhttps://t.co/W7uQeCebZc.\nMICROSOFT (54836): @128431 For missing apps, you may run the SFC tool to help you with this issue: https://t.co/PWs2ZHwF7T. Tell us how it goes. https://t.co/3qcAsLFkaY\nCUSTOMER (54837): @MicrosoftHelps It doesn't appear in taskbar or start menu though, like all the apps that haven't updated since Creator Fall Update\nMICROSOFT (54838): @128431 Got it. To help you with your concern, we suggest running the troubleshooter for Windows apps here: https://t.co/31Bair3F92. https://t.co/3qcAsLFkaY\nCUSTOMER (54839): @MicrosoftHelps Ran troubleshooter, but didn't help. Opening store is possible by clicking the store icon in the movies app. (1/2)\nCUSTOMER (54840): @MicrosoftHelps I did that several times, it didn't change anything.\nMICROSOFT (54841): @128431 Ole!\nThank you for reaching out.\nPlease try to resolve your concern by restarting your computer.\nLet us know the outcome.\nCUSTOMER (54842): @116230 Sound is working. All apps downloaded from the Store aren't visible in start menu, the apps list in settings says they're installed though\nCUSTOMER (54843): @128431 Hey, there. We just wanted to check in. Are you still experiencing this at the moment? We're here to help if you need us.",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"878468\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 4}, \"score\": 0.628637, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Tried restart, still missing. Tried search for the store or the apps, still missing\\nStill got the notifications from all the Store apps, tho https://t.co/zU1DSSuNI6 | Updated to #fallcreatorsupdate and all my Store apps and the Store itself is gone. Help @MicrosoftHelps https://t.co/bk1pA1Fkob | @MicrosoftHelps Thanks. I've DM you. Appreciate the help | @MicrosoftHelps Just want to check if you have received my DM\"}\n{\"evidence_id\": \"2463382\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.601545, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Wanted 2 let you know fall update broke Microsoft Photos for me. Wont launch or reinstall. Already talked 2 MS cstmr spprt\"}\n{\"evidence_id\": \"2074069\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.593325, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@116230 since the Fall update, I cant access any store apps from start, pins have disappeared. Can launch them from the store itself.\"}",
+    "generated_reply": "We are sorry to hear that the Microsoft Store, Photos app, Groove, and your sound have been affected after installing the update. Since this requires further investigation into your specific system and account entitlements, please send us a Direct Message so we can look into this for you. Providing any additional details about your system when you reach out will also help us investigate."
+  },
+  "raw_response": "{\n  \"correctness\": 4,\n  \"helpfulness\": 4,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 4,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 3,\n  \"evidence_relevance\": 4,\n  \"grounding_score\": 3,\n  \"reason\": \"The reply addresses the customer's issues and appropriately suggests moving to a Direct Message for further support since standard troubleshooting failed. However, it introduces minor unsupported claims about 'account entitlements' not found in the evidence.\"\n}",
+  "result": {
+    "correctness": 4,
+    "helpfulness": 4,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 4,
+    "evidence_support": 3,
+    "unsupported_claims": 3,
+    "evidence_relevance": 4,
+    "grounding_score": 3,
+    "reason": "The reply addresses the customer's issues and appropriately suggests moving to a Direct Message for further support since standard troubleshooting failed. However, it introduces minor unsupported claims about 'account entitlements' not found in the evidence.",
+    "overall_score": 4,
+    "short_reason": "The reply addresses the customer's issues and appropriately suggests moving to a Direct Message for further support since standard troubleshooting failed. However, it introduces minor unsupported claims about 'account entitlements' not found in the evidence.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 4,
+      "helpfulness": 4,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 3,
+      "evidence_relevance": 4
+    },
+    "golden_id": "GOLDEN-0006",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0006",
+      "customer_message": "@116230 After installing #FallCreatorsUpdate MS store, picture app and groove are gone. Also, sound is only working infrequently..",
+      "conversation_context": "MICROSOFT (54829): @128431 Hi. Just checking back with you, may we know if your concern about Start menu is got resolved? Let us know so that we can help.\nCUSTOMER (54830): @MicrosoftHelps Still having this problem..\nCUSTOMER (54831): @MicrosoftHelps I ran the SFC tool. No integrity incidents were found.\nMICROSOFT (54832): @128431 Thank you for the update. To further assist you about this concern, contact Answer Desk on this link: https://t.co/nVOITHYsKZ.\nMICROSOFT (54833): @128431 We'd love to hear from you. Please let us know about your experience with us here: https://t.co/bEOvaoiKXn.\nMICROSOFT (54834): @128431 Here are some troubleshooting methods on how to troubleshoot problems with Start menu: https://t.co/cUVBqZJhKP. Keep us posted.\nMICROSOFT (54835): @128431 We'd love to hear from you. We want to know your experience with the help that you receive here:  \nhttps://t.co/W7uQeCebZc.\nMICROSOFT (54836): @128431 For missing apps, you may run the SFC tool to help you with this issue: https://t.co/PWs2ZHwF7T. Tell us how it goes. https://t.co/3qcAsLFkaY\nCUSTOMER (54837): @MicrosoftHelps It doesn't appear in taskbar or start menu though, like all the apps that haven't updated since Creator Fall Update\nMICROSOFT (54838): @128431 Got it. To help you with your concern, we suggest running the troubleshooter for Windows apps here: https://t.co/31Bair3F92. https://t.co/3qcAsLFkaY\nCUSTOMER (54839): @MicrosoftHelps Ran troubleshooter, but didn't help. Opening store is possible by clicking the store icon in the movies app. (1/2)\nCUSTOMER (54840): @MicrosoftHelps I did that several times, it didn't change anything.\nMICROSOFT (54841): @128431 Ole!\nThank you for reaching out.\nPlease try to resolve your concern by restarting your computer.\nLet us know the outcome.\nCUSTOMER (54842): @116230 Sound is working. All apps downloaded from the Store aren't visible in start menu, the apps list in settings says they're installed though\nCUSTOMER (54843): @128431 Hey, there. We just wanted to check in. Are you still experiencing this at the moment? We're here to help if you need us.",
+      "predicted_intent": "Technical Troubleshooting",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"878468\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 4}, \"score\": 0.628637, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Tried restart, still missing. Tried search for the store or the apps, still missing\\nStill got the notifications from all the Store apps, tho https://t.co/zU1DSSuNI6 | Updated to #fallcreatorsupdate and all my Store apps and the Store itself is gone. Help @MicrosoftHelps https://t.co/bk1pA1Fkob | @MicrosoftHelps Thanks. I've DM you. Appreciate the help | @MicrosoftHelps Just want to check if you have received my DM\"}\n{\"evidence_id\": \"2463382\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.601545, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Wanted 2 let you know fall update broke Microsoft Photos for me. Wont launch or reinstall. Already talked 2 MS cstmr spprt\"}\n{\"evidence_id\": \"2074069\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.593325, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@116230 since the Fall update, I cant access any store apps from start, pins have disappeared. Can launch them from the store itself.\"}",
+      "generated_reply": "We are sorry to hear that the Microsoft Store, Photos app, Groove, and your sound have been affected after installing the update. Since this requires further investigation into your specific system and account entitlements, please send us a Direct Message so we can look into this for you. Providing any additional details about your system when you reach out will also help us investigate."
+    }
+  }
+}

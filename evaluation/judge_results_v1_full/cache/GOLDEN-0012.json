@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0012",
+  "input_fingerprint": "9a309b52dd30f1677e7b77ede4c1a5cec98d97fd86dded7d4bc0e57a04e1ce47",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:28:50+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0012",
+    "customer_message": "@MicrosoftHelps Hi, we have an issue where image previews flash and disappear immediately in Explorer, can you help? Both on local and network drives. This is on Windows 10 Pro",
+    "conversation_context": "MICROSOFT (124986): @144013 Hello, Guillaume. Were you able to contact our Answer Desk team? Let us know if you need help.\nCUSTOMER (124987): @MicrosoftHelps Yes thank you, the issue is mostly resolved. One computer to go.\nCUSTOMER (124988): @MicrosoftHelps Thank you\nMICROSOFT (124989): @144013 You're welcome! Let us know if you encounter any issues contacting them.\nMICROSOFT (124990): @144013 We'd like to hear from you, Guillaume! Help us improve our support by clicking this link: https://t.co/DK0YbEljkv. Thank you.\nMICROSOFT (124991): @144013 We want you to save time and effort on this matter. Let our Answer Desk take over your concern. You can contact them here: https://t.co/3ckbETPdo2. You’ll be in good hands.\nCUSTOMER (124992): @MicrosoftHelps Yes there was a very detailed article at TenForums with five different ways to enable this: folder options, visual effects settings, the registry, group policy, and another way with the registry. Tried them all, no dice.\nMICROSOFT (124993): @144013 We're here to help you with this concern. To clarify, have you tried any possible troubleshooting steps to sort this out?\nCUSTOMER (124994): @MicrosoftHelps Windows does its updates, nothing else was changed.\nThe first screenshot is a mapped network drive with 3 color squares, the other is how that very screenshot then appears on the desktop. https://t.co/Wtdw3ZscTK\nCUSTOMER (124995): @MicrosoftHelps With JPEGs, if I open one it seems to force a bunch of thumbnails to appear (not all, and not the best experience). With PNGs, no such luck.\nMICROSOFT (124996): @144013 Hello, Guillaume. Did you make any changes to the computer prior to the issue? May we request for a screenshot so we may assess the matter further.",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "No evidence reached the confidence threshold for a safe autonomous reply (minimum 0.60); human review is required.",
+    "retrieved_evidence": "{\"evidence_id\": \"681461\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 1}, \"score\": 0.558329, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Heads up, uninstalling KB4041085 fixed the issues. Symptoms began after that update. Explorer.exe peaked at 100% sporadically, media thumbnails weren't rendering, and I'd get constant ~30 second lags. Healthy PC, no viruses. 8.1 Pro https://t.co/nuB2AXoANF\"}\n{\"evidence_id\": \"883178\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 4}, \"score\": 0.549737, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps win 10....this started after new update | @MicrosoftHelps Why video clip? My problem is when i click my folder with videos or photos their thumbnails are reloading every day. | @MicrosoftHelps win 10 home, version 1709 | @MicrosoftHelps I have Thumbnail Cache Automatic Deletion Problem in Windows ...every day my video and photos thumbnails must reload...help\"}\n{\"evidence_id\": \"2249215\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 6}, \"score\": 0.533519, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Created a new account and had no issues with seeing thumbnails. Turns out it was a permission problem on my original account, I fixed permissions in \\\"Pictures\\\" and checked \\\"Replace all child object permissions...\\\" and voila! :-) | @MicrosoftHelps Thanks I'll give it a try | @MicrosoftHelps  https://t.co/4EOwxDI5so | @MicrosoftHelps  https://t.co/6m0yu1BhHE | @MicrosoftHelps Hi, thanks. HP Envy laptop. Issue has been there since I purchased it. Tried a few times to fix it, gave up, just trying again. https://t.co/Rf9b90Ysxa | @MicrosoftHelps Seeing icons instead of thumbnails in W10. Folder Options/View “always show icons, never thumbnails” box is NOT checked and System Properties/Performance/VisualEffects “Show thumbnails instead of icons” IS checked but I still see icons in my Pictures folder. Help!\"}",
+    "generated_reply": "Hello! Based on similar issues, sometimes thumbnail and preview problems are related to account permissions. You might try testing with a new user account to see if the issue persists, or check your folder permissions (such as in the Pictures folder) to ensure child object permissions are correctly applied. If the issue continues, please contact Microsoft support directly for further assistance."
+  },
+  "raw_response": "{\n  \"correctness\": 4,\n  \"helpfulness\": 4,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 4,\n  \"evidence_support\": 4,\n  \"unsupported_claims\": 4,\n  \"evidence_relevance\": 4,\n  \"grounding_score\": 4,\n  \"reason\": \"The reply directly addresses the thumbnail preview issue using retrieved evidence regarding account permissions, provides actionable troubleshooting steps, and appropriately suggests contacting support if needed.\"\n}",
+  "result": {
+    "correctness": 4,
+    "helpfulness": 4,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 4,
+    "evidence_support": 4,
+    "unsupported_claims": 4,
+    "evidence_relevance": 4,
+    "grounding_score": 4,
+    "reason": "The reply directly addresses the thumbnail preview issue using retrieved evidence regarding account permissions, provides actionable troubleshooting steps, and appropriately suggests contacting support if needed.",
+    "overall_score": 4,
+    "short_reason": "The reply directly addresses the thumbnail preview issue using retrieved evidence regarding account permissions, provides actionable troubleshooting steps, and appropriately suggests contacting support if needed.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 4,
+      "helpfulness": 4,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 4,
+      "unsupported_claims": 4,
+      "evidence_relevance": 4
+    },
+    "golden_id": "GOLDEN-0012",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0012",
+      "customer_message": "@MicrosoftHelps Hi, we have an issue where image previews flash and disappear immediately in Explorer, can you help? Both on local and network drives. This is on Windows 10 Pro",
+      "conversation_context": "MICROSOFT (124986): @144013 Hello, Guillaume. Were you able to contact our Answer Desk team? Let us know if you need help.\nCUSTOMER (124987): @MicrosoftHelps Yes thank you, the issue is mostly resolved. One computer to go.\nCUSTOMER (124988): @MicrosoftHelps Thank you\nMICROSOFT (124989): @144013 You're welcome! Let us know if you encounter any issues contacting them.\nMICROSOFT (124990): @144013 We'd like to hear from you, Guillaume! Help us improve our support by clicking this link: https://t.co/DK0YbEljkv. Thank you.\nMICROSOFT (124991): @144013 We want you to save time and effort on this matter. Let our Answer Desk take over your concern. You can contact them here: https://t.co/3ckbETPdo2. You’ll be in good hands.\nCUSTOMER (124992): @MicrosoftHelps Yes there was a very detailed article at TenForums with five different ways to enable this: folder options, visual effects settings, the registry, group policy, and another way with the registry. Tried them all, no dice.\nMICROSOFT (124993): @144013 We're here to help you with this concern. To clarify, have you tried any possible troubleshooting steps to sort this out?\nCUSTOMER (124994): @MicrosoftHelps Windows does its updates, nothing else was changed.\nThe first screenshot is a mapped network drive with 3 color squares, the other is how that very screenshot then appears on the desktop. https://t.co/Wtdw3ZscTK\nCUSTOMER (124995): @MicrosoftHelps With JPEGs, if I open one it seems to force a bunch of thumbnails to appear (not all, and not the best experience). With PNGs, no such luck.\nMICROSOFT (124996): @144013 Hello, Guillaume. Did you make any changes to the computer prior to the issue? May we request for a screenshot so we may assess the matter further.",
+      "predicted_intent": "Technical Troubleshooting",
+      "predicted_escalation": "ESCALATE_TO_HUMAN",
+      "predicted_escalation_reason": "No evidence reached the confidence threshold for a safe autonomous reply (minimum 0.60); human review is required.",
+      "retrieved_evidence": "{\"evidence_id\": \"681461\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 1}, \"score\": 0.558329, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Heads up, uninstalling KB4041085 fixed the issues. Symptoms began after that update. Explorer.exe peaked at 100% sporadically, media thumbnails weren't rendering, and I'd get constant ~30 second lags. Healthy PC, no viruses. 8.1 Pro https://t.co/nuB2AXoANF\"}\n{\"evidence_id\": \"883178\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 4}, \"score\": 0.549737, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps win 10....this started after new update | @MicrosoftHelps Why video clip? My problem is when i click my folder with videos or photos their thumbnails are reloading every day. | @MicrosoftHelps win 10 home, version 1709 | @MicrosoftHelps I have Thumbnail Cache Automatic Deletion Problem in Windows ...every day my video and photos thumbnails must reload...help\"}\n{\"evidence_id\": \"2249215\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 6}, \"score\": 0.533519, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Created a new account and had no issues with seeing thumbnails. Turns out it was a permission problem on my original account, I fixed permissions in \\\"Pictures\\\" and checked \\\"Replace all child object permissions...\\\" and voila! :-) | @MicrosoftHelps Thanks I'll give it a try | @MicrosoftHelps  https://t.co/4EOwxDI5so | @MicrosoftHelps  https://t.co/6m0yu1BhHE | @MicrosoftHelps Hi, thanks. HP Envy laptop. Issue has been there since I purchased it. Tried a few times to fix it, gave up, just trying again. https://t.co/Rf9b90Ysxa | @MicrosoftHelps Seeing icons instead of thumbnails in W10. Folder Options/View “always show icons, never thumbnails” box is NOT checked and System Properties/Performance/VisualEffects “Show thumbnails instead of icons” IS checked but I still see icons in my Pictures folder. Help!\"}",
+      "generated_reply": "Hello! Based on similar issues, sometimes thumbnail and preview problems are related to account permissions. You might try testing with a new user account to see if the issue persists, or check your folder permissions (such as in the Pictures folder) to ensure child object permissions are correctly applied. If the issue continues, please contact Microsoft support directly for further assistance."
+    }
+  }
+}

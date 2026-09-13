@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0063",
+  "input_fingerprint": "ef974de069a1fc87d87a955989dd984dd5ce984140da56726cc2195fbb0fe2cd",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:34:53+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0063",
+    "customer_message": "Got a surface pro today and honestly I couldn’t be happier.",
+    "conversation_context": "MICROSOFT (718003): @291929 Hi Naya. We'd like to know more. Can you tell us which Surface device you are using? What were you doing when the issue started?\nCUSTOMER (718004): @MicrosoftHelps Surface pro 3 and I had it in my lap using the reader app to study for my class\nCUSTOMER (718005): @123127 Graphic design and I’m not too happy anymore because my charger stopped working\nMICROSOFT (718006): @291929 Let's try this. To rectify the issue, you can follow the steps here: https://t.co/FjOQr7Rgg8 Looking forward for your response.\nCUSTOMER (718007): @291929 We're just happy you're happy. What will you be using your new Surface for?",
+    "predicted_intent": "Complaint / Feedback",
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+    "retrieved_evidence": "{\"evidence_id\": \"658749\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.73398, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@123127 Soooo disappointed I was gifted with 2 surface pros and neither work. I’m stuck with 2 machines that my husband bought me bcuz I REALLY WANTED IT! 😡😩 | Location scout Leann doesn’t have an office. Good thing the new Surface Pro is thin &amp; light. https://t.co/6SPmTPiakU https://t.co/EhRiQYRXDa\"}\n{\"evidence_id\": \"1084792\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 2}, \"score\": 0.676301, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Oh, it's all good now. The screen was frozen and had some terrible lag. | And guess who's Surface Pro isn't working thanks to a certain Fall Creator Update? This guy's 😑 can't even use the thing now.\"}\n{\"evidence_id\": \"409615\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.671351, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@102684 .Spent the whole day trying to reach ur support for a surface PRO 2017 replacement due to broken screen...Is that normal to struggle that much for a premium brand as MS???\"}",
+    "generated_reply": "We are thrilled to hear that you love your new Surface Pro! If you ever need any assistance or have questions in the future, please feel free to reach out to Microsoft support."
+  },
+  "raw_response": "{\n  \"correctness\": 1,\n  \"helpfulness\": 1,\n  \"relevance\": 1,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 1,\n  \"overall_reply_score\": 1,\n  \"evidence_support\": 1,\n  \"unsupported_claims\": 1,\n  \"evidence_relevance\": 1,\n  \"grounding_score\": 1,\n  \"reason\": \"The customer stated earlier in the conversation that their charger stopped working and they were not happy anymore, but the agent's reply ignores this entirely, claims the customer loves their new Surface Pro based on the very first message, and fails to handle the complaint appropriately.\"\n}",
+  "result": {
+    "correctness": 1,
+    "helpfulness": 1,
+    "relevance": 1,
+    "clarity": 5,
+    "escalation_appropriateness": 1,
+    "overall_reply_score": 1,
+    "evidence_support": 1,
+    "unsupported_claims": 1,
+    "evidence_relevance": 1,
+    "grounding_score": 1,
+    "reason": "The customer stated earlier in the conversation that their charger stopped working and they were not happy anymore, but the agent's reply ignores this entirely, claims the customer loves their new Surface Pro based on the very first message, and fails to handle the complaint appropriately.",
+    "overall_score": 1,
+    "short_reason": "The customer stated earlier in the conversation that their charger stopped working and they were not happy anymore, but the agent's reply ignores this entirely, claims the customer loves their new Surface Pro based on the very first message, and fails to handle the complaint appropriately.",
+    "grounding_decision": "UNSUPPORTED",
+    "reply_quality": {
+      "correctness": 1,
+      "helpfulness": 1,
+      "relevance": 1,
+      "clarity": 5,
+      "escalation_appropriateness": 1
+    },
+    "evidence_grounding": {
+      "evidence_support": 1,
+      "unsupported_claims": 1,
+      "evidence_relevance": 1
+    },
+    "golden_id": "GOLDEN-0063",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0063",
+      "customer_message": "Got a surface pro today and honestly I couldn’t be happier.",
+      "conversation_context": "MICROSOFT (718003): @291929 Hi Naya. We'd like to know more. Can you tell us which Surface device you are using? What were you doing when the issue started?\nCUSTOMER (718004): @MicrosoftHelps Surface pro 3 and I had it in my lap using the reader app to study for my class\nCUSTOMER (718005): @123127 Graphic design and I’m not too happy anymore because my charger stopped working\nMICROSOFT (718006): @291929 Let's try this. To rectify the issue, you can follow the steps here: https://t.co/FjOQr7Rgg8 Looking forward for your response.\nCUSTOMER (718007): @291929 We're just happy you're happy. What will you be using your new Surface for?",
+      "predicted_intent": "Complaint / Feedback",
+      "predicted_escalation": "ESCALATE_TO_HUMAN",
+      "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+      "retrieved_evidence": "{\"evidence_id\": \"658749\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.73398, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@123127 Soooo disappointed I was gifted with 2 surface pros and neither work. I’m stuck with 2 machines that my husband bought me bcuz I REALLY WANTED IT! 😡😩 | Location scout Leann doesn’t have an office. Good thing the new Surface Pro is thin &amp; light. https://t.co/6SPmTPiakU https://t.co/EhRiQYRXDa\"}\n{\"evidence_id\": \"1084792\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 2}, \"score\": 0.676301, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Oh, it's all good now. The screen was frozen and had some terrible lag. | And guess who's Surface Pro isn't working thanks to a certain Fall Creator Update? This guy's 😑 can't even use the thing now.\"}\n{\"evidence_id\": \"409615\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.671351, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@102684 .Spent the whole day trying to reach ur support for a surface PRO 2017 replacement due to broken screen...Is that normal to struggle that much for a premium brand as MS???\"}",
+      "generated_reply": "We are thrilled to hear that you love your new Surface Pro! If you ever need any assistance or have questions in the future, please feel free to reach out to Microsoft support."
+    }
+  }
+}

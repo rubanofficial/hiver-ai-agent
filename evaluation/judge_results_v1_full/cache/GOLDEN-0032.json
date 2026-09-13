@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0032",
+  "input_fingerprint": "5eda846809af8ec0347564d9f7018ae14d05af08de915f8dd925b445f8a4a384",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:30:36+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0032",
+    "customer_message": "@MicrosoftHelps What benefits? Now I have to delete my two accounts because you refute to unlink them or even to delete only one. #MicrosoftNeverHelps",
+    "conversation_context": "MICROSOFT (388271): @207896 Hi, Francesco. Allow us to look into your concern. May we know what happened to your accounts? Please tell us more information.\nCUSTOMER (388272): @MicrosoftHelps you have linked them together but I was using them for different purposes.\nCUSTOMER (388273): @MicrosoftHelps Thank you MS, you ruined my two accounts (MS and Skype) linking them. #MicrosoftEeverHelps\nMICROSOFT (388274): @207896 (2/2) This changes will give you the benefit of using your Skype account to other Microsoft services. https://t.co/3qcAsLFkaY\nMICROSOFT (388275): @207896 (1/2) We understand. Please be informed that Skype is now under the umbrella of Microsoft. https://t.co/3qcAsLFkaY",
+    "predicted_intent": "Complaint / Feedback",
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+    "retrieved_evidence": "{\"evidence_id\": \"841614\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 4}, \"score\": 0.633837, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps The explanation sounds like it just adds another email address to an existing account unless I’m reading it wrong? | @microsofthelps the content and anything in my old account to the newer microsoft account | @MicrosoftHelps will then login with this onto my laptop as well and move over my settings etc from current profile | @MicrosoftHelps Is there any way I can see what services are associated with which account? im thinkimg maybe i just move to using the MCP linked login\"}\n{\"evidence_id\": \"817884\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.623612, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"WHY THE F DOES IT TAKE 3 WEEKS TO DELETE MY MICROSOFT ACCOUNT, DO IT NOW @MicrosoftHelps\"}\n{\"evidence_id\": \"820396\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 4}, \"score\": 0.613853, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps if you can delete my account.I would like to provide you the account. | @MicrosoftHelps so can I create a new account with the same email ID.\\nI am unable to do that | @MicrosoftHelps need help to recover my blocked account created two years ago during #win10  release | @MicrosoftHelps i haven't logged in this gap, then why didn't it get deleted. Can you you please delete it.\"}",
+    "generated_reply": "We understand your frustration regarding unlinking or deleting your accounts. Since we cannot directly perform account management or unlink accounts based on the available information, please contact Microsoft support directly for further assistance."
+  },
+  "raw_response": "{\n  \"correctness\": 4,\n  \"helpfulness\": 4,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 4,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 4,\n  \"evidence_relevance\": 2,\n  \"grounding_score\": 3,\n  \"reason\": \"The reply is professional and appropriately directs the user to contact support for account management issues, though the retrieved evidence is sparse regarding account unlinking policies.\"\n}",
+  "result": {
+    "correctness": 4,
+    "helpfulness": 4,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 4,
+    "evidence_support": 3,
+    "unsupported_claims": 4,
+    "evidence_relevance": 2,
+    "grounding_score": 3,
+    "reason": "The reply is professional and appropriately directs the user to contact support for account management issues, though the retrieved evidence is sparse regarding account unlinking policies.",
+    "overall_score": 4,
+    "short_reason": "The reply is professional and appropriately directs the user to contact support for account management issues, though the retrieved evidence is sparse regarding account unlinking policies.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 4,
+      "helpfulness": 4,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 4,
+      "evidence_relevance": 2
+    },
+    "golden_id": "GOLDEN-0032",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0032",
+      "customer_message": "@MicrosoftHelps What benefits? Now I have to delete my two accounts because you refute to unlink them or even to delete only one. #MicrosoftNeverHelps",
+      "conversation_context": "MICROSOFT (388271): @207896 Hi, Francesco. Allow us to look into your concern. May we know what happened to your accounts? Please tell us more information.\nCUSTOMER (388272): @MicrosoftHelps you have linked them together but I was using them for different purposes.\nCUSTOMER (388273): @MicrosoftHelps Thank you MS, you ruined my two accounts (MS and Skype) linking them. #MicrosoftEeverHelps\nMICROSOFT (388274): @207896 (2/2) This changes will give you the benefit of using your Skype account to other Microsoft services. https://t.co/3qcAsLFkaY\nMICROSOFT (388275): @207896 (1/2) We understand. Please be informed that Skype is now under the umbrella of Microsoft. https://t.co/3qcAsLFkaY",
+      "predicted_intent": "Complaint / Feedback",
+      "predicted_escalation": "ESCALATE_TO_HUMAN",
+      "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+      "retrieved_evidence": "{\"evidence_id\": \"841614\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 4}, \"score\": 0.633837, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps The explanation sounds like it just adds another email address to an existing account unless I’m reading it wrong? | @microsofthelps the content and anything in my old account to the newer microsoft account | @MicrosoftHelps will then login with this onto my laptop as well and move over my settings etc from current profile | @MicrosoftHelps Is there any way I can see what services are associated with which account? im thinkimg maybe i just move to using the MCP linked login\"}\n{\"evidence_id\": \"817884\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.623612, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"WHY THE F DOES IT TAKE 3 WEEKS TO DELETE MY MICROSOFT ACCOUNT, DO IT NOW @MicrosoftHelps\"}\n{\"evidence_id\": \"820396\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 4}, \"score\": 0.613853, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps if you can delete my account.I would like to provide you the account. | @MicrosoftHelps so can I create a new account with the same email ID.\\nI am unable to do that | @MicrosoftHelps need help to recover my blocked account created two years ago during #win10  release | @MicrosoftHelps i haven't logged in this gap, then why didn't it get deleted. Can you you please delete it.\"}",
+      "generated_reply": "We understand your frustration regarding unlinking or deleting your accounts. Since we cannot directly perform account management or unlink accounts based on the available information, please contact Microsoft support directly for further assistance."
+    }
+  }
+}

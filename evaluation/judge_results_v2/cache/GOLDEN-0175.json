@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0175",
+  "input_fingerprint": "09f2cd52d9468b91db62f482d6c955e7944a505a7b6a336ed60815f45142da2a",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T11:43:17+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0175",
+    "customer_message": "@MicrosoftHelps if not, please take this phone n give a new phone or give me $100. and also this phone has that 'no service error' 😑",
+    "conversation_context": "MICROSOFT (2563104): @151781 Sorry for the inconvenience. At this point, the issue you're having is more on the software or apps that you're using and not with the phone.  We would recommend you contact the app manufacturer or developer to find out why these features are not working.",
+    "predicted_intent": "Warranty / Repair",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"547008\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 4}, \"score\": 0.666956, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Request for Microsoft call back won't accept my phone number. | @MicrosoftHelps Can't reach any website, including Microsoft and ATT support. | @MicrosoftHelps Lumia 950 activated yesterday. The outlook inbox is empty. Can't locate or access Gmail account. | @MicrosoftHelps Help! I need to talk with a human! It shouldn't be this hard!\"}\n{\"evidence_id\": \"260703\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.632962, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps The number I previously tweeted is supposed to go to support but does not. | @MicrosoftHelps 800-642-7676 is listed as a \\\"Global Customer Service phone number\\\" but answers very oddly.\"}\n{\"evidence_id\": \"572322\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.630772, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I needed support and I was put on a waiting list for a phone call. Was told “approximately 82 minutes” and it’s been 2+ hours now\"}",
+    "generated_reply": "We understand you are experiencing a 'no service error' with your phone, but we need further investigation into your device warranty and account entitlements to assist you with a repair or replacement. Please contact Microsoft Support so an agent can look up your specific device and order details."
+  },
+  "raw_response": "{\n  \"correctness\": 4,\n  \"helpfulness\": 4,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 4,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 4,\n  \"evidence_relevance\": 2,\n  \"grounding_score\": 3,\n  \"reason\": \"The reply addresses the customer's 'no service error' and demand for a new phone appropriately by recommending Microsoft Support for warranty and repair options, though the retrieved evidence was mostly tangential about call back issues rather than warranty policies.\"\n}",
+  "result": {
+    "correctness": 4,
+    "helpfulness": 4,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 4,
+    "evidence_support": 3,
+    "unsupported_claims": 4,
+    "evidence_relevance": 2,
+    "grounding_score": 3,
+    "reason": "The reply addresses the customer's 'no service error' and demand for a new phone appropriately by recommending Microsoft Support for warranty and repair options, though the retrieved evidence was mostly tangential about call back issues rather than warranty policies.",
+    "overall_score": 4,
+    "short_reason": "The reply addresses the customer's 'no service error' and demand for a new phone appropriately by recommending Microsoft Support for warranty and repair options, though the retrieved evidence was mostly tangential about call back issues rather than warranty policies.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 4,
+      "helpfulness": 4,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 4,
+      "evidence_relevance": 2
+    },
+    "golden_id": "GOLDEN-0175",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0175",
+      "customer_message": "@MicrosoftHelps if not, please take this phone n give a new phone or give me $100. and also this phone has that 'no service error' 😑",
+      "conversation_context": "MICROSOFT (2563104): @151781 Sorry for the inconvenience. At this point, the issue you're having is more on the software or apps that you're using and not with the phone.  We would recommend you contact the app manufacturer or developer to find out why these features are not working.",
+      "predicted_intent": "Warranty / Repair",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"547008\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 4}, \"score\": 0.666956, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Request for Microsoft call back won't accept my phone number. | @MicrosoftHelps Can't reach any website, including Microsoft and ATT support. | @MicrosoftHelps Lumia 950 activated yesterday. The outlook inbox is empty. Can't locate or access Gmail account. | @MicrosoftHelps Help! I need to talk with a human! It shouldn't be this hard!\"}\n{\"evidence_id\": \"260703\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.632962, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps The number I previously tweeted is supposed to go to support but does not. | @MicrosoftHelps 800-642-7676 is listed as a \\\"Global Customer Service phone number\\\" but answers very oddly.\"}\n{\"evidence_id\": \"572322\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.630772, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I needed support and I was put on a waiting list for a phone call. Was told “approximately 82 minutes” and it’s been 2+ hours now\"}",
+      "generated_reply": "We understand you are experiencing a 'no service error' with your phone, but we need further investigation into your device warranty and account entitlements to assist you with a repair or replacement. Please contact Microsoft Support so an agent can look up your specific device and order details."
+    }
+  }
+}

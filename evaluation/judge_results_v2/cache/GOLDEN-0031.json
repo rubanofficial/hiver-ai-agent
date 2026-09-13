@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0031",
+  "input_fingerprint": "0c8a22804d7b5c339a2305860e74a1cb1892f3dc5689e85c1ec9256bf9f46a98",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-12T04:32:51+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0031",
+    "customer_message": "@MicrosoftHelps First three attempts told different things, the fourth disconnected on me. Here's hoping the fifth times lucky.",
+    "conversation_context": "MICROSOFT (374453): @204785 Let’s get this done, Joseph. Provide us more details about the issue you’ve encountered to assist you further.",
+    "predicted_intent": "Complaint / Feedback",
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+    "retrieved_evidence": "{\"evidence_id\": \"2479742\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.665021, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps lol what happened? https://t.co/U5PG9LBArq\"}\n{\"evidence_id\": \"1594174\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.65254, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I just spoke to 6 different technicians and the last one hung up mid call after 36 mins.\"}\n{\"evidence_id\": \"736940\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.651724, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Was supposed to get a call from a 2nd level technician today. Waited here for the last two hours with no communication\"}",
+    "generated_reply": "We are very sorry to hear about your frustrating experiences with multiple disconnected calls and varying information. To help get this sorted out, please connect with Microsoft Support so we can properly investigate your account entitlements and previous technician interactions."
+  },
+  "raw_response": "{\n  \"correctness\": 4,\n  \"helpfulness\": 4,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 4,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 4,\n  \"evidence_relevance\": 3,\n  \"grounding_score\": 3,\n  \"reason\": \"The reply professionally addresses the customer's frustration with previous disconnects and directs them to Microsoft Support, though evidence grounding is moderate since retrieved evidence consists of generic Twitter interactions.\"\n}",
+  "result": {
+    "correctness": 4,
+    "helpfulness": 4,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 4,
+    "evidence_support": 3,
+    "unsupported_claims": 4,
+    "evidence_relevance": 3,
+    "grounding_score": 3,
+    "reason": "The reply professionally addresses the customer's frustration with previous disconnects and directs them to Microsoft Support, though evidence grounding is moderate since retrieved evidence consists of generic Twitter interactions.",
+    "overall_score": 4,
+    "short_reason": "The reply professionally addresses the customer's frustration with previous disconnects and directs them to Microsoft Support, though evidence grounding is moderate since retrieved evidence consists of generic Twitter interactions.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 4,
+      "helpfulness": 4,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 4,
+      "evidence_relevance": 3
+    },
+    "golden_id": "GOLDEN-0031",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0031",
+      "customer_message": "@MicrosoftHelps First three attempts told different things, the fourth disconnected on me. Here's hoping the fifth times lucky.",
+      "conversation_context": "MICROSOFT (374453): @204785 Let’s get this done, Joseph. Provide us more details about the issue you’ve encountered to assist you further.",
+      "predicted_intent": "Complaint / Feedback",
+      "predicted_escalation": "ESCALATE_TO_HUMAN",
+      "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+      "retrieved_evidence": "{\"evidence_id\": \"2479742\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.665021, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps lol what happened? https://t.co/U5PG9LBArq\"}\n{\"evidence_id\": \"1594174\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.65254, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I just spoke to 6 different technicians and the last one hung up mid call after 36 mins.\"}\n{\"evidence_id\": \"736940\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.651724, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Was supposed to get a call from a 2nd level technician today. Waited here for the last two hours with no communication\"}",
+      "generated_reply": "We are very sorry to hear about your frustrating experiences with multiple disconnected calls and varying information. To help get this sorted out, please connect with Microsoft Support so we can properly investigate your account entitlements and previous technician interactions."
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0018",
+  "input_fingerprint": "8d37167a15145abca89366b57d0a4e534b440aa931d158928c2744ce4cea1994",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-12T04:29:42+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0018",
+    "customer_message": "@MicrosoftHelps I can't get a chat window to open up. I need help with the store looping its \"Starting Download\" phase.",
+    "conversation_context": "MICROSOFT (194013): @161618 Hi, Mathew. We'd like to follow up on the status of your concern. Feel free to reach us back if you need further assistance.\nCUSTOMER (194014): @MicrosoftHelps Getting back to my issue yesterday, I try and open up a chat window, or set up a call back, and the window keeps looping with virtual agent.\nMICROSOFT (194015): @161618 That's strange. Are you receiving any error messages when you attempt to access our live chat support? https://t.co/3qcAsLFkaY\nCUSTOMER (194016): @MicrosoftHelps I've been on this site, but chat wont load, and I tried calling, but it said I'd have to pay for support, which I refuse to do.\nMICROSOFT (194017): @161618 Hello! It's our pleasure to help, Matthew. You can contact our customer support team https://t.co/wfm9asH0YJ.",
+    "predicted_intent": "Microsoft Store",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"1981626\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.712579, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Everytime I try, to get support, the website just loops back to the start. Any help would be greatly appreciated. Thanks. | @MicrosoftHelps Need some assistance with MS Store order. Xbox Chat Support told me to go to MS Chat Support, but can't find it anywhere.\"}\n{\"evidence_id\": \"697719\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.665141, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I’m getting this message when I try to open the Store. I’m running Windows 10 https://t.co/1oaggnsYbK\"}\n{\"evidence_id\": \"1727617\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.621258, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"hey @MicrosoftHelps is there a way to get a live chat? there's no solution available for my problem.\"}",
+    "generated_reply": "Hello! I understand you are having trouble opening a chat window and are experiencing issues with the Microsoft Store looping during the 'Starting Download' phase. Based on a similar case, users have noted difficulties accessing live chat and finding solutions on the website. For further assistance with this Microsoft Store issue, we recommend reaching out directly to Microsoft Support."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 4,\n  \"clarity\": 4,\n  \"escalation_appropriateness\": 3,\n  \"overall_reply_score\": 3,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 3,\n  \"evidence_relevance\": 3,\n  \"grounding_score\": 3,\n  \"reason\": \"The reply acknowledges the customer's issues with both the chat window and the Microsoft Store download loop, but it merely redirects them back to general support after they already stated they cannot access chat and were asked to pay for phone support, showing poor contextual awareness and unhelpfulness.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 4,
+    "clarity": 4,
+    "escalation_appropriateness": 3,
+    "overall_reply_score": 3,
+    "evidence_support": 3,
+    "unsupported_claims": 3,
+    "evidence_relevance": 3,
+    "grounding_score": 3,
+    "reason": "The reply acknowledges the customer's issues with both the chat window and the Microsoft Store download loop, but it merely redirects them back to general support after they already stated they cannot access chat and were asked to pay for phone support, showing poor contextual awareness and unhelpfulness.",
+    "overall_score": 3,
+    "short_reason": "The reply acknowledges the customer's issues with both the chat window and the Microsoft Store download loop, but it merely redirects them back to general support after they already stated they cannot access chat and were asked to pay for phone support, showing poor contextual awareness and unhelpfulness.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 4,
+      "clarity": 4,
+      "escalation_appropriateness": 3
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 3,
+      "evidence_relevance": 3
+    },
+    "golden_id": "GOLDEN-0018",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0018",
+      "customer_message": "@MicrosoftHelps I can't get a chat window to open up. I need help with the store looping its \"Starting Download\" phase.",
+      "conversation_context": "MICROSOFT (194013): @161618 Hi, Mathew. We'd like to follow up on the status of your concern. Feel free to reach us back if you need further assistance.\nCUSTOMER (194014): @MicrosoftHelps Getting back to my issue yesterday, I try and open up a chat window, or set up a call back, and the window keeps looping with virtual agent.\nMICROSOFT (194015): @161618 That's strange. Are you receiving any error messages when you attempt to access our live chat support? https://t.co/3qcAsLFkaY\nCUSTOMER (194016): @MicrosoftHelps I've been on this site, but chat wont load, and I tried calling, but it said I'd have to pay for support, which I refuse to do.\nMICROSOFT (194017): @161618 Hello! It's our pleasure to help, Matthew. You can contact our customer support team https://t.co/wfm9asH0YJ.",
+      "predicted_intent": "Microsoft Store",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"1981626\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.712579, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Everytime I try, to get support, the website just loops back to the start. Any help would be greatly appreciated. Thanks. | @MicrosoftHelps Need some assistance with MS Store order. Xbox Chat Support told me to go to MS Chat Support, but can't find it anywhere.\"}\n{\"evidence_id\": \"697719\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.665141, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I’m getting this message when I try to open the Store. I’m running Windows 10 https://t.co/1oaggnsYbK\"}\n{\"evidence_id\": \"1727617\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.621258, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"hey @MicrosoftHelps is there a way to get a live chat? there's no solution available for my problem.\"}",
+      "generated_reply": "Hello! I understand you are having trouble opening a chat window and are experiencing issues with the Microsoft Store looping during the 'Starting Download' phase. Based on a similar case, users have noted difficulties accessing live chat and finding solutions on the website. For further assistance with this Microsoft Store issue, we recommend reaching out directly to Microsoft Support."
+    }
+  }
+}

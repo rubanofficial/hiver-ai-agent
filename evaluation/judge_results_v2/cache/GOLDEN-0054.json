@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0054",
+  "input_fingerprint": "920024a873d1ed487c9c52d8a3f1c5ba94703bf31a3181d0b502c7560c0d9a74",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-12T04:35:18+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0054",
+    "customer_message": "@MicrosoftHelps The Update finished and started again? Why? Took over 12 hours as it stands now and it is yet starting again from 1%, I don't like this.",
+    "conversation_context": "MICROSOFT (551163): @248422 We hope that helped! We're always trying to improve our support. Got any advice? Share it here: https://t.co/hWUZDMufyl. Thank you and have a good day!",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"102036\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.780032, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps It was finally updated and running after 16 hours | @MicrosoftHelps Hey Microsoft, next time don’t make your updates so large that is takes 17 hours to install. Started my update at 530pm last night and it STILL isn’t complete. This is my work laptop and I haven’t been able to do ANYTHING today\"}\n{\"evidence_id\": \"27112\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.772281, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Thank you it updated perfectly, no further issues. | @MicrosoftHelps So I have now waited for more than 36 hours and the windows 10 updater is still at 99%. Anything else I can do besides wait?\"}\n{\"evidence_id\": \"739240\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.767359, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Win 10 Home. Was forced to reset &amp; restore as I needed to do some work. Concerned I'll have another update this week that never ends | @MicrosoftHelps started update 6pm GMT. Stuck on 87% since 7pm. Third update this week. Not impressed. https://t.co/yIflQHkdVA\"}",
+    "generated_reply": "We understand how frustrating it is when an update takes a very long time or appears to restart. Based on similar cases, updates can sometimes be lengthy and require patience to complete successfully, though we know how disruptive this is to your day."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 4,\n  \"overall_reply_score\": 3,\n  \"evidence_support\": 4,\n  \"unsupported_claims\": 4,\n  \"evidence_relevance\": 4,\n  \"grounding_score\": 4,\n  \"reason\": \"The reply acknowledges the customer's frustration regarding a long-running update that restarted, which aligns with the retrieved evidence showing similar customer complaints about lengthy updates. However, it does not provide actionable technical troubleshooting steps to resolve the looping or slow update issue.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 4,
+    "overall_reply_score": 3,
+    "evidence_support": 4,
+    "unsupported_claims": 4,
+    "evidence_relevance": 4,
+    "grounding_score": 4,
+    "reason": "The reply acknowledges the customer's frustration regarding a long-running update that restarted, which aligns with the retrieved evidence showing similar customer complaints about lengthy updates. However, it does not provide actionable technical troubleshooting steps to resolve the looping or slow update issue.",
+    "overall_score": 3,
+    "short_reason": "The reply acknowledges the customer's frustration regarding a long-running update that restarted, which aligns with the retrieved evidence showing similar customer complaints about lengthy updates. However, it does not provide actionable technical troubleshooting steps to resolve the looping or slow update issue.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 4
+    },
+    "evidence_grounding": {
+      "evidence_support": 4,
+      "unsupported_claims": 4,
+      "evidence_relevance": 4
+    },
+    "golden_id": "GOLDEN-0054",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0054",
+      "customer_message": "@MicrosoftHelps The Update finished and started again? Why? Took over 12 hours as it stands now and it is yet starting again from 1%, I don't like this.",
+      "conversation_context": "MICROSOFT (551163): @248422 We hope that helped! We're always trying to improve our support. Got any advice? Share it here: https://t.co/hWUZDMufyl. Thank you and have a good day!",
+      "predicted_intent": "Technical Troubleshooting",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"102036\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.780032, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps It was finally updated and running after 16 hours | @MicrosoftHelps Hey Microsoft, next time don’t make your updates so large that is takes 17 hours to install. Started my update at 530pm last night and it STILL isn’t complete. This is my work laptop and I haven’t been able to do ANYTHING today\"}\n{\"evidence_id\": \"27112\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.772281, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Thank you it updated perfectly, no further issues. | @MicrosoftHelps So I have now waited for more than 36 hours and the windows 10 updater is still at 99%. Anything else I can do besides wait?\"}\n{\"evidence_id\": \"739240\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.767359, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Win 10 Home. Was forced to reset &amp; restore as I needed to do some work. Concerned I'll have another update this week that never ends | @MicrosoftHelps started update 6pm GMT. Stuck on 87% since 7pm. Third update this week. Not impressed. https://t.co/yIflQHkdVA\"}",
+      "generated_reply": "We understand how frustrating it is when an update takes a very long time or appears to restart. Based on similar cases, updates can sometimes be lengthy and require patience to complete successfully, though we know how disruptive this is to your day."
+    }
+  }
+}

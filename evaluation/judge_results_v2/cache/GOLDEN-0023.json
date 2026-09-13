@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0023",
+  "input_fingerprint": "97da117170caa585bdaf2d69cc1c8812dcb6823dd111627a0ca15fbd813af8ae",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-12T04:32:40+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0023",
+    "customer_message": "@MicrosoftHelps I don't know. I think so, but I don't know. I am now 90% BLIND;",
+    "conversation_context": "MICROSOFT (225601): @169893 Let's seek more assistance from our Answer Desk team. We suggest that you contact them using this link: https://t.co/G2pojzKF9x. Please make sure to obtain a case number for future references.\nCUSTOMER (225602): @MicrosoftHelps Sorry I am now 95% BLIND. I cannot see websites with white backgrounds. @169894",
+    "predicted_intent": "Complaint / Feedback",
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+    "retrieved_evidence": "{\"evidence_id\": \"165703\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 1}, \"score\": 0.697718, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Nope. Your suggestion was the answer. Thanks!\"}\n{\"evidence_id\": \"824494\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 2}, \"score\": 0.689372, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Yes! :) | @MicrosoftHelps Thank you.\"}\n{\"evidence_id\": \"209286\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 1}, \"score\": 0.677955, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Thank you for the answer\"}",
+    "generated_reply": "We would like to help you further, but this case requires additional investigation into your account entitlements and specifics to provide an accurate resolution. Please contact Microsoft Support so we can look into this for you."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 3,\n  \"clarity\": 4,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 3,\n  \"evidence_support\": 2,\n  \"unsupported_claims\": 2,\n  \"evidence_relevance\": 1,\n  \"grounding_score\": 2,\n  \"reason\": \"The reply appropriately suggests contacting support for a sensitive accessibility issue, but it mentions account entitlements which is not relevant to the user being blind and struggling with website contrast.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 3,
+    "clarity": 4,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 3,
+    "evidence_support": 2,
+    "unsupported_claims": 2,
+    "evidence_relevance": 1,
+    "grounding_score": 2,
+    "reason": "The reply appropriately suggests contacting support for a sensitive accessibility issue, but it mentions account entitlements which is not relevant to the user being blind and struggling with website contrast.",
+    "overall_score": 3,
+    "short_reason": "The reply appropriately suggests contacting support for a sensitive accessibility issue, but it mentions account entitlements which is not relevant to the user being blind and struggling with website contrast.",
+    "grounding_decision": "UNSUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 3,
+      "clarity": 4,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 2,
+      "unsupported_claims": 2,
+      "evidence_relevance": 1
+    },
+    "golden_id": "GOLDEN-0023",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0023",
+      "customer_message": "@MicrosoftHelps I don't know. I think so, but I don't know. I am now 90% BLIND;",
+      "conversation_context": "MICROSOFT (225601): @169893 Let's seek more assistance from our Answer Desk team. We suggest that you contact them using this link: https://t.co/G2pojzKF9x. Please make sure to obtain a case number for future references.\nCUSTOMER (225602): @MicrosoftHelps Sorry I am now 95% BLIND. I cannot see websites with white backgrounds. @169894",
+      "predicted_intent": "Complaint / Feedback",
+      "predicted_escalation": "ESCALATE_TO_HUMAN",
+      "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+      "retrieved_evidence": "{\"evidence_id\": \"165703\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 1}, \"score\": 0.697718, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Nope. Your suggestion was the answer. Thanks!\"}\n{\"evidence_id\": \"824494\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 2}, \"score\": 0.689372, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Yes! :) | @MicrosoftHelps Thank you.\"}\n{\"evidence_id\": \"209286\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 1}, \"score\": 0.677955, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Thank you for the answer\"}",
+      "generated_reply": "We would like to help you further, but this case requires additional investigation into your account entitlements and specifics to provide an accurate resolution. Please contact Microsoft Support so we can look into this for you."
+    }
+  }
+}

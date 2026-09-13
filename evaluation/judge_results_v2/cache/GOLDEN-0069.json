@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0069",
+  "input_fingerprint": "5a9df0b286726422b07051a1d85f909c5d07ab72cc5e97f248948be7b1f4b8c6",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-12T04:36:07+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0069",
+    "customer_message": "@MicrosoftHelps what sucks is that the keyboard still works but now need to get a new mouse and will need two different USB keys.",
+    "conversation_context": "MICROSOFT (775985): @153080 May we know the status of your concern? Let us know if you need further assistance.",
+    "predicted_intent": "Complaint / Feedback",
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+    "retrieved_evidence": "{\"evidence_id\": \"991525\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 4}, \"score\": 0.668186, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I have done everything on that list multiple times before contacting you. | @MicrosoftHelps I’ve changed keyboards and mouse. All I can do is just stare at this stupid screen. | @MicrosoftHelps umm, read my initial post. That last tweet I can’t do. Please Advise. | @MicrosoftHelps last update rendered my pc useless. The usb drives apparently not working I’m stuck on this screen. https://t.co/ixny08hUuw\"}\n{\"evidence_id\": \"2696758\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 3}, \"score\": 0.659042, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps @MicrosoftHelps thanks for the suggestions I tried them all, I tried to put new batteries but nothing has changed. I can't after such a short time it does not work. 😞 | @MicrosoftHelps so disappointed at Microsoft wireless mouse. I was so excited when bought and 3 months later does not work. I called Microsoft support and after 30 mins was sent to a voicemail machine 😣 https://t.co/8cgYtaPnHi | @MicrosoftHelps I'm very disappointed with this. After 20 minutes of my time all that was resolved was that I had to physically take it in to a Microsoft store. This is such a waste of time. There should be a better way than wasting so much time.\"}\n{\"evidence_id\": \"621106\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 4}, \"score\": 0.65256, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps They hung up on me.  I keep getting the run around.  But I'll keep trying - what else can be done? | @MicrosoftHelps I did. It has been such a hassle, and I am so dismayed (apparently with hundreds of others) with such a widespread hardware flaw, for which neither Ebay nor Amazon nor any other retailer is responsible!  May I get a working replacement from you? | @MicrosoftHelps Highly rated Ebay &amp; Amazon stores...  https://t.co/RjCqeGUCAw | I loved (past tense) the wireless @115890 Universal Mobile Keyboard. The first one broke, and I ordered three replacements in a row - ALL of which were defective and would not work unless plugged into a USB port. @MicrosoftHelps - ?!\"}",
+    "generated_reply": "We understand your frustration regarding needing to replace your mouse and managing multiple USB keys. Because this requires further investigation into your hardware replacement options and account details, please contact Microsoft Support so we can look into this for you."
+  },
+  "raw_response": "{\n  \"correctness\": 4,\n  \"helpfulness\": 4,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 4,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 4,\n  \"evidence_relevance\": 3,\n  \"grounding_score\": 3,\n  \"reason\": \"The reply appropriately addresses the user's frustration, maintains a professional tone, and correctly suggests contacting support for hardware replacement options. The evidence is somewhat generic regarding hardware complaints, but the agent's response is safe and aligns with the escalation plan.\"\n}",
+  "result": {
+    "correctness": 4,
+    "helpfulness": 4,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 4,
+    "evidence_support": 3,
+    "unsupported_claims": 4,
+    "evidence_relevance": 3,
+    "grounding_score": 3,
+    "reason": "The reply appropriately addresses the user's frustration, maintains a professional tone, and correctly suggests contacting support for hardware replacement options. The evidence is somewhat generic regarding hardware complaints, but the agent's response is safe and aligns with the escalation plan.",
+    "overall_score": 4,
+    "short_reason": "The reply appropriately addresses the user's frustration, maintains a professional tone, and correctly suggests contacting support for hardware replacement options. The evidence is somewhat generic regarding hardware complaints, but the agent's response is safe and aligns with the escalation plan.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 4,
+      "helpfulness": 4,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 4,
+      "evidence_relevance": 3
+    },
+    "golden_id": "GOLDEN-0069",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0069",
+      "customer_message": "@MicrosoftHelps what sucks is that the keyboard still works but now need to get a new mouse and will need two different USB keys.",
+      "conversation_context": "MICROSOFT (775985): @153080 May we know the status of your concern? Let us know if you need further assistance.",
+      "predicted_intent": "Complaint / Feedback",
+      "predicted_escalation": "ESCALATE_TO_HUMAN",
+      "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+      "retrieved_evidence": "{\"evidence_id\": \"991525\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 4}, \"score\": 0.668186, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I have done everything on that list multiple times before contacting you. | @MicrosoftHelps I’ve changed keyboards and mouse. All I can do is just stare at this stupid screen. | @MicrosoftHelps umm, read my initial post. That last tweet I can’t do. Please Advise. | @MicrosoftHelps last update rendered my pc useless. The usb drives apparently not working I’m stuck on this screen. https://t.co/ixny08hUuw\"}\n{\"evidence_id\": \"2696758\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 3}, \"score\": 0.659042, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps @MicrosoftHelps thanks for the suggestions I tried them all, I tried to put new batteries but nothing has changed. I can't after such a short time it does not work. 😞 | @MicrosoftHelps so disappointed at Microsoft wireless mouse. I was so excited when bought and 3 months later does not work. I called Microsoft support and after 30 mins was sent to a voicemail machine 😣 https://t.co/8cgYtaPnHi | @MicrosoftHelps I'm very disappointed with this. After 20 minutes of my time all that was resolved was that I had to physically take it in to a Microsoft store. This is such a waste of time. There should be a better way than wasting so much time.\"}\n{\"evidence_id\": \"621106\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 4}, \"score\": 0.65256, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps They hung up on me.  I keep getting the run around.  But I'll keep trying - what else can be done? | @MicrosoftHelps I did. It has been such a hassle, and I am so dismayed (apparently with hundreds of others) with such a widespread hardware flaw, for which neither Ebay nor Amazon nor any other retailer is responsible!  May I get a working replacement from you? | @MicrosoftHelps Highly rated Ebay &amp; Amazon stores...  https://t.co/RjCqeGUCAw | I loved (past tense) the wireless @115890 Universal Mobile Keyboard. The first one broke, and I ordered three replacements in a row - ALL of which were defective and would not work unless plugged into a USB port. @MicrosoftHelps - ?!\"}",
+      "generated_reply": "We understand your frustration regarding needing to replace your mouse and managing multiple USB keys. Because this requires further investigation into your hardware replacement options and account details, please contact Microsoft Support so we can look into this for you."
+    }
+  }
+}

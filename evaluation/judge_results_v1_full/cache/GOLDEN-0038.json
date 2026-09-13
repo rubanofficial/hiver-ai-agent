@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0038",
+  "input_fingerprint": "94761f7f31fe855445467d1718b733fc15e175ce3cde16c2d769fc28b2c5f421",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:31:07+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0038",
+    "customer_message": "@microsofthelps I can only get help between 9 AM and 6 PM? #helpdeskfail #officefail #frustrated",
+    "conversation_context": "MICROSOFT (456505): @223407 Hello! Allow us to help. Tell us more details about your concern.",
+    "predicted_intent": "Complaint / Feedback",
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+    "retrieved_evidence": "{\"evidence_id\": \"575299\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.650086, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Send help @MicrosoftHelps\"}\n{\"evidence_id\": \"46331\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 1}, \"score\": 0.620979, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Hello, I’m trying to get help with my defective Microsoft Office and online support staff are not helpful at all. Can you refer me to someone senior who can resolve my issues? Thank you\"}\n{\"evidence_id\": \"1496341\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 3}, \"score\": 0.602801, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps My office stopped working on an employee’s computer and I chatted for 4 hours yesterday with 4 or 5 people. No one could fix it. | @MicrosoftHelps The last person said they would email me today to try and fix it. He said it would take another 2-3 hours. Wasting a lot of time at work. | 3 hours of chatting with @MicrosoftHelps and they still haven’t fixed my Microsoft Office. Insane!\"}",
+    "generated_reply": "We apologize for the frustration regarding our support hours. Because we do not have sufficient information in our current guidelines to resolve this specific issue, please contact Microsoft support directly for further assistance."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 4,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 3,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 4,\n  \"evidence_relevance\": 2,\n  \"grounding_score\": 3,\n  \"reason\": \"The reply addresses the customer's complaint about support hours and appropriately directs them to Microsoft support, acknowledging the frustration. However, the retrieved evidence is sparse and not directly relevant to support operating hours.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 4,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 3,
+    "evidence_support": 3,
+    "unsupported_claims": 4,
+    "evidence_relevance": 2,
+    "grounding_score": 3,
+    "reason": "The reply addresses the customer's complaint about support hours and appropriately directs them to Microsoft support, acknowledging the frustration. However, the retrieved evidence is sparse and not directly relevant to support operating hours.",
+    "overall_score": 3,
+    "short_reason": "The reply addresses the customer's complaint about support hours and appropriately directs them to Microsoft support, acknowledging the frustration. However, the retrieved evidence is sparse and not directly relevant to support operating hours.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 4,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 4,
+      "evidence_relevance": 2
+    },
+    "golden_id": "GOLDEN-0038",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0038",
+      "customer_message": "@microsofthelps I can only get help between 9 AM and 6 PM? #helpdeskfail #officefail #frustrated",
+      "conversation_context": "MICROSOFT (456505): @223407 Hello! Allow us to help. Tell us more details about your concern.",
+      "predicted_intent": "Complaint / Feedback",
+      "predicted_escalation": "ESCALATE_TO_HUMAN",
+      "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+      "retrieved_evidence": "{\"evidence_id\": \"575299\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.650086, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Send help @MicrosoftHelps\"}\n{\"evidence_id\": \"46331\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 1}, \"score\": 0.620979, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Hello, I’m trying to get help with my defective Microsoft Office and online support staff are not helpful at all. Can you refer me to someone senior who can resolve my issues? Thank you\"}\n{\"evidence_id\": \"1496341\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 3}, \"score\": 0.602801, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps My office stopped working on an employee’s computer and I chatted for 4 hours yesterday with 4 or 5 people. No one could fix it. | @MicrosoftHelps The last person said they would email me today to try and fix it. He said it would take another 2-3 hours. Wasting a lot of time at work. | 3 hours of chatting with @MicrosoftHelps and they still haven’t fixed my Microsoft Office. Insane!\"}",
+      "generated_reply": "We apologize for the frustration regarding our support hours. Because we do not have sufficient information in our current guidelines to resolve this specific issue, please contact Microsoft support directly for further assistance."
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0042",
+  "input_fingerprint": "9db2cd88965d6a7ec6f65555f13ce179db71b6976927f2f098900b26b800b74f",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-12T04:33:14+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0042",
+    "customer_message": "@MicrosoftHelps What if I uninstall and then re-install the app?",
+    "conversation_context": "MICROSOFT (468100): @226463 Oh! We suggest you get in touch with our Answer Desk for further help. Contact them here: https://t.co/dS92GNgzcC. You can also ask to talk to a person at any time.\nCUSTOMER (468101): @MicrosoftHelps BTW, I do get an error message to \"fix account.\" Do it, but syncing never completes and the error message comes back.\nMICROSOFT (468102): @226463 Hi, Yusuf. Let's work on this. Are you getting any error message? To better assist you, kindly send an image of what you have on your screen.\nCUSTOMER (468103): @MicrosoftHelps I'll try. Syncing has started, but does not appear to be complete. Initially could not detect the account.\nCUSTOMER (468104): @MicrosoftHelps Got Fall Creator's update. People app does not properly sync contacts. Kind of like what happens in #W10M when I update to the new @123196 Mail and Calendar. Do they have the same problem?\nMICROSOFT (938219): @226463 We suggest that you run the app troubleshooter here: https://t.co/5cp58QhXRo. Let us know how things go.",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"1028820\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.667082, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps please help I can't download what's app or update it\"}\n{\"evidence_id\": \"297081\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.625867, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Seriously, @MicrosoftHelps how do I tell what app this is for to remove it? https://t.co/Dqnwprolmu | . @115890 Need more information. #Windows10 https://t.co/0FjAFmRHxR\"}\n{\"evidence_id\": \"630624\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.62406, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Yes | What should i do??? @MicrosoftHelps https://t.co/7suJn868I0\"}",
+    "generated_reply": "Thank you for reaching out to MicrosoftHelps. To help us better understand your issue and determine if uninstalling and reinstalling is the right step, we need a bit more information about the specific app and the error you are experiencing. Please provide additional details so we can investigate further."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 4,\n  \"clarity\": 4,\n  \"escalation_appropriateness\": 4,\n  \"overall_reply_score\": 3,\n  \"evidence_support\": 2,\n  \"unsupported_claims\": 3,\n  \"evidence_relevance\": 1,\n  \"grounding_score\": 2,\n  \"reason\": \"The reply asks for more information about the specific app, even though the context clearly states it is the People app experiencing sync issues after the Fall Creators update. The retrieved evidence is also irrelevant to the customer's specific problem.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 4,
+    "clarity": 4,
+    "escalation_appropriateness": 4,
+    "overall_reply_score": 3,
+    "evidence_support": 2,
+    "unsupported_claims": 3,
+    "evidence_relevance": 1,
+    "grounding_score": 2,
+    "reason": "The reply asks for more information about the specific app, even though the context clearly states it is the People app experiencing sync issues after the Fall Creators update. The retrieved evidence is also irrelevant to the customer's specific problem.",
+    "overall_score": 3,
+    "short_reason": "The reply asks for more information about the specific app, even though the context clearly states it is the People app experiencing sync issues after the Fall Creators update. The retrieved evidence is also irrelevant to the customer's specific problem.",
+    "grounding_decision": "UNSUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 4,
+      "clarity": 4,
+      "escalation_appropriateness": 4
+    },
+    "evidence_grounding": {
+      "evidence_support": 2,
+      "unsupported_claims": 3,
+      "evidence_relevance": 1
+    },
+    "golden_id": "GOLDEN-0042",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0042",
+      "customer_message": "@MicrosoftHelps What if I uninstall and then re-install the app?",
+      "conversation_context": "MICROSOFT (468100): @226463 Oh! We suggest you get in touch with our Answer Desk for further help. Contact them here: https://t.co/dS92GNgzcC. You can also ask to talk to a person at any time.\nCUSTOMER (468101): @MicrosoftHelps BTW, I do get an error message to \"fix account.\" Do it, but syncing never completes and the error message comes back.\nMICROSOFT (468102): @226463 Hi, Yusuf. Let's work on this. Are you getting any error message? To better assist you, kindly send an image of what you have on your screen.\nCUSTOMER (468103): @MicrosoftHelps I'll try. Syncing has started, but does not appear to be complete. Initially could not detect the account.\nCUSTOMER (468104): @MicrosoftHelps Got Fall Creator's update. People app does not properly sync contacts. Kind of like what happens in #W10M when I update to the new @123196 Mail and Calendar. Do they have the same problem?\nMICROSOFT (938219): @226463 We suggest that you run the app troubleshooter here: https://t.co/5cp58QhXRo. Let us know how things go.",
+      "predicted_intent": "Technical Troubleshooting",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"1028820\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.667082, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps please help I can't download what's app or update it\"}\n{\"evidence_id\": \"297081\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.625867, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Seriously, @MicrosoftHelps how do I tell what app this is for to remove it? https://t.co/Dqnwprolmu | . @115890 Need more information. #Windows10 https://t.co/0FjAFmRHxR\"}\n{\"evidence_id\": \"630624\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.62406, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Yes | What should i do??? @MicrosoftHelps https://t.co/7suJn868I0\"}",
+      "generated_reply": "Thank you for reaching out to MicrosoftHelps. To help us better understand your issue and determine if uninstalling and reinstalling is the right step, we need a bit more information about the specific app and the error you are experiencing. Please provide additional details so we can investigate further."
+    }
+  }
+}

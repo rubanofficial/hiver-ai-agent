@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0207",
+  "input_fingerprint": "eae2515f05e45931a75767eede968fbb5fb96c757bd0bb0fcdbf1c7d2a83e211",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:49:06+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0207",
+    "customer_message": "@MicrosoftHelps @9390 So after updating to windows 10 update 1709, Microsoft store doesn't open and Teamviewer isn't see the internet connection  when chrome does. Please help",
+    "conversation_context": "MICROSOFT (172138): @156220 Hi. Thank you for reaching out, Chris. Just to clarify, are you getting any error messages? What troubleshooting steps have you tried to resolve the issue?\nCUSTOMER (172139): @MicrosoftHelps Hey, there was no error messages just refused to load. I tried deleting the cache, going to a previous version of 10. Nothing worked",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"867195\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 7}, \"score\": 0.609088, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps  https://t.co/X4L3PAlXcW | @MicrosoftHelps I followed all  steps but unfortunately it did not work. I think the solution to this problem is on the server side and not on the client side. | @MicrosoftHelps To try to solve this I used a script called Reset WU Agent and as it did not work, I did a clean install, but the problems continued. | @116230 I'm still having these issues. | @325910 Hi, there! Are you still experiencing these issues today? We're here to help. | @325911 What I hate most in 1709 is that I can not install Windows Store apps and Windows Update does not work, and as if my PC could not connect to Microsoft Servers. https://t.co/ZqXZaM2uJr | I don’t want Microsoft to release 1709 https://t.co/lLtiUSIRxK\"}\n{\"evidence_id\": \"1578039\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 6}, \"score\": 0.60515, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps It's windows 10 and I haven't made any changes that I know of. The only change to the PC was the latest windows update. | @MicrosoftHelps Hi I can't open the windows store or any windows store apps because of this. I am connected to the internet. https://t.co/ELHZYS9fOn | @MicrosoftHelps Ran the troubleshooter still have the same problem. https://t.co/wE3l0Bm2QA | @MicrosoftHelps Also Microsoft Edge cannot load webpages but chrome can. Definitely a problem with the system apps. https://t.co/CQPID9dNkv | @MicrosoftHelps This didn't work.. the dns client is already running. | @MicrosoftHelps Managed to fix it. This random program repaired everything. https://t.co/iIHDOnJzjO\"}\n{\"evidence_id\": \"1567421\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.57283, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I installed feature update 1709 a few days ago. I've tried resetting the app, checked for updates, and done multiple restarts of the PC. | @MicrosoftHelps My Windows 10 Store App looks like this in Music/Movies &amp; TV.\\rApps, Games and Books seem to be fine.\\rAny ideas? https://t.co/417KiJ7Vm1\"}",
+    "generated_reply": "We understand you are experiencing issues with the Microsoft Store and internet connectivity for certain apps after the Windows 10 update 1709. Since the available troubleshooting steps from our history may not fully resolve your issue, please contact Microsoft support directly for further assistance."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 4,\n  \"overall_reply_score\": 3,\n  \"evidence_support\": 2,\n  \"unsupported_claims\": 3,\n  \"evidence_relevance\": 2,\n  \"grounding_score\": 2,\n  \"reason\": \"The reply acknowledges the customer's issues with update 1709, but rather than providing specific troubleshooting from the evidence, it defaults to advising contact with support.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 4,
+    "overall_reply_score": 3,
+    "evidence_support": 2,
+    "unsupported_claims": 3,
+    "evidence_relevance": 2,
+    "grounding_score": 2,
+    "reason": "The reply acknowledges the customer's issues with update 1709, but rather than providing specific troubleshooting from the evidence, it defaults to advising contact with support.",
+    "overall_score": 3,
+    "short_reason": "The reply acknowledges the customer's issues with update 1709, but rather than providing specific troubleshooting from the evidence, it defaults to advising contact with support.",
+    "grounding_decision": "UNSUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 4
+    },
+    "evidence_grounding": {
+      "evidence_support": 2,
+      "unsupported_claims": 3,
+      "evidence_relevance": 2
+    },
+    "golden_id": "GOLDEN-0207",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0207",
+      "customer_message": "@MicrosoftHelps @9390 So after updating to windows 10 update 1709, Microsoft store doesn't open and Teamviewer isn't see the internet connection  when chrome does. Please help",
+      "conversation_context": "MICROSOFT (172138): @156220 Hi. Thank you for reaching out, Chris. Just to clarify, are you getting any error messages? What troubleshooting steps have you tried to resolve the issue?\nCUSTOMER (172139): @MicrosoftHelps Hey, there was no error messages just refused to load. I tried deleting the cache, going to a previous version of 10. Nothing worked",
+      "predicted_intent": "Technical Troubleshooting",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"867195\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 7}, \"score\": 0.609088, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps  https://t.co/X4L3PAlXcW | @MicrosoftHelps I followed all  steps but unfortunately it did not work. I think the solution to this problem is on the server side and not on the client side. | @MicrosoftHelps To try to solve this I used a script called Reset WU Agent and as it did not work, I did a clean install, but the problems continued. | @116230 I'm still having these issues. | @325910 Hi, there! Are you still experiencing these issues today? We're here to help. | @325911 What I hate most in 1709 is that I can not install Windows Store apps and Windows Update does not work, and as if my PC could not connect to Microsoft Servers. https://t.co/ZqXZaM2uJr | I don’t want Microsoft to release 1709 https://t.co/lLtiUSIRxK\"}\n{\"evidence_id\": \"1578039\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 6}, \"score\": 0.60515, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps It's windows 10 and I haven't made any changes that I know of. The only change to the PC was the latest windows update. | @MicrosoftHelps Hi I can't open the windows store or any windows store apps because of this. I am connected to the internet. https://t.co/ELHZYS9fOn | @MicrosoftHelps Ran the troubleshooter still have the same problem. https://t.co/wE3l0Bm2QA | @MicrosoftHelps Also Microsoft Edge cannot load webpages but chrome can. Definitely a problem with the system apps. https://t.co/CQPID9dNkv | @MicrosoftHelps This didn't work.. the dns client is already running. | @MicrosoftHelps Managed to fix it. This random program repaired everything. https://t.co/iIHDOnJzjO\"}\n{\"evidence_id\": \"1567421\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.57283, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I installed feature update 1709 a few days ago. I've tried resetting the app, checked for updates, and done multiple restarts of the PC. | @MicrosoftHelps My Windows 10 Store App looks like this in Music/Movies &amp; TV.\\rApps, Games and Books seem to be fine.\\rAny ideas? https://t.co/417KiJ7Vm1\"}",
+      "generated_reply": "We understand you are experiencing issues with the Microsoft Store and internet connectivity for certain apps after the Windows 10 update 1709. Since the available troubleshooting steps from our history may not fully resolve your issue, please contact Microsoft support directly for further assistance."
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0094",
+  "input_fingerprint": "1475318378eff7c3fab5b509df6eb9f509fb24fc17fc1a616db98506f5c5a11f",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-12T04:38:18+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0094",
+    "customer_message": "@MicrosoftHelps Do you think its a windows thing?",
+    "conversation_context": "MICROSOFT (1160565): @393045 Let's sort this out. We have found a discussion that can help solve your concern. Please check Akheel Ahmed's post on this link: https://t.co/rMoX89BSEJ. Let us know how it goes.\nCUSTOMER (1160566): @MicrosoftHelps This link must be out of date because the instructions dont match up, however Corsair Link tells me 6% but the task manager says 100%\nCUSTOMER (1160567): @MicrosoftHelps What do I do? https://t.co/57cP9iVCKy\nMICROSOFT (1160568): @393045 Let's try the solution provided by Sachin Venkatesh on this link: https://t.co/DwVG7a4s64. Let us know how it turns out.",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"811807\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.804305, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps what is this? https://t.co/R5H3Vjh2o8\"}\n{\"evidence_id\": \"123903\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.760073, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I don’t think I understand what’s going on here? https://t.co/o5utBKiBYl\"}\n{\"evidence_id\": \"630624\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.73876, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Yes | What should i do??? @MicrosoftHelps https://t.co/7suJn868I0\"}",
+    "generated_reply": "Hello! While the historical cases show that other users have experienced unexpected issues or confusion with their systems, they do not contain specific troubleshooting steps for your exact situation. If you are experiencing a technical issue, please reach out to official Microsoft Support so we can take a closer look."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 3,\n  \"clarity\": 4,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 3,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 4,\n  \"evidence_relevance\": 2,\n  \"grounding_score\": 3,\n  \"reason\": \"The reply appropriately redirects the customer to official support when the conversation context and evidence lack specific troubleshooting steps for the issue, though the evidence provided is largely irrelevant historical tweets.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 3,
+    "clarity": 4,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 3,
+    "evidence_support": 3,
+    "unsupported_claims": 4,
+    "evidence_relevance": 2,
+    "grounding_score": 3,
+    "reason": "The reply appropriately redirects the customer to official support when the conversation context and evidence lack specific troubleshooting steps for the issue, though the evidence provided is largely irrelevant historical tweets.",
+    "overall_score": 3,
+    "short_reason": "The reply appropriately redirects the customer to official support when the conversation context and evidence lack specific troubleshooting steps for the issue, though the evidence provided is largely irrelevant historical tweets.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 3,
+      "clarity": 4,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 4,
+      "evidence_relevance": 2
+    },
+    "golden_id": "GOLDEN-0094",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0094",
+      "customer_message": "@MicrosoftHelps Do you think its a windows thing?",
+      "conversation_context": "MICROSOFT (1160565): @393045 Let's sort this out. We have found a discussion that can help solve your concern. Please check Akheel Ahmed's post on this link: https://t.co/rMoX89BSEJ. Let us know how it goes.\nCUSTOMER (1160566): @MicrosoftHelps This link must be out of date because the instructions dont match up, however Corsair Link tells me 6% but the task manager says 100%\nCUSTOMER (1160567): @MicrosoftHelps What do I do? https://t.co/57cP9iVCKy\nMICROSOFT (1160568): @393045 Let's try the solution provided by Sachin Venkatesh on this link: https://t.co/DwVG7a4s64. Let us know how it turns out.",
+      "predicted_intent": "Technical Troubleshooting",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"811807\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.804305, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps what is this? https://t.co/R5H3Vjh2o8\"}\n{\"evidence_id\": \"123903\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.760073, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I don’t think I understand what’s going on here? https://t.co/o5utBKiBYl\"}\n{\"evidence_id\": \"630624\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.73876, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Yes | What should i do??? @MicrosoftHelps https://t.co/7suJn868I0\"}",
+      "generated_reply": "Hello! While the historical cases show that other users have experienced unexpected issues or confusion with their systems, they do not contain specific troubleshooting steps for your exact situation. If you are experiencing a technical issue, please reach out to official Microsoft Support so we can take a closer look."
+    }
+  }
+}

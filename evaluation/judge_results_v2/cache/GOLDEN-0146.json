@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0146",
+  "input_fingerprint": "39dffa0bf9c66e7e930b6c4fca494ec089d3f3cc0fb592b7735f5c6543737c11",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T11:26:22+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0146",
+    "customer_message": "@MicrosoftHelps Considering this, I assume I have the right to a refund, no? Not only you shut down Groove, you removed the track I PAID for https://t.co/3i9pZ0L9uZ",
+    "conversation_context": "MICROSOFT (2042611): @273979 Hi, David. We suggest contacting our technical support regarding this matter. Contact them here: https://t.co/6GiId7wH1J. https://t.co/3qcAsLFkaY\nCUSTOMER (2042612): @MicrosoftHelps Thank you. I've now contacted them and the issue was solved.",
+    "predicted_intent": "Billing & Payments",
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Intent 'Billing & Payments' is high-risk and requires human handling.",
+    "retrieved_evidence": "{\"evidence_id\": \"2446951\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 1}, \"score\": 0.634695, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps so can I be given credit for the music I payed for on Groove that is no longer available for download in the store? #pissed\"}\n{\"evidence_id\": \"826864\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 3}, \"score\": 0.623272, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Still waiting for any kind of response to this... | @MicrosoftHelps No error message, just only a 30 day trial. I've transferred my music using the in-app flow. I have disabled auto renew on my Groove sub. | @MicrosoftHelps I've never signed up for @115888 before but I'm not seeing the 60 day trial period the Groove shutdown is touting? Only 30.\"}\n{\"evidence_id\": \"680200\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 1}, \"score\": 0.594563, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@microsofthelps Used your DM and got refunded, thank you\"}",
+    "generated_reply": "We understand your frustration regarding the music you purchased on Groove. Since this involves a purchase refund and account entitlement check for unavailable content, this case requires further investigation through our support channels. Please contact Microsoft Support so an agent can look into your order history and account details."
+  },
+  "raw_response": "{\n  \"correctness\": 5,\n  \"helpfulness\": 5,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 5,\n  \"evidence_support\": 5,\n  \"unsupported_claims\": 5,\n  \"evidence_relevance\": 5,\n  \"grounding_score\": 5,\n  \"reason\": \"The reply accurately addresses the customer's billing and refund issue regarding Groove Music, maintains a professional tone, and correctly directs the user to Microsoft Support for account-specific verification.\"\n}",
+  "result": {
+    "correctness": 5,
+    "helpfulness": 5,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 5,
+    "evidence_support": 5,
+    "unsupported_claims": 5,
+    "evidence_relevance": 5,
+    "grounding_score": 5,
+    "reason": "The reply accurately addresses the customer's billing and refund issue regarding Groove Music, maintains a professional tone, and correctly directs the user to Microsoft Support for account-specific verification.",
+    "overall_score": 5,
+    "short_reason": "The reply accurately addresses the customer's billing and refund issue regarding Groove Music, maintains a professional tone, and correctly directs the user to Microsoft Support for account-specific verification.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 5,
+      "helpfulness": 5,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 5,
+      "unsupported_claims": 5,
+      "evidence_relevance": 5
+    },
+    "golden_id": "GOLDEN-0146",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0146",
+      "customer_message": "@MicrosoftHelps Considering this, I assume I have the right to a refund, no? Not only you shut down Groove, you removed the track I PAID for https://t.co/3i9pZ0L9uZ",
+      "conversation_context": "MICROSOFT (2042611): @273979 Hi, David. We suggest contacting our technical support regarding this matter. Contact them here: https://t.co/6GiId7wH1J. https://t.co/3qcAsLFkaY\nCUSTOMER (2042612): @MicrosoftHelps Thank you. I've now contacted them and the issue was solved.",
+      "predicted_intent": "Billing & Payments",
+      "predicted_escalation": "ESCALATE_TO_HUMAN",
+      "predicted_escalation_reason": "Intent 'Billing & Payments' is high-risk and requires human handling.",
+      "retrieved_evidence": "{\"evidence_id\": \"2446951\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 1}, \"score\": 0.634695, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps so can I be given credit for the music I payed for on Groove that is no longer available for download in the store? #pissed\"}\n{\"evidence_id\": \"826864\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 3}, \"score\": 0.623272, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Still waiting for any kind of response to this... | @MicrosoftHelps No error message, just only a 30 day trial. I've transferred my music using the in-app flow. I have disabled auto renew on my Groove sub. | @MicrosoftHelps I've never signed up for @115888 before but I'm not seeing the 60 day trial period the Groove shutdown is touting? Only 30.\"}\n{\"evidence_id\": \"680200\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 1}, \"score\": 0.594563, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@microsofthelps Used your DM and got refunded, thank you\"}",
+      "generated_reply": "We understand your frustration regarding the music you purchased on Groove. Since this involves a purchase refund and account entitlement check for unavailable content, this case requires further investigation through our support channels. Please contact Microsoft Support so an agent can look into your order history and account details."
+    }
+  }
+}

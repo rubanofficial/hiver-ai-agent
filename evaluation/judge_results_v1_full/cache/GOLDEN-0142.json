@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0142",
+  "input_fingerprint": "5985604886233b4e884823d5e508fd7a2ea1b737fff82b381ee033de50fd3715",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:41:37+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0142",
+    "customer_message": "@MicrosoftHelps The operating system version is windows 10",
+    "conversation_context": "MICROSOFT (2011164): @156658 Thanks for updating, David. Have you tried contacting your Internet Service Provider with regard to the slow connection? https://t.co/3qcAsLFkaY\nCUSTOMER (2011165): @MicrosoftHelps Yes but they ignore me. Do you know why i having the same slow mobile internet sometimes internet pages load faster that other times?",
+    "predicted_intent": "Product / Feature How-To",
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Generated reply could not be grounded in historical evidence; human review is required.",
+    "retrieved_evidence": "{\"evidence_id\": \"568811\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.851324, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps  Windows 10  64-bit version...\"}\n{\"evidence_id\": \"2375112\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.784957, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Also I'm on Windows 10\"}\n{\"evidence_id\": \"2767221\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.72995, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Windows 10, since today, that I'm not sure aside from the update\"}",
+    "generated_reply": "Thanks for providing your operating system version. Could you please share more details about the issue you are experiencing with Windows 10 so we can better assist you?"
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 4,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 3,\n  \"overall_reply_score\": 3,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 4,\n  \"evidence_relevance\": 2,\n  \"grounding_score\": 3,\n  \"reason\": \"The reply acknowledges the OS version and asks for more details, but the customer already explained their slow mobile internet issue in the previous turn.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 4,
+    "clarity": 5,
+    "escalation_appropriateness": 3,
+    "overall_reply_score": 3,
+    "evidence_support": 3,
+    "unsupported_claims": 4,
+    "evidence_relevance": 2,
+    "grounding_score": 3,
+    "reason": "The reply acknowledges the OS version and asks for more details, but the customer already explained their slow mobile internet issue in the previous turn.",
+    "overall_score": 3,
+    "short_reason": "The reply acknowledges the OS version and asks for more details, but the customer already explained their slow mobile internet issue in the previous turn.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 4,
+      "clarity": 5,
+      "escalation_appropriateness": 3
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 4,
+      "evidence_relevance": 2
+    },
+    "golden_id": "GOLDEN-0142",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0142",
+      "customer_message": "@MicrosoftHelps The operating system version is windows 10",
+      "conversation_context": "MICROSOFT (2011164): @156658 Thanks for updating, David. Have you tried contacting your Internet Service Provider with regard to the slow connection? https://t.co/3qcAsLFkaY\nCUSTOMER (2011165): @MicrosoftHelps Yes but they ignore me. Do you know why i having the same slow mobile internet sometimes internet pages load faster that other times?",
+      "predicted_intent": "Product / Feature How-To",
+      "predicted_escalation": "ESCALATE_TO_HUMAN",
+      "predicted_escalation_reason": "Generated reply could not be grounded in historical evidence; human review is required.",
+      "retrieved_evidence": "{\"evidence_id\": \"568811\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.851324, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps  Windows 10  64-bit version...\"}\n{\"evidence_id\": \"2375112\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.784957, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Also I'm on Windows 10\"}\n{\"evidence_id\": \"2767221\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.72995, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Windows 10, since today, that I'm not sure aside from the update\"}",
+      "generated_reply": "Thanks for providing your operating system version. Could you please share more details about the issue you are experiencing with Windows 10 so we can better assist you?"
+    }
+  }
+}

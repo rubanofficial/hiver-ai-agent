@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0126",
+  "input_fingerprint": "3f438f17d1123843ad5804a283caec21eea36e41e064aebfa006bb9674bfa74a",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T11:25:17+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0126",
+    "customer_message": "New version of #Windows10 makes all my cloud files look as though they're on my PC like I loved in Windows 8 so that's progress for you.",
+    "conversation_context": "MICROSOFT (1755112): @217916 Thank you for that wonderful feedback. We look forward to your continuous patronage of our products and services.\nCUSTOMER (1755113): @MicrosoftHelps Youre welcome! Pls send a new Surface Pro to assist my enjoyment. ;)\nCUSTOMER (1755114): @116230 Its re-neat, yes! I like all the design tweaks and the fact everything still runs all lovely and smooth on my Surface Pro 3.\nCUSTOMER (1755115): @217916 @MicrosoftHelps LOL!! you gotta try eh!! 😆\nCUSTOMER (1755116): @217916 Pretty neat, right? ☁ What other features have caught your eye so far?",
+    "predicted_intent": "Product / Feature How-To",
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "No evidence reached the confidence threshold for a safe autonomous reply (minimum 0.60); human review is required.",
+    "retrieved_evidence": "{\"evidence_id\": \"1419889\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 6}, \"score\": 0.599787, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Desktop PC, the specific parts have been switched out heavily since I originally bought it, so it's a bit of a mix n match at the moment. | @116230 Windows 10 home edition | @450080 How odd! Which version of Windows is this happening with? | @116230 No but I have had my windows 10 deactivate on me twice now despite buying a new key for it after the first time. | @450080 How interesting! Have you had any performance issues after trying this fix? | Okay, I managed to find a solution to my drawing program issue. It involved purging my PC of everything adobe, including the cloud.\"}\n{\"evidence_id\": \"196765\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.532255, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Windows 10 Creator's Update nice :)\"}\n{\"evidence_id\": \"2283831\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.523237, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"oh windows 10 just had a new huge update\"}",
+    "generated_reply": "We would like to look into this further to understand which version of Windows you are currently using."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 4,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 3,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 4,\n  \"evidence_relevance\": 3,\n  \"grounding_score\": 3,\n  \"reason\": \"The reply attempts to gather the Windows version as seen in the retrieved evidence, but the conversation context indicates the customer is making a sarcastic or lighthearted remark about cloud files in Windows 10 rather than asking for troubleshooting support.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 4,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 3,
+    "evidence_support": 3,
+    "unsupported_claims": 4,
+    "evidence_relevance": 3,
+    "grounding_score": 3,
+    "reason": "The reply attempts to gather the Windows version as seen in the retrieved evidence, but the conversation context indicates the customer is making a sarcastic or lighthearted remark about cloud files in Windows 10 rather than asking for troubleshooting support.",
+    "overall_score": 3,
+    "short_reason": "The reply attempts to gather the Windows version as seen in the retrieved evidence, but the conversation context indicates the customer is making a sarcastic or lighthearted remark about cloud files in Windows 10 rather than asking for troubleshooting support.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 4,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 4,
+      "evidence_relevance": 3
+    },
+    "golden_id": "GOLDEN-0126",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0126",
+      "customer_message": "New version of #Windows10 makes all my cloud files look as though they're on my PC like I loved in Windows 8 so that's progress for you.",
+      "conversation_context": "MICROSOFT (1755112): @217916 Thank you for that wonderful feedback. We look forward to your continuous patronage of our products and services.\nCUSTOMER (1755113): @MicrosoftHelps Youre welcome! Pls send a new Surface Pro to assist my enjoyment. ;)\nCUSTOMER (1755114): @116230 Its re-neat, yes! I like all the design tweaks and the fact everything still runs all lovely and smooth on my Surface Pro 3.\nCUSTOMER (1755115): @217916 @MicrosoftHelps LOL!! you gotta try eh!! 😆\nCUSTOMER (1755116): @217916 Pretty neat, right? ☁ What other features have caught your eye so far?",
+      "predicted_intent": "Product / Feature How-To",
+      "predicted_escalation": "ESCALATE_TO_HUMAN",
+      "predicted_escalation_reason": "No evidence reached the confidence threshold for a safe autonomous reply (minimum 0.60); human review is required.",
+      "retrieved_evidence": "{\"evidence_id\": \"1419889\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 6}, \"score\": 0.599787, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Desktop PC, the specific parts have been switched out heavily since I originally bought it, so it's a bit of a mix n match at the moment. | @116230 Windows 10 home edition | @450080 How odd! Which version of Windows is this happening with? | @116230 No but I have had my windows 10 deactivate on me twice now despite buying a new key for it after the first time. | @450080 How interesting! Have you had any performance issues after trying this fix? | Okay, I managed to find a solution to my drawing program issue. It involved purging my PC of everything adobe, including the cloud.\"}\n{\"evidence_id\": \"196765\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.532255, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Windows 10 Creator's Update nice :)\"}\n{\"evidence_id\": \"2283831\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.523237, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"oh windows 10 just had a new huge update\"}",
+      "generated_reply": "We would like to look into this further to understand which version of Windows you are currently using."
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0048",
+  "input_fingerprint": "4f12ffe18a14b4c6d3e90b8ee3b5464a9df3019cdfb62d1a9ec3cc138bfdf2da",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-12T04:33:23+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0048",
+    "customer_message": "@MicrosoftHelps Hello, the model is Lumia 930. Device encryption was not turned on, so there was nothing to disable. Soft reset did not help, neither did manually setting the time and date. And I have no desire to perform hard reset just to get an OS update working, that is just ridiculous.",
+    "conversation_context": "MICROSOFT (517512): @239333 If that is the case, try to resolve the issue by turning off the Device encryption on your device. Go to Settings &gt; System &gt; Device encryption. Update your device again after.\n\nLet us know what happens after turning off the encryption on your device.\nCUSTOMER (517513): @MicrosoftHelps seems like a lot of people have issue while updating, getting the  0x8018830f error code and I have not found any concrete solutions to  this other than the usual 'perform soft/hard reset' which didn't help  anyone, what is going on here?\nMICROSOFT (517514): @239333 Hi!\n\nWere you able to update your phone after the Device encryption is disabled?\n\nWe hope to hear from you soon. https://t.co/3qcAsLFkaY",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"627523\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 9}, \"score\": 0.679369, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps As per your advice I have had reset of my device but the error on update still  persists. Please help to resolve this issue. | @MicrosoftHelps After the suggested Reset how would I get my all contacts, Cortana, etc.  Back to my phone again. | @MicrosoftHelps Yes date and time are set according to my region. Please confirm what to do. | @MicrosoftHelps As suggested manually set the time,date and region. Then the problem submitted to feedback hub. | @MicrosoftHelps Good morning. Sill no response from feedback hub. Should I take it as Microsoft don't have any solution of the problem. If yes then close it | @MicrosoftHelps Yes the same error persisting unfortunately. | @MicrosoftHelps As advised turned off device encryption but the error remained the same. Please confirm. Regards. | @MicrosoftHelps Thanks for ur quick response I have done it as advised but the error remained the same. Pls advise and resolve the issue. | @MicrosoftHelps Since last week update 10.0.14393.1884 not getting downloaded and error no. 0x8018830f is showing on my Lumia 730. Pls help\"}\n{\"evidence_id\": \"229954\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.608629, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Last month I update my lumia950xl but debice auto reboot no help from @MicrosoftHelps pl.fix bug | @MicrosoftHelps thanx for rpl I already device done soft reset also using Windows recovery tools but facing same prblm.pl do the needful.\"}\n{\"evidence_id\": \"1188421\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.590809, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Hard reset means installing everything again? The Lumia 650 was updated about 40 days ago | @MicrosoftHelps windows MOBILE update 1703 hangs on 1% ... what can I do? restarting phone doesnt help? mobile is dead?\"}",
+    "generated_reply": "Hello! We understand your frustration with the update issue on your Lumia 930 and that you prefer not to perform a hard reset. Because basic troubleshooting steps like a soft reset, adjusting time and date, and checking device encryption have not resolved the update error, this case requires further investigation into your specific device and account entitlement. Please contact Microsoft Support so our team can perform an order and account lookup and investigate this update issue further."
+  },
+  "raw_response": "{\n  \"correctness\": 2,\n  \"helpfulness\": 2,\n  \"relevance\": 3,\n  \"clarity\": 4,\n  \"escalation_appropriateness\": 4,\n  \"overall_reply_score\": 2,\n  \"evidence_support\": 1,\n  \"unsupported_claims\": 1,\n  \"evidence_relevance\": 2,\n  \"grounding_score\": 1,\n  \"reason\": \"The reply suggests contacting support for an 'order and account lookup' regarding a Lumia update error, which is hallucinated and not supported by the evidence or standard Windows phone troubleshooting procedures.\"\n}",
+  "result": {
+    "correctness": 2,
+    "helpfulness": 2,
+    "relevance": 3,
+    "clarity": 4,
+    "escalation_appropriateness": 4,
+    "overall_reply_score": 2,
+    "evidence_support": 1,
+    "unsupported_claims": 1,
+    "evidence_relevance": 2,
+    "grounding_score": 1,
+    "reason": "The reply suggests contacting support for an 'order and account lookup' regarding a Lumia update error, which is hallucinated and not supported by the evidence or standard Windows phone troubleshooting procedures.",
+    "overall_score": 2,
+    "short_reason": "The reply suggests contacting support for an 'order and account lookup' regarding a Lumia update error, which is hallucinated and not supported by the evidence or standard Windows phone troubleshooting procedures.",
+    "grounding_decision": "UNSUPPORTED",
+    "reply_quality": {
+      "correctness": 2,
+      "helpfulness": 2,
+      "relevance": 3,
+      "clarity": 4,
+      "escalation_appropriateness": 4
+    },
+    "evidence_grounding": {
+      "evidence_support": 1,
+      "unsupported_claims": 1,
+      "evidence_relevance": 2
+    },
+    "golden_id": "GOLDEN-0048",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0048",
+      "customer_message": "@MicrosoftHelps Hello, the model is Lumia 930. Device encryption was not turned on, so there was nothing to disable. Soft reset did not help, neither did manually setting the time and date. And I have no desire to perform hard reset just to get an OS update working, that is just ridiculous.",
+      "conversation_context": "MICROSOFT (517512): @239333 If that is the case, try to resolve the issue by turning off the Device encryption on your device. Go to Settings &gt; System &gt; Device encryption. Update your device again after.\n\nLet us know what happens after turning off the encryption on your device.\nCUSTOMER (517513): @MicrosoftHelps seems like a lot of people have issue while updating, getting the  0x8018830f error code and I have not found any concrete solutions to  this other than the usual 'perform soft/hard reset' which didn't help  anyone, what is going on here?\nMICROSOFT (517514): @239333 Hi!\n\nWere you able to update your phone after the Device encryption is disabled?\n\nWe hope to hear from you soon. https://t.co/3qcAsLFkaY",
+      "predicted_intent": "Technical Troubleshooting",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"627523\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 9}, \"score\": 0.679369, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps As per your advice I have had reset of my device but the error on update still  persists. Please help to resolve this issue. | @MicrosoftHelps After the suggested Reset how would I get my all contacts, Cortana, etc.  Back to my phone again. | @MicrosoftHelps Yes date and time are set according to my region. Please confirm what to do. | @MicrosoftHelps As suggested manually set the time,date and region. Then the problem submitted to feedback hub. | @MicrosoftHelps Good morning. Sill no response from feedback hub. Should I take it as Microsoft don't have any solution of the problem. If yes then close it | @MicrosoftHelps Yes the same error persisting unfortunately. | @MicrosoftHelps As advised turned off device encryption but the error remained the same. Please confirm. Regards. | @MicrosoftHelps Thanks for ur quick response I have done it as advised but the error remained the same. Pls advise and resolve the issue. | @MicrosoftHelps Since last week update 10.0.14393.1884 not getting downloaded and error no. 0x8018830f is showing on my Lumia 730. Pls help\"}\n{\"evidence_id\": \"229954\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.608629, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Last month I update my lumia950xl but debice auto reboot no help from @MicrosoftHelps pl.fix bug | @MicrosoftHelps thanx for rpl I already device done soft reset also using Windows recovery tools but facing same prblm.pl do the needful.\"}\n{\"evidence_id\": \"1188421\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.590809, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Hard reset means installing everything again? The Lumia 650 was updated about 40 days ago | @MicrosoftHelps windows MOBILE update 1703 hangs on 1% ... what can I do? restarting phone doesnt help? mobile is dead?\"}",
+      "generated_reply": "Hello! We understand your frustration with the update issue on your Lumia 930 and that you prefer not to perform a hard reset. Because basic troubleshooting steps like a soft reset, adjusting time and date, and checking device encryption have not resolved the update error, this case requires further investigation into your specific device and account entitlement. Please contact Microsoft Support so our team can perform an order and account lookup and investigate this update issue further."
+    }
+  }
+}

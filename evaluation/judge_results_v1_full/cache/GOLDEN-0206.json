@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0206",
+  "input_fingerprint": "0a485fe96802622b90962a3057590e5ab8891eb3265556a8527733cce5b9294c",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:49:04+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0206",
+    "customer_message": "@MicrosoftHelps Hey, thanks for making my ASUS wifi card completely useless in your latest update.  it doesn't work anymore.  Can I send you an invoice for it?",
+    "conversation_context": "MICROSOFT (158300): @152396 Hello, Eric. Help is here. Are you referring to the Fall Creators Update? Can you provide us more details about the issue that you're experiencing after the update?",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "No evidence reached the confidence threshold for a safe autonomous reply (minimum 0.60); human review is required.",
+    "retrieved_evidence": "{\"evidence_id\": \"2151624\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 2}, \"score\": 0.594799, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@116230 HEY WTF??? Fall update and my wireless no longer works ??? What the hell did you do?  Can't turn on Wi-Fi!!! | @MicrosoftHelps No I fixed it myself.   Had to initiate the Wi-Fi While running the diagnostic.   Widely reported issue, can't believe the update doesn't come with warnings.   Completely destroyed a day of work for me.\"}\n{\"evidence_id\": \"526483\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 2}, \"score\": 0.593252, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@116230 @MicrosoftHelps WHY | my computer updated and now my wireless driver is gone. thank you @116230\"}\n{\"evidence_id\": \"606608\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 8}, \"score\": 0.578598, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I have a good WiFi connection which I’m using fine on my phone right now | @MicrosoftHelps Thanks for getting back to me - It’s been on a black screen with the buffer wheel turning round for about half an hour now. I’m worried it’s stuck - what should I do? | @MicrosoftHelps Still the same 😭 | @MicrosoftHelps It’s still just going around on a black background, it’s over 2 and a half hours now since I started the update. | @MicrosoftHelps How long might it take?? It’s been nearly 2 hours! | @MicrosoftHelps Thanks for your help too. | @MicrosoftHelps Thanks, it’s finally sorted. Could you feedback to someone that it took about 5hours &amp; therefore felt like a nightmare please? As a self employed person it makes me want a Mac truth be told. | Dear @MicrosoftHelps, your #Windows update is on 27% and has taken an hour and a half so far. Where can I send my invoice please? I’m literally going mad. Me this morning with your product: 🤔😑😡😭😱\"}",
+    "generated_reply": "We apologize for the frustration regarding your Wi-Fi after the recent update. Because our available information is insufficient to fully resolve this specific hardware issue, please contact Microsoft support directly for further assistance."
+  },
+  "raw_response": "{\n  \"correctness\": 4,\n  \"helpfulness\": 4,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 4,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 4,\n  \"evidence_relevance\": 3,\n  \"grounding_score\": 3,\n  \"reason\": \"The reply appropriately handles the lack of high-confidence evidence by advising the user to contact Microsoft support directly, though the evidence retrieved was mostly anecdotal Twitter history.\"\n}",
+  "result": {
+    "correctness": 4,
+    "helpfulness": 4,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 4,
+    "evidence_support": 3,
+    "unsupported_claims": 4,
+    "evidence_relevance": 3,
+    "grounding_score": 3,
+    "reason": "The reply appropriately handles the lack of high-confidence evidence by advising the user to contact Microsoft support directly, though the evidence retrieved was mostly anecdotal Twitter history.",
+    "overall_score": 4,
+    "short_reason": "The reply appropriately handles the lack of high-confidence evidence by advising the user to contact Microsoft support directly, though the evidence retrieved was mostly anecdotal Twitter history.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 4,
+      "helpfulness": 4,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 4,
+      "evidence_relevance": 3
+    },
+    "golden_id": "GOLDEN-0206",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0206",
+      "customer_message": "@MicrosoftHelps Hey, thanks for making my ASUS wifi card completely useless in your latest update.  it doesn't work anymore.  Can I send you an invoice for it?",
+      "conversation_context": "MICROSOFT (158300): @152396 Hello, Eric. Help is here. Are you referring to the Fall Creators Update? Can you provide us more details about the issue that you're experiencing after the update?",
+      "predicted_intent": "Technical Troubleshooting",
+      "predicted_escalation": "ESCALATE_TO_HUMAN",
+      "predicted_escalation_reason": "No evidence reached the confidence threshold for a safe autonomous reply (minimum 0.60); human review is required.",
+      "retrieved_evidence": "{\"evidence_id\": \"2151624\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 2}, \"score\": 0.594799, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@116230 HEY WTF??? Fall update and my wireless no longer works ??? What the hell did you do?  Can't turn on Wi-Fi!!! | @MicrosoftHelps No I fixed it myself.   Had to initiate the Wi-Fi While running the diagnostic.   Widely reported issue, can't believe the update doesn't come with warnings.   Completely destroyed a day of work for me.\"}\n{\"evidence_id\": \"526483\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 2}, \"score\": 0.593252, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@116230 @MicrosoftHelps WHY | my computer updated and now my wireless driver is gone. thank you @116230\"}\n{\"evidence_id\": \"606608\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 8}, \"score\": 0.578598, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I have a good WiFi connection which I’m using fine on my phone right now | @MicrosoftHelps Thanks for getting back to me - It’s been on a black screen with the buffer wheel turning round for about half an hour now. I’m worried it’s stuck - what should I do? | @MicrosoftHelps Still the same 😭 | @MicrosoftHelps It’s still just going around on a black background, it’s over 2 and a half hours now since I started the update. | @MicrosoftHelps How long might it take?? It’s been nearly 2 hours! | @MicrosoftHelps Thanks for your help too. | @MicrosoftHelps Thanks, it’s finally sorted. Could you feedback to someone that it took about 5hours &amp; therefore felt like a nightmare please? As a self employed person it makes me want a Mac truth be told. | Dear @MicrosoftHelps, your #Windows update is on 27% and has taken an hour and a half so far. Where can I send my invoice please? I’m literally going mad. Me this morning with your product: 🤔😑😡😭😱\"}",
+      "generated_reply": "We apologize for the frustration regarding your Wi-Fi after the recent update. Because our available information is insufficient to fully resolve this specific hardware issue, please contact Microsoft support directly for further assistance."
+    }
+  }
+}

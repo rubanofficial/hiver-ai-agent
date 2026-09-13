@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0071",
+  "input_fingerprint": "558f16fefe0b06a8f39952a7bca8e233168fb14eae5e344ee7f4291d8a65277d",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-12T04:36:10+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0071",
+    "customer_message": "@MicrosoftHelps every time I call the support they hang up on me today it’s the 4th time they hang up",
+    "conversation_context": "MICROSOFT (860831): @324401 Hello, Ahmed. We don't want you to experience this. Want to try if we can settle this here in Twitter?",
+    "predicted_intent": "Complaint / Feedback",
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+    "retrieved_evidence": "{\"evidence_id\": \"1594174\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.785847, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I just spoke to 6 different technicians and the last one hung up mid call after 36 mins.\"}\n{\"evidence_id\": \"572322\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.776758, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I needed support and I was put on a waiting list for a phone call. Was told “approximately 82 minutes” and it’s been 2+ hours now\"}\n{\"evidence_id\": \"2243854\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.772305, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Never got a call | @MicrosoftHelps someone was supposed to call me in 5 minutes 15 minutes ago??\"}",
+    "generated_reply": "We apologize for the frustration and difficulty you've experienced with being disconnected during your calls today. Based on similar cases where users faced communication and wait-time issues, we recommend reaching out directly to Microsoft Support for further assistance so we can help resolve your issue."
+  },
+  "raw_response": "{\n  \"correctness\": 2,\n  \"helpfulness\": 2,\n  \"relevance\": 3,\n  \"clarity\": 4,\n  \"escalation_appropriateness\": 1,\n  \"overall_reply_score\": 2,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 2,\n  \"evidence_relevance\": 3,\n  \"grounding_score\": 3,\n  \"reason\": \"The customer is complaining about being hung up on multiple times by phone support. The agent suggests calling Microsoft Support again, which is unhelpful and ignores the high-risk complaint intent requiring a human handoff.\"\n}",
+  "result": {
+    "correctness": 2,
+    "helpfulness": 2,
+    "relevance": 3,
+    "clarity": 4,
+    "escalation_appropriateness": 1,
+    "overall_reply_score": 2,
+    "evidence_support": 3,
+    "unsupported_claims": 2,
+    "evidence_relevance": 3,
+    "grounding_score": 3,
+    "reason": "The customer is complaining about being hung up on multiple times by phone support. The agent suggests calling Microsoft Support again, which is unhelpful and ignores the high-risk complaint intent requiring a human handoff.",
+    "overall_score": 2,
+    "short_reason": "The customer is complaining about being hung up on multiple times by phone support. The agent suggests calling Microsoft Support again, which is unhelpful and ignores the high-risk complaint intent requiring a human handoff.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 2,
+      "helpfulness": 2,
+      "relevance": 3,
+      "clarity": 4,
+      "escalation_appropriateness": 1
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 2,
+      "evidence_relevance": 3
+    },
+    "golden_id": "GOLDEN-0071",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0071",
+      "customer_message": "@MicrosoftHelps every time I call the support they hang up on me today it’s the 4th time they hang up",
+      "conversation_context": "MICROSOFT (860831): @324401 Hello, Ahmed. We don't want you to experience this. Want to try if we can settle this here in Twitter?",
+      "predicted_intent": "Complaint / Feedback",
+      "predicted_escalation": "ESCALATE_TO_HUMAN",
+      "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+      "retrieved_evidence": "{\"evidence_id\": \"1594174\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.785847, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I just spoke to 6 different technicians and the last one hung up mid call after 36 mins.\"}\n{\"evidence_id\": \"572322\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.776758, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I needed support and I was put on a waiting list for a phone call. Was told “approximately 82 minutes” and it’s been 2+ hours now\"}\n{\"evidence_id\": \"2243854\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.772305, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Never got a call | @MicrosoftHelps someone was supposed to call me in 5 minutes 15 minutes ago??\"}",
+      "generated_reply": "We apologize for the frustration and difficulty you've experienced with being disconnected during your calls today. Based on similar cases where users faced communication and wait-time issues, we recommend reaching out directly to Microsoft Support for further assistance so we can help resolve your issue."
+    }
+  }
+}

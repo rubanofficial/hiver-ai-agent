@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0144",
+  "input_fingerprint": "f2e79f8c2eca7a0ef75ea8c7f6e6d6ab50e90a34d71ef101f12112f979b1d477",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:43:04+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0144",
+    "customer_message": "@MicrosoftHelps Cortana on Windows 10 fall creator's can hear \"hey Cortana\" but nothing else. ??? Headphone mike Turtle Beach P11s",
+    "conversation_context": "MICROSOFT (2020537): @597541 Hi. Thanks for reaching out. Kindly check this link: https://t.co/Tq04OZiGyD. Please send us a DM to provide you more details. https://t.co/3qcAsLFkaY\nCUSTOMER (2020538): @MicrosoftHelps I just found a solution. I downloaded and ran the Start Menu Troubleshooter and it fixed the problem. Thanks, though!",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"1087139\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.66676, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps what's going on with Cortana on windows mobile 10? Won't set alarm on either of my win10 phones, works fine on my 8.1 phone\"}\n{\"evidence_id\": \"1084808\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 4}, \"score\": 0.609404, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps The only thing that works is my headset audio hooked up usb, no other audio output works. | @MicrosoftHelps I have run trouble shooter, i have updated all my drivers, i gave control of my computer to your tech support. None of it worked | @MicrosoftHelps Well i have done everything that support knows of, i have temporarily found a work around but the main problem still exists | @MicrosoftHelps  this is unacceptable what ever has taken the sound away needs addressed immediately,\"}\n{\"evidence_id\": \"1685353\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.601524, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I rolled it back to the previous update and it fixed it. The new update ruined my sound | @MicrosoftHelps Can you please  explain how after the windows update, my headphone sound completely fucked, sounds like Im in a Pringles can\"}",
+    "generated_reply": "We apologize for the trouble you are experiencing with Cortana and your Turtle Beach P11s headset on Windows 10. As we do not have specific troubleshooting steps available in our current resources to resolve this headset and Cortana interaction, please contact Microsoft support directly for further assistance."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 4,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 4,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 4,\n  \"evidence_relevance\": 2,\n  \"grounding_score\": 3,\n  \"reason\": \"The reply correctly acknowledges the issue and advises contacting support when specific steps are not available, but the retrieved evidence was mostly irrelevant to the specific Cortana and Turtle Beach headset interaction.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 4,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 4,
+    "evidence_support": 3,
+    "unsupported_claims": 4,
+    "evidence_relevance": 2,
+    "grounding_score": 3,
+    "reason": "The reply correctly acknowledges the issue and advises contacting support when specific steps are not available, but the retrieved evidence was mostly irrelevant to the specific Cortana and Turtle Beach headset interaction.",
+    "overall_score": 4,
+    "short_reason": "The reply correctly acknowledges the issue and advises contacting support when specific steps are not available, but the retrieved evidence was mostly irrelevant to the specific Cortana and Turtle Beach headset interaction.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 4,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 4,
+      "evidence_relevance": 2
+    },
+    "golden_id": "GOLDEN-0144",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0144",
+      "customer_message": "@MicrosoftHelps Cortana on Windows 10 fall creator's can hear \"hey Cortana\" but nothing else. ??? Headphone mike Turtle Beach P11s",
+      "conversation_context": "MICROSOFT (2020537): @597541 Hi. Thanks for reaching out. Kindly check this link: https://t.co/Tq04OZiGyD. Please send us a DM to provide you more details. https://t.co/3qcAsLFkaY\nCUSTOMER (2020538): @MicrosoftHelps I just found a solution. I downloaded and ran the Start Menu Troubleshooter and it fixed the problem. Thanks, though!",
+      "predicted_intent": "Technical Troubleshooting",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"1087139\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.66676, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps what's going on with Cortana on windows mobile 10? Won't set alarm on either of my win10 phones, works fine on my 8.1 phone\"}\n{\"evidence_id\": \"1084808\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 4}, \"score\": 0.609404, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps The only thing that works is my headset audio hooked up usb, no other audio output works. | @MicrosoftHelps I have run trouble shooter, i have updated all my drivers, i gave control of my computer to your tech support. None of it worked | @MicrosoftHelps Well i have done everything that support knows of, i have temporarily found a work around but the main problem still exists | @MicrosoftHelps  this is unacceptable what ever has taken the sound away needs addressed immediately,\"}\n{\"evidence_id\": \"1685353\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.601524, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I rolled it back to the previous update and it fixed it. The new update ruined my sound | @MicrosoftHelps Can you please  explain how after the windows update, my headphone sound completely fucked, sounds like Im in a Pringles can\"}",
+      "generated_reply": "We apologize for the trouble you are experiencing with Cortana and your Turtle Beach P11s headset on Windows 10. As we do not have specific troubleshooting steps available in our current resources to resolve this headset and Cortana interaction, please contact Microsoft support directly for further assistance."
+    }
+  }
+}

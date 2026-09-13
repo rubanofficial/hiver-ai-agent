@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0013",
+  "input_fingerprint": "14ce87c7a49383d4340c46aa5fda740d8aaef861b56754ba009cd57462615187",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:29:02+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0013",
+    "customer_message": "@MicrosoftHelps I updated my laptop the other day and since I updated it it no longer boots properly, I have to force a shutdown and power it up s second time for it to boot. It has an SSD and normally boots in seconds but I can leave it 10 mins and it still is loading. Any ideas",
+    "conversation_context": "MICROSOFT (140789): @147776 Thank you for reaching out, Jordan! Let's get this sorted. Is that the Windows 10 that you're using? Do you see any error messages?\nCUSTOMER (140790): @MicrosoftHelps Yeah I'm using Win10, and I get no error messages. It seems to work fine once it boots up properly and there's no indication anything went wrong. If it helps I have a Lenovo V110\nCUSTOMER (140791): @MicrosoftHelps I've only had the laptop since the end of July and I use it regularly, never had any problems until this update\nMICROSOFT (140792): @147776 We appreciate your confirmation. Let's run the System File Checker tool. Here's how: https://t.co/gikAx8iwzB. Update us!\nCUSTOMER (140793): @MicrosoftHelps 'The restore operation completed successfully',  'Windows Resource Protection did not find any integrity violations'\nMICROSOFT (140794): @147776 We appreciate the update. Let's try the suggestion of SpiritX MS MVP on this link: https://t.co/CCE9fU52Rn. Hope this helps. Feel free to contact us back if you need further assistance.\nCUSTOMER (140795): @MicrosoftHelps ok I'll give it a go, thanks\nCUSTOMER (140796): @MicrosoftHelps System protection wasn't enabled by default previously so I have no previous restore points to revert too\nMICROSOFT (140797): @147776 Let's check our other options. Connect with our Windows experts here: https://t.co/rIdQUk4svK for further assistance. Let us know how it goes.",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"1372281\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.645361, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Oct update laptop fails to boot. System Restore gets it workng agn temp but can't turn updates off so just repeats same prob\"}\n{\"evidence_id\": \"2721807\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 4}, \"score\": 0.631121, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Hi. No I have not made any changes. I shut it down after I finished using it and the next day this happened. | @MicrosoftHelps I've been getting this for over a week now. What's the issue? I most definitely do not have the money to go out and buy a new laptop. Windows 10 is the worst! https://t.co/Q9PGhnw0Co | @MicrosoftHelps Is there another way to do this? The computer will not load up to anything. It just keeps looping. | @MicrosoftHelps Hi. I pressed and held the power button 3 times but its not going in to boot repair\"}\n{\"evidence_id\": \"2769444\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.625479, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps @116230 I cannot use my laptop after the recent update, two updates totalling roughly 2 1/2 hours now this and I’ve restarted my laptop about 10 times and this still happens....HELP ME! https://t.co/LgueiZWQOw\"}",
+    "generated_reply": "We are sorry to hear that your laptop is not booting properly after the recent update. As the provided evidence indicates others experiencing boot issues following updates, please contact Microsoft support directly so our team can help you troubleshoot this specific startup loop."
+  },
+  "raw_response": "{\n  \"correctness\": 4,\n  \"helpfulness\": 4,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 4,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 3,\n  \"evidence_relevance\": 3,\n  \"grounding_score\": 3,\n  \"reason\": \"The reply correctly acknowledges the issue and escalates appropriately, but the evidence used is somewhat generic and the mention of a startup loop is slightly assumed based on general boot issues.\"\n}",
+  "result": {
+    "correctness": 4,
+    "helpfulness": 4,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 4,
+    "evidence_support": 3,
+    "unsupported_claims": 3,
+    "evidence_relevance": 3,
+    "grounding_score": 3,
+    "reason": "The reply correctly acknowledges the issue and escalates appropriately, but the evidence used is somewhat generic and the mention of a startup loop is slightly assumed based on general boot issues.",
+    "overall_score": 4,
+    "short_reason": "The reply correctly acknowledges the issue and escalates appropriately, but the evidence used is somewhat generic and the mention of a startup loop is slightly assumed based on general boot issues.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 4,
+      "helpfulness": 4,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 3,
+      "evidence_relevance": 3
+    },
+    "golden_id": "GOLDEN-0013",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0013",
+      "customer_message": "@MicrosoftHelps I updated my laptop the other day and since I updated it it no longer boots properly, I have to force a shutdown and power it up s second time for it to boot. It has an SSD and normally boots in seconds but I can leave it 10 mins and it still is loading. Any ideas",
+      "conversation_context": "MICROSOFT (140789): @147776 Thank you for reaching out, Jordan! Let's get this sorted. Is that the Windows 10 that you're using? Do you see any error messages?\nCUSTOMER (140790): @MicrosoftHelps Yeah I'm using Win10, and I get no error messages. It seems to work fine once it boots up properly and there's no indication anything went wrong. If it helps I have a Lenovo V110\nCUSTOMER (140791): @MicrosoftHelps I've only had the laptop since the end of July and I use it regularly, never had any problems until this update\nMICROSOFT (140792): @147776 We appreciate your confirmation. Let's run the System File Checker tool. Here's how: https://t.co/gikAx8iwzB. Update us!\nCUSTOMER (140793): @MicrosoftHelps 'The restore operation completed successfully',  'Windows Resource Protection did not find any integrity violations'\nMICROSOFT (140794): @147776 We appreciate the update. Let's try the suggestion of SpiritX MS MVP on this link: https://t.co/CCE9fU52Rn. Hope this helps. Feel free to contact us back if you need further assistance.\nCUSTOMER (140795): @MicrosoftHelps ok I'll give it a go, thanks\nCUSTOMER (140796): @MicrosoftHelps System protection wasn't enabled by default previously so I have no previous restore points to revert too\nMICROSOFT (140797): @147776 Let's check our other options. Connect with our Windows experts here: https://t.co/rIdQUk4svK for further assistance. Let us know how it goes.",
+      "predicted_intent": "Technical Troubleshooting",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"1372281\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.645361, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Oct update laptop fails to boot. System Restore gets it workng agn temp but can't turn updates off so just repeats same prob\"}\n{\"evidence_id\": \"2721807\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 4}, \"score\": 0.631121, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Hi. No I have not made any changes. I shut it down after I finished using it and the next day this happened. | @MicrosoftHelps I've been getting this for over a week now. What's the issue? I most definitely do not have the money to go out and buy a new laptop. Windows 10 is the worst! https://t.co/Q9PGhnw0Co | @MicrosoftHelps Is there another way to do this? The computer will not load up to anything. It just keeps looping. | @MicrosoftHelps Hi. I pressed and held the power button 3 times but its not going in to boot repair\"}\n{\"evidence_id\": \"2769444\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.625479, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps @116230 I cannot use my laptop after the recent update, two updates totalling roughly 2 1/2 hours now this and I’ve restarted my laptop about 10 times and this still happens....HELP ME! https://t.co/LgueiZWQOw\"}",
+      "generated_reply": "We are sorry to hear that your laptop is not booting properly after the recent update. As the provided evidence indicates others experiencing boot issues following updates, please contact Microsoft support directly so our team can help you troubleshoot this specific startup loop."
+    }
+  }
+}

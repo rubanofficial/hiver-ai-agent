@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0177",
+  "input_fingerprint": "83ed233285e3a3235cb50c8151b2a3c0f98712d0be20cd9497d53fd41c5ae2f9",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T11:43:20+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0177",
+    "customer_message": "@MicrosoftHelps https://t.co/xi5DhuHt9J",
+    "conversation_context": "MICROSOFT (2600597): @736143 Hi, Cody. We understand your situation. In this case. It would be best if we ask help from out Accounts &amp; billing team regarding this matter. Here's the link where you can reach them: https://t.co/30HGOcbZ7G. https://t.co/3qcAsLFkaY",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"832461\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.976149, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps https://t.co/hOojgcsYC3\"}\n{\"evidence_id\": \"668148\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.973425, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps https://t.co/OVdEWqtEbe\"}\n{\"evidence_id\": \"1826771\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.9704, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps https://t.co/p8r9M6ABJe\"}",
+    "generated_reply": "We understand you are experiencing an issue and have reached out regarding the link provided. Based on similar cases, we recommend checking your connection or trying again shortly. If the issue persists, please let us know so we can investigate further."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 3,\n  \"clarity\": 4,\n  \"escalation_appropriateness\": 3,\n  \"overall_reply_score\": 3,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 3,\n  \"evidence_relevance\": 2,\n  \"grounding_score\": 3,\n  \"reason\": \"The reply attempts to help with a generic troubleshooting response, but the context shows the issue was previously routed to billing. The retrieved evidence only consists of URLs without text context, making strong grounding difficult.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 3,
+    "clarity": 4,
+    "escalation_appropriateness": 3,
+    "overall_reply_score": 3,
+    "evidence_support": 3,
+    "unsupported_claims": 3,
+    "evidence_relevance": 2,
+    "grounding_score": 3,
+    "reason": "The reply attempts to help with a generic troubleshooting response, but the context shows the issue was previously routed to billing. The retrieved evidence only consists of URLs without text context, making strong grounding difficult.",
+    "overall_score": 3,
+    "short_reason": "The reply attempts to help with a generic troubleshooting response, but the context shows the issue was previously routed to billing. The retrieved evidence only consists of URLs without text context, making strong grounding difficult.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 3,
+      "clarity": 4,
+      "escalation_appropriateness": 3
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 3,
+      "evidence_relevance": 2
+    },
+    "golden_id": "GOLDEN-0177",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0177",
+      "customer_message": "@MicrosoftHelps https://t.co/xi5DhuHt9J",
+      "conversation_context": "MICROSOFT (2600597): @736143 Hi, Cody. We understand your situation. In this case. It would be best if we ask help from out Accounts &amp; billing team regarding this matter. Here's the link where you can reach them: https://t.co/30HGOcbZ7G. https://t.co/3qcAsLFkaY",
+      "predicted_intent": "Technical Troubleshooting",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"832461\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.976149, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps https://t.co/hOojgcsYC3\"}\n{\"evidence_id\": \"668148\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.973425, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps https://t.co/OVdEWqtEbe\"}\n{\"evidence_id\": \"1826771\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.9704, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps https://t.co/p8r9M6ABJe\"}",
+      "generated_reply": "We understand you are experiencing an issue and have reached out regarding the link provided. Based on similar cases, we recommend checking your connection or trying again shortly. If the issue persists, please let us know so we can investigate further."
+    }
+  }
+}

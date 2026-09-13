@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0150",
+  "input_fingerprint": "29e0361623389b22d062f6768494f71229aa34b466d3af881a2a7990e781baca",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:43:16+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0150",
+    "customer_message": "@MicrosoftHelps just recently noticed my grip coming off is there anything I can do? I’ve already taken it to my local Microsoft store 😩😭 https://t.co/n6oodfDpVQ",
+    "conversation_context": "MICROSOFT (2089732): @617710 Hi, Travis. Help is here. Could you tell us what happened? You can send us a DM to further assist you. https://t.co/3qcAsLFkaY",
+    "predicted_intent": "Warranty / Repair",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"1300327\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.632302, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps guys if my elite joypad grip is coming off will you repair it as I'm sure it shouldn't just come unstuck its only 1 side\"}\n{\"evidence_id\": \"1150656\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.61938, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps what do i need to do to fix?\"}\n{\"evidence_id\": \"1077610\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 4}, \"score\": 0.619089, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Started happening in the last week. Will push back on for a bit then comes back off. Both strips on the bottom of the unit. https://t.co/jSbvpAemfj | @MicrosoftHelps The strips on the bottom of my Surface book are coming off. Fix available? | @MicrosoftHelps Thanks for wasting my time. Finally got to a store and it was no help for me. You don't have replacement strips for the bottom of my surface book. Pretty dumb to allow me to have open holes on the bottom of my laptop. | @MicrosoftHelps Lots of chatter before, zero now eh? Very telling Microsoft.\"}",
+    "generated_reply": "We're sorry to hear about your experience with the grip coming off. Since the retrieved historical evidence does not provide a specific troubleshooting step or resolution for this issue, and you have already visited your local store, we recommend reaching out to Microsoft Support directly for further assistance."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 4,\n  \"clarity\": 4,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 3,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 3,\n  \"evidence_relevance\": 2,\n  \"grounding_score\": 3,\n  \"reason\": \"The reply acknowledges the customer's issue and suggests contacting support, but inappropriately meta-references the retrieved evidence in the response to the user.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 4,
+    "clarity": 4,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 3,
+    "evidence_support": 3,
+    "unsupported_claims": 3,
+    "evidence_relevance": 2,
+    "grounding_score": 3,
+    "reason": "The reply acknowledges the customer's issue and suggests contacting support, but inappropriately meta-references the retrieved evidence in the response to the user.",
+    "overall_score": 3,
+    "short_reason": "The reply acknowledges the customer's issue and suggests contacting support, but inappropriately meta-references the retrieved evidence in the response to the user.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 4,
+      "clarity": 4,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 3,
+      "evidence_relevance": 2
+    },
+    "golden_id": "GOLDEN-0150",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0150",
+      "customer_message": "@MicrosoftHelps just recently noticed my grip coming off is there anything I can do? I’ve already taken it to my local Microsoft store 😩😭 https://t.co/n6oodfDpVQ",
+      "conversation_context": "MICROSOFT (2089732): @617710 Hi, Travis. Help is here. Could you tell us what happened? You can send us a DM to further assist you. https://t.co/3qcAsLFkaY",
+      "predicted_intent": "Warranty / Repair",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"1300327\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.632302, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps guys if my elite joypad grip is coming off will you repair it as I'm sure it shouldn't just come unstuck its only 1 side\"}\n{\"evidence_id\": \"1150656\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.61938, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps what do i need to do to fix?\"}\n{\"evidence_id\": \"1077610\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 4}, \"score\": 0.619089, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Started happening in the last week. Will push back on for a bit then comes back off. Both strips on the bottom of the unit. https://t.co/jSbvpAemfj | @MicrosoftHelps The strips on the bottom of my Surface book are coming off. Fix available? | @MicrosoftHelps Thanks for wasting my time. Finally got to a store and it was no help for me. You don't have replacement strips for the bottom of my surface book. Pretty dumb to allow me to have open holes on the bottom of my laptop. | @MicrosoftHelps Lots of chatter before, zero now eh? Very telling Microsoft.\"}",
+      "generated_reply": "We're sorry to hear about your experience with the grip coming off. Since the retrieved historical evidence does not provide a specific troubleshooting step or resolution for this issue, and you have already visited your local store, we recommend reaching out to Microsoft Support directly for further assistance."
+    }
+  }
+}

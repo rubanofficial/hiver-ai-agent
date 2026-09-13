@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0123",
+  "input_fingerprint": "bf83ca443a722277d0cbf8d22937281b20b8a8ac400409d807b097629315f236",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:41:04+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0123",
+    "customer_message": "@MicrosoftHelps I closed @251208 and the CPU went up again! I really think that his is due to some graphic things, I have seen similar issues with Groove",
+    "conversation_context": "MICROSOFT (1685307): @512074 May we know if you brought your device and charger to the nearest shop to have it checked?\nCUSTOMER (1685308): @MicrosoftHelps My company bought it online, we are in Zürich, I don't think there is a shop near by.\nCUSTOMER (1685309): My love hate relation with my @123127 book continue! Today it didn't want to charge, even after a reboot nor hard reboot.\nMICROSOFT (1685310): @512074 Please give our Global Support team - Switzerland a ring at 0848 858 868 (Deutsch / Français) or 0848 801 255 (Italiano).\nCUSTOMER (1685311): @MicrosoftHelps Thanks I could fix it by myself at the moment! But overall, I do have too much issues with that device.\nCUSTOMER (1685312): @MicrosoftHelps Again an issue this time the driver for USB cannot load and lucky me I have touchscreen to restore from checkpoint @123127 book love hate continue...\nMICROSOFT (1685313): @512074 Hi Laurent. Are you still having this issue? We're here to help.\nMICROSOFT (1685314): @512074 How's it going, Laurent? Still having issues? Let us know if you still need assistance.\nCUSTOMER (1685315): @MicrosoftHelps Thanks. I did a full re-install from ISO and at the moment it is better. Let's see after some time.\nCUSTOMER (1685316): @MicrosoftHelps Yeah I am again having this issue of my CPU staying below 1Ghz on a fresh install of Windows 10 Fall creator update! https://t.co/ouF0nq8Ecw\nMICROSOFT (1685317): @512074 Hi! We'd like to know how we can improve our support on Twitter. You can share your experience here: https://t.co/qCy1CBtydw\nCUSTOMER (1685318): @MicrosoftHelps My machine locks itself now while I am working on it! 😒Lucky me I have Windows Hello which work perfectly...\nMICROSOFT (1685319): @512074 That's great to hear! If you need assistance just drop us a tweet. Thank you.\nCUSTOMER (1685320): @MicrosoftHelps Are you kidding me ?\nMICROSOFT (1685321): @512074 Hmm. Have you tried using System Information app to check if it displays the correct specifications of your PC? Kindly DM us for further troubleshooting.",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"2698595\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.645155, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \".@115890 @116230  @MicrosoftHelps Despite 7th Restart here I am!!\\nVery vexing, due to this my laptop's performance is bad, Can you help already? https://t.co/sKbROZKhpM\"}\n{\"evidence_id\": \"1121096\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.593967, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Has @MicrosoftHelps crashed?? Can't get a tech online?? @122427\"}\n{\"evidence_id\": \"2667151\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.588839, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps so out of this new update my powerful computer is having issues doing basic things.\"}",
+    "generated_reply": "We apologize for the frustration you are experiencing with your CPU usage. Since we do not have enough information in our current guidelines to resolve this specific graphics-related issue, please contact Microsoft support directly for further assistance."
+  },
+  "raw_response": "{\n  \"correctness\": 2,\n  \"helpfulness\": 2,\n  \"relevance\": 3,\n  \"clarity\": 4,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 2,\n  \"evidence_support\": 1,\n  \"unsupported_claims\": 2,\n  \"evidence_relevance\": 2,\n  \"grounding_score\": 2,\n  \"reason\": \"The reply acknowledges the CPU issue and advises contacting support, but references guidelines/policies not present in the evidence and unnecessarily deflects rather than continuing standard troubleshooting.\"\n}",
+  "result": {
+    "correctness": 2,
+    "helpfulness": 2,
+    "relevance": 3,
+    "clarity": 4,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 2,
+    "evidence_support": 1,
+    "unsupported_claims": 2,
+    "evidence_relevance": 2,
+    "grounding_score": 2,
+    "reason": "The reply acknowledges the CPU issue and advises contacting support, but references guidelines/policies not present in the evidence and unnecessarily deflects rather than continuing standard troubleshooting.",
+    "overall_score": 2,
+    "short_reason": "The reply acknowledges the CPU issue and advises contacting support, but references guidelines/policies not present in the evidence and unnecessarily deflects rather than continuing standard troubleshooting.",
+    "grounding_decision": "UNSUPPORTED",
+    "reply_quality": {
+      "correctness": 2,
+      "helpfulness": 2,
+      "relevance": 3,
+      "clarity": 4,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 1,
+      "unsupported_claims": 2,
+      "evidence_relevance": 2
+    },
+    "golden_id": "GOLDEN-0123",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0123",
+      "customer_message": "@MicrosoftHelps I closed @251208 and the CPU went up again! I really think that his is due to some graphic things, I have seen similar issues with Groove",
+      "conversation_context": "MICROSOFT (1685307): @512074 May we know if you brought your device and charger to the nearest shop to have it checked?\nCUSTOMER (1685308): @MicrosoftHelps My company bought it online, we are in Zürich, I don't think there is a shop near by.\nCUSTOMER (1685309): My love hate relation with my @123127 book continue! Today it didn't want to charge, even after a reboot nor hard reboot.\nMICROSOFT (1685310): @512074 Please give our Global Support team - Switzerland a ring at 0848 858 868 (Deutsch / Français) or 0848 801 255 (Italiano).\nCUSTOMER (1685311): @MicrosoftHelps Thanks I could fix it by myself at the moment! But overall, I do have too much issues with that device.\nCUSTOMER (1685312): @MicrosoftHelps Again an issue this time the driver for USB cannot load and lucky me I have touchscreen to restore from checkpoint @123127 book love hate continue...\nMICROSOFT (1685313): @512074 Hi Laurent. Are you still having this issue? We're here to help.\nMICROSOFT (1685314): @512074 How's it going, Laurent? Still having issues? Let us know if you still need assistance.\nCUSTOMER (1685315): @MicrosoftHelps Thanks. I did a full re-install from ISO and at the moment it is better. Let's see after some time.\nCUSTOMER (1685316): @MicrosoftHelps Yeah I am again having this issue of my CPU staying below 1Ghz on a fresh install of Windows 10 Fall creator update! https://t.co/ouF0nq8Ecw\nMICROSOFT (1685317): @512074 Hi! We'd like to know how we can improve our support on Twitter. You can share your experience here: https://t.co/qCy1CBtydw\nCUSTOMER (1685318): @MicrosoftHelps My machine locks itself now while I am working on it! 😒Lucky me I have Windows Hello which work perfectly...\nMICROSOFT (1685319): @512074 That's great to hear! If you need assistance just drop us a tweet. Thank you.\nCUSTOMER (1685320): @MicrosoftHelps Are you kidding me ?\nMICROSOFT (1685321): @512074 Hmm. Have you tried using System Information app to check if it displays the correct specifications of your PC? Kindly DM us for further troubleshooting.",
+      "predicted_intent": "Technical Troubleshooting",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"2698595\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.645155, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \".@115890 @116230  @MicrosoftHelps Despite 7th Restart here I am!!\\nVery vexing, due to this my laptop's performance is bad, Can you help already? https://t.co/sKbROZKhpM\"}\n{\"evidence_id\": \"1121096\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.593967, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Has @MicrosoftHelps crashed?? Can't get a tech online?? @122427\"}\n{\"evidence_id\": \"2667151\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.588839, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps so out of this new update my powerful computer is having issues doing basic things.\"}",
+      "generated_reply": "We apologize for the frustration you are experiencing with your CPU usage. Since we do not have enough information in our current guidelines to resolve this specific graphics-related issue, please contact Microsoft support directly for further assistance."
+    }
+  }
+}

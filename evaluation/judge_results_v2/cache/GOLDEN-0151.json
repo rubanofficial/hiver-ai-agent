@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0151",
+  "input_fingerprint": "9dff189fbd2e4de57489441a799279e0ecb04a5fdac0b6cc4a15a8b4aa916cf6",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T11:42:05+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0151",
+    "customer_message": "@MicrosoftHelps @115888 stopped working on my Lumia 950 after the last update so I did a hard reset and the app still won't open",
+    "conversation_context": "MICROSOFT (2122620): @625323 Hi. Let's work on this. Do you experience the same issue on your other apps? Try to uninstall the app and then reinstall them back after 5 mins in case you haven't tried this yet.. Tweet us back if the issue persists.",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"54813\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.748535, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps None at all. Successfully ran the update and been having problems opening almost all apps since | What’s going on with the new update @116230 @MicrosoftHelps I’m unable to do/open anything! https://t.co/FFCyqKLRAp\"}\n{\"evidence_id\": \"236991\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 3}, \"score\": 0.673252, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Hi! Everything is working fine now. Maybe it was just a server problem. Thanks for your support! | @MicrosoftHelps @172447 I can't show or provide any Feedback. Reinstalling or resetting the app does not resolve the issue. Is there any solution for the problem? | @MicrosoftHelps @172447  Problem with Feedback Hub on my Lumia 950. App is always trying to load content, but nothing is displayed.\"}\n{\"evidence_id\": \"2201409\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.667617, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Can't seem to download any apps from @115890 app store on my @86616 T100H @116230. Shows \\\"Working.. .  .   .   .\\\" 💻\"}",
+    "generated_reply": "Hello! Based on similar cases where resetting or reinstalling did not resolve app issues after an update, it is possible this may be related to temporary server problems. If the issue persists, we recommend reaching out to official Microsoft Support for further assistance."
+  },
+  "raw_response": "{\n  \"correctness\": 4,\n  \"helpfulness\": 4,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 4,\n  \"evidence_support\": 4,\n  \"unsupported_claims\": 4,\n  \"evidence_relevance\": 4,\n  \"grounding_score\": 4,\n  \"reason\": \"The reply addresses the customer's issue by utilizing context from similar historical cases regarding updates and server issues, and suggests appropriate escalation to official support when troubleshooting fails.\"\n}",
+  "result": {
+    "correctness": 4,
+    "helpfulness": 4,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 4,
+    "evidence_support": 4,
+    "unsupported_claims": 4,
+    "evidence_relevance": 4,
+    "grounding_score": 4,
+    "reason": "The reply addresses the customer's issue by utilizing context from similar historical cases regarding updates and server issues, and suggests appropriate escalation to official support when troubleshooting fails.",
+    "overall_score": 4,
+    "short_reason": "The reply addresses the customer's issue by utilizing context from similar historical cases regarding updates and server issues, and suggests appropriate escalation to official support when troubleshooting fails.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 4,
+      "helpfulness": 4,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 4,
+      "unsupported_claims": 4,
+      "evidence_relevance": 4
+    },
+    "golden_id": "GOLDEN-0151",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0151",
+      "customer_message": "@MicrosoftHelps @115888 stopped working on my Lumia 950 after the last update so I did a hard reset and the app still won't open",
+      "conversation_context": "MICROSOFT (2122620): @625323 Hi. Let's work on this. Do you experience the same issue on your other apps? Try to uninstall the app and then reinstall them back after 5 mins in case you haven't tried this yet.. Tweet us back if the issue persists.",
+      "predicted_intent": "Technical Troubleshooting",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"54813\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.748535, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps None at all. Successfully ran the update and been having problems opening almost all apps since | What’s going on with the new update @116230 @MicrosoftHelps I’m unable to do/open anything! https://t.co/FFCyqKLRAp\"}\n{\"evidence_id\": \"236991\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 3}, \"score\": 0.673252, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Hi! Everything is working fine now. Maybe it was just a server problem. Thanks for your support! | @MicrosoftHelps @172447 I can't show or provide any Feedback. Reinstalling or resetting the app does not resolve the issue. Is there any solution for the problem? | @MicrosoftHelps @172447  Problem with Feedback Hub on my Lumia 950. App is always trying to load content, but nothing is displayed.\"}\n{\"evidence_id\": \"2201409\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.667617, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Can't seem to download any apps from @115890 app store on my @86616 T100H @116230. Shows \\\"Working.. .  .   .   .\\\" 💻\"}",
+      "generated_reply": "Hello! Based on similar cases where resetting or reinstalling did not resolve app issues after an update, it is possible this may be related to temporary server problems. If the issue persists, we recommend reaching out to official Microsoft Support for further assistance."
+    }
+  }
+}

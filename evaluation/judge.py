@@ -96,6 +96,8 @@ JUDGE_INPUT_FIELDS = [
     "customer_message",
     "conversation_context",
     "predicted_intent",
+    "predicted_escalation",
+    "predicted_escalation_reason",
     "retrieved_evidence",
     "generated_reply",
 ]
@@ -242,6 +244,8 @@ def build_judge_input(record: Dict[str, Any],
         "customer_message": str(record_dict.get("customer_message") or ""),
         "conversation_context": str(record_dict.get("conversation_context") or ""),
         "predicted_intent": str(intent),
+        "predicted_escalation": str(prediction.get("predicted_escalation") or "AUTO_HANDLE"),
+        "predicted_escalation_reason": str(prediction.get("predicted_escalation_reason") or ""),
         "retrieved_evidence": render_evidence(prediction.get("retrieved_evidence")),
         "generated_reply": str(reply),
     }
@@ -360,6 +364,8 @@ def build_judge_prompt(judge_input: Dict[str, Any]) -> str:
         f"CUSTOMER MESSAGE:\n{judge_input['customer_message']}\n\n"
         f"CONVERSATION CONTEXT:\n{judge_input['conversation_context']}\n\n"
         f"PREDICTED INTENT: {judge_input['predicted_intent']}\n\n"
+        f"PREDICTED ESCALATION: {judge_input.get('predicted_escalation') or 'AUTO_HANDLE'}\n"
+        f"PREDICTED ESCALATION REASON: {judge_input.get('predicted_escalation_reason') or '(none)'}\n\n"
         "RETRIEVED EVIDENCE:\n"
         f"{judge_input['retrieved_evidence'] or '(none provided)'}\n\n"
         f"GENERATED REPLY:\n{judge_input['generated_reply']}"
@@ -400,18 +406,35 @@ class GeminiJudgeClient:
             )
 
     def generate(self, prompt: str) -> str:
-        """Call Gemini and return the raw response text."""
+        """Call Gemini and return the raw response text with rate-limit retries."""
         self.genai.configure(api_key=self.api_key)
         model = self.genai.GenerativeModel(self.model_name)
-        response = model.generate_content(
-            prompt,
-            generation_config=self.genai.types.GenerationConfig(
-                response_mime_type="application/json",
-                temperature=DEFAULT_TEMPERATURE,
-                max_output_tokens=MAX_OUTPUT_TOKENS,
-            ),
-        )
-        return response.text
+        max_retries = 25
+        base_delay = 15.0
+        for attempt in range(max_retries):
+            try:
+                response = model.generate_content(
+                    prompt,
+                    generation_config=self.genai.types.GenerationConfig(
+                        response_mime_type="application/json",
+                        temperature=DEFAULT_TEMPERATURE,
+                        max_output_tokens=MAX_OUTPUT_TOKENS,
+                    ),
+                )
+                return response.text
+            except Exception as exc:
+                exc_str = str(exc)
+                if ("429" in exc_str or "quota" in exc_str.lower() or "resourceexhausted" in exc_str.lower()) and attempt < max_retries - 1:
+                    import re
+                    import time
+                    delay = base_delay * (1.2 ** min(attempt, 10))
+                    match = re.search(r"retry in (\d+(?:\.\d+)?)s", exc_str, re.IGNORECASE)
+                    if match:
+                        delay = max(delay, float(match.group(1)) + 5.0)
+                    time.sleep(delay)
+                else:
+                    raise
+        raise JudgeError("Gemini call failed after max retries.")
 
 
 # ---------------------------------------------------------------------------
@@ -547,6 +570,8 @@ HUMAN_REVIEW_COLUMNS = [
     "customer_message",
     "conversation_context",
     "predicted_intent",
+    "predicted_escalation",
+    "predicted_escalation_reason",
     "retrieved_evidence",
     "generated_reply",
     "correctness",
@@ -573,6 +598,8 @@ def _build_review_row(result: Dict[str, Any]) -> Dict[str, Any]:
         "customer_message": inp["customer_message"],
         "conversation_context": inp["conversation_context"],
         "predicted_intent": inp["predicted_intent"],
+        "predicted_escalation": inp.get("predicted_escalation", ""),
+        "predicted_escalation_reason": inp.get("predicted_escalation_reason", ""),
         "retrieved_evidence": inp["retrieved_evidence"],
         "generated_reply": inp["generated_reply"],
         "correctness": result["correctness"],

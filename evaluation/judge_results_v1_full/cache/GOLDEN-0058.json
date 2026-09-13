@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0058",
+  "input_fingerprint": "c1f3f73e1642afa75d9e6bb00f995a4b6057d4007a4cc6a1f9e66af92b094ca3",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:34:07+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0058",
+    "customer_message": "@116230 what have you done to error up @134484 Acrobat Reader? #Windows10 https://t.co/JSHBFPp7M6",
+    "conversation_context": "MICROSOFT (630634): @269443 If that's so, we might suggest that you follow their advise to help you further with the issue. Feel free to ask if you have any clarifications.\nCUSTOMER (630635): @MicrosoftHelps Yes, they said to contact Adobe.\nMICROSOFT (630636): @269443 Thanks for the update. Just to clarify, have you tried contacting our Global Customer Service about your issue? If yes, did they provide any service request number?\nCUSTOMER (630637): @MicrosoftHelps Media Case ID #1258175 no help from there.\nMICROSOFT (630638): @269443 We don’t want to end like this. Let’s contact our Global Customer Service phone number: https://t.co/GfDNFtW8md to take a closer look at the issue. Rest assured that they will be able to help you thoroughly.\nCUSTOMER (630639): @MicrosoftHelps Linked worked but solution failed. Have repaired, uninstalled and reinstalled both Adobe Acrobat and Visual C++ Redistributable Packages for Visual Studio 2013. A second profile on the same PC does not have this error.\nMICROSOFT (630640): @269443 Just doing a follow-up. May we know if the link worked for you? Let us know if you need further assistance.\nCUSTOMER (630641): @MicrosoftHelps Link work but solution failed.\nCUSTOMER (630642): @MicrosoftHelps Hm, well it on my desktop PC so not sure if it is an app?\nMICROSOFT (630643): @269443 Thank you for the update. You can check Ryan Fra's post on this link: https://t.co/Lgd78m9xrQ to resolve the error message. Let us know how it goes.\nMICROSOFT (630644): @269443 We suggest that you contact the App Developer for them to check this issue.\nCUSTOMER (630645): @MicrosoftHelps Sorry, installed the ts suggestions, ran and tried to use but is too complex for me.\nMICROSOFT (630646): @269443 Hello, Chris! Checking back with you. Were you able to apply the steps on the link? Feel free to reach out if you still need help. Have a good day.",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "No evidence reached the confidence threshold for a safe autonomous reply (minimum 0.60); human review is required.",
+    "retrieved_evidence": "{\"evidence_id\": \"131587\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 6}, \"score\": 0.559019, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps After i install pdf app, i m asked 2 options. Then i can choose @145674 and it works. After uninstall app, again unable to open pdf. | @MicrosoftHelps As i see many ppl ve posted similar issue in Feedback Hub. Not sure its gonna help. Add my comments in there | @MicrosoftHelps No updates. Everything is latest | @MicrosoftHelps Lumia 730. Issue started yday after I performed factory reset. OS 1607, 10.0.14393.1884 | @MicrosoftHelps Does not help. Phone is not opening PDF in edge. | @16942 @MicrosoftHelps can u help? https://t.co/SGqliFlMKh\"}\n{\"evidence_id\": \"2521549\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.537515, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I will give the version # tomorrow. | @115890 #Windows10 #PowerPoint opens only 50% of the time. Address this common issue. I need to PDF my presentations as I can't trust your program.\"}\n{\"evidence_id\": \"12856\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 4}, \"score\": 0.516869, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Windows 10 | @116230  https://t.co/F6bCW3QbNT | @118602 Hi, there. We're happy to help! Can you tell us more about what you're experiencing? | @116230  please help me out I’m having trouble\"}",
+    "generated_reply": "We're sorry to hear that you're having trouble with Adobe Acrobat Reader on Windows 10. Could you please tell us more about what you're experiencing so we can assist you further?"
+  },
+  "raw_response": "{\n  \"correctness\": 2,\n  \"helpfulness\": 2,\n  \"relevance\": 3,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 1,\n  \"overall_reply_score\": 2,\n  \"evidence_support\": 2,\n  \"unsupported_claims\": 2,\n  \"evidence_relevance\": 2,\n  \"grounding_score\": 2,\n  \"reason\": \"The conversation context shows the customer has already explained their problem in detail, tried multiple troubleshooting steps, and interacted with support extensively. Asking them to tell us more about what they are experiencing ignores the existing conversation history and fails to appropriately handle the complex troubleshooting.\"\n}",
+  "result": {
+    "correctness": 2,
+    "helpfulness": 2,
+    "relevance": 3,
+    "clarity": 5,
+    "escalation_appropriateness": 1,
+    "overall_reply_score": 2,
+    "evidence_support": 2,
+    "unsupported_claims": 2,
+    "evidence_relevance": 2,
+    "grounding_score": 2,
+    "reason": "The conversation context shows the customer has already explained their problem in detail, tried multiple troubleshooting steps, and interacted with support extensively. Asking them to tell us more about what they are experiencing ignores the existing conversation history and fails to appropriately handle the complex troubleshooting.",
+    "overall_score": 2,
+    "short_reason": "The conversation context shows the customer has already explained their problem in detail, tried multiple troubleshooting steps, and interacted with support extensively. Asking them to tell us more about what they are experiencing ignores the existing conversation history and fails to appropriately handle the complex troubleshooting.",
+    "grounding_decision": "UNSUPPORTED",
+    "reply_quality": {
+      "correctness": 2,
+      "helpfulness": 2,
+      "relevance": 3,
+      "clarity": 5,
+      "escalation_appropriateness": 1
+    },
+    "evidence_grounding": {
+      "evidence_support": 2,
+      "unsupported_claims": 2,
+      "evidence_relevance": 2
+    },
+    "golden_id": "GOLDEN-0058",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0058",
+      "customer_message": "@116230 what have you done to error up @134484 Acrobat Reader? #Windows10 https://t.co/JSHBFPp7M6",
+      "conversation_context": "MICROSOFT (630634): @269443 If that's so, we might suggest that you follow their advise to help you further with the issue. Feel free to ask if you have any clarifications.\nCUSTOMER (630635): @MicrosoftHelps Yes, they said to contact Adobe.\nMICROSOFT (630636): @269443 Thanks for the update. Just to clarify, have you tried contacting our Global Customer Service about your issue? If yes, did they provide any service request number?\nCUSTOMER (630637): @MicrosoftHelps Media Case ID #1258175 no help from there.\nMICROSOFT (630638): @269443 We don’t want to end like this. Let’s contact our Global Customer Service phone number: https://t.co/GfDNFtW8md to take a closer look at the issue. Rest assured that they will be able to help you thoroughly.\nCUSTOMER (630639): @MicrosoftHelps Linked worked but solution failed. Have repaired, uninstalled and reinstalled both Adobe Acrobat and Visual C++ Redistributable Packages for Visual Studio 2013. A second profile on the same PC does not have this error.\nMICROSOFT (630640): @269443 Just doing a follow-up. May we know if the link worked for you? Let us know if you need further assistance.\nCUSTOMER (630641): @MicrosoftHelps Link work but solution failed.\nCUSTOMER (630642): @MicrosoftHelps Hm, well it on my desktop PC so not sure if it is an app?\nMICROSOFT (630643): @269443 Thank you for the update. You can check Ryan Fra's post on this link: https://t.co/Lgd78m9xrQ to resolve the error message. Let us know how it goes.\nMICROSOFT (630644): @269443 We suggest that you contact the App Developer for them to check this issue.\nCUSTOMER (630645): @MicrosoftHelps Sorry, installed the ts suggestions, ran and tried to use but is too complex for me.\nMICROSOFT (630646): @269443 Hello, Chris! Checking back with you. Were you able to apply the steps on the link? Feel free to reach out if you still need help. Have a good day.",
+      "predicted_intent": "Technical Troubleshooting",
+      "predicted_escalation": "ESCALATE_TO_HUMAN",
+      "predicted_escalation_reason": "No evidence reached the confidence threshold for a safe autonomous reply (minimum 0.60); human review is required.",
+      "retrieved_evidence": "{\"evidence_id\": \"131587\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 6}, \"score\": 0.559019, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps After i install pdf app, i m asked 2 options. Then i can choose @145674 and it works. After uninstall app, again unable to open pdf. | @MicrosoftHelps As i see many ppl ve posted similar issue in Feedback Hub. Not sure its gonna help. Add my comments in there | @MicrosoftHelps No updates. Everything is latest | @MicrosoftHelps Lumia 730. Issue started yday after I performed factory reset. OS 1607, 10.0.14393.1884 | @MicrosoftHelps Does not help. Phone is not opening PDF in edge. | @16942 @MicrosoftHelps can u help? https://t.co/SGqliFlMKh\"}\n{\"evidence_id\": \"2521549\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.537515, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I will give the version # tomorrow. | @115890 #Windows10 #PowerPoint opens only 50% of the time. Address this common issue. I need to PDF my presentations as I can't trust your program.\"}\n{\"evidence_id\": \"12856\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 4}, \"score\": 0.516869, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Windows 10 | @116230  https://t.co/F6bCW3QbNT | @118602 Hi, there. We're happy to help! Can you tell us more about what you're experiencing? | @116230  please help me out I’m having trouble\"}",
+      "generated_reply": "We're sorry to hear that you're having trouble with Adobe Acrobat Reader on Windows 10. Could you please tell us more about what you're experiencing so we can assist you further?"
+    }
+  }
+}

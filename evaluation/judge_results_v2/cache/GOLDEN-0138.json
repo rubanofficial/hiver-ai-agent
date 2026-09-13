@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0138",
+  "input_fingerprint": "0184f2aa374592041bf957f22331c68a464dc657fefbb789d686e6a3c33b8876",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T11:26:11+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0138",
+    "customer_message": "@MicrosoftHelps I am not using any account I’m signing in offline or whatever it’s called, I’m using my gmail for office only that’s all.  And yes I’ve tried everything",
+    "conversation_context": "MICROSOFT (1928775): @233733 Hi, Omar. Help is here. Which version of Windows are you using? Have you tried to search for the file in Windows Explorer? https://t.co/3qcAsLFkaY\nCUSTOMER (1928776): @MicrosoftHelps Windows 10, yes I have and I’ve tried restoring it, all I get is this message https://t.co/QCxhGOkGW1\nCUSTOMER (1928777): @MicrosoftHelps my files were deleted when a random restart happened to my computer... I rewrote it again and now it’s gone after an update:)\nMICROSOFT (1928778): @233733 Let's see what we can do about your concern. Are you using a Local account or Microsoft account to log in? Have you tried any troubleshooting steps to sort this out?",
+    "predicted_intent": "Account & Login",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"442745\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.754547, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps It want let me sign in to my account please help https://t.co/A4unxSMFgn\"}\n{\"evidence_id\": \"1480992\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.748532, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps It’s telling me that my account doesn’t exist. And its the account that I use daily for work.\"}\n{\"evidence_id\": \"110758\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.748444, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps i can not looking in my Account\"}",
+    "generated_reply": "Hello! Based on similar cases where users experienced login issues with their accounts, please reach out to Microsoft Support directly so an agent can assist you with verifying your account status."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 3,\n  \"clarity\": 4,\n  \"escalation_appropriateness\": 4,\n  \"overall_reply_score\": 3,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 3,\n  \"evidence_relevance\": 2,\n  \"grounding_score\": 3,\n  \"reason\": \"The reply suggests reaching out to Microsoft Support, which is appropriate given the persistent file loss and login/account confusion, though the retrieved evidence is only tangentially related login issues.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 3,
+    "clarity": 4,
+    "escalation_appropriateness": 4,
+    "overall_reply_score": 3,
+    "evidence_support": 3,
+    "unsupported_claims": 3,
+    "evidence_relevance": 2,
+    "grounding_score": 3,
+    "reason": "The reply suggests reaching out to Microsoft Support, which is appropriate given the persistent file loss and login/account confusion, though the retrieved evidence is only tangentially related login issues.",
+    "overall_score": 3,
+    "short_reason": "The reply suggests reaching out to Microsoft Support, which is appropriate given the persistent file loss and login/account confusion, though the retrieved evidence is only tangentially related login issues.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 3,
+      "clarity": 4,
+      "escalation_appropriateness": 4
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 3,
+      "evidence_relevance": 2
+    },
+    "golden_id": "GOLDEN-0138",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0138",
+      "customer_message": "@MicrosoftHelps I am not using any account I’m signing in offline or whatever it’s called, I’m using my gmail for office only that’s all.  And yes I’ve tried everything",
+      "conversation_context": "MICROSOFT (1928775): @233733 Hi, Omar. Help is here. Which version of Windows are you using? Have you tried to search for the file in Windows Explorer? https://t.co/3qcAsLFkaY\nCUSTOMER (1928776): @MicrosoftHelps Windows 10, yes I have and I’ve tried restoring it, all I get is this message https://t.co/QCxhGOkGW1\nCUSTOMER (1928777): @MicrosoftHelps my files were deleted when a random restart happened to my computer... I rewrote it again and now it’s gone after an update:)\nMICROSOFT (1928778): @233733 Let's see what we can do about your concern. Are you using a Local account or Microsoft account to log in? Have you tried any troubleshooting steps to sort this out?",
+      "predicted_intent": "Account & Login",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"442745\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.754547, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps It want let me sign in to my account please help https://t.co/A4unxSMFgn\"}\n{\"evidence_id\": \"1480992\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.748532, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps It’s telling me that my account doesn’t exist. And its the account that I use daily for work.\"}\n{\"evidence_id\": \"110758\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.748444, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps i can not looking in my Account\"}",
+      "generated_reply": "Hello! Based on similar cases where users experienced login issues with their accounts, please reach out to Microsoft Support directly so an agent can assist you with verifying your account status."
+    }
+  }
+}

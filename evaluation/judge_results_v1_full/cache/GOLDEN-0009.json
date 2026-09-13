@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0009",
+  "input_fingerprint": "b876e135531c60f3444bc59b88559b161248f0e6d03e8a552c069f79b0175eaa",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:28:34+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0009",
+    "customer_message": "@MicrosoftHelps hi can u help? I need to cancel a pre order of the new Destiny 2 DLC but there is no option in order history to cancel 🤔 ordered via Microsoft as a gift but it didn’t request the email address of the person it’s for so need to cancel",
+    "conversation_context": "MICROSOFT (93333): @136218 Thank you for reaching out, Paul. Just to confirm, you've ordered the Destiny 2 DLC through Microsoft Store?\nCUSTOMER (93334): @MicrosoftHelps Yes, I selected “buy as gift” as I do not have a Xbox live account but it did not ask the recipients email and now it’s sat in my Microsoft account, I paid via PayPal and there is no option to cancel",
+    "predicted_intent": "Cancellation / Subscription",
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Intent 'Cancellation / Subscription' is high-risk and requires human handling.",
+    "retrieved_evidence": "{\"evidence_id\": \"2188215\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.756254, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps It says I should see a \\\"cancel\\\" option besides my order but I don't see one. Is there an email or a live chat I can contact? https://t.co/JUu5H5AjXq | @MicrosoftHelps Is there anyway to cancel a preorder from the Microsoft store if I've paid with Microsoft giftcards?\"}\n{\"evidence_id\": \"1478960\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.754172, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I need to cancel an Xbox 1x online preorder bc I'm getting as a gift but my order still shows Cancellation Pending\"}\n{\"evidence_id\": \"194777\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 4}, \"score\": 0.735931, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@XboxSupport @XboxSupport @MicrosoftHelps | @XboxSupport @MicrosoftHelps I have no way of getting into the chat I forgot my password | @XboxSupport I need help canceling a pre order when I go to my order history it doesn't give me an option to cancel my pre order | @MicrosoftHelps At work now I'll look into it later\"}",
+    "generated_reply": "Hello! We understand you need help canceling your pre-order. Since the option is not appearing in your order history as expected, please contact Microsoft support directly so an agent can assist you with this cancellation."
+  },
+  "raw_response": "{\n  \"correctness\": 5,\n  \"helpfulness\": 5,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 5,\n  \"evidence_support\": 5,\n  \"unsupported_claims\": 5,\n  \"evidence_relevance\": 5,\n  \"grounding_score\": 5,\n  \"reason\": \"The reply correctly directs the user to contact support for assistance with their pre-order cancellation when the option is missing, aligning well with the context and needing human escalation.\"\n}",
+  "result": {
+    "correctness": 5,
+    "helpfulness": 5,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 5,
+    "evidence_support": 5,
+    "unsupported_claims": 5,
+    "evidence_relevance": 5,
+    "grounding_score": 5,
+    "reason": "The reply correctly directs the user to contact support for assistance with their pre-order cancellation when the option is missing, aligning well with the context and needing human escalation.",
+    "overall_score": 5,
+    "short_reason": "The reply correctly directs the user to contact support for assistance with their pre-order cancellation when the option is missing, aligning well with the context and needing human escalation.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 5,
+      "helpfulness": 5,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 5,
+      "unsupported_claims": 5,
+      "evidence_relevance": 5
+    },
+    "golden_id": "GOLDEN-0009",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0009",
+      "customer_message": "@MicrosoftHelps hi can u help? I need to cancel a pre order of the new Destiny 2 DLC but there is no option in order history to cancel 🤔 ordered via Microsoft as a gift but it didn’t request the email address of the person it’s for so need to cancel",
+      "conversation_context": "MICROSOFT (93333): @136218 Thank you for reaching out, Paul. Just to confirm, you've ordered the Destiny 2 DLC through Microsoft Store?\nCUSTOMER (93334): @MicrosoftHelps Yes, I selected “buy as gift” as I do not have a Xbox live account but it did not ask the recipients email and now it’s sat in my Microsoft account, I paid via PayPal and there is no option to cancel",
+      "predicted_intent": "Cancellation / Subscription",
+      "predicted_escalation": "ESCALATE_TO_HUMAN",
+      "predicted_escalation_reason": "Intent 'Cancellation / Subscription' is high-risk and requires human handling.",
+      "retrieved_evidence": "{\"evidence_id\": \"2188215\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.756254, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps It says I should see a \\\"cancel\\\" option besides my order but I don't see one. Is there an email or a live chat I can contact? https://t.co/JUu5H5AjXq | @MicrosoftHelps Is there anyway to cancel a preorder from the Microsoft store if I've paid with Microsoft giftcards?\"}\n{\"evidence_id\": \"1478960\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.754172, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I need to cancel an Xbox 1x online preorder bc I'm getting as a gift but my order still shows Cancellation Pending\"}\n{\"evidence_id\": \"194777\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 4}, \"score\": 0.735931, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@XboxSupport @XboxSupport @MicrosoftHelps | @XboxSupport @MicrosoftHelps I have no way of getting into the chat I forgot my password | @XboxSupport I need help canceling a pre order when I go to my order history it doesn't give me an option to cancel my pre order | @MicrosoftHelps At work now I'll look into it later\"}",
+      "generated_reply": "Hello! We understand you need help canceling your pre-order. Since the option is not appearing in your order history as expected, please contact Microsoft support directly so an agent can assist you with this cancellation."
+    }
+  }
+}

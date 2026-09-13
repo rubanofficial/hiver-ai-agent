@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0158",
+  "input_fingerprint": "5e99104f67417dae71f9eb07c79a61e46427b6df4945f02bd4260841bcd2513c",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:43:28+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0158",
+    "customer_message": "@116230 #Windows10 update is being installed with Windows Update Assistant... SO WHY IS UPDATE SERVICE STILL DOWNLOADING IN THE BACKGROUND?",
+    "conversation_context": "MICROSOFT (2200909): @395813 Hi, Timmy. Were you able to finish the update? Kindly let us know if you need assistance.",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Generated reply could not be grounded in historical evidence; human review is required.",
+    "retrieved_evidence": "{\"evidence_id\": \"2361042\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 7}, \"score\": 0.671129, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Ok so now it says because I'm on a metered connection I'll have to download the update. Its a 2.39 GB update | @MicrosoftHelps I did that and it's still trying to install it. Its the windows 10 version 1709 | @116230 The fall creators update slowed down my laptop to a crawl, videos that I play on it while I have an HDMI cord connected to my tv I cannot close the lid because I will have no video just audio. I reverted back to previous update. Can I stop auto updates? | @MicrosoftHelps No I'm not. Its just saying if I want that update I need to manually download it. I'm just going to not download it. That update has way too many flaws and glitches in it. I will continue to update Windows defender though. Thanks for checking up on me though, I appreciate it | @MicrosoftHelps Ok thanks. I just did the survey for you | @681787 We wanted to check in. Could you share with us a few more details about this? Perhaps we can help. | @116230 your latest update the fall creators update I think they call it, screwed up my laptop. It slowed it down to a stall. Now I have to reset my laptop. Thanks guys\"}\n{\"evidence_id\": \"2060701\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.669621, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I've managed to get around it by using the Windows 10 Update Assistant instead of the Windows Update service for that device. Tnx for reply | @116230 Did the 1709 update get pulled. My download was @ 20% but then error out and I cant see it anymore. https://t.co/rKHVxQsn1r\"}\n{\"evidence_id\": \"843794\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.665103, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"New windows 10 update taking forever to  do... 😩\"}",
+    "generated_reply": "I understand your concern about background downloads while using the Windows Update Assistant. Based on our available information, we cannot fully resolve or explain this behavior here. Please contact Microsoft support directly for further assistance."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 4,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 3,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 4,\n  \"evidence_relevance\": 2,\n  \"grounding_score\": 3,\n  \"reason\": \"The reply appropriately escalates the customer to support since the retrieved evidence does not contain a specific troubleshooting step for concurrent background downloads while using the Update Assistant.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 4,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 3,
+    "evidence_support": 3,
+    "unsupported_claims": 4,
+    "evidence_relevance": 2,
+    "grounding_score": 3,
+    "reason": "The reply appropriately escalates the customer to support since the retrieved evidence does not contain a specific troubleshooting step for concurrent background downloads while using the Update Assistant.",
+    "overall_score": 3,
+    "short_reason": "The reply appropriately escalates the customer to support since the retrieved evidence does not contain a specific troubleshooting step for concurrent background downloads while using the Update Assistant.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 4,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 4,
+      "evidence_relevance": 2
+    },
+    "golden_id": "GOLDEN-0158",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0158",
+      "customer_message": "@116230 #Windows10 update is being installed with Windows Update Assistant... SO WHY IS UPDATE SERVICE STILL DOWNLOADING IN THE BACKGROUND?",
+      "conversation_context": "MICROSOFT (2200909): @395813 Hi, Timmy. Were you able to finish the update? Kindly let us know if you need assistance.",
+      "predicted_intent": "Technical Troubleshooting",
+      "predicted_escalation": "ESCALATE_TO_HUMAN",
+      "predicted_escalation_reason": "Generated reply could not be grounded in historical evidence; human review is required.",
+      "retrieved_evidence": "{\"evidence_id\": \"2361042\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 7}, \"score\": 0.671129, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Ok so now it says because I'm on a metered connection I'll have to download the update. Its a 2.39 GB update | @MicrosoftHelps I did that and it's still trying to install it. Its the windows 10 version 1709 | @116230 The fall creators update slowed down my laptop to a crawl, videos that I play on it while I have an HDMI cord connected to my tv I cannot close the lid because I will have no video just audio. I reverted back to previous update. Can I stop auto updates? | @MicrosoftHelps No I'm not. Its just saying if I want that update I need to manually download it. I'm just going to not download it. That update has way too many flaws and glitches in it. I will continue to update Windows defender though. Thanks for checking up on me though, I appreciate it | @MicrosoftHelps Ok thanks. I just did the survey for you | @681787 We wanted to check in. Could you share with us a few more details about this? Perhaps we can help. | @116230 your latest update the fall creators update I think they call it, screwed up my laptop. It slowed it down to a stall. Now I have to reset my laptop. Thanks guys\"}\n{\"evidence_id\": \"2060701\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.669621, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I've managed to get around it by using the Windows 10 Update Assistant instead of the Windows Update service for that device. Tnx for reply | @116230 Did the 1709 update get pulled. My download was @ 20% but then error out and I cant see it anymore. https://t.co/rKHVxQsn1r\"}\n{\"evidence_id\": \"843794\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.665103, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"New windows 10 update taking forever to  do... 😩\"}",
+      "generated_reply": "I understand your concern about background downloads while using the Windows Update Assistant. Based on our available information, we cannot fully resolve or explain this behavior here. Please contact Microsoft support directly for further assistance."
+    }
+  }
+}

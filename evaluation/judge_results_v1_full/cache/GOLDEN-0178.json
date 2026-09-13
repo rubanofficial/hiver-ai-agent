@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0178",
+  "input_fingerprint": "17d09901c8d9c2f2095c47249c1faf75b00db695e131e036d8a4b6ca6120fbea",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:45:29+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0178",
+    "customer_message": "@MicrosoftHelps What is SCCM or Microsoft Intune? And how to use and where we use SCCM or Intune ?",
+    "conversation_context": "MICROSOFT (2604642): @693902 Hi! That's an interesting question. Are you referring to the System Center Configuration Manager? If yes, learn more about Microsoft Intune and System Center Configuration Manager here: https://t.co/s9vluEk0Lj. Hope this answers your query.",
+    "predicted_intent": "Product / Feature How-To",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"2487804\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.609491, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps What is RMM software ? or Microsoft based system center suite 2012 ?\"}\n{\"evidence_id\": \"549287\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.600126, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps DM | @MicrosoftHelps hey quick question.\"}\n{\"evidence_id\": \"1794709\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.557155, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Preferibly over DM if that’s oka | @MicrosoftHelps can you help me quickly\"}",
+    "generated_reply": "I apologize, but I do not have enough information in my current resources to fully explain how to use SCCM or Microsoft Intune. Please contact Microsoft support directly for detailed assistance."
+  },
+  "raw_response": "{\n  \"correctness\": 2,\n  \"helpfulness\": 2,\n  \"relevance\": 3,\n  \"clarity\": 4,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 2,\n  \"evidence_support\": 1,\n  \"unsupported_claims\": 3,\n  \"evidence_relevance\": 1,\n  \"grounding_score\": 2,\n  \"reason\": \"The agent unnecessarily deflected to support instead of providing general educational information about SCCM and Intune, contradicting the previous agent turn which offered a helpful link.\"\n}",
+  "result": {
+    "correctness": 2,
+    "helpfulness": 2,
+    "relevance": 3,
+    "clarity": 4,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 2,
+    "evidence_support": 1,
+    "unsupported_claims": 3,
+    "evidence_relevance": 1,
+    "grounding_score": 2,
+    "reason": "The agent unnecessarily deflected to support instead of providing general educational information about SCCM and Intune, contradicting the previous agent turn which offered a helpful link.",
+    "overall_score": 2,
+    "short_reason": "The agent unnecessarily deflected to support instead of providing general educational information about SCCM and Intune, contradicting the previous agent turn which offered a helpful link.",
+    "grounding_decision": "UNSUPPORTED",
+    "reply_quality": {
+      "correctness": 2,
+      "helpfulness": 2,
+      "relevance": 3,
+      "clarity": 4,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 1,
+      "unsupported_claims": 3,
+      "evidence_relevance": 1
+    },
+    "golden_id": "GOLDEN-0178",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0178",
+      "customer_message": "@MicrosoftHelps What is SCCM or Microsoft Intune? And how to use and where we use SCCM or Intune ?",
+      "conversation_context": "MICROSOFT (2604642): @693902 Hi! That's an interesting question. Are you referring to the System Center Configuration Manager? If yes, learn more about Microsoft Intune and System Center Configuration Manager here: https://t.co/s9vluEk0Lj. Hope this answers your query.",
+      "predicted_intent": "Product / Feature How-To",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"2487804\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.609491, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps What is RMM software ? or Microsoft based system center suite 2012 ?\"}\n{\"evidence_id\": \"549287\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.600126, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps DM | @MicrosoftHelps hey quick question.\"}\n{\"evidence_id\": \"1794709\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.557155, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Preferibly over DM if that’s oka | @MicrosoftHelps can you help me quickly\"}",
+      "generated_reply": "I apologize, but I do not have enough information in my current resources to fully explain how to use SCCM or Microsoft Intune. Please contact Microsoft support directly for detailed assistance."
+    }
+  }
+}

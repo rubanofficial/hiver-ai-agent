@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0064",
+  "input_fingerprint": "3fae77c5a0d3749a56d45b74c19d2e30c60c16b96e520c7e9098df949db616d2",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-12T04:35:33+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0064",
+    "customer_message": "@MicrosoftHelps No i have not. There is no option anywhere i could navigate to.  Appearance, personalization, color, themes, high contrast, nothing.",
+    "conversation_context": "MICROSOFT (720261): @292397 Hi there! We definitely want to help. Just to clarify, did you make any changes before the issue started? Share us a screenshot.\nCUSTOMER (720262): @MicrosoftHelps Thank you for responding. This is with browser scaled to 125. Display scalled to 125 as well on both monitor and lap. Only your updates https://t.co/vYFnsbjKX5\nCUSTOMER (720263): OMG this fine font in Win 10 is driving me nutz and i can't work. Display scaling opt is meh, let me set my own system font @MicrosoftHelps\nMICROSOFT (720264): @292397 Thanks for the screenshot. Were you able to set your own font?",
+    "predicted_intent": "Product / Feature How-To",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"165703\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 1}, \"score\": 0.613997, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Nope. Your suggestion was the answer. Thanks!\"}\n{\"evidence_id\": \"2307874\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.559595, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"I really like the new interface but there are some features I wish you'd bring back. Overall tho, it's really nice. @115786 @MicrosoftHelps\"}\n{\"evidence_id\": \"1571871\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.556725, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps it is not necessary, but yes I have.\"}",
+    "generated_reply": "We understand you are having trouble finding the appearance or theme settings. Since the historical evidence does not provide the exact steps for this specific interface, this case requires further investigation into your current product version and account settings. Please contact Microsoft Support so we can check your account entitlements and guide you through the correct navigation steps."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 4,\n  \"clarity\": 4,\n  \"escalation_appropriateness\": 4,\n  \"overall_reply_score\": 3,\n  \"evidence_support\": 2,\n  \"unsupported_claims\": 2,\n  \"evidence_relevance\": 1,\n  \"grounding_score\": 2,\n  \"reason\": \"The retrieved evidence is unhelpful and irrelevant historical tweets. The reply correctly suggests contacting support due to lack of information, but hallucinates checking account entitlements which is not relevant to a system font display issue.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 4,
+    "clarity": 4,
+    "escalation_appropriateness": 4,
+    "overall_reply_score": 3,
+    "evidence_support": 2,
+    "unsupported_claims": 2,
+    "evidence_relevance": 1,
+    "grounding_score": 2,
+    "reason": "The retrieved evidence is unhelpful and irrelevant historical tweets. The reply correctly suggests contacting support due to lack of information, but hallucinates checking account entitlements which is not relevant to a system font display issue.",
+    "overall_score": 3,
+    "short_reason": "The retrieved evidence is unhelpful and irrelevant historical tweets. The reply correctly suggests contacting support due to lack of information, but hallucinates checking account entitlements which is not relevant to a system font display issue.",
+    "grounding_decision": "UNSUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 4,
+      "clarity": 4,
+      "escalation_appropriateness": 4
+    },
+    "evidence_grounding": {
+      "evidence_support": 2,
+      "unsupported_claims": 2,
+      "evidence_relevance": 1
+    },
+    "golden_id": "GOLDEN-0064",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0064",
+      "customer_message": "@MicrosoftHelps No i have not. There is no option anywhere i could navigate to.  Appearance, personalization, color, themes, high contrast, nothing.",
+      "conversation_context": "MICROSOFT (720261): @292397 Hi there! We definitely want to help. Just to clarify, did you make any changes before the issue started? Share us a screenshot.\nCUSTOMER (720262): @MicrosoftHelps Thank you for responding. This is with browser scaled to 125. Display scalled to 125 as well on both monitor and lap. Only your updates https://t.co/vYFnsbjKX5\nCUSTOMER (720263): OMG this fine font in Win 10 is driving me nutz and i can't work. Display scaling opt is meh, let me set my own system font @MicrosoftHelps\nMICROSOFT (720264): @292397 Thanks for the screenshot. Were you able to set your own font?",
+      "predicted_intent": "Product / Feature How-To",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"165703\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 1}, \"score\": 0.613997, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Nope. Your suggestion was the answer. Thanks!\"}\n{\"evidence_id\": \"2307874\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.559595, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"I really like the new interface but there are some features I wish you'd bring back. Overall tho, it's really nice. @115786 @MicrosoftHelps\"}\n{\"evidence_id\": \"1571871\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.556725, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps it is not necessary, but yes I have.\"}",
+      "generated_reply": "We understand you are having trouble finding the appearance or theme settings. Since the historical evidence does not provide the exact steps for this specific interface, this case requires further investigation into your current product version and account settings. Please contact Microsoft Support so we can check your account entitlements and guide you through the correct navigation steps."
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0115",
+  "input_fingerprint": "5d4f7ebdcf72367bbf76fa74258dc127708034213fcb43f198f82d6db8ea8e7f",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:39:30+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0115",
+    "customer_message": "@116230 your latest update broke both my computers. Had to reinstall both pc's with complete file loss #stopforcedupdates",
+    "conversation_context": "MICROSOFT (1540709): @477490 We’re here to help. Are you getting any error messages?  Provide more details about the issue you’ve encountered.",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"297742\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 6}, \"score\": 0.625744, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@116230 Nope. It’s as if it never tried to update. | @186929 Oh no! Are you seeing any error codes or messages? | @116230 Things are running exactly as before because the update failed and it had to restore a previous version. | @186929 Hi, Hans. We appreciate your patience. How are things running for you after the update? We're here to help if you need us. | @116230 And after all that, the install failed. Thanks for stealing over an hour of my day. #NoForcedUpdates | Screw you @116230 for forcing this update w/o letting me schedule for convenience. Screw you twice for rebooting me w/o letting me save.\"}\n{\"evidence_id\": \"910479\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 1}, \"score\": 0.566904, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Thanks for completely screwing my pc with your terrible update @116230\"}\n{\"evidence_id\": \"1573948\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.537497, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps What a mess this Fall update. Just lost a whole morning restoring two PC's with driver incompatibility and Power State Fail\"}",
+    "generated_reply": "We are very sorry to hear about your experience and the file loss after the update. Since the provided historical evidence does not contain specific troubleshooting steps or policies for this situation, we recommend contacting Microsoft support directly for further assistance."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 4,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 4,\n  \"evidence_support\": 5,\n  \"unsupported_claims\": 5,\n  \"evidence_relevance\": 2,\n  \"grounding_score\": 4,\n  \"reason\": \"The reply is professional and correctly advises contacting support since the retrieved evidence lacks specific troubleshooting steps for this severe update issue.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 4,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 4,
+    "evidence_support": 5,
+    "unsupported_claims": 5,
+    "evidence_relevance": 2,
+    "grounding_score": 4,
+    "reason": "The reply is professional and correctly advises contacting support since the retrieved evidence lacks specific troubleshooting steps for this severe update issue.",
+    "overall_score": 4,
+    "short_reason": "The reply is professional and correctly advises contacting support since the retrieved evidence lacks specific troubleshooting steps for this severe update issue.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 4,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 5,
+      "unsupported_claims": 5,
+      "evidence_relevance": 2
+    },
+    "golden_id": "GOLDEN-0115",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0115",
+      "customer_message": "@116230 your latest update broke both my computers. Had to reinstall both pc's with complete file loss #stopforcedupdates",
+      "conversation_context": "MICROSOFT (1540709): @477490 We’re here to help. Are you getting any error messages?  Provide more details about the issue you’ve encountered.",
+      "predicted_intent": "Technical Troubleshooting",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"297742\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 6}, \"score\": 0.625744, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@116230 Nope. It’s as if it never tried to update. | @186929 Oh no! Are you seeing any error codes or messages? | @116230 Things are running exactly as before because the update failed and it had to restore a previous version. | @186929 Hi, Hans. We appreciate your patience. How are things running for you after the update? We're here to help if you need us. | @116230 And after all that, the install failed. Thanks for stealing over an hour of my day. #NoForcedUpdates | Screw you @116230 for forcing this update w/o letting me schedule for convenience. Screw you twice for rebooting me w/o letting me save.\"}\n{\"evidence_id\": \"910479\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 1}, \"score\": 0.566904, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Thanks for completely screwing my pc with your terrible update @116230\"}\n{\"evidence_id\": \"1573948\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.537497, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps What a mess this Fall update. Just lost a whole morning restoring two PC's with driver incompatibility and Power State Fail\"}",
+      "generated_reply": "We are very sorry to hear about your experience and the file loss after the update. Since the provided historical evidence does not contain specific troubleshooting steps or policies for this situation, we recommend contacting Microsoft support directly for further assistance."
+    }
+  }
+}

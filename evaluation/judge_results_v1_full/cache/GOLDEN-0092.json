@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0092",
+  "input_fingerprint": "f90a215daa9459cd6d24b81c8ad58ddd0acadc4a9e32f685f6b3d57649f798a3",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:37:25+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0092",
+    "customer_message": "@MicrosoftHelps I'm trying to use this form (https://t.co/F67MfwamTT) and each time I submit it, I get an access denied message. https://t.co/nMJP7eShNA",
+    "conversation_context": "MICROSOFT (1138573): @388181 Hi, Aaron. It seems to be working on our end. Which browser are you using? Have you tried using a different browser?\nCUSTOMER (1138574): @MicrosoftHelps Thanks for the reply! I should have known better using. I was using Safari 11 on Sierra 😆. It worked in Firefox. 👍🏻",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"251679\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.651714, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Thanks for the link, but this is an official #Microsoft website... | @MicrosoftHelps when I try to sign in on https://t.co/8XyCwvMj8M, I get this 403 Error :( https://t.co/TjkdrxZi1G\"}\n{\"evidence_id\": \"11909\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 4}, \"score\": 0.616081, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Hi, I can't take a screen shot as it's the only place I'm logged in is there a way of someone telling me the password? | @MicrosoftHelps I can't reset my password and I can't talk to an agent as I need to log into my account please help | @MicrosoftHelps Says my information was not sufficient and submit a new form | @MicrosoftHelps Hi I just keep getting rejected by the form so I have given up\"}\n{\"evidence_id\": \"934270\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 3}, \"score\": 0.59574, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps All information sent is correct, there is enough information for me to use my account!! Why am I not being allowed access? Can you fix this | @MicrosoftHelps Forgot Xbox one password, tried multiple times to change password but Microsoft are claiming my personal info is incorrect | @MicrosoftHelps You didn't even fix my problem!!\"}",
+    "generated_reply": "Hello, we apologize for the trouble you are experiencing with the form. Since we are unable to fully resolve your access denied issue with the current information, please contact Microsoft support directly for further assistance."
+  },
+  "raw_response": "{\n  \"correctness\": 2,\n  \"helpfulness\": 2,\n  \"relevance\": 3,\n  \"clarity\": 4,\n  \"escalation_appropriateness\": 3,\n  \"overall_reply_score\": 2,\n  \"evidence_support\": 1,\n  \"unsupported_claims\": 2,\n  \"evidence_relevance\": 1,\n  \"grounding_score\": 1,\n  \"reason\": \"The customer already resolved their own issue by switching from Safari to Firefox before the agent's reply, making the escalation and apology unnecessary and incorrect.\"\n}",
+  "result": {
+    "correctness": 2,
+    "helpfulness": 2,
+    "relevance": 3,
+    "clarity": 4,
+    "escalation_appropriateness": 3,
+    "overall_reply_score": 2,
+    "evidence_support": 1,
+    "unsupported_claims": 2,
+    "evidence_relevance": 1,
+    "grounding_score": 1,
+    "reason": "The customer already resolved their own issue by switching from Safari to Firefox before the agent's reply, making the escalation and apology unnecessary and incorrect.",
+    "overall_score": 2,
+    "short_reason": "The customer already resolved their own issue by switching from Safari to Firefox before the agent's reply, making the escalation and apology unnecessary and incorrect.",
+    "grounding_decision": "UNSUPPORTED",
+    "reply_quality": {
+      "correctness": 2,
+      "helpfulness": 2,
+      "relevance": 3,
+      "clarity": 4,
+      "escalation_appropriateness": 3
+    },
+    "evidence_grounding": {
+      "evidence_support": 1,
+      "unsupported_claims": 2,
+      "evidence_relevance": 1
+    },
+    "golden_id": "GOLDEN-0092",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0092",
+      "customer_message": "@MicrosoftHelps I'm trying to use this form (https://t.co/F67MfwamTT) and each time I submit it, I get an access denied message. https://t.co/nMJP7eShNA",
+      "conversation_context": "MICROSOFT (1138573): @388181 Hi, Aaron. It seems to be working on our end. Which browser are you using? Have you tried using a different browser?\nCUSTOMER (1138574): @MicrosoftHelps Thanks for the reply! I should have known better using. I was using Safari 11 on Sierra 😆. It worked in Firefox. 👍🏻",
+      "predicted_intent": "Technical Troubleshooting",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"251679\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.651714, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Thanks for the link, but this is an official #Microsoft website... | @MicrosoftHelps when I try to sign in on https://t.co/8XyCwvMj8M, I get this 403 Error :( https://t.co/TjkdrxZi1G\"}\n{\"evidence_id\": \"11909\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 4}, \"score\": 0.616081, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Hi, I can't take a screen shot as it's the only place I'm logged in is there a way of someone telling me the password? | @MicrosoftHelps I can't reset my password and I can't talk to an agent as I need to log into my account please help | @MicrosoftHelps Says my information was not sufficient and submit a new form | @MicrosoftHelps Hi I just keep getting rejected by the form so I have given up\"}\n{\"evidence_id\": \"934270\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 3}, \"score\": 0.59574, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps All information sent is correct, there is enough information for me to use my account!! Why am I not being allowed access? Can you fix this | @MicrosoftHelps Forgot Xbox one password, tried multiple times to change password but Microsoft are claiming my personal info is incorrect | @MicrosoftHelps You didn't even fix my problem!!\"}",
+      "generated_reply": "Hello, we apologize for the trouble you are experiencing with the form. Since we are unable to fully resolve your access denied issue with the current information, please contact Microsoft support directly for further assistance."
+    }
+  }
+}

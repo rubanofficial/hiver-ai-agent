@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0122",
+  "input_fingerprint": "4fb97c555d500694b1008cc3344ea82ae2a75ad705ba5d12f942318b2668bca3",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:39:43+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0122",
+    "customer_message": "@MicrosoftHelps hello,\nI have a laptop which i already upgrade to windows 10 with the free windows upgrade, now i sent the laptop to repair to dell and they returned the laptop formatted and with Windows 8 again.💔\nCan i upgrade to Windows 10 again for free❓ If so, can you send to me ,, link,,?",
+    "conversation_context": "MICROSOFT (1656940): @505600 (2/2) the speed of your Internet connection and the size of the update. https://t.co/3qcAsLFkaY\nCUSTOMER (1656941): Intolerably slow update. If you'd got it right first time maybe we wouldn't have to endure this torture. I should be editing! #Windows10 https://t.co/0dxibIJc4p\nMICROSOFT (1656942): @505600 (1/2) Hi there. How fast the updates install depends on various factors, such as your computer’s processing power, https://t.co/3qcAsLFkaY\nMICROSOFT (1656943): @505600 Help us improve our Twitter support by answering our survey on this link: https://t.co/gNy84Ky8Rw. Thank you. https://t.co/3qcAsLFkaY\nCUSTOMER (2030878): @MicrosoftHelps @505600 please, how can i upgrade my windows from 8 to 10 ?\nMICROSOFT (2030879): @600529 Hi, Mohamed. To know more about the Windows 10 upgrade, please check out this link for more info: https://t.co/ul2FTARKRr. Select “How do I get Windows 10?”. Tweet us back if you need further assistance.",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"1345481\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.765402, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps is it possible to upgrade this laptop for Windows 10? https://t.co/XHUJO7QHyi\"}\n{\"evidence_id\": \"365917\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 3}, \"score\": 0.718927, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Ay I found that out when I attempted to upgrade and it let me without any issues, cheers for the answers! | @MicrosoftHelps better is it possible for me to re-download and re-install Windows 10 while still being eligible for the free upgrade? | @MicrosoftHelps I updated my PC to Windows 10 last year, then reverted it back to 8.1 because of issues. Now that W10 has become much much\"}\n{\"evidence_id\": \"474159\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 4}, \"score\": 0.697286, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Thank you all so much, it worked. | @MicrosoftHelps Could you provide me a link to download windows 10? I can’t find it anywhere. Thank you. | @MicrosoftHelps Where do I go to download? | @MicrosoftHelps Hello. I have a question about my PC. I factory reset it today because it was running slow and had mutille issues. I had windows 10, as I was able to upgrade for free. I have windows 7 now. Is there anyway I can reupgrade for free?\"}",
+    "generated_reply": "Hello! I understand your concern after getting your laptop back from repair with Windows 8. However, based on our available information, I cannot fully resolve your issue regarding re-upgrading for free or provide a direct link. Please contact Microsoft support directly for further assistance."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 4,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 3,\n  \"evidence_support\": 4,\n  \"unsupported_claims\": 4,\n  \"evidence_relevance\": 3,\n  \"grounding_score\": 4,\n  \"reason\": \"The reply correctly acknowledges the user's issue and suggests contacting support since it cannot directly resolve the free re-upgrade question. The tone is clear and professional.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 4,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 3,
+    "evidence_support": 4,
+    "unsupported_claims": 4,
+    "evidence_relevance": 3,
+    "grounding_score": 4,
+    "reason": "The reply correctly acknowledges the user's issue and suggests contacting support since it cannot directly resolve the free re-upgrade question. The tone is clear and professional.",
+    "overall_score": 3,
+    "short_reason": "The reply correctly acknowledges the user's issue and suggests contacting support since it cannot directly resolve the free re-upgrade question. The tone is clear and professional.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 4,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 4,
+      "unsupported_claims": 4,
+      "evidence_relevance": 3
+    },
+    "golden_id": "GOLDEN-0122",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0122",
+      "customer_message": "@MicrosoftHelps hello,\nI have a laptop which i already upgrade to windows 10 with the free windows upgrade, now i sent the laptop to repair to dell and they returned the laptop formatted and with Windows 8 again.💔\nCan i upgrade to Windows 10 again for free❓ If so, can you send to me ,, link,,?",
+      "conversation_context": "MICROSOFT (1656940): @505600 (2/2) the speed of your Internet connection and the size of the update. https://t.co/3qcAsLFkaY\nCUSTOMER (1656941): Intolerably slow update. If you'd got it right first time maybe we wouldn't have to endure this torture. I should be editing! #Windows10 https://t.co/0dxibIJc4p\nMICROSOFT (1656942): @505600 (1/2) Hi there. How fast the updates install depends on various factors, such as your computer’s processing power, https://t.co/3qcAsLFkaY\nMICROSOFT (1656943): @505600 Help us improve our Twitter support by answering our survey on this link: https://t.co/gNy84Ky8Rw. Thank you. https://t.co/3qcAsLFkaY\nCUSTOMER (2030878): @MicrosoftHelps @505600 please, how can i upgrade my windows from 8 to 10 ?\nMICROSOFT (2030879): @600529 Hi, Mohamed. To know more about the Windows 10 upgrade, please check out this link for more info: https://t.co/ul2FTARKRr. Select “How do I get Windows 10?”. Tweet us back if you need further assistance.",
+      "predicted_intent": "Technical Troubleshooting",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"1345481\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.765402, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps is it possible to upgrade this laptop for Windows 10? https://t.co/XHUJO7QHyi\"}\n{\"evidence_id\": \"365917\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 3}, \"score\": 0.718927, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Ay I found that out when I attempted to upgrade and it let me without any issues, cheers for the answers! | @MicrosoftHelps better is it possible for me to re-download and re-install Windows 10 while still being eligible for the free upgrade? | @MicrosoftHelps I updated my PC to Windows 10 last year, then reverted it back to 8.1 because of issues. Now that W10 has become much much\"}\n{\"evidence_id\": \"474159\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 4}, \"score\": 0.697286, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Thank you all so much, it worked. | @MicrosoftHelps Could you provide me a link to download windows 10? I can’t find it anywhere. Thank you. | @MicrosoftHelps Where do I go to download? | @MicrosoftHelps Hello. I have a question about my PC. I factory reset it today because it was running slow and had mutille issues. I had windows 10, as I was able to upgrade for free. I have windows 7 now. Is there anyway I can reupgrade for free?\"}",
+      "generated_reply": "Hello! I understand your concern after getting your laptop back from repair with Windows 8. However, based on our available information, I cannot fully resolve your issue regarding re-upgrading for free or provide a direct link. Please contact Microsoft support directly for further assistance."
+    }
+  }
+}

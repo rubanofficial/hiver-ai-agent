@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0135",
+  "input_fingerprint": "7e0766cc871cdb91033f4f0ad8d5dc27abee9460947042c183a1016f9553082b",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T11:26:06+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0135",
+    "customer_message": "Stupid Windows 10! The update erased all my beloved gif files I use for riffing! BOO! https://t.co/QODsO7Mmqw",
+    "conversation_context": "MICROSOFT (1916141): @570754 Thank you for your response. We suggest that you perform the troubleshooting steps in this link: https://t.co/KyXrgjFqnB. https://t.co/3qcAsLFkaY\nCUSTOMER (1916142): @116230 nope, I don't know what to do!\nMICROSOFT (1916143): @570754 Just checking to see if you need help. Is everything good now? Please let us know. https://t.co/3qcAsLFkaY\nCUSTOMER (1916144): @570754 Hi, Stuart! We appreciate your patience. Have you been able to correct this issue since then?",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"1496891\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.615089, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Just love a windows 10 update.... #HowLong\"}\n{\"evidence_id\": \"2248325\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.598381, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Happy Windows 10 Fall Creators Update Day! https://t.co/ZICZm4dGz8\"}\n{\"evidence_id\": \"2283831\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.585944, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"oh windows 10 just had a new huge update\"}",
+    "generated_reply": "We understand how frustrating it is to experience issues after a Windows update. Since the provided evidence does not contain a concrete resolution for missing files following an update, this case requires further investigation to check your specific system updates and file locations. Please contact Microsoft Support so an agent can look into your system details and help investigate what happened to your files."
+  },
+  "raw_response": "{\n  \"correctness\": 4,\n  \"helpfulness\": 4,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 4,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 4,\n  \"evidence_relevance\": 2,\n  \"grounding_score\": 3,\n  \"reason\": \"The reply is professional, empathetic, and appropriately suggests escalation since the retrieved evidence lacks specific troubleshooting steps for missing files after an update.\"\n}",
+  "result": {
+    "correctness": 4,
+    "helpfulness": 4,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 4,
+    "evidence_support": 3,
+    "unsupported_claims": 4,
+    "evidence_relevance": 2,
+    "grounding_score": 3,
+    "reason": "The reply is professional, empathetic, and appropriately suggests escalation since the retrieved evidence lacks specific troubleshooting steps for missing files after an update.",
+    "overall_score": 4,
+    "short_reason": "The reply is professional, empathetic, and appropriately suggests escalation since the retrieved evidence lacks specific troubleshooting steps for missing files after an update.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 4,
+      "helpfulness": 4,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 4,
+      "evidence_relevance": 2
+    },
+    "golden_id": "GOLDEN-0135",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0135",
+      "customer_message": "Stupid Windows 10! The update erased all my beloved gif files I use for riffing! BOO! https://t.co/QODsO7Mmqw",
+      "conversation_context": "MICROSOFT (1916141): @570754 Thank you for your response. We suggest that you perform the troubleshooting steps in this link: https://t.co/KyXrgjFqnB. https://t.co/3qcAsLFkaY\nCUSTOMER (1916142): @116230 nope, I don't know what to do!\nMICROSOFT (1916143): @570754 Just checking to see if you need help. Is everything good now? Please let us know. https://t.co/3qcAsLFkaY\nCUSTOMER (1916144): @570754 Hi, Stuart! We appreciate your patience. Have you been able to correct this issue since then?",
+      "predicted_intent": "Technical Troubleshooting",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"1496891\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.615089, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Just love a windows 10 update.... #HowLong\"}\n{\"evidence_id\": \"2248325\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.598381, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Happy Windows 10 Fall Creators Update Day! https://t.co/ZICZm4dGz8\"}\n{\"evidence_id\": \"2283831\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.585944, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"oh windows 10 just had a new huge update\"}",
+      "generated_reply": "We understand how frustrating it is to experience issues after a Windows update. Since the provided evidence does not contain a concrete resolution for missing files following an update, this case requires further investigation to check your specific system updates and file locations. Please contact Microsoft Support so an agent can look into your system details and help investigate what happened to your files."
+    }
+  }
+}

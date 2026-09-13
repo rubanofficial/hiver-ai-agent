@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0177",
+  "input_fingerprint": "6f8777fa3a127d3b7ba7e75077ac0bdb2092cae66fe67c606097610807e8dbfb",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:45:27+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0177",
+    "customer_message": "@MicrosoftHelps https://t.co/xi5DhuHt9J",
+    "conversation_context": "MICROSOFT (2600597): @736143 Hi, Cody. We understand your situation. In this case. It would be best if we ask help from out Accounts &amp; billing team regarding this matter. Here's the link where you can reach them: https://t.co/30HGOcbZ7G. https://t.co/3qcAsLFkaY",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"832461\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.976149, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps https://t.co/hOojgcsYC3\"}\n{\"evidence_id\": \"668148\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.973425, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps https://t.co/OVdEWqtEbe\"}\n{\"evidence_id\": \"1826771\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.9704, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps https://t.co/p8r9M6ABJe\"}",
+    "generated_reply": "We are sorry you are experiencing this issue. Since we need more details to assist you properly, please reach out to Microsoft support directly for further troubleshooting assistance."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 4,\n  \"clarity\": 4,\n  \"escalation_appropriateness\": 4,\n  \"overall_reply_score\": 3,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 4,\n  \"evidence_relevance\": 2,\n  \"grounding_score\": 3,\n  \"reason\": \"The customer provided a link with no text description. The reply appropriately suggests reaching out to Microsoft support for further assistance since details are lacking, though the retrieved evidence consists only of historical tweets with links and minimal context.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 4,
+    "clarity": 4,
+    "escalation_appropriateness": 4,
+    "overall_reply_score": 3,
+    "evidence_support": 3,
+    "unsupported_claims": 4,
+    "evidence_relevance": 2,
+    "grounding_score": 3,
+    "reason": "The customer provided a link with no text description. The reply appropriately suggests reaching out to Microsoft support for further assistance since details are lacking, though the retrieved evidence consists only of historical tweets with links and minimal context.",
+    "overall_score": 3,
+    "short_reason": "The customer provided a link with no text description. The reply appropriately suggests reaching out to Microsoft support for further assistance since details are lacking, though the retrieved evidence consists only of historical tweets with links and minimal context.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 4,
+      "clarity": 4,
+      "escalation_appropriateness": 4
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 4,
+      "evidence_relevance": 2
+    },
+    "golden_id": "GOLDEN-0177",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0177",
+      "customer_message": "@MicrosoftHelps https://t.co/xi5DhuHt9J",
+      "conversation_context": "MICROSOFT (2600597): @736143 Hi, Cody. We understand your situation. In this case. It would be best if we ask help from out Accounts &amp; billing team regarding this matter. Here's the link where you can reach them: https://t.co/30HGOcbZ7G. https://t.co/3qcAsLFkaY",
+      "predicted_intent": "Technical Troubleshooting",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"832461\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.976149, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps https://t.co/hOojgcsYC3\"}\n{\"evidence_id\": \"668148\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.973425, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps https://t.co/OVdEWqtEbe\"}\n{\"evidence_id\": \"1826771\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.9704, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps https://t.co/p8r9M6ABJe\"}",
+      "generated_reply": "We are sorry you are experiencing this issue. Since we need more details to assist you properly, please reach out to Microsoft support directly for further troubleshooting assistance."
+    }
+  }
+}

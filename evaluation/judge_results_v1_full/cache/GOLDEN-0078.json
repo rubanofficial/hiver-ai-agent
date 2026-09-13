@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0078",
+  "input_fingerprint": "63a04df2b59c3b68e1442bc8bc0e8c4eb3b26fa25905bff56d670e97cc8ce7df",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:36:00+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0078",
+    "customer_message": "@MicrosoftHelps hey can we message? I need help!",
+    "conversation_context": "MICROSOFT (968658): @349945 Hi! We're here to help. For your reference on how to remove the email address, click here: https://t.co/FBMUTRLjSD.\nCUSTOMER (968659): @MicrosoftHelps Hey I just need my recovery email removed bcuz it was deleted\nMICROSOFT (968660): @349945 We’re here to help. Provide us more details about the issue you’ve encountered.\nCUSTOMER (968661): @MicrosoftHelps Message me please?",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"1017288\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.912508, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I'm in need of assistance I have messaged you\"}\n{\"evidence_id\": \"1416195\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.901459, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps can you guys help me please\"}\n{\"evidence_id\": \"2224439\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.901233, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps hello?? Help please.\"}",
+    "generated_reply": "Hello! I am here to help. Please let me know what issue you are experiencing with your Microsoft product or service so we can get started."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 4,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 3,\n  \"overall_reply_score\": 3,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 4,\n  \"evidence_relevance\": 2,\n  \"grounding_score\": 3,\n  \"reason\": \"The customer is asking to move the conversation to direct messages to resolve a recovery email issue, but the agent asks for details publicly without acknowledging the request to direct message or addressing the specific recovery email issue already mentioned in the conversation context.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 4,
+    "clarity": 5,
+    "escalation_appropriateness": 3,
+    "overall_reply_score": 3,
+    "evidence_support": 3,
+    "unsupported_claims": 4,
+    "evidence_relevance": 2,
+    "grounding_score": 3,
+    "reason": "The customer is asking to move the conversation to direct messages to resolve a recovery email issue, but the agent asks for details publicly without acknowledging the request to direct message or addressing the specific recovery email issue already mentioned in the conversation context.",
+    "overall_score": 3,
+    "short_reason": "The customer is asking to move the conversation to direct messages to resolve a recovery email issue, but the agent asks for details publicly without acknowledging the request to direct message or addressing the specific recovery email issue already mentioned in the conversation context.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 4,
+      "clarity": 5,
+      "escalation_appropriateness": 3
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 4,
+      "evidence_relevance": 2
+    },
+    "golden_id": "GOLDEN-0078",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0078",
+      "customer_message": "@MicrosoftHelps hey can we message? I need help!",
+      "conversation_context": "MICROSOFT (968658): @349945 Hi! We're here to help. For your reference on how to remove the email address, click here: https://t.co/FBMUTRLjSD.\nCUSTOMER (968659): @MicrosoftHelps Hey I just need my recovery email removed bcuz it was deleted\nMICROSOFT (968660): @349945 We’re here to help. Provide us more details about the issue you’ve encountered.\nCUSTOMER (968661): @MicrosoftHelps Message me please?",
+      "predicted_intent": "Technical Troubleshooting",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"1017288\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.912508, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I'm in need of assistance I have messaged you\"}\n{\"evidence_id\": \"1416195\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.901459, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps can you guys help me please\"}\n{\"evidence_id\": \"2224439\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.901233, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps hello?? Help please.\"}",
+      "generated_reply": "Hello! I am here to help. Please let me know what issue you are experiencing with your Microsoft product or service so we can get started."
+    }
+  }
+}

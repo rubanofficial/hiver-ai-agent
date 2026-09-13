@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0066",
+  "input_fingerprint": "cd17f805ea6d6c4cc1a285bb91527d1f27d66b3838da714ef1be0493e607ed48",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:35:14+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0066",
+    "customer_message": "@MicrosoftHelps The link you sent didn't help. But I found a solution myself, thanks",
+    "conversation_context": "MICROSOFT (746582): @298485 2/2 On this link: https://t.co/V00RReRUuI. Let us know how it goes.\nCUSTOMER (746583): @MicrosoftHelps I'm not Bob by the way but it was a solution I found\nCUSTOMER (746584): @MicrosoftHelps This issue was that after update last night using a password to sign in had reenabled itself. I had to go to netplwiz and turn it off again https://t.co/YPuL2TqwMW\nCUSTOMER (746585): @115890 @116230 @249027 @6580 @MicrosoftHelps PLEASE READ attached pictures https://t.co/s9l4M1jCAA\nMICROSOFT (746586): @298485 Copy that. You may also contact our Answer Desk for one-on-one support: https://t.co/D9BqFA3dAg. Keep us posted.\nMICROSOFT (746587): @298485 Hi! We'd like to follow up on the status of your issue. Kindly inform us if you still need assistance.",
+    "predicted_intent": "Complaint / Feedback",
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+    "retrieved_evidence": "{\"evidence_id\": \"590723\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.838668, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps i need help with this problem. https://t.co/Ce1GkcXHHm\"}\n{\"evidence_id\": \"2774091\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 1}, \"score\": 0.814897, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Nevermind, it quite literally fixed itself after I walked away for a few minutes. Thanks for the reply, though.\"}\n{\"evidence_id\": \"1657137\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.809642, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Thank you for your prompt reply sir. So far no trouble shooting steps taken. No changes were made sir. | @116230 experiencing this for a month. Kindly help.. https://t.co/1ieTkD1chR\"}",
+    "generated_reply": "We're glad to hear that you found a solution! If you ever need assistance in the future, don't hesitate to reach out."
+  },
+  "raw_response": "{\n  \"correctness\": 5,\n  \"helpfulness\": 5,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 5,\n  \"evidence_support\": 5,\n  \"unsupported_claims\": 5,\n  \"evidence_relevance\": 4,\n  \"grounding_score\": 5,\n  \"reason\": \"The reply appropriately acknowledges the customer's self-resolved issue in a polite and helpful manner, perfectly fitting the context of the conversation.\"\n}",
+  "result": {
+    "correctness": 5,
+    "helpfulness": 5,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 5,
+    "evidence_support": 5,
+    "unsupported_claims": 5,
+    "evidence_relevance": 4,
+    "grounding_score": 5,
+    "reason": "The reply appropriately acknowledges the customer's self-resolved issue in a polite and helpful manner, perfectly fitting the context of the conversation.",
+    "overall_score": 5,
+    "short_reason": "The reply appropriately acknowledges the customer's self-resolved issue in a polite and helpful manner, perfectly fitting the context of the conversation.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 5,
+      "helpfulness": 5,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 5,
+      "unsupported_claims": 5,
+      "evidence_relevance": 4
+    },
+    "golden_id": "GOLDEN-0066",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0066",
+      "customer_message": "@MicrosoftHelps The link you sent didn't help. But I found a solution myself, thanks",
+      "conversation_context": "MICROSOFT (746582): @298485 2/2 On this link: https://t.co/V00RReRUuI. Let us know how it goes.\nCUSTOMER (746583): @MicrosoftHelps I'm not Bob by the way but it was a solution I found\nCUSTOMER (746584): @MicrosoftHelps This issue was that after update last night using a password to sign in had reenabled itself. I had to go to netplwiz and turn it off again https://t.co/YPuL2TqwMW\nCUSTOMER (746585): @115890 @116230 @249027 @6580 @MicrosoftHelps PLEASE READ attached pictures https://t.co/s9l4M1jCAA\nMICROSOFT (746586): @298485 Copy that. You may also contact our Answer Desk for one-on-one support: https://t.co/D9BqFA3dAg. Keep us posted.\nMICROSOFT (746587): @298485 Hi! We'd like to follow up on the status of your issue. Kindly inform us if you still need assistance.",
+      "predicted_intent": "Complaint / Feedback",
+      "predicted_escalation": "ESCALATE_TO_HUMAN",
+      "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+      "retrieved_evidence": "{\"evidence_id\": \"590723\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.838668, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps i need help with this problem. https://t.co/Ce1GkcXHHm\"}\n{\"evidence_id\": \"2774091\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 1}, \"score\": 0.814897, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Nevermind, it quite literally fixed itself after I walked away for a few minutes. Thanks for the reply, though.\"}\n{\"evidence_id\": \"1657137\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.809642, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Thank you for your prompt reply sir. So far no trouble shooting steps taken. No changes were made sir. | @116230 experiencing this for a month. Kindly help.. https://t.co/1ieTkD1chR\"}",
+      "generated_reply": "We're glad to hear that you found a solution! If you ever need assistance in the future, don't hesitate to reach out."
+    }
+  }
+}

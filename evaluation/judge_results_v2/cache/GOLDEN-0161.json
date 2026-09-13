@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0161",
+  "input_fingerprint": "3ebf7749e9ada70fb460f8ee5ffe1fe4b88f4bc490aeaefd17cef30c721b4e4f",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T11:42:21+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0161",
+    "customer_message": "@MicrosoftHelps hey, i recently started having to sign into my w10 pc with both my microsoft account and the pin i set for my pc - how do i make it so i only have to use my pin like i used to?",
+    "conversation_context": "MICROSOFT (2232215): @651299 Hi. You can check out this link to set the pin instead of using a password to sign in: https://t.co/ASwdBkMs3u. Keep us posted.",
+    "predicted_intent": "Account & Login",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"599364\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.689219, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Always had windows 10 on my laptop, it told me to restart the laptop, I done that and seems to have fixed it | @MicrosoftHelps on my laptop when I try and sign in using pin I get error code 0x80070032 any idea to sort this?\"}\n{\"evidence_id\": \"1609622\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 2}, \"score\": 0.633685, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps @115890 b4 feature update i was using pin to login in to pc. But after update it shows. Not supported. 2/2 https://t.co/p3GoG9toTk | @MicrosoftHelps ThankYou for addressing. But i just resolved the problem. 👍\"}\n{\"evidence_id\": \"1857956\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.609957, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Screw it. Nothing is working. Rolling it back to previous version in hopes that works. | @MicrosoftHelps But they are in Store, after I opened it with Search. But \\\"Pin to Start\\\" is greyed out. https://t.co/A0FRC6yqOf\"}",
+    "generated_reply": "Hello! Because the retrieved historical evidence does not contain specific troubleshooting steps for your Windows 10 sign-in issue requiring both your Microsoft account and PIN, this case requires further investigation into your account settings and device configurations. Please contact Microsoft Support so an agent can look into your specific account entitlements and sign-in setup."
+  },
+  "raw_response": "{\n  \"correctness\": 2,\n  \"helpfulness\": 2,\n  \"relevance\": 3,\n  \"clarity\": 4,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 2,\n  \"evidence_support\": 5,\n  \"unsupported_claims\": 5,\n  \"evidence_relevance\": 1,\n  \"grounding_score\": 4,\n  \"reason\": \"The reply unnecessarily deflects to human support instead of providing standard Windows 10 PIN sign-in troubleshooting steps, though it correctly notes the retrieved evidence lacks the solution.\"\n}",
+  "result": {
+    "correctness": 2,
+    "helpfulness": 2,
+    "relevance": 3,
+    "clarity": 4,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 2,
+    "evidence_support": 5,
+    "unsupported_claims": 5,
+    "evidence_relevance": 1,
+    "grounding_score": 4,
+    "reason": "The reply unnecessarily deflects to human support instead of providing standard Windows 10 PIN sign-in troubleshooting steps, though it correctly notes the retrieved evidence lacks the solution.",
+    "overall_score": 2,
+    "short_reason": "The reply unnecessarily deflects to human support instead of providing standard Windows 10 PIN sign-in troubleshooting steps, though it correctly notes the retrieved evidence lacks the solution.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 2,
+      "helpfulness": 2,
+      "relevance": 3,
+      "clarity": 4,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 5,
+      "unsupported_claims": 5,
+      "evidence_relevance": 1
+    },
+    "golden_id": "GOLDEN-0161",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0161",
+      "customer_message": "@MicrosoftHelps hey, i recently started having to sign into my w10 pc with both my microsoft account and the pin i set for my pc - how do i make it so i only have to use my pin like i used to?",
+      "conversation_context": "MICROSOFT (2232215): @651299 Hi. You can check out this link to set the pin instead of using a password to sign in: https://t.co/ASwdBkMs3u. Keep us posted.",
+      "predicted_intent": "Account & Login",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"599364\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.689219, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Always had windows 10 on my laptop, it told me to restart the laptop, I done that and seems to have fixed it | @MicrosoftHelps on my laptop when I try and sign in using pin I get error code 0x80070032 any idea to sort this?\"}\n{\"evidence_id\": \"1609622\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 2}, \"score\": 0.633685, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps @115890 b4 feature update i was using pin to login in to pc. But after update it shows. Not supported. 2/2 https://t.co/p3GoG9toTk | @MicrosoftHelps ThankYou for addressing. But i just resolved the problem. 👍\"}\n{\"evidence_id\": \"1857956\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.609957, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Screw it. Nothing is working. Rolling it back to previous version in hopes that works. | @MicrosoftHelps But they are in Store, after I opened it with Search. But \\\"Pin to Start\\\" is greyed out. https://t.co/A0FRC6yqOf\"}",
+      "generated_reply": "Hello! Because the retrieved historical evidence does not contain specific troubleshooting steps for your Windows 10 sign-in issue requiring both your Microsoft account and PIN, this case requires further investigation into your account settings and device configurations. Please contact Microsoft Support so an agent can look into your specific account entitlements and sign-in setup."
+    }
+  }
+}

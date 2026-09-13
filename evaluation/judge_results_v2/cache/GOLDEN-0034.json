@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0034",
+  "input_fingerprint": "fab0c7250e75a8dc8ef41ab6a7ab81b1f6455708141160dd000d50803d93ba5b",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-12T04:32:56+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0034",
+    "customer_message": "So I posted this shit on instagram nobody even bothered to fucking responded to my problem! I searched the internet... nothing. https://t.co/hIalaiNO7m",
+    "conversation_context": "MICROSOFT (437263): @143711 Hi. Thank you for bringing this to our attention. To better assist you, which Windows version are you using?\nCUSTOMER (437264): @MicrosoftHelps Windows 10\nCUSTOMER (437265): Pls help @MicrosoftHelps\nMICROSOFT (437266): @143711 Let's investigate this issue further. We'd like to know if you made any recent changes on your device prior the issue.\nCUSTOMER (437267): @MicrosoftHelps I did not make any changes to my device\nMICROSOFT (437268): @143711 Thank you for the info. We suggest that you check Jessen P's post: https://t.co/oWzGn7HVKX to resolve the volume issue.\nMICROSOFT (437269): @143711 Just doing a follow-up. Is everything working on your end now? Let us know if you need assistance?",
+    "predicted_intent": "Complaint / Feedback",
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Generated reply could not be grounded in historical evidence; human review is required.",
+    "retrieved_evidence": "{\"evidence_id\": \"2433614\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.333708, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@116230 - explain https://t.co/ICJJ8elEKR\"}\n{\"evidence_id\": \"274564\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 6}, \"score\": 0.325028, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Few months ago! And it says the account doesn't exist. | @MicrosoftHelps Hi my email was deleted and now I can't access my Instagram account! Help? | @MicrosoftHelps Yes I want my email back 😂 | @MicrosoftHelps How do I keep my name? | @MicrosoftHelps @10233.co.uk isn't an option anymore so I can't get access to my emails for my Instagram... | @MicrosoftHelps So basically you deleted it, I can't get it back and I can't get on my Instagram. GREAT!\"}\n{\"evidence_id\": \"2658490\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.318142, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I've done everything on that link and it did nothing and I may have to reset my computer because of YOUR forced update\"}",
+    "generated_reply": "We apologize for the frustration you are experiencing. We do not have enough information to resolve this issue autonomously. Please contact Microsoft Support directly for further assistance."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 4,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 4,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 4,\n  \"evidence_relevance\": 2,\n  \"grounding_score\": 3,\n  \"reason\": \"The reply appropriately identifies the need for escalation due to lack of information, though the conversation context shows previous troubleshooting attempts regarding a volume issue.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 4,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 4,
+    "evidence_support": 3,
+    "unsupported_claims": 4,
+    "evidence_relevance": 2,
+    "grounding_score": 3,
+    "reason": "The reply appropriately identifies the need for escalation due to lack of information, though the conversation context shows previous troubleshooting attempts regarding a volume issue.",
+    "overall_score": 4,
+    "short_reason": "The reply appropriately identifies the need for escalation due to lack of information, though the conversation context shows previous troubleshooting attempts regarding a volume issue.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 4,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 4,
+      "evidence_relevance": 2
+    },
+    "golden_id": "GOLDEN-0034",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0034",
+      "customer_message": "So I posted this shit on instagram nobody even bothered to fucking responded to my problem! I searched the internet... nothing. https://t.co/hIalaiNO7m",
+      "conversation_context": "MICROSOFT (437263): @143711 Hi. Thank you for bringing this to our attention. To better assist you, which Windows version are you using?\nCUSTOMER (437264): @MicrosoftHelps Windows 10\nCUSTOMER (437265): Pls help @MicrosoftHelps\nMICROSOFT (437266): @143711 Let's investigate this issue further. We'd like to know if you made any recent changes on your device prior the issue.\nCUSTOMER (437267): @MicrosoftHelps I did not make any changes to my device\nMICROSOFT (437268): @143711 Thank you for the info. We suggest that you check Jessen P's post: https://t.co/oWzGn7HVKX to resolve the volume issue.\nMICROSOFT (437269): @143711 Just doing a follow-up. Is everything working on your end now? Let us know if you need assistance?",
+      "predicted_intent": "Complaint / Feedback",
+      "predicted_escalation": "ESCALATE_TO_HUMAN",
+      "predicted_escalation_reason": "Generated reply could not be grounded in historical evidence; human review is required.",
+      "retrieved_evidence": "{\"evidence_id\": \"2433614\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.333708, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@116230 - explain https://t.co/ICJJ8elEKR\"}\n{\"evidence_id\": \"274564\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 6}, \"score\": 0.325028, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Few months ago! And it says the account doesn't exist. | @MicrosoftHelps Hi my email was deleted and now I can't access my Instagram account! Help? | @MicrosoftHelps Yes I want my email back 😂 | @MicrosoftHelps How do I keep my name? | @MicrosoftHelps @10233.co.uk isn't an option anymore so I can't get access to my emails for my Instagram... | @MicrosoftHelps So basically you deleted it, I can't get it back and I can't get on my Instagram. GREAT!\"}\n{\"evidence_id\": \"2658490\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.318142, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I've done everything on that link and it did nothing and I may have to reset my computer because of YOUR forced update\"}",
+      "generated_reply": "We apologize for the frustration you are experiencing. We do not have enough information to resolve this issue autonomously. Please contact Microsoft Support directly for further assistance."
+    }
+  }
+}

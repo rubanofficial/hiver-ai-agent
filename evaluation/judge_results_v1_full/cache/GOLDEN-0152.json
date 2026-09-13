@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0152",
+  "input_fingerprint": "a0e0b98cc1ca2d0a4fdfc485462b801c2c89f65f788ce623f522d91e63a6abf2",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:43:20+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0152",
+    "customer_message": "After I glassed my main PC after a disastrous attempt to install the Fall Creator's Update for Win 10, I'm going to keep it at the most recent iteration prior to the FCU until they've worked out all the bugs.",
+    "conversation_context": "MICROSOFT (2124318): @625717 Hello. Let our developers hear your voice by submitting it to our Feedback Hub: https://t.co/aa0xBdRwf6. ✌️👍",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"703297\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.722801, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Thanks! Haven't tried anything yet! But if i need the help, I'll let ya know! | Sooo.. I just got the windows 10 fall creators update. Hopefully it doesn’t wreck the pc. Lol\"}\n{\"evidence_id\": \"1574938\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.69435, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Get the Windows 10 Fall Creators Update!\\nhttps://t.co/yKql3pzN8R\"}\n{\"evidence_id\": \"125002\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 3}, \"score\": 0.682859, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Thanks ... It worked... ✌✌.. My PC is good as new and I love this Windows Fall Creator Update 🔥 | @MicrosoftHelps Windows 10...I updated to Windows Fall Creator Update a day ago | @MicrosoftHelps my PC has Stuck in \\\"Diagonosing your PC'',, it's been hours... Help\"}",
+    "generated_reply": "We understand you experienced issues with the Windows 10 Fall Creators Update. Since our historical information does not contain specific troubleshooting steps for your situation, we recommend contacting Microsoft support directly for further assistance."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 4,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 4,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 4,\n  \"evidence_relevance\": 2,\n  \"grounding_score\": 3,\n  \"reason\": \"The reply appropriately suggests contacting Microsoft support given the lack of specific troubleshooting steps in the retrieved evidence, maintaining clarity and proper escalation appropriateness.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 4,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 4,
+    "evidence_support": 3,
+    "unsupported_claims": 4,
+    "evidence_relevance": 2,
+    "grounding_score": 3,
+    "reason": "The reply appropriately suggests contacting Microsoft support given the lack of specific troubleshooting steps in the retrieved evidence, maintaining clarity and proper escalation appropriateness.",
+    "overall_score": 4,
+    "short_reason": "The reply appropriately suggests contacting Microsoft support given the lack of specific troubleshooting steps in the retrieved evidence, maintaining clarity and proper escalation appropriateness.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 4,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 4,
+      "evidence_relevance": 2
+    },
+    "golden_id": "GOLDEN-0152",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0152",
+      "customer_message": "After I glassed my main PC after a disastrous attempt to install the Fall Creator's Update for Win 10, I'm going to keep it at the most recent iteration prior to the FCU until they've worked out all the bugs.",
+      "conversation_context": "MICROSOFT (2124318): @625717 Hello. Let our developers hear your voice by submitting it to our Feedback Hub: https://t.co/aa0xBdRwf6. ✌️👍",
+      "predicted_intent": "Technical Troubleshooting",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"703297\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.722801, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Thanks! Haven't tried anything yet! But if i need the help, I'll let ya know! | Sooo.. I just got the windows 10 fall creators update. Hopefully it doesn’t wreck the pc. Lol\"}\n{\"evidence_id\": \"1574938\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.69435, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Get the Windows 10 Fall Creators Update!\\nhttps://t.co/yKql3pzN8R\"}\n{\"evidence_id\": \"125002\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 3}, \"score\": 0.682859, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Thanks ... It worked... ✌✌.. My PC is good as new and I love this Windows Fall Creator Update 🔥 | @MicrosoftHelps Windows 10...I updated to Windows Fall Creator Update a day ago | @MicrosoftHelps my PC has Stuck in \\\"Diagonosing your PC'',, it's been hours... Help\"}",
+      "generated_reply": "We understand you experienced issues with the Windows 10 Fall Creators Update. Since our historical information does not contain specific troubleshooting steps for your situation, we recommend contacting Microsoft support directly for further assistance."
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0162",
+  "input_fingerprint": "530dabc895a385a671a9f9982fbe27651d7f1230ce935156d41a458a0cded302",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:43:33+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0162",
+    "customer_message": "Microsoft Word is even crashing on a brand new laptop... What nyolz is this ?",
+    "conversation_context": "MICROSOFT (2232217): @651300 Which version of Microsoft Word are you using? What troubleshooting steps have you done so far? https://t.co/3qcAsLFkaY\nCUSTOMER (2232218): @116230 It just says Microsoft word (not responding)\nMICROSOFT (2232219): @651300 Hi. Any news on your issue?\nCUSTOMER (2232220): @651300 Interesting. Do you see any error codes or messages when this occurs?\nCUSTOMER (2232221): @116230 I'm not using word at the moment. But it often stops responding while I'm busy working.\nCUSTOMER (2232222): @651300 Hey, there! We wanted to check in. Are you still experiencing this at the moment? We’re here to help if you need us.",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"1622033\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.701119, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps No, too busy for that. Just need a product that works and doesn't crash. | @MicrosoftHelps Your Word update is broken. Crashing all day. No, I don't want to send you more info or go anywhere for help. Just fix it.\"}\n{\"evidence_id\": \"616701\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 3}, \"score\": 0.666286, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Yes, multiple times, hoping an update had come along to fix it, but with no luck | @MicrosoftHelps It crashes at startup, I've tried previous versions and they work fine. | @MicrosoftHelps Office Lens and Word aren't working on my phone running Android 7.11 https://t.co/lQgzbj1Fpg\"}\n{\"evidence_id\": \"643172\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.662449, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Me: tries to edit MS Word chart.\\nWord: crashes, freezes, panics\\nMe: 😧😤😡\"}",
+    "generated_reply": "We understand how frustrating it is when Microsoft Word keeps crashing on a new device. Unfortunately, we do not have enough information in our current system to resolve this specific issue directly. Please contact Microsoft support so our team can investigate further and help get this fixed for you."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 4,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 4,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 4,\n  \"evidence_relevance\": 3,\n  \"grounding_score\": 3,\n  \"reason\": \"The reply is professional, empathetic, and appropriately suggests contacting Microsoft support given the persistent crashing issue, but the conversation context was cut off and didn't provide a direct troubleshooting resolution.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 4,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 4,
+    "evidence_support": 3,
+    "unsupported_claims": 4,
+    "evidence_relevance": 3,
+    "grounding_score": 3,
+    "reason": "The reply is professional, empathetic, and appropriately suggests contacting Microsoft support given the persistent crashing issue, but the conversation context was cut off and didn't provide a direct troubleshooting resolution.",
+    "overall_score": 4,
+    "short_reason": "The reply is professional, empathetic, and appropriately suggests contacting Microsoft support given the persistent crashing issue, but the conversation context was cut off and didn't provide a direct troubleshooting resolution.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 4,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 4,
+      "evidence_relevance": 3
+    },
+    "golden_id": "GOLDEN-0162",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0162",
+      "customer_message": "Microsoft Word is even crashing on a brand new laptop... What nyolz is this ?",
+      "conversation_context": "MICROSOFT (2232217): @651300 Which version of Microsoft Word are you using? What troubleshooting steps have you done so far? https://t.co/3qcAsLFkaY\nCUSTOMER (2232218): @116230 It just says Microsoft word (not responding)\nMICROSOFT (2232219): @651300 Hi. Any news on your issue?\nCUSTOMER (2232220): @651300 Interesting. Do you see any error codes or messages when this occurs?\nCUSTOMER (2232221): @116230 I'm not using word at the moment. But it often stops responding while I'm busy working.\nCUSTOMER (2232222): @651300 Hey, there! We wanted to check in. Are you still experiencing this at the moment? We’re here to help if you need us.",
+      "predicted_intent": "Technical Troubleshooting",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"1622033\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.701119, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps No, too busy for that. Just need a product that works and doesn't crash. | @MicrosoftHelps Your Word update is broken. Crashing all day. No, I don't want to send you more info or go anywhere for help. Just fix it.\"}\n{\"evidence_id\": \"616701\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 3}, \"score\": 0.666286, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Yes, multiple times, hoping an update had come along to fix it, but with no luck | @MicrosoftHelps It crashes at startup, I've tried previous versions and they work fine. | @MicrosoftHelps Office Lens and Word aren't working on my phone running Android 7.11 https://t.co/lQgzbj1Fpg\"}\n{\"evidence_id\": \"643172\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.662449, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Me: tries to edit MS Word chart.\\nWord: crashes, freezes, panics\\nMe: 😧😤😡\"}",
+      "generated_reply": "We understand how frustrating it is when Microsoft Word keeps crashing on a new device. Unfortunately, we do not have enough information in our current system to resolve this specific issue directly. Please contact Microsoft support so our team can investigate further and help get this fixed for you."
+    }
+  }
+}

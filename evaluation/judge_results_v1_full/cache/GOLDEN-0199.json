@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0199",
+  "input_fingerprint": "6cd67c9be5abbb47e799aa07ba3a36db3c9039498a9f4dfd09741deac0218208",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:47:30+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0199",
+    "customer_message": "@MicrosoftHelps I need help stoping a autopay the option doesn't come up",
+    "conversation_context": "MICROSOFT (2949569): @814564 Hi. Thanks for reaching out. Are you referring to a subscription? Where are you trying to check the option? Please let us know. https://t.co/3qcAsLFkaY",
+    "predicted_intent": "Cancellation / Subscription",
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Intent 'Cancellation / Subscription' is high-risk and requires human handling.",
+    "retrieved_evidence": "{\"evidence_id\": \"1054682\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 4}, \"score\": 0.592401, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Windows 10 | @MicrosoftHelps The power goes out and then my pc restarts abd then the power goes out again during the updating process | @MicrosoftHelps Ohh i see i was under the impression i could cause i could on windows 7 and 8 | @MicrosoftHelps how do i turn off your stupid autoupdate \\\"feature\\\"...\"}\n{\"evidence_id\": \"1894168\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.5895, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Thanks for reaching out! I'll DM you | @MicrosoftHelps upgrade paths need some work - this is probably why I'll turn off auto update. I have to sign in again and then... :( https://t.co/dGAUOXPuAR\"}\n{\"evidence_id\": \"2208286\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 3}, \"score\": 0.583205, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I keep getting this result. It auto renewed this morning, but I don't need the service now. I was hoping to cancel it now and get refunded https://t.co/qxgUpXaIlU | @MicrosoftHelps @MicrosoftHelps can you help me cancel my EA Access subscription that auto renewed today? | @MicrosoftHelps Ok thanks for your help; I got my issue resolved. The customer service rep Stephanie was a great help via the chat\"}",
+    "generated_reply": "I'm sorry to hear you're having trouble stopping your autopay. Since I don't have enough details in my current resources to fully guide you through this, please contact Microsoft support directly so an agent can assist you further."
+  },
+  "raw_response": "{\n  \"correctness\": 4,\n  \"helpfulness\": 4,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 4,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 4,\n  \"evidence_relevance\": 2,\n  \"grounding_score\": 3,\n  \"reason\": \"The reply appropriately suggests contacting support for a billing/autopay issue, aligning with the high-risk cancellation intent, but the retrieved evidence was mostly about Windows updates rather than subscription autopay.\"\n}",
+  "result": {
+    "correctness": 4,
+    "helpfulness": 4,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 4,
+    "evidence_support": 3,
+    "unsupported_claims": 4,
+    "evidence_relevance": 2,
+    "grounding_score": 3,
+    "reason": "The reply appropriately suggests contacting support for a billing/autopay issue, aligning with the high-risk cancellation intent, but the retrieved evidence was mostly about Windows updates rather than subscription autopay.",
+    "overall_score": 4,
+    "short_reason": "The reply appropriately suggests contacting support for a billing/autopay issue, aligning with the high-risk cancellation intent, but the retrieved evidence was mostly about Windows updates rather than subscription autopay.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 4,
+      "helpfulness": 4,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 4,
+      "evidence_relevance": 2
+    },
+    "golden_id": "GOLDEN-0199",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0199",
+      "customer_message": "@MicrosoftHelps I need help stoping a autopay the option doesn't come up",
+      "conversation_context": "MICROSOFT (2949569): @814564 Hi. Thanks for reaching out. Are you referring to a subscription? Where are you trying to check the option? Please let us know. https://t.co/3qcAsLFkaY",
+      "predicted_intent": "Cancellation / Subscription",
+      "predicted_escalation": "ESCALATE_TO_HUMAN",
+      "predicted_escalation_reason": "Intent 'Cancellation / Subscription' is high-risk and requires human handling.",
+      "retrieved_evidence": "{\"evidence_id\": \"1054682\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 4}, \"score\": 0.592401, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Windows 10 | @MicrosoftHelps The power goes out and then my pc restarts abd then the power goes out again during the updating process | @MicrosoftHelps Ohh i see i was under the impression i could cause i could on windows 7 and 8 | @MicrosoftHelps how do i turn off your stupid autoupdate \\\"feature\\\"...\"}\n{\"evidence_id\": \"1894168\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.5895, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Thanks for reaching out! I'll DM you | @MicrosoftHelps upgrade paths need some work - this is probably why I'll turn off auto update. I have to sign in again and then... :( https://t.co/dGAUOXPuAR\"}\n{\"evidence_id\": \"2208286\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 3}, \"score\": 0.583205, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I keep getting this result. It auto renewed this morning, but I don't need the service now. I was hoping to cancel it now and get refunded https://t.co/qxgUpXaIlU | @MicrosoftHelps @MicrosoftHelps can you help me cancel my EA Access subscription that auto renewed today? | @MicrosoftHelps Ok thanks for your help; I got my issue resolved. The customer service rep Stephanie was a great help via the chat\"}",
+      "generated_reply": "I'm sorry to hear you're having trouble stopping your autopay. Since I don't have enough details in my current resources to fully guide you through this, please contact Microsoft support directly so an agent can assist you further."
+    }
+  }
+}

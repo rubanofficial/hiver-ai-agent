@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0109",
+  "input_fingerprint": "1751291a243b29dc9bd4f51996a1c8eaa9999882add68c8985fc0f37cfc6752e",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T11:24:15+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0109",
+    "customer_message": "@MicrosoftHelps Done! There isn't... :/",
+    "conversation_context": "MICROSOFT (1407035): @447037 Hi, Art'hur! Checking back with you. Were you able to download keyboard language on your phone? Let us know.\nCUSTOMER (1407036): @MicrosoftHelps It didn't work... is there any way I can download them manually on my PC?\nCUSTOMER (1407037): @MicrosoftHelps I downloaded keyboards for other languages, but it won't download the suggestive database for sweep-typing and spellchecking\nMICROSOFT (1407038): @447037 No, it only works using your Windows Mobile. We want you to save your time, we suggest posting it on our Feedback Hub app.\nMICROSOFT (1407039): @447037 That's unexpected. Are you getting any error messages? Have you tried any troubleshooting steps? Are you using Wi-Fi?\nMICROSOFT (1407040): @447037 Hi, Art'hur. How can we help you with your Lumia 930?\nCUSTOMER (1407041): @MicrosoftHelps hello! Could you please help me with an issue on Lumia 930 running Win10 Phone?\nCUSTOMER (2674515): @MicrosoftHelps It says \"update for text suggestions was not successfully downloaded\". I haven't tried any troubleshooting and I'm using Wi-Fi https://t.co/n6K4p0KOdE\nMICROSOFT (2674516): @447037 To isolate the issue, we suggest that you check if there's an available phone update: https://t.co/x2y5pIvr4e. Tweet us back!",
+    "predicted_intent": "Complaint / Feedback",
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+    "retrieved_evidence": "{\"evidence_id\": \"824494\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 2}, \"score\": 0.856423, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Yes! :) | @MicrosoftHelps Thank you.\"}\n{\"evidence_id\": \"653458\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.850456, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps\"}\n{\"evidence_id\": \"2696751\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 2}, \"score\": 0.850268, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps HALP! https://t.co/nrGA1Drxxj | @MicrosoftHelps Thanks!\"}",
+    "generated_reply": "Hello! We noticed you are reaching out for assistance. While our similar historical cases show that others have experienced similar issues, no specific troubleshooting steps are currently available in our records. We recommend reaching out to Microsoft Support directly so an agent can assist you further."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 3,\n  \"clarity\": 4,\n  \"escalation_appropriateness\": 4,\n  \"overall_reply_score\": 3,\n  \"evidence_support\": 2,\n  \"unsupported_claims\": 2,\n  \"evidence_relevance\": 1,\n  \"grounding_score\": 2,\n  \"reason\": \"The reply correctly suggests contacting support, but references non-existent historical cases and is poorly grounded in the retrieved evidence.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 3,
+    "clarity": 4,
+    "escalation_appropriateness": 4,
+    "overall_reply_score": 3,
+    "evidence_support": 2,
+    "unsupported_claims": 2,
+    "evidence_relevance": 1,
+    "grounding_score": 2,
+    "reason": "The reply correctly suggests contacting support, but references non-existent historical cases and is poorly grounded in the retrieved evidence.",
+    "overall_score": 3,
+    "short_reason": "The reply correctly suggests contacting support, but references non-existent historical cases and is poorly grounded in the retrieved evidence.",
+    "grounding_decision": "UNSUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 3,
+      "clarity": 4,
+      "escalation_appropriateness": 4
+    },
+    "evidence_grounding": {
+      "evidence_support": 2,
+      "unsupported_claims": 2,
+      "evidence_relevance": 1
+    },
+    "golden_id": "GOLDEN-0109",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0109",
+      "customer_message": "@MicrosoftHelps Done! There isn't... :/",
+      "conversation_context": "MICROSOFT (1407035): @447037 Hi, Art'hur! Checking back with you. Were you able to download keyboard language on your phone? Let us know.\nCUSTOMER (1407036): @MicrosoftHelps It didn't work... is there any way I can download them manually on my PC?\nCUSTOMER (1407037): @MicrosoftHelps I downloaded keyboards for other languages, but it won't download the suggestive database for sweep-typing and spellchecking\nMICROSOFT (1407038): @447037 No, it only works using your Windows Mobile. We want you to save your time, we suggest posting it on our Feedback Hub app.\nMICROSOFT (1407039): @447037 That's unexpected. Are you getting any error messages? Have you tried any troubleshooting steps? Are you using Wi-Fi?\nMICROSOFT (1407040): @447037 Hi, Art'hur. How can we help you with your Lumia 930?\nCUSTOMER (1407041): @MicrosoftHelps hello! Could you please help me with an issue on Lumia 930 running Win10 Phone?\nCUSTOMER (2674515): @MicrosoftHelps It says \"update for text suggestions was not successfully downloaded\". I haven't tried any troubleshooting and I'm using Wi-Fi https://t.co/n6K4p0KOdE\nMICROSOFT (2674516): @447037 To isolate the issue, we suggest that you check if there's an available phone update: https://t.co/x2y5pIvr4e. Tweet us back!",
+      "predicted_intent": "Complaint / Feedback",
+      "predicted_escalation": "ESCALATE_TO_HUMAN",
+      "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+      "retrieved_evidence": "{\"evidence_id\": \"824494\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 2}, \"score\": 0.856423, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Yes! :) | @MicrosoftHelps Thank you.\"}\n{\"evidence_id\": \"653458\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.850456, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps\"}\n{\"evidence_id\": \"2696751\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 2}, \"score\": 0.850268, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps HALP! https://t.co/nrGA1Drxxj | @MicrosoftHelps Thanks!\"}",
+      "generated_reply": "Hello! We noticed you are reaching out for assistance. While our similar historical cases show that others have experienced similar issues, no specific troubleshooting steps are currently available in our records. We recommend reaching out to Microsoft Support directly so an agent can assist you further."
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0134",
+  "input_fingerprint": "4e26f8476654a8961e522e92f0f7197ef256b28bf4083a3505290553e68339db",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:41:23+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0134",
+    "customer_message": "@MicrosoftHelps After trying to update the second time it speeds through &amp; now gives 0xc1900107.. what a lame update process.",
+    "conversation_context": "MICROSOFT (1896979): @565387 Hi, Ryan. Let’s work on this. To help you resolve Windows Update issues, see steps here: https://t.co/vqMWZCt1Ad. Update us.\nCUSTOMER (1896980): @MicrosoftHelps Resolved by Disk cleanup and restarting update. This time didn't click 'restart later' and then shutdown. Might wanna look into y that fails",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"2742560\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 3}, \"score\": 0.657104, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Have tried all the information in the article and it didn't fix it. I looks like it only happens on AMD processors | @105173 @MicrosoftHelps #WindowsInsiders  I think there is an issue on build 17090.1000 on AMD based machines. When I try and upgrade it either hangs or doesn't install with error 0Xc1900101. It then goes back to 17025 and tries to download it again - it constantly does this. | @MicrosoftHelps Have already done this.\"}\n{\"evidence_id\": \"2375109\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.654799, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I keep getting prompted that my computer needs to update, but it will not update. It hangs at  \\\"Preparing your update 0%\\\" and was stuck there over-night for 8+hours.\"}\n{\"evidence_id\": \"920354\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 3}, \"score\": 0.651851, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps He does not work with me\\nI waited 18 hours but the update did not work\\nI want the reason and how to solve it | @MicrosoftHelps What is the reason? Fixed figure 64 from yesterday\\nIs there a simple and fast solution? https://t.co/xmiFqsAkiW | @MicrosoftHelps Ok.go direct\"}",
+    "generated_reply": "Hello, I apologize for the frustration you are experiencing with the update process. Based on the provided information, I am unable to fully resolve your specific error code issue at this time. Please contact Microsoft support directly for further assistance."
+  },
+  "raw_response": "{\n  \"correctness\": 2,\n  \"helpfulness\": 2,\n  \"relevance\": 3,\n  \"clarity\": 4,\n  \"escalation_appropriateness\": 4,\n  \"overall_reply_score\": 2,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 3,\n  \"evidence_relevance\": 2,\n  \"grounding_score\": 3,\n  \"reason\": \"The customer already resolved their issue independently via disk cleanup and restarting the update, but the generated reply fails to acknowledge this and needlessly recommends contacting support.\"\n}",
+  "result": {
+    "correctness": 2,
+    "helpfulness": 2,
+    "relevance": 3,
+    "clarity": 4,
+    "escalation_appropriateness": 4,
+    "overall_reply_score": 2,
+    "evidence_support": 3,
+    "unsupported_claims": 3,
+    "evidence_relevance": 2,
+    "grounding_score": 3,
+    "reason": "The customer already resolved their issue independently via disk cleanup and restarting the update, but the generated reply fails to acknowledge this and needlessly recommends contacting support.",
+    "overall_score": 2,
+    "short_reason": "The customer already resolved their issue independently via disk cleanup and restarting the update, but the generated reply fails to acknowledge this and needlessly recommends contacting support.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 2,
+      "helpfulness": 2,
+      "relevance": 3,
+      "clarity": 4,
+      "escalation_appropriateness": 4
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 3,
+      "evidence_relevance": 2
+    },
+    "golden_id": "GOLDEN-0134",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0134",
+      "customer_message": "@MicrosoftHelps After trying to update the second time it speeds through &amp; now gives 0xc1900107.. what a lame update process.",
+      "conversation_context": "MICROSOFT (1896979): @565387 Hi, Ryan. Let’s work on this. To help you resolve Windows Update issues, see steps here: https://t.co/vqMWZCt1Ad. Update us.\nCUSTOMER (1896980): @MicrosoftHelps Resolved by Disk cleanup and restarting update. This time didn't click 'restart later' and then shutdown. Might wanna look into y that fails",
+      "predicted_intent": "Technical Troubleshooting",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"2742560\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 3}, \"score\": 0.657104, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Have tried all the information in the article and it didn't fix it. I looks like it only happens on AMD processors | @105173 @MicrosoftHelps #WindowsInsiders  I think there is an issue on build 17090.1000 on AMD based machines. When I try and upgrade it either hangs or doesn't install with error 0Xc1900101. It then goes back to 17025 and tries to download it again - it constantly does this. | @MicrosoftHelps Have already done this.\"}\n{\"evidence_id\": \"2375109\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.654799, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I keep getting prompted that my computer needs to update, but it will not update. It hangs at  \\\"Preparing your update 0%\\\" and was stuck there over-night for 8+hours.\"}\n{\"evidence_id\": \"920354\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 3}, \"score\": 0.651851, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps He does not work with me\\nI waited 18 hours but the update did not work\\nI want the reason and how to solve it | @MicrosoftHelps What is the reason? Fixed figure 64 from yesterday\\nIs there a simple and fast solution? https://t.co/xmiFqsAkiW | @MicrosoftHelps Ok.go direct\"}",
+      "generated_reply": "Hello, I apologize for the frustration you are experiencing with the update process. Based on the provided information, I am unable to fully resolve your specific error code issue at this time. Please contact Microsoft support directly for further assistance."
+    }
+  }
+}

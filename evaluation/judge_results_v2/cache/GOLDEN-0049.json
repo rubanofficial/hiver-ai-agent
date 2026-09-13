@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0049",
+  "input_fingerprint": "a27a8585eea4bacf18afa980cca6300d7bb946c399be08b283392c5c57e76db4",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-12T04:33:25+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0049",
+    "customer_message": "@MicrosoftHelps Yes I have tried a different keyboard and mouse and would they still be able to connect even though the pc isn’t set up, it’s stuck on the initial set up screen https://t.co/8yJ7MutxbL",
+    "conversation_context": "MICROSOFT (520610): @240181 Hi, Michael! We're here to help you. Which Windows version are you using? Are you mouse and keyboard driver updated? https://t.co/3qcAsLWV2w\nCUSTOMER (520611): @MicrosoftHelps I’m using a windows 8 machine that i upgraded to win 10 when win first came out , I don’t know about the drivers I’m guessing so as it re installed windows when the pc was reset\nCUSTOMER (520612): @MicrosoftHelps hello I need help, I factory rest my pc and now my keyboard and mouse isn’t working, what do I need to do?\nMICROSOFT (520613): @240181 Got it. In that case, we suggest that you try updating your mouse and keyboard driver and see if that works. You may follow the steps here: https://t.co/Tor8Rz8f9Q. Let us know how it goes. https://t.co/3qcAsLWV2w\nCUSTOMER (520614): @MicrosoftHelps How if I can’t use the mouse and keyboard to type or even set up the pc?\nMICROSOFT (520615): @240181 In that case, have you tried using a different mouse or keyboard? If not, we suggest that you borrow to some of your friends or relatives so you can contact our Answer Desk support for remote access that may help you resolve your concern.",
+    "predicted_intent": "Network / Connectivity",
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "No evidence reached the confidence threshold for a safe autonomous reply (minimum 0.60); human review is required.",
+    "retrieved_evidence": "{\"evidence_id\": \"621123\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 4}, \"score\": 0.593619, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Yup still the same issue. Tried configuring through BIOS but didnt work HALP! | @116230 Nope some of my keys aren't still working. I literally formatted the PC so that I can start over. | @267410 Hi, Ashani. Have you been able to get your keyboard working again after the update? We're here to help if you need us. | I honestly hate this new @116230 update...i struggle to get my keyboard working gaaaaaaaaaaah!\"}\n{\"evidence_id\": \"1174472\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 3}, \"score\": 0.591465, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps You're way too late, and you missed my lower tweets explaining more. I already refreshed Windows. What happened? How do I fix it in future? | @MicrosoftHelps They work fine in recovery mode, but not in safe mode. I can use Chrome Remote Desktop to interface in the meantime. | @MicrosoftHelps My Windows 10 PC is not recognizing any USB mice or keyboards, but is supplying power - they light up. Please help?\"}\n{\"evidence_id\": \"911408\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.564558, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Everything works now, thanks for following up | After the Fall Creators update my Microsoft Sculpt keyboard and mouse aren't recognized. @MicrosoftHelps is this a known issue?\"}",
+    "generated_reply": "We understand you are experiencing issues with your keyboard and mouse connecting during the initial PC setup screen. Because this case requires further investigation into your specific setup and device recognition status, please contact Microsoft Support so we can look into this further."
+  },
+  "raw_response": "{\n  \"correctness\": 5,\n  \"helpfulness\": 5,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 5,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 3,\n  \"evidence_relevance\": 3,\n  \"grounding_score\": 3,\n  \"reason\": \"The reply accurately addresses the customer's inability to use the keyboard and mouse during the initial setup screen and correctly escalates the issue to human support since the evidence does not provide a direct fix.\"\n}",
+  "result": {
+    "correctness": 5,
+    "helpfulness": 5,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 5,
+    "evidence_support": 3,
+    "unsupported_claims": 3,
+    "evidence_relevance": 3,
+    "grounding_score": 3,
+    "reason": "The reply accurately addresses the customer's inability to use the keyboard and mouse during the initial setup screen and correctly escalates the issue to human support since the evidence does not provide a direct fix.",
+    "overall_score": 5,
+    "short_reason": "The reply accurately addresses the customer's inability to use the keyboard and mouse during the initial setup screen and correctly escalates the issue to human support since the evidence does not provide a direct fix.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 5,
+      "helpfulness": 5,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 3,
+      "evidence_relevance": 3
+    },
+    "golden_id": "GOLDEN-0049",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0049",
+      "customer_message": "@MicrosoftHelps Yes I have tried a different keyboard and mouse and would they still be able to connect even though the pc isn’t set up, it’s stuck on the initial set up screen https://t.co/8yJ7MutxbL",
+      "conversation_context": "MICROSOFT (520610): @240181 Hi, Michael! We're here to help you. Which Windows version are you using? Are you mouse and keyboard driver updated? https://t.co/3qcAsLWV2w\nCUSTOMER (520611): @MicrosoftHelps I’m using a windows 8 machine that i upgraded to win 10 when win first came out , I don’t know about the drivers I’m guessing so as it re installed windows when the pc was reset\nCUSTOMER (520612): @MicrosoftHelps hello I need help, I factory rest my pc and now my keyboard and mouse isn’t working, what do I need to do?\nMICROSOFT (520613): @240181 Got it. In that case, we suggest that you try updating your mouse and keyboard driver and see if that works. You may follow the steps here: https://t.co/Tor8Rz8f9Q. Let us know how it goes. https://t.co/3qcAsLWV2w\nCUSTOMER (520614): @MicrosoftHelps How if I can’t use the mouse and keyboard to type or even set up the pc?\nMICROSOFT (520615): @240181 In that case, have you tried using a different mouse or keyboard? If not, we suggest that you borrow to some of your friends or relatives so you can contact our Answer Desk support for remote access that may help you resolve your concern.",
+      "predicted_intent": "Network / Connectivity",
+      "predicted_escalation": "ESCALATE_TO_HUMAN",
+      "predicted_escalation_reason": "No evidence reached the confidence threshold for a safe autonomous reply (minimum 0.60); human review is required.",
+      "retrieved_evidence": "{\"evidence_id\": \"621123\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 4}, \"score\": 0.593619, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Yup still the same issue. Tried configuring through BIOS but didnt work HALP! | @116230 Nope some of my keys aren't still working. I literally formatted the PC so that I can start over. | @267410 Hi, Ashani. Have you been able to get your keyboard working again after the update? We're here to help if you need us. | I honestly hate this new @116230 update...i struggle to get my keyboard working gaaaaaaaaaaah!\"}\n{\"evidence_id\": \"1174472\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 3}, \"score\": 0.591465, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps You're way too late, and you missed my lower tweets explaining more. I already refreshed Windows. What happened? How do I fix it in future? | @MicrosoftHelps They work fine in recovery mode, but not in safe mode. I can use Chrome Remote Desktop to interface in the meantime. | @MicrosoftHelps My Windows 10 PC is not recognizing any USB mice or keyboards, but is supplying power - they light up. Please help?\"}\n{\"evidence_id\": \"911408\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.564558, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Everything works now, thanks for following up | After the Fall Creators update my Microsoft Sculpt keyboard and mouse aren't recognized. @MicrosoftHelps is this a known issue?\"}",
+      "generated_reply": "We understand you are experiencing issues with your keyboard and mouse connecting during the initial PC setup screen. Because this case requires further investigation into your specific setup and device recognition status, please contact Microsoft Support so we can look into this further."
+    }
+  }
+}

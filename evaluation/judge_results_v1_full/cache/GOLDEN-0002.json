@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0002",
+  "input_fingerprint": "20a5c7fa08174960a183317c5982061b6cc8e852e91bddd61f59178c6e0da400",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:28:02+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0002",
+    "customer_message": "@MicrosoftHelps I'm having trouble signing in. I tried to reset my password via text to my phone but I didn't receive any text. Any help?",
+    "conversation_context": "MICROSOFT (12864): @118604 To better assist you, send us a Direct Message. For security purposes, kindly delete your tweet that contains your email address.\nCUSTOMER (12865): @MicrosoftHelps Thanks. Do you have any other suggestion?\nMICROSOFT (12866): @118604 2/2  Click \"Ask a Question\" on the upper right corner. Thank you.\nCUSTOMER (12867): @MicrosoftHelps Would you mind if we discuss this matter via email instead?\nMICROSOFT (12868): @118604 1/2 We don't have direct email. You can post your query via Community Forum for assistance: https://t.co/jsa5yeYZ1T.\nMICROSOFT (12869): @118604 Hi, Yuyut. On what account or device are you trying to sign in?\nCUSTOMER (12870): @MicrosoftHelps To this account: __email__. This account is linked to my office 365.",
+    "predicted_intent": "Account & Login",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"610129\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 4}, \"score\": 0.755384, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps microsoft 365.  I'm trying to log in to check something.  It says my password is incorrect and now its locked my account.  To resolve this it says contact you but you need to be logged in to do that.  A temporary account cannot be set up either.  Please assist asap thanks | @MicrosoftHelps How do you log into your account when it says your password is incorrect.  You need to log in to contact you, very frustrating.  Is the systems down? | @MicrosoftHelps The link does not resolve this sadly.  I now have been sent a password code but no screen offered to insert the code? | @MicrosoftHelps I’ve sorted it now thank you, bizarrely I was able to do it via my phone but not desktop, all good and happy now, thank you for the response\"}\n{\"evidence_id\": \"1082680\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.752088, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Hi guys, managed to get into my pc but the password reset is still an issue. | @MicrosoftHelps getting a password is incorrect msg when I try and log in. When I attempt to reset, I am told I have no access. Help?\"}\n{\"evidence_id\": \"988686\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.748148, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps @MicrosoftHelps I got it Sorted out But thx Fir trying to help Anyways | @MicrosoftHelps My password won't work and it won't let me reset my password https://t.co/DXREUr8ggL\"}",
+    "generated_reply": "We're sorry you're having trouble receiving the text to reset your password. Since our historical records do not provide a specific troubleshooting step for not receiving the verification text, we recommend contacting Microsoft support directly for further assistance with your account."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 4,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 4,\n  \"overall_reply_score\": 3,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 3,\n  \"evidence_relevance\": 2,\n  \"grounding_score\": 3,\n  \"reason\": \"The reply is polite and clear, but acknowledges that evidence lacks specific troubleshooting for the verification text issue and advises contacting support, which is somewhat generic.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 4,
+    "clarity": 5,
+    "escalation_appropriateness": 4,
+    "overall_reply_score": 3,
+    "evidence_support": 3,
+    "unsupported_claims": 3,
+    "evidence_relevance": 2,
+    "grounding_score": 3,
+    "reason": "The reply is polite and clear, but acknowledges that evidence lacks specific troubleshooting for the verification text issue and advises contacting support, which is somewhat generic.",
+    "overall_score": 3,
+    "short_reason": "The reply is polite and clear, but acknowledges that evidence lacks specific troubleshooting for the verification text issue and advises contacting support, which is somewhat generic.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 4,
+      "clarity": 5,
+      "escalation_appropriateness": 4
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 3,
+      "evidence_relevance": 2
+    },
+    "golden_id": "GOLDEN-0002",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0002",
+      "customer_message": "@MicrosoftHelps I'm having trouble signing in. I tried to reset my password via text to my phone but I didn't receive any text. Any help?",
+      "conversation_context": "MICROSOFT (12864): @118604 To better assist you, send us a Direct Message. For security purposes, kindly delete your tweet that contains your email address.\nCUSTOMER (12865): @MicrosoftHelps Thanks. Do you have any other suggestion?\nMICROSOFT (12866): @118604 2/2  Click \"Ask a Question\" on the upper right corner. Thank you.\nCUSTOMER (12867): @MicrosoftHelps Would you mind if we discuss this matter via email instead?\nMICROSOFT (12868): @118604 1/2 We don't have direct email. You can post your query via Community Forum for assistance: https://t.co/jsa5yeYZ1T.\nMICROSOFT (12869): @118604 Hi, Yuyut. On what account or device are you trying to sign in?\nCUSTOMER (12870): @MicrosoftHelps To this account: __email__. This account is linked to my office 365.",
+      "predicted_intent": "Account & Login",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"610129\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 4}, \"score\": 0.755384, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps microsoft 365.  I'm trying to log in to check something.  It says my password is incorrect and now its locked my account.  To resolve this it says contact you but you need to be logged in to do that.  A temporary account cannot be set up either.  Please assist asap thanks | @MicrosoftHelps How do you log into your account when it says your password is incorrect.  You need to log in to contact you, very frustrating.  Is the systems down? | @MicrosoftHelps The link does not resolve this sadly.  I now have been sent a password code but no screen offered to insert the code? | @MicrosoftHelps I’ve sorted it now thank you, bizarrely I was able to do it via my phone but not desktop, all good and happy now, thank you for the response\"}\n{\"evidence_id\": \"1082680\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.752088, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Hi guys, managed to get into my pc but the password reset is still an issue. | @MicrosoftHelps getting a password is incorrect msg when I try and log in. When I attempt to reset, I am told I have no access. Help?\"}\n{\"evidence_id\": \"988686\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.748148, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps @MicrosoftHelps I got it Sorted out But thx Fir trying to help Anyways | @MicrosoftHelps My password won't work and it won't let me reset my password https://t.co/DXREUr8ggL\"}",
+      "generated_reply": "We're sorry you're having trouble receiving the text to reset your password. Since our historical records do not provide a specific troubleshooting step for not receiving the verification text, we recommend contacting Microsoft support directly for further assistance with your account."
+    }
+  }
+}

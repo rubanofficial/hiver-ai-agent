@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0136",
+  "input_fingerprint": "2207e4ce0be7ed93710cb9efc5f2de18c316c89ad3e57c996d16f85049baf120",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T11:26:08+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0136",
+    "customer_message": "Fifth time my PC crashed in a week. @116230 I need a fix for this. My computer is my job! 😂",
+    "conversation_context": "MICROSOFT (1923798): @572629 Hi, Nathan. We’re here to help you. Which Windows version are you using? Are you still experiencing the same issue? https://t.co/3qcAsLFkaY",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"1717826\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.671953, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@116230 I have a issue when my computer starts it crashes and says critical process died\"}\n{\"evidence_id\": \"447782\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 3}, \"score\": 0.598597, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@116230 Downward spiral! The Update fails continuously &amp; ever since it tried to download it I have received 7 separate blue screens of death messages. 7!!! 🤯 The PC is 40 Days old. Patience is thin when it feels like I own a $1,600 paper weight. 😰😤 I will try to do a system reset. 😒 https://t.co/ropzahIcHD | @221097 Hi, there. We appreciate your patience. Updates assist in keeping your device safe and secure. How is your device running now? | Technology will be the death of me! 😨😤🤯 Stupid @116230 and drivers updates! 🤬 #PCPlz #BlueScreenBS https://t.co/FdPalzorcp\"}\n{\"evidence_id\": \"2064962\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 4}, \"score\": 0.59356, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Thanks for replying. It's a work laptop updated to Windows 10. I think it crashed because of lack of memory, but it's not a persistent issue | I'm trying to like you @116230 10 but crashing randomly isn't helping your case | @MicrosoftHelps There was no error message. It just restarted automatically | @MicrosoftHelps None. No troubleshooting is needed. Thanks for the support\"}",
+    "generated_reply": "We understand how frustrating it is when your PC keeps crashing, especially when it is your livelihood. To help us investigate the cause of these frequent crashes, could you please let us know if you are seeing any specific error messages or blue screens when the crashes occur?"
+  },
+  "raw_response": "{\n  \"correctness\": 5,\n  \"helpfulness\": 5,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 5,\n  \"evidence_support\": 5,\n  \"unsupported_claims\": 5,\n  \"evidence_relevance\": 5,\n  \"grounding_score\": 5,\n  \"reason\": \"The reply directly addresses the customer's crash issue with empathy, asks a relevant troubleshooting question about error messages, and is fully supported by standard support procedures and retrieved evidence regarding system crashes.\"\n}",
+  "result": {
+    "correctness": 5,
+    "helpfulness": 5,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 5,
+    "evidence_support": 5,
+    "unsupported_claims": 5,
+    "evidence_relevance": 5,
+    "grounding_score": 5,
+    "reason": "The reply directly addresses the customer's crash issue with empathy, asks a relevant troubleshooting question about error messages, and is fully supported by standard support procedures and retrieved evidence regarding system crashes.",
+    "overall_score": 5,
+    "short_reason": "The reply directly addresses the customer's crash issue with empathy, asks a relevant troubleshooting question about error messages, and is fully supported by standard support procedures and retrieved evidence regarding system crashes.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 5,
+      "helpfulness": 5,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 5,
+      "unsupported_claims": 5,
+      "evidence_relevance": 5
+    },
+    "golden_id": "GOLDEN-0136",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0136",
+      "customer_message": "Fifth time my PC crashed in a week. @116230 I need a fix for this. My computer is my job! 😂",
+      "conversation_context": "MICROSOFT (1923798): @572629 Hi, Nathan. We’re here to help you. Which Windows version are you using? Are you still experiencing the same issue? https://t.co/3qcAsLFkaY",
+      "predicted_intent": "Technical Troubleshooting",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"1717826\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.671953, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@116230 I have a issue when my computer starts it crashes and says critical process died\"}\n{\"evidence_id\": \"447782\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 3}, \"score\": 0.598597, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@116230 Downward spiral! The Update fails continuously &amp; ever since it tried to download it I have received 7 separate blue screens of death messages. 7!!! 🤯 The PC is 40 Days old. Patience is thin when it feels like I own a $1,600 paper weight. 😰😤 I will try to do a system reset. 😒 https://t.co/ropzahIcHD | @221097 Hi, there. We appreciate your patience. Updates assist in keeping your device safe and secure. How is your device running now? | Technology will be the death of me! 😨😤🤯 Stupid @116230 and drivers updates! 🤬 #PCPlz #BlueScreenBS https://t.co/FdPalzorcp\"}\n{\"evidence_id\": \"2064962\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 4}, \"score\": 0.59356, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Thanks for replying. It's a work laptop updated to Windows 10. I think it crashed because of lack of memory, but it's not a persistent issue | I'm trying to like you @116230 10 but crashing randomly isn't helping your case | @MicrosoftHelps There was no error message. It just restarted automatically | @MicrosoftHelps None. No troubleshooting is needed. Thanks for the support\"}",
+      "generated_reply": "We understand how frustrating it is when your PC keeps crashing, especially when it is your livelihood. To help us investigate the cause of these frequent crashes, could you please let us know if you are seeing any specific error messages or blue screens when the crashes occur?"
+    }
+  }
+}

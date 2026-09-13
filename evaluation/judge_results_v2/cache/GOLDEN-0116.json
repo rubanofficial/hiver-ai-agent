@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0116",
+  "input_fingerprint": "30e2a15d12f4604a202d9deb4e478dd28ae16a5b7263ccfaea5947100bde1f0c",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T11:24:25+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0116",
+    "customer_message": "@MicrosoftHelps Why would this 1709 update for AMD systems try and automatically install when I have an Intel CPU?? https://t.co/gdv8F15wBa",
+    "conversation_context": "MICROSOFT (1549792): @170718 That’s unusual, Adam! Let’s get this sorted. Can you send us a DM? Which graphic card are you using? https://t.co/3qcAsLFkaY",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"520607\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.693858, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Hey @MicrosoftHelps why am I getting an update for \\\"amd64\\\" CPUs, I have an Intel one.\"}\n{\"evidence_id\": \"2742560\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 3}, \"score\": 0.688179, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Have tried all the information in the article and it didn't fix it. I looks like it only happens on AMD processors | @105173 @MicrosoftHelps #WindowsInsiders  I think there is an issue on build 17090.1000 on AMD based machines. When I try and upgrade it either hangs or doesn't install with error 0Xc1900101. It then goes back to 17025 and tries to download it again - it constantly does this. | @MicrosoftHelps Have already done this.\"}\n{\"evidence_id\": \"1700560\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.631218, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@115890 @116230 you’re feature 1709 update won’t install after many attempts even using WUT #fixit\"}",
+    "generated_reply": "We understand you are seeing an AMD-related update attempt on your Intel system and that update issues can be frustrating. Because this situation requires further investigation into your specific system setup and update logs, please contact Microsoft Support so we can look into why the incorrect architecture is targeting your device."
+  },
+  "raw_response": "{\n  \"correctness\": 4,\n  \"helpfulness\": 4,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 4,\n  \"evidence_support\": 4,\n  \"unsupported_claims\": 5,\n  \"evidence_relevance\": 4,\n  \"grounding_score\": 4,\n  \"reason\": \"The reply accurately addresses the user's confusion about an AMD update targeting an Intel system, acknowledges the issue, and correctly suggests contacting support for deeper investigation since it requires log analysis.\"\n}",
+  "result": {
+    "correctness": 4,
+    "helpfulness": 4,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 4,
+    "evidence_support": 4,
+    "unsupported_claims": 5,
+    "evidence_relevance": 4,
+    "grounding_score": 4,
+    "reason": "The reply accurately addresses the user's confusion about an AMD update targeting an Intel system, acknowledges the issue, and correctly suggests contacting support for deeper investigation since it requires log analysis.",
+    "overall_score": 4,
+    "short_reason": "The reply accurately addresses the user's confusion about an AMD update targeting an Intel system, acknowledges the issue, and correctly suggests contacting support for deeper investigation since it requires log analysis.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 4,
+      "helpfulness": 4,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 4,
+      "unsupported_claims": 5,
+      "evidence_relevance": 4
+    },
+    "golden_id": "GOLDEN-0116",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0116",
+      "customer_message": "@MicrosoftHelps Why would this 1709 update for AMD systems try and automatically install when I have an Intel CPU?? https://t.co/gdv8F15wBa",
+      "conversation_context": "MICROSOFT (1549792): @170718 That’s unusual, Adam! Let’s get this sorted. Can you send us a DM? Which graphic card are you using? https://t.co/3qcAsLFkaY",
+      "predicted_intent": "Technical Troubleshooting",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"520607\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.693858, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Hey @MicrosoftHelps why am I getting an update for \\\"amd64\\\" CPUs, I have an Intel one.\"}\n{\"evidence_id\": \"2742560\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 3}, \"score\": 0.688179, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Have tried all the information in the article and it didn't fix it. I looks like it only happens on AMD processors | @105173 @MicrosoftHelps #WindowsInsiders  I think there is an issue on build 17090.1000 on AMD based machines. When I try and upgrade it either hangs or doesn't install with error 0Xc1900101. It then goes back to 17025 and tries to download it again - it constantly does this. | @MicrosoftHelps Have already done this.\"}\n{\"evidence_id\": \"1700560\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.631218, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@115890 @116230 you’re feature 1709 update won’t install after many attempts even using WUT #fixit\"}",
+      "generated_reply": "We understand you are seeing an AMD-related update attempt on your Intel system and that update issues can be frustrating. Because this situation requires further investigation into your specific system setup and update logs, please contact Microsoft Support so we can look into why the incorrect architecture is targeting your device."
+    }
+  }
+}

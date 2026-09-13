@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0196",
+  "input_fingerprint": "ac9cd14da38469357403503ebe2a2663cd7ef7985f073092c4d84287dd61f902",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:47:24+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0196",
+    "customer_message": "@MicrosoftHelps whats wrong with microsoft you push windows10 down my troat  every update you do changes my setting  and now you want to suspend my email i dont get it if im not good enough i will change to a non microsoft laptop",
+    "conversation_context": "MICROSOFT (2939966): @674970 Hello, Marco. Thank you for reaching out. We'd like to help. Can you tell us more about the issue you're having with Windows 10 and your email? Let's work on this together. You may also send us a Direct Message to discuss things on a personal note. https://t.co/3qcAsLFkaY",
+    "predicted_intent": "Complaint / Feedback",
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+    "retrieved_evidence": "{\"evidence_id\": \"573930\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.626832, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Last time i logged in was last week, the error message was that my emails got suspended, and the emails are __email__ and __email__ | @MicrosoftHelps two of my emails were suspended for no reason. What's up with that?\"}\n{\"evidence_id\": \"590720\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.609406, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps  # yes my personal account plz my contact no send me  new a/c __email__. My  old __email__ | @MicrosoftHelps  #my outlook account is temporary suspend &amp; not login my account  and my all contact number go any way #plz help me guys\"}\n{\"evidence_id\": \"990767\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 3}, \"score\": 0.606615, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Windows 10 slows down sometimes.But I haven’t downloaded windows 10 creator update.Let me do that first then I’ll contact back | @MicrosoftHelps Have you got the email for For Panos Panay or Microsoft surface team.I wrote a letter about myself and a question and want to email it. | @MicrosoftHelps \\nPlease help out.I also have another question\"}",
+    "generated_reply": "We understand your frustration regarding your settings and your email account. Since we do not have enough information in our current guidelines to resolve suspended email accounts or update issues directly through this chat, please contact Microsoft support directly for further assistance."
+  },
+  "raw_response": "{\n  \"correctness\": 4,\n  \"helpfulness\": 4,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 4,\n  \"evidence_support\": 4,\n  \"unsupported_claims\": 5,\n  \"evidence_relevance\": 4,\n  \"grounding_score\": 4,\n  \"reason\": \"The reply appropriately addresses the user's frustration regarding settings and email suspension, acknowledges the need for human support due to complex account issues, and remains clear and professional without introducing unsupported guarantees.\"\n}",
+  "result": {
+    "correctness": 4,
+    "helpfulness": 4,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 4,
+    "evidence_support": 4,
+    "unsupported_claims": 5,
+    "evidence_relevance": 4,
+    "grounding_score": 4,
+    "reason": "The reply appropriately addresses the user's frustration regarding settings and email suspension, acknowledges the need for human support due to complex account issues, and remains clear and professional without introducing unsupported guarantees.",
+    "overall_score": 4,
+    "short_reason": "The reply appropriately addresses the user's frustration regarding settings and email suspension, acknowledges the need for human support due to complex account issues, and remains clear and professional without introducing unsupported guarantees.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 4,
+      "helpfulness": 4,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 4,
+      "unsupported_claims": 5,
+      "evidence_relevance": 4
+    },
+    "golden_id": "GOLDEN-0196",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0196",
+      "customer_message": "@MicrosoftHelps whats wrong with microsoft you push windows10 down my troat  every update you do changes my setting  and now you want to suspend my email i dont get it if im not good enough i will change to a non microsoft laptop",
+      "conversation_context": "MICROSOFT (2939966): @674970 Hello, Marco. Thank you for reaching out. We'd like to help. Can you tell us more about the issue you're having with Windows 10 and your email? Let's work on this together. You may also send us a Direct Message to discuss things on a personal note. https://t.co/3qcAsLFkaY",
+      "predicted_intent": "Complaint / Feedback",
+      "predicted_escalation": "ESCALATE_TO_HUMAN",
+      "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+      "retrieved_evidence": "{\"evidence_id\": \"573930\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.626832, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Last time i logged in was last week, the error message was that my emails got suspended, and the emails are __email__ and __email__ | @MicrosoftHelps two of my emails were suspended for no reason. What's up with that?\"}\n{\"evidence_id\": \"590720\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.609406, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps  # yes my personal account plz my contact no send me  new a/c __email__. My  old __email__ | @MicrosoftHelps  #my outlook account is temporary suspend &amp; not login my account  and my all contact number go any way #plz help me guys\"}\n{\"evidence_id\": \"990767\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 3}, \"score\": 0.606615, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Windows 10 slows down sometimes.But I haven’t downloaded windows 10 creator update.Let me do that first then I’ll contact back | @MicrosoftHelps Have you got the email for For Panos Panay or Microsoft surface team.I wrote a letter about myself and a question and want to email it. | @MicrosoftHelps \\nPlease help out.I also have another question\"}",
+      "generated_reply": "We understand your frustration regarding your settings and your email account. Since we do not have enough information in our current guidelines to resolve suspended email accounts or update issues directly through this chat, please contact Microsoft support directly for further assistance."
+    }
+  }
+}

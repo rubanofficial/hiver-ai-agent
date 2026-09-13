@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0025",
+  "input_fingerprint": "96ae0263844130bd6c83906a4031322a5bfadd34b4e2f617c751d4f849a857db",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:30:03+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0025",
+    "customer_message": "@MicrosoftHelps After Sept.update I can no longer connect to ftp server to update my site Was there a security change that would cause this?",
+    "conversation_context": "MICROSOFT (238304): @172696 Hello! We definitely want to help! Which Windows version are you using and which site are you pertaining to?\nCUSTOMER (238305): @MicrosoftHelps W 10. Magix web:after your update can’t export to or update my website. I get an internal error message, no number or other id info given.",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"524621\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.63093, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps with the latest windows update I can’t event connect to the internet wtf?\"}\n{\"evidence_id\": \"2451946\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.62106, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps something always goes wrong with the security update pls do something i am tired https://t.co/4mZYzSl3gH\"}\n{\"evidence_id\": \"351268\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.602862, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Guys, two hours updating so far, this is killing me. Need access to my machine. Any way of bypassing this?\"}",
+    "generated_reply": "We are sorry to hear you are having trouble connecting to your FTP server after the update. As we do not have specific troubleshooting steps or details regarding a security change for this in our current records, please contact Microsoft support directly for further assistance."
+  },
+  "raw_response": "{\n  \"correctness\": 4,\n  \"helpfulness\": 4,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 4,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 4,\n  \"evidence_relevance\": 2,\n  \"grounding_score\": 3,\n  \"reason\": \"The reply addresses the customer's issue clearly and appropriately suggests contacting support since no specific troubleshooting steps are available in the retrieved evidence.\"\n}",
+  "result": {
+    "correctness": 4,
+    "helpfulness": 4,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 4,
+    "evidence_support": 3,
+    "unsupported_claims": 4,
+    "evidence_relevance": 2,
+    "grounding_score": 3,
+    "reason": "The reply addresses the customer's issue clearly and appropriately suggests contacting support since no specific troubleshooting steps are available in the retrieved evidence.",
+    "overall_score": 4,
+    "short_reason": "The reply addresses the customer's issue clearly and appropriately suggests contacting support since no specific troubleshooting steps are available in the retrieved evidence.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 4,
+      "helpfulness": 4,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 4,
+      "evidence_relevance": 2
+    },
+    "golden_id": "GOLDEN-0025",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0025",
+      "customer_message": "@MicrosoftHelps After Sept.update I can no longer connect to ftp server to update my site Was there a security change that would cause this?",
+      "conversation_context": "MICROSOFT (238304): @172696 Hello! We definitely want to help! Which Windows version are you using and which site are you pertaining to?\nCUSTOMER (238305): @MicrosoftHelps W 10. Magix web:after your update can’t export to or update my website. I get an internal error message, no number or other id info given.",
+      "predicted_intent": "Technical Troubleshooting",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"524621\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.63093, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps with the latest windows update I can’t event connect to the internet wtf?\"}\n{\"evidence_id\": \"2451946\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.62106, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps something always goes wrong with the security update pls do something i am tired https://t.co/4mZYzSl3gH\"}\n{\"evidence_id\": \"351268\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.602862, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Guys, two hours updating so far, this is killing me. Need access to my machine. Any way of bypassing this?\"}",
+      "generated_reply": "We are sorry to hear you are having trouble connecting to your FTP server after the update. As we do not have specific troubleshooting steps or details regarding a security change for this in our current records, please contact Microsoft support directly for further assistance."
+    }
+  }
+}

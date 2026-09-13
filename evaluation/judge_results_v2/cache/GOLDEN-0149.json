@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0149",
+  "input_fingerprint": "07fda8f86712ce58f64d2067132413a6e8939215ad6ba53f1e991a25b8ffa4cc",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T11:27:04+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0149",
+    "customer_message": "@116230 Still waiting to receive a notification to download Fall Creators Update as a Windows 10 Enterprise user on the east coast. 😡👎🏼",
+    "conversation_context": "MICROSOFT (2074064): @613411 That's great! Have fun exploring the Windows 10 Fall Creator Update. Cheers!\nCUSTOMER (2074065): @116230 Thank you. I was able to update by downloading the latest ISO from MSDN 👍🏼\nCUSTOMER (2074066): @613411 Hey, Eric. You can learn more about the Fall Creators Update roll out here: https://t.co/8W4g0ftzgQ",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"1054648\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.798677, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@116230 very excited for Windows 10 fall creators update on 10/17. I know I said that already but so hard to keep excitement in\"}\n{\"evidence_id\": \"847864\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.766894, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Windows 10 fall creators update done 🔥🔥🔥\"}\n{\"evidence_id\": \"1884344\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.720684, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@116230 when fall crater update will be available for all users?. Waiting from 17 Oct.\"}",
+    "generated_reply": "Thanks for reaching out to MicrosoftHelps. Based on a similar case, users have been eagerly awaiting the Windows 10 Fall Creators Update rollout. If you have not yet received the notification, we recommend checking your Windows Update settings directly in your system, or visiting official Microsoft Support channels for more information on the rollout phases."
+  },
+  "raw_response": "{\n  \"correctness\": 4,\n  \"helpfulness\": 4,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 4,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 4,\n  \"evidence_relevance\": 3,\n  \"grounding_score\": 3,\n  \"reason\": \"The reply directly addresses the customer's wait for the Windows 10 Fall Creators Update by offering standard troubleshooting advice (checking Windows Update settings), though the retrieved evidence is mostly anecdotal chatter rather than specific support instructions.\"\n}",
+  "result": {
+    "correctness": 4,
+    "helpfulness": 4,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 4,
+    "evidence_support": 3,
+    "unsupported_claims": 4,
+    "evidence_relevance": 3,
+    "grounding_score": 3,
+    "reason": "The reply directly addresses the customer's wait for the Windows 10 Fall Creators Update by offering standard troubleshooting advice (checking Windows Update settings), though the retrieved evidence is mostly anecdotal chatter rather than specific support instructions.",
+    "overall_score": 4,
+    "short_reason": "The reply directly addresses the customer's wait for the Windows 10 Fall Creators Update by offering standard troubleshooting advice (checking Windows Update settings), though the retrieved evidence is mostly anecdotal chatter rather than specific support instructions.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 4,
+      "helpfulness": 4,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 4,
+      "evidence_relevance": 3
+    },
+    "golden_id": "GOLDEN-0149",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0149",
+      "customer_message": "@116230 Still waiting to receive a notification to download Fall Creators Update as a Windows 10 Enterprise user on the east coast. 😡👎🏼",
+      "conversation_context": "MICROSOFT (2074064): @613411 That's great! Have fun exploring the Windows 10 Fall Creator Update. Cheers!\nCUSTOMER (2074065): @116230 Thank you. I was able to update by downloading the latest ISO from MSDN 👍🏼\nCUSTOMER (2074066): @613411 Hey, Eric. You can learn more about the Fall Creators Update roll out here: https://t.co/8W4g0ftzgQ",
+      "predicted_intent": "Technical Troubleshooting",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"1054648\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.798677, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@116230 very excited for Windows 10 fall creators update on 10/17. I know I said that already but so hard to keep excitement in\"}\n{\"evidence_id\": \"847864\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.766894, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Windows 10 fall creators update done 🔥🔥🔥\"}\n{\"evidence_id\": \"1884344\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.720684, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@116230 when fall crater update will be available for all users?. Waiting from 17 Oct.\"}",
+      "generated_reply": "Thanks for reaching out to MicrosoftHelps. Based on a similar case, users have been eagerly awaiting the Windows 10 Fall Creators Update rollout. If you have not yet received the notification, we recommend checking your Windows Update settings directly in your system, or visiting official Microsoft Support channels for more information on the rollout phases."
+    }
+  }
+}

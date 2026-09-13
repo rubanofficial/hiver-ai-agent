@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0215",
+  "input_fingerprint": "30bf22841659c31d041807428f71657493d866643d38efd2e818edca559339c1",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:05:59+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0215",
+    "customer_message": "@microsofthelps your service on my recent order has been terrible.  My online order is stuck in no-man's land, saying it's \"shipped\", however label created status and \"ship date\" are 11/15.  it's no longer 11/15.  you guys gotta figure out your issues and call me back",
+    "conversation_context": "MICROSOFT (424742): @216084 Hi, Marc. We'd like this taken care of. To clear things out about your order, we suggest contacting Microsoft Store here: https://t.co/K6W9fZ2nJC. Let us know how it goes.",
+    "predicted_intent": "Order / Delivery",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"522024\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.702171, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@115890 @MicrosoftHelps | .@135958 my Xbox One S was supposed to be delivered today but it still hasn’t shipped?\"}\n{\"evidence_id\": \"2067219\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.676961, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Dear @MicrosoftHelps. My online order can't be processed &amp; chat/support not working on weekends? \\\"Offices closed\\\" #hellocustomerservice\"}\n{\"evidence_id\": \"607977\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.658012, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I still haven't received a call about a missing order\"}",
+    "generated_reply": "Hello, we sincerely apologize for the frustration with your order status and the delay you are experiencing. Based on similar cases where customers are waiting for updates on missing or delayed orders, we recommend reaching out directly to Microsoft Support for further assistance since our historical records indicate customers often need to follow up with support when callbacks are delayed. Thank you for your patience."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 4,\n  \"clarity\": 4,\n  \"escalation_appropriateness\": 4,\n  \"overall_reply_score\": 3,\n  \"evidence_support\": 2,\n  \"unsupported_claims\": 2,\n  \"evidence_relevance\": 2,\n  \"grounding_score\": 2,\n  \"reason\": \"The reply addresses the customer's order delay issue and suggests contacting support, but it references vague historical records and lacks specific actionable guidance or contact links, relying on generic statements.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 4,
+    "clarity": 4,
+    "escalation_appropriateness": 4,
+    "overall_reply_score": 3,
+    "evidence_support": 2,
+    "unsupported_claims": 2,
+    "evidence_relevance": 2,
+    "grounding_score": 2,
+    "reason": "The reply addresses the customer's order delay issue and suggests contacting support, but it references vague historical records and lacks specific actionable guidance or contact links, relying on generic statements.",
+    "overall_score": 3,
+    "short_reason": "The reply addresses the customer's order delay issue and suggests contacting support, but it references vague historical records and lacks specific actionable guidance or contact links, relying on generic statements.",
+    "grounding_decision": "UNSUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 4,
+      "clarity": 4,
+      "escalation_appropriateness": 4
+    },
+    "evidence_grounding": {
+      "evidence_support": 2,
+      "unsupported_claims": 2,
+      "evidence_relevance": 2
+    },
+    "golden_id": "GOLDEN-0215",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0215",
+      "customer_message": "@microsofthelps your service on my recent order has been terrible.  My online order is stuck in no-man's land, saying it's \"shipped\", however label created status and \"ship date\" are 11/15.  it's no longer 11/15.  you guys gotta figure out your issues and call me back",
+      "conversation_context": "MICROSOFT (424742): @216084 Hi, Marc. We'd like this taken care of. To clear things out about your order, we suggest contacting Microsoft Store here: https://t.co/K6W9fZ2nJC. Let us know how it goes.",
+      "predicted_intent": "Order / Delivery",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"522024\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.702171, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@115890 @MicrosoftHelps | .@135958 my Xbox One S was supposed to be delivered today but it still hasn’t shipped?\"}\n{\"evidence_id\": \"2067219\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.676961, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Dear @MicrosoftHelps. My online order can't be processed &amp; chat/support not working on weekends? \\\"Offices closed\\\" #hellocustomerservice\"}\n{\"evidence_id\": \"607977\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.658012, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I still haven't received a call about a missing order\"}",
+      "generated_reply": "Hello, we sincerely apologize for the frustration with your order status and the delay you are experiencing. Based on similar cases where customers are waiting for updates on missing or delayed orders, we recommend reaching out directly to Microsoft Support for further assistance since our historical records indicate customers often need to follow up with support when callbacks are delayed. Thank you for your patience."
+    }
+  }
+}

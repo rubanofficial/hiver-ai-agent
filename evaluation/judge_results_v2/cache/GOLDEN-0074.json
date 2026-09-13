@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0074",
+  "input_fingerprint": "1f26ebffaf7226a15d5f945dec95c3812491bc29282f77e16a3f97ed5f620197",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-12T04:36:15+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0074",
+    "customer_message": "Updating @116230 10 to fall creator update always failed with cryptic error, my 256 GB ssd is not happy for sure",
+    "conversation_context": "MICROSOFT (907371): @271006 Hello! Are you still experiencing the same issue? We are always here to help.\nCUSTOMER (907372): @MicrosoftHelps Hi, i will try again when its cold (not joking here) The thermal shutdown always happen every time i try to update windows\nCUSTOMER (907373): @MicrosoftHelps  https://t.co/Hk49rdFpjE\nCUSTOMER (907374): @MicrosoftHelps need to use media creation tool and I got thermal shutdown, need to wait for winter before I can install this\nMICROSOFT (907375): @271006 We'll keep an eye on your update.\nMICROSOFT (907376): @271006 Thanks for the screenshot. Are you still experiencing the issue? What troubleshooting steps have been done so far?\nCUSTOMER (907377): @MicrosoftHelps Looks stuck https://t.co/osf8Em5pdx\nMICROSOFT (907378): @271006 Got it. Let's run the Windows Update Troubleshooter. Here's how: https://t.co/7S5EuQH9Ep. Let us know how it goes.\nCUSTOMER (907379): @MicrosoftHelps Feature update to Windows 10, version 1709 - Error 0x8007045b https://t.co/70sxhIaFwy\nMICROSOFT (907380): @271006 Hi. We hear you. May we know what error message you're getting? Let us know.",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"1088599\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.713962, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"finally got the error when trying to install fall creators update: 0x80070490 - 0x20003 apparently i'm not alone on the @123127 :(\"}\n{\"evidence_id\": \"1964206\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.649692, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@116230 I'm having some trouble with your Fall Creators Update, my computers refuse to boot after attempted install, no signal to screen.\"}\n{\"evidence_id\": \"2314972\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 3}, \"score\": 0.635063, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Why is the fall creator's update failing to install via Windows Update on my Lenovo Legion Core Y520 @671264 @132789 @116230 | @671264 @132789 @116230 There was no error other than Windows Update showing \\\"Waiting for restart\\\" but after restart it started downloading update from beginning. | @MicrosoftHelps I actually had to download the iso off the Windows 10 download page and install it using a bootable USB and it worked for me. Thanks.\"}",
+    "generated_reply": "Based on a similar case, one user resolved an issue with the Fall Creators Update failing to install by downloading the ISO file from the Windows 10 download page and installing it using a bootable USB."
+  },
+  "raw_response": "{\n  \"correctness\": 4,\n  \"helpfulness\": 4,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 4,\n  \"overall_reply_score\": 4,\n  \"evidence_support\": 5,\n  \"unsupported_claims\": 5,\n  \"evidence_relevance\": 4,\n  \"grounding_score\": 5,\n  \"reason\": \"The reply directly utilizes a working solution from the retrieved evidence (using a bootable USB with the ISO) to address the user's persistent Windows 10 update failure, though the user also mentioned hardware thermal issues.\"\n}",
+  "result": {
+    "correctness": 4,
+    "helpfulness": 4,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 4,
+    "overall_reply_score": 4,
+    "evidence_support": 5,
+    "unsupported_claims": 5,
+    "evidence_relevance": 4,
+    "grounding_score": 5,
+    "reason": "The reply directly utilizes a working solution from the retrieved evidence (using a bootable USB with the ISO) to address the user's persistent Windows 10 update failure, though the user also mentioned hardware thermal issues.",
+    "overall_score": 4,
+    "short_reason": "The reply directly utilizes a working solution from the retrieved evidence (using a bootable USB with the ISO) to address the user's persistent Windows 10 update failure, though the user also mentioned hardware thermal issues.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 4,
+      "helpfulness": 4,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 4
+    },
+    "evidence_grounding": {
+      "evidence_support": 5,
+      "unsupported_claims": 5,
+      "evidence_relevance": 4
+    },
+    "golden_id": "GOLDEN-0074",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0074",
+      "customer_message": "Updating @116230 10 to fall creator update always failed with cryptic error, my 256 GB ssd is not happy for sure",
+      "conversation_context": "MICROSOFT (907371): @271006 Hello! Are you still experiencing the same issue? We are always here to help.\nCUSTOMER (907372): @MicrosoftHelps Hi, i will try again when its cold (not joking here) The thermal shutdown always happen every time i try to update windows\nCUSTOMER (907373): @MicrosoftHelps  https://t.co/Hk49rdFpjE\nCUSTOMER (907374): @MicrosoftHelps need to use media creation tool and I got thermal shutdown, need to wait for winter before I can install this\nMICROSOFT (907375): @271006 We'll keep an eye on your update.\nMICROSOFT (907376): @271006 Thanks for the screenshot. Are you still experiencing the issue? What troubleshooting steps have been done so far?\nCUSTOMER (907377): @MicrosoftHelps Looks stuck https://t.co/osf8Em5pdx\nMICROSOFT (907378): @271006 Got it. Let's run the Windows Update Troubleshooter. Here's how: https://t.co/7S5EuQH9Ep. Let us know how it goes.\nCUSTOMER (907379): @MicrosoftHelps Feature update to Windows 10, version 1709 - Error 0x8007045b https://t.co/70sxhIaFwy\nMICROSOFT (907380): @271006 Hi. We hear you. May we know what error message you're getting? Let us know.",
+      "predicted_intent": "Technical Troubleshooting",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"1088599\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.713962, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"finally got the error when trying to install fall creators update: 0x80070490 - 0x20003 apparently i'm not alone on the @123127 :(\"}\n{\"evidence_id\": \"1964206\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.649692, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@116230 I'm having some trouble with your Fall Creators Update, my computers refuse to boot after attempted install, no signal to screen.\"}\n{\"evidence_id\": \"2314972\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 3}, \"score\": 0.635063, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Why is the fall creator's update failing to install via Windows Update on my Lenovo Legion Core Y520 @671264 @132789 @116230 | @671264 @132789 @116230 There was no error other than Windows Update showing \\\"Waiting for restart\\\" but after restart it started downloading update from beginning. | @MicrosoftHelps I actually had to download the iso off the Windows 10 download page and install it using a bootable USB and it worked for me. Thanks.\"}",
+      "generated_reply": "Based on a similar case, one user resolved an issue with the Fall Creators Update failing to install by downloading the ISO file from the Windows 10 download page and installing it using a bootable USB."
+    }
+  }
+}

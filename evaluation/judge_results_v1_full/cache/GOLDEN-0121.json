@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0121",
+  "input_fingerprint": "4c9b5392638fee5ba7eb6a9132843088f4bf0e715a1540e9d43befbc79fe08ad",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:39:40+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0121",
+    "customer_message": "@MicrosoftHelps Security updates. I don 't want them https://t.co/yldmcI8i1y",
+    "conversation_context": "MICROSOFT (1645761): @502884 Thank you for the info. We suggest checking Guru Kiran G's post: https://t.co/FCjGVcLvVr to resolve the issue. Give us an update.\nCUSTOMER (1645762): @MicrosoftHelps Windows 10. No changes made as far as i know. This issue happens almost every day for the last months\nMICROSOFT (1645763): @502884 We'd like to know if the link worked for you? We're here for you if you need further assistance.\nMICROSOFT (1645764): @502884 Let’s sort this out, Johannes. Which Windows version are you using? Also, any changes made before the issue happened?\nCUSTOMER (1645765): Every day updates that allways #fail. Why?  @MicrosoftHelps https://t.co/WOAHbJIZ6w\nCUSTOMER (1649408): @MicrosoftHelps STOP THIS PLEASE https://t.co/WJGYNUnSH8\nCUSTOMER (1649409): @MicrosoftHelps No. Recovery environment never appears..\nMICROSOFT (1649410): @502884 We're here to help. Can you translate the error message in English? Were there recent changes made to your device prior to this? Please provide us more information about your concern.\nCUSTOMER (1649411): @MicrosoftHelps Reinstalling older version of Windows... Please stop   these automatic updates",
+    "predicted_intent": "Product / Feature How-To",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"973555\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.799961, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps @6580  Best update ever. https://t.co/0enm3wERpO\"}\n{\"evidence_id\": \"2451946\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.779226, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps something always goes wrong with the security update pls do something i am tired https://t.co/4mZYzSl3gH\"}\n{\"evidence_id\": \"737385\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.775817, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps forced updates are like the worst thing invented since popups...\"}",
+    "generated_reply": "I cannot fully resolve your issue regarding disabling security updates based on the available information. Please contact Microsoft support directly for further assistance."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 4,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 3,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 4,\n  \"evidence_relevance\": 2,\n  \"grounding_score\": 3,\n  \"reason\": \"The reply correctly identifies that it cannot resolve the user's complex issue based on limited evidence and suggests contacting support, but the retrieved evidence was largely irrelevant and did not provide actionable steps.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 4,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 3,
+    "evidence_support": 3,
+    "unsupported_claims": 4,
+    "evidence_relevance": 2,
+    "grounding_score": 3,
+    "reason": "The reply correctly identifies that it cannot resolve the user's complex issue based on limited evidence and suggests contacting support, but the retrieved evidence was largely irrelevant and did not provide actionable steps.",
+    "overall_score": 3,
+    "short_reason": "The reply correctly identifies that it cannot resolve the user's complex issue based on limited evidence and suggests contacting support, but the retrieved evidence was largely irrelevant and did not provide actionable steps.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 4,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 4,
+      "evidence_relevance": 2
+    },
+    "golden_id": "GOLDEN-0121",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0121",
+      "customer_message": "@MicrosoftHelps Security updates. I don 't want them https://t.co/yldmcI8i1y",
+      "conversation_context": "MICROSOFT (1645761): @502884 Thank you for the info. We suggest checking Guru Kiran G's post: https://t.co/FCjGVcLvVr to resolve the issue. Give us an update.\nCUSTOMER (1645762): @MicrosoftHelps Windows 10. No changes made as far as i know. This issue happens almost every day for the last months\nMICROSOFT (1645763): @502884 We'd like to know if the link worked for you? We're here for you if you need further assistance.\nMICROSOFT (1645764): @502884 Let’s sort this out, Johannes. Which Windows version are you using? Also, any changes made before the issue happened?\nCUSTOMER (1645765): Every day updates that allways #fail. Why?  @MicrosoftHelps https://t.co/WOAHbJIZ6w\nCUSTOMER (1649408): @MicrosoftHelps STOP THIS PLEASE https://t.co/WJGYNUnSH8\nCUSTOMER (1649409): @MicrosoftHelps No. Recovery environment never appears..\nMICROSOFT (1649410): @502884 We're here to help. Can you translate the error message in English? Were there recent changes made to your device prior to this? Please provide us more information about your concern.\nCUSTOMER (1649411): @MicrosoftHelps Reinstalling older version of Windows... Please stop   these automatic updates",
+      "predicted_intent": "Product / Feature How-To",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"973555\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.799961, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps @6580  Best update ever. https://t.co/0enm3wERpO\"}\n{\"evidence_id\": \"2451946\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.779226, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps something always goes wrong with the security update pls do something i am tired https://t.co/4mZYzSl3gH\"}\n{\"evidence_id\": \"737385\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.775817, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps forced updates are like the worst thing invented since popups...\"}",
+      "generated_reply": "I cannot fully resolve your issue regarding disabling security updates based on the available information. Please contact Microsoft support directly for further assistance."
+    }
+  }
+}

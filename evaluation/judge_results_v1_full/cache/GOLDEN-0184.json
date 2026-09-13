@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0184",
+  "input_fingerprint": "b4863c5aedd15cb6fa2c10ecdfd8c3aee8c0d18413b3f2db7e2cce9456154cd2",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:45:48+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0184",
+    "customer_message": "@MicrosoftHelps @115890 Unban Me,  I have no right to be banned and your people couldn't websites couldn't help me.",
+    "conversation_context": "MICROSOFT (2716769): @141201 Have you been able to get in touch with our Xbox Support team? If yes, kindly send us a DM containing your service request number. We'll take a look into this. https://t.co/3qcAsLFkaY",
+    "predicted_intent": "Account & Login",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"2590644\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 3}, \"score\": 0.759923, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps No I'm not allowed send messages or be in party chats | @MicrosoftHelps why has my account been banned? | @MicrosoftHelps It's fixed now bud\"}\n{\"evidence_id\": \"2658488\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.751679, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@115786 @115890 @XboxSupport @MicrosoftHelps I just got banned for harresment on all my accounts through one acc all because of a toxic butthurt player and it's for 15 days all from just one report which if you ask normal person thats complete bs can you please look into this ty\"}\n{\"evidence_id\": \"1075154\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.748992, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps please read your dms I've done all of that none sense and you've blocked my account | @MicrosoftHelps WHY have you blocked my account\"}",
+    "generated_reply": "We understand your frustration regarding your account ban, but the available information is insufficient to resolve this issue. Please contact Microsoft support directly for further assistance with your account."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 4,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 3,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 4,\n  \"evidence_relevance\": 3,\n  \"grounding_score\": 3,\n  \"reason\": \"The reply acknowledges the customer's ban and correctly directs them to contact support, but lacks specific actionable steps and context since the agent didn't provide a direct link or ask for a DM as suggested by prior context.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 4,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 3,
+    "evidence_support": 3,
+    "unsupported_claims": 4,
+    "evidence_relevance": 3,
+    "grounding_score": 3,
+    "reason": "The reply acknowledges the customer's ban and correctly directs them to contact support, but lacks specific actionable steps and context since the agent didn't provide a direct link or ask for a DM as suggested by prior context.",
+    "overall_score": 3,
+    "short_reason": "The reply acknowledges the customer's ban and correctly directs them to contact support, but lacks specific actionable steps and context since the agent didn't provide a direct link or ask for a DM as suggested by prior context.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 4,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 4,
+      "evidence_relevance": 3
+    },
+    "golden_id": "GOLDEN-0184",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0184",
+      "customer_message": "@MicrosoftHelps @115890 Unban Me,  I have no right to be banned and your people couldn't websites couldn't help me.",
+      "conversation_context": "MICROSOFT (2716769): @141201 Have you been able to get in touch with our Xbox Support team? If yes, kindly send us a DM containing your service request number. We'll take a look into this. https://t.co/3qcAsLFkaY",
+      "predicted_intent": "Account & Login",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"2590644\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 3}, \"score\": 0.759923, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps No I'm not allowed send messages or be in party chats | @MicrosoftHelps why has my account been banned? | @MicrosoftHelps It's fixed now bud\"}\n{\"evidence_id\": \"2658488\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.751679, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@115786 @115890 @XboxSupport @MicrosoftHelps I just got banned for harresment on all my accounts through one acc all because of a toxic butthurt player and it's for 15 days all from just one report which if you ask normal person thats complete bs can you please look into this ty\"}\n{\"evidence_id\": \"1075154\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.748992, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps please read your dms I've done all of that none sense and you've blocked my account | @MicrosoftHelps WHY have you blocked my account\"}",
+      "generated_reply": "We understand your frustration regarding your account ban, but the available information is insufficient to resolve this issue. Please contact Microsoft support directly for further assistance with your account."
+    }
+  }
+}

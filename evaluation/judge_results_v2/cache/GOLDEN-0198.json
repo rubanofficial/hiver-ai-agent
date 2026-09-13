@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0198",
+  "input_fingerprint": "9a2dc0ed179a595565659bb00387c1de78dd0fd676ba4ba0c45a1582179c6d04",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T11:44:27+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0198",
+    "customer_message": "@MicrosoftHelps i NEED to get into my hotmail account but have been denied twice. Ive answered the questions correctly. Can i be contacted ASAP please",
+    "conversation_context": "MICROSOFT (2944173): @543861 Hi, Shannon. Thank you for bringing this up. When was the last time that your account has been signed in?\nCUSTOMER (2944174): @MicrosoftHelps Yesterday",
+    "predicted_intent": "Account & Login",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"1427171\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 3}, \"score\": 0.844836, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I have done this and I'm still not getting any answers! | @MicrosoftHelps please can you reply to my message. Have been blocked from using my hotmail account and I need to access my emails urgently. | @MicrosoftHelps I am getting absolutely nowhere with this. Disgusted with the lack of help in getting me back into my account.\"}\n{\"evidence_id\": \"2287765\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.786251, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I have no way to access the account to add security information | @MicrosoftHelps hotmail account keeps getting blocked after several account recovery form submissions HELP\"}\n{\"evidence_id\": \"1465579\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.780295, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps @MicrosoftHelps still no response... | @MicrosoftHelps after 4 hours on the telephone, told that I am permanently blocked from my hotmail account. This is not good\"}",
+    "generated_reply": "We understand how urgent it is to access your Hotmail account. Based on similar cases where users experienced blocked accounts and difficulties with the recovery form, we recommend reaching out directly to Microsoft Support for further assistance with your account recovery."
+  },
+  "raw_response": "{\n  \"correctness\": 4,\n  \"helpfulness\": 4,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 4,\n  \"evidence_support\": 4,\n  \"unsupported_claims\": 4,\n  \"evidence_relevance\": 4,\n  \"grounding_score\": 4,\n  \"reason\": \"The reply directly addresses the customer's urgent Hotmail access issue and recommends contacting support, which aligns well with the evidence of users struggling with recovery forms.\"\n}",
+  "result": {
+    "correctness": 4,
+    "helpfulness": 4,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 4,
+    "evidence_support": 4,
+    "unsupported_claims": 4,
+    "evidence_relevance": 4,
+    "grounding_score": 4,
+    "reason": "The reply directly addresses the customer's urgent Hotmail access issue and recommends contacting support, which aligns well with the evidence of users struggling with recovery forms.",
+    "overall_score": 4,
+    "short_reason": "The reply directly addresses the customer's urgent Hotmail access issue and recommends contacting support, which aligns well with the evidence of users struggling with recovery forms.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 4,
+      "helpfulness": 4,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 4,
+      "unsupported_claims": 4,
+      "evidence_relevance": 4
+    },
+    "golden_id": "GOLDEN-0198",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0198",
+      "customer_message": "@MicrosoftHelps i NEED to get into my hotmail account but have been denied twice. Ive answered the questions correctly. Can i be contacted ASAP please",
+      "conversation_context": "MICROSOFT (2944173): @543861 Hi, Shannon. Thank you for bringing this up. When was the last time that your account has been signed in?\nCUSTOMER (2944174): @MicrosoftHelps Yesterday",
+      "predicted_intent": "Account & Login",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"1427171\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 3}, \"score\": 0.844836, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I have done this and I'm still not getting any answers! | @MicrosoftHelps please can you reply to my message. Have been blocked from using my hotmail account and I need to access my emails urgently. | @MicrosoftHelps I am getting absolutely nowhere with this. Disgusted with the lack of help in getting me back into my account.\"}\n{\"evidence_id\": \"2287765\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.786251, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I have no way to access the account to add security information | @MicrosoftHelps hotmail account keeps getting blocked after several account recovery form submissions HELP\"}\n{\"evidence_id\": \"1465579\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.780295, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps @MicrosoftHelps still no response... | @MicrosoftHelps after 4 hours on the telephone, told that I am permanently blocked from my hotmail account. This is not good\"}",
+      "generated_reply": "We understand how urgent it is to access your Hotmail account. Based on similar cases where users experienced blocked accounts and difficulties with the recovery form, we recommend reaching out directly to Microsoft Support for further assistance with your account recovery."
+    }
+  }
+}

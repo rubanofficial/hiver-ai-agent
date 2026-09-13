@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0100",
+  "input_fingerprint": "68e5fb5f3a61e05eed3b3ab162966920337049bf7498182f54ac5491f9940880",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T11:12:57+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0100",
+    "customer_message": "@MicrosoftHelps APPARENTLY, WHEN given the wrong WiFi password, the adapter becomes disabled. I re-enabled it, a week later had opportunity to connect &amp; VOILA! IT WORKS again. THX",
+    "conversation_context": "MICROSOFT (1213889): @234503 Thanks for the update. To help resolve Wi-Fi problems in Windows 10, see steps here: https://t.co/ub17v4hS2f. Update us.\nCUSTOMER (1213890): @116230 At home with no Wi-Fi within range, the front panel keyboard button works to enable-disable the adapter. In town, it shows hotspots but ...\nMICROSOFT (1213891): @234503 Hello. We want to make sure everything is good on your end. Feel free to update us anytime.\nCUSTOMER (1213892): @234503 Hello! Are you still having these issues with connecting to the internet? We're here to help.\nCUSTOMER (1213893): Had some kind of weird block today connecting Windows 10 via Wi-Fi to internet. I tried 2 hot spots. My adapter disabled, no on/off switch.\nCUSTOMER (1716741): @MicrosoftHelps Also upated MS Defender definitions during this time.",
+    "predicted_intent": "Network / Connectivity",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"2626560\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 5}, \"score\": 0.680543, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I’ve tried every solution on the Microsoft website and system restore. I couldn’t update it as it doesn’t even show up on my command prompt | @116230 Yes please! My wireless network adapter seems to be missing. I have tried every possible solution found on the internet but to no avail ! | @MicrosoftHelps It started few weeks ago out of a sudden. I then did system restore, and it was okay for a while. However, the issue resurfaced again. | @741880 Hello! Are you still having WiFi issues? Perhaps we can help! | this is a very random question but anyone using Windows 10 and has encountered missing wifi adapter issues? :/\"}\n{\"evidence_id\": \"2276601\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.661309, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I fixed it. After a painstakingly long 2 hour search, I found how to fix it. | @MicrosoftHelps can you guys please help me? My computer is unable to connect to WiFi. Even  when I go to Settings - Network and Internet\\n\\nIt only gives me these options:\\n\\nData Usage\\nVPN\\nDial-Up\\nEthernet\\nProxy\\n\\nNo WiFi.\"}\n{\"evidence_id\": \"2947254\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.655489, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps /errorcode had nothing on this particular one, this happened when I tried to open network settings. Please help https://t.co/F0Kif0QLVY\"}",
+    "generated_reply": "We are glad to hear that your network adapter is working again after re-enabling it! If you experience any further connectivity issues in the future, please feel free to reach out to Microsoft Support."
+  },
+  "raw_response": "{\n  \"correctness\": 5,\n  \"helpfulness\": 5,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 5,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 5,\n  \"evidence_relevance\": 2,\n  \"grounding_score\": 3,\n  \"reason\": \"The customer reported that their issue was resolved and thanked support. The generated reply appropriately acknowledges this positive outcome and offers future assistance. While the retrieved evidence is barely relevant (dealing with missing adapters rather than resolved ones), the reply itself contains no unsupported claims and correctly handles the interaction.\"\n}",
+  "result": {
+    "correctness": 5,
+    "helpfulness": 5,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 5,
+    "evidence_support": 3,
+    "unsupported_claims": 5,
+    "evidence_relevance": 2,
+    "grounding_score": 3,
+    "reason": "The customer reported that their issue was resolved and thanked support. The generated reply appropriately acknowledges this positive outcome and offers future assistance. While the retrieved evidence is barely relevant (dealing with missing adapters rather than resolved ones), the reply itself contains no unsupported claims and correctly handles the interaction.",
+    "overall_score": 5,
+    "short_reason": "The customer reported that their issue was resolved and thanked support. The generated reply appropriately acknowledges this positive outcome and offers future assistance. While the retrieved evidence is barely relevant (dealing with missing adapters rather than resolved ones), the reply itself contains no unsupported claims and correctly handles the interaction.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 5,
+      "helpfulness": 5,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 5,
+      "evidence_relevance": 2
+    },
+    "golden_id": "GOLDEN-0100",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0100",
+      "customer_message": "@MicrosoftHelps APPARENTLY, WHEN given the wrong WiFi password, the adapter becomes disabled. I re-enabled it, a week later had opportunity to connect &amp; VOILA! IT WORKS again. THX",
+      "conversation_context": "MICROSOFT (1213889): @234503 Thanks for the update. To help resolve Wi-Fi problems in Windows 10, see steps here: https://t.co/ub17v4hS2f. Update us.\nCUSTOMER (1213890): @116230 At home with no Wi-Fi within range, the front panel keyboard button works to enable-disable the adapter. In town, it shows hotspots but ...\nMICROSOFT (1213891): @234503 Hello. We want to make sure everything is good on your end. Feel free to update us anytime.\nCUSTOMER (1213892): @234503 Hello! Are you still having these issues with connecting to the internet? We're here to help.\nCUSTOMER (1213893): Had some kind of weird block today connecting Windows 10 via Wi-Fi to internet. I tried 2 hot spots. My adapter disabled, no on/off switch.\nCUSTOMER (1716741): @MicrosoftHelps Also upated MS Defender definitions during this time.",
+      "predicted_intent": "Network / Connectivity",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"2626560\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 5}, \"score\": 0.680543, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I’ve tried every solution on the Microsoft website and system restore. I couldn’t update it as it doesn’t even show up on my command prompt | @116230 Yes please! My wireless network adapter seems to be missing. I have tried every possible solution found on the internet but to no avail ! | @MicrosoftHelps It started few weeks ago out of a sudden. I then did system restore, and it was okay for a while. However, the issue resurfaced again. | @741880 Hello! Are you still having WiFi issues? Perhaps we can help! | this is a very random question but anyone using Windows 10 and has encountered missing wifi adapter issues? :/\"}\n{\"evidence_id\": \"2276601\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.661309, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I fixed it. After a painstakingly long 2 hour search, I found how to fix it. | @MicrosoftHelps can you guys please help me? My computer is unable to connect to WiFi. Even  when I go to Settings - Network and Internet\\n\\nIt only gives me these options:\\n\\nData Usage\\nVPN\\nDial-Up\\nEthernet\\nProxy\\n\\nNo WiFi.\"}\n{\"evidence_id\": \"2947254\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.655489, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps /errorcode had nothing on this particular one, this happened when I tried to open network settings. Please help https://t.co/F0Kif0QLVY\"}",
+      "generated_reply": "We are glad to hear that your network adapter is working again after re-enabling it! If you experience any further connectivity issues in the future, please feel free to reach out to Microsoft Support."
+    }
+  }
+}

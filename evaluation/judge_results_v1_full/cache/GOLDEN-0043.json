@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0043",
+  "input_fingerprint": "80c57353b90e1f88acaf6f24c05161b5f268d63d84ce688241b5a3ffa3888d6d",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:32:03+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0043",
+    "customer_message": "@MicrosoftHelps just bought a brand new Patrol Tech controller and not only does it not stay connected but your site will not let me register so I can make a Exchange. ER47140/16",
+    "conversation_context": "MICROSOFT (470470): @227016 Hi there! How is it going? Is everything working fine now? https://t.co/3qcAsLFkaY\nCUSTOMER (470471): @MicrosoftHelps No, I'm stuck without a controller for about another week or so until they send the replacement so I would say no everything is not worked out until I get the product I paid for last week",
+    "predicted_intent": "Warranty / Repair",
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "No evidence reached the confidence threshold for a safe autonomous reply (minimum 0.60); human review is required.",
+    "retrieved_evidence": "{\"evidence_id\": \"900282\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.50782, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"My controller doesn’t work after I updated it @MicrosoftHelps\"}\n{\"evidence_id\": \"291012\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.500783, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \". @MicrosoftHelps hmm seem to be caught in a loop, the link here just keeps redirecting me back to the page I'm on : https://t.co/Fj4vgkRRVF https://t.co/vjWPtiKuL2\"}\n{\"evidence_id\": \"761790\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.498512, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Useless lol | @MicrosoftHelps hi, my Xbox account has an active enforcement stopping me playing online and I don’t know why? Can you help?\"}",
+    "generated_reply": "Hello, we understand you are having trouble with your new controller and registering it on our site. Since we are unable to fully resolve your registration and connection issues with the current information, please contact Microsoft support directly for further assistance with your exchange."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 4,\n  \"clarity\": 4,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 3,\n  \"evidence_support\": 2,\n  \"unsupported_claims\": 3,\n  \"evidence_relevance\": 2,\n  \"grounding_score\": 2,\n  \"reason\": \"The reply appropriately suggests contacting support, but the retrieved evidence had low confidence and relevance, and the model made general claims not directly backed by specific evidence policies.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 4,
+    "clarity": 4,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 3,
+    "evidence_support": 2,
+    "unsupported_claims": 3,
+    "evidence_relevance": 2,
+    "grounding_score": 2,
+    "reason": "The reply appropriately suggests contacting support, but the retrieved evidence had low confidence and relevance, and the model made general claims not directly backed by specific evidence policies.",
+    "overall_score": 3,
+    "short_reason": "The reply appropriately suggests contacting support, but the retrieved evidence had low confidence and relevance, and the model made general claims not directly backed by specific evidence policies.",
+    "grounding_decision": "UNSUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 4,
+      "clarity": 4,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 2,
+      "unsupported_claims": 3,
+      "evidence_relevance": 2
+    },
+    "golden_id": "GOLDEN-0043",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0043",
+      "customer_message": "@MicrosoftHelps just bought a brand new Patrol Tech controller and not only does it not stay connected but your site will not let me register so I can make a Exchange. ER47140/16",
+      "conversation_context": "MICROSOFT (470470): @227016 Hi there! How is it going? Is everything working fine now? https://t.co/3qcAsLFkaY\nCUSTOMER (470471): @MicrosoftHelps No, I'm stuck without a controller for about another week or so until they send the replacement so I would say no everything is not worked out until I get the product I paid for last week",
+      "predicted_intent": "Warranty / Repair",
+      "predicted_escalation": "ESCALATE_TO_HUMAN",
+      "predicted_escalation_reason": "No evidence reached the confidence threshold for a safe autonomous reply (minimum 0.60); human review is required.",
+      "retrieved_evidence": "{\"evidence_id\": \"900282\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.50782, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"My controller doesn’t work after I updated it @MicrosoftHelps\"}\n{\"evidence_id\": \"291012\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.500783, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \". @MicrosoftHelps hmm seem to be caught in a loop, the link here just keeps redirecting me back to the page I'm on : https://t.co/Fj4vgkRRVF https://t.co/vjWPtiKuL2\"}\n{\"evidence_id\": \"761790\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.498512, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Useless lol | @MicrosoftHelps hi, my Xbox account has an active enforcement stopping me playing online and I don’t know why? Can you help?\"}",
+      "generated_reply": "Hello, we understand you are having trouble with your new controller and registering it on our site. Since we are unable to fully resolve your registration and connection issues with the current information, please contact Microsoft support directly for further assistance with your exchange."
+    }
+  }
+}

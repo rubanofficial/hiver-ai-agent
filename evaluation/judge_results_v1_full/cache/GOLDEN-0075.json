@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0075",
+  "input_fingerprint": "eea8ad30e1b7be91847357e3396a80589b5413a6171dc78a550d00e0ef945982",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:35:54+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0075",
+    "customer_message": "@MicrosoftHelps how ti find product key of windows 10",
+    "conversation_context": "MICROSOFT (915259): @337326 Sure, Ashok! To find your Windows product key, here's how: https://t.co/pOD3DnSa5d. Tell us if this works for you.\nCUSTOMER (915260): @MicrosoftHelps Please Help",
+    "predicted_intent": "Product / Feature How-To",
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Generated reply could not be grounded in historical evidence; human review is required.",
+    "retrieved_evidence": "{\"evidence_id\": \"505662\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.82577, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps hi there\\n\\nSo I’m from the UK and I just purchased a new laptop from @235983 but I’m curious of how I go about obtaining my windows 10 product key.\\n\\nI can’t seem to see it any where on the box is there a way I can find it out ?\"}\n{\"evidence_id\": \"120594\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.817433, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps where do I buy official windows 10 product keys?\"}\n{\"evidence_id\": \"2716765\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 1}, \"score\": 0.763714, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Having issues with activating my Windows 10 Home product key. It says the product key has already been used (0xC004C008), but I've removed my key from all my other devices. I also can't find the receipt/key in my order history anymore. Thanks in advance! :)\"}",
+    "generated_reply": "Hello! The provided historical evidence is insufficient to answer how to find your Windows 10 product key. Please contact Microsoft support directly for further assistance."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 4,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 3,\n  \"evidence_support\": 5,\n  \"unsupported_claims\": 5,\n  \"evidence_relevance\": 2,\n  \"grounding_score\": 5,\n  \"reason\": \"The reply correctly identifies that the retrieved evidence lacks the specific instructions to answer the user's question and appropriately suggests contacting support, aligning with the prediction to escalate.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 4,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 3,
+    "evidence_support": 5,
+    "unsupported_claims": 5,
+    "evidence_relevance": 2,
+    "grounding_score": 5,
+    "reason": "The reply correctly identifies that the retrieved evidence lacks the specific instructions to answer the user's question and appropriately suggests contacting support, aligning with the prediction to escalate.",
+    "overall_score": 3,
+    "short_reason": "The reply correctly identifies that the retrieved evidence lacks the specific instructions to answer the user's question and appropriately suggests contacting support, aligning with the prediction to escalate.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 4,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 5,
+      "unsupported_claims": 5,
+      "evidence_relevance": 2
+    },
+    "golden_id": "GOLDEN-0075",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0075",
+      "customer_message": "@MicrosoftHelps how ti find product key of windows 10",
+      "conversation_context": "MICROSOFT (915259): @337326 Sure, Ashok! To find your Windows product key, here's how: https://t.co/pOD3DnSa5d. Tell us if this works for you.\nCUSTOMER (915260): @MicrosoftHelps Please Help",
+      "predicted_intent": "Product / Feature How-To",
+      "predicted_escalation": "ESCALATE_TO_HUMAN",
+      "predicted_escalation_reason": "Generated reply could not be grounded in historical evidence; human review is required.",
+      "retrieved_evidence": "{\"evidence_id\": \"505662\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.82577, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps hi there\\n\\nSo I’m from the UK and I just purchased a new laptop from @235983 but I’m curious of how I go about obtaining my windows 10 product key.\\n\\nI can’t seem to see it any where on the box is there a way I can find it out ?\"}\n{\"evidence_id\": \"120594\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.817433, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps where do I buy official windows 10 product keys?\"}\n{\"evidence_id\": \"2716765\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 1}, \"score\": 0.763714, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Having issues with activating my Windows 10 Home product key. It says the product key has already been used (0xC004C008), but I've removed my key from all my other devices. I also can't find the receipt/key in my order history anymore. Thanks in advance! :)\"}",
+      "generated_reply": "Hello! The provided historical evidence is insufficient to answer how to find your Windows 10 product key. Please contact Microsoft support directly for further assistance."
+    }
+  }
+}

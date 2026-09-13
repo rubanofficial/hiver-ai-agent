@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0028",
+  "input_fingerprint": "a73ebb682b3fb083c7e996abd4c9b84abd185b77aea9216d995a474d27845c16",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-12T04:32:46+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0028",
+    "customer_message": "@MicrosoftHelps, do you have an up-to-date method of changing network adapter priorities in Win10? Everything I've found doesn't work.",
+    "conversation_context": "MICROSOFT (345458): @198204 Hi, Seth. We'd love to hear the details of this concern. May we know what are you trying to find? Let us know.\nCUSTOMER (345459): @MicrosoftHelps Certain sections it tells you to go to haven't existed since 2016, menu options have changed, etc\nMICROSOFT (345460): @198204 Hello, Seth. We'd like to follow up on the status of your concern. Feel free to reach us back if you need further assistance.",
+    "predicted_intent": "Product / Feature How-To",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"986267\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.640269, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I am happy to, is it possible to this via DM so I can explain fully the issue? | @MicrosoftHelps @122425 If there appears to be a driver issue in Windows 10, should this be reported to you guys? Intel I219-M ethernet card.\"}\n{\"evidence_id\": \"1963312\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 7}, \"score\": 0.639131, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Thx, will try these later and let u know how it goes. (btw had many different devices over the yrs and never seen this until now on new HP) | @MicrosoftHelps Ran the Troubleshooter, screenshot attached. Cmd prompt sequence allowed me to change networks but not a permanent fix. ie still no internet https://t.co/0qGrA9hBfE | @116230 Yes, it works ,except when I move to another router/network, it connects but blocks traffic.Solution is reboot adapter via control panel | @MicrosoftHelps Finally installed latest driver from Intel on (new machine!) and problem fixed, it now changes networks with no issues.\\n\\nThx for your help. | @MicrosoftHelps Ta, much appreciated. | @582124 Hello, there! Are you still having these issues with the adapter? We're here to help. | New laptop HP Win 10, and can only change wifi networks after manually rebooting adapter. Can't find why. Annoying.\\n\\nUgh! 'Puters!\"}\n{\"evidence_id\": \"978977\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.595387, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Hi, my Windows 10 PC says can't connect to network. My other laptops can so. But this laptop only connects to mobile hotspot\"}",
+    "generated_reply": "Hello! Since the troubleshooting steps you have tried are not working, this case requires further investigation into your specific network adapter configuration and driver setup. Please contact Microsoft Support so we can look into your network settings and determine the appropriate steps."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 4,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 3,\n  \"evidence_support\": 2,\n  \"unsupported_claims\": 3,\n  \"evidence_relevance\": 2,\n  \"grounding_score\": 2,\n  \"reason\": \"The reply acknowledges the customer's issue with outdated steps for changing network adapter priorities in Windows 10 and suggests contacting support since the standard troubleshooting failed. However, the retrieved evidence is largely irrelevant to adapter priorities (focusing instead on connection errors and driver updates), and the reply generalises without offering specific actionable steps from the text.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 4,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 3,
+    "evidence_support": 2,
+    "unsupported_claims": 3,
+    "evidence_relevance": 2,
+    "grounding_score": 2,
+    "reason": "The reply acknowledges the customer's issue with outdated steps for changing network adapter priorities in Windows 10 and suggests contacting support since the standard troubleshooting failed. However, the retrieved evidence is largely irrelevant to adapter priorities (focusing instead on connection errors and driver updates), and the reply generalises without offering specific actionable steps from the text.",
+    "overall_score": 3,
+    "short_reason": "The reply acknowledges the customer's issue with outdated steps for changing network adapter priorities in Windows 10 and suggests contacting support since the standard troubleshooting failed. However, the retrieved evidence is largely irrelevant to adapter priorities (focusing instead on connection errors and driver updates), and the reply generalises without offering specific actionable steps from the text.",
+    "grounding_decision": "UNSUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 4,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 2,
+      "unsupported_claims": 3,
+      "evidence_relevance": 2
+    },
+    "golden_id": "GOLDEN-0028",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0028",
+      "customer_message": "@MicrosoftHelps, do you have an up-to-date method of changing network adapter priorities in Win10? Everything I've found doesn't work.",
+      "conversation_context": "MICROSOFT (345458): @198204 Hi, Seth. We'd love to hear the details of this concern. May we know what are you trying to find? Let us know.\nCUSTOMER (345459): @MicrosoftHelps Certain sections it tells you to go to haven't existed since 2016, menu options have changed, etc\nMICROSOFT (345460): @198204 Hello, Seth. We'd like to follow up on the status of your concern. Feel free to reach us back if you need further assistance.",
+      "predicted_intent": "Product / Feature How-To",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"986267\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.640269, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I am happy to, is it possible to this via DM so I can explain fully the issue? | @MicrosoftHelps @122425 If there appears to be a driver issue in Windows 10, should this be reported to you guys? Intel I219-M ethernet card.\"}\n{\"evidence_id\": \"1963312\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 7}, \"score\": 0.639131, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Thx, will try these later and let u know how it goes. (btw had many different devices over the yrs and never seen this until now on new HP) | @MicrosoftHelps Ran the Troubleshooter, screenshot attached. Cmd prompt sequence allowed me to change networks but not a permanent fix. ie still no internet https://t.co/0qGrA9hBfE | @116230 Yes, it works ,except when I move to another router/network, it connects but blocks traffic.Solution is reboot adapter via control panel | @MicrosoftHelps Finally installed latest driver from Intel on (new machine!) and problem fixed, it now changes networks with no issues.\\n\\nThx for your help. | @MicrosoftHelps Ta, much appreciated. | @582124 Hello, there! Are you still having these issues with the adapter? We're here to help. | New laptop HP Win 10, and can only change wifi networks after manually rebooting adapter. Can't find why. Annoying.\\n\\nUgh! 'Puters!\"}\n{\"evidence_id\": \"978977\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.595387, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Hi, my Windows 10 PC says can't connect to network. My other laptops can so. But this laptop only connects to mobile hotspot\"}",
+      "generated_reply": "Hello! Since the troubleshooting steps you have tried are not working, this case requires further investigation into your specific network adapter configuration and driver setup. Please contact Microsoft Support so we can look into your network settings and determine the appropriate steps."
+    }
+  }
+}

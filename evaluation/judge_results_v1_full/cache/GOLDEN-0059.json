@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0059",
+  "input_fingerprint": "2590baea67aa41cc077fe57474cf7947578cec836165804b87cc6d751ef7cead",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:34:19+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0059",
+    "customer_message": "@MicrosoftHelps is there anyone i can buy microsoft office with a 1 time payment so i have it forever? i am a student and my school doesnt have a license so i cant get it via them.",
+    "conversation_context": "MICROSOFT (643156): @272693 Hi! That's a good question. The Office Home &amp; Student 2016 is a one-time payment for Office apps. For more info, click here: https://t.co/ePyzOmtSgl. Let us know if you have other questions.\nCUSTOMER (643157): @MicrosoftHelps thanks! but why is it so expensive? with the expenses i already have, i dont have 120€  laying around",
+    "predicted_intent": "Product / Feature How-To",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"105755\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.681908, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"How to install the Microsoft Office software  (free for students) I'm stuck here @MicrosoftHelps https://t.co/E02BLnpbtP\"}\n{\"evidence_id\": \"2319883\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 5}, \"score\": 0.645152, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I'm not using Office 365. I bought a lifetime licence for Office 2013 (Home and Student). I've found my key and reinstalled, but am confused as to why it expired, when it wasn't a subscription. | @115890 @MicrosoftHelps | @MicrosoftHelps No because I've reinstalled everything. It just said that the subscription had expired. | @115890 I don't have a subscription to 365 - I bought my copies when you could still do the one off payment, and keep it for life. So why it is expired is beyond me. Unless they want me to pay for something I've already paid for. | Open up laptop to begin marking essays and @115890 tells me my non-existent subscription to Word has expired. Just what I need today.\"}\n{\"evidence_id\": \"196640\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.637796, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps How to download the office 365 for free on my desktop ? , because my account is an educational account\"}",
+    "generated_reply": "I understand you are looking for a one-time purchase option for Microsoft Office since your school does not provide a license. Based on the available information, I cannot fully confirm the current options for a one-time lifetime payment versus a subscription. Please contact Microsoft support directly for further assistance with purchasing options."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 4,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 3,\n  \"evidence_support\": 2,\n  \"unsupported_claims\": 3,\n  \"evidence_relevance\": 2,\n  \"grounding_score\": 2,\n  \"reason\": \"The agent unnecessarily defers to support instead of directly addressing the student's concern about pricing or alternative options, and the retrieved evidence is weakly aligned with pricing questions.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 4,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 3,
+    "evidence_support": 2,
+    "unsupported_claims": 3,
+    "evidence_relevance": 2,
+    "grounding_score": 2,
+    "reason": "The agent unnecessarily defers to support instead of directly addressing the student's concern about pricing or alternative options, and the retrieved evidence is weakly aligned with pricing questions.",
+    "overall_score": 3,
+    "short_reason": "The agent unnecessarily defers to support instead of directly addressing the student's concern about pricing or alternative options, and the retrieved evidence is weakly aligned with pricing questions.",
+    "grounding_decision": "UNSUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 4,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 2,
+      "unsupported_claims": 3,
+      "evidence_relevance": 2
+    },
+    "golden_id": "GOLDEN-0059",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0059",
+      "customer_message": "@MicrosoftHelps is there anyone i can buy microsoft office with a 1 time payment so i have it forever? i am a student and my school doesnt have a license so i cant get it via them.",
+      "conversation_context": "MICROSOFT (643156): @272693 Hi! That's a good question. The Office Home &amp; Student 2016 is a one-time payment for Office apps. For more info, click here: https://t.co/ePyzOmtSgl. Let us know if you have other questions.\nCUSTOMER (643157): @MicrosoftHelps thanks! but why is it so expensive? with the expenses i already have, i dont have 120€  laying around",
+      "predicted_intent": "Product / Feature How-To",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"105755\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.681908, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"How to install the Microsoft Office software  (free for students) I'm stuck here @MicrosoftHelps https://t.co/E02BLnpbtP\"}\n{\"evidence_id\": \"2319883\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 5}, \"score\": 0.645152, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I'm not using Office 365. I bought a lifetime licence for Office 2013 (Home and Student). I've found my key and reinstalled, but am confused as to why it expired, when it wasn't a subscription. | @115890 @MicrosoftHelps | @MicrosoftHelps No because I've reinstalled everything. It just said that the subscription had expired. | @115890 I don't have a subscription to 365 - I bought my copies when you could still do the one off payment, and keep it for life. So why it is expired is beyond me. Unless they want me to pay for something I've already paid for. | Open up laptop to begin marking essays and @115890 tells me my non-existent subscription to Word has expired. Just what I need today.\"}\n{\"evidence_id\": \"196640\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.637796, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps How to download the office 365 for free on my desktop ? , because my account is an educational account\"}",
+      "generated_reply": "I understand you are looking for a one-time purchase option for Microsoft Office since your school does not provide a license. Based on the available information, I cannot fully confirm the current options for a one-time lifetime payment versus a subscription. Please contact Microsoft support directly for further assistance with purchasing options."
+    }
+  }
+}

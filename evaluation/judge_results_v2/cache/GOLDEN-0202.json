@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0202",
+  "input_fingerprint": "6db421f3ab33c2f6fc12c6a5d35d13b717546ea682119482ddc87a0d4b008e7a",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:05:37+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0202",
+    "customer_message": "@MicrosoftHelps Yes I checked for drivers and there were no updates. I messed around with the resolution to see if anything would change but nothing. At this point I might just return it and get a new one seen as I have a 2 year warranty",
+    "conversation_context": "MICROSOFT (130506): @145446 Hi Austin. Let's investigate. Can you tell us which Surface device you are using? Did you recently make changes in the settings of your device like installing new software? What troubleshooting step have you tried so far to resolve the issue?\nCUSTOMER (130507): @MicrosoftHelps I’m using a surface pro 4, I haven’t made any changes to my device in the past week, I factory reset it and the purple colour has gone away but now everything looks very pixilated, see photo https://t.co/uePoN8xep3\nCUSTOMER (130508): @MicrosoftHelps I restarted my Surface, and now the screen has gone weird, and changes colour every time I restart it? (My background is a solid black colour, the purple colour is the issue) https://t.co/KWWFqXGZ1j\nMICROSOFT (130509): @145446 We suggest that you perform two-button reset. You may refer to SteveG47 reply on how to perform two-button reset on this link: https://t.co/gaknTep4gW Keep us updated on the status of the issue. We will be glad to assist you further.\nCUSTOMER (130510): @MicrosoftHelps That didn’t change anything unfortunately\nMICROSOFT (130511): @145446 That's odd. Since you've mentioned that you performed a factory reset on you Surface, were you able to update the necessary drivers? Have you tried reconfiguring the display settings? Were there any differences? https://t.co/3qcAsLFkaY",
+    "predicted_intent": "Warranty / Repair",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"2772978\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.65224, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps new update did this to my monitor. Fixes? https://t.co/B3qEzhDwvQ\"}\n{\"evidence_id\": \"161143\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.613995, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps please fix this resolution display with an update or something its very annoying the restoring my computer worked for a bit but then it just went back.. its annoying\"}\n{\"evidence_id\": \"579997\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.612563, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Your update today has made my computer almost useless. The screen just pixelate to a screen I can not see. Never done that until the update. Thank for the hard shut down each time.\"}",
+    "generated_reply": "We understand you are experiencing display and resolution issues following an update and are considering a return under your 2-year warranty. Because this case requires a warranty entitlement check and further investigation into your specific device and purchase details, please contact Microsoft Support so we can look into your warranty options."
+  },
+  "raw_response": "{\n  \"correctness\": 5,\n  \"helpfulness\": 5,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 5,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 4,\n  \"evidence_relevance\": 3,\n  \"grounding_score\": 3,\n  \"reason\": \"The reply directly addresses the customer's mention of returning the device under warranty, suggests contacting Microsoft Support appropriately, and is clear and professional. The evidence provided is somewhat unrelated historical tweets, but the agent's action to route to warranty support is correct.\"\n}",
+  "result": {
+    "correctness": 5,
+    "helpfulness": 5,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 5,
+    "evidence_support": 3,
+    "unsupported_claims": 4,
+    "evidence_relevance": 3,
+    "grounding_score": 3,
+    "reason": "The reply directly addresses the customer's mention of returning the device under warranty, suggests contacting Microsoft Support appropriately, and is clear and professional. The evidence provided is somewhat unrelated historical tweets, but the agent's action to route to warranty support is correct.",
+    "overall_score": 5,
+    "short_reason": "The reply directly addresses the customer's mention of returning the device under warranty, suggests contacting Microsoft Support appropriately, and is clear and professional. The evidence provided is somewhat unrelated historical tweets, but the agent's action to route to warranty support is correct.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 5,
+      "helpfulness": 5,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 4,
+      "evidence_relevance": 3
+    },
+    "golden_id": "GOLDEN-0202",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0202",
+      "customer_message": "@MicrosoftHelps Yes I checked for drivers and there were no updates. I messed around with the resolution to see if anything would change but nothing. At this point I might just return it and get a new one seen as I have a 2 year warranty",
+      "conversation_context": "MICROSOFT (130506): @145446 Hi Austin. Let's investigate. Can you tell us which Surface device you are using? Did you recently make changes in the settings of your device like installing new software? What troubleshooting step have you tried so far to resolve the issue?\nCUSTOMER (130507): @MicrosoftHelps I’m using a surface pro 4, I haven’t made any changes to my device in the past week, I factory reset it and the purple colour has gone away but now everything looks very pixilated, see photo https://t.co/uePoN8xep3\nCUSTOMER (130508): @MicrosoftHelps I restarted my Surface, and now the screen has gone weird, and changes colour every time I restart it? (My background is a solid black colour, the purple colour is the issue) https://t.co/KWWFqXGZ1j\nMICROSOFT (130509): @145446 We suggest that you perform two-button reset. You may refer to SteveG47 reply on how to perform two-button reset on this link: https://t.co/gaknTep4gW Keep us updated on the status of the issue. We will be glad to assist you further.\nCUSTOMER (130510): @MicrosoftHelps That didn’t change anything unfortunately\nMICROSOFT (130511): @145446 That's odd. Since you've mentioned that you performed a factory reset on you Surface, were you able to update the necessary drivers? Have you tried reconfiguring the display settings? Were there any differences? https://t.co/3qcAsLFkaY",
+      "predicted_intent": "Warranty / Repair",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"2772978\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.65224, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps new update did this to my monitor. Fixes? https://t.co/B3qEzhDwvQ\"}\n{\"evidence_id\": \"161143\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.613995, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps please fix this resolution display with an update or something its very annoying the restoring my computer worked for a bit but then it just went back.. its annoying\"}\n{\"evidence_id\": \"579997\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.612563, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Your update today has made my computer almost useless. The screen just pixelate to a screen I can not see. Never done that until the update. Thank for the hard shut down each time.\"}",
+      "generated_reply": "We understand you are experiencing display and resolution issues following an update and are considering a return under your 2-year warranty. Because this case requires a warranty entitlement check and further investigation into your specific device and purchase details, please contact Microsoft Support so we can look into your warranty options."
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0157",
+  "input_fingerprint": "e76a08d43995327668308eedcc77734c36cb3b36b7af88340ea7a8d6bf035ab6",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T11:42:15+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0157",
+    "customer_message": "Hey @MicrosoftHelps, Having an issue with NFS: Payback. Bought the deluxe edition from windows store via https://t.co/kvjJmk3rdT but the game that was installed is only standard? I cannot find any deluxe content in the game.",
+    "conversation_context": "MICROSOFT (2196464): @642618 Hi, James. Let's seek assistance from our Xbox team. We suggest that you contact them using this link: https://t.co/sfGgsLh9W6. Tweet us back should you have other queries.",
+    "predicted_intent": "Microsoft Store",
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Generated reply could not be grounded in historical evidence; human review is required.",
+    "retrieved_evidence": "{\"evidence_id\": \"954793\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.477412, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I am game sharing with my friend and he bought a game and I did not get anything he bought\"}\n{\"evidence_id\": \"2089755\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.468659, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps It came up as I tried to launch the game. It turns out that even though I was installing it, the store hadn't registered that I had it so I deleted it and redownloaded it. It works now. | @MicrosoftHelps So... this is what I get when I try to launch the FREE game Fortnite Battle Royal... https://t.co/RP5lfK32oP\"}\n{\"evidence_id\": \"2742557\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.457703, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps My DMs with you to try to download a game I purchased have not been helpful – what's the deal?\"}",
+    "generated_reply": "We apologize, but we do not have enough information in our current system to resolve this issue for you autonomously. Please contact Microsoft Support directly for further assistance."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 4,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 4,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 5,\n  \"evidence_relevance\": 1,\n  \"grounding_score\": 3,\n  \"reason\": \"The model correctly identified that it lacked the necessary evidence to solve the specific DLC/edition mismatch issue and appropriately recommended contacting support, avoiding unsupported claims.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 4,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 4,
+    "evidence_support": 3,
+    "unsupported_claims": 5,
+    "evidence_relevance": 1,
+    "grounding_score": 3,
+    "reason": "The model correctly identified that it lacked the necessary evidence to solve the specific DLC/edition mismatch issue and appropriately recommended contacting support, avoiding unsupported claims.",
+    "overall_score": 4,
+    "short_reason": "The model correctly identified that it lacked the necessary evidence to solve the specific DLC/edition mismatch issue and appropriately recommended contacting support, avoiding unsupported claims.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 4,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 5,
+      "evidence_relevance": 1
+    },
+    "golden_id": "GOLDEN-0157",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0157",
+      "customer_message": "Hey @MicrosoftHelps, Having an issue with NFS: Payback. Bought the deluxe edition from windows store via https://t.co/kvjJmk3rdT but the game that was installed is only standard? I cannot find any deluxe content in the game.",
+      "conversation_context": "MICROSOFT (2196464): @642618 Hi, James. Let's seek assistance from our Xbox team. We suggest that you contact them using this link: https://t.co/sfGgsLh9W6. Tweet us back should you have other queries.",
+      "predicted_intent": "Microsoft Store",
+      "predicted_escalation": "ESCALATE_TO_HUMAN",
+      "predicted_escalation_reason": "Generated reply could not be grounded in historical evidence; human review is required.",
+      "retrieved_evidence": "{\"evidence_id\": \"954793\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.477412, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I am game sharing with my friend and he bought a game and I did not get anything he bought\"}\n{\"evidence_id\": \"2089755\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.468659, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps It came up as I tried to launch the game. It turns out that even though I was installing it, the store hadn't registered that I had it so I deleted it and redownloaded it. It works now. | @MicrosoftHelps So... this is what I get when I try to launch the FREE game Fortnite Battle Royal... https://t.co/RP5lfK32oP\"}\n{\"evidence_id\": \"2742557\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.457703, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps My DMs with you to try to download a game I purchased have not been helpful – what's the deal?\"}",
+      "generated_reply": "We apologize, but we do not have enough information in our current system to resolve this issue for you autonomously. Please contact Microsoft Support directly for further assistance."
+    }
+  }
+}

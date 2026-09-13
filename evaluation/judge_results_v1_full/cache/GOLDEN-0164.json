@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0164",
+  "input_fingerprint": "21be86cb44c096cec60148132975e7ba226959955ecf78dd7359c87d27bffb73",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:43:36+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0164",
+    "customer_message": "@MicrosoftHelps I sent you guys a Dm about a problem I had today. Should I have messaged you here?",
+    "conversation_context": "MICROSOFT (2274921): @661687 Hi, Fabio! We've already responded to your direct message. Thank you. https://t.co/3qcAsLFkaY",
+    "predicted_intent": "Complaint / Feedback",
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+    "retrieved_evidence": "{\"evidence_id\": \"2188191\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.863516, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Any chance I can get a reply on the DM I sent back to you?\"}\n{\"evidence_id\": \"2892480\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.85667, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps can someone respond to my dm please\"}\n{\"evidence_id\": \"2041167\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.829201, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Ok thank you | @MicrosoftHelps I sent you a DM\"}",
+    "generated_reply": "Hello! Yes, sending us a Direct Message is the right way to reach out. We will review your message and get back to you as soon as possible."
+  },
+  "raw_response": "{\n  \"correctness\": 5,\n  \"helpfulness\": 5,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 5,\n  \"evidence_support\": 5,\n  \"unsupported_claims\": 5,\n  \"evidence_relevance\": 5,\n  \"grounding_score\": 5,\n  \"reason\": \"The reply directly and accurately answers the customer's question about whether messaging via DM was correct, aligns with the context that support has already responded via DM, and is fully grounded in standard support practices.\"\n}",
+  "result": {
+    "correctness": 5,
+    "helpfulness": 5,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 5,
+    "evidence_support": 5,
+    "unsupported_claims": 5,
+    "evidence_relevance": 5,
+    "grounding_score": 5,
+    "reason": "The reply directly and accurately answers the customer's question about whether messaging via DM was correct, aligns with the context that support has already responded via DM, and is fully grounded in standard support practices.",
+    "overall_score": 5,
+    "short_reason": "The reply directly and accurately answers the customer's question about whether messaging via DM was correct, aligns with the context that support has already responded via DM, and is fully grounded in standard support practices.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 5,
+      "helpfulness": 5,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 5,
+      "unsupported_claims": 5,
+      "evidence_relevance": 5
+    },
+    "golden_id": "GOLDEN-0164",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0164",
+      "customer_message": "@MicrosoftHelps I sent you guys a Dm about a problem I had today. Should I have messaged you here?",
+      "conversation_context": "MICROSOFT (2274921): @661687 Hi, Fabio! We've already responded to your direct message. Thank you. https://t.co/3qcAsLFkaY",
+      "predicted_intent": "Complaint / Feedback",
+      "predicted_escalation": "ESCALATE_TO_HUMAN",
+      "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+      "retrieved_evidence": "{\"evidence_id\": \"2188191\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.863516, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Any chance I can get a reply on the DM I sent back to you?\"}\n{\"evidence_id\": \"2892480\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.85667, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps can someone respond to my dm please\"}\n{\"evidence_id\": \"2041167\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.829201, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Ok thank you | @MicrosoftHelps I sent you a DM\"}",
+      "generated_reply": "Hello! Yes, sending us a Direct Message is the right way to reach out. We will review your message and get back to you as soon as possible."
+    }
+  }
+}

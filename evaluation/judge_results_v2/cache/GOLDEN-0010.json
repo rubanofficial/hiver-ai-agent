@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0010",
+  "input_fingerprint": "540c3177acbdd669da6fa783e001d14c9f15bb6754b07e55af35e1b5e23a4cf2",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-12T04:28:19+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0010",
+    "customer_message": "@MicrosoftHelps Can I have a question? Can you transfer a xbox live account to a new microsoft account?",
+    "conversation_context": "MICROSOFT (105690): @139365 Hello. Is everything good on your end? Feel free to update us anytime.",
+    "predicted_intent": "Account & Login",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"1845605\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.789524, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Could I DM a problem im having regarding an old xbox account on my main microsoft account?\"}\n{\"evidence_id\": \"2173316\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.76274, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps is there any way I would be able to change my existing email on my Xbox one account to a new one i am currently using?\"}\n{\"evidence_id\": \"191961\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.760581, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps i need help with my xbox account | @MicrosoftHelps Figured it out\"}",
+    "generated_reply": "Hello! While we cannot directly transfer an Xbox Live account to a completely separate Microsoft account, based on a similar case, you may be able to change the existing email address associated with your current Microsoft account to the new one you are using. If you need further assistance with your account, please reach out to Microsoft Support."
+  },
+  "raw_response": "{\n  \"correctness\": 4,\n  \"helpfulness\": 4,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 4,\n  \"evidence_support\": 4,\n  \"unsupported_claims\": 4,\n  \"evidence_relevance\": 4,\n  \"grounding_score\": 4,\n  \"reason\": \"The reply accurately addresses the user's question about transferring accounts by explaining that direct transfers aren't supported, while offering a helpful workaround found in the evidence (changing the email address) and directing them to support.\"\n}",
+  "result": {
+    "correctness": 4,
+    "helpfulness": 4,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 4,
+    "evidence_support": 4,
+    "unsupported_claims": 4,
+    "evidence_relevance": 4,
+    "grounding_score": 4,
+    "reason": "The reply accurately addresses the user's question about transferring accounts by explaining that direct transfers aren't supported, while offering a helpful workaround found in the evidence (changing the email address) and directing them to support.",
+    "overall_score": 4,
+    "short_reason": "The reply accurately addresses the user's question about transferring accounts by explaining that direct transfers aren't supported, while offering a helpful workaround found in the evidence (changing the email address) and directing them to support.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 4,
+      "helpfulness": 4,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 4,
+      "unsupported_claims": 4,
+      "evidence_relevance": 4
+    },
+    "golden_id": "GOLDEN-0010",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0010",
+      "customer_message": "@MicrosoftHelps Can I have a question? Can you transfer a xbox live account to a new microsoft account?",
+      "conversation_context": "MICROSOFT (105690): @139365 Hello. Is everything good on your end? Feel free to update us anytime.",
+      "predicted_intent": "Account & Login",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"1845605\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.789524, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Could I DM a problem im having regarding an old xbox account on my main microsoft account?\"}\n{\"evidence_id\": \"2173316\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.76274, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps is there any way I would be able to change my existing email on my Xbox one account to a new one i am currently using?\"}\n{\"evidence_id\": \"191961\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.760581, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps i need help with my xbox account | @MicrosoftHelps Figured it out\"}",
+      "generated_reply": "Hello! While we cannot directly transfer an Xbox Live account to a completely separate Microsoft account, based on a similar case, you may be able to change the existing email address associated with your current Microsoft account to the new one you are using. If you need further assistance with your account, please reach out to Microsoft Support."
+    }
+  }
+}

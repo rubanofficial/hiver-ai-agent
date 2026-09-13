@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0079",
+  "input_fingerprint": "d7594b5b9156ced81fc5dd64cf0804cc4e31b2f8bdd74e109b26081718cecccd",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-12T04:36:26+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0079",
+    "customer_message": "@MicrosoftHelps I am not aware of any Microsoft store in Chennai, India. Do let me know if there is one",
+    "conversation_context": "MICROSOFT (980193): @352410 Hi. Let's look for the best option for you. Can you tell us what solution steps have you tried so far? Also, please confirm if you've tried the troubleshooting in this support article: https://t.co/3DHkx2ra2E\nCUSTOMER (980194): @MicrosoftHelps Current Status: Surface is Off and does not charge. Power connector light is ON (getting it to be ON itself is a challenge), have plugged in for many hours but doesn't charge/start\nCUSTOMER (980195): @MicrosoftHelps @123127 My surface does not charge. had trouble charging for long, but now does not charge at all. Any option to check/repair in Chennai, India?\nCUSTOMER (980196): @MicrosoftHelps Now have kept for charging, suddenly it will show the screen with battery in a circle then it disappears\nCUSTOMER (980197): @MicrosoftHelps History: Have tried all the actions listed under \"Surface wont turn on...\" &amp; \"surface battery wont charge\". Surface tab bought in USA in 2014. From within 6 months of purchase had charging issues, some resolutions used to work after multiple tries. Now not working at all\nMICROSOFT (980198): @352410 Thank you for presenting more info. Looks like this is hardware-related. Do you know any Microsoft Stores nearby? The fastest way to get your Surface checked is to bring it in so our technician can evaluate your device.",
+    "predicted_intent": "Microsoft Store",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"429838\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 3}, \"score\": 0.645725, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@174957 @MicrosoftHelps Team suggest any store in Chennai, India | @217231 @1107 Hi Sunjay, we suggest contacting @microsofthelps, https://t.co/HAejmsSSNc or https://t.co/B25ziqkCpo for help :) | @174957 @1107 I am having Nokia N8 one of the Best phone. Is der any chances to service this phone ? https://t.co/irYsDDYPyI\"}\n{\"evidence_id\": \"913266\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.597372, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps why Microsoft cortana app is not available for India App Store?\"}\n{\"evidence_id\": \"2324337\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.569453, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Will you provide support to surface book 2 in India? Also will it be sold in India?\"}",
+    "generated_reply": "We recommend contacting Microsoft Support for further assistance regarding store locations in Chennai, as this requires checking our current store directory and entitlements. Please reach out to us at https://t.co/HAejmsSSNc or https://t.co/B25ziqkCpo for help."
+  },
+  "raw_response": "{\n  \"correctness\": 4,\n  \"helpfulness\": 4,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 4,\n  \"evidence_support\": 5,\n  \"unsupported_claims\": 5,\n  \"evidence_relevance\": 4,\n  \"grounding_score\": 5,\n  \"reason\": \"The reply directly addresses the customer's comment about store availability in Chennai by referring them to official support links found in the evidence.\"\n}",
+  "result": {
+    "correctness": 4,
+    "helpfulness": 4,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 4,
+    "evidence_support": 5,
+    "unsupported_claims": 5,
+    "evidence_relevance": 4,
+    "grounding_score": 5,
+    "reason": "The reply directly addresses the customer's comment about store availability in Chennai by referring them to official support links found in the evidence.",
+    "overall_score": 4,
+    "short_reason": "The reply directly addresses the customer's comment about store availability in Chennai by referring them to official support links found in the evidence.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 4,
+      "helpfulness": 4,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 5,
+      "unsupported_claims": 5,
+      "evidence_relevance": 4
+    },
+    "golden_id": "GOLDEN-0079",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0079",
+      "customer_message": "@MicrosoftHelps I am not aware of any Microsoft store in Chennai, India. Do let me know if there is one",
+      "conversation_context": "MICROSOFT (980193): @352410 Hi. Let's look for the best option for you. Can you tell us what solution steps have you tried so far? Also, please confirm if you've tried the troubleshooting in this support article: https://t.co/3DHkx2ra2E\nCUSTOMER (980194): @MicrosoftHelps Current Status: Surface is Off and does not charge. Power connector light is ON (getting it to be ON itself is a challenge), have plugged in for many hours but doesn't charge/start\nCUSTOMER (980195): @MicrosoftHelps @123127 My surface does not charge. had trouble charging for long, but now does not charge at all. Any option to check/repair in Chennai, India?\nCUSTOMER (980196): @MicrosoftHelps Now have kept for charging, suddenly it will show the screen with battery in a circle then it disappears\nCUSTOMER (980197): @MicrosoftHelps History: Have tried all the actions listed under \"Surface wont turn on...\" &amp; \"surface battery wont charge\". Surface tab bought in USA in 2014. From within 6 months of purchase had charging issues, some resolutions used to work after multiple tries. Now not working at all\nMICROSOFT (980198): @352410 Thank you for presenting more info. Looks like this is hardware-related. Do you know any Microsoft Stores nearby? The fastest way to get your Surface checked is to bring it in so our technician can evaluate your device.",
+      "predicted_intent": "Microsoft Store",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"429838\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 3}, \"score\": 0.645725, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@174957 @MicrosoftHelps Team suggest any store in Chennai, India | @217231 @1107 Hi Sunjay, we suggest contacting @microsofthelps, https://t.co/HAejmsSSNc or https://t.co/B25ziqkCpo for help :) | @174957 @1107 I am having Nokia N8 one of the Best phone. Is der any chances to service this phone ? https://t.co/irYsDDYPyI\"}\n{\"evidence_id\": \"913266\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.597372, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps why Microsoft cortana app is not available for India App Store?\"}\n{\"evidence_id\": \"2324337\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.569453, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Will you provide support to surface book 2 in India? Also will it be sold in India?\"}",
+      "generated_reply": "We recommend contacting Microsoft Support for further assistance regarding store locations in Chennai, as this requires checking our current store directory and entitlements. Please reach out to us at https://t.co/HAejmsSSNc or https://t.co/B25ziqkCpo for help."
+    }
+  }
+}

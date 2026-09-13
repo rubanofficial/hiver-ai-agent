@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0060",
+  "input_fingerprint": "df7c12fba1c9ae3db8a487aac96aaca2c94085678fb628e762f23319676e8e5d",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:34:21+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0060",
+    "customer_message": "@123196 @MicrosoftHelps https://t.co/1zKEw1sDFK",
+    "conversation_context": "MICROSOFT (675107): @281018 Hi, Abdiel. We would like to follow up about the status of your concern. Please do not hesitate to contact us if you require assistance in the future.",
+    "predicted_intent": "Complaint / Feedback",
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+    "retrieved_evidence": "{\"evidence_id\": \"781366\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.92749, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@115890 @MicrosoftHelps https://t.co/gkdTGiIBAj\"}\n{\"evidence_id\": \"1817333\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.919127, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps  @72784 https://t.co/GgDIDMEYlj\"}\n{\"evidence_id\": \"1862234\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.918731, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps @556535 https://t.co/uja9UxQeHf\"}",
+    "generated_reply": "Hello, thank you for reaching out to MicrosoftHelps. Since we do not have enough information from your message to resolve your issue, please contact Microsoft support directly for further assistance."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 4,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 3,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 4,\n  \"evidence_relevance\": 1,\n  \"grounding_score\": 3,\n  \"reason\": \"The reply appropriately suggests contacting support due to lack of details in the vague customer message, though the retrieved evidence is uninformative historical tweets.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 4,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 3,
+    "evidence_support": 3,
+    "unsupported_claims": 4,
+    "evidence_relevance": 1,
+    "grounding_score": 3,
+    "reason": "The reply appropriately suggests contacting support due to lack of details in the vague customer message, though the retrieved evidence is uninformative historical tweets.",
+    "overall_score": 3,
+    "short_reason": "The reply appropriately suggests contacting support due to lack of details in the vague customer message, though the retrieved evidence is uninformative historical tweets.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 4,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 4,
+      "evidence_relevance": 1
+    },
+    "golden_id": "GOLDEN-0060",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0060",
+      "customer_message": "@123196 @MicrosoftHelps https://t.co/1zKEw1sDFK",
+      "conversation_context": "MICROSOFT (675107): @281018 Hi, Abdiel. We would like to follow up about the status of your concern. Please do not hesitate to contact us if you require assistance in the future.",
+      "predicted_intent": "Complaint / Feedback",
+      "predicted_escalation": "ESCALATE_TO_HUMAN",
+      "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+      "retrieved_evidence": "{\"evidence_id\": \"781366\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.92749, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@115890 @MicrosoftHelps https://t.co/gkdTGiIBAj\"}\n{\"evidence_id\": \"1817333\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.919127, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps  @72784 https://t.co/GgDIDMEYlj\"}\n{\"evidence_id\": \"1862234\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.918731, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps @556535 https://t.co/uja9UxQeHf\"}",
+      "generated_reply": "Hello, thank you for reaching out to MicrosoftHelps. Since we do not have enough information from your message to resolve your issue, please contact Microsoft support directly for further assistance."
+    }
+  }
+}

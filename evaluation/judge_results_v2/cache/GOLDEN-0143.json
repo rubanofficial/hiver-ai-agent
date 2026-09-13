@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0143",
+  "input_fingerprint": "982505e6fde8296b4ea26dfc43399d276300ccd0c747a46cca2442f23cddb63a",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T11:26:18+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0143",
+    "customer_message": "@MicrosoftHelps your customer service is the worst. I've been on the phone everyday to fix my order sand still getting the runaround.",
+    "conversation_context": "MICROSOFT (2017674): @596690 Hi. We want this to be addressed. Do you have a service request number from them? If yes, send it via DM.",
+    "predicted_intent": "Complaint / Feedback",
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+    "retrieved_evidence": "{\"evidence_id\": \"38521\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.709053, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps i made a mistake when i ordered @116547 on Microsoft store, may you dDM me to fix it?\"}\n{\"evidence_id\": \"424247\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.706129, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps It's my friend whose having the issue, and asked I pull the messages.\\nShe is dealing with customer service.\\nIf has no luck, we'll get back.\"}\n{\"evidence_id\": \"607977\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.703718, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I still haven't received a call about a missing order\"}",
+    "generated_reply": "We are sorry to hear that you are experiencing this frustration with your order and customer service. Based on similar cases where customers needed assistance with their orders or missing calls, we recommend reaching out directly to Microsoft Support for further help to get this sorted out."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 4,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 4,\n  \"overall_reply_score\": 3,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 4,\n  \"evidence_relevance\": 3,\n  \"grounding_score\": 3,\n  \"reason\": \"The reply acknowledges the customer's frustration and suggests contacting support, but it should ideally handle the escalation properly as requested by the high-risk complaint intent.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 4,
+    "clarity": 5,
+    "escalation_appropriateness": 4,
+    "overall_reply_score": 3,
+    "evidence_support": 3,
+    "unsupported_claims": 4,
+    "evidence_relevance": 3,
+    "grounding_score": 3,
+    "reason": "The reply acknowledges the customer's frustration and suggests contacting support, but it should ideally handle the escalation properly as requested by the high-risk complaint intent.",
+    "overall_score": 3,
+    "short_reason": "The reply acknowledges the customer's frustration and suggests contacting support, but it should ideally handle the escalation properly as requested by the high-risk complaint intent.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 4,
+      "clarity": 5,
+      "escalation_appropriateness": 4
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 4,
+      "evidence_relevance": 3
+    },
+    "golden_id": "GOLDEN-0143",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0143",
+      "customer_message": "@MicrosoftHelps your customer service is the worst. I've been on the phone everyday to fix my order sand still getting the runaround.",
+      "conversation_context": "MICROSOFT (2017674): @596690 Hi. We want this to be addressed. Do you have a service request number from them? If yes, send it via DM.",
+      "predicted_intent": "Complaint / Feedback",
+      "predicted_escalation": "ESCALATE_TO_HUMAN",
+      "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+      "retrieved_evidence": "{\"evidence_id\": \"38521\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.709053, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps i made a mistake when i ordered @116547 on Microsoft store, may you dDM me to fix it?\"}\n{\"evidence_id\": \"424247\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.706129, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps It's my friend whose having the issue, and asked I pull the messages.\\nShe is dealing with customer service.\\nIf has no luck, we'll get back.\"}\n{\"evidence_id\": \"607977\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.703718, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I still haven't received a call about a missing order\"}",
+      "generated_reply": "We are sorry to hear that you are experiencing this frustration with your order and customer service. Based on similar cases where customers needed assistance with their orders or missing calls, we recommend reaching out directly to Microsoft Support for further help to get this sorted out."
+    }
+  }
+}

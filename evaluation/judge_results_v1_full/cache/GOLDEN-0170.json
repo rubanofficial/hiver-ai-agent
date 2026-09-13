@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0170",
+  "input_fingerprint": "dde0af51a30af2e18d2d08098f75a922a77d3eab0114896610736dc32a07c802",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:45:14+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0170",
+    "customer_message": "@MicrosoftHelps wifi disconnects randomly\n\nis there a way to fix it from disconnects  randomly",
+    "conversation_context": "MICROSOFT (2479738): @348170 Hello! It's our pleasure to assist you. Is this happening to all the device you're trying to connect to your WiFi?\nCUSTOMER (2479739): @MicrosoftHelps just my pc",
+    "predicted_intent": "Network / Connectivity",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"2060637\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 1}, \"score\": 0.702769, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps hello, can u give me sollution.my windows 10 have a trouble in wifi connection sometimes it disconnect, thanks\"}\n{\"evidence_id\": \"251682\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 1}, \"score\": 0.680963, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Sleep Mode Disconnects Wireless Connections in Windows 10, how can this issue be resolved.\"}\n{\"evidence_id\": \"2031395\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.640334, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Why does #Windows10 always gotta screw up in a new way every single time, why do you disconnect then reconnect WiFi every couple of minutes? https://t.co/NAAmK1llTC\"}",
+    "generated_reply": "Hello! We see you are experiencing random Wi-Fi disconnections on Windows 10. Unfortunately, our current historical information does not contain specific troubleshooting steps for this issue. We recommend contacting Microsoft support directly for further assistance."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 2,\n  \"relevance\": 4,\n  \"clarity\": 4,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 3,\n  \"evidence_support\": 4,\n  \"unsupported_claims\": 5,\n  \"evidence_relevance\": 3,\n  \"grounding_score\": 4,\n  \"reason\": \"The reply correctly identifies the issue and appropriately recommends contacting support since the retrieved evidence lacked specific troubleshooting steps, though it is not very helpful in terms of solving the problem directly.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 2,
+    "relevance": 4,
+    "clarity": 4,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 3,
+    "evidence_support": 4,
+    "unsupported_claims": 5,
+    "evidence_relevance": 3,
+    "grounding_score": 4,
+    "reason": "The reply correctly identifies the issue and appropriately recommends contacting support since the retrieved evidence lacked specific troubleshooting steps, though it is not very helpful in terms of solving the problem directly.",
+    "overall_score": 3,
+    "short_reason": "The reply correctly identifies the issue and appropriately recommends contacting support since the retrieved evidence lacked specific troubleshooting steps, though it is not very helpful in terms of solving the problem directly.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 2,
+      "relevance": 4,
+      "clarity": 4,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 4,
+      "unsupported_claims": 5,
+      "evidence_relevance": 3
+    },
+    "golden_id": "GOLDEN-0170",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0170",
+      "customer_message": "@MicrosoftHelps wifi disconnects randomly\n\nis there a way to fix it from disconnects  randomly",
+      "conversation_context": "MICROSOFT (2479738): @348170 Hello! It's our pleasure to assist you. Is this happening to all the device you're trying to connect to your WiFi?\nCUSTOMER (2479739): @MicrosoftHelps just my pc",
+      "predicted_intent": "Network / Connectivity",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"2060637\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 1}, \"score\": 0.702769, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps hello, can u give me sollution.my windows 10 have a trouble in wifi connection sometimes it disconnect, thanks\"}\n{\"evidence_id\": \"251682\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 1}, \"score\": 0.680963, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Sleep Mode Disconnects Wireless Connections in Windows 10, how can this issue be resolved.\"}\n{\"evidence_id\": \"2031395\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.640334, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Why does #Windows10 always gotta screw up in a new way every single time, why do you disconnect then reconnect WiFi every couple of minutes? https://t.co/NAAmK1llTC\"}",
+      "generated_reply": "Hello! We see you are experiencing random Wi-Fi disconnections on Windows 10. Unfortunately, our current historical information does not contain specific troubleshooting steps for this issue. We recommend contacting Microsoft support directly for further assistance."
+    }
+  }
+}

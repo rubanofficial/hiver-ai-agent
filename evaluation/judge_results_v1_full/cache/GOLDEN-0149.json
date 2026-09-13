@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0149",
+  "input_fingerprint": "8b1945f9a1bab48082ec0afb338c49e7e63099775df5f961ae67e6a527730b47",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:43:15+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0149",
+    "customer_message": "@116230 Still waiting to receive a notification to download Fall Creators Update as a Windows 10 Enterprise user on the east coast. 😡👎🏼",
+    "conversation_context": "MICROSOFT (2074064): @613411 That's great! Have fun exploring the Windows 10 Fall Creator Update. Cheers!\nCUSTOMER (2074065): @116230 Thank you. I was able to update by downloading the latest ISO from MSDN 👍🏼\nCUSTOMER (2074066): @613411 Hey, Eric. You can learn more about the Fall Creators Update roll out here: https://t.co/8W4g0ftzgQ",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"1054648\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.798677, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@116230 very excited for Windows 10 fall creators update on 10/17. I know I said that already but so hard to keep excitement in\"}\n{\"evidence_id\": \"847864\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.766894, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Windows 10 fall creators update done 🔥🔥🔥\"}\n{\"evidence_id\": \"1884344\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.720684, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@116230 when fall crater update will be available for all users?. Waiting from 17 Oct.\"}",
+    "generated_reply": "Thanks for reaching out. The historical evidence is insufficient to determine when you will receive the notification to download the Fall Creators Update for Windows 10 Enterprise. Please contact Microsoft support directly for further assistance."
+  },
+  "raw_response": "{\n  \"correctness\": 2,\n  \"helpfulness\": 2,\n  \"relevance\": 3,\n  \"clarity\": 4,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 2,\n  \"evidence_support\": 5,\n  \"unsupported_claims\": 5,\n  \"evidence_relevance\": 2,\n  \"grounding_score\": 4,\n  \"reason\": \"The reply properly acknowledges the lack of information in the evidence and suggests contacting support, but mentioning 'historical evidence' breaks conversational character.\"\n}",
+  "result": {
+    "correctness": 2,
+    "helpfulness": 2,
+    "relevance": 3,
+    "clarity": 4,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 2,
+    "evidence_support": 5,
+    "unsupported_claims": 5,
+    "evidence_relevance": 2,
+    "grounding_score": 4,
+    "reason": "The reply properly acknowledges the lack of information in the evidence and suggests contacting support, but mentioning 'historical evidence' breaks conversational character.",
+    "overall_score": 2,
+    "short_reason": "The reply properly acknowledges the lack of information in the evidence and suggests contacting support, but mentioning 'historical evidence' breaks conversational character.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 2,
+      "helpfulness": 2,
+      "relevance": 3,
+      "clarity": 4,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 5,
+      "unsupported_claims": 5,
+      "evidence_relevance": 2
+    },
+    "golden_id": "GOLDEN-0149",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0149",
+      "customer_message": "@116230 Still waiting to receive a notification to download Fall Creators Update as a Windows 10 Enterprise user on the east coast. 😡👎🏼",
+      "conversation_context": "MICROSOFT (2074064): @613411 That's great! Have fun exploring the Windows 10 Fall Creator Update. Cheers!\nCUSTOMER (2074065): @116230 Thank you. I was able to update by downloading the latest ISO from MSDN 👍🏼\nCUSTOMER (2074066): @613411 Hey, Eric. You can learn more about the Fall Creators Update roll out here: https://t.co/8W4g0ftzgQ",
+      "predicted_intent": "Technical Troubleshooting",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"1054648\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.798677, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@116230 very excited for Windows 10 fall creators update on 10/17. I know I said that already but so hard to keep excitement in\"}\n{\"evidence_id\": \"847864\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.766894, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Windows 10 fall creators update done 🔥🔥🔥\"}\n{\"evidence_id\": \"1884344\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.720684, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@116230 when fall crater update will be available for all users?. Waiting from 17 Oct.\"}",
+      "generated_reply": "Thanks for reaching out. The historical evidence is insufficient to determine when you will receive the notification to download the Fall Creators Update for Windows 10 Enterprise. Please contact Microsoft support directly for further assistance."
+    }
+  }
+}

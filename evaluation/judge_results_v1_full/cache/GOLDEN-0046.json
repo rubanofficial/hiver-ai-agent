@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0046",
+  "input_fingerprint": "ba52df3cc2c25b9adda2d797a0c0e410404b940e9670916806532fd51b6a4c7c",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:32:22+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0046",
+    "customer_message": "@MicrosoftHelps need help with a gift purchase please",
+    "conversation_context": "MICROSOFT (515798): @238845 Let's get this sorted, Michael. Send us a DM for further assistance. https://t.co/3qcAsLFkaY",
+    "predicted_intent": "Order / Delivery",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"2661212\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.731482, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Thanks.  My gift recipient missed the email they received :/  #allgoodnow | @MicrosoftHelps just bought Xbox digital game gift for a friend and they aren’t sure how to redeem it. Can you help us out?\"}\n{\"evidence_id\": \"2658495\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.730156, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Thank you! I was able to redeem it :) | @MicrosoftHelps I received a $5 gift card. I tried to redeem it but everytime I do it won't let me. Any help? https://t.co/UC0NvTC900\"}\n{\"evidence_id\": \"2888116\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 4}, \"score\": 0.715036, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Not going well so far. | @115786 @130179 @MicrosoftHelps you guys got any tips to make it work? | @MicrosoftHelps Yes, took a while but I found someone who could help. | Yo @115786 and or @130179 got this sweet gift sent to me but I can't redeem the code? I assume it's for American regions? https://t.co/zw5TSWfh9p\"}",
+    "generated_reply": "Hello! I would be happy to help you with your gift purchase. Could you please share a few more details about what you need assistance with so I can best support you?"
+  },
+  "raw_response": "{\n  \"correctness\": 4,\n  \"helpfulness\": 4,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 4,\n  \"evidence_support\": 4,\n  \"unsupported_claims\": 5,\n  \"evidence_relevance\": 4,\n  \"grounding_score\": 4,\n  \"reason\": \"The reply is clear, polite, and appropriately asks for more details since the customer's initial message was very vague. It safely handles the request without making unsupported promises.\"\n}",
+  "result": {
+    "correctness": 4,
+    "helpfulness": 4,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 4,
+    "evidence_support": 4,
+    "unsupported_claims": 5,
+    "evidence_relevance": 4,
+    "grounding_score": 4,
+    "reason": "The reply is clear, polite, and appropriately asks for more details since the customer's initial message was very vague. It safely handles the request without making unsupported promises.",
+    "overall_score": 4,
+    "short_reason": "The reply is clear, polite, and appropriately asks for more details since the customer's initial message was very vague. It safely handles the request without making unsupported promises.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 4,
+      "helpfulness": 4,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 4,
+      "unsupported_claims": 5,
+      "evidence_relevance": 4
+    },
+    "golden_id": "GOLDEN-0046",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0046",
+      "customer_message": "@MicrosoftHelps need help with a gift purchase please",
+      "conversation_context": "MICROSOFT (515798): @238845 Let's get this sorted, Michael. Send us a DM for further assistance. https://t.co/3qcAsLFkaY",
+      "predicted_intent": "Order / Delivery",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"2661212\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.731482, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Thanks.  My gift recipient missed the email they received :/  #allgoodnow | @MicrosoftHelps just bought Xbox digital game gift for a friend and they aren’t sure how to redeem it. Can you help us out?\"}\n{\"evidence_id\": \"2658495\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.730156, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Thank you! I was able to redeem it :) | @MicrosoftHelps I received a $5 gift card. I tried to redeem it but everytime I do it won't let me. Any help? https://t.co/UC0NvTC900\"}\n{\"evidence_id\": \"2888116\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 4}, \"score\": 0.715036, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Not going well so far. | @115786 @130179 @MicrosoftHelps you guys got any tips to make it work? | @MicrosoftHelps Yes, took a while but I found someone who could help. | Yo @115786 and or @130179 got this sweet gift sent to me but I can't redeem the code? I assume it's for American regions? https://t.co/zw5TSWfh9p\"}",
+      "generated_reply": "Hello! I would be happy to help you with your gift purchase. Could you please share a few more details about what you need assistance with so I can best support you?"
+    }
+  }
+}

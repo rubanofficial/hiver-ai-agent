@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0068",
+  "input_fingerprint": "c21206732f8f025b47380a3bd92dbcb71e314a650b342a2609e9826557450efd",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:35:30+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0068",
+    "customer_message": "@MicrosoftHelps So now i restored windows to an earlier date like i did yesterday, but it needs updating and it will probably get stuck again at that point.",
+    "conversation_context": "MICROSOFT (766568): @303201 Let’s get this done. Which Windows version are you using? Also, please send us a screenshot of the error that you’re getting.\nCUSTOMER (766569): @MicrosoftHelps I use Windows 10 and it wont load anymore after this part of the setup (pic), this happened after i rebooted the pc cuz the update was stuck https://t.co/45legxEPEv\nCUSTOMER (766570): @116230 Hey my windows update got stuck at 30% and had'nt changed so i restarted my pc and it got stuck again at the loading part,what now?\nMICROSOFT (766571): @303201 Thanks for the screenshot. Try checking this link about the black screen issue you’ve encountered: https://t.co/SpiNAIkOfG.\nCUSTOMER (766572): @MicrosoftHelps Its not that the dots are spinning but they are just frozen, i really think it has something to do with the latest update of win10.\nMICROSOFT (766573): @303201 Hello there! Please share your experience to help us improve by answering a quick survey here: https://t.co/DOKDS652vd.\nMICROSOFT (766574): @303201 In that case, you may restart your PC and try to run Windows Update Troubleshooter. Here's how: https://t.co/V3Vvnr9CHG. Update us.\nCUSTOMER (766575): @MicrosoftHelps I tried troubleshooting but it wouldnt detect an error, then it would just restart my pc and get stuck again.",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"385209\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 2}, \"score\": 0.798976, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps sorry, after hours of waiting, as soon as i message you, it comes to life | @MicrosoftHelps stuck on 'Restoring your previous version of Windows', the same happens when I reboot.. what can I do? thanks\"}\n{\"evidence_id\": \"2625187\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 7}, \"score\": 0.716632, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I had it but I forgot to back it up when I reinstalled Windows | @116230 I had to reinstall Windows and I am not even sure it's gonna work properly again | @MicrosoftHelps I remember his name was James A | @MicrosoftHelps I don't know what that is nor where it is, sorry! | @116230 y'all should consider getting new software engineers or something because the latest update is flawed af | @444732 Hello, there! Are you still experiencing these issues? Perhaps we can help. | my PC is in the brink of death because of this stupid Creator's update I am suffering :))))\"}\n{\"evidence_id\": \"1522174\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 4}, \"score\": 0.710584, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps On the phone again and back at the same issue | @MicrosoftHelps Thanks - I received some help via phone but now I have been stuck on this screen for almost an hour....m https://t.co/g3tZgDvxcn | @MicrosoftHelps @473051 the status is that you have 5 minutes to tell me how to reactivate my windows before i just do it myself | @MicrosoftHelps since the last update my laptop has been v slow taking 10 mins plus to open applications. Any suggestions? V frustrated!\"}",
+    "generated_reply": "We apologize for the frustration you are experiencing with the Windows updates and restoration process. Since we do not have specific troubleshooting steps for this in our current records, we recommend contacting Microsoft support directly for further assistance."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 4,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 4,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 4,\n  \"evidence_relevance\": 3,\n  \"grounding_score\": 3,\n  \"reason\": \"The reply is clear, professional, and appropriately recommends contacting Microsoft support since troubleshooting steps have failed. However, it lacks specific technical help from the retrieved evidence.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 4,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 4,
+    "evidence_support": 3,
+    "unsupported_claims": 4,
+    "evidence_relevance": 3,
+    "grounding_score": 3,
+    "reason": "The reply is clear, professional, and appropriately recommends contacting Microsoft support since troubleshooting steps have failed. However, it lacks specific technical help from the retrieved evidence.",
+    "overall_score": 4,
+    "short_reason": "The reply is clear, professional, and appropriately recommends contacting Microsoft support since troubleshooting steps have failed. However, it lacks specific technical help from the retrieved evidence.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 4,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 4,
+      "evidence_relevance": 3
+    },
+    "golden_id": "GOLDEN-0068",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0068",
+      "customer_message": "@MicrosoftHelps So now i restored windows to an earlier date like i did yesterday, but it needs updating and it will probably get stuck again at that point.",
+      "conversation_context": "MICROSOFT (766568): @303201 Let’s get this done. Which Windows version are you using? Also, please send us a screenshot of the error that you’re getting.\nCUSTOMER (766569): @MicrosoftHelps I use Windows 10 and it wont load anymore after this part of the setup (pic), this happened after i rebooted the pc cuz the update was stuck https://t.co/45legxEPEv\nCUSTOMER (766570): @116230 Hey my windows update got stuck at 30% and had'nt changed so i restarted my pc and it got stuck again at the loading part,what now?\nMICROSOFT (766571): @303201 Thanks for the screenshot. Try checking this link about the black screen issue you’ve encountered: https://t.co/SpiNAIkOfG.\nCUSTOMER (766572): @MicrosoftHelps Its not that the dots are spinning but they are just frozen, i really think it has something to do with the latest update of win10.\nMICROSOFT (766573): @303201 Hello there! Please share your experience to help us improve by answering a quick survey here: https://t.co/DOKDS652vd.\nMICROSOFT (766574): @303201 In that case, you may restart your PC and try to run Windows Update Troubleshooter. Here's how: https://t.co/V3Vvnr9CHG. Update us.\nCUSTOMER (766575): @MicrosoftHelps I tried troubleshooting but it wouldnt detect an error, then it would just restart my pc and get stuck again.",
+      "predicted_intent": "Technical Troubleshooting",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"385209\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 2}, \"score\": 0.798976, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps sorry, after hours of waiting, as soon as i message you, it comes to life | @MicrosoftHelps stuck on 'Restoring your previous version of Windows', the same happens when I reboot.. what can I do? thanks\"}\n{\"evidence_id\": \"2625187\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 7}, \"score\": 0.716632, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I had it but I forgot to back it up when I reinstalled Windows | @116230 I had to reinstall Windows and I am not even sure it's gonna work properly again | @MicrosoftHelps I remember his name was James A | @MicrosoftHelps I don't know what that is nor where it is, sorry! | @116230 y'all should consider getting new software engineers or something because the latest update is flawed af | @444732 Hello, there! Are you still experiencing these issues? Perhaps we can help. | my PC is in the brink of death because of this stupid Creator's update I am suffering :))))\"}\n{\"evidence_id\": \"1522174\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 4}, \"score\": 0.710584, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps On the phone again and back at the same issue | @MicrosoftHelps Thanks - I received some help via phone but now I have been stuck on this screen for almost an hour....m https://t.co/g3tZgDvxcn | @MicrosoftHelps @473051 the status is that you have 5 minutes to tell me how to reactivate my windows before i just do it myself | @MicrosoftHelps since the last update my laptop has been v slow taking 10 mins plus to open applications. Any suggestions? V frustrated!\"}",
+      "generated_reply": "We apologize for the frustration you are experiencing with the Windows updates and restoration process. Since we do not have specific troubleshooting steps for this in our current records, we recommend contacting Microsoft support directly for further assistance."
+    }
+  }
+}

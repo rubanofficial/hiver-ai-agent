@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0075",
+  "input_fingerprint": "2bc417d40213b25de313b5fe84580dad20b99b770dfd4194cf3c06c3065fda2b",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-12T04:36:16+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0075",
+    "customer_message": "@MicrosoftHelps how ti find product key of windows 10",
+    "conversation_context": "MICROSOFT (915259): @337326 Sure, Ashok! To find your Windows product key, here's how: https://t.co/pOD3DnSa5d. Tell us if this works for you.\nCUSTOMER (915260): @MicrosoftHelps Please Help",
+    "predicted_intent": "Product / Feature How-To",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"505662\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.82577, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps hi there\\n\\nSo I’m from the UK and I just purchased a new laptop from @235983 but I’m curious of how I go about obtaining my windows 10 product key.\\n\\nI can’t seem to see it any where on the box is there a way I can find it out ?\"}\n{\"evidence_id\": \"120594\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.817433, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps where do I buy official windows 10 product keys?\"}\n{\"evidence_id\": \"2716765\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 1}, \"score\": 0.763714, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Having issues with activating my Windows 10 Home product key. It says the product key has already been used (0xC004C008), but I've removed my key from all my other devices. I also can't find the receipt/key in my order history anymore. Thanks in advance! :)\"}",
+    "generated_reply": "Hello! Based on similar cases where users were looking to find their Windows 10 product key for a newly purchased laptop, please note that product keys are typically included with the device packaging or digital license depending on how it was purchased. If you are having trouble locating it, we recommend reaching out to Microsoft Support for further assistance."
+  },
+  "raw_response": "{\n  \"correctness\": 4,\n  \"helpfulness\": 4,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 4,\n  \"evidence_support\": 4,\n  \"unsupported_claims\": 4,\n  \"evidence_relevance\": 4,\n  \"grounding_score\": 4,\n  \"reason\": \"The reply directly addresses how to find a Windows 10 product key, appropriately suggesting where it might be found or to contact support, aligning well with the retrieved evidence.\"\n}",
+  "result": {
+    "correctness": 4,
+    "helpfulness": 4,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 4,
+    "evidence_support": 4,
+    "unsupported_claims": 4,
+    "evidence_relevance": 4,
+    "grounding_score": 4,
+    "reason": "The reply directly addresses how to find a Windows 10 product key, appropriately suggesting where it might be found or to contact support, aligning well with the retrieved evidence.",
+    "overall_score": 4,
+    "short_reason": "The reply directly addresses how to find a Windows 10 product key, appropriately suggesting where it might be found or to contact support, aligning well with the retrieved evidence.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 4,
+      "helpfulness": 4,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 4,
+      "unsupported_claims": 4,
+      "evidence_relevance": 4
+    },
+    "golden_id": "GOLDEN-0075",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0075",
+      "customer_message": "@MicrosoftHelps how ti find product key of windows 10",
+      "conversation_context": "MICROSOFT (915259): @337326 Sure, Ashok! To find your Windows product key, here's how: https://t.co/pOD3DnSa5d. Tell us if this works for you.\nCUSTOMER (915260): @MicrosoftHelps Please Help",
+      "predicted_intent": "Product / Feature How-To",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"505662\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.82577, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps hi there\\n\\nSo I’m from the UK and I just purchased a new laptop from @235983 but I’m curious of how I go about obtaining my windows 10 product key.\\n\\nI can’t seem to see it any where on the box is there a way I can find it out ?\"}\n{\"evidence_id\": \"120594\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.817433, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps where do I buy official windows 10 product keys?\"}\n{\"evidence_id\": \"2716765\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 1}, \"score\": 0.763714, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Having issues with activating my Windows 10 Home product key. It says the product key has already been used (0xC004C008), but I've removed my key from all my other devices. I also can't find the receipt/key in my order history anymore. Thanks in advance! :)\"}",
+      "generated_reply": "Hello! Based on similar cases where users were looking to find their Windows 10 product key for a newly purchased laptop, please note that product keys are typically included with the device packaging or digital license depending on how it was purchased. If you are having trouble locating it, we recommend reaching out to Microsoft Support for further assistance."
+    }
+  }
+}

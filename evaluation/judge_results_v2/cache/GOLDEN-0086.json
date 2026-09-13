@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0086",
+  "input_fingerprint": "d9b9612897f1fe53fc0ac8fee8555c329af2503f1592d76e8852e485fc0339d5",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-12T04:38:08+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0086",
+    "customer_message": "@MicrosoftHelps do i need to do anything to get warranty on this controller? Or is it automatically covered. I dont want to waste $65 again.",
+    "conversation_context": "MICROSOFT (1089542): @377048 Hi, Dallas. We hear you. Controller warranty issue are best handled by our @XboxSupport team. You may chat with them 1/2",
+    "predicted_intent": "Warranty / Repair",
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "No evidence reached the confidence threshold for a safe autonomous reply (minimum 0.60); human review is required.",
+    "retrieved_evidence": "{\"evidence_id\": \"900282\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.570271, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"My controller doesn’t work after I updated it @MicrosoftHelps\"}\n{\"evidence_id\": \"2751561\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.552389, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@115890 I need your help please! pre-ordered a surface laptop in May. There was no warranty options offered at the time in Canada, and i just noticed the new Microsoft Complete Service Plan. Your rep hung up on me when I called to purchase it and explain my situation.\"}\n{\"evidence_id\": \"2469680\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.547599, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps How long after purchase can you extend the warranty of a Surface Pro?\"}",
+    "generated_reply": "Thanks for reaching out to MicrosoftHelps. To help you with your controller warranty, we will need to further investigate your account entitlements and purchase details. Please contact Microsoft Support so an agent can look up your specific order and verify your coverage."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 4,\n  \"relevance\": 4,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 4,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 4,\n  \"evidence_relevance\": 2,\n  \"grounding_score\": 3,\n  \"reason\": \"The reply correctly directs the user to contact Microsoft Support for warranty verification, fitting the need for human handling, although the retrieved evidence was largely irrelevant.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 4,
+    "relevance": 4,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 4,
+    "evidence_support": 3,
+    "unsupported_claims": 4,
+    "evidence_relevance": 2,
+    "grounding_score": 3,
+    "reason": "The reply correctly directs the user to contact Microsoft Support for warranty verification, fitting the need for human handling, although the retrieved evidence was largely irrelevant.",
+    "overall_score": 4,
+    "short_reason": "The reply correctly directs the user to contact Microsoft Support for warranty verification, fitting the need for human handling, although the retrieved evidence was largely irrelevant.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 4,
+      "relevance": 4,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 4,
+      "evidence_relevance": 2
+    },
+    "golden_id": "GOLDEN-0086",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0086",
+      "customer_message": "@MicrosoftHelps do i need to do anything to get warranty on this controller? Or is it automatically covered. I dont want to waste $65 again.",
+      "conversation_context": "MICROSOFT (1089542): @377048 Hi, Dallas. We hear you. Controller warranty issue are best handled by our @XboxSupport team. You may chat with them 1/2",
+      "predicted_intent": "Warranty / Repair",
+      "predicted_escalation": "ESCALATE_TO_HUMAN",
+      "predicted_escalation_reason": "No evidence reached the confidence threshold for a safe autonomous reply (minimum 0.60); human review is required.",
+      "retrieved_evidence": "{\"evidence_id\": \"900282\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.570271, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"My controller doesn’t work after I updated it @MicrosoftHelps\"}\n{\"evidence_id\": \"2751561\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.552389, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@115890 I need your help please! pre-ordered a surface laptop in May. There was no warranty options offered at the time in Canada, and i just noticed the new Microsoft Complete Service Plan. Your rep hung up on me when I called to purchase it and explain my situation.\"}\n{\"evidence_id\": \"2469680\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.547599, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps How long after purchase can you extend the warranty of a Surface Pro?\"}",
+      "generated_reply": "Thanks for reaching out to MicrosoftHelps. To help you with your controller warranty, we will need to further investigate your account entitlements and purchase details. Please contact Microsoft Support so an agent can look up your specific order and verify your coverage."
+    }
+  }
+}

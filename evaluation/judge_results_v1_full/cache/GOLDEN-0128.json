@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0128",
+  "input_fingerprint": "4419959afb67d06916aedcf3d1677588a718d3c6d6e794630bcd8c62e7a38687",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:41:13+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0128",
+    "customer_message": "@MicrosoftHelps I am unable to open/setup outlook on either of my windows 10 computer's windows security keeps asking me to enter password",
+    "conversation_context": "MICROSOFT (1827030): @548364 We're here to help, Harrison! Are you using a business or a personal computer? Any recent changes done to it prior to this? https://t.co/3qcAsLFkaY",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"492299\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 5}, \"score\": 0.688425, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Two factor authentication issue. All set now. Thanks. | @MicrosoftHelps No. Just Win Defender and no errors. Just a pop up box from Win Security with the username and password | @MicrosoftHelps Personal | @MicrosoftHelps I have a paid Office 365 subscription and it won’t accept my password for Gmail. I have my email set for IMAP but no luck. | @123127 Why do I have to look up instructions on how to set up Outlook 2016 w/gmail? (ps I have Off365 &amp; IMAP is set) #kludgy\"}\n{\"evidence_id\": \"105727\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 2}, \"score\": 0.672851, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Just spent over an hour trying to figure out my Outlook password so today is off to a great start | @MicrosoftHelps Had to use intermedia because of my work but finally figured it out, thank you!\"}\n{\"evidence_id\": \"2506852\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 4}, \"score\": 0.670485, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps (2/2) added a few months ago. | @MicrosoftHelps (1/2) I added a yahoo account to the Windows Mail App (The one I use to log into Windows is an Outlook account).  The Yahoo account is brand new and was created approximately October 1 of this year.  I had no issue adding my other Yahoo account (created few years ago) which I | @MicrosoftHelps I added my mail account to the mail app that cam with Windows 10 and every time it tries to check for mail I get this message.  I know I put in the correct password.  I tried using the same password accessing the  account through a web browser and it worked. https://t.co/SVSEsEFCsN | @MicrosoftHelps I thought using the app would be easier but since I cannot get any support to get it fixed I think I will stay with using the browser even though it is not as convenient but it works\"}",
+    "generated_reply": "Hello! I understand you are experiencing issues with Windows Security repeatedly asking for your password when trying to set up Outlook on your Windows 10 computers. Unfortunately, the available information is insufficient to fully resolve this specific credential prompt issue. Please contact Microsoft support directly for further assistance."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 4,\n  \"evidence_support\": 4,\n  \"unsupported_claims\": 5,\n  \"evidence_relevance\": 3,\n  \"grounding_score\": 4,\n  \"reason\": \"The reply correctly identifies the user's issue and appropriately suggests contacting support due to insufficient specific troubleshooting steps in the retrieved evidence.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 4,
+    "evidence_support": 4,
+    "unsupported_claims": 5,
+    "evidence_relevance": 3,
+    "grounding_score": 4,
+    "reason": "The reply correctly identifies the user's issue and appropriately suggests contacting support due to insufficient specific troubleshooting steps in the retrieved evidence.",
+    "overall_score": 4,
+    "short_reason": "The reply correctly identifies the user's issue and appropriately suggests contacting support due to insufficient specific troubleshooting steps in the retrieved evidence.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 4,
+      "unsupported_claims": 5,
+      "evidence_relevance": 3
+    },
+    "golden_id": "GOLDEN-0128",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0128",
+      "customer_message": "@MicrosoftHelps I am unable to open/setup outlook on either of my windows 10 computer's windows security keeps asking me to enter password",
+      "conversation_context": "MICROSOFT (1827030): @548364 We're here to help, Harrison! Are you using a business or a personal computer? Any recent changes done to it prior to this? https://t.co/3qcAsLFkaY",
+      "predicted_intent": "Technical Troubleshooting",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"492299\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 5}, \"score\": 0.688425, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Two factor authentication issue. All set now. Thanks. | @MicrosoftHelps No. Just Win Defender and no errors. Just a pop up box from Win Security with the username and password | @MicrosoftHelps Personal | @MicrosoftHelps I have a paid Office 365 subscription and it won’t accept my password for Gmail. I have my email set for IMAP but no luck. | @123127 Why do I have to look up instructions on how to set up Outlook 2016 w/gmail? (ps I have Off365 &amp; IMAP is set) #kludgy\"}\n{\"evidence_id\": \"105727\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 2}, \"score\": 0.672851, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Just spent over an hour trying to figure out my Outlook password so today is off to a great start | @MicrosoftHelps Had to use intermedia because of my work but finally figured it out, thank you!\"}\n{\"evidence_id\": \"2506852\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 4}, \"score\": 0.670485, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps (2/2) added a few months ago. | @MicrosoftHelps (1/2) I added a yahoo account to the Windows Mail App (The one I use to log into Windows is an Outlook account).  The Yahoo account is brand new and was created approximately October 1 of this year.  I had no issue adding my other Yahoo account (created few years ago) which I | @MicrosoftHelps I added my mail account to the mail app that cam with Windows 10 and every time it tries to check for mail I get this message.  I know I put in the correct password.  I tried using the same password accessing the  account through a web browser and it worked. https://t.co/SVSEsEFCsN | @MicrosoftHelps I thought using the app would be easier but since I cannot get any support to get it fixed I think I will stay with using the browser even though it is not as convenient but it works\"}",
+      "generated_reply": "Hello! I understand you are experiencing issues with Windows Security repeatedly asking for your password when trying to set up Outlook on your Windows 10 computers. Unfortunately, the available information is insufficient to fully resolve this specific credential prompt issue. Please contact Microsoft support directly for further assistance."
+    }
+  }
+}

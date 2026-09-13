@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0040",
+  "input_fingerprint": "b7642df1fe0f4e73cf53115068ebaafbd98c6898f64e8c5d48e6f218db6e33a4",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-12T04:33:11+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0040",
+    "customer_message": "@MicrosoftHelps no features on my windows 10 laptop are working. Can't use the search in the quick window, none of my apps, besides browser, work/load",
+    "conversation_context": "MICROSOFT (462906): @225008 Hi! Thanks for bringing this up. How long have you been experiencing this issue? Can you send us a screenshot? Are you getting any error codes?",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"2861561\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 3}, \"score\": 0.689987, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Thanks, will send dm now | @MicrosoftHelps Hi guys having issues with Windows 10 on pc...start button/search function and numerous other issues Such as Windows cannot find Ms settings. Any ideas for a fix? Thanks | @MicrosoftHelps Where can I see the Windows 10 build version?\"}\n{\"evidence_id\": \"105735\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.678987, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps start menu search isn't working - https://t.co/K5hiGEBTLA says \\\"Our services aren't available right now\\\" - what gives?\"}\n{\"evidence_id\": \"40111\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.672493, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Your Supporter has done his Job as well. Everything Works. Thanks | @MicrosoftHelps new Problem. My Windows Search didn't works. I can't search Programms https://t.co/M4Ft4sZ97b\"}",
+    "generated_reply": "We are sorry to hear that you are experiencing issues with features and apps not working on your Windows 10 laptop. Because the historical evidence indicates that issues like start button and search function problems require further troubleshooting and investigation, please contact Microsoft Support so we can look into your specific system state and help find a fix."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 4,\n  \"clarity\": 4,\n  \"escalation_appropriateness\": 4,\n  \"overall_reply_score\": 3,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 3,\n  \"evidence_relevance\": 3,\n  \"grounding_score\": 3,\n  \"reason\": \"The reply acknowledges the customer's issues and appropriately suggests contacting support for deeper troubleshooting, but leans heavily on meta-commentary about historical evidence rather than directly providing troubleshooting steps.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 4,
+    "clarity": 4,
+    "escalation_appropriateness": 4,
+    "overall_reply_score": 3,
+    "evidence_support": 3,
+    "unsupported_claims": 3,
+    "evidence_relevance": 3,
+    "grounding_score": 3,
+    "reason": "The reply acknowledges the customer's issues and appropriately suggests contacting support for deeper troubleshooting, but leans heavily on meta-commentary about historical evidence rather than directly providing troubleshooting steps.",
+    "overall_score": 3,
+    "short_reason": "The reply acknowledges the customer's issues and appropriately suggests contacting support for deeper troubleshooting, but leans heavily on meta-commentary about historical evidence rather than directly providing troubleshooting steps.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 4,
+      "clarity": 4,
+      "escalation_appropriateness": 4
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 3,
+      "evidence_relevance": 3
+    },
+    "golden_id": "GOLDEN-0040",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0040",
+      "customer_message": "@MicrosoftHelps no features on my windows 10 laptop are working. Can't use the search in the quick window, none of my apps, besides browser, work/load",
+      "conversation_context": "MICROSOFT (462906): @225008 Hi! Thanks for bringing this up. How long have you been experiencing this issue? Can you send us a screenshot? Are you getting any error codes?",
+      "predicted_intent": "Technical Troubleshooting",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"2861561\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 3}, \"score\": 0.689987, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Thanks, will send dm now | @MicrosoftHelps Hi guys having issues with Windows 10 on pc...start button/search function and numerous other issues Such as Windows cannot find Ms settings. Any ideas for a fix? Thanks | @MicrosoftHelps Where can I see the Windows 10 build version?\"}\n{\"evidence_id\": \"105735\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.678987, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps start menu search isn't working - https://t.co/K5hiGEBTLA says \\\"Our services aren't available right now\\\" - what gives?\"}\n{\"evidence_id\": \"40111\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.672493, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Your Supporter has done his Job as well. Everything Works. Thanks | @MicrosoftHelps new Problem. My Windows Search didn't works. I can't search Programms https://t.co/M4Ft4sZ97b\"}",
+      "generated_reply": "We are sorry to hear that you are experiencing issues with features and apps not working on your Windows 10 laptop. Because the historical evidence indicates that issues like start button and search function problems require further troubleshooting and investigation, please contact Microsoft Support so we can look into your specific system state and help find a fix."
+    }
+  }
+}

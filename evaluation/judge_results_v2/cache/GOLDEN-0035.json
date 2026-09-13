@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0035",
+  "input_fingerprint": "829f4f200460b319f369b8e65368f028dd11af72bb714d4409c098d29803e2c5",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-12T04:32:57+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0035",
+    "customer_message": "@MicrosoftHelps I just had new big update and now all UD history vanished. https://t.co/wFg66ULI5P",
+    "conversation_context": "MICROSOFT (441423): @219699 Hi, Bob! Let’s get this sorted. What do you mean by UD history? Is it driver updates? Please send us a DM for better assistance. https://t.co/3qcAsLFkaY",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"1345487\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.644596, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Have tried restarting and clearing history but no success. No further updates available either\"}\n{\"evidence_id\": \"1037739\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.563804, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps You're update did this. https://t.co/JZdqm5kVoa\"}\n{\"evidence_id\": \"23723\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.555426, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"This has been happening the past hour @MicrosoftHelps https://t.co/8LZ1qxJvwZ\"}",
+    "generated_reply": "I understand that your update history vanished after a recent update and that restarting and clearing history did not resolve the issue. Since further investigation is needed into your update history and system state, please contact Microsoft Support so we can look into this for you."
+  },
+  "raw_response": "{\n  \"correctness\": 4,\n  \"helpfulness\": 4,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 4,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 3,\n  \"evidence_relevance\": 3,\n  \"grounding_score\": 3,\n  \"reason\": \"The reply addresses the customer's issue clearly and suggests contacting support, but introduces details from a historical snippet that wasn't directly part of the active customer dialogue (restarting/clearing history).\"\n}",
+  "result": {
+    "correctness": 4,
+    "helpfulness": 4,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 4,
+    "evidence_support": 3,
+    "unsupported_claims": 3,
+    "evidence_relevance": 3,
+    "grounding_score": 3,
+    "reason": "The reply addresses the customer's issue clearly and suggests contacting support, but introduces details from a historical snippet that wasn't directly part of the active customer dialogue (restarting/clearing history).",
+    "overall_score": 4,
+    "short_reason": "The reply addresses the customer's issue clearly and suggests contacting support, but introduces details from a historical snippet that wasn't directly part of the active customer dialogue (restarting/clearing history).",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 4,
+      "helpfulness": 4,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 3,
+      "evidence_relevance": 3
+    },
+    "golden_id": "GOLDEN-0035",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0035",
+      "customer_message": "@MicrosoftHelps I just had new big update and now all UD history vanished. https://t.co/wFg66ULI5P",
+      "conversation_context": "MICROSOFT (441423): @219699 Hi, Bob! Let’s get this sorted. What do you mean by UD history? Is it driver updates? Please send us a DM for better assistance. https://t.co/3qcAsLFkaY",
+      "predicted_intent": "Technical Troubleshooting",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"1345487\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.644596, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Have tried restarting and clearing history but no success. No further updates available either\"}\n{\"evidence_id\": \"1037739\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.563804, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps You're update did this. https://t.co/JZdqm5kVoa\"}\n{\"evidence_id\": \"23723\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.555426, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"This has been happening the past hour @MicrosoftHelps https://t.co/8LZ1qxJvwZ\"}",
+      "generated_reply": "I understand that your update history vanished after a recent update and that restarting and clearing history did not resolve the issue. Since further investigation is needed into your update history and system state, please contact Microsoft Support so we can look into this for you."
+    }
+  }
+}

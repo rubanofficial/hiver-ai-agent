@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0112",
+  "input_fingerprint": "9b10187a25831932658363a641fa4064d5eac472d906a453244fcd2a389ca90d",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T11:24:20+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0112",
+    "customer_message": "@MicrosoftHelps when will the Microsoft stores black Friday sales list for games be posted?",
+    "conversation_context": "MICROSOFT (1493938): @243570 Hi. Let's point you to the right path. You can accurately check it with our support here: https://t.co/vvQSzMvaUr. 🙂\nCUSTOMER (1493939): @MicrosoftHelps That didnt help at all b",
+    "predicted_intent": "Microsoft Store",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"2751567\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.70097, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps trying to buy a game in the blck friday deals and i cant pls help\"}\n{\"evidence_id\": \"1574936\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.654185, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps If I preordered the scorpio xbox online at the ms store, will it arrive launch day or ship launch day?\"}\n{\"evidence_id\": \"1716997\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.647804, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps When will the preordered Project Scorpio Xbox Ones ship?\"}",
+    "generated_reply": "Hello! Based on a similar case regarding Microsoft Store game deals and purchases, we recommend checking the official Microsoft Store website for the most up-to-date information on Black Friday sales and game availability."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 4,\n  \"clarity\": 4,\n  \"escalation_appropriateness\": 4,\n  \"overall_reply_score\": 3,\n  \"evidence_support\": 2,\n  \"unsupported_claims\": 3,\n  \"evidence_relevance\": 2,\n  \"grounding_score\": 2,\n  \"reason\": \"The reply provides generic advice to check the website because the retrieved evidence did not contain the specific Black Friday sales list release date, leading to weak grounding.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 4,
+    "clarity": 4,
+    "escalation_appropriateness": 4,
+    "overall_reply_score": 3,
+    "evidence_support": 2,
+    "unsupported_claims": 3,
+    "evidence_relevance": 2,
+    "grounding_score": 2,
+    "reason": "The reply provides generic advice to check the website because the retrieved evidence did not contain the specific Black Friday sales list release date, leading to weak grounding.",
+    "overall_score": 3,
+    "short_reason": "The reply provides generic advice to check the website because the retrieved evidence did not contain the specific Black Friday sales list release date, leading to weak grounding.",
+    "grounding_decision": "UNSUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 4,
+      "clarity": 4,
+      "escalation_appropriateness": 4
+    },
+    "evidence_grounding": {
+      "evidence_support": 2,
+      "unsupported_claims": 3,
+      "evidence_relevance": 2
+    },
+    "golden_id": "GOLDEN-0112",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0112",
+      "customer_message": "@MicrosoftHelps when will the Microsoft stores black Friday sales list for games be posted?",
+      "conversation_context": "MICROSOFT (1493938): @243570 Hi. Let's point you to the right path. You can accurately check it with our support here: https://t.co/vvQSzMvaUr. 🙂\nCUSTOMER (1493939): @MicrosoftHelps That didnt help at all b",
+      "predicted_intent": "Microsoft Store",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"2751567\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.70097, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps trying to buy a game in the blck friday deals and i cant pls help\"}\n{\"evidence_id\": \"1574936\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.654185, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps If I preordered the scorpio xbox online at the ms store, will it arrive launch day or ship launch day?\"}\n{\"evidence_id\": \"1716997\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.647804, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps When will the preordered Project Scorpio Xbox Ones ship?\"}",
+      "generated_reply": "Hello! Based on a similar case regarding Microsoft Store game deals and purchases, we recommend checking the official Microsoft Store website for the most up-to-date information on Black Friday sales and game availability."
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0024",
+  "input_fingerprint": "536eb322203356bb7e39396faa68e5cd5ecfa6ca9b605d7244f144bf6d0ebfcc",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:29:51+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0024",
+    "customer_message": "@MicrosoftHelps Hi I have a student Office 365 account now setup and want to cancel my £59.99 subscription which is due to renew today. 1/2",
+    "conversation_context": "MICROSOFT (229949): @170794 Just checking to see if you still need help. Were you able to contact our Accounts and billing team? https://t.co/3qcAsLFkaY",
+    "predicted_intent": "Cancellation / Subscription",
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Generated reply could not be grounded in historical evidence; human review is required.",
+    "retrieved_evidence": "{\"evidence_id\": \"1107016\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.760105, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps trying to cancel my office 365 subscription and your website won’t let me?  Help\"}\n{\"evidence_id\": \"2658503\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 3}, \"score\": 0.756184, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Office 365 Personal. Already tried, Case number: 1405022833 | @122427 @115890 @MicrosoftHelps I cannot cancel my Office 365 subscription. Please, get in touch with me on __email__ | @MicrosoftHelps OK, I sent you a DM. Please, help me\"}\n{\"evidence_id\": \"1620360\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.695545, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I bought an office365 subscription on June 28th because my precious one was expiring. Somehow my subscription was cancelled on July 25th | @MicrosoftHelps I have a problem with a subscription to Office365, can you help?\"}",
+    "generated_reply": "I understand you want to cancel your £59.99 Office 365 subscription today. Since I do not have access to specific account management steps in my current records, please contact Microsoft support directly for immediate assistance with your cancellation."
+  },
+  "raw_response": "{\n  \"correctness\": 4,\n  \"helpfulness\": 4,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 4,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 3,\n  \"evidence_relevance\": 3,\n  \"grounding_score\": 3,\n  \"reason\": \"The reply appropriately advises contacting support for account cancellation since the retrieved evidence only shows similar cancellation complaints without specific steps, leading to a safe and clear recommendation.\"\n}",
+  "result": {
+    "correctness": 4,
+    "helpfulness": 4,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 4,
+    "evidence_support": 3,
+    "unsupported_claims": 3,
+    "evidence_relevance": 3,
+    "grounding_score": 3,
+    "reason": "The reply appropriately advises contacting support for account cancellation since the retrieved evidence only shows similar cancellation complaints without specific steps, leading to a safe and clear recommendation.",
+    "overall_score": 4,
+    "short_reason": "The reply appropriately advises contacting support for account cancellation since the retrieved evidence only shows similar cancellation complaints without specific steps, leading to a safe and clear recommendation.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 4,
+      "helpfulness": 4,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 3,
+      "evidence_relevance": 3
+    },
+    "golden_id": "GOLDEN-0024",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0024",
+      "customer_message": "@MicrosoftHelps Hi I have a student Office 365 account now setup and want to cancel my £59.99 subscription which is due to renew today. 1/2",
+      "conversation_context": "MICROSOFT (229949): @170794 Just checking to see if you still need help. Were you able to contact our Accounts and billing team? https://t.co/3qcAsLFkaY",
+      "predicted_intent": "Cancellation / Subscription",
+      "predicted_escalation": "ESCALATE_TO_HUMAN",
+      "predicted_escalation_reason": "Generated reply could not be grounded in historical evidence; human review is required.",
+      "retrieved_evidence": "{\"evidence_id\": \"1107016\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.760105, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps trying to cancel my office 365 subscription and your website won’t let me?  Help\"}\n{\"evidence_id\": \"2658503\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 3}, \"score\": 0.756184, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Office 365 Personal. Already tried, Case number: 1405022833 | @122427 @115890 @MicrosoftHelps I cannot cancel my Office 365 subscription. Please, get in touch with me on __email__ | @MicrosoftHelps OK, I sent you a DM. Please, help me\"}\n{\"evidence_id\": \"1620360\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.695545, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I bought an office365 subscription on June 28th because my precious one was expiring. Somehow my subscription was cancelled on July 25th | @MicrosoftHelps I have a problem with a subscription to Office365, can you help?\"}",
+      "generated_reply": "I understand you want to cancel your £59.99 Office 365 subscription today. Since I do not have access to specific account management steps in my current records, please contact Microsoft support directly for immediate assistance with your cancellation."
+    }
+  }
+}

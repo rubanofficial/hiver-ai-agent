@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0070",
+  "input_fingerprint": "5192baf6ea12a03a203d0f745c8f84b7eecb3239407a72f2058c0b77f54fb49f",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:35:45+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0070",
+    "customer_message": "@MicrosoftHelps I went back to CU 1703 64bit clean install. I think FCU 1709 isn't stable yet - I see lot of probllems. SKYSTAR HD2 USB CI WORKS OK AGAIN!",
+    "conversation_context": "MICROSOFT (856326): @323353 We've got it. Thanks for the details. Here are some steps to resolve such issue: https://t.co/aoelndZiSU. Share us the result.\nCUSTOMER (856327): @MicrosoftHelps Doing everything trouble steps from upd. menu, nothing help. My Acer works ok until I connect my Skystar USB2 HD CI &gt; BSOD, restart, again https://t.co/YOXJFskuYi\nMICROSOFT (856328): @323353 Hello, Reno! Were you able to follow the steps on the link provided? Feel free to reach out if you still need help. Good day!\nMICROSOFT (856329): @323353 Hi, Reno! We definitely want to help. Just to clarify, what troubleshooting steps have you done so far? Share a screenshot with us.\nCUSTOMER (856330): @MicrosoftHelps After connecting Skystar USB2 HD CI to my Acer laptop updated with FCU&gt;GSOD. NOT DOING BEFORE ON CU https://t.co/rZ0CmB10Pa",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"476025\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.600018, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps It’s stuck on 1703. I’ve tried two times do all updates from scratch from the recovery and always fails to update to 1709. I just want to know if I can install the FCU directly from ISO with USB instead of coming the all way from 1703. | @MicrosoftHelps Is there any issue/limitation installing Windows 10 FCU 1709 on a Surface Laptop using the ISO file from MS instead of the supplied recovery?\"}\n{\"evidence_id\": \"2395102\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.588813, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Yes, the ones you already know about. But i've managed it somehow 😊 Via a Microsoft-installer. It looked like it went to a previous version and installed 1709 afterwards 😊👍 | @MicrosoftHelps Goodmorning 😊Are you working on a solution of installing to Windows update, version 1709 ? https://t.co/xLjc12CfBM\"}\n{\"evidence_id\": \"1496894\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.572175, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Updating to Windows 10 Fall Creators Update Build 1709. https://t.co/MLyG0CRERi\"}",
+    "generated_reply": "Thank you for reaching out to MicrosoftHelps. We are glad to hear that your device is working properly again on version 1703. If you experience any further stability concerns or need assistance with future updates, please feel free to let us know."
+  },
+  "raw_response": "{\n  \"correctness\": 5,\n  \"helpfulness\": 5,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 5,\n  \"evidence_support\": 5,\n  \"unsupported_claims\": 5,\n  \"evidence_relevance\": 4,\n  \"grounding_score\": 5,\n  \"reason\": \"The customer successfully resolved their own issue by reverting to version 1703 where their device works properly. The agent appropriately acknowledges this outcome and offers future assistance.\"\n}",
+  "result": {
+    "correctness": 5,
+    "helpfulness": 5,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 5,
+    "evidence_support": 5,
+    "unsupported_claims": 5,
+    "evidence_relevance": 4,
+    "grounding_score": 5,
+    "reason": "The customer successfully resolved their own issue by reverting to version 1703 where their device works properly. The agent appropriately acknowledges this outcome and offers future assistance.",
+    "overall_score": 5,
+    "short_reason": "The customer successfully resolved their own issue by reverting to version 1703 where their device works properly. The agent appropriately acknowledges this outcome and offers future assistance.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 5,
+      "helpfulness": 5,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 5,
+      "unsupported_claims": 5,
+      "evidence_relevance": 4
+    },
+    "golden_id": "GOLDEN-0070",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0070",
+      "customer_message": "@MicrosoftHelps I went back to CU 1703 64bit clean install. I think FCU 1709 isn't stable yet - I see lot of probllems. SKYSTAR HD2 USB CI WORKS OK AGAIN!",
+      "conversation_context": "MICROSOFT (856326): @323353 We've got it. Thanks for the details. Here are some steps to resolve such issue: https://t.co/aoelndZiSU. Share us the result.\nCUSTOMER (856327): @MicrosoftHelps Doing everything trouble steps from upd. menu, nothing help. My Acer works ok until I connect my Skystar USB2 HD CI &gt; BSOD, restart, again https://t.co/YOXJFskuYi\nMICROSOFT (856328): @323353 Hello, Reno! Were you able to follow the steps on the link provided? Feel free to reach out if you still need help. Good day!\nMICROSOFT (856329): @323353 Hi, Reno! We definitely want to help. Just to clarify, what troubleshooting steps have you done so far? Share a screenshot with us.\nCUSTOMER (856330): @MicrosoftHelps After connecting Skystar USB2 HD CI to my Acer laptop updated with FCU&gt;GSOD. NOT DOING BEFORE ON CU https://t.co/rZ0CmB10Pa",
+      "predicted_intent": "Technical Troubleshooting",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"476025\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.600018, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps It’s stuck on 1703. I’ve tried two times do all updates from scratch from the recovery and always fails to update to 1709. I just want to know if I can install the FCU directly from ISO with USB instead of coming the all way from 1703. | @MicrosoftHelps Is there any issue/limitation installing Windows 10 FCU 1709 on a Surface Laptop using the ISO file from MS instead of the supplied recovery?\"}\n{\"evidence_id\": \"2395102\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.588813, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Yes, the ones you already know about. But i've managed it somehow 😊 Via a Microsoft-installer. It looked like it went to a previous version and installed 1709 afterwards 😊👍 | @MicrosoftHelps Goodmorning 😊Are you working on a solution of installing to Windows update, version 1709 ? https://t.co/xLjc12CfBM\"}\n{\"evidence_id\": \"1496894\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.572175, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Updating to Windows 10 Fall Creators Update Build 1709. https://t.co/MLyG0CRERi\"}",
+      "generated_reply": "Thank you for reaching out to MicrosoftHelps. We are glad to hear that your device is working properly again on version 1703. If you experience any further stability concerns or need assistance with future updates, please feel free to let us know."
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0101",
+  "input_fingerprint": "302c56f584c7e3d982789e926b2081a0a7c7bc84cc71fda01b32a8a8954bcb82",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T11:24:03+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0101",
+    "customer_message": "@MicrosoftHelps Your links are blocked by at least two of my ad-blockers...",
+    "conversation_context": "MICROSOFT (1246577): @412463 That's strange, Jernej. Just to clarify, what troubleshooting steps have you tried so far?\nCUSTOMER (1246578): @MicrosoftHelps None, because I don't know where to start. It happens on both of my computers, and it happens in a freshly installed VM shown in the GIF.\nCUSTOMER (1246579): @MicrosoftHelps Why does Windows 10 1709 reset my custom High Contrast color scheme to High Contrast no1 when I connect with Remote Desktop? https://t.co/GmJFtuoQ21\nMICROSOFT (1246580): @412463 Thanks for the info. Have you made any changes prior to having this issue?\nCUSTOMER (1246581): @MicrosoftHelps Upgraded to 1709 - it didn't happen on previous versions. The VM is a clean install though - I just set and saved the colour scheme there.\nCUSTOMER (1246582): @MicrosoftHelps I just tried installing another VM, this time with English 1709. Same problem - on first login, I set custom HC colours, enabled RD and …\nCUSTOMER (1246583): @MicrosoftHelps … connected with Remote Desktop. The colours changed to High Contrast Black (probably because that's what I initially selected).\nCUSTOMER (1246584): @MicrosoftHelps I can provide the VM if you want, though this looks like it can be reproduced without any trouble.\nMICROSOFT (1246585): @412463 1/2 Let's ask a next level of support coming from our Answer Desk Team to make sure that this concern of yours will be resolved.\nCUSTOMER (1246586): @MicrosoftHelps Anything new regarding this? My laptop also updated to 1709 and now has the same problem.\nMICROSOFT (1246587): @412463 Hi, Jernej. Just to verify, were you able to contact Answer Desk? If not, here's the link: https://t.co/o4BPXM6SIY. Please secure a Service Request number for future reference.\nMICROSOFT (1246588): @412463 We'd like to hear from you. Please help us improve by answering a quick survey here: https://t.co/UztDahNUhx.",
+    "predicted_intent": "Complaint / Feedback",
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+    "retrieved_evidence": "{\"evidence_id\": \"2563112\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.735973, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps \\nPlease unblocked my email 😔\"}\n{\"evidence_id\": \"2560143\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.735973, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps \\nPlease unblocked my email 😔\"}\n{\"evidence_id\": \"1075154\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.734438, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps please read your dms I've done all of that none sense and you've blocked my account | @MicrosoftHelps WHY have you blocked my account\"}",
+    "generated_reply": "Hello! Based on similar cases where users experienced account access issues or blocked links/accounts, please reach out to Microsoft Support directly for assistance with your account status."
+  },
+  "raw_response": "{\n  \"correctness\": 1,\n  \"helpfulness\": 1,\n  \"relevance\": 1,\n  \"clarity\": 3,\n  \"escalation_appropriateness\": 1,\n  \"overall_reply_score\": 1,\n  \"evidence_support\": 1,\n  \"unsupported_claims\": 1,\n  \"evidence_relevance\": 1,\n  \"grounding_score\": 1,\n  \"reason\": \"The generated reply completely hallucinates the customer's problem, confusing a Remote Desktop High Contrast color scheme reset issue in Windows 10 1709 with account access and blocked links/accounts.\"\n}",
+  "result": {
+    "correctness": 1,
+    "helpfulness": 1,
+    "relevance": 1,
+    "clarity": 3,
+    "escalation_appropriateness": 1,
+    "overall_reply_score": 1,
+    "evidence_support": 1,
+    "unsupported_claims": 1,
+    "evidence_relevance": 1,
+    "grounding_score": 1,
+    "reason": "The generated reply completely hallucinates the customer's problem, confusing a Remote Desktop High Contrast color scheme reset issue in Windows 10 1709 with account access and blocked links/accounts.",
+    "overall_score": 1,
+    "short_reason": "The generated reply completely hallucinates the customer's problem, confusing a Remote Desktop High Contrast color scheme reset issue in Windows 10 1709 with account access and blocked links/accounts.",
+    "grounding_decision": "UNSUPPORTED",
+    "reply_quality": {
+      "correctness": 1,
+      "helpfulness": 1,
+      "relevance": 1,
+      "clarity": 3,
+      "escalation_appropriateness": 1
+    },
+    "evidence_grounding": {
+      "evidence_support": 1,
+      "unsupported_claims": 1,
+      "evidence_relevance": 1
+    },
+    "golden_id": "GOLDEN-0101",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0101",
+      "customer_message": "@MicrosoftHelps Your links are blocked by at least two of my ad-blockers...",
+      "conversation_context": "MICROSOFT (1246577): @412463 That's strange, Jernej. Just to clarify, what troubleshooting steps have you tried so far?\nCUSTOMER (1246578): @MicrosoftHelps None, because I don't know where to start. It happens on both of my computers, and it happens in a freshly installed VM shown in the GIF.\nCUSTOMER (1246579): @MicrosoftHelps Why does Windows 10 1709 reset my custom High Contrast color scheme to High Contrast no1 when I connect with Remote Desktop? https://t.co/GmJFtuoQ21\nMICROSOFT (1246580): @412463 Thanks for the info. Have you made any changes prior to having this issue?\nCUSTOMER (1246581): @MicrosoftHelps Upgraded to 1709 - it didn't happen on previous versions. The VM is a clean install though - I just set and saved the colour scheme there.\nCUSTOMER (1246582): @MicrosoftHelps I just tried installing another VM, this time with English 1709. Same problem - on first login, I set custom HC colours, enabled RD and …\nCUSTOMER (1246583): @MicrosoftHelps … connected with Remote Desktop. The colours changed to High Contrast Black (probably because that's what I initially selected).\nCUSTOMER (1246584): @MicrosoftHelps I can provide the VM if you want, though this looks like it can be reproduced without any trouble.\nMICROSOFT (1246585): @412463 1/2 Let's ask a next level of support coming from our Answer Desk Team to make sure that this concern of yours will be resolved.\nCUSTOMER (1246586): @MicrosoftHelps Anything new regarding this? My laptop also updated to 1709 and now has the same problem.\nMICROSOFT (1246587): @412463 Hi, Jernej. Just to verify, were you able to contact Answer Desk? If not, here's the link: https://t.co/o4BPXM6SIY. Please secure a Service Request number for future reference.\nMICROSOFT (1246588): @412463 We'd like to hear from you. Please help us improve by answering a quick survey here: https://t.co/UztDahNUhx.",
+      "predicted_intent": "Complaint / Feedback",
+      "predicted_escalation": "ESCALATE_TO_HUMAN",
+      "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+      "retrieved_evidence": "{\"evidence_id\": \"2563112\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.735973, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps \\nPlease unblocked my email 😔\"}\n{\"evidence_id\": \"2560143\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.735973, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps \\nPlease unblocked my email 😔\"}\n{\"evidence_id\": \"1075154\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.734438, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps please read your dms I've done all of that none sense and you've blocked my account | @MicrosoftHelps WHY have you blocked my account\"}",
+      "generated_reply": "Hello! Based on similar cases where users experienced account access issues or blocked links/accounts, please reach out to Microsoft Support directly for assistance with your account status."
+    }
+  }
+}

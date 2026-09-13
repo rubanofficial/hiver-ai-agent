@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0130",
+  "input_fingerprint": "d7a9198d91867e8952d85f80baf718fb7ab40b414fc587c39da21705801424a6",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T11:25:24+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0130",
+    "customer_message": "@MicrosoftHelps It did not work ether. :-(",
+    "conversation_context": "MICROSOFT (1844112): @552506 Hi, Florian. We're glad that you reach out. You can check this link to help you with that error code: https://t.co/TTUtYg6Zge. https://t.co/3qcAsLFkaY\nCUSTOMER (1844113): @MicrosoftHelps The script ran through but it did not help... Still getting the same error. https://t.co/JbQ9qo5j2h\nCUSTOMER (1844114): @MicrosoftHelps Hi - i am getting the error 0x80070005 when trying to install the Windows 10, Version 1709 update- any tips? thanks.\nMICROSOFT (1844115): @552506 Got it. You may also try to run Windows Update Troubleshooter. Here's how: https://t.co/tXNdjC14YK. Let us know how it goes.\nCUSTOMER (1844116): @MicrosoftHelps I also tried that, it did not help.\nMICROSOFT (1844117): @552506 If that case, here's another troubleshooting method that you can try so we can solve that update issue: https://t.co/RV6w06cfUi.\nCUSTOMER (1844118): @MicrosoftHelps I finaly did. But not with win update but installing manual (Windows10Upgrade9252.exe). I don't know why it worked, but it did. :-D https://t.co/LgRXtwXdEq",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"423899\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 2}, \"score\": 0.817506, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps What’s going on? https://t.co/rorMFB2Oj8 | @MicrosoftHelps I got everything working. Thank you!\"}\n{\"evidence_id\": \"1732382\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.789661, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps It's fine now.\"}\n{\"evidence_id\": \"2062987\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.788582, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Finally worked after several minutes\"}",
+    "generated_reply": "We understand this is frustrating. Based on similar cases where things eventually worked out after waiting several minutes or trying again, we suggest giving it a little more time. If the issue persists, please let us know so we can assist further."
+  },
+  "raw_response": "{\n  \"correctness\": 2,\n  \"helpfulness\": 2,\n  \"relevance\": 3,\n  \"clarity\": 4,\n  \"escalation_appropriateness\": 3,\n  \"overall_reply_score\": 2,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 3,\n  \"evidence_relevance\": 2,\n  \"grounding_score\": 3,\n  \"reason\": \"The customer already resolved their issue by installing the update manually, but the agent's reply ignores this and suggests waiting a few more minutes based on irrelevant historical evidence.\"\n}",
+  "result": {
+    "correctness": 2,
+    "helpfulness": 2,
+    "relevance": 3,
+    "clarity": 4,
+    "escalation_appropriateness": 3,
+    "overall_reply_score": 2,
+    "evidence_support": 3,
+    "unsupported_claims": 3,
+    "evidence_relevance": 2,
+    "grounding_score": 3,
+    "reason": "The customer already resolved their issue by installing the update manually, but the agent's reply ignores this and suggests waiting a few more minutes based on irrelevant historical evidence.",
+    "overall_score": 2,
+    "short_reason": "The customer already resolved their issue by installing the update manually, but the agent's reply ignores this and suggests waiting a few more minutes based on irrelevant historical evidence.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 2,
+      "helpfulness": 2,
+      "relevance": 3,
+      "clarity": 4,
+      "escalation_appropriateness": 3
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 3,
+      "evidence_relevance": 2
+    },
+    "golden_id": "GOLDEN-0130",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0130",
+      "customer_message": "@MicrosoftHelps It did not work ether. :-(",
+      "conversation_context": "MICROSOFT (1844112): @552506 Hi, Florian. We're glad that you reach out. You can check this link to help you with that error code: https://t.co/TTUtYg6Zge. https://t.co/3qcAsLFkaY\nCUSTOMER (1844113): @MicrosoftHelps The script ran through but it did not help... Still getting the same error. https://t.co/JbQ9qo5j2h\nCUSTOMER (1844114): @MicrosoftHelps Hi - i am getting the error 0x80070005 when trying to install the Windows 10, Version 1709 update- any tips? thanks.\nMICROSOFT (1844115): @552506 Got it. You may also try to run Windows Update Troubleshooter. Here's how: https://t.co/tXNdjC14YK. Let us know how it goes.\nCUSTOMER (1844116): @MicrosoftHelps I also tried that, it did not help.\nMICROSOFT (1844117): @552506 If that case, here's another troubleshooting method that you can try so we can solve that update issue: https://t.co/RV6w06cfUi.\nCUSTOMER (1844118): @MicrosoftHelps I finaly did. But not with win update but installing manual (Windows10Upgrade9252.exe). I don't know why it worked, but it did. :-D https://t.co/LgRXtwXdEq",
+      "predicted_intent": "Technical Troubleshooting",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"423899\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 2}, \"score\": 0.817506, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps What’s going on? https://t.co/rorMFB2Oj8 | @MicrosoftHelps I got everything working. Thank you!\"}\n{\"evidence_id\": \"1732382\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.789661, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps It's fine now.\"}\n{\"evidence_id\": \"2062987\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.788582, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Finally worked after several minutes\"}",
+      "generated_reply": "We understand this is frustrating. Based on similar cases where things eventually worked out after waiting several minutes or trying again, we suggest giving it a little more time. If the issue persists, please let us know so we can assist further."
+    }
+  }
+}

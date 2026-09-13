@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0140",
+  "input_fingerprint": "3f698225d9ce884f9153dbc569e93d0bf34511e2befe1ffe96381f05d513f680",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T11:26:14+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0140",
+    "customer_message": "Problems with @MicrosoftHelps authenticator? No notification nor text confirmation received on phone. Plus all contacts have vanished off it",
+    "conversation_context": "MICROSOFT (1963389): @492257 Wow! That's great to hear! In case you need us again, feel free to contact us. We're just a Tweet away. https://t.co/3qcAsLFkaY\nCUSTOMER (1963390): @MicrosoftHelps Looks ok now...  All my contacts had disappeared from phone under People.  All text messages only showed the numbers.  Contacts have now reappeared magically!!!\nMICROSOFT (1963391): @492257 Hi! Help us improve our Twitter support by answering our survey on this link: https://t.co/K9FSwMSeSR. Thank you. https://t.co/3qcAsLFkaY\nMICROSOFT (1963392): @492257 Hello! What seems to be the issue? Tell us more details about your concern.",
+    "predicted_intent": "Account & Login",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"547008\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 4}, \"score\": 0.67445, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Request for Microsoft call back won't accept my phone number. | @MicrosoftHelps Can't reach any website, including Microsoft and ATT support. | @MicrosoftHelps Lumia 950 activated yesterday. The outlook inbox is empty. Can't locate or access Gmail account. | @MicrosoftHelps Help! I need to talk with a human! It shouldn't be this hard!\"}\n{\"evidence_id\": \"864110\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 3}, \"score\": 0.668568, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Eventually received email with codes. All sorted. Thanks anyway! | @MicrosoftHelps Trying to login but forgotten password &amp; am not receiving the emails with verification code. Please help. | @MicrosoftHelps @325216 Lol. Improve your service?\"}\n{\"evidence_id\": \"2062987\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.651147, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Finally worked after several minutes\"}",
+    "generated_reply": "We understand you are experiencing issues with the authenticator not sending notifications or text confirmations and missing contacts. Because the retrieved historical evidence does not contain a specific troubleshooting resolution for these authenticator and contact issues, this case requires further investigation, such as an account entitlement check and order lookup. Please contact Microsoft Support so they can investigate these specific account and login details, and please provide any additional missing information regarding your device or account to help resolve the issue."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 4,\n  \"clarity\": 4,\n  \"escalation_appropriateness\": 4,\n  \"overall_reply_score\": 3,\n  \"evidence_support\": 2,\n  \"unsupported_claims\": 2,\n  \"evidence_relevance\": 1,\n  \"grounding_score\": 2,\n  \"reason\": \"The agent correctly suggests contacting support for complex issues, but inappropriately claims the case requires an 'order lookup' which is unsupported by evidence and irrelevant to an authenticator/contacts issue.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 4,
+    "clarity": 4,
+    "escalation_appropriateness": 4,
+    "overall_reply_score": 3,
+    "evidence_support": 2,
+    "unsupported_claims": 2,
+    "evidence_relevance": 1,
+    "grounding_score": 2,
+    "reason": "The agent correctly suggests contacting support for complex issues, but inappropriately claims the case requires an 'order lookup' which is unsupported by evidence and irrelevant to an authenticator/contacts issue.",
+    "overall_score": 3,
+    "short_reason": "The agent correctly suggests contacting support for complex issues, but inappropriately claims the case requires an 'order lookup' which is unsupported by evidence and irrelevant to an authenticator/contacts issue.",
+    "grounding_decision": "UNSUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 4,
+      "clarity": 4,
+      "escalation_appropriateness": 4
+    },
+    "evidence_grounding": {
+      "evidence_support": 2,
+      "unsupported_claims": 2,
+      "evidence_relevance": 1
+    },
+    "golden_id": "GOLDEN-0140",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0140",
+      "customer_message": "Problems with @MicrosoftHelps authenticator? No notification nor text confirmation received on phone. Plus all contacts have vanished off it",
+      "conversation_context": "MICROSOFT (1963389): @492257 Wow! That's great to hear! In case you need us again, feel free to contact us. We're just a Tweet away. https://t.co/3qcAsLFkaY\nCUSTOMER (1963390): @MicrosoftHelps Looks ok now...  All my contacts had disappeared from phone under People.  All text messages only showed the numbers.  Contacts have now reappeared magically!!!\nMICROSOFT (1963391): @492257 Hi! Help us improve our Twitter support by answering our survey on this link: https://t.co/K9FSwMSeSR. Thank you. https://t.co/3qcAsLFkaY\nMICROSOFT (1963392): @492257 Hello! What seems to be the issue? Tell us more details about your concern.",
+      "predicted_intent": "Account & Login",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"547008\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 4}, \"score\": 0.67445, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Request for Microsoft call back won't accept my phone number. | @MicrosoftHelps Can't reach any website, including Microsoft and ATT support. | @MicrosoftHelps Lumia 950 activated yesterday. The outlook inbox is empty. Can't locate or access Gmail account. | @MicrosoftHelps Help! I need to talk with a human! It shouldn't be this hard!\"}\n{\"evidence_id\": \"864110\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 3}, \"score\": 0.668568, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Eventually received email with codes. All sorted. Thanks anyway! | @MicrosoftHelps Trying to login but forgotten password &amp; am not receiving the emails with verification code. Please help. | @MicrosoftHelps @325216 Lol. Improve your service?\"}\n{\"evidence_id\": \"2062987\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.651147, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Finally worked after several minutes\"}",
+      "generated_reply": "We understand you are experiencing issues with the authenticator not sending notifications or text confirmations and missing contacts. Because the retrieved historical evidence does not contain a specific troubleshooting resolution for these authenticator and contact issues, this case requires further investigation, such as an account entitlement check and order lookup. Please contact Microsoft Support so they can investigate these specific account and login details, and please provide any additional missing information regarding your device or account to help resolve the issue."
+    }
+  }
+}

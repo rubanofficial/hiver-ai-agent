@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0001",
+  "input_fingerprint": "7ad40bed0123d7ec1c1adee69d9accb34a38a6757df20a7981c1dc2c7fb50ed1",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-12T04:29:38+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0001",
+    "customer_message": "My laptop will not start after the update.",
+    "conversation_context": "MICROSOFT (1): How can we help?",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"doc_id\": \"d1\", \"text\": \"Try a clean boot after the update.\"}",
+    "generated_reply": "We can help."
+  },
+  "raw_response": "{\n  \"correctness\": 2,\n  \"helpfulness\": 1,\n  \"relevance\": 3,\n  \"clarity\": 4,\n  \"escalation_appropriateness\": 3,\n  \"overall_reply_score\": 2,\n  \"evidence_support\": 1,\n  \"unsupported_claims\": 5,\n  \"evidence_relevance\": 4,\n  \"grounding_score\": 2,\n  \"reason\": \"The generated reply is too brief and fails to provide the troubleshooting step present in the evidence, such as trying a clean boot.\"\n}",
+  "result": {
+    "correctness": 2,
+    "helpfulness": 1,
+    "relevance": 3,
+    "clarity": 4,
+    "escalation_appropriateness": 3,
+    "overall_reply_score": 2,
+    "evidence_support": 1,
+    "unsupported_claims": 5,
+    "evidence_relevance": 4,
+    "grounding_score": 2,
+    "reason": "The generated reply is too brief and fails to provide the troubleshooting step present in the evidence, such as trying a clean boot.",
+    "overall_score": 2,
+    "short_reason": "The generated reply is too brief and fails to provide the troubleshooting step present in the evidence, such as trying a clean boot.",
+    "grounding_decision": "UNSUPPORTED",
+    "reply_quality": {
+      "correctness": 2,
+      "helpfulness": 1,
+      "relevance": 3,
+      "clarity": 4,
+      "escalation_appropriateness": 3
+    },
+    "evidence_grounding": {
+      "evidence_support": 1,
+      "unsupported_claims": 5,
+      "evidence_relevance": 4
+    },
+    "golden_id": "GOLDEN-0001",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0001",
+      "customer_message": "My laptop will not start after the update.",
+      "conversation_context": "MICROSOFT (1): How can we help?",
+      "predicted_intent": "Technical Troubleshooting",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"doc_id\": \"d1\", \"text\": \"Try a clean boot after the update.\"}",
+      "generated_reply": "We can help."
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0194",
+  "input_fingerprint": "72231c7f626f25913b5504eddd424423d75e2d8d9af3543e911b9f286e8c5bf3",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:47:21+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0194",
+    "customer_message": "@MicrosoftHelps I'm convinced you guys have high school dropouts at customer service because they can't solve a simple problem, just like how they couldn't pass simple classes",
+    "conversation_context": "MICROSOFT (2926967): @318070 Hi there. Help is here. Could you tell us more info about the issue that you're having with?\nCUSTOMER (2926968): @MicrosoftHelps My issue is if I get charged more than once on this transaction you'll be hearing from my lawyer",
+    "predicted_intent": "Complaint / Feedback",
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+    "retrieved_evidence": "{\"evidence_id\": \"1985958\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.600198, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps @115890 @122427 - any reason why support is ignoring me when your team have so clearly failed with my customer service?!\"}\n{\"evidence_id\": \"795044\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.573433, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Second time Microsoft Support has hung up on me -- Is that part of their training @MicrosoftHelps? Still need help -- that's why I called.\"}\n{\"evidence_id\": \"372776\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.562817, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Really?  TWO hours and could not get help online?  ONLINE!What a joke.  You suck @153744. Focus on MS and get out of Ed.\"}",
+    "generated_reply": "We apologize for the frustration you've experienced with our support services. Please contact Microsoft support directly so we can assist you further."
+  },
+  "raw_response": "{\n  \"correctness\": 4,\n  \"helpfulness\": 4,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 4,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 4,\n  \"evidence_relevance\": 3,\n  \"grounding_score\": 3,\n  \"reason\": \"The reply appropriately addresses the customer's frustration and directs them to support, fitting the complaint context well, though the evidence provided is limited to historical tweets.\"\n}",
+  "result": {
+    "correctness": 4,
+    "helpfulness": 4,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 4,
+    "evidence_support": 3,
+    "unsupported_claims": 4,
+    "evidence_relevance": 3,
+    "grounding_score": 3,
+    "reason": "The reply appropriately addresses the customer's frustration and directs them to support, fitting the complaint context well, though the evidence provided is limited to historical tweets.",
+    "overall_score": 4,
+    "short_reason": "The reply appropriately addresses the customer's frustration and directs them to support, fitting the complaint context well, though the evidence provided is limited to historical tweets.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 4,
+      "helpfulness": 4,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 4,
+      "evidence_relevance": 3
+    },
+    "golden_id": "GOLDEN-0194",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0194",
+      "customer_message": "@MicrosoftHelps I'm convinced you guys have high school dropouts at customer service because they can't solve a simple problem, just like how they couldn't pass simple classes",
+      "conversation_context": "MICROSOFT (2926967): @318070 Hi there. Help is here. Could you tell us more info about the issue that you're having with?\nCUSTOMER (2926968): @MicrosoftHelps My issue is if I get charged more than once on this transaction you'll be hearing from my lawyer",
+      "predicted_intent": "Complaint / Feedback",
+      "predicted_escalation": "ESCALATE_TO_HUMAN",
+      "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+      "retrieved_evidence": "{\"evidence_id\": \"1985958\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.600198, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps @115890 @122427 - any reason why support is ignoring me when your team have so clearly failed with my customer service?!\"}\n{\"evidence_id\": \"795044\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.573433, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Second time Microsoft Support has hung up on me -- Is that part of their training @MicrosoftHelps? Still need help -- that's why I called.\"}\n{\"evidence_id\": \"372776\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.562817, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Really?  TWO hours and could not get help online?  ONLINE!What a joke.  You suck @153744. Focus on MS and get out of Ed.\"}",
+      "generated_reply": "We apologize for the frustration you've experienced with our support services. Please contact Microsoft support directly so we can assist you further."
+    }
+  }
+}

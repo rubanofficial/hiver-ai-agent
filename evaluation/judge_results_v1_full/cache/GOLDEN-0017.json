@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0017",
+  "input_fingerprint": "b25f285b8ab486eaf01bd01fec86074e851c05e709c9751e5bf025d022524a8f",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:29:19+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0017",
+    "customer_message": "@MicrosoftHelps Yes. That's the point. I have both, I want to make sure ethernet has priority.",
+    "conversation_context": "MICROSOFT (184221): @159352 Hello! Let's sort this out. Which version of Windows are you using?\nCUSTOMER (184222): @MicrosoftHelps Windows 10\nCUSTOMER (184223): @116230 I would like to prioritize ethernet over WiFi. How would I do this? The setting is no longer where it once was.\nMICROSOFT (184224): @159352 Noted. Did you try using an Ethernet instead of your wireless connection? Use a chord and connect it directly to your computer.\nCUSTOMER (184225): @MicrosoftHelps Like, did you seriously not read the chain?",
+    "predicted_intent": "Product / Feature How-To",
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "No evidence reached the confidence threshold for a safe autonomous reply (minimum 0.60); human review is required.",
+    "retrieved_evidence": "{\"evidence_id\": \"1571871\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.529239, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps it is not necessary, but yes I have.\"}\n{\"evidence_id\": \"165703\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 1}, \"score\": 0.490439, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Nope. Your suggestion was the answer. Thanks!\"}\n{\"evidence_id\": \"986267\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.484104, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I am happy to, is it possible to this via DM so I can explain fully the issue? | @MicrosoftHelps @122425 If there appears to be a driver issue in Windows 10, should this be reported to you guys? Intel I219-M ethernet card.\"}",
+    "generated_reply": "I apologize, but I do not have enough information in my current resources to guide you on how to prioritize your ethernet connection over Wi-Fi. Please contact Microsoft support directly for further assistance with this issue."
+  },
+  "raw_response": "{\n  \"correctness\": 4,\n  \"helpfulness\": 4,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 4,\n  \"evidence_support\": 5,\n  \"unsupported_claims\": 5,\n  \"evidence_relevance\": 2,\n  \"grounding_score\": 5,\n  \"reason\": \"The agent appropriately escalated and advised contacting support since the retrieved evidence was insufficient and previous turns were mishandled by the bot.\"\n}",
+  "result": {
+    "correctness": 4,
+    "helpfulness": 4,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 4,
+    "evidence_support": 5,
+    "unsupported_claims": 5,
+    "evidence_relevance": 2,
+    "grounding_score": 5,
+    "reason": "The agent appropriately escalated and advised contacting support since the retrieved evidence was insufficient and previous turns were mishandled by the bot.",
+    "overall_score": 4,
+    "short_reason": "The agent appropriately escalated and advised contacting support since the retrieved evidence was insufficient and previous turns were mishandled by the bot.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 4,
+      "helpfulness": 4,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 5,
+      "unsupported_claims": 5,
+      "evidence_relevance": 2
+    },
+    "golden_id": "GOLDEN-0017",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0017",
+      "customer_message": "@MicrosoftHelps Yes. That's the point. I have both, I want to make sure ethernet has priority.",
+      "conversation_context": "MICROSOFT (184221): @159352 Hello! Let's sort this out. Which version of Windows are you using?\nCUSTOMER (184222): @MicrosoftHelps Windows 10\nCUSTOMER (184223): @116230 I would like to prioritize ethernet over WiFi. How would I do this? The setting is no longer where it once was.\nMICROSOFT (184224): @159352 Noted. Did you try using an Ethernet instead of your wireless connection? Use a chord and connect it directly to your computer.\nCUSTOMER (184225): @MicrosoftHelps Like, did you seriously not read the chain?",
+      "predicted_intent": "Product / Feature How-To",
+      "predicted_escalation": "ESCALATE_TO_HUMAN",
+      "predicted_escalation_reason": "No evidence reached the confidence threshold for a safe autonomous reply (minimum 0.60); human review is required.",
+      "retrieved_evidence": "{\"evidence_id\": \"1571871\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.529239, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps it is not necessary, but yes I have.\"}\n{\"evidence_id\": \"165703\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 1}, \"score\": 0.490439, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Nope. Your suggestion was the answer. Thanks!\"}\n{\"evidence_id\": \"986267\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.484104, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I am happy to, is it possible to this via DM so I can explain fully the issue? | @MicrosoftHelps @122425 If there appears to be a driver issue in Windows 10, should this be reported to you guys? Intel I219-M ethernet card.\"}",
+      "generated_reply": "I apologize, but I do not have enough information in my current resources to guide you on how to prioritize your ethernet connection over Wi-Fi. Please contact Microsoft support directly for further assistance with this issue."
+    }
+  }
+}

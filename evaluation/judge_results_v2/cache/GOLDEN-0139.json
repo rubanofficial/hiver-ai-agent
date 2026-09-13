@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0139",
+  "input_fingerprint": "18cdcb159d63fb3fe0fbe360055ad5b16f26e5c4012e387ff4113eceeb072c78",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T11:26:13+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0139",
+    "customer_message": "@MicrosoftHelps I know how to update my phone and things. if I don't know, I won't do my computer science degree 😒 thank you for ur reply, but nothing help.",
+    "conversation_context": "MICROSOFT (1950042): @151781 Hi, Oshila! We want to know more. Are you getting an error message? When did the issue start? Have you tried any troubleshooting?\nCUSTOMER (1950043): @MicrosoftHelps nope. the problem is its has very low features, can't even go live. and app is too heavy. I think it's for 950, not other.\nCUSTOMER (1950044): what's the purpose of your #Windows10  mobile app @188 . its really really bad. #facebook #windowsphone @MicrosoftHelps @115890\nMICROSOFT (1950045): @151781 Got it. Let's check if there is a pending software update. Go to Settings&gt; Update and security&gt; Phone update&gt; Check for updates.",
+    "predicted_intent": "Complaint / Feedback",
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+    "retrieved_evidence": "{\"evidence_id\": \"1901646\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.633511, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps can you guys help me my computer won’t update\"}\n{\"evidence_id\": \"1028820\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.609748, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps please help I can't download what's app or update it\"}\n{\"evidence_id\": \"1549791\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.602349, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps hey, I need some help please\"}",
+    "generated_reply": "We understand your frustration that the previous steps didn't resolve your issue. Since this requires further investigation into your specific device and system state, please contact Microsoft Support so we can look into the exact cause of the update failure."
+  },
+  "raw_response": "{\n  \"correctness\": 2,\n  \"helpfulness\": 2,\n  \"relevance\": 2,\n  \"clarity\": 4,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 2,\n  \"evidence_support\": 1,\n  \"unsupported_claims\": 2,\n  \"evidence_relevance\": 1,\n  \"grounding_score\": 1,\n  \"reason\": \"The customer's complaint is about Windows 10 Mobile app features and heaviness, but the generated reply incorrectly talks about an 'update failure' and checking the system state, which does not match the customer's issue.\"\n}",
+  "result": {
+    "correctness": 2,
+    "helpfulness": 2,
+    "relevance": 2,
+    "clarity": 4,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 2,
+    "evidence_support": 1,
+    "unsupported_claims": 2,
+    "evidence_relevance": 1,
+    "grounding_score": 1,
+    "reason": "The customer's complaint is about Windows 10 Mobile app features and heaviness, but the generated reply incorrectly talks about an 'update failure' and checking the system state, which does not match the customer's issue.",
+    "overall_score": 2,
+    "short_reason": "The customer's complaint is about Windows 10 Mobile app features and heaviness, but the generated reply incorrectly talks about an 'update failure' and checking the system state, which does not match the customer's issue.",
+    "grounding_decision": "UNSUPPORTED",
+    "reply_quality": {
+      "correctness": 2,
+      "helpfulness": 2,
+      "relevance": 2,
+      "clarity": 4,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 1,
+      "unsupported_claims": 2,
+      "evidence_relevance": 1
+    },
+    "golden_id": "GOLDEN-0139",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0139",
+      "customer_message": "@MicrosoftHelps I know how to update my phone and things. if I don't know, I won't do my computer science degree 😒 thank you for ur reply, but nothing help.",
+      "conversation_context": "MICROSOFT (1950042): @151781 Hi, Oshila! We want to know more. Are you getting an error message? When did the issue start? Have you tried any troubleshooting?\nCUSTOMER (1950043): @MicrosoftHelps nope. the problem is its has very low features, can't even go live. and app is too heavy. I think it's for 950, not other.\nCUSTOMER (1950044): what's the purpose of your #Windows10  mobile app @188 . its really really bad. #facebook #windowsphone @MicrosoftHelps @115890\nMICROSOFT (1950045): @151781 Got it. Let's check if there is a pending software update. Go to Settings&gt; Update and security&gt; Phone update&gt; Check for updates.",
+      "predicted_intent": "Complaint / Feedback",
+      "predicted_escalation": "ESCALATE_TO_HUMAN",
+      "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+      "retrieved_evidence": "{\"evidence_id\": \"1901646\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.633511, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps can you guys help me my computer won’t update\"}\n{\"evidence_id\": \"1028820\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.609748, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps please help I can't download what's app or update it\"}\n{\"evidence_id\": \"1549791\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.602349, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps hey, I need some help please\"}",
+      "generated_reply": "We understand your frustration that the previous steps didn't resolve your issue. Since this requires further investigation into your specific device and system state, please contact Microsoft Support so we can look into the exact cause of the update failure."
+    }
+  }
+}

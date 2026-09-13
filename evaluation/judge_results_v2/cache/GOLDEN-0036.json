@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0036",
+  "input_fingerprint": "228f10bbf2f6b382e300f94bb193222080b78add31262260f5a446bf4710bded",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-12T04:32:58+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0036",
+    "customer_message": "How to waste an hour of your life: Let Windows 10 update.",
+    "conversation_context": "MICROSOFT (446423): @220742 Hi, Jordy. Schedule when to implement the updates on your computer. Check this link to set active hours to avoid inconvenient restarts: https://t.co/AaxVQaGteE. We're here if you have other questions.",
+    "predicted_intent": "Complaint / Feedback",
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+    "retrieved_evidence": "{\"evidence_id\": \"105707\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.795471, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Windows 10 update times are a joke. I DONT HAVE TIME FOR THIS\"}\n{\"evidence_id\": \"660831\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.763388, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps The 3 hours that it took to update once restarted has gone a long way to ruining my day. | @MicrosoftHelps  Windows 10 updates are a great way to ruin any chance of productivity in your day aren’t they?  #grrrr\"}\n{\"evidence_id\": \"1415417\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.739421, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Windows 10 auto-update ruins another productive work day.  Feel like I should bill you guys for the last 45 minutes sitting around doing nothing on the clock.\"}",
+    "generated_reply": "We are sorry to hear that the Windows 10 update disrupted your day and productivity. Based on similar cases, we understand that lengthy update times can be frustrating. While we do not have specific troubleshooting steps for this issue in our historical records, we appreciate your feedback and recommend reaching out to Microsoft Support if you continue to experience difficulties."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 4,\n  \"clarity\": 4,\n  \"escalation_appropriateness\": 4,\n  \"overall_reply_score\": 3,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 3,\n  \"evidence_relevance\": 2,\n  \"grounding_score\": 3,\n  \"reason\": \"The reply acknowledges the customer's complaint and suggests reaching out to support, but the retrieved evidence only consists of historical complaints rather than actionable troubleshooting steps or official policy.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 4,
+    "clarity": 4,
+    "escalation_appropriateness": 4,
+    "overall_reply_score": 3,
+    "evidence_support": 3,
+    "unsupported_claims": 3,
+    "evidence_relevance": 2,
+    "grounding_score": 3,
+    "reason": "The reply acknowledges the customer's complaint and suggests reaching out to support, but the retrieved evidence only consists of historical complaints rather than actionable troubleshooting steps or official policy.",
+    "overall_score": 3,
+    "short_reason": "The reply acknowledges the customer's complaint and suggests reaching out to support, but the retrieved evidence only consists of historical complaints rather than actionable troubleshooting steps or official policy.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 4,
+      "clarity": 4,
+      "escalation_appropriateness": 4
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 3,
+      "evidence_relevance": 2
+    },
+    "golden_id": "GOLDEN-0036",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0036",
+      "customer_message": "How to waste an hour of your life: Let Windows 10 update.",
+      "conversation_context": "MICROSOFT (446423): @220742 Hi, Jordy. Schedule when to implement the updates on your computer. Check this link to set active hours to avoid inconvenient restarts: https://t.co/AaxVQaGteE. We're here if you have other questions.",
+      "predicted_intent": "Complaint / Feedback",
+      "predicted_escalation": "ESCALATE_TO_HUMAN",
+      "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+      "retrieved_evidence": "{\"evidence_id\": \"105707\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.795471, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Windows 10 update times are a joke. I DONT HAVE TIME FOR THIS\"}\n{\"evidence_id\": \"660831\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.763388, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps The 3 hours that it took to update once restarted has gone a long way to ruining my day. | @MicrosoftHelps  Windows 10 updates are a great way to ruin any chance of productivity in your day aren’t they?  #grrrr\"}\n{\"evidence_id\": \"1415417\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.739421, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Windows 10 auto-update ruins another productive work day.  Feel like I should bill you guys for the last 45 minutes sitting around doing nothing on the clock.\"}",
+      "generated_reply": "We are sorry to hear that the Windows 10 update disrupted your day and productivity. Based on similar cases, we understand that lengthy update times can be frustrating. While we do not have specific troubleshooting steps for this issue in our historical records, we appreciate your feedback and recommend reaching out to Microsoft Support if you continue to experience difficulties."
+    }
+  }
+}

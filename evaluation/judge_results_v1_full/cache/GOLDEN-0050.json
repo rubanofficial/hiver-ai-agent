@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0050",
+  "input_fingerprint": "d1c0c95346df109344af4c4c66471bda6e8deffdedc5da4c80f79baf79ca74f2",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:32:55+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0050",
+    "customer_message": "@MicrosoftHelps I am having trouble signing into my student email and my classmates are having the same issue. I’m being asked for my preferred language/time zone and as soon as I enter it and click save it resets my answer and I am stuck here. HELP",
+    "conversation_context": "MICROSOFT (531955): @194075 Hi, Nicole! How are you? Just want to make sure if everything is up and running on your end now? Please send us a private message if you need assistance.\nCUSTOMER (531956): @MicrosoftHelps I keep getting this. It resets as soon as I hit save. I’m stuck https://t.co/1FL1r8aJYm\nMICROSOFT (531957): @194075 Did you check the service health in your area? If not, please click this link: https://t.co/8mqVvkhHPF. Tell us if everything is up and running.\nMICROSOFT (531958): @194075 Hi, Nicole! How is it going? Is everything working fine now? https://t.co/3qcAsLFkaY\nCUSTOMER (531959): @MicrosoftHelps I tried on Chrome (before I tried on Safari) and it said “a server with information about you or your mailbox couldn’t be found” it’s been two hours now\nMICROSOFT (531960): @194075 Just to clarify, which email domain are you using? Can you send it to us via DM? Also, try checking the status of your email using this link: https://t.co/iHtGzjteEQ https://t.co/3qcAsLFkaY\nMICROSOFT (531961): @194075 Let’s get this done, Nicole. Just to clarify, are you getting any error messages? Also, any changes made before the issue happened?",
+    "predicted_intent": "Account & Login",
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "No evidence reached the confidence threshold for a safe autonomous reply (minimum 0.60); human review is required.",
+    "retrieved_evidence": "{\"evidence_id\": \"643178\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.595645, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I can’t sign in to my ancient old email and the form is not working. Is there anything else I can do?\"}\n{\"evidence_id\": \"442745\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.588917, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps It want let me sign in to my account please help https://t.co/A4unxSMFgn\"}\n{\"evidence_id\": \"1888026\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 3}, \"score\": 0.587927, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Hi, I'm using https://t.co/xnyFpKoQpL | Email help please #msn #hotmail #outlook #email https://t.co/6ukiakgL7S | @MicrosoftHelps Hello, these have helped me sign back into my acct. Thank you so much!\"}",
+    "generated_reply": "Hello, I apologize for the trouble you and your classmates are experiencing with signing into your student email. Since I don't have the specific steps to resolve this looping language and time zone prompt in the available information, I recommend contacting Microsoft support directly for further assistance."
+  },
+  "raw_response": "{\n  \"correctness\": 4,\n  \"helpfulness\": 4,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 4,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 4,\n  \"evidence_relevance\": 2,\n  \"grounding_score\": 3,\n  \"reason\": \"The reply appropriately identifies the lack of specific evidence to solve the login loop issue and correctly recommends contacting support. The retrieved evidence had low relevance and confidence scores.\"\n}",
+  "result": {
+    "correctness": 4,
+    "helpfulness": 4,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 4,
+    "evidence_support": 3,
+    "unsupported_claims": 4,
+    "evidence_relevance": 2,
+    "grounding_score": 3,
+    "reason": "The reply appropriately identifies the lack of specific evidence to solve the login loop issue and correctly recommends contacting support. The retrieved evidence had low relevance and confidence scores.",
+    "overall_score": 4,
+    "short_reason": "The reply appropriately identifies the lack of specific evidence to solve the login loop issue and correctly recommends contacting support. The retrieved evidence had low relevance and confidence scores.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 4,
+      "helpfulness": 4,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 4,
+      "evidence_relevance": 2
+    },
+    "golden_id": "GOLDEN-0050",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0050",
+      "customer_message": "@MicrosoftHelps I am having trouble signing into my student email and my classmates are having the same issue. I’m being asked for my preferred language/time zone and as soon as I enter it and click save it resets my answer and I am stuck here. HELP",
+      "conversation_context": "MICROSOFT (531955): @194075 Hi, Nicole! How are you? Just want to make sure if everything is up and running on your end now? Please send us a private message if you need assistance.\nCUSTOMER (531956): @MicrosoftHelps I keep getting this. It resets as soon as I hit save. I’m stuck https://t.co/1FL1r8aJYm\nMICROSOFT (531957): @194075 Did you check the service health in your area? If not, please click this link: https://t.co/8mqVvkhHPF. Tell us if everything is up and running.\nMICROSOFT (531958): @194075 Hi, Nicole! How is it going? Is everything working fine now? https://t.co/3qcAsLFkaY\nCUSTOMER (531959): @MicrosoftHelps I tried on Chrome (before I tried on Safari) and it said “a server with information about you or your mailbox couldn’t be found” it’s been two hours now\nMICROSOFT (531960): @194075 Just to clarify, which email domain are you using? Can you send it to us via DM? Also, try checking the status of your email using this link: https://t.co/iHtGzjteEQ https://t.co/3qcAsLFkaY\nMICROSOFT (531961): @194075 Let’s get this done, Nicole. Just to clarify, are you getting any error messages? Also, any changes made before the issue happened?",
+      "predicted_intent": "Account & Login",
+      "predicted_escalation": "ESCALATE_TO_HUMAN",
+      "predicted_escalation_reason": "No evidence reached the confidence threshold for a safe autonomous reply (minimum 0.60); human review is required.",
+      "retrieved_evidence": "{\"evidence_id\": \"643178\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.595645, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I can’t sign in to my ancient old email and the form is not working. Is there anything else I can do?\"}\n{\"evidence_id\": \"442745\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.588917, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps It want let me sign in to my account please help https://t.co/A4unxSMFgn\"}\n{\"evidence_id\": \"1888026\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 3}, \"score\": 0.587927, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Hi, I'm using https://t.co/xnyFpKoQpL | Email help please #msn #hotmail #outlook #email https://t.co/6ukiakgL7S | @MicrosoftHelps Hello, these have helped me sign back into my acct. Thank you so much!\"}",
+      "generated_reply": "Hello, I apologize for the trouble you and your classmates are experiencing with signing into your student email. Since I don't have the specific steps to resolve this looping language and time zone prompt in the available information, I recommend contacting Microsoft support directly for further assistance."
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0029",
+  "input_fingerprint": "b427f7fc2c817c871cd14c1bc9e06fd62759736e59811d51727da4d2d128cfb8",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:30:20+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0029",
+    "customer_message": "@MicrosoftHelps done that, downloaded albums play, music via Zune/Groove doesn't stream, would need to download all to my phone now.",
+    "conversation_context": "MICROSOFT (345608): @198244 Hi, Robert.\nThank you for reaching out.\nPlease describe the behavior of the app in question &amp; provide the error message.\nCUSTOMER (345609): @MicrosoftHelps music for windows phone keeps saying make sure internet or wifi is working, will not play music.\nCUSTOMER (345610): @MicrosoftHelps what gives, WP8.1 Music App no longer works? What's next?\nMICROSOFT (345611): @198244 Got it. For us to isolate, can you tell us which music app are you using? What troubleshooting steps have you done so far?\nCUSTOMER (345612): @MicrosoftHelps Windows Phone, built in Music, with Groove. Songs I own Stream, but it appears the Stream features are turned off now I guess.\nMICROSOFT (345613): @198244 We're sorry to hear this, Robert. May we know if you have a subscription with Groove music?\nCUSTOMER (345614): @MicrosoftHelps in the past I had Zune an Groove and I've purchased songs (kept 10 a month), always played them online.\nMICROSOFT (345615): @198244 Try performing a soft reset to refresh your phone. Press and hold the Volume down and Power button until it restart. Update us!\nCUSTOMER (345616): @MicrosoftHelps or... I would have to sync with a PC an move albums around from time to time or pay Spotify a fee to download my music",
+    "predicted_intent": "Product / Feature How-To",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"581124\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.725054, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@143151 Hey guys. Couldn't get an answer from @MicrosoftHelps at all so hoping you can help. With Groove gone, is there a way to purchase music on Windows - specifically my Windows Phone? I don't want to pay a subscription to stream, I want to own a particular album.\"}\n{\"evidence_id\": \"539024\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.67104, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Hi @MicrosoftHelps I try to download my music purchased on Groove Music but I can't. I tryed to call Microsoft hotline but they say they can't help me. What can i do ?\"}\n{\"evidence_id\": \"507984\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 3}, \"score\": 0.665473, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Absolutely insane. I actually need the Groove Music app to download. I can't do it from the web player. This is poor design. | @MicrosoftHelps Trying to download my Groove purchases but the instructions in the email don't work. There is no option to download, unless it's designed only to work with IE or Edge or something. | @MicrosoftHelps This sort of strict versioning hurts consumers not using the latest platforms. I'm on a Win7 box and can't download from Groove. I have to rely on my phone, and I have no idea how to transfer it back to my computer.\"}",
+    "generated_reply": "We understand your frustration regarding streaming and downloading your music. Based on available information, the historical evidence is insufficient to fully resolve your streaming and download issues with Groove. We recommend contacting Microsoft support directly for further assistance."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 4,\n  \"clarity\": 4,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 3,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 4,\n  \"evidence_relevance\": 2,\n  \"grounding_score\": 3,\n  \"reason\": \"The reply acknowledges the customer's frustration and appropriately suggests contacting Microsoft support since the retrieved historical evidence does not contain a direct fix for the deprecated streaming features on Windows Phone 8.1.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 4,
+    "clarity": 4,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 3,
+    "evidence_support": 3,
+    "unsupported_claims": 4,
+    "evidence_relevance": 2,
+    "grounding_score": 3,
+    "reason": "The reply acknowledges the customer's frustration and appropriately suggests contacting Microsoft support since the retrieved historical evidence does not contain a direct fix for the deprecated streaming features on Windows Phone 8.1.",
+    "overall_score": 3,
+    "short_reason": "The reply acknowledges the customer's frustration and appropriately suggests contacting Microsoft support since the retrieved historical evidence does not contain a direct fix for the deprecated streaming features on Windows Phone 8.1.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 4,
+      "clarity": 4,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 4,
+      "evidence_relevance": 2
+    },
+    "golden_id": "GOLDEN-0029",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0029",
+      "customer_message": "@MicrosoftHelps done that, downloaded albums play, music via Zune/Groove doesn't stream, would need to download all to my phone now.",
+      "conversation_context": "MICROSOFT (345608): @198244 Hi, Robert.\nThank you for reaching out.\nPlease describe the behavior of the app in question &amp; provide the error message.\nCUSTOMER (345609): @MicrosoftHelps music for windows phone keeps saying make sure internet or wifi is working, will not play music.\nCUSTOMER (345610): @MicrosoftHelps what gives, WP8.1 Music App no longer works? What's next?\nMICROSOFT (345611): @198244 Got it. For us to isolate, can you tell us which music app are you using? What troubleshooting steps have you done so far?\nCUSTOMER (345612): @MicrosoftHelps Windows Phone, built in Music, with Groove. Songs I own Stream, but it appears the Stream features are turned off now I guess.\nMICROSOFT (345613): @198244 We're sorry to hear this, Robert. May we know if you have a subscription with Groove music?\nCUSTOMER (345614): @MicrosoftHelps in the past I had Zune an Groove and I've purchased songs (kept 10 a month), always played them online.\nMICROSOFT (345615): @198244 Try performing a soft reset to refresh your phone. Press and hold the Volume down and Power button until it restart. Update us!\nCUSTOMER (345616): @MicrosoftHelps or... I would have to sync with a PC an move albums around from time to time or pay Spotify a fee to download my music",
+      "predicted_intent": "Product / Feature How-To",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"581124\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.725054, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@143151 Hey guys. Couldn't get an answer from @MicrosoftHelps at all so hoping you can help. With Groove gone, is there a way to purchase music on Windows - specifically my Windows Phone? I don't want to pay a subscription to stream, I want to own a particular album.\"}\n{\"evidence_id\": \"539024\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.67104, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Hi @MicrosoftHelps I try to download my music purchased on Groove Music but I can't. I tryed to call Microsoft hotline but they say they can't help me. What can i do ?\"}\n{\"evidence_id\": \"507984\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 3}, \"score\": 0.665473, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Absolutely insane. I actually need the Groove Music app to download. I can't do it from the web player. This is poor design. | @MicrosoftHelps Trying to download my Groove purchases but the instructions in the email don't work. There is no option to download, unless it's designed only to work with IE or Edge or something. | @MicrosoftHelps This sort of strict versioning hurts consumers not using the latest platforms. I'm on a Win7 box and can't download from Groove. I have to rely on my phone, and I have no idea how to transfer it back to my computer.\"}",
+      "generated_reply": "We understand your frustration regarding streaming and downloading your music. Based on available information, the historical evidence is insufficient to fully resolve your streaming and download issues with Groove. We recommend contacting Microsoft support directly for further assistance."
+    }
+  }
+}

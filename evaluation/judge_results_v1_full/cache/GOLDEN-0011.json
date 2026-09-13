@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0011",
+  "input_fingerprint": "0ab7a7a88e1aa34badd5bd3c06f6b7aea7660c3693060c5e65cf4936f0852e60",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:28:48+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0011",
+    "customer_message": "@MicrosoftHelps i updated to the fall update then my video driver started crashing to the point my laptop was unusable. my brother in law is already fixing it. does microsoft not always work with nvidia?",
+    "conversation_context": "MICROSOFT (122984): @143463 Hi. Let's take a look at this. Which Windows version are you using? Please tell us more about the issue. Thanks.",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"1080838\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 3}, \"score\": 0.691547, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps was previously installed the basic driver microsoft, when I wanted to install the driver nvidia 388.00 happened this. | I have problems with the falls creators update 1709, the video card stops working when I install the drivers @116230 https://t.co/JmBNqSpZ68 | @MicrosoftHelps yes, it is the last version of the driver. I tried a previous version and the same thing happens.\"}\n{\"evidence_id\": \"859237\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.672277, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Thanks. I followed all those steps. and i decided to update my laptop BIOS too. Now it works | @MicrosoftHelps God, windows fall creator update make my gaming laptop useless for 3 days now. random bsod, can't detect nvidia gpu\"}\n{\"evidence_id\": \"1787090\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.664433, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps When is Microsoft going to fix the black screen issue with Nvidia video cards and the newest Creators update??????\"}",
+    "generated_reply": "We are sorry to hear about the video driver issues you experienced after the update. We understand that users have reported problems with Nvidia video cards following the recent Creators update. We hope your brother-in-law is able to get it fixed, and please feel free to reach out to Microsoft support directly if you need further assistance."
+  },
+  "raw_response": "{\n  \"correctness\": 4,\n  \"helpfulness\": 4,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 4,\n  \"evidence_support\": 5,\n  \"unsupported_claims\": 5,\n  \"evidence_relevance\": 5,\n  \"grounding_score\": 5,\n  \"reason\": \"The reply directly addresses the customer's issue regarding Nvidia driver crashes after the fall update, acknowledging the known reports from the evidence. It is clear, empathetic, and appropriately suggests reaching out for support while noting the family member is already assisting.\"\n}",
+  "result": {
+    "correctness": 4,
+    "helpfulness": 4,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 4,
+    "evidence_support": 5,
+    "unsupported_claims": 5,
+    "evidence_relevance": 5,
+    "grounding_score": 5,
+    "reason": "The reply directly addresses the customer's issue regarding Nvidia driver crashes after the fall update, acknowledging the known reports from the evidence. It is clear, empathetic, and appropriately suggests reaching out for support while noting the family member is already assisting.",
+    "overall_score": 4,
+    "short_reason": "The reply directly addresses the customer's issue regarding Nvidia driver crashes after the fall update, acknowledging the known reports from the evidence. It is clear, empathetic, and appropriately suggests reaching out for support while noting the family member is already assisting.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 4,
+      "helpfulness": 4,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 5,
+      "unsupported_claims": 5,
+      "evidence_relevance": 5
+    },
+    "golden_id": "GOLDEN-0011",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0011",
+      "customer_message": "@MicrosoftHelps i updated to the fall update then my video driver started crashing to the point my laptop was unusable. my brother in law is already fixing it. does microsoft not always work with nvidia?",
+      "conversation_context": "MICROSOFT (122984): @143463 Hi. Let's take a look at this. Which Windows version are you using? Please tell us more about the issue. Thanks.",
+      "predicted_intent": "Technical Troubleshooting",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"1080838\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 3}, \"score\": 0.691547, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps was previously installed the basic driver microsoft, when I wanted to install the driver nvidia 388.00 happened this. | I have problems with the falls creators update 1709, the video card stops working when I install the drivers @116230 https://t.co/JmBNqSpZ68 | @MicrosoftHelps yes, it is the last version of the driver. I tried a previous version and the same thing happens.\"}\n{\"evidence_id\": \"859237\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.672277, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Thanks. I followed all those steps. and i decided to update my laptop BIOS too. Now it works | @MicrosoftHelps God, windows fall creator update make my gaming laptop useless for 3 days now. random bsod, can't detect nvidia gpu\"}\n{\"evidence_id\": \"1787090\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.664433, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps When is Microsoft going to fix the black screen issue with Nvidia video cards and the newest Creators update??????\"}",
+      "generated_reply": "We are sorry to hear about the video driver issues you experienced after the update. We understand that users have reported problems with Nvidia video cards following the recent Creators update. We hope your brother-in-law is able to get it fixed, and please feel free to reach out to Microsoft support directly if you need further assistance."
+    }
+  }
+}

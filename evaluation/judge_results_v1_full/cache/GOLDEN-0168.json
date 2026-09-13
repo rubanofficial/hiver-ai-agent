@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0168",
+  "input_fingerprint": "c61eb3e1059c0b99cd024f4911b5e47886261adeb33fe2955125d7ad8c5527ed",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:45:10+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0168",
+    "customer_message": "New toys !  #microsoft #Surface even the dog wants to play with it 😅.   Let’s install #ConfigMgr console #SCCM https://t.co/lFOwixwE1M",
+    "conversation_context": "MICROSOFT (2423878): @696112 Hi, Kim! What a cute dog. ☺️ If you have questions about your Surface, don't hesitate to tweet or send us a message. 👍 https://t.co/k6qB8zdRB4",
+    "predicted_intent": "Product / Feature How-To",
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "No evidence reached the confidence threshold for a safe autonomous reply (minimum 0.60); human review is required.",
+    "retrieved_evidence": "{\"evidence_id\": \"1513812\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.585928, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Game performance sucks. Can't even play Company of Heroes anymore. | @123127 man, I love how the new creators update made my Surface useless!\"}\n{\"evidence_id\": \"997871\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 3}, \"score\": 0.558928, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Thank you! I'll check it out! | @MicrosoftHelps Personal use and not primarily but having that option is good. | @MicrosoftHelps I don't know which Surface to get. Help. My old one lasted almost 4 years.\"}\n{\"evidence_id\": \"2146332\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 4}, \"score\": 0.550787, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps purchased Surface Pro (4.5) in May, now crashing. Support team told me to send back but i'll be without a PC until replacement arrives. I've had to send serveal Sufaces back over years &amp; you've been able to send replacement before receiving broken one back. why not with this one? | @128786 @84015 I wish I could use my surface pro 4.5 but alas it’s broken and despite being under Warranty your support service is very poor. | @MicrosoftHelps its a surface Pro (newest model) not 4 | Watch how @84015's Eva Rawson uses #Surface to help her as a #design #director.\\nRead the interview: https://t.co/aK1JcrDarQ\\n\\n#ThisIsMyOffice https://t.co/FMi2JlzCsD\"}",
+    "generated_reply": "Hello! We hope you enjoy your new Surface device. Since the retrieved historical evidence does not contain specific instructions for installing the ConfigMgr console, please contact Microsoft support directly for further assistance with your setup."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 3,\n  \"clarity\": 4,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 3,\n  \"evidence_support\": 5,\n  \"unsupported_claims\": 5,\n  \"evidence_relevance\": 1,\n  \"grounding_score\": 4,\n  \"reason\": \"The reply appropriately handles the lack of relevant evidence by suggesting Microsoft support, but the evidence itself is completely irrelevant to installing the ConfigMgr console.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 3,
+    "clarity": 4,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 3,
+    "evidence_support": 5,
+    "unsupported_claims": 5,
+    "evidence_relevance": 1,
+    "grounding_score": 4,
+    "reason": "The reply appropriately handles the lack of relevant evidence by suggesting Microsoft support, but the evidence itself is completely irrelevant to installing the ConfigMgr console.",
+    "overall_score": 3,
+    "short_reason": "The reply appropriately handles the lack of relevant evidence by suggesting Microsoft support, but the evidence itself is completely irrelevant to installing the ConfigMgr console.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 3,
+      "clarity": 4,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 5,
+      "unsupported_claims": 5,
+      "evidence_relevance": 1
+    },
+    "golden_id": "GOLDEN-0168",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0168",
+      "customer_message": "New toys !  #microsoft #Surface even the dog wants to play with it 😅.   Let’s install #ConfigMgr console #SCCM https://t.co/lFOwixwE1M",
+      "conversation_context": "MICROSOFT (2423878): @696112 Hi, Kim! What a cute dog. ☺️ If you have questions about your Surface, don't hesitate to tweet or send us a message. 👍 https://t.co/k6qB8zdRB4",
+      "predicted_intent": "Product / Feature How-To",
+      "predicted_escalation": "ESCALATE_TO_HUMAN",
+      "predicted_escalation_reason": "No evidence reached the confidence threshold for a safe autonomous reply (minimum 0.60); human review is required.",
+      "retrieved_evidence": "{\"evidence_id\": \"1513812\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.585928, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Game performance sucks. Can't even play Company of Heroes anymore. | @123127 man, I love how the new creators update made my Surface useless!\"}\n{\"evidence_id\": \"997871\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 3}, \"score\": 0.558928, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Thank you! I'll check it out! | @MicrosoftHelps Personal use and not primarily but having that option is good. | @MicrosoftHelps I don't know which Surface to get. Help. My old one lasted almost 4 years.\"}\n{\"evidence_id\": \"2146332\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 4}, \"score\": 0.550787, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps purchased Surface Pro (4.5) in May, now crashing. Support team told me to send back but i'll be without a PC until replacement arrives. I've had to send serveal Sufaces back over years &amp; you've been able to send replacement before receiving broken one back. why not with this one? | @128786 @84015 I wish I could use my surface pro 4.5 but alas it’s broken and despite being under Warranty your support service is very poor. | @MicrosoftHelps its a surface Pro (newest model) not 4 | Watch how @84015's Eva Rawson uses #Surface to help her as a #design #director.\\nRead the interview: https://t.co/aK1JcrDarQ\\n\\n#ThisIsMyOffice https://t.co/FMi2JlzCsD\"}",
+      "generated_reply": "Hello! We hope you enjoy your new Surface device. Since the retrieved historical evidence does not contain specific instructions for installing the ConfigMgr console, please contact Microsoft support directly for further assistance with your setup."
+    }
+  }
+}

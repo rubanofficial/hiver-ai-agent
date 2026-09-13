@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0046",
+  "input_fingerprint": "b4fe72c3ca4b81ed19cd61269c9e83ed2f43dc07baa1b02123876d028511e90b",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-12T04:33:20+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0046",
+    "customer_message": "@MicrosoftHelps need help with a gift purchase please",
+    "conversation_context": "MICROSOFT (515798): @238845 Let's get this sorted, Michael. Send us a DM for further assistance. https://t.co/3qcAsLFkaY",
+    "predicted_intent": "Order / Delivery",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"2661212\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.731482, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Thanks.  My gift recipient missed the email they received :/  #allgoodnow | @MicrosoftHelps just bought Xbox digital game gift for a friend and they aren’t sure how to redeem it. Can you help us out?\"}\n{\"evidence_id\": \"2658495\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.730156, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Thank you! I was able to redeem it :) | @MicrosoftHelps I received a $5 gift card. I tried to redeem it but everytime I do it won't let me. Any help? https://t.co/UC0NvTC900\"}\n{\"evidence_id\": \"2888116\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 4}, \"score\": 0.715036, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Not going well so far. | @115786 @130179 @MicrosoftHelps you guys got any tips to make it work? | @MicrosoftHelps Yes, took a while but I found someone who could help. | Yo @115786 and or @130179 got this sweet gift sent to me but I can't redeem the code? I assume it's for American regions? https://t.co/zw5TSWfh9p\"}",
+    "generated_reply": "Hello! Based on similar cases where users needed help with a gift purchase or code redemption, gift recipients sometimes miss the email containing the gift or need assistance with the redemption process. If your recipient is having trouble, please check that they received the notification email, or feel free to share more details so we can assist you further."
+  },
+  "raw_response": "{\n  \"correctness\": 4,\n  \"helpfulness\": 4,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 4,\n  \"evidence_support\": 5,\n  \"unsupported_claims\": 5,\n  \"evidence_relevance\": 4,\n  \"grounding_score\": 5,\n  \"reason\": \"The reply directly addresses the customer's general gift purchase inquiry by leveraging context from retrieved evidence about gift redemption and missing emails. It is clear, helpful, and well-grounded.\"\n}",
+  "result": {
+    "correctness": 4,
+    "helpfulness": 4,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 4,
+    "evidence_support": 5,
+    "unsupported_claims": 5,
+    "evidence_relevance": 4,
+    "grounding_score": 5,
+    "reason": "The reply directly addresses the customer's general gift purchase inquiry by leveraging context from retrieved evidence about gift redemption and missing emails. It is clear, helpful, and well-grounded.",
+    "overall_score": 4,
+    "short_reason": "The reply directly addresses the customer's general gift purchase inquiry by leveraging context from retrieved evidence about gift redemption and missing emails. It is clear, helpful, and well-grounded.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 4,
+      "helpfulness": 4,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 5,
+      "unsupported_claims": 5,
+      "evidence_relevance": 4
+    },
+    "golden_id": "GOLDEN-0046",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0046",
+      "customer_message": "@MicrosoftHelps need help with a gift purchase please",
+      "conversation_context": "MICROSOFT (515798): @238845 Let's get this sorted, Michael. Send us a DM for further assistance. https://t.co/3qcAsLFkaY",
+      "predicted_intent": "Order / Delivery",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"2661212\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.731482, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Thanks.  My gift recipient missed the email they received :/  #allgoodnow | @MicrosoftHelps just bought Xbox digital game gift for a friend and they aren’t sure how to redeem it. Can you help us out?\"}\n{\"evidence_id\": \"2658495\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.730156, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Thank you! I was able to redeem it :) | @MicrosoftHelps I received a $5 gift card. I tried to redeem it but everytime I do it won't let me. Any help? https://t.co/UC0NvTC900\"}\n{\"evidence_id\": \"2888116\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 4}, \"score\": 0.715036, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Not going well so far. | @115786 @130179 @MicrosoftHelps you guys got any tips to make it work? | @MicrosoftHelps Yes, took a while but I found someone who could help. | Yo @115786 and or @130179 got this sweet gift sent to me but I can't redeem the code? I assume it's for American regions? https://t.co/zw5TSWfh9p\"}",
+      "generated_reply": "Hello! Based on similar cases where users needed help with a gift purchase or code redemption, gift recipients sometimes miss the email containing the gift or need assistance with the redemption process. If your recipient is having trouble, please check that they received the notification email, or feel free to share more details so we can assist you further."
+    }
+  }
+}

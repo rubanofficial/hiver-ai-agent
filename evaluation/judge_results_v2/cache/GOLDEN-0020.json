@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0020",
+  "input_fingerprint": "c5d8903349b6e6c458afbc28de23c74eef4e8ce0aa7b1b114476003cc946b00b",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-12T04:29:45+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0020",
+    "customer_message": "@MicrosoftHelps hi, have tried contact support on live chat and phone and keep being passed from one place to another... all I want to know",
+    "conversation_context": "MICROSOFT (196754): @162292 Thank you for the reply. To attach files using OWA, refer to this link: https://t.co/VLioJ3F1JR. Let us know the result.\nCUSTOMER (196755): @MicrosoftHelps this appears to be for desktop and not iPhone\nCUSTOMER (196756): @MicrosoftHelps please, it is not a difficult query, I just want to know whether it is possible to attach files using OWA for iPhone\nMICROSOFT (196757): @162292 For us to provide the steps on how to attach files in your email, we'd like to know first if your email is hosted by a company.\nCUSTOMER (196758): @MicrosoftHelps yes, the domain is ucl[.]ac[.]uk\nMICROSOFT (196759): @162292 Thank you for your reply. Please send us a DM so we can provide the steps to you. https://t.co/3qcAsLFkaY\nCUSTOMER (196760): @MicrosoftHelps I already did this and was passed on to a phone number for business users... the phone number could not help either\nMICROSOFT (196761): @162292 Hi, Sami. To better assist you, kindly contact our Answer Desk support on this link: https://t.co/kUxXWK7lMj.\nCUSTOMER (196762): @MicrosoftHelps is whether it is possible to attach files using OWA for iPhone, as I don't seem to be able to do so. Thanks",
+    "predicted_intent": "Complaint / Feedback",
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+    "retrieved_evidence": "{\"evidence_id\": \"1540736\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 2}, \"score\": 0.847784, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I don't want to use the live chat because I have a complicated problem, does Microsoft have a support *email*? | @MicrosoftHelps Yes and they were unfortunately unable to help. Thanks for trying though!\"}\n{\"evidence_id\": \"2320915\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.843912, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps can you send me a link to the live chat support please?\"}\n{\"evidence_id\": \"1727617\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.814338, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"hey @MicrosoftHelps is there a way to get a live chat? there's no solution available for my problem.\"}",
+    "generated_reply": "Hello! We are very sorry to hear that you are having trouble reaching the right support team and being passed around. Based on similar cases where users experienced difficulty finding the right assistance or a direct solution, we recommend continuing through our official support channels or visiting support.microsoft.com for further guidance. Thank you for your patience."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 4,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 3,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 4,\n  \"evidence_relevance\": 2,\n  \"grounding_score\": 3,\n  \"reason\": \"The reply acknowledges the customer's frustration with being passed around and offers a general support link, but it completely fails to answer the customer's specific technical question about attaching files using OWA for iPhone.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 4,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 3,
+    "evidence_support": 3,
+    "unsupported_claims": 4,
+    "evidence_relevance": 2,
+    "grounding_score": 3,
+    "reason": "The reply acknowledges the customer's frustration with being passed around and offers a general support link, but it completely fails to answer the customer's specific technical question about attaching files using OWA for iPhone.",
+    "overall_score": 3,
+    "short_reason": "The reply acknowledges the customer's frustration with being passed around and offers a general support link, but it completely fails to answer the customer's specific technical question about attaching files using OWA for iPhone.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 4,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 4,
+      "evidence_relevance": 2
+    },
+    "golden_id": "GOLDEN-0020",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0020",
+      "customer_message": "@MicrosoftHelps hi, have tried contact support on live chat and phone and keep being passed from one place to another... all I want to know",
+      "conversation_context": "MICROSOFT (196754): @162292 Thank you for the reply. To attach files using OWA, refer to this link: https://t.co/VLioJ3F1JR. Let us know the result.\nCUSTOMER (196755): @MicrosoftHelps this appears to be for desktop and not iPhone\nCUSTOMER (196756): @MicrosoftHelps please, it is not a difficult query, I just want to know whether it is possible to attach files using OWA for iPhone\nMICROSOFT (196757): @162292 For us to provide the steps on how to attach files in your email, we'd like to know first if your email is hosted by a company.\nCUSTOMER (196758): @MicrosoftHelps yes, the domain is ucl[.]ac[.]uk\nMICROSOFT (196759): @162292 Thank you for your reply. Please send us a DM so we can provide the steps to you. https://t.co/3qcAsLFkaY\nCUSTOMER (196760): @MicrosoftHelps I already did this and was passed on to a phone number for business users... the phone number could not help either\nMICROSOFT (196761): @162292 Hi, Sami. To better assist you, kindly contact our Answer Desk support on this link: https://t.co/kUxXWK7lMj.\nCUSTOMER (196762): @MicrosoftHelps is whether it is possible to attach files using OWA for iPhone, as I don't seem to be able to do so. Thanks",
+      "predicted_intent": "Complaint / Feedback",
+      "predicted_escalation": "ESCALATE_TO_HUMAN",
+      "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+      "retrieved_evidence": "{\"evidence_id\": \"1540736\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 2}, \"score\": 0.847784, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I don't want to use the live chat because I have a complicated problem, does Microsoft have a support *email*? | @MicrosoftHelps Yes and they were unfortunately unable to help. Thanks for trying though!\"}\n{\"evidence_id\": \"2320915\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.843912, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps can you send me a link to the live chat support please?\"}\n{\"evidence_id\": \"1727617\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.814338, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"hey @MicrosoftHelps is there a way to get a live chat? there's no solution available for my problem.\"}",
+      "generated_reply": "Hello! We are very sorry to hear that you are having trouble reaching the right support team and being passed around. Based on similar cases where users experienced difficulty finding the right assistance or a direct solution, we recommend continuing through our official support channels or visiting support.microsoft.com for further guidance. Thank you for your patience."
+    }
+  }
+}

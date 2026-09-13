@@ -1,0 +1,1085 @@
+{
+  "schema_version": "1.0.0",
+  "source": "stripped for V1 judge (GOLDEN-0157 excluded: agent never produced a prediction)",
+  "count": 215,
+  "excluded_golden_id": [
+    "GOLDEN-0157"
+  ],
+  "records": [
+    {
+      "golden_id": "GOLDEN-0001",
+      "customer_message": "@MicrosoftHelps Is there anyway to update the shipping address on an existing Microsoft Store order? I just recently moved.",
+      "conversation_context": "MICROSOFT (9684): @117762 We want to know your experience with us, James! Rate our support by clicking this link: https://t.co/V2K0N6f79E. Thanks!\nCUSTOMER (9685): @MicrosoftHelps Seems to be good.  Support responded by email saying that the order status won't change online, but the warehouse will ship to the new addr.\nMICROSOFT (9686): @117762 That sounds good! Feel free to contact us if you need assistance. 🙂\nMICROSOFT (9687): @117762 Just checking if you need further help. Is everything good now? https://t.co/3qcAsLFkaY\nCUSTOMER (9688): @MicrosoftHelps I was helped when I called support again. However, the address hasn't changed in the order status yet.\nMICROSOFT (9689): @117762 Thank you for your response. What was the feedback given to you by the support team? https://t.co/3qcAsLFkaY\nMICROSOFT (9690): @117762 Hello, James. Just doing a follow-up on your case. Are you successful in updating your address?"
+    },
+    {
+      "golden_id": "GOLDEN-0002",
+      "customer_message": "@MicrosoftHelps I'm having trouble signing in. I tried to reset my password via text to my phone but I didn't receive any text. Any help?",
+      "conversation_context": "MICROSOFT (12864): @118604 To better assist you, send us a Direct Message. For security purposes, kindly delete your tweet that contains your email address.\nCUSTOMER (12865): @MicrosoftHelps Thanks. Do you have any other suggestion?\nMICROSOFT (12866): @118604 2/2  Click \"Ask a Question\" on the upper right corner. Thank you.\nCUSTOMER (12867): @MicrosoftHelps Would you mind if we discuss this matter via email instead?\nMICROSOFT (12868): @118604 1/2 We don't have direct email. You can post your query via Community Forum for assistance: https://t.co/jsa5yeYZ1T.\nMICROSOFT (12869): @118604 Hi, Yuyut. On what account or device are you trying to sign in?\nCUSTOMER (12870): @MicrosoftHelps To this account: __email__. This account is linked to my office 365."
+    },
+    {
+      "golden_id": "GOLDEN-0003",
+      "customer_message": "Experiencing random window closes on Win10, tis morning. Anyone else? Or am I alone in this problem? Grrrrrrrr.",
+      "conversation_context": "MICROSOFT (36942): @124079 Woah! 😱 Care to tell us more about this, Sue? 🤔 Let's help you on this matter. Hit us a DM! 👍 https://t.co/3qcAsLFkaY"
+    },
+    {
+      "golden_id": "GOLDEN-0004",
+      "customer_message": "I'm in up to date version of my @116230 10, however I don't get the new fluent design as shown in XAML control gallery app !!😐",
+      "conversation_context": "MICROSOFT (42120): @125295 2/2 take a look at it and do the necessities: https://t.co/2rGFoc843Q. Feel free to reach out if you have any queries.\nCUSTOMER (42121): @116230 For eg, that circle animation around the cursor when I click somewhere in UWP app. But the same circle effect can't be seen on start menu !! https://t.co/EeF9R2XN1e\nMICROSOFT (42122): @125295 1/2 Thank you for the feedback. We suggest that you send this directly to our developers via the Feedback Hub so they can\nCUSTOMER (42123): @125295 Hi, Madhes. We'd love to help sort things out. Can you share a few more details about what you're experiencing?"
+    },
+    {
+      "golden_id": "GOLDEN-0005",
+      "customer_message": "@116230 I just ditched Windows 10 for Windows 8.1. I'm sick and tired of win 10 \n\n#Windows10 \n#WednesdayWisdom",
+      "conversation_context": "MICROSOFT (54806): @128427 Let's get this sorted. Just to make it clear, could you tell us the details of your concern about your device's performance?\nCUSTOMER (54807): @116230 Why will Microsoft keep rolling out updates for Windows 10 when users are having issues with the previous updates\nMICROSOFT (54808): @128427 Hi. Just checking back with you, may we know if your issue got resolved?\nCUSTOMER (54809): @128427 Hi, Emmy! Could you share with us what you disliked about Windows 10? We strive to keep improving."
+    },
+    {
+      "golden_id": "GOLDEN-0006",
+      "customer_message": "@116230 After installing #FallCreatorsUpdate MS store, picture app and groove are gone. Also, sound is only working infrequently..",
+      "conversation_context": "MICROSOFT (54829): @128431 Hi. Just checking back with you, may we know if your concern about Start menu is got resolved? Let us know so that we can help.\nCUSTOMER (54830): @MicrosoftHelps Still having this problem..\nCUSTOMER (54831): @MicrosoftHelps I ran the SFC tool. No integrity incidents were found.\nMICROSOFT (54832): @128431 Thank you for the update. To further assist you about this concern, contact Answer Desk on this link: https://t.co/nVOITHYsKZ.\nMICROSOFT (54833): @128431 We'd love to hear from you. Please let us know about your experience with us here: https://t.co/bEOvaoiKXn.\nMICROSOFT (54834): @128431 Here are some troubleshooting methods on how to troubleshoot problems with Start menu: https://t.co/cUVBqZJhKP. Keep us posted.\nMICROSOFT (54835): @128431 We'd love to hear from you. We want to know your experience with the help that you receive here:  \nhttps://t.co/W7uQeCebZc.\nMICROSOFT (54836): @128431 For missing apps, you may run the SFC tool to help you with this issue: https://t.co/PWs2ZHwF7T. Tell us how it goes. https://t.co/3qcAsLFkaY\nCUSTOMER (54837): @MicrosoftHelps It doesn't appear in taskbar or start menu though, like all the apps that haven't updated since Creator Fall Update\nMICROSOFT (54838): @128431 Got it. To help you with your concern, we suggest running the troubleshooter for Windows apps here: https://t.co/31Bair3F92. https://t.co/3qcAsLFkaY\nCUSTOMER (54839): @MicrosoftHelps Ran troubleshooter, but didn't help. Opening store is possible by clicking the store icon in the movies app. (1/2)\nCUSTOMER (54840): @MicrosoftHelps I did that several times, it didn't change anything.\nMICROSOFT (54841): @128431 Ole!\nThank you for reaching out.\nPlease try to resolve your concern by restarting your computer.\nLet us know the outcome.\nCUSTOMER (54842): @116230 Sound is working. All apps downloaded from the Store aren't visible in start menu, the apps list in settings says they're installed though\nCUSTOMER (54843): @128431 Hey, there. We just wanted to check in. Are you still experiencing this at the moment? We're here to help if you need us."
+    },
+    {
+      "golden_id": "GOLDEN-0007",
+      "customer_message": "Broke my second surface pen tip 😞 Are there any replacements deal as it was on SP3 pen? @128786",
+      "conversation_context": "MICROSOFT (56509): @128785 Hi, Odin! Let's ask our friends from Global support to give you pen tip replacement options: https://t.co/LKyaDMuEDy"
+    },
+    {
+      "golden_id": "GOLDEN-0008",
+      "customer_message": "@microsofthelps\nWhy I am getting the message your browser third party cookies are disabled please activate to proceed. I am using IE 11 browser",
+      "conversation_context": "MICROSOFT (68113): @131546 Hi, Shriram. Thank you for tweeting us. May we know which version Windows you are using? Please reply to us via DM. Thank you. https://t.co/3qcAsLFkaY"
+    },
+    {
+      "golden_id": "GOLDEN-0009",
+      "customer_message": "@MicrosoftHelps hi can u help? I need to cancel a pre order of the new Destiny 2 DLC but there is no option in order history to cancel 🤔 ordered via Microsoft as a gift but it didn’t request the email address of the person it’s for so need to cancel",
+      "conversation_context": "MICROSOFT (93333): @136218 Thank you for reaching out, Paul. Just to confirm, you've ordered the Destiny 2 DLC through Microsoft Store?\nCUSTOMER (93334): @MicrosoftHelps Yes, I selected “buy as gift” as I do not have a Xbox live account but it did not ask the recipients email and now it’s sat in my Microsoft account, I paid via PayPal and there is no option to cancel"
+    },
+    {
+      "golden_id": "GOLDEN-0010",
+      "customer_message": "@MicrosoftHelps Can I have a question? Can you transfer a xbox live account to a new microsoft account?",
+      "conversation_context": "MICROSOFT (105690): @139365 Hello. Is everything good on your end? Feel free to update us anytime."
+    },
+    {
+      "golden_id": "GOLDEN-0011",
+      "customer_message": "@MicrosoftHelps i updated to the fall update then my video driver started crashing to the point my laptop was unusable. my brother in law is already fixing it. does microsoft not always work with nvidia?",
+      "conversation_context": "MICROSOFT (122984): @143463 Hi. Let's take a look at this. Which Windows version are you using? Please tell us more about the issue. Thanks."
+    },
+    {
+      "golden_id": "GOLDEN-0012",
+      "customer_message": "@MicrosoftHelps Hi, we have an issue where image previews flash and disappear immediately in Explorer, can you help? Both on local and network drives. This is on Windows 10 Pro",
+      "conversation_context": "MICROSOFT (124986): @144013 Hello, Guillaume. Were you able to contact our Answer Desk team? Let us know if you need help.\nCUSTOMER (124987): @MicrosoftHelps Yes thank you, the issue is mostly resolved. One computer to go.\nCUSTOMER (124988): @MicrosoftHelps Thank you\nMICROSOFT (124989): @144013 You're welcome! Let us know if you encounter any issues contacting them.\nMICROSOFT (124990): @144013 We'd like to hear from you, Guillaume! Help us improve our support by clicking this link: https://t.co/DK0YbEljkv. Thank you.\nMICROSOFT (124991): @144013 We want you to save time and effort on this matter. Let our Answer Desk take over your concern. You can contact them here: https://t.co/3ckbETPdo2. You’ll be in good hands.\nCUSTOMER (124992): @MicrosoftHelps Yes there was a very detailed article at TenForums with five different ways to enable this: folder options, visual effects settings, the registry, group policy, and another way with the registry. Tried them all, no dice.\nMICROSOFT (124993): @144013 We're here to help you with this concern. To clarify, have you tried any possible troubleshooting steps to sort this out?\nCUSTOMER (124994): @MicrosoftHelps Windows does its updates, nothing else was changed.\nThe first screenshot is a mapped network drive with 3 color squares, the other is how that very screenshot then appears on the desktop. https://t.co/Wtdw3ZscTK\nCUSTOMER (124995): @MicrosoftHelps With JPEGs, if I open one it seems to force a bunch of thumbnails to appear (not all, and not the best experience). With PNGs, no such luck.\nMICROSOFT (124996): @144013 Hello, Guillaume. Did you make any changes to the computer prior to the issue? May we request for a screenshot so we may assess the matter further."
+    },
+    {
+      "golden_id": "GOLDEN-0013",
+      "customer_message": "@MicrosoftHelps I updated my laptop the other day and since I updated it it no longer boots properly, I have to force a shutdown and power it up s second time for it to boot. It has an SSD and normally boots in seconds but I can leave it 10 mins and it still is loading. Any ideas",
+      "conversation_context": "MICROSOFT (140789): @147776 Thank you for reaching out, Jordan! Let's get this sorted. Is that the Windows 10 that you're using? Do you see any error messages?\nCUSTOMER (140790): @MicrosoftHelps Yeah I'm using Win10, and I get no error messages. It seems to work fine once it boots up properly and there's no indication anything went wrong. If it helps I have a Lenovo V110\nCUSTOMER (140791): @MicrosoftHelps I've only had the laptop since the end of July and I use it regularly, never had any problems until this update\nMICROSOFT (140792): @147776 We appreciate your confirmation. Let's run the System File Checker tool. Here's how: https://t.co/gikAx8iwzB. Update us!\nCUSTOMER (140793): @MicrosoftHelps 'The restore operation completed successfully',  'Windows Resource Protection did not find any integrity violations'\nMICROSOFT (140794): @147776 We appreciate the update. Let's try the suggestion of SpiritX MS MVP on this link: https://t.co/CCE9fU52Rn. Hope this helps. Feel free to contact us back if you need further assistance.\nCUSTOMER (140795): @MicrosoftHelps ok I'll give it a go, thanks\nCUSTOMER (140796): @MicrosoftHelps System protection wasn't enabled by default previously so I have no previous restore points to revert too\nMICROSOFT (140797): @147776 Let's check our other options. Connect with our Windows experts here: https://t.co/rIdQUk4svK for further assistance. Let us know how it goes."
+    },
+    {
+      "golden_id": "GOLDEN-0014",
+      "customer_message": "So I've managed to reinstall Windows 10. Now to see if I can complete the updates...",
+      "conversation_context": "MICROSOFT (158303): @152397 Hi, Martin. How's it going?\nCUSTOMER (158304): @MicrosoftHelps Good. Issue resolved!"
+    },
+    {
+      "golden_id": "GOLDEN-0015",
+      "customer_message": "@MicrosoftHelps This update has taken nearly an hour to do 18%. How is this acceptable?",
+      "conversation_context": "MICROSOFT (158307): @151115 We want to get this resolved for you, Tom. Just to verify, what's the make and model of the device? What operating system are you using? You can reply through this link: https://t.co/3qcAsLFkaY"
+    },
+    {
+      "golden_id": "GOLDEN-0016",
+      "customer_message": "@MicrosoftHelps how long does it take for your store to process orders I ordered an Xbox One S over 24 hours ago and it is still processing, I understand it's busy but honestly this should be automated by a computer seriously.",
+      "conversation_context": "MICROSOFT (170286): @154395 Thank you for reaching out, Chris! To track your order, click here: https://t.co/toD3wygojA. Let us know if you still have other concern.\nCUSTOMER (170287): @MicrosoftHelps That didn't help but ok. I was just wondering why it was taking so long to process the order but I guess you can't help with that."
+    },
+    {
+      "golden_id": "GOLDEN-0017",
+      "customer_message": "@MicrosoftHelps Yes. That's the point. I have both, I want to make sure ethernet has priority.",
+      "conversation_context": "MICROSOFT (184221): @159352 Hello! Let's sort this out. Which version of Windows are you using?\nCUSTOMER (184222): @MicrosoftHelps Windows 10\nCUSTOMER (184223): @116230 I would like to prioritize ethernet over WiFi. How would I do this? The setting is no longer where it once was.\nMICROSOFT (184224): @159352 Noted. Did you try using an Ethernet instead of your wireless connection? Use a chord and connect it directly to your computer.\nCUSTOMER (184225): @MicrosoftHelps Like, did you seriously not read the chain?"
+    },
+    {
+      "golden_id": "GOLDEN-0018",
+      "customer_message": "@MicrosoftHelps I can't get a chat window to open up. I need help with the store looping its \"Starting Download\" phase.",
+      "conversation_context": "MICROSOFT (194013): @161618 Hi, Mathew. We'd like to follow up on the status of your concern. Feel free to reach us back if you need further assistance.\nCUSTOMER (194014): @MicrosoftHelps Getting back to my issue yesterday, I try and open up a chat window, or set up a call back, and the window keeps looping with virtual agent.\nMICROSOFT (194015): @161618 That's strange. Are you receiving any error messages when you attempt to access our live chat support? https://t.co/3qcAsLFkaY\nCUSTOMER (194016): @MicrosoftHelps I've been on this site, but chat wont load, and I tried calling, but it said I'd have to pay for support, which I refuse to do.\nMICROSOFT (194017): @161618 Hello! It's our pleasure to help, Matthew. You can contact our customer support team https://t.co/wfm9asH0YJ."
+    },
+    {
+      "golden_id": "GOLDEN-0019",
+      "customer_message": "@MicrosoftHelps i recently made the last windows 10 update, since then i cant open itunes, please help. i've reinstalled it and nothing.",
+      "conversation_context": "MICROSOFT (194038): @161622 Hi! Following up with you to see if your issue got resolved? We'll appreciate an update about this concern."
+    },
+    {
+      "golden_id": "GOLDEN-0020",
+      "customer_message": "@MicrosoftHelps hi, have tried contact support on live chat and phone and keep being passed from one place to another... all I want to know",
+      "conversation_context": "MICROSOFT (196754): @162292 Thank you for the reply. To attach files using OWA, refer to this link: https://t.co/VLioJ3F1JR. Let us know the result.\nCUSTOMER (196755): @MicrosoftHelps this appears to be for desktop and not iPhone\nCUSTOMER (196756): @MicrosoftHelps please, it is not a difficult query, I just want to know whether it is possible to attach files using OWA for iPhone\nMICROSOFT (196757): @162292 For us to provide the steps on how to attach files in your email, we'd like to know first if your email is hosted by a company.\nCUSTOMER (196758): @MicrosoftHelps yes, the domain is ucl[.]ac[.]uk\nMICROSOFT (196759): @162292 Thank you for your reply. Please send us a DM so we can provide the steps to you. https://t.co/3qcAsLFkaY\nCUSTOMER (196760): @MicrosoftHelps I already did this and was passed on to a phone number for business users... the phone number could not help either\nMICROSOFT (196761): @162292 Hi, Sami. To better assist you, kindly contact our Answer Desk support on this link: https://t.co/kUxXWK7lMj.\nCUSTOMER (196762): @MicrosoftHelps is whether it is possible to attach files using OWA for iPhone, as I don't seem to be able to do so. Thanks"
+    },
+    {
+      "golden_id": "GOLDEN-0021",
+      "customer_message": "@MicrosoftHelps I've seen this pop-up twice while closing Word and Excel, I was already signed in, what is it (also, I simply closed it)? https://t.co/aWoHdzxmd6",
+      "conversation_context": "OTHER (202096): @163736 Hi there. Are you still encountering this issue? Let us know.\nCUSTOMER (202097): @OfficeSupport I'd love to, but with each attempt, I am greeted with this. It wasn't impeding my use of Office, and of course, I cannot reproduce it. https://t.co/LEhjBICVuc\nOTHER (202098): @163736 Kindly chat one-on-one with us here for real time assistance: https://t.co/6qaD7rXNwC. We'll take a look into it. https://t.co/Iyk9OK8PbO\nCUSTOMER (202099): @MicrosoftHelps @OfficeSupport Okay, hello @OfficeSupport , please see the chain and the image from the initial post. Thoughts?\nMICROSOFT (202100): @163736 Thank you for that info. Let's have @OfficeSupport take a closer look at this. It would be best if you send them a message.\nCUSTOMER (202101): @MicrosoftHelps Im an Office 365 subscriber, version 1707, build 83626.2076. I'm not aware of any recent updates. No noticeable hangups or feature issies.\nMICROSOFT (202102): @163736 Hi, Maxwell. Let's sort this out. Which Office version are you using? Are there any changes made before?"
+    },
+    {
+      "golden_id": "GOLDEN-0022",
+      "customer_message": "Updating @116230  again... Been down since 6.",
+      "conversation_context": "MICROSOFT (218852): @168187 Hello, Curtis. Just doing a follow-up on your case. Are you still experiencing the issue with the update?\nCUSTOMER (218853): @116230 No error codes and windows does not list a failed update in update history.\nMICROSOFT (218854): @168187 Hi, Curtis. Let us know on how we can improve our support here: https://t.co/T4fh0hA8Z7. Thank you.\nCUSTOMER (218855): @168187 Gotcha. Did you see any error codes or messages when this occurred? Let's see if we can sort this out.\nCUSTOMER (218856): @116230 Update failed. No easy explanation why. But it's been running fine after the failure.\nCUSTOMER (218857): @168187 Understood. How is your device running after the update?\nCUSTOMER (218858): @116230 It's a typical thing updates triggered when I left work and when I get home I have to wait some span of time before I can work again.\nCUSTOMER (218859): @168187 Hi, Curtis. Can you please tell us more about what's going on? We're here to help if you need us."
+    },
+    {
+      "golden_id": "GOLDEN-0023",
+      "customer_message": "@MicrosoftHelps I don't know. I think so, but I don't know. I am now 90% BLIND;",
+      "conversation_context": "MICROSOFT (225601): @169893 Let's seek more assistance from our Answer Desk team. We suggest that you contact them using this link: https://t.co/G2pojzKF9x. Please make sure to obtain a case number for future references.\nCUSTOMER (225602): @MicrosoftHelps Sorry I am now 95% BLIND. I cannot see websites with white backgrounds. @169894"
+    },
+    {
+      "golden_id": "GOLDEN-0024",
+      "customer_message": "@MicrosoftHelps Hi I have a student Office 365 account now setup and want to cancel my £59.99 subscription which is due to renew today. 1/2",
+      "conversation_context": "MICROSOFT (229949): @170794 Just checking to see if you still need help. Were you able to contact our Accounts and billing team? https://t.co/3qcAsLFkaY"
+    },
+    {
+      "golden_id": "GOLDEN-0025",
+      "customer_message": "@MicrosoftHelps After Sept.update I can no longer connect to ftp server to update my site Was there a security change that would cause this?",
+      "conversation_context": "MICROSOFT (238304): @172696 Hello! We definitely want to help! Which Windows version are you using and which site are you pertaining to?\nCUSTOMER (238305): @MicrosoftHelps W 10. Magix web:after your update can’t export to or update my website. I get an internal error message, no number or other id info given."
+    },
+    {
+      "golden_id": "GOLDEN-0026",
+      "customer_message": "@MicrosoftHelps is there anyway of doing a refund reversal on forza 7. Refunded it last night due to the VIP treatment but now they have....",
+      "conversation_context": "MICROSOFT (248965): @175163 2/2  from Xbox Store? We'll keep an eye out for your reply.\nCUSTOMER (248966): @MicrosoftHelps It was originally from the Xbox store.\nCUSTOMER (248967): @MicrosoftHelps Sorted it I want to buy it again. But the price has doubled :-/\nCUSTOMER (248968): @MicrosoftHelps https://t.co/Db2VZrvPbj\nCUSTOMER (248969): @MicrosoftHelps I had some credit on my account. I used the credit but after refunding the game had already gone up.\nCUSTOMER (248970): @MicrosoftHelps Sorry it was the online shop. Due to how the VIP pass was mis sold. I was planning on buying the deluxe version but didn't think to check.\nCUSTOMER (248971): @MicrosoftHelps Kicking myself now.\nMICROSOFT (248972): @175163 There's no need to worry. Our Sales and support team: https://t.co/w9VE8NhZs8 is here to take a closer look at your concern.\nCUSTOMER (248973): @MicrosoftHelps Ok thanks.\nCUSTOMER (248974): @MicrosoftHelps It keeps wanting me to use a virtual agent.\nI did speak to someone before and they said that There's pretty much nothing I can do :-(\nMICROSOFT (248975): @175163 In that case, you may contact our Global phone support on this link: https://t.co/4ILCTpye4L for further assistance.\nCUSTOMER (248976): @MicrosoftHelps Ok thanks very much.\nThink I'll probably be wasting my time.\nThat's for the reply though 😁\nMICROSOFT (248977): @175163 1/2 Hi. Happy to help here. Can you tell us which store are you planning to buy the game? Is it from the Windows Store or"
+    },
+    {
+      "golden_id": "GOLDEN-0027",
+      "customer_message": "@MicrosoftHelps @153744 Haven't made any changes",
+      "conversation_context": "MICROSOFT (301404): @187894 Hi. Allow us to help. Which Office version are you using? Have you made any changes prior to this issue?\nCUSTOMER (301405): @MicrosoftHelps @153744 I'm using MS Office 2016\nCUSTOMER (301406): @153744 @MicrosoftHelps @122427 Why is MS Office interface so user unfriendly. A simple task of changing inches to cms took me 20 mins."
+    },
+    {
+      "golden_id": "GOLDEN-0028",
+      "customer_message": "@MicrosoftHelps, do you have an up-to-date method of changing network adapter priorities in Win10? Everything I've found doesn't work.",
+      "conversation_context": "MICROSOFT (345458): @198204 Hi, Seth. We'd love to hear the details of this concern. May we know what are you trying to find? Let us know.\nCUSTOMER (345459): @MicrosoftHelps Certain sections it tells you to go to haven't existed since 2016, menu options have changed, etc\nMICROSOFT (345460): @198204 Hello, Seth. We'd like to follow up on the status of your concern. Feel free to reach us back if you need further assistance."
+    },
+    {
+      "golden_id": "GOLDEN-0029",
+      "customer_message": "@MicrosoftHelps done that, downloaded albums play, music via Zune/Groove doesn't stream, would need to download all to my phone now.",
+      "conversation_context": "MICROSOFT (345608): @198244 Hi, Robert.\nThank you for reaching out.\nPlease describe the behavior of the app in question &amp; provide the error message.\nCUSTOMER (345609): @MicrosoftHelps music for windows phone keeps saying make sure internet or wifi is working, will not play music.\nCUSTOMER (345610): @MicrosoftHelps what gives, WP8.1 Music App no longer works? What's next?\nMICROSOFT (345611): @198244 Got it. For us to isolate, can you tell us which music app are you using? What troubleshooting steps have you done so far?\nCUSTOMER (345612): @MicrosoftHelps Windows Phone, built in Music, with Groove. Songs I own Stream, but it appears the Stream features are turned off now I guess.\nMICROSOFT (345613): @198244 We're sorry to hear this, Robert. May we know if you have a subscription with Groove music?\nCUSTOMER (345614): @MicrosoftHelps in the past I had Zune an Groove and I've purchased songs (kept 10 a month), always played them online.\nMICROSOFT (345615): @198244 Try performing a soft reset to refresh your phone. Press and hold the Volume down and Power button until it restart. Update us!\nCUSTOMER (345616): @MicrosoftHelps or... I would have to sync with a PC an move albums around from time to time or pay Spotify a fee to download my music"
+    },
+    {
+      "golden_id": "GOLDEN-0030",
+      "customer_message": "@MicrosoftHelps I think my account has been hacked. HELP!",
+      "conversation_context": "MICROSOFT (347322): @198715 Hi, James. We're here to help. Follow the steps here: https://t.co/jETPT2x8jF to secure your account. https://t.co/3qcAsLFkaY"
+    },
+    {
+      "golden_id": "GOLDEN-0031",
+      "customer_message": "@MicrosoftHelps First three attempts told different things, the fourth disconnected on me. Here's hoping the fifth times lucky.",
+      "conversation_context": "MICROSOFT (374453): @204785 Let’s get this done, Joseph. Provide us more details about the issue you’ve encountered to assist you further."
+    },
+    {
+      "golden_id": "GOLDEN-0032",
+      "customer_message": "@MicrosoftHelps What benefits? Now I have to delete my two accounts because you refute to unlink them or even to delete only one. #MicrosoftNeverHelps",
+      "conversation_context": "MICROSOFT (388271): @207896 Hi, Francesco. Allow us to look into your concern. May we know what happened to your accounts? Please tell us more information.\nCUSTOMER (388272): @MicrosoftHelps you have linked them together but I was using them for different purposes.\nCUSTOMER (388273): @MicrosoftHelps Thank you MS, you ruined my two accounts (MS and Skype) linking them. #MicrosoftEeverHelps\nMICROSOFT (388274): @207896 (2/2) This changes will give you the benefit of using your Skype account to other Microsoft services. https://t.co/3qcAsLFkaY\nMICROSOFT (388275): @207896 (1/2) We understand. Please be informed that Skype is now under the umbrella of Microsoft. https://t.co/3qcAsLFkaY"
+    },
+    {
+      "golden_id": "GOLDEN-0033",
+      "customer_message": "@MicrosoftHelps Very happy with my experience from Microsoft Support! My Surface is back to me (6 days). Really very happy!! https://t.co/wpkjOFhYjP",
+      "conversation_context": "MICROSOFT (424779): @216089 You're most welcome. Feel free to update us. Have a nice day ahead.\nCUSTOMER (424780): @MicrosoftHelps Thank you, I will follow the links in the morning.  Regards, Rob\nMICROSOFT (424781): @216089 Hello there. How did things go? Were you able to contact our support?\nMICROSOFT (424782): @216089 Hi, Rob. Hope all is well. Please let us know more about your experience here: https://t.co/AHdk42HPYi.\nMICROSOFT (424783): @216089 @216089 Hi Robert. We got your back. In regards with your concern, we suggest that you follow the steps on this link: https://t.co/a1OqRePJa0 You may also contact our Answer Desk through this link: https://t.co/PY8GnlHCom\nView Conversation\nCUSTOMER (424784): @123127 @128786  Hi, can you help? My battery won't charge and if I unplug power my device dies immediately. Where can I get it repaired please? Advice welcome. https://t.co/tjlK0XgnoC\nCUSTOMER (604873): @MicrosoftHelps Hi, yes thank. I have booked it in for repair and it'll be going UPS shortly. Thanks for all your help. Rob\nMICROSOFT (604874): @216089 You're welcome. If you need anything else, we are only a tweet away."
+    },
+    {
+      "golden_id": "GOLDEN-0034",
+      "customer_message": "So I posted this shit on instagram nobody even bothered to fucking responded to my problem! I searched the internet... nothing. https://t.co/hIalaiNO7m",
+      "conversation_context": "MICROSOFT (437263): @143711 Hi. Thank you for bringing this to our attention. To better assist you, which Windows version are you using?\nCUSTOMER (437264): @MicrosoftHelps Windows 10\nCUSTOMER (437265): Pls help @MicrosoftHelps\nMICROSOFT (437266): @143711 Let's investigate this issue further. We'd like to know if you made any recent changes on your device prior the issue.\nCUSTOMER (437267): @MicrosoftHelps I did not make any changes to my device\nMICROSOFT (437268): @143711 Thank you for the info. We suggest that you check Jessen P's post: https://t.co/oWzGn7HVKX to resolve the volume issue.\nMICROSOFT (437269): @143711 Just doing a follow-up. Is everything working on your end now? Let us know if you need assistance?"
+    },
+    {
+      "golden_id": "GOLDEN-0035",
+      "customer_message": "@MicrosoftHelps I just had new big update and now all UD history vanished. https://t.co/wFg66ULI5P",
+      "conversation_context": "MICROSOFT (441423): @219699 Hi, Bob! Let’s get this sorted. What do you mean by UD history? Is it driver updates? Please send us a DM for better assistance. https://t.co/3qcAsLFkaY"
+    },
+    {
+      "golden_id": "GOLDEN-0036",
+      "customer_message": "How to waste an hour of your life: Let Windows 10 update.",
+      "conversation_context": "MICROSOFT (446423): @220742 Hi, Jordy. Schedule when to implement the updates on your computer. Check this link to set active hours to avoid inconvenient restarts: https://t.co/AaxVQaGteE. We're here if you have other questions."
+    },
+    {
+      "golden_id": "GOLDEN-0037",
+      "customer_message": "@MicrosoftHelps Hey Microsoft Support. Haven't had a chance to look into things more closely, but I have some ideas I'll follow up on later today (CET time frame). I'll let you know!",
+      "conversation_context": "MICROSOFT (446425): @220743 Hi, Jarenth. We saw your tweet. Let us help. Have you done any troubleshooting steps on your end? Can you send us a screenshot via DM? https://t.co/3qcAsLFkaY\nCUSTOMER (446426): @MicrosoftHelps I appreciate the follow-up, but I'm not sure what to give you here. I could make a screenshot of my entire monitor, but I don't have any monitor-wide screenshots of before, to illustrate the difference.\n\nMy 'troubleshooting' so far has been wiggling my DVI plug around.\nCUSTOMER (446427): I had a mandatory Windows 10 update and now I'm 95% convinced the colour saturation on one of my monitors is different.\nMICROSOFT (446428): @220743 Let's get this sorted. Are you still experiencing the same issue? If yes, is your display driver update? If no, we suggest checking this link to help you update your display driver: https://t.co/e77DvcvQje. Keep us notified. https://t.co/3qcAsLFkaY\nMICROSOFT (446429): @220743 Hi, Jarenth! How is it going? Is everything working fine now? Do you still need our help? https://t.co/3qcAsLWV2w"
+    },
+    {
+      "golden_id": "GOLDEN-0038",
+      "customer_message": "@microsofthelps I can only get help between 9 AM and 6 PM? #helpdeskfail #officefail #frustrated",
+      "conversation_context": "MICROSOFT (456505): @223407 Hello! Allow us to help. Tell us more details about your concern."
+    },
+    {
+      "golden_id": "GOLDEN-0039",
+      "customer_message": "@MicrosoftHelps hey let me delete unnecessary windows apps I don't use on my surface pro 4 I want the space they take up",
+      "conversation_context": "MICROSOFT (460800): @224475 Hi Olivia. We got you. You can uninstall applications that are not needed from your Surface. However, bear in mind that some of these applications are required for the system to run properly.\nCUSTOMER (460801): @MicrosoftHelps Noah offense but I don't see why I need paint 3D installed onto my laptop"
+    },
+    {
+      "golden_id": "GOLDEN-0040",
+      "customer_message": "@MicrosoftHelps no features on my windows 10 laptop are working. Can't use the search in the quick window, none of my apps, besides browser, work/load",
+      "conversation_context": "MICROSOFT (462906): @225008 Hi! Thanks for bringing this up. How long have you been experiencing this issue? Can you send us a screenshot? Are you getting any error codes?"
+    },
+    {
+      "golden_id": "GOLDEN-0041",
+      "customer_message": "Dear @115890, @MicrosoftHelps,\n\nIt doesn't help that THERE ARE NO ERROR CODES. This will be the FIFTH time I've had to reinstall Windows because of some bullshit OS error.\n\nWho thought it was a good idea to omit error codes? Hope they don't work with you anymore. https://t.co/43XIp8dLfn",
+      "conversation_context": "MICROSOFT (468075): @226460 Let's work on this together. Please follow the steps in this article if you wish to start fresh with a clean installation of Windows 10: https://t.co/EMe3hnr4V1. Give us an update when you're done.\nCUSTOMER (468076): @MicrosoftHelps No. No new software or hardware was installed. The error only occurred when my device was connected to the internet.\nIt's running Windows 10 Education v 1709, Build 16299.15\n\nRyzen 3 1200, no overclocks to CPU or Memory.\nMSE is the only AV\nAutomatic Updates is enabled\nMICROSOFT (468077): @226460 Let's investigate this further. Are you still experiencing the same issue after reinstalling Windows? Which Windows version are you using? Were there changes made to your device prior to this issue? Please tell us more.\nCUSTOMER (468078): @MicrosoftHelps I could not identify the issue, and Safe Mode had the same error. I ended up just reinstalling Windows. Again.\nFirst issue was I couldn't log in period.\n\nThere was no support forum, and none to report to with an error code :/\nMICROSOFT (468079): @226460 Hi there, Winston. Is there anything that we can help? Please tell us more about the issue to assist you further. Thank you.\nCUSTOMER (468080): @115890 @MicrosoftHelps Thanks again Microsoft. What a waste of time. https://t.co/4zl6caCf93"
+    },
+    {
+      "golden_id": "GOLDEN-0042",
+      "customer_message": "@MicrosoftHelps What if I uninstall and then re-install the app?",
+      "conversation_context": "MICROSOFT (468100): @226463 Oh! We suggest you get in touch with our Answer Desk for further help. Contact them here: https://t.co/dS92GNgzcC. You can also ask to talk to a person at any time.\nCUSTOMER (468101): @MicrosoftHelps BTW, I do get an error message to \"fix account.\" Do it, but syncing never completes and the error message comes back.\nMICROSOFT (468102): @226463 Hi, Yusuf. Let's work on this. Are you getting any error message? To better assist you, kindly send an image of what you have on your screen.\nCUSTOMER (468103): @MicrosoftHelps I'll try. Syncing has started, but does not appear to be complete. Initially could not detect the account.\nCUSTOMER (468104): @MicrosoftHelps Got Fall Creator's update. People app does not properly sync contacts. Kind of like what happens in #W10M when I update to the new @123196 Mail and Calendar. Do they have the same problem?\nMICROSOFT (938219): @226463 We suggest that you run the app troubleshooter here: https://t.co/5cp58QhXRo. Let us know how things go."
+    },
+    {
+      "golden_id": "GOLDEN-0043",
+      "customer_message": "@MicrosoftHelps just bought a brand new Patrol Tech controller and not only does it not stay connected but your site will not let me register so I can make a Exchange. ER47140/16",
+      "conversation_context": "MICROSOFT (470470): @227016 Hi there! How is it going? Is everything working fine now? https://t.co/3qcAsLFkaY\nCUSTOMER (470471): @MicrosoftHelps No, I'm stuck without a controller for about another week or so until they send the replacement so I would say no everything is not worked out until I get the product I paid for last week"
+    },
+    {
+      "golden_id": "GOLDEN-0044",
+      "customer_message": "@MicrosoftHelps hey guys literally nothing will download on my laptop",
+      "conversation_context": "MICROSOFT (471425): @152091 Hi! Thanks for bringing this up. Which version of Windows are you running? Are you getting any error messages? Did you check your Internet connection?"
+    },
+    {
+      "golden_id": "GOLDEN-0045",
+      "customer_message": "@MicrosoftHelps Error Shows At The Time Of Windows 10 Update is (0x8018830f). FOR Lumia 730.need help to resolve the problem",
+      "conversation_context": "MICROSOFT (510201): @237226 We suggest that you report this issue directly to our Software Engineers by using the Feedback Hub: https://t.co/yRWhDBnBn8. Hope this helps.\nCUSTOMER (510202): @MicrosoftHelps Hope so\nCUSTOMER (510203): @MicrosoftHelps Same problem....after reset my phone\nMICROSOFT (510204): @237226 How's it going, Ajay? Is everything good on your end? We're just here if you need further assistance.\nCUSTOMER (510205): @MicrosoftHelps Thank u....🙏\nMICROSOFT (510206): @237226 That's weird. Let's perform a hard reset on your phone. Go to Settings &gt; About &gt; Reset your phone. Please create a backup to avoid data loss. Then, try to update your phone. Let us know if the issue still persist.\nCUSTOMER (510207): @MicrosoftHelps Same problem after refresh 🔃 the phone..... Leave it https://t.co/mTR5OgTn2f\nMICROSOFT (510208): @237226 Hmm. This process will just refresh your phone. Here's the link for more info: https://t.co/NgxMcSVVHn. Update us on the result.\nCUSTOMER (510209): @MicrosoftHelps This is the process of phone reset...\nMICROSOFT (510210): @237226 If your connection is strong, try to perform a soft reset on your phone. Press and hold the Power and Volume buttons simultaneously for 15 secs. Afterwards, release the hold and wait for the device to finish rebooting. Let us know if you managed to install the updates.\nCUSTOMER (510211): @MicrosoftHelps Through Wi-Fi\nMICROSOFT (510212): @237226 Hi Ajay. Just to confirm, which type of connection are you using when installing the updates on your device? Also, what troubleshooting steps have you tried so far?"
+    },
+    {
+      "golden_id": "GOLDEN-0046",
+      "customer_message": "@MicrosoftHelps need help with a gift purchase please",
+      "conversation_context": "MICROSOFT (515798): @238845 Let's get this sorted, Michael. Send us a DM for further assistance. https://t.co/3qcAsLFkaY"
+    },
+    {
+      "golden_id": "GOLDEN-0047",
+      "customer_message": "@MicrosoftHelps seems like Insider Fast Build Excel Update 16.9.0 (17112806) is stuck in a do loop.  Has shown up as available, and I have installed, six times now starting yesterday through today. https://t.co/4KnUafUNTd",
+      "conversation_context": "MICROSOFT (517506): @239331 Hi, Matt. Let's get this resolved with the help of our Office support here: https://t.co/sBid6CK9Uq. Kindly secure a Service Request Number for reference."
+    },
+    {
+      "golden_id": "GOLDEN-0048",
+      "customer_message": "@MicrosoftHelps Hello, the model is Lumia 930. Device encryption was not turned on, so there was nothing to disable. Soft reset did not help, neither did manually setting the time and date. And I have no desire to perform hard reset just to get an OS update working, that is just ridiculous.",
+      "conversation_context": "MICROSOFT (517512): @239333 If that is the case, try to resolve the issue by turning off the Device encryption on your device. Go to Settings &gt; System &gt; Device encryption. Update your device again after.\n\nLet us know what happens after turning off the encryption on your device.\nCUSTOMER (517513): @MicrosoftHelps seems like a lot of people have issue while updating, getting the  0x8018830f error code and I have not found any concrete solutions to  this other than the usual 'perform soft/hard reset' which didn't help  anyone, what is going on here?\nMICROSOFT (517514): @239333 Hi!\n\nWere you able to update your phone after the Device encryption is disabled?\n\nWe hope to hear from you soon. https://t.co/3qcAsLFkaY"
+    },
+    {
+      "golden_id": "GOLDEN-0049",
+      "customer_message": "@MicrosoftHelps Yes I have tried a different keyboard and mouse and would they still be able to connect even though the pc isn’t set up, it’s stuck on the initial set up screen https://t.co/8yJ7MutxbL",
+      "conversation_context": "MICROSOFT (520610): @240181 Hi, Michael! We're here to help you. Which Windows version are you using? Are you mouse and keyboard driver updated? https://t.co/3qcAsLWV2w\nCUSTOMER (520611): @MicrosoftHelps I’m using a windows 8 machine that i upgraded to win 10 when win first came out , I don’t know about the drivers I’m guessing so as it re installed windows when the pc was reset\nCUSTOMER (520612): @MicrosoftHelps hello I need help, I factory rest my pc and now my keyboard and mouse isn’t working, what do I need to do?\nMICROSOFT (520613): @240181 Got it. In that case, we suggest that you try updating your mouse and keyboard driver and see if that works. You may follow the steps here: https://t.co/Tor8Rz8f9Q. Let us know how it goes. https://t.co/3qcAsLWV2w\nCUSTOMER (520614): @MicrosoftHelps How if I can’t use the mouse and keyboard to type or even set up the pc?\nMICROSOFT (520615): @240181 In that case, have you tried using a different mouse or keyboard? If not, we suggest that you borrow to some of your friends or relatives so you can contact our Answer Desk support for remote access that may help you resolve your concern."
+    },
+    {
+      "golden_id": "GOLDEN-0050",
+      "customer_message": "@MicrosoftHelps I am having trouble signing into my student email and my classmates are having the same issue. I’m being asked for my preferred language/time zone and as soon as I enter it and click save it resets my answer and I am stuck here. HELP",
+      "conversation_context": "MICROSOFT (531955): @194075 Hi, Nicole! How are you? Just want to make sure if everything is up and running on your end now? Please send us a private message if you need assistance.\nCUSTOMER (531956): @MicrosoftHelps I keep getting this. It resets as soon as I hit save. I’m stuck https://t.co/1FL1r8aJYm\nMICROSOFT (531957): @194075 Did you check the service health in your area? If not, please click this link: https://t.co/8mqVvkhHPF. Tell us if everything is up and running.\nMICROSOFT (531958): @194075 Hi, Nicole! How is it going? Is everything working fine now? https://t.co/3qcAsLFkaY\nCUSTOMER (531959): @MicrosoftHelps I tried on Chrome (before I tried on Safari) and it said “a server with information about you or your mailbox couldn’t be found” it’s been two hours now\nMICROSOFT (531960): @194075 Just to clarify, which email domain are you using? Can you send it to us via DM? Also, try checking the status of your email using this link: https://t.co/iHtGzjteEQ https://t.co/3qcAsLFkaY\nMICROSOFT (531961): @194075 Let’s get this done, Nicole. Just to clarify, are you getting any error messages? Also, any changes made before the issue happened?"
+    },
+    {
+      "golden_id": "GOLDEN-0051",
+      "customer_message": "Dear @MicrosoftHelps, we noticed a *HUGE* security issue in Windows 10. Anyone can login as Administrator without being prompted for a password after clicking on \"Run as an administrator\" only one time. Are you aware of it @115890?",
+      "conversation_context": "MICROSOFT (539027): @244980 Hi, Remy! Thank you for bringing this up. Can you tell us when the issue did occur? Do you experience the same using other Windows 10 PC?"
+    },
+    {
+      "golden_id": "GOLDEN-0052",
+      "customer_message": "@MicrosoftHelps Nope. It crashed and ctrl alt dlt wouldn't bring up task manager so pressed off button. Then turned on and this happened. No troubleshooting",
+      "conversation_context": "MICROSOFT (551143): @248418 We would like to know about your experience with the support you received. Please take a few moments and respond to this survey: https://t.co/C8Vg0fvgrl. Thank you and have a good day!\nCUSTOMER (551144): @MicrosoftHelps @112726\nMICROSOFT (551145): @248418 We received your Direct Message. Let's continue working on your concern there. Thank you!\nCUSTOMER (551146): Turn on laptop, see my profile, type in my password, accepts... to a blank computer with none of my files, photos etc. @MicrosoftHelps?? https://t.co/lWoYcWVJQv\nMICROSOFT (551148): @248418 Let's investigate this further, Becca. Were there any changes made prior to this issue? Tried any troubleshooting steps so far?"
+    },
+    {
+      "golden_id": "GOLDEN-0053",
+      "customer_message": "@MicrosoftHelps please help i hate this issue. https://t.co/VB8qqUN5T0",
+      "conversation_context": "MICROSOFT (551161): @248421 Hi there, Daniel! We're here to help. Can you tell us which website you're trying to access? Send us more details about your concern via DM. Thank you. https://t.co/3qcAsLFkaY"
+    },
+    {
+      "golden_id": "GOLDEN-0054",
+      "customer_message": "@MicrosoftHelps The Update finished and started again? Why? Took over 12 hours as it stands now and it is yet starting again from 1%, I don't like this.",
+      "conversation_context": "MICROSOFT (551163): @248422 We hope that helped! We're always trying to improve our support. Got any advice? Share it here: https://t.co/hWUZDMufyl. Thank you and have a good day!"
+    },
+    {
+      "golden_id": "GOLDEN-0055",
+      "customer_message": "@MicrosoftHelps Can we move the \"close\" X to the left side?  I quit the OSK 50% of the time I try to delete a character.... https://t.co/5ccMe8ko8x",
+      "conversation_context": "MICROSOFT (553282): @249029 Hi, Chris. We hear you. OSK is designed that way. However, to get further assistance, you can be able to send your request or suggestion to Feedback Hub. Here's the link: https://t.co/GhC0kD7Bj8"
+    },
+    {
+      "golden_id": "GOLDEN-0056",
+      "customer_message": "@MicrosoftHelps Synching one's phone to their PC for Android or IOS, does this include Windows phones?",
+      "conversation_context": "MICROSOFT (575296): @255367 Hi Glen! Yes, you can sync your Windows phone on a PC just like other devices. Let us know if you have any questions regarding your device"
+    },
+    {
+      "golden_id": "GOLDEN-0057",
+      "customer_message": "The SSD in my @123127 died and it isn’t even a week. Microsoft store is in Orlando and I’m in Jamaica. So annoyed.",
+      "conversation_context": "MICROSOFT (605735): @263958 Hi. For better assistance, we suggest that you contact the Answer Desk team here: https://t.co/yN1OrqjUDk or our Global Customer Service team here: https://t.co/xEEA6UaCE2 You can also open a service request on this link: https://t.co/Z6LVzaiVof"
+    },
+    {
+      "golden_id": "GOLDEN-0058",
+      "customer_message": "@116230 what have you done to error up @134484 Acrobat Reader? #Windows10 https://t.co/JSHBFPp7M6",
+      "conversation_context": "MICROSOFT (630634): @269443 If that's so, we might suggest that you follow their advise to help you further with the issue. Feel free to ask if you have any clarifications.\nCUSTOMER (630635): @MicrosoftHelps Yes, they said to contact Adobe.\nMICROSOFT (630636): @269443 Thanks for the update. Just to clarify, have you tried contacting our Global Customer Service about your issue? If yes, did they provide any service request number?\nCUSTOMER (630637): @MicrosoftHelps Media Case ID #1258175 no help from there.\nMICROSOFT (630638): @269443 We don’t want to end like this. Let’s contact our Global Customer Service phone number: https://t.co/GfDNFtW8md to take a closer look at the issue. Rest assured that they will be able to help you thoroughly.\nCUSTOMER (630639): @MicrosoftHelps Linked worked but solution failed. Have repaired, uninstalled and reinstalled both Adobe Acrobat and Visual C++ Redistributable Packages for Visual Studio 2013. A second profile on the same PC does not have this error.\nMICROSOFT (630640): @269443 Just doing a follow-up. May we know if the link worked for you? Let us know if you need further assistance.\nCUSTOMER (630641): @MicrosoftHelps Link work but solution failed.\nCUSTOMER (630642): @MicrosoftHelps Hm, well it on my desktop PC so not sure if it is an app?\nMICROSOFT (630643): @269443 Thank you for the update. You can check Ryan Fra's post on this link: https://t.co/Lgd78m9xrQ to resolve the error message. Let us know how it goes.\nMICROSOFT (630644): @269443 We suggest that you contact the App Developer for them to check this issue.\nCUSTOMER (630645): @MicrosoftHelps Sorry, installed the ts suggestions, ran and tried to use but is too complex for me.\nMICROSOFT (630646): @269443 Hello, Chris! Checking back with you. Were you able to apply the steps on the link? Feel free to reach out if you still need help. Have a good day."
+    },
+    {
+      "golden_id": "GOLDEN-0059",
+      "customer_message": "@MicrosoftHelps is there anyone i can buy microsoft office with a 1 time payment so i have it forever? i am a student and my school doesnt have a license so i cant get it via them.",
+      "conversation_context": "MICROSOFT (643156): @272693 Hi! That's a good question. The Office Home &amp; Student 2016 is a one-time payment for Office apps. For more info, click here: https://t.co/ePyzOmtSgl. Let us know if you have other questions.\nCUSTOMER (643157): @MicrosoftHelps thanks! but why is it so expensive? with the expenses i already have, i dont have 120€  laying around"
+    },
+    {
+      "golden_id": "GOLDEN-0060",
+      "customer_message": "@123196 @MicrosoftHelps https://t.co/1zKEw1sDFK",
+      "conversation_context": "MICROSOFT (675107): @281018 Hi, Abdiel. We would like to follow up about the status of your concern. Please do not hesitate to contact us if you require assistance in the future."
+    },
+    {
+      "golden_id": "GOLDEN-0061",
+      "customer_message": "@MicrosoftHelps  yeah hi why is this taking up half of my computer space, I cant get updates because so much space is being taken up. https://t.co/4T2JV4ljyL",
+      "conversation_context": "MICROSOFT (699125): @286766 We hope that everything is working fine now. Share us your thoughts about our support here: https://t.co/oBnxXyvNJ1.\nCUSTOMER (699126): @MicrosoftHelps I had to reset my entire computer to get updates last time, and I would not like not do that again just to get my pc to stop yelling at me\nMICROSOFT (699127): @286766 Hi! Just checking if you're still experiencing the same issue? We want to make sure everything is resolved."
+    },
+    {
+      "golden_id": "GOLDEN-0062",
+      "customer_message": "@MicrosoftHelps All right thx ! Seems to be working again :)",
+      "conversation_context": "MICROSOFT (703285): @288017 Hello, Jonas! Checking back with you if everything is good on your end? If so, hope you can complete a survey for us? We would love to hear from you about your experience with us. Click here: https://t.co/Gw2gRvHRbF\nCUSTOMER (703286): @MicrosoftHelps No but I dont think it can be fixed without giving the device in a service but I need it everyday and theres no microsoft store in my area\nMICROSOFT (703287): @288017 Thanks for getting back to us. Please be informed that we’re working on it to resolve this as soon as possible. In the meantime, please continue to check Windows Updates for an update. You can also check Surface update history. Regards.\nMICROSOFT (703288): @288017 Hello. Checking back with you to see if everything is good on your end?\nCUSTOMER (703289): @MicrosoftHelps With that my surface book loses basically all usability and makes it a 2000$ regular laptop. I need that fixed !\nCUSTOMER (703290): @MicrosoftHelps As the surface pen stopped working. It wilm work for several minutes after a restart then only the button on the put will sometimes work...\nCUSTOMER (703291): @MicrosoftHelps @MicrosoftHelps hello after doing a clean install of wndws 10 and everything newly installed, the pinch zoom stopped working again aswell...\nCUSTOMER (703292): @MicrosoftHelps pinch and zoom stopped working after the update ! I need that feature !\nMICROSOFT (703293): @288017 Hi, Jonas. We're here to help. Just to clarify, which version of Windows are you using? What is the make and model of your device?\nCUSTOMER (2173351): @MicrosoftHelps Hello, I use windows 10 on a first gen surface book. When I do a reset it will work again but only for as long as it is not put in sleepmode\nMICROSOFT (2173352): @288017 Instead of a reset. We suggest that you perform a clean install of Windows 10 on your Surface Book. You may download a recovery image in a USB of the operating system from this link: https://t.co/eyouX4YCJa and the drivers can be found here: https://t.co/kJPiPzoCSL\nMICROSOFT (2173353): @288017 Hello Jonas. We wanted to check if you were able to perform the clean installation of Windows 10. Thank you.\nCUSTOMER (2173354): @MicrosoftHelps Do you guys have a german version of this software ? thanks !\nMICROSOFT (2173355): @288017 To get more information in language packs, you can check this link: https://t.co/ZKCz2YGXl6\nMICROSOFT (2173356): @288017 We would like to follow-up on the status of your concern. We want to ensure that you receive the best support needed. Send us your feedback and suggestion about our Twitter support. Share it here: https://t.co/sQHFG2CXfo. Kindly include Social Media Case #1259981. Thanks."
+    },
+    {
+      "golden_id": "GOLDEN-0063",
+      "customer_message": "Got a surface pro today and honestly I couldn’t be happier.",
+      "conversation_context": "MICROSOFT (718003): @291929 Hi Naya. We'd like to know more. Can you tell us which Surface device you are using? What were you doing when the issue started?\nCUSTOMER (718004): @MicrosoftHelps Surface pro 3 and I had it in my lap using the reader app to study for my class\nCUSTOMER (718005): @123127 Graphic design and I’m not too happy anymore because my charger stopped working\nMICROSOFT (718006): @291929 Let's try this. To rectify the issue, you can follow the steps here: https://t.co/FjOQr7Rgg8 Looking forward for your response.\nCUSTOMER (718007): @291929 We're just happy you're happy. What will you be using your new Surface for?"
+    },
+    {
+      "golden_id": "GOLDEN-0064",
+      "customer_message": "@MicrosoftHelps No i have not. There is no option anywhere i could navigate to.  Appearance, personalization, color, themes, high contrast, nothing.",
+      "conversation_context": "MICROSOFT (720261): @292397 Hi there! We definitely want to help. Just to clarify, did you make any changes before the issue started? Share us a screenshot.\nCUSTOMER (720262): @MicrosoftHelps Thank you for responding. This is with browser scaled to 125. Display scalled to 125 as well on both monitor and lap. Only your updates https://t.co/vYFnsbjKX5\nCUSTOMER (720263): OMG this fine font in Win 10 is driving me nutz and i can't work. Display scaling opt is meh, let me set my own system font @MicrosoftHelps\nMICROSOFT (720264): @292397 Thanks for the screenshot. Were you able to set your own font?"
+    },
+    {
+      "golden_id": "GOLDEN-0065",
+      "customer_message": "@MicrosoftHelps Hello, i’m joined to beta test for microsoft edge browser for ios but i don’t have received EMAIL for downloading the app",
+      "conversation_context": "MICROSOFT (745451): @298212 Let’s have it accurately check. Please contact our Answer Desk for this type of concern here: https://t.co/NzCTszceoX."
+    },
+    {
+      "golden_id": "GOLDEN-0066",
+      "customer_message": "@MicrosoftHelps The link you sent didn't help. But I found a solution myself, thanks",
+      "conversation_context": "MICROSOFT (746582): @298485 2/2 On this link: https://t.co/V00RReRUuI. Let us know how it goes.\nCUSTOMER (746583): @MicrosoftHelps I'm not Bob by the way but it was a solution I found\nCUSTOMER (746584): @MicrosoftHelps This issue was that after update last night using a password to sign in had reenabled itself. I had to go to netplwiz and turn it off again https://t.co/YPuL2TqwMW\nCUSTOMER (746585): @115890 @116230 @249027 @6580 @MicrosoftHelps PLEASE READ attached pictures https://t.co/s9l4M1jCAA\nMICROSOFT (746586): @298485 Copy that. You may also contact our Answer Desk for one-on-one support: https://t.co/D9BqFA3dAg. Keep us posted.\nMICROSOFT (746587): @298485 Hi! We'd like to follow up on the status of your issue. Kindly inform us if you still need assistance."
+    },
+    {
+      "golden_id": "GOLDEN-0067",
+      "customer_message": "@MicrosoftHelps 2/2 cleanboot again. Is there any other way to find what causes and maybe solution for this? Not my login fail, but keys/mose issues?",
+      "conversation_context": "MICROSOFT (761574): @301958 Hello! We'll fix your device in no time, Devel. Were there any changes made to your device prior to this issue?\nCUSTOMER (761575): @MicrosoftHelps Besides the update, no. And this is actually old issue I tried to solve before, but without reinstalling VS and 'Refresh'-ing Windows.. 1/2\nCUSTOMER (761576): @MicrosoftHelps 2/2 nothing really worked(except changing usb ports) as when it starts to happen, my PC is basically useless, it's like it's haunted. 😲\nCUSTOMER (761577): Windows 10 Pro, 15063.674, Happens after/when using @251208. @6580 @MicrosoftHelps  it's here for months now... https://t.co/uPEPzyGkHh\nMICROSOFT (761578): @301958 Kindly perform a clean boot: https://t.co/pjiEwpz2zU to troubleshoot the issues that you are experiencing on your device.\nCUSTOMER (761579): @MicrosoftHelps I did a cleanboot today and now I can't get to enter pin/password in login screen. Tried with safe mode and revert cleanboot but it no work. https://t.co/qLjjnZBwpR\nMICROSOFT (761580): @301958 Thank you for the update. Have you tried restarting your device and see if the issue will still occur?\nCUSTOMER (761581): @MicrosoftHelps Yes, I did restart my modem, lol. I did somehow manage to login after multiple restarts/safe modes/startup repairs. Now I'm affraid to 1/2"
+    },
+    {
+      "golden_id": "GOLDEN-0068",
+      "customer_message": "@MicrosoftHelps So now i restored windows to an earlier date like i did yesterday, but it needs updating and it will probably get stuck again at that point.",
+      "conversation_context": "MICROSOFT (766568): @303201 Let’s get this done. Which Windows version are you using? Also, please send us a screenshot of the error that you’re getting.\nCUSTOMER (766569): @MicrosoftHelps I use Windows 10 and it wont load anymore after this part of the setup (pic), this happened after i rebooted the pc cuz the update was stuck https://t.co/45legxEPEv\nCUSTOMER (766570): @116230 Hey my windows update got stuck at 30% and had'nt changed so i restarted my pc and it got stuck again at the loading part,what now?\nMICROSOFT (766571): @303201 Thanks for the screenshot. Try checking this link about the black screen issue you’ve encountered: https://t.co/SpiNAIkOfG.\nCUSTOMER (766572): @MicrosoftHelps Its not that the dots are spinning but they are just frozen, i really think it has something to do with the latest update of win10.\nMICROSOFT (766573): @303201 Hello there! Please share your experience to help us improve by answering a quick survey here: https://t.co/DOKDS652vd.\nMICROSOFT (766574): @303201 In that case, you may restart your PC and try to run Windows Update Troubleshooter. Here's how: https://t.co/V3Vvnr9CHG. Update us.\nCUSTOMER (766575): @MicrosoftHelps I tried troubleshooting but it wouldnt detect an error, then it would just restart my pc and get stuck again."
+    },
+    {
+      "golden_id": "GOLDEN-0069",
+      "customer_message": "@MicrosoftHelps what sucks is that the keyboard still works but now need to get a new mouse and will need two different USB keys.",
+      "conversation_context": "MICROSOFT (775985): @153080 May we know the status of your concern? Let us know if you need further assistance."
+    },
+    {
+      "golden_id": "GOLDEN-0070",
+      "customer_message": "@MicrosoftHelps I went back to CU 1703 64bit clean install. I think FCU 1709 isn't stable yet - I see lot of probllems. SKYSTAR HD2 USB CI WORKS OK AGAIN!",
+      "conversation_context": "MICROSOFT (856326): @323353 We've got it. Thanks for the details. Here are some steps to resolve such issue: https://t.co/aoelndZiSU. Share us the result.\nCUSTOMER (856327): @MicrosoftHelps Doing everything trouble steps from upd. menu, nothing help. My Acer works ok until I connect my Skystar USB2 HD CI &gt; BSOD, restart, again https://t.co/YOXJFskuYi\nMICROSOFT (856328): @323353 Hello, Reno! Were you able to follow the steps on the link provided? Feel free to reach out if you still need help. Good day!\nMICROSOFT (856329): @323353 Hi, Reno! We definitely want to help. Just to clarify, what troubleshooting steps have you done so far? Share a screenshot with us.\nCUSTOMER (856330): @MicrosoftHelps After connecting Skystar USB2 HD CI to my Acer laptop updated with FCU&gt;GSOD. NOT DOING BEFORE ON CU https://t.co/rZ0CmB10Pa"
+    },
+    {
+      "golden_id": "GOLDEN-0071",
+      "customer_message": "@MicrosoftHelps every time I call the support they hang up on me today it’s the 4th time they hang up",
+      "conversation_context": "MICROSOFT (860831): @324401 Hello, Ahmed. We don't want you to experience this. Want to try if we can settle this here in Twitter?"
+    },
+    {
+      "golden_id": "GOLDEN-0072",
+      "customer_message": "@MicrosoftHelps After the update I can't play the games. Controls are not working. Reset the game. Tried on both W/Gamer mode. Nothing works.",
+      "conversation_context": "MICROSOFT (901442): @334001 Thank you for reporting this to us. For common update errors, check this link: https://t.co/opy8akfZGr. Keep us posted.\nCUSTOMER (901443): @MicrosoftHelps Hope this time it will work fine https://t.co/kwnxF10OsY\nCUSTOMER (901444): @MicrosoftHelps After 92% of downloading #Windows10FallCreatorsUpdate ISO it shows like this. What's this? https://t.co/GdMeuHDwFn\nMICROSOFT (901445): @334001 How is it going now? Is it installing now? https://t.co/3qcAsLFkaY\nCUSTOMER (901446): @MicrosoftHelps No it didn't work. Trying this method again. Lets see https://t.co/Vwtx3fxCkx\nMICROSOFT (901447): @334001 Sure! Give us an update when you're done. Send us a direct message to continue our conversation.\nCUSTOMER (901448): @MicrosoftHelps sure\nCUSTOMER (901449): @MicrosoftHelps Successfully installed. No more issues. Thanks team.\nhttps://t.co/jWWKeNRsew\nMICROSOFT (901450): @334001 You're very much welcome, Ashik! Have a great day. Cheers! 😀 https://t.co/3qcAsLFkaY\nCUSTOMER (901451): @MicrosoftHelps Thank you"
+    },
+    {
+      "golden_id": "GOLDEN-0073",
+      "customer_message": "@MicrosoftHelps If my computer was compatible with windows 10 creators update, should it be compatible with fall update and so on?",
+      "conversation_context": "MICROSOFT (905198): @334894 Hello, Mario. The update will notify you once your device is ready. It will update gradually. 👍"
+    },
+    {
+      "golden_id": "GOLDEN-0074",
+      "customer_message": "Updating @116230 10 to fall creator update always failed with cryptic error, my 256 GB ssd is not happy for sure",
+      "conversation_context": "MICROSOFT (907371): @271006 Hello! Are you still experiencing the same issue? We are always here to help.\nCUSTOMER (907372): @MicrosoftHelps Hi, i will try again when its cold (not joking here) The thermal shutdown always happen every time i try to update windows\nCUSTOMER (907373): @MicrosoftHelps  https://t.co/Hk49rdFpjE\nCUSTOMER (907374): @MicrosoftHelps need to use media creation tool and I got thermal shutdown, need to wait for winter before I can install this\nMICROSOFT (907375): @271006 We'll keep an eye on your update.\nMICROSOFT (907376): @271006 Thanks for the screenshot. Are you still experiencing the issue? What troubleshooting steps have been done so far?\nCUSTOMER (907377): @MicrosoftHelps Looks stuck https://t.co/osf8Em5pdx\nMICROSOFT (907378): @271006 Got it. Let's run the Windows Update Troubleshooter. Here's how: https://t.co/7S5EuQH9Ep. Let us know how it goes.\nCUSTOMER (907379): @MicrosoftHelps Feature update to Windows 10, version 1709 - Error 0x8007045b https://t.co/70sxhIaFwy\nMICROSOFT (907380): @271006 Hi. We hear you. May we know what error message you're getting? Let us know."
+    },
+    {
+      "golden_id": "GOLDEN-0075",
+      "customer_message": "@MicrosoftHelps how ti find product key of windows 10",
+      "conversation_context": "MICROSOFT (915259): @337326 Sure, Ashok! To find your Windows product key, here's how: https://t.co/pOD3DnSa5d. Tell us if this works for you.\nCUSTOMER (915260): @MicrosoftHelps Please Help"
+    },
+    {
+      "golden_id": "GOLDEN-0076",
+      "customer_message": "@MicrosoftHelps Hi Thankyou! I've managed to sort it out",
+      "conversation_context": "MICROSOFT (951583): @345742 You're welcome! Let us know if you need anything else."
+    },
+    {
+      "golden_id": "GOLDEN-0077",
+      "customer_message": "@MicrosoftHelps System restore went well, it's up and running. I'm downloading win7, cannot use a OS that randomly reboots multiple times a day",
+      "conversation_context": "MICROSOFT (954797): @346552 Hi. We're here for you. To help you troubleshoot blue screen errors, see steps here: https://t.co/FO0ySfeV9g. Update us!\nCUSTOMER (954798): @MicrosoftHelps I've tried everything apart from system restoring, that is going right now, we'll see hos it goes\nCUSTOMER (954799): Win10 just destroyed itself. Worst OS i've ever used\nIt kept randomly restarting, until it possibly killed my SSD https://t.co/IJhNvNwZVg"
+    },
+    {
+      "golden_id": "GOLDEN-0078",
+      "customer_message": "@MicrosoftHelps hey can we message? I need help!",
+      "conversation_context": "MICROSOFT (968658): @349945 Hi! We're here to help. For your reference on how to remove the email address, click here: https://t.co/FBMUTRLjSD.\nCUSTOMER (968659): @MicrosoftHelps Hey I just need my recovery email removed bcuz it was deleted\nMICROSOFT (968660): @349945 We’re here to help. Provide us more details about the issue you’ve encountered.\nCUSTOMER (968661): @MicrosoftHelps Message me please?"
+    },
+    {
+      "golden_id": "GOLDEN-0079",
+      "customer_message": "@MicrosoftHelps I am not aware of any Microsoft store in Chennai, India. Do let me know if there is one",
+      "conversation_context": "MICROSOFT (980193): @352410 Hi. Let's look for the best option for you. Can you tell us what solution steps have you tried so far? Also, please confirm if you've tried the troubleshooting in this support article: https://t.co/3DHkx2ra2E\nCUSTOMER (980194): @MicrosoftHelps Current Status: Surface is Off and does not charge. Power connector light is ON (getting it to be ON itself is a challenge), have plugged in for many hours but doesn't charge/start\nCUSTOMER (980195): @MicrosoftHelps @123127 My surface does not charge. had trouble charging for long, but now does not charge at all. Any option to check/repair in Chennai, India?\nCUSTOMER (980196): @MicrosoftHelps Now have kept for charging, suddenly it will show the screen with battery in a circle then it disappears\nCUSTOMER (980197): @MicrosoftHelps History: Have tried all the actions listed under \"Surface wont turn on...\" &amp; \"surface battery wont charge\". Surface tab bought in USA in 2014. From within 6 months of purchase had charging issues, some resolutions used to work after multiple tries. Now not working at all\nMICROSOFT (980198): @352410 Thank you for presenting more info. Looks like this is hardware-related. Do you know any Microsoft Stores nearby? The fastest way to get your Surface checked is to bring it in so our technician can evaluate your device."
+    },
+    {
+      "golden_id": "GOLDEN-0080",
+      "customer_message": "@MicrosoftHelps should installing Exchange Server 2016 must be on Additional Domain Controller, or only Joining the Machine to the DC like any computer?",
+      "conversation_context": "MICROSOFT (1005712): @358047 Hi. Let’s find answers for you. Just to verify, is it a personal or a business account?\nCUSTOMER (1005713): @MicrosoftHelps Personal??\nCUSTOMER (1005714): @MicrosoftHelps I need a document of how about MS exchange 2010 to 2016 Migration .Can you help ASAP?\nMICROSOFT (1005715): @358047 Thanks for the reply. To find out more about MS exchange 2010 to 2016 Migration, please go to this link: https://t.co/2Yogr6GXzH.\nCUSTOMER (1005716): @MicrosoftHelps Thanks alot\nMICROSOFT (1005717): @358047 You're welcome. Keep us in the loop on your progress. Feel free to send us another message if you need further help. Good day!\nMICROSOFT (1005718): @358047 Hi there. Checking back with you. Is everything good on your end? Feel free to send us a message if you need further help.\nMICROSOFT (1005719): @358047 Hello! We would like to improve our support. Please send us your feedback here: https://t.co/Hia9ejamRl. Have a great day!\nCUSTOMER (1005720): @MicrosoftHelps Sorry didn't begin the scenario yet.\nMICROSOFT (1005721): @358047 Thanks for the update. If you need further assistance, we're just a tweet away!"
+    },
+    {
+      "golden_id": "GOLDEN-0081",
+      "customer_message": "@MicrosoftHelps lately my laptop is slow, I've discarded problems with the hard drive and malwares, but the system is still slow",
+      "conversation_context": "MICROSOFT (1045327): @367131 Thanks for the response. Just to clarify, are you getting any error messages? Also, any changes made before the issue happened?\nCUSTOMER (1045328): @MicrosoftHelps No, Windows doesn't  show me any messages. \nBtw after the last update, my laptop could not restart automatically, as it is usual.\nCUSTOMER (1045329): @MicrosoftHelps For example when I open the file explorer or when search an app with cortana. Also when I using the browser.\nMICROSOFT (1045330): @367131 Just checking to see if you need help. Is everything good now? Please let us know. https://t.co/3qcAsLFkaY\nMICROSOFT (1045331): @367131 To resolve the issue, we suggest that you perform the following troubleshooting steps in this link: https://t.co/bma6E36XRJ. https://t.co/3qcAsLFkaY\nMICROSOFT (1045332): @367131 Hi, Hanu! Let's work on this. Which Windows version are you using? What activity are you doing when you experienced this issue? https://t.co/3qcAsLFkaY\nCUSTOMER (1045333): @MicrosoftHelps I am using Windows 10 - version 1703 (compilation 15063.632)"
+    },
+    {
+      "golden_id": "GOLDEN-0082",
+      "customer_message": "@MicrosoftHelps it’s annoying to be putting the password in #OneNote every application’s upgrade; at least use fingerprint or face (future)",
+      "conversation_context": "MICROSOFT (1048565): @367812 Hi, William. We appreciate your feedback. For any suggestions, please post it here: https://t.co/zTkbR1pwnt."
+    },
+    {
+      "golden_id": "GOLDEN-0083",
+      "customer_message": "@MicrosoftHelps Yes I did. How do I look up the case numbers?",
+      "conversation_context": "OTHER (1052996): @359278 That's strange! Can you DM us a screenshot of the email so we can direct you to the correct team to reach out to? ^AK\nCUSTOMER (1052997): @MicrosoftHelps How do I check the case number, like what they wanted? @XboxSupport  maybe you guys know too?\nMICROSOFT (1052998): @359278 Hi, Tara. Did you receive an email with a case number from our support?\nCUSTOMER (1052999): @MicrosoftHelps I keep getting satisfaction survey emails, but I haven’t contacted Microsoft support. Said I contacted on 10/11 &amp; I didn’t."
+    },
+    {
+      "golden_id": "GOLDEN-0084",
+      "customer_message": "@MicrosoftHelps https://t.co/CdLVm8vhsU",
+      "conversation_context": "MICROSOFT (1064583): @368464 That's strange. Please DM us instead. https://t.co/3qcAsLFkaY"
+    },
+    {
+      "golden_id": "GOLDEN-0085",
+      "customer_message": "@MicrosoftHelps i managed to remove it with the settings in exlorer.",
+      "conversation_context": "MICROSOFT (1075487): @275406 Great. Don't hesitate to reach out if you still need help or if you have any clarifications. We're always available for you."
+    },
+    {
+      "golden_id": "GOLDEN-0086",
+      "customer_message": "@MicrosoftHelps do i need to do anything to get warranty on this controller? Or is it automatically covered. I dont want to waste $65 again.",
+      "conversation_context": "MICROSOFT (1089542): @377048 Hi, Dallas. We hear you. Controller warranty issue are best handled by our @XboxSupport team. You may chat with them 1/2"
+    },
+    {
+      "golden_id": "GOLDEN-0087",
+      "customer_message": "Love the new Windows 10 update @115890 https://t.co/Gci28599Rz",
+      "conversation_context": "MICROSOFT (1096404): @378727 Hello! Just to clarify, are you still stuck at “Restoring your previous version of Windows” screen?"
+    },
+    {
+      "golden_id": "GOLDEN-0088",
+      "customer_message": "@MicrosoftHelps How do I manage my subscriptions? Keeps redirecting me to the help page",
+      "conversation_context": "MICROSOFT (1099191): @344682 Thanks for the kind words. Were you able to contact our @XboxSupport?\nCUSTOMER (1099192): @MicrosoftHelps World class customer service 👏👏👏\nCUSTOMER (1099193): @MicrosoftHelps Managed to find it on my Xbox instead but surprise surprise no option to cancel subscription. Only to extend it, typical.\nCUSTOMER (1099194): @MicrosoftHelps ???\nCUSTOMER (1099195): @MicrosoftHelps I press services and subscriptions and it directs me to the support page. I don't want support I want to cancel my subscription..."
+    },
+    {
+      "golden_id": "GOLDEN-0089",
+      "customer_message": "@116230 Im having problems with my windows 10 device\n1.The start menus not showing up\n2.updates to games on the windows 10 store has errors",
+      "conversation_context": "MICROSOFT (1115467): @383216 Got it. We’ve found an article to troubleshoot issue while opening the Start menu: https://t.co/WZb9W7JMBT. Tweet us the result.\nCUSTOMER (1115468): @MicrosoftHelps Ok ill try now (:\nCUSTOMER (1115469): @MicrosoftHelps I did the troubleshoot and this came up what does this mean? https://t.co/HD7MFNogbN\nCUSTOMER (1115470): @MicrosoftHelps Well it's been happening after the latest update (:\nMICROSOFT (1115471): @383216 This might be due to corrupted or missing system files. Let’s perform SFC and DISM here: https://t.co/3pm6Fn9YhA. Update us.\nCUSTOMER (1115472): @MicrosoftHelps Hmmm it says nothings wrong https://t.co/HPkhIDO3v8\nMICROSOFT (1115473): @383216 We suggest you to boot your device in safe mode: https://t.co/IdxJxfXnOC. Let us know how it turns out.\nCUSTOMER (1115474): @MicrosoftHelps It's still hasn't worked and now my desktop background is gone and I've got some text on my desktop ):\nCUSTOMER (1115475): @MicrosoftHelps Ok so I've restarted my device my backgrounds back and the text is gone but still no start menu ):\nMICROSOFT (1115476): @383216 You can also try performing a clean boot by following the steps found on this link: https://t.co/S4WCw29oIF. Give us an update.\nCUSTOMER (1115477): @MicrosoftHelps Ok I just hope I can fix this\nMICROSOFT (1115478): @383216 Thank you for the reply! Don't hesitate to contact us again in the future if you need any help.\nCUSTOMER (1115479): @MicrosoftHelps It's still not worked ):\nMICROSOFT (1115480): @383216 Thank you for the update. For in-depth support, we suggest that you contact the Answer Desk here: https://t.co/t2vkZsAy1d.\nMICROSOFT (1115481): @383216 Is everything working on your end now? If so, tell us your customer experience with us: https://t.co/0ee2NWjrqQ.\nCUSTOMER (1115482): @MicrosoftHelps Sadly not, I tried to fix it by updating to the fall creators update but now I have a back screen with only a cursor when I log on );\nMICROSOFT (1115483): @383216 Just to clarify, have you tried contacting Answer Desk on the link provided?\nCUSTOMER (1115484): @MicrosoftHelps No because the update came out so I thought that it could have fixed the issue but now I can't do anything when I log on\nMICROSOFT (1115485): @383216 We'd love to hear from you. Please let us know about your experience with us here: https://t.co/mBq1nmrbBI.\nMICROSOFT (1115486): @383216 For further assistance, find your country and give us a call here: https://t.co/i9g4zaUhJK.\nMICROSOFT (1115487): @383216 Hi there. Help is here. Have you made any changes prior to having this issue? What troubleshooting steps have you done so far? https://t.co/3qcAsLFkaY\nCUSTOMER (1115488): @116230 Cc @MicrosoftHelps\nCUSTOMER (1115489): @116230 *no\nCUSTOMER (1115490): @116230 Plz help it's really horrible not start menu and there's so many updates to download to my games but they won't let me download );"
+    },
+    {
+      "golden_id": "GOLDEN-0090",
+      "customer_message": "@MicrosoftHelps I am having a problem getting my surface pro 2 to switch on I just have a blank screen it is on charge",
+      "conversation_context": "MICROSOFT (1122253): @384696 Hi Laura. Let's sort this out. Any recent changes made prior to the issue? What troubleshooting steps have you done so far?\nCUSTOMER (1122254): @MicrosoftHelps Holding down of the power button etc"
+    },
+    {
+      "golden_id": "GOLDEN-0091",
+      "customer_message": "@MicrosoftHelps  Hello i would like to know if i can install and use for free Microsoft office on an Ipad Pro.",
+      "conversation_context": "MICROSOFT (1128633): @386056 Hi, Tilly! Were we able to resolve your issue? If so, please let us know about your experience here: https://t.co/bsPsswGRRG."
+    },
+    {
+      "golden_id": "GOLDEN-0092",
+      "customer_message": "@MicrosoftHelps I'm trying to use this form (https://t.co/F67MfwamTT) and each time I submit it, I get an access denied message. https://t.co/nMJP7eShNA",
+      "conversation_context": "MICROSOFT (1138573): @388181 Hi, Aaron. It seems to be working on our end. Which browser are you using? Have you tried using a different browser?\nCUSTOMER (1138574): @MicrosoftHelps Thanks for the reply! I should have known better using. I was using Safari 11 on Sierra 😆. It worked in Firefox. 👍🏻"
+    },
+    {
+      "golden_id": "GOLDEN-0093",
+      "customer_message": "@MicrosoftHelps Also tried solutions here, https://t.co/O25MkE0R4I, but nothin works. Also, I can't do another rollback..!! https://t.co/ilsAPPNoVo",
+      "conversation_context": "MICROSOFT (1140180): @335344 We hear you. Just to verify, were you able to contact our Answer Desk as per previously advised?\nCUSTOMER (1140181): @MicrosoftHelps I did. They did troubleshooting &amp; reinstalls(3) but nothin worked. They tried a rollback las nite but problem persists and I'm still on 1709\nCUSTOMER (1140182): @115890 @MicrosoftHelps @116230 when are you gonna fix the missing apps bug? My machine is a pain to use at the moment...!!"
+    },
+    {
+      "golden_id": "GOLDEN-0094",
+      "customer_message": "@MicrosoftHelps Do you think its a windows thing?",
+      "conversation_context": "MICROSOFT (1160565): @393045 Let's sort this out. We have found a discussion that can help solve your concern. Please check Akheel Ahmed's post on this link: https://t.co/rMoX89BSEJ. Let us know how it goes.\nCUSTOMER (1160566): @MicrosoftHelps This link must be out of date because the instructions dont match up, however Corsair Link tells me 6% but the task manager says 100%\nCUSTOMER (1160567): @MicrosoftHelps What do I do? https://t.co/57cP9iVCKy\nMICROSOFT (1160568): @393045 Let's try the solution provided by Sachin Venkatesh on this link: https://t.co/DwVG7a4s64. Let us know how it turns out."
+    },
+    {
+      "golden_id": "GOLDEN-0095",
+      "customer_message": "@MicrosoftHelps Not that it's working, I've just stopped caring.  Upgrading to a new personal build next month anyway so we'll see how the install goes.",
+      "conversation_context": "MICROSOFT (1172655): @395813 Let's investigate this, Timmy. What troubleshooting steps have you tried so far? How are you upgrading your computer?\nCUSTOMER (1172656): @MicrosoftHelps Windows Auto-Update (built-in) failed after much downloading.  The \"Windows Update Assistant\" also fails the same way.\nCUSTOMER (1172657): Oi @MicrosoftHelps @116230 I'm seeing some error 0x80070422 and 0x8024200D on #Windows10 Feature Update to 1703.\nMICROSOFT (1172658): @395813 Let's run Windows Update troubleshooter to resolve this update error: https://t.co/CS4r3It0bp. Keep us posted.\nCUSTOMER (1172659): @MicrosoftHelps Ran the troubleshooter - tried updating again.  It downloaded for 7 hrs this morning and failed in the same manner. https://t.co/B7gpJMANZp\nMICROSOFT (1172660): @395813 Hi. Just doing a follow-up, have you able to finish the update?\nMICROSOFT (1172661): @395813 We hope that everything is working fine now. We want to know your experience with us here:  \nhttps://t.co/Bek17NOg79.\nCUSTOMER (1172662): @MicrosoftHelps Was not able to. https://t.co/0CkDqXDR3P\nMICROSOFT (1172663): @395813 Hmm. Might as well you reset the Windows Update Component: https://t.co/UuqMAy0tXx. Update us with the result.\nCUSTOMER (1172664): @MicrosoftHelps Does not seem to have helped.  Would it help to see the problem first-hand?  https://t.co/UpUVQZR8EF\nMICROSOFT (1172665): @395813 Thanks for sending a video. We'd like to accurately look at it. May we ask for you to send a screenshot of your update history?\nCUSTOMER (1172666): @MicrosoftHelps Update history incoming (it only seems to go back to October) https://t.co/qVhgyLPi6l\nMICROSOFT (1172667): @395813 2/2 search box and select the first surfaced result. Please send an image of the outcome.\nMICROSOFT (1172668): @395813 1/2 Appreciated the effort on screenshot. Let's double check it further. Type in winver into the Cortana\nCUSTOMER (1172669): @MicrosoftHelps First surfaced result, as requested. https://t.co/mCkmGoBXy4\nMICROSOFT (1172670): @395813 To better assist you in this concern, kindly contact Answer Desk on this link: https://t.co/qLihyo85vV."
+    },
+    {
+      "golden_id": "GOLDEN-0096",
+      "customer_message": "Hey @MicrosoftHelps, why isn't office there?\n#Windows10S https://t.co/T0SEI4uSmU",
+      "conversation_context": "MICROSOFT (1172701): @353738 Hello, Florian! We'd like to know do you have Office installed.\nCUSTOMER (1172702): @MicrosoftHelps no. I actually got in touch with the chat support and managed to end up without a solution after 2 hours of remote assistance."
+    },
+    {
+      "golden_id": "GOLDEN-0097",
+      "customer_message": "@AppleSupport yes, but something needs to be updated as Microsoft no longer offers Anniversary edition, and says it’s necessary. https://t.co/6L4B7V1Jtl",
+      "conversation_context": "MICROSOFT (1177502): @396954 Hello, Henry. Let us know on how we can improve our support here: https://t.co/sp5CeRdXVE. Thank you.\nCUSTOMER (1177503): @MicrosoftHelps you can drop this, I have a request in with MS PR.\nCUSTOMER (1177504): . @AppleSupport @MicrosoftHelps according to documentation online, Bootcamp installs require Anniversary Update. But that version is no longer available. Any help?\nMICROSOFT (1177505): @396954 The customer said that he has already requested with a Microsoft person https://t.co/3qcAsLFkaY\nMICROSOFT (1177506): @396954 No problem. Please do not hesitate to reach out to us if you need assistance. https://t.co/3qcAsLFkaY\nMICROSOFT (1177507): @396954 Help us improve our Twitter support by answering our survey on this link: https://t.co/hatQEyupwZ. Thank you.\nOTHER (1177508): @396954 We've got a great article that will provide the system requirements to install Windows using Boot Camp: https://t.co/ZIWhGT19kd\nMICROSOFT (1177509): @396954 Let's get this sorted, Henry. It'd be best if you contact our Answer Desk team to guide you: https://t.co/JySD4fRchw.\nOTHER (1871718): @396954 Take a look at this article for using Windows 10 on your Mac with Boot Camp: https://t.co/nbBLWg7wai Questions? DM us. https://t.co/GDrqU22YpT"
+    },
+    {
+      "golden_id": "GOLDEN-0098",
+      "customer_message": "@115888 @MicrosoftHelps Groove music links to Spotify on Windoes Phone but the funny thing is APP DOES NOT WORK!  M$ fails customers again!",
+      "conversation_context": "MICROSOFT (1179315): @397366 Thanks for reaching out. Are you getting any error messages while using the app? Have you tried any troubleshooting steps?"
+    },
+    {
+      "golden_id": "GOLDEN-0099",
+      "customer_message": "@MicrosoftHelps I attempted to install the updates through the assistant and got the error code 0xc1900204",
+      "conversation_context": "MICROSOFT (1205808): @403190 Hi, Corey. How's it going? Please let us know if you need further assistance. We're here for you.\nCUSTOMER (1205809): @MicrosoftHelps I was unable to update after running the troubleshooter.\nCUSTOMER (1205810): @MicrosoftHelps Please Help. I can't update for some reason https://t.co/C8OcEFYzGI\nMICROSOFT (1205811): @403190 We got your back. Let's continue your update using Update Assistant on this link: https://t.co/mxTRawDklL. Update us."
+    },
+    {
+      "golden_id": "GOLDEN-0100",
+      "customer_message": "@MicrosoftHelps APPARENTLY, WHEN given the wrong WiFi password, the adapter becomes disabled. I re-enabled it, a week later had opportunity to connect &amp; VOILA! IT WORKS again. THX",
+      "conversation_context": "MICROSOFT (1213889): @234503 Thanks for the update. To help resolve Wi-Fi problems in Windows 10, see steps here: https://t.co/ub17v4hS2f. Update us.\nCUSTOMER (1213890): @116230 At home with no Wi-Fi within range, the front panel keyboard button works to enable-disable the adapter. In town, it shows hotspots but ...\nMICROSOFT (1213891): @234503 Hello. We want to make sure everything is good on your end. Feel free to update us anytime.\nCUSTOMER (1213892): @234503 Hello! Are you still having these issues with connecting to the internet? We're here to help.\nCUSTOMER (1213893): Had some kind of weird block today connecting Windows 10 via Wi-Fi to internet. I tried 2 hot spots. My adapter disabled, no on/off switch.\nCUSTOMER (1716741): @MicrosoftHelps Also upated MS Defender definitions during this time."
+    },
+    {
+      "golden_id": "GOLDEN-0101",
+      "customer_message": "@MicrosoftHelps Your links are blocked by at least two of my ad-blockers...",
+      "conversation_context": "MICROSOFT (1246577): @412463 That's strange, Jernej. Just to clarify, what troubleshooting steps have you tried so far?\nCUSTOMER (1246578): @MicrosoftHelps None, because I don't know where to start. It happens on both of my computers, and it happens in a freshly installed VM shown in the GIF.\nCUSTOMER (1246579): @MicrosoftHelps Why does Windows 10 1709 reset my custom High Contrast color scheme to High Contrast no1 when I connect with Remote Desktop? https://t.co/GmJFtuoQ21\nMICROSOFT (1246580): @412463 Thanks for the info. Have you made any changes prior to having this issue?\nCUSTOMER (1246581): @MicrosoftHelps Upgraded to 1709 - it didn't happen on previous versions. The VM is a clean install though - I just set and saved the colour scheme there.\nCUSTOMER (1246582): @MicrosoftHelps I just tried installing another VM, this time with English 1709. Same problem - on first login, I set custom HC colours, enabled RD and …\nCUSTOMER (1246583): @MicrosoftHelps … connected with Remote Desktop. The colours changed to High Contrast Black (probably because that's what I initially selected).\nCUSTOMER (1246584): @MicrosoftHelps I can provide the VM if you want, though this looks like it can be reproduced without any trouble.\nMICROSOFT (1246585): @412463 1/2 Let's ask a next level of support coming from our Answer Desk Team to make sure that this concern of yours will be resolved.\nCUSTOMER (1246586): @MicrosoftHelps Anything new regarding this? My laptop also updated to 1709 and now has the same problem.\nMICROSOFT (1246587): @412463 Hi, Jernej. Just to verify, were you able to contact Answer Desk? If not, here's the link: https://t.co/o4BPXM6SIY. Please secure a Service Request number for future reference.\nMICROSOFT (1246588): @412463 We'd like to hear from you. Please help us improve by answering a quick survey here: https://t.co/UztDahNUhx."
+    },
+    {
+      "golden_id": "GOLDEN-0102",
+      "customer_message": "@MicrosoftHelps Hi. I have Outlook for Mac 2016 on a 2014 MacbookPro. Why is the Outlook Temp folder the default save path for attachments?",
+      "conversation_context": "MICROSOFT (1250504): @413386 Let's switch to more in-depth support. Get in touch with our Answer Desk team here: https://t.co/mhMOemttdW. https://t.co/3qcAsLFkaY\nCUSTOMER (1250505): @MicrosoftHelps This is a default setting that affects all Mac / Outlook users. Can we fix it for everyone?\nCUSTOMER (1250506): @MicrosoftHelps I ask because it's the worst possible location for a default save. The folder erases itself as soon as you close Outlook, deleting any files\nMICROSOFT (1250507): @413386 (2/2) Rest assured that we are working on all the feedback to make our customer's experience better. https://t.co/3qcAsLFkaY\nMICROSOFT (1250508): @413386 Help us improve our Twitter support by answering our survey on this link: https://t.co/KoE6K5WQtc. Thank you. https://t.co/3qcAsLFkaY\nMICROSOFT (1250509): @413386 (1/2) We value your feedback regarding this matter. You may also share your suggestion in this link: https://t.co/S3LPmpJ0XU. https://t.co/3qcAsLFkaY"
+    },
+    {
+      "golden_id": "GOLDEN-0103",
+      "customer_message": "@MicrosoftHelps I didn't store it. Let's wait if the problem is already fixed by the tool. If not I run again and send you a screenshot. thx",
+      "conversation_context": "MICROSOFT (1257539): @394797 We suggest that you run Surface Diagnostic Toolkit to resolve issues with your device. Here's the link: https://t.co/HVdw4AP3cL\nCUSTOMER (1257540): @MicrosoftHelps Surface Book i7-6600U, 16GB, 512SSD. It's not the performance update. Need Product or Device-Id?  All Windows Update installed\nMICROSOFT (1257541): @394797 Hello. Checking back with you to see if everything is good on your end?\nMICROSOFT (1257542): @394797 Oh no! This is not how it should be. Which Surface model are you using? Any errors encountered? Is the firmware updated?\nCUSTOMER (1564336): @MicrosoftHelps thx. Diagnostic Tool just told smth. about AC connector (Here I did smth. wrong I think). No other troubles found.\nMICROSOFT (1564337): @394797 Got it. Thank you for getting back to us. Can you share the screenshot of the results of the diagnostic toolkit? Meet us in DM. https://t.co/3qcAsLFkaY"
+    },
+    {
+      "golden_id": "GOLDEN-0104",
+      "customer_message": "@MicrosoftHelps Local account.",
+      "conversation_context": "MICROSOFT (1304422): @424819 Hello, Mikhail! If it is a Microsoft account, you have to edit your account name first in your email and it will sync from there.\nCUSTOMER (1304423): @MicrosoftHelps Any other way to change name without linking email address? 🤔\nCUSTOMER (1304424): @116230 how do I change my admin name on Windows 10 Version 1607. There is no \"change name\" feature in account settings.\nMICROSOFT (1304425): @424819 Just to clarify. Are you pertaining to your local account or Microsoft account?"
+    },
+    {
+      "golden_id": "GOLDEN-0105",
+      "customer_message": "@MicrosoftHelps Since last Friday and it happens at random. No I have the latest version of the bios since April.",
+      "conversation_context": "MICROSOFT (1314317): @334894 Hello, Mario! Let's work on this. Which version of Windows are you using?\nCUSTOMER (1314318): @MicrosoftHelps Windows 10 64 bit fall update.\nCUSTOMER (1314319): @MicrosoftHelps is there any tools built into Windows to help me determine which hardware is causing 0x00000124 AMD North bridge fatal error\nMICROSOFT (1314320): @334894 Did you update your motherboard BIOS? Did you modify your BIOS settings? How long have you been experiencing the fatal error?"
+    },
+    {
+      "golden_id": "GOLDEN-0106",
+      "customer_message": "Currently waiting for @116230  to reply to my problem of the latest install 😡",
+      "conversation_context": "MICROSOFT (1342226): @433047 We hear you, Thomas. Let's sort this out. Are previously using the Windows 10 prior to fresh installing it?\nCUSTOMER (1342227): @MicrosoftHelps Hi, managed to create a bootable USB and wipe the drive. thanks didn't want to wait"
+    },
+    {
+      "golden_id": "GOLDEN-0107",
+      "customer_message": "I think my #workpc @116230 is retarded...\n\nI dont remember there being a #bluebar on my file explorer? https://t.co/PKcK3l2EqN",
+      "conversation_context": "MICROSOFT (1344128): @433467 Hi! Help is here! Let's continue this conversation via DM. We'll wait you there. https://t.co/3qcAsLFkaY"
+    },
+    {
+      "golden_id": "GOLDEN-0108",
+      "customer_message": "@MicrosoftHelps I'd like to know why I woke up today and every contact I had saved via Outlook is gone. What happened?",
+      "conversation_context": "MICROSOFT (1384053): @442097 Let's help you with that! You can perform a soft reset for the meantime, and check if it's back: https://t.co/2Gp1zIeIcD.\nCUSTOMER (1384054): @MicrosoftHelps Using Windows Mobile on a Lumia 930, contacs saved on my Microsoft account."
+    },
+    {
+      "golden_id": "GOLDEN-0109",
+      "customer_message": "@MicrosoftHelps Done! There isn't... :/",
+      "conversation_context": "MICROSOFT (1407035): @447037 Hi, Art'hur! Checking back with you. Were you able to download keyboard language on your phone? Let us know.\nCUSTOMER (1407036): @MicrosoftHelps It didn't work... is there any way I can download them manually on my PC?\nCUSTOMER (1407037): @MicrosoftHelps I downloaded keyboards for other languages, but it won't download the suggestive database for sweep-typing and spellchecking\nMICROSOFT (1407038): @447037 No, it only works using your Windows Mobile. We want you to save your time, we suggest posting it on our Feedback Hub app.\nMICROSOFT (1407039): @447037 That's unexpected. Are you getting any error messages? Have you tried any troubleshooting steps? Are you using Wi-Fi?\nMICROSOFT (1407040): @447037 Hi, Art'hur. How can we help you with your Lumia 930?\nCUSTOMER (1407041): @MicrosoftHelps hello! Could you please help me with an issue on Lumia 930 running Win10 Phone?\nCUSTOMER (2674515): @MicrosoftHelps It says \"update for text suggestions was not successfully downloaded\". I haven't tried any troubleshooting and I'm using Wi-Fi https://t.co/n6K4p0KOdE\nMICROSOFT (2674516): @447037 To isolate the issue, we suggest that you check if there's an available phone update: https://t.co/x2y5pIvr4e. Tweet us back!"
+    },
+    {
+      "golden_id": "GOLDEN-0110",
+      "customer_message": "Stock up on toaster waffles, you’ve got the power for an all-day binge. Watch #StrangerThings2 with #Surface and @116602. https://t.co/UgmL6nBypY",
+      "conversation_context": "MICROSOFT (1436174): @453414 Hi Gregory. We suggest that you contact our Store Support for better assistance for your query: https://t.co/rDfmkysR2m\nCUSTOMER (1436175): @MicrosoftHelps That is who I called.  Once again today, 7 days in a row.  Three​ \"escalations\" to other agents.  And still they are \"investigating\"! Right.\nCUSTOMER (1436176): @123127 @135958 @116602 Ordered on October 11.  Got a Fed Ex confirmation number still no surface.  Called and called.  No one can give me a straight answer."
+    },
+    {
+      "golden_id": "GOLDEN-0111",
+      "customer_message": "@MicrosoftHelps so when will my Xbox be shipped I was one of the first to preorder when it got released for the Scorpio edition",
+      "conversation_context": "MICROSOFT (1452812): @457155 Hi! Let’s get help from our @XboxSupport team: https://t.co/mrzhNsKo8O to provide you an accurate answer to your concern."
+    },
+    {
+      "golden_id": "GOLDEN-0112",
+      "customer_message": "@MicrosoftHelps when will the Microsoft stores black Friday sales list for games be posted?",
+      "conversation_context": "MICROSOFT (1493938): @243570 Hi. Let's point you to the right path. You can accurately check it with our support here: https://t.co/vvQSzMvaUr. 🙂\nCUSTOMER (1493939): @MicrosoftHelps That didnt help at all b"
+    },
+    {
+      "golden_id": "GOLDEN-0113",
+      "customer_message": "@MicrosoftHelps hi guys, I bought 2 albums on #groove but can't download or play them (it says owner copyrights).",
+      "conversation_context": "MICROSOFT (1522164): @473050 Hi. This issue would be best handled by our Answer Desk team. You may contact them using this link: https://t.co/BztoSXbg27."
+    },
+    {
+      "golden_id": "GOLDEN-0114",
+      "customer_message": "@MicrosoftHelps Is it? It's not nice in comparison and it makes my experience worse",
+      "conversation_context": "MICROSOFT (1522175): @392696 Hello! Glad you reached out, Daniel. Have you made any changes on your device prior to this issue?\nCUSTOMER (1522176): @MicrosoftHelps No, is this something that's meant to happen though?\nCUSTOMER (1522177): @MicrosoftHelps How do I change the search colour to how it was? Looks ugly right now! https://t.co/J5z2913Acw\nMICROSOFT (1522178): @392696 We understand. However, the color can't be change because it is a default settings with the recent Windows update."
+    },
+    {
+      "golden_id": "GOLDEN-0115",
+      "customer_message": "@116230 your latest update broke both my computers. Had to reinstall both pc's with complete file loss #stopforcedupdates",
+      "conversation_context": "MICROSOFT (1540709): @477490 We’re here to help. Are you getting any error messages?  Provide more details about the issue you’ve encountered."
+    },
+    {
+      "golden_id": "GOLDEN-0116",
+      "customer_message": "@MicrosoftHelps Why would this 1709 update for AMD systems try and automatically install when I have an Intel CPU?? https://t.co/gdv8F15wBa",
+      "conversation_context": "MICROSOFT (1549792): @170718 That’s unusual, Adam! Let’s get this sorted. Can you send us a DM? Which graphic card are you using? https://t.co/3qcAsLFkaY"
+    },
+    {
+      "golden_id": "GOLDEN-0117",
+      "customer_message": "@MicrosoftHelps  hi , my update has been stuck on 80% for a while .. any ideas how to fix it?",
+      "conversation_context": "MICROSOFT (1577872): @485982 2/2 https://t.co/35AaGL4FjE. Let us know how it turns out. https://t.co/3qcAsLFkaY\nCUSTOMER (1577873): @MicrosoftHelps its all good , got it to work thx"
+    },
+    {
+      "golden_id": "GOLDEN-0118",
+      "customer_message": "Small bug: If you connect to a wireless display in Win 10, and then you reposition or resize the display, you introduce lag. @MicrosoftHelps",
+      "conversation_context": "MICROSOFT (1582400): @487068 Thanks for reaching out. Just to clarify, have you tried connecting a different wireless display to see if same issue persists?\nCUSTOMER (1582401): @MicrosoftHelps No. I don't have another to test with. That would be a good test though.\nCUSTOMER (1582402): @MicrosoftHelps I've been able to reproduce reliably. Work-around is to disconnect and reconnect again.\nCUSTOMER (1582403): @MicrosoftHelps The more times I applied changes, the more lag I experienced. It seems like a memory leak.\nMICROSOFT (1582404): @487068 Let's see if performing a clean boot will do the trick: https://t.co/HgI0ZpCFMM. Let us know how it goes.\nCUSTOMER (1582405): @MicrosoftHelps 1) clean booted. msconfig disable all. taskman disable all. restart. wait for caching.\n2) conn to wi-dev\n3 test 4 move/resize disp. 5 test\nCUSTOMER (1582406): @MicrosoftHelps so... the lag is not present. clearly it's a 3rd party driver problem (as in: not yours!) -- thank you for the troubleshooting help!\nMICROSOFT (1582407): @487068 2/2 Also, help us improve our social media support by answering a quick survey. Rate us here: https://t.co/spiPdS9LU9.\nMICROSOFT (1582408): @487068 ½ Glad to know that we were able to determine the cause of it. You know we're just a tweet away if you have other queries.\nCUSTOMER (1582409): @MicrosoftHelps Done. Thanks."
+    },
+    {
+      "golden_id": "GOLDEN-0119",
+      "customer_message": "Why does @116230 always go straight to 100% when updating and then stay there for 5 minutes? Redundant message really.",
+      "conversation_context": "MICROSOFT (1613145): @494947 Allow us to help, Jamie. What is the make and model of your device? Can you tell us more information about your concern?"
+    },
+    {
+      "golden_id": "GOLDEN-0120",
+      "customer_message": "My @MicrosoftHelps OneDrive can’t read my iPhone .HEIC photos! Is there a fix for this?? I did all the updates and it’s not fixed",
+      "conversation_context": "MICROSOFT (1613412): @494966 As of now, our development team are still running some drills to isolate this issue. It’s best to send us a report using the link that we provided so that it will go directly to our development team. https://t.co/3qcAsLFkaY\nCUSTOMER (1613413): @MicrosoftHelps Ok I’ll post there. Thanks. Do you know if a fix is in the works?\nMICROSOFT (1613414): @494966 Hi, Katie. The file is not yet supported in OneDrive. We encourage you to post this is our feedback page: https://t.co/Q3pp1PXZxN. Tweet us back if you have other queries."
+    },
+    {
+      "golden_id": "GOLDEN-0121",
+      "customer_message": "@MicrosoftHelps Security updates. I don 't want them https://t.co/yldmcI8i1y",
+      "conversation_context": "MICROSOFT (1645761): @502884 Thank you for the info. We suggest checking Guru Kiran G's post: https://t.co/FCjGVcLvVr to resolve the issue. Give us an update.\nCUSTOMER (1645762): @MicrosoftHelps Windows 10. No changes made as far as i know. This issue happens almost every day for the last months\nMICROSOFT (1645763): @502884 We'd like to know if the link worked for you? We're here for you if you need further assistance.\nMICROSOFT (1645764): @502884 Let’s sort this out, Johannes. Which Windows version are you using? Also, any changes made before the issue happened?\nCUSTOMER (1645765): Every day updates that allways #fail. Why?  @MicrosoftHelps https://t.co/WOAHbJIZ6w\nCUSTOMER (1649408): @MicrosoftHelps STOP THIS PLEASE https://t.co/WJGYNUnSH8\nCUSTOMER (1649409): @MicrosoftHelps No. Recovery environment never appears..\nMICROSOFT (1649410): @502884 We're here to help. Can you translate the error message in English? Were there recent changes made to your device prior to this? Please provide us more information about your concern.\nCUSTOMER (1649411): @MicrosoftHelps Reinstalling older version of Windows... Please stop   these automatic updates"
+    },
+    {
+      "golden_id": "GOLDEN-0122",
+      "customer_message": "@MicrosoftHelps hello,\nI have a laptop which i already upgrade to windows 10 with the free windows upgrade, now i sent the laptop to repair to dell and they returned the laptop formatted and with Windows 8 again.💔\nCan i upgrade to Windows 10 again for free❓ If so, can you send to me ,, link,,?",
+      "conversation_context": "MICROSOFT (1656940): @505600 (2/2) the speed of your Internet connection and the size of the update. https://t.co/3qcAsLFkaY\nCUSTOMER (1656941): Intolerably slow update. If you'd got it right first time maybe we wouldn't have to endure this torture. I should be editing! #Windows10 https://t.co/0dxibIJc4p\nMICROSOFT (1656942): @505600 (1/2) Hi there. How fast the updates install depends on various factors, such as your computer’s processing power, https://t.co/3qcAsLFkaY\nMICROSOFT (1656943): @505600 Help us improve our Twitter support by answering our survey on this link: https://t.co/gNy84Ky8Rw. Thank you. https://t.co/3qcAsLFkaY\nCUSTOMER (2030878): @MicrosoftHelps @505600 please, how can i upgrade my windows from 8 to 10 ?\nMICROSOFT (2030879): @600529 Hi, Mohamed. To know more about the Windows 10 upgrade, please check out this link for more info: https://t.co/ul2FTARKRr. Select “How do I get Windows 10?”. Tweet us back if you need further assistance."
+    },
+    {
+      "golden_id": "GOLDEN-0123",
+      "customer_message": "@MicrosoftHelps I closed @251208 and the CPU went up again! I really think that his is due to some graphic things, I have seen similar issues with Groove",
+      "conversation_context": "MICROSOFT (1685307): @512074 May we know if you brought your device and charger to the nearest shop to have it checked?\nCUSTOMER (1685308): @MicrosoftHelps My company bought it online, we are in Zürich, I don't think there is a shop near by.\nCUSTOMER (1685309): My love hate relation with my @123127 book continue! Today it didn't want to charge, even after a reboot nor hard reboot.\nMICROSOFT (1685310): @512074 Please give our Global Support team - Switzerland a ring at 0848 858 868 (Deutsch / Français) or 0848 801 255 (Italiano).\nCUSTOMER (1685311): @MicrosoftHelps Thanks I could fix it by myself at the moment! But overall, I do have too much issues with that device.\nCUSTOMER (1685312): @MicrosoftHelps Again an issue this time the driver for USB cannot load and lucky me I have touchscreen to restore from checkpoint @123127 book love hate continue...\nMICROSOFT (1685313): @512074 Hi Laurent. Are you still having this issue? We're here to help.\nMICROSOFT (1685314): @512074 How's it going, Laurent? Still having issues? Let us know if you still need assistance.\nCUSTOMER (1685315): @MicrosoftHelps Thanks. I did a full re-install from ISO and at the moment it is better. Let's see after some time.\nCUSTOMER (1685316): @MicrosoftHelps Yeah I am again having this issue of my CPU staying below 1Ghz on a fresh install of Windows 10 Fall creator update! https://t.co/ouF0nq8Ecw\nMICROSOFT (1685317): @512074 Hi! We'd like to know how we can improve our support on Twitter. You can share your experience here: https://t.co/qCy1CBtydw\nCUSTOMER (1685318): @MicrosoftHelps My machine locks itself now while I am working on it! 😒Lucky me I have Windows Hello which work perfectly...\nMICROSOFT (1685319): @512074 That's great to hear! If you need assistance just drop us a tweet. Thank you.\nCUSTOMER (1685320): @MicrosoftHelps Are you kidding me ?\nMICROSOFT (1685321): @512074 Hmm. Have you tried using System Information app to check if it displays the correct specifications of your PC? Kindly DM us for further troubleshooting."
+    },
+    {
+      "golden_id": "GOLDEN-0124",
+      "customer_message": "@MicrosoftHelps Fall Creators Update means Win10 RS3 RTM build?",
+      "conversation_context": "MICROSOFT (1730626): @522949 Hi, Pratap. Yes, the Fall Creators Update is Windows 10 Redstone 3 build. How can we assist you on this?"
+    },
+    {
+      "golden_id": "GOLDEN-0125",
+      "customer_message": "@MicrosoftHelps Well I deactivaded the quick Start and now my pc dont Start anymore?????",
+      "conversation_context": "MICROSOFT (1752972): @247494 Hi. We're here to help. Could you tell us why did you say that all of your devices drivers are broken?\nCUSTOMER (1752973): @MicrosoftHelps i fixxed the problem with the drivers but i cant save and use the color profiles\nCUSTOMER (1752974): @MicrosoftHelps Hey, all my drivers are broken since the creators update and I cant calibrate my monitor any more (with spyder)"
+    },
+    {
+      "golden_id": "GOLDEN-0126",
+      "customer_message": "New version of #Windows10 makes all my cloud files look as though they're on my PC like I loved in Windows 8 so that's progress for you.",
+      "conversation_context": "MICROSOFT (1755112): @217916 Thank you for that wonderful feedback. We look forward to your continuous patronage of our products and services.\nCUSTOMER (1755113): @MicrosoftHelps Youre welcome! Pls send a new Surface Pro to assist my enjoyment. ;)\nCUSTOMER (1755114): @116230 Its re-neat, yes! I like all the design tweaks and the fact everything still runs all lovely and smooth on my Surface Pro 3.\nCUSTOMER (1755115): @217916 @MicrosoftHelps LOL!! you gotta try eh!! 😆\nCUSTOMER (1755116): @217916 Pretty neat, right? ☁ What other features have caught your eye so far?"
+    },
+    {
+      "golden_id": "GOLDEN-0127",
+      "customer_message": "@MicrosoftHelps tickets 1041159825 just spoke with rep 4 who could not fix issue after win update. Shall I go Mac?",
+      "conversation_context": "MICROSOFT (1808987): @543460 We got you, Brian. Please remove the ticket number from your post as this contains your personal info and send it to us via DM https://t.co/3qcAsLFkaY"
+    },
+    {
+      "golden_id": "GOLDEN-0128",
+      "customer_message": "@MicrosoftHelps I am unable to open/setup outlook on either of my windows 10 computer's windows security keeps asking me to enter password",
+      "conversation_context": "MICROSOFT (1827030): @548364 We're here to help, Harrison! Are you using a business or a personal computer? Any recent changes done to it prior to this? https://t.co/3qcAsLFkaY"
+    },
+    {
+      "golden_id": "GOLDEN-0129",
+      "customer_message": "@MicrosoftHelps Hi. The service still becomes running after disabling(after a few days). What can be the reason for the service switching it's startup type ?",
+      "conversation_context": "MICROSOFT (1832352): @549761 Hi. We hear you. We'd like to check what happened prior to this issue? What Windows version are you using? Let us know.\nCUSTOMER (1832353): @MicrosoftHelps I am using Windows 10 Home Single Language. Nothing specific happened prior to this issue. Just the service used to leech on to bandwidth (it claims to use idle network but doesn't) . I want it to stop from resetting Startup type from disabled to automatic.\nCUSTOMER (1832354): @MicrosoftHelps  my BITS service resets it's Startup type from disabled to automatic.It leeches on to my bandwidth like crazy. Please provide a solution.\nMICROSOFT (1832355): @549761 listed in this link: https://t.co/IBZ1MaTm1l. Kindly check the post of Jesinta Rozario. 2/2 https://t.co/3qcAsLFkaY\nMICROSOFT (1832356): @549761 Thanks for the info. For us to isolate your concern, let's try the troubleshooting steps 1/2 https://t.co/3qcAsLFkaY\nMICROSOFT (1832357): @549761 Hi, Pratik. How's it going? Please let us know if you need further assistance. We're here for you."
+    },
+    {
+      "golden_id": "GOLDEN-0130",
+      "customer_message": "@MicrosoftHelps It did not work ether. :-(",
+      "conversation_context": "MICROSOFT (1844112): @552506 Hi, Florian. We're glad that you reach out. You can check this link to help you with that error code: https://t.co/TTUtYg6Zge. https://t.co/3qcAsLFkaY\nCUSTOMER (1844113): @MicrosoftHelps The script ran through but it did not help... Still getting the same error. https://t.co/JbQ9qo5j2h\nCUSTOMER (1844114): @MicrosoftHelps Hi - i am getting the error 0x80070005 when trying to install the Windows 10, Version 1709 update- any tips? thanks.\nMICROSOFT (1844115): @552506 Got it. You may also try to run Windows Update Troubleshooter. Here's how: https://t.co/tXNdjC14YK. Let us know how it goes.\nCUSTOMER (1844116): @MicrosoftHelps I also tried that, it did not help.\nMICROSOFT (1844117): @552506 If that case, here's another troubleshooting method that you can try so we can solve that update issue: https://t.co/RV6w06cfUi.\nCUSTOMER (1844118): @MicrosoftHelps I finaly did. But not with win update but installing manual (Windows10Upgrade9252.exe). I don't know why it worked, but it did. :-D https://t.co/LgRXtwXdEq"
+    },
+    {
+      "golden_id": "GOLDEN-0131",
+      "customer_message": "@MicrosoftHelps yes, they cant help, it was activated before i reformated",
+      "conversation_context": "MICROSOFT (1854240): @554794 (1/2) Thank you for the info. Just to clarify, you've already contacted our support team regarding the issue. Is that correct? https://t.co/3qcAsLFkaY\nCUSTOMER (1854241): @MicrosoftHelps had win10 activated, reinstalled, no activate,  i dont have my old win 7 key. error 7001.  Microsoft account is __email__\nMICROSOFT (1854242): @554794 (2/2) For security purposes, we do not encourage posting your email in public. https://t.co/3qcAsLFkaY\nMICROSOFT (1854243): @554794 Oh dear! Let's investigate this, Dominic. What troubleshooting steps have you tried so far? Please tell us more details.\nCUSTOMER (1854244): @116230 Reinstalled a activated win10, now gives error 7001, support no help, getting tired of  these problems\nMICROSOFT (1866007): @554794 Thanks for the info. Were you able to obtain a service request number from our support team? If yes, send it to us via DM. https://t.co/3qcAsLFkaY\nCUSTOMER (1866008): @MicrosoftHelps same, still gives error, i did all this, ran the trouble shooter, did all the web based,help steps\nMICROSOFT (1866009): @554794 Got it. We have here some tips to resolve such issue. Check this link: https://t.co/fDwmtoytEX. Share us the result.\nCUSTOMER (1866010): @MicrosoftHelps still gives 7001 error, what upsets me, it was activated BEFORE the reformat, dont have the win 7 key anymore, other win7 i hve are oem bulk"
+    },
+    {
+      "golden_id": "GOLDEN-0132",
+      "customer_message": "@MicrosoftHelps Just updated to the new Creators Update and my frame rates in games is atrocious. Cause? I’m getting 30-40fps instead of 150",
+      "conversation_context": "MICROSOFT (1854268): @554804 Hi! We suggest contacting our technical support team regarding the issue. You may contact them here: https://t.co/SO8Vf7YRoS. https://t.co/3qcAsLFkaY"
+    },
+    {
+      "golden_id": "GOLDEN-0133",
+      "customer_message": "@MicrosoftHelps @XboxSupport i dont know what happened, but after the update, i cant seem to access my pins? is it bugged? https://t.co/85V00ozxse",
+      "conversation_context": "MICROSOFT (1855703): @555100 Hi there. We suggest contacting our technical support team regarding the concern. Contact them here: https://t.co/lHf0WIb2GU. https://t.co/3qcAsLFkaY"
+    },
+    {
+      "golden_id": "GOLDEN-0134",
+      "customer_message": "@MicrosoftHelps After trying to update the second time it speeds through &amp; now gives 0xc1900107.. what a lame update process.",
+      "conversation_context": "MICROSOFT (1896979): @565387 Hi, Ryan. Let’s work on this. To help you resolve Windows Update issues, see steps here: https://t.co/vqMWZCt1Ad. Update us.\nCUSTOMER (1896980): @MicrosoftHelps Resolved by Disk cleanup and restarting update. This time didn't click 'restart later' and then shutdown. Might wanna look into y that fails"
+    },
+    {
+      "golden_id": "GOLDEN-0135",
+      "customer_message": "Stupid Windows 10! The update erased all my beloved gif files I use for riffing! BOO! https://t.co/QODsO7Mmqw",
+      "conversation_context": "MICROSOFT (1916141): @570754 Thank you for your response. We suggest that you perform the troubleshooting steps in this link: https://t.co/KyXrgjFqnB. https://t.co/3qcAsLFkaY\nCUSTOMER (1916142): @116230 nope, I don't know what to do!\nMICROSOFT (1916143): @570754 Just checking to see if you need help. Is everything good now? Please let us know. https://t.co/3qcAsLFkaY\nCUSTOMER (1916144): @570754 Hi, Stuart! We appreciate your patience. Have you been able to correct this issue since then?"
+    },
+    {
+      "golden_id": "GOLDEN-0136",
+      "customer_message": "Fifth time my PC crashed in a week. @116230 I need a fix for this. My computer is my job! 😂",
+      "conversation_context": "MICROSOFT (1923798): @572629 Hi, Nathan. We’re here to help you. Which Windows version are you using? Are you still experiencing the same issue? https://t.co/3qcAsLFkaY"
+    },
+    {
+      "golden_id": "GOLDEN-0137",
+      "customer_message": "@MicrosoftHelps Guys, moving away from dead WinPhone10, will I lose getting message/texts on desktop if I move to iPhoneX.",
+      "conversation_context": "MICROSOFT (1925652): @500011 Can you tell us a bit more how would you want to receive text's? Is it text's from a mobile number, or emails to your PC?\nCUSTOMER (1925653): @MicrosoftHelps Regular texts to my cell phone, currently use winphone and get texts on desktop via notification on screen, but if go iphone it doesn work im told.  Why dont you get to work to fix that. You make all your products like Word on iOS. Need get text via iphone on desktop"
+    },
+    {
+      "golden_id": "GOLDEN-0138",
+      "customer_message": "@MicrosoftHelps I am not using any account I’m signing in offline or whatever it’s called, I’m using my gmail for office only that’s all.  And yes I’ve tried everything",
+      "conversation_context": "MICROSOFT (1928775): @233733 Hi, Omar. Help is here. Which version of Windows are you using? Have you tried to search for the file in Windows Explorer? https://t.co/3qcAsLFkaY\nCUSTOMER (1928776): @MicrosoftHelps Windows 10, yes I have and I’ve tried restoring it, all I get is this message https://t.co/QCxhGOkGW1\nCUSTOMER (1928777): @MicrosoftHelps my files were deleted when a random restart happened to my computer... I rewrote it again and now it’s gone after an update:)\nMICROSOFT (1928778): @233733 Let's see what we can do about your concern. Are you using a Local account or Microsoft account to log in? Have you tried any troubleshooting steps to sort this out?"
+    },
+    {
+      "golden_id": "GOLDEN-0139",
+      "customer_message": "@MicrosoftHelps I know how to update my phone and things. if I don't know, I won't do my computer science degree 😒 thank you for ur reply, but nothing help.",
+      "conversation_context": "MICROSOFT (1950042): @151781 Hi, Oshila! We want to know more. Are you getting an error message? When did the issue start? Have you tried any troubleshooting?\nCUSTOMER (1950043): @MicrosoftHelps nope. the problem is its has very low features, can't even go live. and app is too heavy. I think it's for 950, not other.\nCUSTOMER (1950044): what's the purpose of your #Windows10  mobile app @188 . its really really bad. #facebook #windowsphone @MicrosoftHelps @115890\nMICROSOFT (1950045): @151781 Got it. Let's check if there is a pending software update. Go to Settings&gt; Update and security&gt; Phone update&gt; Check for updates."
+    },
+    {
+      "golden_id": "GOLDEN-0140",
+      "customer_message": "Problems with @MicrosoftHelps authenticator? No notification nor text confirmation received on phone. Plus all contacts have vanished off it",
+      "conversation_context": "MICROSOFT (1963389): @492257 Wow! That's great to hear! In case you need us again, feel free to contact us. We're just a Tweet away. https://t.co/3qcAsLFkaY\nCUSTOMER (1963390): @MicrosoftHelps Looks ok now...  All my contacts had disappeared from phone under People.  All text messages only showed the numbers.  Contacts have now reappeared magically!!!\nMICROSOFT (1963391): @492257 Hi! Help us improve our Twitter support by answering our survey on this link: https://t.co/K9FSwMSeSR. Thank you. https://t.co/3qcAsLFkaY\nMICROSOFT (1963392): @492257 Hello! What seems to be the issue? Tell us more details about your concern."
+    },
+    {
+      "golden_id": "GOLDEN-0141",
+      "customer_message": "@MicrosoftHelps My Acer PC wont start up, it just turns on and off trying to boot (windows 10)",
+      "conversation_context": "MICROSOFT (1985564): @587751 Hi there. Help is here. Have you made any changes prior to having this issue? Are you receiving any error messages? https://t.co/3qcAsLFkaY"
+    },
+    {
+      "golden_id": "GOLDEN-0142",
+      "customer_message": "@MicrosoftHelps The operating system version is windows 10",
+      "conversation_context": "MICROSOFT (2011164): @156658 Thanks for updating, David. Have you tried contacting your Internet Service Provider with regard to the slow connection? https://t.co/3qcAsLFkaY\nCUSTOMER (2011165): @MicrosoftHelps Yes but they ignore me. Do you know why i having the same slow mobile internet sometimes internet pages load faster that other times?"
+    },
+    {
+      "golden_id": "GOLDEN-0143",
+      "customer_message": "@MicrosoftHelps your customer service is the worst. I've been on the phone everyday to fix my order sand still getting the runaround.",
+      "conversation_context": "MICROSOFT (2017674): @596690 Hi. We want this to be addressed. Do you have a service request number from them? If yes, send it via DM."
+    },
+    {
+      "golden_id": "GOLDEN-0144",
+      "customer_message": "@MicrosoftHelps Cortana on Windows 10 fall creator's can hear \"hey Cortana\" but nothing else. ??? Headphone mike Turtle Beach P11s",
+      "conversation_context": "MICROSOFT (2020537): @597541 Hi. Thanks for reaching out. Kindly check this link: https://t.co/Tq04OZiGyD. Please send us a DM to provide you more details. https://t.co/3qcAsLFkaY\nCUSTOMER (2020538): @MicrosoftHelps I just found a solution. I downloaded and ran the Start Menu Troubleshooter and it fixed the problem. Thanks, though!"
+    },
+    {
+      "golden_id": "GOLDEN-0145",
+      "customer_message": "I'm rapidly going to become one of those people that never updates their computer at this rate...",
+      "conversation_context": "MICROSOFT (2024275): @365539 We're here to help, Ben! Please send us a Direct Message for further assistance.\nCUSTOMER (2024276): @MicrosoftHelps Appreciated but it looks like many @213709 laptops are affected, so I'll probably have to wait for a fix from them?\nCUSTOMER (2024277): My last few graphics driver update attempts caused BSOD on boot, and the @116230 Fall Creator Update made my touchpad stop working! 😠"
+    },
+    {
+      "golden_id": "GOLDEN-0146",
+      "customer_message": "@MicrosoftHelps Considering this, I assume I have the right to a refund, no? Not only you shut down Groove, you removed the track I PAID for https://t.co/3i9pZ0L9uZ",
+      "conversation_context": "MICROSOFT (2042611): @273979 Hi, David. We suggest contacting our technical support regarding this matter. Contact them here: https://t.co/6GiId7wH1J. https://t.co/3qcAsLFkaY\nCUSTOMER (2042612): @MicrosoftHelps Thank you. I've now contacted them and the issue was solved."
+    },
+    {
+      "golden_id": "GOLDEN-0147",
+      "customer_message": "@MicrosoftHelps I don't really have a suggestion for improvement other than don't tell me to do something to \"fix errors\" which then kills my machine",
+      "conversation_context": "MICROSOFT (2046003): @605083 Hi, Da. Allow us to help. Please tell us more about your concern.\nCUSTOMER (2046004): @MicrosoftHelps Windows told me to restart to fix hard drive errors. Resulted in explorer.exe becoming unstable and having to do system restore\nCUSTOMER (2046005): @116230 thanks for crapping out on me for the 2nd time in as many months for no reason #Windows10\nMICROSOFT (2046006): @605083 Were you able to do a system restore? Let us know so we'll know how to proceed.\nCUSTOMER (2046007): @MicrosoftHelps System restore and system reset failed 5 times. Eventually system restore was able to complete after approx. 4 hours of attempts and \"fixes\"\nMICROSOFT (2046008): @605083 2/2 help with your concern. You can also voice out your feedback and ideas for improvement. Here's how: https://t.co/3Oa6Wocchp.\nMICROSOFT (2046009): @605083 1/2 We’re relieved to know that it was a success. We want to make up for the time that was lost by always being available to"
+    },
+    {
+      "golden_id": "GOLDEN-0148",
+      "customer_message": "@116230 #Windows10FallCreatorsUpdate only gets 50% in a day, then restarts after I reboot my computer. Why no resume option? wget can do it",
+      "conversation_context": "MICROSOFT (2064954): @395813 Hi. Let's take a look at this. To sort this issue, run the Windows update troubleshooter on this link: https://t.co/4zRnmycSdM."
+    },
+    {
+      "golden_id": "GOLDEN-0149",
+      "customer_message": "@116230 Still waiting to receive a notification to download Fall Creators Update as a Windows 10 Enterprise user on the east coast. 😡👎🏼",
+      "conversation_context": "MICROSOFT (2074064): @613411 That's great! Have fun exploring the Windows 10 Fall Creator Update. Cheers!\nCUSTOMER (2074065): @116230 Thank you. I was able to update by downloading the latest ISO from MSDN 👍🏼\nCUSTOMER (2074066): @613411 Hey, Eric. You can learn more about the Fall Creators Update roll out here: https://t.co/8W4g0ftzgQ"
+    },
+    {
+      "golden_id": "GOLDEN-0150",
+      "customer_message": "@MicrosoftHelps just recently noticed my grip coming off is there anything I can do? I’ve already taken it to my local Microsoft store 😩😭 https://t.co/n6oodfDpVQ",
+      "conversation_context": "MICROSOFT (2089732): @617710 Hi, Travis. Help is here. Could you tell us what happened? You can send us a DM to further assist you. https://t.co/3qcAsLFkaY"
+    },
+    {
+      "golden_id": "GOLDEN-0151",
+      "customer_message": "@MicrosoftHelps @115888 stopped working on my Lumia 950 after the last update so I did a hard reset and the app still won't open",
+      "conversation_context": "MICROSOFT (2122620): @625323 Hi. Let's work on this. Do you experience the same issue on your other apps? Try to uninstall the app and then reinstall them back after 5 mins in case you haven't tried this yet.. Tweet us back if the issue persists."
+    },
+    {
+      "golden_id": "GOLDEN-0152",
+      "customer_message": "After I glassed my main PC after a disastrous attempt to install the Fall Creator's Update for Win 10, I'm going to keep it at the most recent iteration prior to the FCU until they've worked out all the bugs.",
+      "conversation_context": "MICROSOFT (2124318): @625717 Hello. Let our developers hear your voice by submitting it to our Feedback Hub: https://t.co/aa0xBdRwf6. ✌️👍"
+    },
+    {
+      "golden_id": "GOLDEN-0153",
+      "customer_message": "@MicrosoftHelps There was a #Windows10 update today that seemed to correct the problem.",
+      "conversation_context": "MICROSOFT (2142730): @630008 Thank you for the info. Let's troubleshoot the issue by performing a clean boot: https://t.co/1BaSrMDQxe. Keep us posted.\nCUSTOMER (2142731): @116230 What details are you looking for, in particular? As I mentioned previously, the slow loading for @144408 started after the recent #Windows10 update. I never had this problem before. There's a delay/freeze of about 5 seconds when clicking on links. Computer boots slower, too.\nMICROSOFT (2142732): @630008 May we know if the link worked for you? If you need further assistance, feel free to send us a message.\nCUSTOMER (2142733): @630008 Hi, Mike. Could you share with us a few more details about this? We'd like to help, if we can."
+    },
+    {
+      "golden_id": "GOLDEN-0154",
+      "customer_message": "Who experiencing some bugs on the new windows 10 fall creators update?",
+      "conversation_context": "MICROSOFT (2142790): @630017 Got it! This issue's strange. We encourage you to post this issue using the Feedback Hub: https://t.co/FKLiJ5IR7g.\nCUSTOMER (2142791): @116230 Unfortunately yes. Ive had to format my laptop back to the creators update luckily i always do a back up of my stuff. \nBut funny thing when i hold down shift + click on the shutdown button my laptop shuts down. I got that fix on a forum on the web. Kindly help\nCUSTOMER (2142792): @630017 Oh goodness! Is all of this only starting since the Fall Creators Update?\nCUSTOMER (2142793): @116230 Hi guys. When i try and shut down my laptop it doesnt go off it takes me directly to the lock screen, my hotspot has an issue in connectivity and also when i awake my laptop from hibernation or sleep the screen gets distorted and flickers end result i have to force shut down\nCUSTOMER (2142794): @630017 Hi, Steve. Could you share some details about what you're experiencing? Perhaps we can help."
+    },
+    {
+      "golden_id": "GOLDEN-0155",
+      "customer_message": "@MicrosoftHelps Your latest major update has bogged down my boot up time ten fold. What gives??",
+      "conversation_context": "MICROSOFT (2157525): @633779 Hi. Glad you reached out. Just to clarify, which Windows version are you running? Are you getting any error messages?\nCUSTOMER (2157526): @MicrosoftHelps Win 10. No error messages but significantly slower boot up. Rolled back only to have update download and wait for installation again."
+    },
+    {
+      "golden_id": "GOLDEN-0156",
+      "customer_message": "So far this WIN 10 migration install doing well on my laptop.",
+      "conversation_context": "MICROSOFT (2173337): @637317 Hi there! Don't hesitate to tweet us if you have questions or need our help. 👍 https://t.co/MUi8GkfeeP"
+    },
+    {
+      "golden_id": "GOLDEN-0158",
+      "customer_message": "@116230 #Windows10 update is being installed with Windows Update Assistant... SO WHY IS UPDATE SERVICE STILL DOWNLOADING IN THE BACKGROUND?",
+      "conversation_context": "MICROSOFT (2200909): @395813 Hi, Timmy. Were you able to finish the update? Kindly let us know if you need assistance."
+    },
+    {
+      "golden_id": "GOLDEN-0159",
+      "customer_message": "Well done @116230 the latest update has made my whole windows corrupt. Now i'm going to lose everything, all my games, old family photos of members who are deceased 😣 👏👏👏👏👏",
+      "conversation_context": "MICROSOFT (2201390): @643802 Thank you for the information. For black screen issues, we suggest checking this link: https://t.co/GympBCRtYU. Let us know how it turns out."
+    },
+    {
+      "golden_id": "GOLDEN-0160",
+      "customer_message": "Loving windows 10 Fall Creators Update 😍😊",
+      "conversation_context": "MICROSOFT (2208302): @645584 That's sweet! 😍 What's your favorite Fall Creators Update feature so far? 😍 https://t.co/3qcAsLFkaY\nCUSTOMER (2208303): @MicrosoftHelps I always loved Cortana and now she can turn off my pc😍😊 that's awesome. But my favorite Fall Creators Update so far is Fluent design😍"
+    },
+    {
+      "golden_id": "GOLDEN-0161",
+      "customer_message": "@MicrosoftHelps hey, i recently started having to sign into my w10 pc with both my microsoft account and the pin i set for my pc - how do i make it so i only have to use my pin like i used to?",
+      "conversation_context": "MICROSOFT (2232215): @651299 Hi. You can check out this link to set the pin instead of using a password to sign in: https://t.co/ASwdBkMs3u. Keep us posted."
+    },
+    {
+      "golden_id": "GOLDEN-0162",
+      "customer_message": "Microsoft Word is even crashing on a brand new laptop... What nyolz is this ?",
+      "conversation_context": "MICROSOFT (2232217): @651300 Which version of Microsoft Word are you using? What troubleshooting steps have you done so far? https://t.co/3qcAsLFkaY\nCUSTOMER (2232218): @116230 It just says Microsoft word (not responding)\nMICROSOFT (2232219): @651300 Hi. Any news on your issue?\nCUSTOMER (2232220): @651300 Interesting. Do you see any error codes or messages when this occurs?\nCUSTOMER (2232221): @116230 I'm not using word at the moment. But it often stops responding while I'm busy working.\nCUSTOMER (2232222): @651300 Hey, there! We wanted to check in. Are you still experiencing this at the moment? We’re here to help if you need us."
+    },
+    {
+      "golden_id": "GOLDEN-0163",
+      "customer_message": "Finally decided to update to the FCU for Windows 10 and so far only two things were broken. Progress...?",
+      "conversation_context": "MICROSOFT (2250183): @655595 Hi, Shawn. Thanks for reaching out. May we know what happened prior to this issue? Which Windows version are you using? Please send us a DM instead. https://t.co/3qcAsLFkaY\nCUSTOMER (2250184): @116230 Howdy! First up, I had an issue of \"Task Host\" preventing shutdown. Identical to this. The fix (also in the link) was to update Logitech software, which did work for me: https://t.co/6L88TmATyL! Second one...\nCUSTOMER (2250185): @655595 Hey, there. Could you share what you're experiencing with us? We'd love to help!"
+    },
+    {
+      "golden_id": "GOLDEN-0164",
+      "customer_message": "@MicrosoftHelps I sent you guys a Dm about a problem I had today. Should I have messaged you here?",
+      "conversation_context": "MICROSOFT (2274921): @661687 Hi, Fabio! We've already responded to your direct message. Thank you. https://t.co/3qcAsLFkaY"
+    },
+    {
+      "golden_id": "GOLDEN-0165",
+      "customer_message": "@MicrosoftHelps Microsoft, Windows 10 Creators Update 1709 is currently not compatible with the latest Nvidia drivers. It has broke detecting TVs that use HDMI 2.0 or called Enhanced HDMI on my TV so I am now I am limited to HDMI 1.4 and can't use RGB and 4k 60hz.",
+      "conversation_context": "MICROSOFT (2308033): @669498 Hi, Randy! We'd love to help. With regard to your concern, you can revert to the previous Windows build. For your reference, check this link: https://t.co/xtcswqvy3W and choose Go back to your previous version of Windows. Let us know how it turns out."
+    },
+    {
+      "golden_id": "GOLDEN-0166",
+      "customer_message": "@11446 @123127 I love this particular nib. Is there any way to buy just this one without having to buy the whole pack of other nibs? https://t.co/79WWGYdfJy",
+      "conversation_context": "MICROSOFT (2365596): @226860 Hi Shauna. Thank you for sharing what you love about our product. We love your idea on having the option to purchase a single nib. At the moment, we only have the Pen Tip Kit available for Surface Pens that need replacement tips. Just stay tuned for any updates."
+    },
+    {
+      "golden_id": "GOLDEN-0167",
+      "customer_message": "@MicrosoftHelps When I send out emails to email addresses that don't exist, I want them to bounce back, but they are just disappearing. What can I do to change this? Thanks.",
+      "conversation_context": "MICROSOFT (2370402): @683993 Hi. We've responded to your Direct Message. Thank you."
+    },
+    {
+      "golden_id": "GOLDEN-0168",
+      "customer_message": "New toys !  #microsoft #Surface even the dog wants to play with it 😅.   Let’s install #ConfigMgr console #SCCM https://t.co/lFOwixwE1M",
+      "conversation_context": "MICROSOFT (2423878): @696112 Hi, Kim! What a cute dog. ☺️ If you have questions about your Surface, don't hesitate to tweet or send us a message. 👍 https://t.co/k6qB8zdRB4"
+    },
+    {
+      "golden_id": "GOLDEN-0169",
+      "customer_message": "@MicrosoftHelps Any ETA on when the Surface Pro 4 will support tilt detection with the new Pen? It's been coming soon for months now.",
+      "conversation_context": "MICROSOFT (2473426): @570141 Hi, Brian. As of the moment, we still don't have ETA. Rest assured that our engineers are working on it. We suggest you to continue keeping your Surface up-to-date to make sure that your device has the latest software and firmware."
+    },
+    {
+      "golden_id": "GOLDEN-0170",
+      "customer_message": "@MicrosoftHelps wifi disconnects randomly\n\nis there a way to fix it from disconnects  randomly",
+      "conversation_context": "MICROSOFT (2479738): @348170 Hello! It's our pleasure to assist you. Is this happening to all the device you're trying to connect to your WiFi?\nCUSTOMER (2479739): @MicrosoftHelps just my pc"
+    },
+    {
+      "golden_id": "GOLDEN-0171",
+      "customer_message": "@MicrosoftHelps Thanks for the reply. I already fixed it. All of the themes were grayed out for some reason, but restarting the themes service fixed it.",
+      "conversation_context": "MICROSOFT (2501246): @713517 That's great! We're glad that your issue has been resolved. We appreciate your feedback about your customer experience with us: https://t.co/AMZLgseiCB."
+    },
+    {
+      "golden_id": "GOLDEN-0172",
+      "customer_message": "@MicrosoftHelps My laptop went into \"updates\" this morning and I now have lost all of my pictures. What was called \"This Computer\" is called \"My PC\".",
+      "conversation_context": "MICROSOFT (2542037): @722750 Hi, Mike. Let's work on this. Which version of Windows are you using? You may refer to this link as a guide: https://t.co/HIBs6hmV38. Have you done any troubleshooting steps?\nCUSTOMER (2542038): @MicrosoftHelps OK fixed now via Chat. They had to rollback to previous build because this one has \"a few problems\"."
+    },
+    {
+      "golden_id": "GOLDEN-0173",
+      "customer_message": "Been over 8 days since changeover to #newtwitter and the #TweetDeck on a Windows10 Explorer11 platform(s) still won't work well enough to use (see attached screenshot.) @123765 @TwitterSupport @116230 @MicrosoftHelps do nothing to make it compatible with the platform. Sucks.. https://t.co/GvRbYeCpAk",
+      "conversation_context": "MICROSOFT (2555015): @725560 Hi there! Thank you for reaching out. Do you experience the same issue using other browsers?\nCUSTOMER (2555016): @MicrosoftHelps No. Not when using the Windows browse. In fact, uploading PROFILE photos could only ever be done through Windows browser. COVER photos could be uploaded through Exporer11, but not PROFILE. The 280 changeover problem was widespread on Windows Explorer11, I saw quite a few posts. https://t.co/3iSVpXkX39"
+    },
+    {
+      "golden_id": "GOLDEN-0174",
+      "customer_message": "@MicrosoftHelps @115890 @116230 do not install windows 10 fall update. You never be able to use edge . Your update has broken my system. Time to install Chrome. Or IE 3.1 would be better than edge under fall update",
+      "conversation_context": "MICROSOFT (2555018): @723113 Hi, Alan. Could you tell us more about your concern? We want to get this resolved for you. You can reply through this link: https://t.co/3qcAsLFkaY"
+    },
+    {
+      "golden_id": "GOLDEN-0175",
+      "customer_message": "@MicrosoftHelps if not, please take this phone n give a new phone or give me $100. and also this phone has that 'no service error' 😑",
+      "conversation_context": "MICROSOFT (2563104): @151781 Sorry for the inconvenience. At this point, the issue you're having is more on the software or apps that you're using and not with the phone.  We would recommend you contact the app manufacturer or developer to find out why these features are not working."
+    },
+    {
+      "golden_id": "GOLDEN-0176",
+      "customer_message": "@MicrosoftHelps It's definitely lasted well. It's only recently started hitting issues. I've planned to upgrade for a while now. I'm definitely gonna get another Surface as my next tablet, though. ^.^",
+      "conversation_context": "MICROSOFT (2582324): @220504 No worries. We'll keep an eye on your tweet.\nCUSTOMER (2582325): @152402 I still haven't tried it yet. I'll let you know how it turns out!\nCUSTOMER (2582326): @220504 Hi. We just wanted to know if the resolution we have provided resolved the battery notification discrepancy that you've experienced?\nCUSTOMER (2582327): @152402 It hasn't fixed it, but I now think it's probably just the battery being old and not holding charge as well as it used to. To see if it had fixed it, I tried to run the battery right down...\nCUSTOMER (2582328): @MicrosoftHelps my @123127 seems to have stopped giving me low battery warnings. It just runs down to 0% and shuts down suddenly. Where's the settings for this so I can turn the warnings back on?\nMICROSOFT (2622401): @220504 er Yes, we have to consider that it's old that's why it doesn't hold as much charge back in the day and the sudden drop from 15% to 0% indicates the wear level where-in, the 15% charge doesn't last long as it used to. Have you installed the latest Windows update?\nCUSTOMER (2622402): @MicrosoftHelps Yes. I have got the latest updates. It is pretty old for a tablet now as it's a Surface Pro, first generation.\nCUSTOMER (2622403): @152402 ... it got down to 15%, then warned me of a low battery &amp; immediately hibernated. I plugged it in, and woke it up, and the battery was suddenly showing 0% charge.\nMICROSOFT (2622404): @220504 It's still a good thing that it function as it's supposed to aside from the battery, despite the fact that it was the first version. If you consider getting a new one, you can check the new line of Surface devices here: https://t.co/tFXPULxWPL"
+    },
+    {
+      "golden_id": "GOLDEN-0177",
+      "customer_message": "@MicrosoftHelps https://t.co/xi5DhuHt9J",
+      "conversation_context": "MICROSOFT (2600597): @736143 Hi, Cody. We understand your situation. In this case. It would be best if we ask help from out Accounts &amp; billing team regarding this matter. Here's the link where you can reach them: https://t.co/30HGOcbZ7G. https://t.co/3qcAsLFkaY"
+    },
+    {
+      "golden_id": "GOLDEN-0178",
+      "customer_message": "@MicrosoftHelps What is SCCM or Microsoft Intune? And how to use and where we use SCCM or Intune ?",
+      "conversation_context": "MICROSOFT (2604642): @693902 Hi! That's an interesting question. Are you referring to the System Center Configuration Manager? If yes, learn more about Microsoft Intune and System Center Configuration Manager here: https://t.co/s9vluEk0Lj. Hope this answers your query."
+    },
+    {
+      "golden_id": "GOLDEN-0179",
+      "customer_message": "@MicrosoftHelps We have tried that. How do you explain 3 failed products in two years?! Do you think that is adequate? Is that your ethos for treating customers? There are many of us in this position, hence you stopping production. You should therefore treat people fairly. As your title implies",
+      "conversation_context": "MICROSOFT (2633859): @743642 Hello Keith. We wanted to help you as much as we can with regard to your Micorsoft Band problem. Can you send us the care number for your conversation with our Support team via DM?\nCUSTOMER (2633860): @MicrosoftHelps @743642 We were not offered a care number. Just very rude, no apology for the 3 defunct bands in TWO YEARS! I am £199 out of pocket. No offer of help, or recognition of the 3 failed products. Disgusting. Very upset.\nCUSTOMER (2633861): @MicrosoftHelps ...3rd ms band in 3 years....each one has failed. Called the support line &amp; no help whatsoever; clearly the product is not fit for purpose and I'm out of pocket...not happy; why such bad customer service??????\nMICROSOFT (2633862): @743643 Hi Faith. Let's investigate further. Can you tell us what issue you're having on your Microsoft Band?\nCUSTOMER (2633863): @MicrosoftHelps So what can you do to make this right for me? Can understand why production has stopped, but many people have had problems, are out of pocket and have been treated unfairly. I just want you to be fair https://t.co/euBdAMMfTy\nMICROSOFT (2633864): @743643 We hear you, Faith. Were there any recommendations provided to you by our support team? Please see this link: https://t.co/XZTyJNOPit for more information regarding Microsoft Band warranty coverage. https://t.co/3qcAsLFkaY\nCUSTOMER (2633865): @MicrosoftHelps So what are you doing to make this right? Bearing in mind this is the third Microsoft Band in two years, every one failing.\nMICROSOFT (2633866): @743643 We appreciate your response. We suggest that you visit the nearest Microsoft Store in your area or contact Global Customer Support for further assistance. You'll find the phone number for your country/region here: https://t.co/OvqCUhuC0S"
+    },
+    {
+      "golden_id": "GOLDEN-0180",
+      "customer_message": ".@MicrosoftHelps, if Windows Update supposedly updated my Adobe Flash on the 15th, why am I seeing this on the 19th? https://t.co/vltFvpbyD9",
+      "conversation_context": "MICROSOFT (2667842): @175963 Hi, Dahna. Help is here. Have you tried clicking on check for updates? https://t.co/3qcAsLFkaY"
+    },
+    {
+      "golden_id": "GOLDEN-0181",
+      "customer_message": "@MicrosoftHelps Hello there, I was about to create an Outlook account for a family member on https://t.co/TAx7RxrPJX but it's showing me that I have reached the daily limit of account creation even though I haven't created any account. Any way to fix that? Thanks!",
+      "conversation_context": "MICROSOFT (2690247): @756313 Hi, Tiago! For us to provide you an accurate resolution, may we know if you are using a Personal or a Business account?\nCUSTOMER (2690248): @MicrosoftHelps Hi there, it resolved itself after a couple of minutes. I was once again able to create an account. :)"
+    },
+    {
+      "golden_id": "GOLDEN-0182",
+      "customer_message": "@MicrosoftHelps My PC believes it's not Bluetooth capable after fall creator's update. Can't turn on; doesn't appear in Device Manager; Bluetooth troubleshooter says not capable. Worked fine up until now...",
+      "conversation_context": "MICROSOFT (2709644): @760884 Hi. Thank you for bringing this to our attention. To resolve this concern, we suggest to roll back to your previous version of Windows 10. Refer to this link: https://t.co/M5PXSCxrDu us know the result.\nCUSTOMER (2709645): @MicrosoftHelps Are there no plans of fixing this via update in the near future?"
+    },
+    {
+      "golden_id": "GOLDEN-0183",
+      "customer_message": "@MicrosoftHelps I need to recover my __email__ account. It's linked to everything. My iTunes account and my iPhone are linked to this! All my details are correct!! https://t.co/5nB8ApOEyw",
+      "conversation_context": "MICROSOFT (2711648): @761344 Hi. We're here to help, Katy. For security reason, we suggest that you delete the tweet that contain your email address and send it via DM instead. Thank you!"
+    },
+    {
+      "golden_id": "GOLDEN-0184",
+      "customer_message": "@MicrosoftHelps @115890 Unban Me,  I have no right to be banned and your people couldn't websites couldn't help me.",
+      "conversation_context": "MICROSOFT (2716769): @141201 Have you been able to get in touch with our Xbox Support team? If yes, kindly send us a DM containing your service request number. We'll take a look into this. https://t.co/3qcAsLFkaY"
+    },
+    {
+      "golden_id": "GOLDEN-0185",
+      "customer_message": "i installed the windows 10 fall update and now it forgets the default audio device every time i turn my computer off",
+      "conversation_context": "MICROSOFT (2782882): @524676 Hi, Ruby. Let’s work on this. Just to verify, are you getting a specific error message?\nCUSTOMER (2782883): @MicrosoftHelps I don't get any error message."
+    },
+    {
+      "golden_id": "GOLDEN-0186",
+      "customer_message": "@MicrosoftHelps hola. Tengo problemas para realizar una compra desde Xbox o https://t.co/AzDRRdfrE5, dónde puedo recibir ayuda? Gracias!",
+      "conversation_context": "MICROSOFT (2791787): @779179 Hello, Gino! We want to get this issue resolved for you! For better assistance, please translate your concern into English language.\nCUSTOMER (2791788): @MicrosoftHelps Thank you. I'm having issues on both Xbox One and Microsoft website when I'm trying to update my payment options and I can't buy or pay for anything in the store."
+    },
+    {
+      "golden_id": "GOLDEN-0187",
+      "customer_message": "@MicrosoftHelps I did a clean installation of my windows 10 today, and I've been getting a really annoying issue thats causing \"State Repository Service\" to spike to 90% CPU usage whenever I click a link in Discord/Steam or attempt to open games that has a launcher. Any fix out?",
+      "conversation_context": "MICROSOFT (2816521): @785154 Hi! Thanks for bringing this up. Let's try running Microsoft Safety Scanner: https://t.co/MU1d1OVtZp. This tool is designed to find and remove malware from Windows PCs. Download it and run a scan to find malware and try to reverse changes made by identified threats.\nCUSTOMER (2816522): @MicrosoftHelps Hello! After attempting to run a quick scan, it found no viruses/spyware or other potential unwanted software.. Do you have any other solutions in mind?"
+    },
+    {
+      "golden_id": "GOLDEN-0188",
+      "customer_message": "@MicrosoftHelps Hi I'm having a problem with the Microsoft store can you help please?",
+      "conversation_context": "MICROSOFT (2843293): @791020 Hello, Kyle. Thanks for reaching out! It would be best contacting Xbox Support: https://t.co/cs1zd5hSEI to better assist you with your concern. If you have other concern, just tap our back. 😉👍"
+    },
+    {
+      "golden_id": "GOLDEN-0189",
+      "customer_message": "@MicrosoftHelps Bonjour, cet écran apparaît lorsque je clique sur enter pour sortir de l état de mise en veille de mon pc Hp avec win10 famille. j ai tout essayé. vous auriez une idée? merci https://t.co/CpTMIoNBpS",
+      "conversation_context": "MICROSOFT (2843302): @791021 Hello, Seb. We'd love to help. Can you translate your concern to English? In case you prefer France support, you can send a direct message at @5363.\nCUSTOMER (2843303): @MicrosoftHelps @5363 hi, all fixed! thanks to a lightning support from you both. Thanks again #microsoft"
+    },
+    {
+      "golden_id": "GOLDEN-0190",
+      "customer_message": "Called #Microsoft #CustomerSupport - they can't help; they're having tech issues! Told me to call back in 3 hrs. If @115890 @MicrosoftHelps can't help w/THEIR issues, how in the HAYLE can they help me?? #badcustomerservice",
+      "conversation_context": "MICROSOFT (2855709): @686017 Hello. We're here to help ypu. For us to assist you, we invite you to send us a DM. We'll wait for your message."
+    },
+    {
+      "golden_id": "GOLDEN-0191",
+      "customer_message": "@MicrosoftHelps Why can't I pin a live tile to my @116230 desktop? Seems weird these cool info tiles are imprisoned in the start menu. Tablet mode isn't the answer. #WindowsInsiders #Windows10",
+      "conversation_context": "MICROSOFT (2855711): @793769 Hello. Thank you for bringing this up. To better assist you in this concern, post your query on this link: https://t.co/VEGzPlZFzm."
+    },
+    {
+      "golden_id": "GOLDEN-0192",
+      "customer_message": "@MicrosoftHelps while I was updating my laptop to windows 10 it was showing please wait while we install a system update ... Now my laptop is not opening",
+      "conversation_context": "MICROSOFT (2900879): @803563 Hi. We're here to help. Just to clarify, what troubleshooting steps have you done so far to isolate the issue? Please get back to us so we can help you sort this out.\nCUSTOMER (2900880): @MicrosoftHelps I tried to switch off my laptop ... But it was still showing please wait while we install a system and then I don't know all of a sudden it is not opening...\nCUSTOMER (2900881): @MicrosoftHelps Pls help\nMICROSOFT (2900882): @803563 Thanks for the info. For us to isolate your concern, let's try to troubleshoot your device by performing a clean boot using this link: https://t.co/ptFirx251l. Let us know how it goes. https://t.co/3qcAsLFkaY\nCUSTOMER (2900883): @MicrosoftHelps I cannot open my laptop what should I do any way with which I can open it?\nMICROSOFT (2900884): @803563 Let’s do an alternate resolution. In this case, we can follow the troubleshooting steps posted Morris Subba: https://t.co/p1qUmZp8Hd. We'll look forward to hearing updates from you.\nCUSTOMER (2900885): @MicrosoftHelps The problem is I can not open my laptop  again now while updating it ! All solution which u r providing needs my laptop on which I am not being able to do it !\nMICROSOFT (2900886): @803563 In this case, it's best to get in touch with our Windows Experts here: https://t.co/0wqTmeEdYJ wherein you'll be given an option to contact them via phone or chat. Also, you can contact them by using a different device. Rest assured that you're in good hands."
+    },
+    {
+      "golden_id": "GOLDEN-0193",
+      "customer_message": "Ugh. #Windows10Mobile is autocorrecting problem to 'problem'. I do not want sarcastic air quotes... Usually. @MicrosoftHelps",
+      "conversation_context": "MICROSOFT (2920960): @355968 Hi, Mark. We're here for you. If you want to disable auto correct on your phone, just go to Settings &gt; Time &amp; Language &gt; Keyboard and tap on your keyboard on the list of keyboards. There you will find all auto correct options. Keep us updated.\nCUSTOMER (2920961): @MicrosoftHelps I don't want to turn off autocorrect. I want to have problem be correctly displayed (no quotes) when using swipe gestures on my keyboard."
+    },
+    {
+      "golden_id": "GOLDEN-0194",
+      "customer_message": "@MicrosoftHelps I'm convinced you guys have high school dropouts at customer service because they can't solve a simple problem, just like how they couldn't pass simple classes",
+      "conversation_context": "MICROSOFT (2926967): @318070 Hi there. Help is here. Could you tell us more info about the issue that you're having with?\nCUSTOMER (2926968): @MicrosoftHelps My issue is if I get charged more than once on this transaction you'll be hearing from my lawyer"
+    },
+    {
+      "golden_id": "GOLDEN-0195",
+      "customer_message": "I am on a Mac...not a phone, I don't want the phone layout!!!!! @115890 @MicrosoftHelps Stop it plz -- Skype’s new mobile design comes to Windows and Mac today https://t.co/Zq5ymlaLGF",
+      "conversation_context": "MICROSOFT (2938050): @737057 Your voice matters to us, Hannah. We want it to be heard and to reach out to our Skype engineers to make improvements on this matter. You can provide your feedback and suggestion via following the steps here: https://t.co/Vb5vu9TQIF. Have a good one."
+    },
+    {
+      "golden_id": "GOLDEN-0196",
+      "customer_message": "@MicrosoftHelps whats wrong with microsoft you push windows10 down my troat  every update you do changes my setting  and now you want to suspend my email i dont get it if im not good enough i will change to a non microsoft laptop",
+      "conversation_context": "MICROSOFT (2939966): @674970 Hello, Marco. Thank you for reaching out. We'd like to help. Can you tell us more about the issue you're having with Windows 10 and your email? Let's work on this together. You may also send us a Direct Message to discuss things on a personal note. https://t.co/3qcAsLFkaY"
+    },
+    {
+      "golden_id": "GOLDEN-0197",
+      "customer_message": "Am I the only one that prefers the Win 10 mail app over Outlook 2016?",
+      "conversation_context": "MICROSOFT (2944171): @813337 What other features would you like to be added to Outlook 2016? You can submit your suggestions and insights by going to this link: https://t.co/HGjfDIiTSJ."
+    },
+    {
+      "golden_id": "GOLDEN-0198",
+      "customer_message": "@MicrosoftHelps i NEED to get into my hotmail account but have been denied twice. Ive answered the questions correctly. Can i be contacted ASAP please",
+      "conversation_context": "MICROSOFT (2944173): @543861 Hi, Shannon. Thank you for bringing this up. When was the last time that your account has been signed in?\nCUSTOMER (2944174): @MicrosoftHelps Yesterday"
+    },
+    {
+      "golden_id": "GOLDEN-0199",
+      "customer_message": "@MicrosoftHelps I need help stoping a autopay the option doesn't come up",
+      "conversation_context": "MICROSOFT (2949569): @814564 Hi. Thanks for reaching out. Are you referring to a subscription? Where are you trying to check the option? Please let us know. https://t.co/3qcAsLFkaY"
+    },
+    {
+      "golden_id": "GOLDEN-0200",
+      "customer_message": "@MicrosoftHelps Where can I get support from Germany? I've got a problem with Windows 10: My Desktop is gone.",
+      "conversation_context": "MICROSOFT (2980395): @822010 Help is here, Dominik! You can contact our Support team here: https://t.co/12xaHLkudr. Just find your country or region."
+    },
+    {
+      "golden_id": "GOLDEN-0201",
+      "customer_message": "@MicrosoftHelps 40 minutes on hold for Surface support, no option for callback. Time to go home, do I hangup &amp; start the wait over tomorrow?",
+      "conversation_context": "MICROSOFT (50477): @127326 If that's the case, then you may contact our Business Support team here: https://t.co/vHbEoDkHkm\nCUSTOMER (50478): @MicrosoftHelps I did, their response was that we don't have coverage, How is it that our purchase of extend support coverage is not linked to device's s/n?\nCUSTOMER (50479): @MicrosoftHelps Yes, this is a business device with extended warranty coverage.\nMICROSOFT (50480): @127326 Got it. We'll get to the bottom of this. Mind sending us the most recent Service Request #? Please meet us in DM. https://t.co/3qcAsLFkaY\nMICROSOFT (50481): @127326 We'd like to know if you have an extended warranty for Surface. If you're using Surface for business, check here: https://t.co/gNa6Yp6bVx\nCUSTOMER (50482): @MicrosoftHelps If the Surface has extended business support, does that change the process or who to contact?\nMICROSOFT (50483): @127326 We suggest that you contact the Answer Desk here: https://t.co/MSgCHnzSRr or our Global Customer Service team here: https://t.co/DXgKnHal4h\nCUSTOMER (50484): @MicrosoftHelps Surface Pro with a crack screened. Was calling to initiate repair process.\nMICROSOFT (50485): @127326 Hello Moses. We're here to help. Can you give us more details of your concern? Can you also tell us which Surface device you are using?"
+    },
+    {
+      "golden_id": "GOLDEN-0202",
+      "customer_message": "@MicrosoftHelps Yes I checked for drivers and there were no updates. I messed around with the resolution to see if anything would change but nothing. At this point I might just return it and get a new one seen as I have a 2 year warranty",
+      "conversation_context": "MICROSOFT (130506): @145446 Hi Austin. Let's investigate. Can you tell us which Surface device you are using? Did you recently make changes in the settings of your device like installing new software? What troubleshooting step have you tried so far to resolve the issue?\nCUSTOMER (130507): @MicrosoftHelps I’m using a surface pro 4, I haven’t made any changes to my device in the past week, I factory reset it and the purple colour has gone away but now everything looks very pixilated, see photo https://t.co/uePoN8xep3\nCUSTOMER (130508): @MicrosoftHelps I restarted my Surface, and now the screen has gone weird, and changes colour every time I restart it? (My background is a solid black colour, the purple colour is the issue) https://t.co/KWWFqXGZ1j\nMICROSOFT (130509): @145446 We suggest that you perform two-button reset. You may refer to SteveG47 reply on how to perform two-button reset on this link: https://t.co/gaknTep4gW Keep us updated on the status of the issue. We will be glad to assist you further.\nCUSTOMER (130510): @MicrosoftHelps That didn’t change anything unfortunately\nMICROSOFT (130511): @145446 That's odd. Since you've mentioned that you performed a factory reset on you Surface, were you able to update the necessary drivers? Have you tried reconfiguring the display settings? Were there any differences? https://t.co/3qcAsLFkaY"
+    },
+    {
+      "golden_id": "GOLDEN-0203",
+      "customer_message": "@123127 @MicrosoftHelps @2696 Second time I receive SP4 from assistance with this problem why? :( https://t.co/8ZX0q3CdQ5",
+      "conversation_context": "MICROSOFT (186516): @159869 Have you tried contacting our Answer Desk team for assistance? You can contact them here: https://t.co/JryaRvNjWi\nCUSTOMER (186517): @MicrosoftHelps I'll try, but I'm shocked about same problem two times\nCUSTOMER (186518): @151785 2/2 I'm tired to send my device to repair I need it\nCUSTOMER (186519): @151785 1/2 It's a HW issue. White light aroud the screen too visible. It's 2° sp4 I receive from assistance with this. My first device hadn't it\nCUSTOMER (186520): @159869 Let's look into this, Alberto. What was the activity when this screen appeared? Have you tried to do a forced shutdown?"
+    },
+    {
+      "golden_id": "GOLDEN-0204",
+      "customer_message": "@MicrosoftHelps I have now had my left bumper fall out of 6 Elite controllers. Yes 6! I need reason to even use my warranty this time :/",
+      "conversation_context": "MICROSOFT (60641): @129891 Following up with you to see if your issue got resolved. If so, let us know your experience here: https://t.co/rAst2Ray56.\nCUSTOMER (60642): @MicrosoftHelps Honestly. I returned the controller and with with a Scuf. Hated to do so, but 6 left bumpers falling  out 😕"
+    },
+    {
+      "golden_id": "GOLDEN-0205",
+      "customer_message": "After updating system is dead slow! Now encountered new problem, no internet connection over wifi!!!! @MicrosoftHelps @26626",
+      "conversation_context": "MICROSOFT (113489): @141204 Just to clarify, what do you mean by \"some pages are not opening\"? Are you referring to websites? Are you experiencing same issue using different device?\nCUSTOMER (113490): @MicrosoftHelps Able to get ! But some pages not opening! Showing no internet\nMICROSOFT (113491): @141204 Hi. Haven't heard back from you yet. Are you still experiencing issues with the connection? Please let us know.\nMICROSOFT (113492): @141204 Hi, Kiran! Were we able to resolve your concern? If no, feel free to reach out if you need further assistance. We're here for you. 😃👍"
+    },
+    {
+      "golden_id": "GOLDEN-0206",
+      "customer_message": "@MicrosoftHelps Hey, thanks for making my ASUS wifi card completely useless in your latest update.  it doesn't work anymore.  Can I send you an invoice for it?",
+      "conversation_context": "MICROSOFT (158300): @152396 Hello, Eric. Help is here. Are you referring to the Fall Creators Update? Can you provide us more details about the issue that you're experiencing after the update?"
+    },
+    {
+      "golden_id": "GOLDEN-0207",
+      "customer_message": "@MicrosoftHelps @9390 So after updating to windows 10 update 1709, Microsoft store doesn't open and Teamviewer isn't see the internet connection  when chrome does. Please help",
+      "conversation_context": "MICROSOFT (172138): @156220 Hi. Thank you for reaching out, Chris. Just to clarify, are you getting any error messages? What troubleshooting steps have you tried to resolve the issue?\nCUSTOMER (172139): @MicrosoftHelps Hey, there was no error messages just refused to load. I tried deleting the cache, going to a previous version of 10. Nothing worked"
+    },
+    {
+      "golden_id": "GOLDEN-0208",
+      "customer_message": "@MicrosoftHelps [2/2] Can't sync, can't send, can't receive email. Tried WiFi and LTE, reboot, soft reset, hard reset. No dice. Please help.",
+      "conversation_context": "MICROSOFT (19884): @120367 Hi, Ryan. How's it going? Please let us know if you need further assistance. We're here for you.\nCUSTOMER (19885): @MicrosoftHelps If possible, please escalate to the right people. I can't use email on my Lumia. Nor can my father on his. Both email failed at same time.\nCUSTOMER (19886): @MicrosoftHelps Still stuck. Microsoft Support chat has been kind but they could not find a fix. Support docs from https://t.co/QxtzK3XTQD not helpful.[1/2]\nCUSTOMER (19887): @MicrosoftHelps Error code 80072EFD is a server issue. Any idea what’s going on with https://t.co/kyAFzGCRGU for Windows Phone devices on your end? [2/2]\nCUSTOMER (19888): @MicrosoftHelps Email is set up correctly on all three devices as per instructions. Still can't sync properly.\nMICROSOFT (19889): @120367 We'll do. Were you given a case number after contacting our support? If yes, kindly DM it so we can look into it.\nCUSTOMER (19890): @MicrosoftHelps Done. Case numbers sent via DM.\nMICROSOFT (19891): @120367 That's strange. It'd be best to get in touch with our Answer Desk team for in-depth support here: https://t.co/VXGrUK3x2q. https://t.co/3qcAsLFkaY\nMICROSOFT (19892): @120367 We suggest that you check if you set up your email correctly. Visit this link: https://t.co/FVDi6i31pS. Tweet us back!\nCUSTOMER (19893): @MicrosoftHelps There is no version number. Outlook on WP8.1 is a built-in non-updateable app.\nMICROSOFT (19894): @120367 Let's sort this out, Ryan. Could you check your Outlook version? Here's how: https://t.co/XvqZQyTwN6."
+    },
+    {
+      "golden_id": "GOLDEN-0209",
+      "customer_message": "@MicrosoftHelps why can’t I cancel auto renew for gold on Xbox one?? it says directly on your support website that I should be able to.",
+      "conversation_context": "MICROSOFT (121906): @143163 Hello. Let's get this sorted. It'd be best if you contact the Xbox team for them to have this checked: https://t.co/KiaMQXVEfb. You'll be in good hands."
+    },
+    {
+      "golden_id": "GOLDEN-0210",
+      "customer_message": "On support chat with @MicrosoftHelps right now and was just told that you cant turn off auto renew for subscriptions on your console anymore. Wow, just wow. It holds your credit card hostage until you go to their site. This used to be an option on the console. Unacceptable. #scam",
+      "conversation_context": "MICROSOFT (477054): @228373 Hi there. We're here to help. Can you DM us the Service Request number from our support? Let us escalate your concern for more in-depth assistance. https://t.co/3qcAsLFkaY"
+    },
+    {
+      "golden_id": "GOLDEN-0211",
+      "customer_message": "@MicrosoftHelps unable to verify information on a 10 year old xbox live account. unable to do so. have proof of cancellation. stop charging my parents",
+      "conversation_context": "MICROSOFT (2089737): @617712 We understand. In that case, kindly contact our Xbox support for immediate assistance on this link: https://t.co/aMzte2v5YW."
+    },
+    {
+      "golden_id": "GOLDEN-0212",
+      "customer_message": "@MicrosoftHelps quite disappointed with the level of support I’ve received from OneDrive and Office 365. My OneDrive is just not working and no one from support teams seem to be able to help me. Where do I go from here? Should I cancel my subscription?",
+      "conversation_context": "MICROSOFT (1613002): @494914 1/2 Hi, Matt. We certainly want to get this taken care of. Were you able to obtain a service request number from our support"
+    },
+    {
+      "golden_id": "GOLDEN-0213",
+      "customer_message": "@MicrosoftHelps Order status in my order history shows that the order was shipped. When I track the order in FedEx it just shows that the label was printed, no further status. When I asked FedEx I was told they have not yet received the actual shipment",
+      "conversation_context": "MICROSOFT (557701): @250251 Hi, Jay! We're here to help. For better assistance, may we know where did you place your order? Is it from Microsoft Store or in an authorized retail store?\nCUSTOMER (557702): @MicrosoftHelps In Microsoft store\nCUSTOMER (557703): @MicrosoftHelps hello two of my orders placed on 27th Nov is not shipped out yet\nMICROSOFT (557704): @250251 Got that! Have you tried checking the status of your order online? Here's how: https://t.co/0NVMBjKGMW."
+    },
+    {
+      "golden_id": "GOLDEN-0214",
+      "customer_message": "@MicrosoftHelps I pre-ordered FIFA 18 from Msft Store and never received it. FedEx says they never got it either. Was told to contact you.",
+      "conversation_context": "MICROSOFT (199605): @163083 We hope everything is fine now. Share us your thoughts about your customer experience with us: https://t.co/xdm3EXKeFs.\nCUSTOMER (199606): @MicrosoftHelps I've been trying to resolve this for days.\nCUSTOMER (199607): @MicrosoftHelps The store help doesn't seem to have any links that provide an answer. I can't find why Msft seems to not have sent the pckg to FedEx.\nCUSTOMER (199608): @MicrosoftHelps When I track an order  I get sent to FedEx. That just tells me that they haven't received the pckg from Microsoft.\nMICROSOFT (199609): @163083 2/2 Also, can you try contacting our support team again: https://t.co/vLFOaSHKFD? Keep us updated."
+    },
+    {
+      "golden_id": "GOLDEN-0215",
+      "customer_message": "@microsofthelps your service on my recent order has been terrible.  My online order is stuck in no-man's land, saying it's \"shipped\", however label created status and \"ship date\" are 11/15.  it's no longer 11/15.  you guys gotta figure out your issues and call me back",
+      "conversation_context": "MICROSOFT (424742): @216084 Hi, Marc. We'd like this taken care of. To clear things out about your order, we suggest contacting Microsoft Store here: https://t.co/K6W9fZ2nJC. Let us know how it goes."
+    },
+    {
+      "golden_id": "GOLDEN-0216",
+      "customer_message": "@135958 Whom should I contact to know about my order status. Calling Store support is not helping.From last three days, they keeps saying that this has been forwarded to escalation team and I don't know what is happening with my order",
+      "conversation_context": "MICROSOFT (92022): @135957 We certainly want to help you with this, Sujith. Can you send us the Service Request number provided by our support? We'll be escalating your concern for more in-depth assistance.\nCUSTOMER (92023): @MicrosoftHelps Service request number is 1406102664\nCUSTOMER (92024): @MicrosoftHelps Calling Microsoft Store Sales and Customer Support did not help. I called them multiple times since last three days and they keep saying that this has been forwarded to escalation team. Now three days are over and still I don't know what happened to my order\nMICROSOFT (92025): @135957 Kindly delete this tweet as this include your personal information. Let's continue the discussion via Direct Message.\nMICROSOFT (92026): @135957 Thank you for sending us a DM. We suggest contacting our Microsoft Store Sales and Customer Support regarding this matter. Call them at 1-877-696-7786. https://t.co/3qcAsLFkaY"
+    }
+  ]
+}

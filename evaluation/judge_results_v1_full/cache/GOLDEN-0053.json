@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0053",
+  "input_fingerprint": "ca87d1c9d6e5b3060a9b7863b81dc2bcf2f76dfb597b628450a0fd96176f746c",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:33:28+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0053",
+    "customer_message": "@MicrosoftHelps please help i hate this issue. https://t.co/VB8qqUN5T0",
+    "conversation_context": "MICROSOFT (551161): @248421 Hi there, Daniel! We're here to help. Can you tell us which website you're trying to access? Send us more details about your concern via DM. Thank you. https://t.co/3qcAsLFkaY",
+    "predicted_intent": "Complaint / Feedback",
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+    "retrieved_evidence": "{\"evidence_id\": \"590723\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.898052, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps i need help with this problem. https://t.co/Ce1GkcXHHm\"}\n{\"evidence_id\": \"2607841\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.882963, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps \\nWhat's the solution ? https://t.co/DEN3FtopR7\"}\n{\"evidence_id\": \"2157520\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.86748, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \".@MicrosoftHelps some help please. https://t.co/Ii0oOUMqHj\"}",
+    "generated_reply": "We would like to help, but we are unable to resolve the issue based on the provided link alone. Please contact Microsoft support directly for further assistance."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 4,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 4,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 4,\n  \"evidence_relevance\": 2,\n  \"grounding_score\": 3,\n  \"reason\": \"The reply correctly suggests contacting support for an issue that cannot be resolved via a link, maintaining appropriate escalation and clarity, though the retrieved evidence was generic.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 4,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 4,
+    "evidence_support": 3,
+    "unsupported_claims": 4,
+    "evidence_relevance": 2,
+    "grounding_score": 3,
+    "reason": "The reply correctly suggests contacting support for an issue that cannot be resolved via a link, maintaining appropriate escalation and clarity, though the retrieved evidence was generic.",
+    "overall_score": 4,
+    "short_reason": "The reply correctly suggests contacting support for an issue that cannot be resolved via a link, maintaining appropriate escalation and clarity, though the retrieved evidence was generic.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 4,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 4,
+      "evidence_relevance": 2
+    },
+    "golden_id": "GOLDEN-0053",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0053",
+      "customer_message": "@MicrosoftHelps please help i hate this issue. https://t.co/VB8qqUN5T0",
+      "conversation_context": "MICROSOFT (551161): @248421 Hi there, Daniel! We're here to help. Can you tell us which website you're trying to access? Send us more details about your concern via DM. Thank you. https://t.co/3qcAsLFkaY",
+      "predicted_intent": "Complaint / Feedback",
+      "predicted_escalation": "ESCALATE_TO_HUMAN",
+      "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+      "retrieved_evidence": "{\"evidence_id\": \"590723\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.898052, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps i need help with this problem. https://t.co/Ce1GkcXHHm\"}\n{\"evidence_id\": \"2607841\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.882963, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps \\nWhat's the solution ? https://t.co/DEN3FtopR7\"}\n{\"evidence_id\": \"2157520\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.86748, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \".@MicrosoftHelps some help please. https://t.co/Ii0oOUMqHj\"}",
+      "generated_reply": "We would like to help, but we are unable to resolve the issue based on the provided link alone. Please contact Microsoft support directly for further assistance."
+    }
+  }
+}

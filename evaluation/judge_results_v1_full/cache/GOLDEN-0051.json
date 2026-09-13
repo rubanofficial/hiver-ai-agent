@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0051",
+  "input_fingerprint": "db07918db2d57cbc5b8aac05d1d5181dad2bcaf7cac1df45d4d3ba7983a9d8ce",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:32:58+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0051",
+    "customer_message": "Dear @MicrosoftHelps, we noticed a *HUGE* security issue in Windows 10. Anyone can login as Administrator without being prompted for a password after clicking on \"Run as an administrator\" only one time. Are you aware of it @115890?",
+    "conversation_context": "MICROSOFT (539027): @244980 Hi, Remy! Thank you for bringing this up. Can you tell us when the issue did occur? Do you experience the same using other Windows 10 PC?",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"2064949\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.615071, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Its not a page, Its on the login screen. It just started after the windows 10 1709 update last night. I just want this issue resolved :( | @MicrosoftHelps Is it a known issue with fall update to win10 to cause to ask password twice?\"}\n{\"evidence_id\": \"1620353\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 5}, \"score\": 0.592037, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps It was a local account. Brand new computer. The computer had been on sleep mode. I had to reset Windows. | @MicrosoftHelps I can't log into Win10. I've only had this computer for 2 days. Nothing is on it. What is happening?? | @MicrosoftHelps No errors. But I know I wasn't typing in my password incorrectly. | @MicrosoftHelps So, an hour+ later I'm back in. But, the fix sucks. You all should AT LEAST prompt users to create a password recovery disk upon 1st login. | @MicrosoftHelps It's not helpful to show that as an option after the fact.\"}\n{\"evidence_id\": \"644514\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.58643, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I have to enter Windows login password twice after restarting or shutting down a machine running on Windows10 Fall Creators Update. After entering the login password, they subsequently get redirected back to the Welcome screen prompting to enter the password again | @MicrosoftHelps Sure\"}",
+    "generated_reply": "Hello, thank you for reaching out to MicrosoftHelps. The provided historical evidence does not contain information regarding a security issue where an administrator login bypasses the password prompt via 'Run as an administrator'. Since the evidence is insufficient to safely answer your question, we recommend contacting Microsoft support directly for further assistance with this security concern."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 4,\n  \"clarity\": 4,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 3,\n  \"evidence_support\": 5,\n  \"unsupported_claims\": 5,\n  \"evidence_relevance\": 1,\n  \"grounding_score\": 5,\n  \"reason\": \"The reply appropriately identifies that the retrieved evidence does not contain information to address the specific security vulnerability reported and recommends contacting support, though the meta-commentary about the historical evidence is awkward for a customer-facing reply.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 4,
+    "clarity": 4,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 3,
+    "evidence_support": 5,
+    "unsupported_claims": 5,
+    "evidence_relevance": 1,
+    "grounding_score": 5,
+    "reason": "The reply appropriately identifies that the retrieved evidence does not contain information to address the specific security vulnerability reported and recommends contacting support, though the meta-commentary about the historical evidence is awkward for a customer-facing reply.",
+    "overall_score": 3,
+    "short_reason": "The reply appropriately identifies that the retrieved evidence does not contain information to address the specific security vulnerability reported and recommends contacting support, though the meta-commentary about the historical evidence is awkward for a customer-facing reply.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 4,
+      "clarity": 4,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 5,
+      "unsupported_claims": 5,
+      "evidence_relevance": 1
+    },
+    "golden_id": "GOLDEN-0051",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0051",
+      "customer_message": "Dear @MicrosoftHelps, we noticed a *HUGE* security issue in Windows 10. Anyone can login as Administrator without being prompted for a password after clicking on \"Run as an administrator\" only one time. Are you aware of it @115890?",
+      "conversation_context": "MICROSOFT (539027): @244980 Hi, Remy! Thank you for bringing this up. Can you tell us when the issue did occur? Do you experience the same using other Windows 10 PC?",
+      "predicted_intent": "Technical Troubleshooting",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"2064949\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.615071, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Its not a page, Its on the login screen. It just started after the windows 10 1709 update last night. I just want this issue resolved :( | @MicrosoftHelps Is it a known issue with fall update to win10 to cause to ask password twice?\"}\n{\"evidence_id\": \"1620353\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 5}, \"score\": 0.592037, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps It was a local account. Brand new computer. The computer had been on sleep mode. I had to reset Windows. | @MicrosoftHelps I can't log into Win10. I've only had this computer for 2 days. Nothing is on it. What is happening?? | @MicrosoftHelps No errors. But I know I wasn't typing in my password incorrectly. | @MicrosoftHelps So, an hour+ later I'm back in. But, the fix sucks. You all should AT LEAST prompt users to create a password recovery disk upon 1st login. | @MicrosoftHelps It's not helpful to show that as an option after the fact.\"}\n{\"evidence_id\": \"644514\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.58643, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I have to enter Windows login password twice after restarting or shutting down a machine running on Windows10 Fall Creators Update. After entering the login password, they subsequently get redirected back to the Welcome screen prompting to enter the password again | @MicrosoftHelps Sure\"}",
+      "generated_reply": "Hello, thank you for reaching out to MicrosoftHelps. The provided historical evidence does not contain information regarding a security issue where an administrator login bypasses the password prompt via 'Run as an administrator'. Since the evidence is insufficient to safely answer your question, we recommend contacting Microsoft support directly for further assistance with this security concern."
+    }
+  }
+}

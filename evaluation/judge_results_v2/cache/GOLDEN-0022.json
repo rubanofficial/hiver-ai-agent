@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0022",
+  "input_fingerprint": "4a89af51ffc632370678578d5a92e994df801029c5a2d3d75148aa4e7ad0f4d6",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-12T04:32:38+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0022",
+    "customer_message": "Updating @116230  again... Been down since 6.",
+    "conversation_context": "MICROSOFT (218852): @168187 Hello, Curtis. Just doing a follow-up on your case. Are you still experiencing the issue with the update?\nCUSTOMER (218853): @116230 No error codes and windows does not list a failed update in update history.\nMICROSOFT (218854): @168187 Hi, Curtis. Let us know on how we can improve our support here: https://t.co/T4fh0hA8Z7. Thank you.\nCUSTOMER (218855): @168187 Gotcha. Did you see any error codes or messages when this occurred? Let's see if we can sort this out.\nCUSTOMER (218856): @116230 Update failed. No easy explanation why. But it's been running fine after the failure.\nCUSTOMER (218857): @168187 Understood. How is your device running after the update?\nCUSTOMER (218858): @116230 It's a typical thing updates triggered when I left work and when I get home I have to wait some span of time before I can work again.\nCUSTOMER (218859): @168187 Hi, Curtis. Can you please tell us more about what's going on? We're here to help if you need us.",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"886975\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.716594, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \". @116230 update once again breaks another one of my PC's. Of course.\"}\n{\"evidence_id\": \"2151581\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 1}, \"score\": 0.668482, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@116230 WTF!? Just updated my laptop and got this bloody message thanks for the update. Bloody Hell! https://t.co/OnoZTugoPe\"}\n{\"evidence_id\": \"669048\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.653998, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Fighting off @116230 and @144408 updates to keep my addons from breaking.\"}",
+    "generated_reply": "Hello, thank you for reaching out to MicrosoftHelps. We see you are experiencing issues with an update. Based on similar cases where users reported update and compatibility issues, we recommend checking your system settings or pausing updates temporarily if addons or system stability are affected. For further assistance, please visit Microsoft Support."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 4,\n  \"clarity\": 4,\n  \"escalation_appropriateness\": 3,\n  \"overall_reply_score\": 3,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 3,\n  \"evidence_relevance\": 3,\n  \"grounding_score\": 3,\n  \"reason\": \"The reply addresses the update issue mentioned by the customer and offers general troubleshooting advice based loosely on retrieved evidence, but lacks specific actionable steps for the customer's unique situation where the update failed silently.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 4,
+    "clarity": 4,
+    "escalation_appropriateness": 3,
+    "overall_reply_score": 3,
+    "evidence_support": 3,
+    "unsupported_claims": 3,
+    "evidence_relevance": 3,
+    "grounding_score": 3,
+    "reason": "The reply addresses the update issue mentioned by the customer and offers general troubleshooting advice based loosely on retrieved evidence, but lacks specific actionable steps for the customer's unique situation where the update failed silently.",
+    "overall_score": 3,
+    "short_reason": "The reply addresses the update issue mentioned by the customer and offers general troubleshooting advice based loosely on retrieved evidence, but lacks specific actionable steps for the customer's unique situation where the update failed silently.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 4,
+      "clarity": 4,
+      "escalation_appropriateness": 3
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 3,
+      "evidence_relevance": 3
+    },
+    "golden_id": "GOLDEN-0022",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0022",
+      "customer_message": "Updating @116230  again... Been down since 6.",
+      "conversation_context": "MICROSOFT (218852): @168187 Hello, Curtis. Just doing a follow-up on your case. Are you still experiencing the issue with the update?\nCUSTOMER (218853): @116230 No error codes and windows does not list a failed update in update history.\nMICROSOFT (218854): @168187 Hi, Curtis. Let us know on how we can improve our support here: https://t.co/T4fh0hA8Z7. Thank you.\nCUSTOMER (218855): @168187 Gotcha. Did you see any error codes or messages when this occurred? Let's see if we can sort this out.\nCUSTOMER (218856): @116230 Update failed. No easy explanation why. But it's been running fine after the failure.\nCUSTOMER (218857): @168187 Understood. How is your device running after the update?\nCUSTOMER (218858): @116230 It's a typical thing updates triggered when I left work and when I get home I have to wait some span of time before I can work again.\nCUSTOMER (218859): @168187 Hi, Curtis. Can you please tell us more about what's going on? We're here to help if you need us.",
+      "predicted_intent": "Technical Troubleshooting",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"886975\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.716594, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \". @116230 update once again breaks another one of my PC's. Of course.\"}\n{\"evidence_id\": \"2151581\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 1}, \"score\": 0.668482, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@116230 WTF!? Just updated my laptop and got this bloody message thanks for the update. Bloody Hell! https://t.co/OnoZTugoPe\"}\n{\"evidence_id\": \"669048\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.653998, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Fighting off @116230 and @144408 updates to keep my addons from breaking.\"}",
+      "generated_reply": "Hello, thank you for reaching out to MicrosoftHelps. We see you are experiencing issues with an update. Based on similar cases where users reported update and compatibility issues, we recommend checking your system settings or pausing updates temporarily if addons or system stability are affected. For further assistance, please visit Microsoft Support."
+    }
+  }
+}

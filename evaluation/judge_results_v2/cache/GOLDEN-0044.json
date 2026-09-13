@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0044",
+  "input_fingerprint": "66d3dce1b3b1bdf5fb24104fd91b041446cc55f884ce5d710c0487ea5bb7e52b",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-12T04:33:17+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0044",
+    "customer_message": "@MicrosoftHelps hey guys literally nothing will download on my laptop",
+    "conversation_context": "MICROSOFT (471425): @152091 Hi! Thanks for bringing this up. Which version of Windows are you running? Are you getting any error messages? Did you check your Internet connection?",
+    "predicted_intent": "Microsoft Store",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"908378\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.742047, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Not my computer but a friend.\"}\n{\"evidence_id\": \"1901646\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.700097, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps can you guys help me my computer won’t update\"}\n{\"evidence_id\": \"1028820\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.69601, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps please help I can't download what's app or update it\"}",
+    "generated_reply": "Hello! We are sorry to hear that you are having trouble downloading items on your laptop. While we do not have specific troubleshooting steps for this in our recent history, we recommend reaching out to Microsoft Support for further assistance with your downloads."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 4,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 3,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 4,\n  \"evidence_relevance\": 2,\n  \"grounding_score\": 3,\n  \"reason\": \"The reply is polite and clearly written, appropriately suggesting contacting Microsoft Support, but the retrieved evidence lacks specific troubleshooting steps to resolve the customer's downloading issue.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 4,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 3,
+    "evidence_support": 3,
+    "unsupported_claims": 4,
+    "evidence_relevance": 2,
+    "grounding_score": 3,
+    "reason": "The reply is polite and clearly written, appropriately suggesting contacting Microsoft Support, but the retrieved evidence lacks specific troubleshooting steps to resolve the customer's downloading issue.",
+    "overall_score": 3,
+    "short_reason": "The reply is polite and clearly written, appropriately suggesting contacting Microsoft Support, but the retrieved evidence lacks specific troubleshooting steps to resolve the customer's downloading issue.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 4,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 4,
+      "evidence_relevance": 2
+    },
+    "golden_id": "GOLDEN-0044",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0044",
+      "customer_message": "@MicrosoftHelps hey guys literally nothing will download on my laptop",
+      "conversation_context": "MICROSOFT (471425): @152091 Hi! Thanks for bringing this up. Which version of Windows are you running? Are you getting any error messages? Did you check your Internet connection?",
+      "predicted_intent": "Microsoft Store",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"908378\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.742047, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Not my computer but a friend.\"}\n{\"evidence_id\": \"1901646\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.700097, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps can you guys help me my computer won’t update\"}\n{\"evidence_id\": \"1028820\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.69601, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps please help I can't download what's app or update it\"}",
+      "generated_reply": "Hello! We are sorry to hear that you are having trouble downloading items on your laptop. While we do not have specific troubleshooting steps for this in our recent history, we recommend reaching out to Microsoft Support for further assistance with your downloads."
+    }
+  }
+}

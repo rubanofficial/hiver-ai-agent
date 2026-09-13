@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0030",
+  "input_fingerprint": "b48b90f544c770770193857429e0a2262779c856ac6628b4295595a9fdaf6faf",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:30:22+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0030",
+    "customer_message": "@MicrosoftHelps I think my account has been hacked. HELP!",
+    "conversation_context": "MICROSOFT (347322): @198715 Hi, James. We're here to help. Follow the steps here: https://t.co/jETPT2x8jF to secure your account. https://t.co/3qcAsLFkaY",
+    "predicted_intent": "Account & Login",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"2528205\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.908164, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps someone hacked my account and now i cant sign in\"}\n{\"evidence_id\": \"338497\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.846286, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps does this email seem@legit to you i got a txt aswell! https://t.co/roAv5mj3ld | @MicrosoftHelps Hi, i dont think so but i am still unsure why i got the email in the first place...how do i work out if my@account has actually been hacked\"}\n{\"evidence_id\": \"2625867\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.839808, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Tried that online form but the thing said i didnt give enough info to recover the account | Gotta love @MicrosoftHelps my email gets hacked and i cant get it back cause i cant provide info for stuff i used years ago\"}",
+    "generated_reply": "We are sorry to hear that you are having trouble signing in. Please use our online account recovery form to try and regain access to your account. If you need further assistance, please contact Microsoft support directly."
+  },
+  "raw_response": "{\n  \"correctness\": 4,\n  \"helpfulness\": 4,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 4,\n  \"evidence_support\": 4,\n  \"unsupported_claims\": 5,\n  \"evidence_relevance\": 4,\n  \"grounding_score\": 4,\n  \"reason\": \"The reply directly addresses the hacked account issue by suggesting the account recovery form and offering contact support, aligning well with typical account recovery procedures.\"\n}",
+  "result": {
+    "correctness": 4,
+    "helpfulness": 4,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 4,
+    "evidence_support": 4,
+    "unsupported_claims": 5,
+    "evidence_relevance": 4,
+    "grounding_score": 4,
+    "reason": "The reply directly addresses the hacked account issue by suggesting the account recovery form and offering contact support, aligning well with typical account recovery procedures.",
+    "overall_score": 4,
+    "short_reason": "The reply directly addresses the hacked account issue by suggesting the account recovery form and offering contact support, aligning well with typical account recovery procedures.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 4,
+      "helpfulness": 4,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 4,
+      "unsupported_claims": 5,
+      "evidence_relevance": 4
+    },
+    "golden_id": "GOLDEN-0030",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0030",
+      "customer_message": "@MicrosoftHelps I think my account has been hacked. HELP!",
+      "conversation_context": "MICROSOFT (347322): @198715 Hi, James. We're here to help. Follow the steps here: https://t.co/jETPT2x8jF to secure your account. https://t.co/3qcAsLFkaY",
+      "predicted_intent": "Account & Login",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"2528205\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.908164, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps someone hacked my account and now i cant sign in\"}\n{\"evidence_id\": \"338497\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.846286, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps does this email seem@legit to you i got a txt aswell! https://t.co/roAv5mj3ld | @MicrosoftHelps Hi, i dont think so but i am still unsure why i got the email in the first place...how do i work out if my@account has actually been hacked\"}\n{\"evidence_id\": \"2625867\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.839808, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Tried that online form but the thing said i didnt give enough info to recover the account | Gotta love @MicrosoftHelps my email gets hacked and i cant get it back cause i cant provide info for stuff i used years ago\"}",
+      "generated_reply": "We are sorry to hear that you are having trouble signing in. Please use our online account recovery form to try and regain access to your account. If you need further assistance, please contact Microsoft support directly."
+    }
+  }
+}

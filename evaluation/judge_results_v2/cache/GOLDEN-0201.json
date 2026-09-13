@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0201",
+  "input_fingerprint": "12ff85adf65088052d1c6b5205e29439abc55d8eecd8845fe968b6143f70037f",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:05:35+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0201",
+    "customer_message": "@MicrosoftHelps 40 minutes on hold for Surface support, no option for callback. Time to go home, do I hangup &amp; start the wait over tomorrow?",
+    "conversation_context": "MICROSOFT (50477): @127326 If that's the case, then you may contact our Business Support team here: https://t.co/vHbEoDkHkm\nCUSTOMER (50478): @MicrosoftHelps I did, their response was that we don't have coverage, How is it that our purchase of extend support coverage is not linked to device's s/n?\nCUSTOMER (50479): @MicrosoftHelps Yes, this is a business device with extended warranty coverage.\nMICROSOFT (50480): @127326 Got it. We'll get to the bottom of this. Mind sending us the most recent Service Request #? Please meet us in DM. https://t.co/3qcAsLFkaY\nMICROSOFT (50481): @127326 We'd like to know if you have an extended warranty for Surface. If you're using Surface for business, check here: https://t.co/gNa6Yp6bVx\nCUSTOMER (50482): @MicrosoftHelps If the Surface has extended business support, does that change the process or who to contact?\nMICROSOFT (50483): @127326 We suggest that you contact the Answer Desk here: https://t.co/MSgCHnzSRr or our Global Customer Service team here: https://t.co/DXgKnHal4h\nCUSTOMER (50484): @MicrosoftHelps Surface Pro with a crack screened. Was calling to initiate repair process.\nMICROSOFT (50485): @127326 Hello Moses. We're here to help. Can you give us more details of your concern? Can you also tell us which Surface device you are using?",
+    "predicted_intent": "Complaint / Feedback",
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+    "retrieved_evidence": "{\"evidence_id\": \"95582\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 3}, \"score\": 0.746013, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I spent a few hours on chat with your support team. while very helpful they could not solve the problem which is why I wanted to speak to a human.  But, my Surface is still under warranty and I'm sending it back for a new one. | @115890 @MicrosoftHelps @115890 No one called.  I'm not surprised. | @115890 I scheduled a tech support call for today at 7:15 p.m. I'm still waiting for that call.  What's the point in having a call scheduler when you can't keep your commitment. My time is just as valuable as yours.\"}\n{\"evidence_id\": \"2880378\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.726755, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I was supposed to get a callback from support two hours ago. The machine said it'd be 15 minutes, confirmed my number too. Did they just give up on me?\"}\n{\"evidence_id\": \"572322\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.725914, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I needed support and I was put on a waiting list for a phone call. Was told “approximately 82 minutes” and it’s been 2+ hours now\"}",
+    "generated_reply": "We apologize for the lengthy wait and the frustration with reaching Surface support. Based on similar cases where customers experienced long hold times or missed callbacks, we recommend continuing to wait if possible, or trying to schedule support again through our online portal. We appreciate your patience."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 4,\n  \"clarity\": 4,\n  \"escalation_appropriateness\": 3,\n  \"overall_reply_score\": 3,\n  \"evidence_support\": 2,\n  \"unsupported_claims\": 2,\n  \"evidence_relevance\": 3,\n  \"grounding_score\": 2,\n  \"reason\": \"The reply acknowledges the customer's hold time complaint and suggests waiting or using the online portal, but it introduces generic advice not directly backed by specific support policies in the evidence.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 4,
+    "clarity": 4,
+    "escalation_appropriateness": 3,
+    "overall_reply_score": 3,
+    "evidence_support": 2,
+    "unsupported_claims": 2,
+    "evidence_relevance": 3,
+    "grounding_score": 2,
+    "reason": "The reply acknowledges the customer's hold time complaint and suggests waiting or using the online portal, but it introduces generic advice not directly backed by specific support policies in the evidence.",
+    "overall_score": 3,
+    "short_reason": "The reply acknowledges the customer's hold time complaint and suggests waiting or using the online portal, but it introduces generic advice not directly backed by specific support policies in the evidence.",
+    "grounding_decision": "UNSUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 4,
+      "clarity": 4,
+      "escalation_appropriateness": 3
+    },
+    "evidence_grounding": {
+      "evidence_support": 2,
+      "unsupported_claims": 2,
+      "evidence_relevance": 3
+    },
+    "golden_id": "GOLDEN-0201",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0201",
+      "customer_message": "@MicrosoftHelps 40 minutes on hold for Surface support, no option for callback. Time to go home, do I hangup &amp; start the wait over tomorrow?",
+      "conversation_context": "MICROSOFT (50477): @127326 If that's the case, then you may contact our Business Support team here: https://t.co/vHbEoDkHkm\nCUSTOMER (50478): @MicrosoftHelps I did, their response was that we don't have coverage, How is it that our purchase of extend support coverage is not linked to device's s/n?\nCUSTOMER (50479): @MicrosoftHelps Yes, this is a business device with extended warranty coverage.\nMICROSOFT (50480): @127326 Got it. We'll get to the bottom of this. Mind sending us the most recent Service Request #? Please meet us in DM. https://t.co/3qcAsLFkaY\nMICROSOFT (50481): @127326 We'd like to know if you have an extended warranty for Surface. If you're using Surface for business, check here: https://t.co/gNa6Yp6bVx\nCUSTOMER (50482): @MicrosoftHelps If the Surface has extended business support, does that change the process or who to contact?\nMICROSOFT (50483): @127326 We suggest that you contact the Answer Desk here: https://t.co/MSgCHnzSRr or our Global Customer Service team here: https://t.co/DXgKnHal4h\nCUSTOMER (50484): @MicrosoftHelps Surface Pro with a crack screened. Was calling to initiate repair process.\nMICROSOFT (50485): @127326 Hello Moses. We're here to help. Can you give us more details of your concern? Can you also tell us which Surface device you are using?",
+      "predicted_intent": "Complaint / Feedback",
+      "predicted_escalation": "ESCALATE_TO_HUMAN",
+      "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+      "retrieved_evidence": "{\"evidence_id\": \"95582\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 3}, \"score\": 0.746013, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I spent a few hours on chat with your support team. while very helpful they could not solve the problem which is why I wanted to speak to a human.  But, my Surface is still under warranty and I'm sending it back for a new one. | @115890 @MicrosoftHelps @115890 No one called.  I'm not surprised. | @115890 I scheduled a tech support call for today at 7:15 p.m. I'm still waiting for that call.  What's the point in having a call scheduler when you can't keep your commitment. My time is just as valuable as yours.\"}\n{\"evidence_id\": \"2880378\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.726755, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I was supposed to get a callback from support two hours ago. The machine said it'd be 15 minutes, confirmed my number too. Did they just give up on me?\"}\n{\"evidence_id\": \"572322\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.725914, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I needed support and I was put on a waiting list for a phone call. Was told “approximately 82 minutes” and it’s been 2+ hours now\"}",
+      "generated_reply": "We apologize for the lengthy wait and the frustration with reaching Surface support. Based on similar cases where customers experienced long hold times or missed callbacks, we recommend continuing to wait if possible, or trying to schedule support again through our online portal. We appreciate your patience."
+    }
+  }
+}

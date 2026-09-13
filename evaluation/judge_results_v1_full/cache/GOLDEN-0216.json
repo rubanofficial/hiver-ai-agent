@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0216",
+  "input_fingerprint": "d4c5198490bde92cbb9074ef4ee8920ce9408ea75c3aa68dddc0901ff7869c7b",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:49:21+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0216",
+    "customer_message": "@135958 Whom should I contact to know about my order status. Calling Store support is not helping.From last three days, they keeps saying that this has been forwarded to escalation team and I don't know what is happening with my order",
+    "conversation_context": "MICROSOFT (92022): @135957 We certainly want to help you with this, Sujith. Can you send us the Service Request number provided by our support? We'll be escalating your concern for more in-depth assistance.\nCUSTOMER (92023): @MicrosoftHelps Service request number is 1406102664\nCUSTOMER (92024): @MicrosoftHelps Calling Microsoft Store Sales and Customer Support did not help. I called them multiple times since last three days and they keep saying that this has been forwarded to escalation team. Now three days are over and still I don't know what happened to my order\nMICROSOFT (92025): @135957 Kindly delete this tweet as this include your personal information. Let's continue the discussion via Direct Message.\nMICROSOFT (92026): @135957 Thank you for sending us a DM. We suggest contacting our Microsoft Store Sales and Customer Support regarding this matter. Call them at 1-877-696-7786. https://t.co/3qcAsLFkaY",
+    "predicted_intent": "Order / Delivery",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"607977\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.672233, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I still haven't received a call about a missing order\"}\n{\"evidence_id\": \"2390101\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 5}, \"score\": 0.625209, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I decently will thank you. This order means the. Work me me love 💗 | @MicrosoftHelps I went to check my order status and it said it was cancelled!!!!! | @MicrosoftHelps HELP HELP HELP! Is your support phone line open 24 hours a day?????!!!! | @MicrosoftHelps Or a survey I can take about my experience with the Microsoft Store? | @MicrosoftHelps Yes I was able to find out what happened. Is there a survey I can take for the customer support phone line?\"}\n{\"evidence_id\": \"2168402\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 3}, \"score\": 0.604242, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Done that daily and response is totally unacceptable. Asked twice to speak to a manager and told there were none to be found. Asked for one to call me later and told they could not guarantee that anyone would call (nobody has). No respect for customers. Completely frustrated. | Not even an acknowledgement?  Unreal.  So much for a “premium” experience.  @115788 @15913 @154969 @246052 | No sign of my Scorpio preorder and escalation going nowhere fast.  No help from @135958 or @154969 ??  So disappointed.\"}",
+    "generated_reply": "We apologize for the frustration and delay you are experiencing with your order status. Since store support and escalations have not provided a resolution, please contact Microsoft Support directly for further assistance with your order."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 2,\n  \"relevance\": 4,\n  \"clarity\": 4,\n  \"escalation_appropriateness\": 3,\n  \"overall_reply_score\": 3,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 3,\n  \"evidence_relevance\": 3,\n  \"grounding_score\": 3,\n  \"reason\": \"The reply acknowledges the customer's frustration regarding store support and escalations failing to help, but simply tells them to contact Microsoft Support directly again, which is unhelpful since the customer already stated store support is not helping.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 2,
+    "relevance": 4,
+    "clarity": 4,
+    "escalation_appropriateness": 3,
+    "overall_reply_score": 3,
+    "evidence_support": 3,
+    "unsupported_claims": 3,
+    "evidence_relevance": 3,
+    "grounding_score": 3,
+    "reason": "The reply acknowledges the customer's frustration regarding store support and escalations failing to help, but simply tells them to contact Microsoft Support directly again, which is unhelpful since the customer already stated store support is not helping.",
+    "overall_score": 3,
+    "short_reason": "The reply acknowledges the customer's frustration regarding store support and escalations failing to help, but simply tells them to contact Microsoft Support directly again, which is unhelpful since the customer already stated store support is not helping.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 2,
+      "relevance": 4,
+      "clarity": 4,
+      "escalation_appropriateness": 3
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 3,
+      "evidence_relevance": 3
+    },
+    "golden_id": "GOLDEN-0216",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0216",
+      "customer_message": "@135958 Whom should I contact to know about my order status. Calling Store support is not helping.From last three days, they keeps saying that this has been forwarded to escalation team and I don't know what is happening with my order",
+      "conversation_context": "MICROSOFT (92022): @135957 We certainly want to help you with this, Sujith. Can you send us the Service Request number provided by our support? We'll be escalating your concern for more in-depth assistance.\nCUSTOMER (92023): @MicrosoftHelps Service request number is 1406102664\nCUSTOMER (92024): @MicrosoftHelps Calling Microsoft Store Sales and Customer Support did not help. I called them multiple times since last three days and they keep saying that this has been forwarded to escalation team. Now three days are over and still I don't know what happened to my order\nMICROSOFT (92025): @135957 Kindly delete this tweet as this include your personal information. Let's continue the discussion via Direct Message.\nMICROSOFT (92026): @135957 Thank you for sending us a DM. We suggest contacting our Microsoft Store Sales and Customer Support regarding this matter. Call them at 1-877-696-7786. https://t.co/3qcAsLFkaY",
+      "predicted_intent": "Order / Delivery",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"607977\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.672233, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I still haven't received a call about a missing order\"}\n{\"evidence_id\": \"2390101\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 5}, \"score\": 0.625209, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I decently will thank you. This order means the. Work me me love 💗 | @MicrosoftHelps I went to check my order status and it said it was cancelled!!!!! | @MicrosoftHelps HELP HELP HELP! Is your support phone line open 24 hours a day?????!!!! | @MicrosoftHelps Or a survey I can take about my experience with the Microsoft Store? | @MicrosoftHelps Yes I was able to find out what happened. Is there a survey I can take for the customer support phone line?\"}\n{\"evidence_id\": \"2168402\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 3}, \"score\": 0.604242, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Done that daily and response is totally unacceptable. Asked twice to speak to a manager and told there were none to be found. Asked for one to call me later and told they could not guarantee that anyone would call (nobody has). No respect for customers. Completely frustrated. | Not even an acknowledgement?  Unreal.  So much for a “premium” experience.  @115788 @15913 @154969 @246052 | No sign of my Scorpio preorder and escalation going nowhere fast.  No help from @135958 or @154969 ??  So disappointed.\"}",
+      "generated_reply": "We apologize for the frustration and delay you are experiencing with your order status. Since store support and escalations have not provided a resolution, please contact Microsoft Support directly for further assistance with your order."
+    }
+  }
+}

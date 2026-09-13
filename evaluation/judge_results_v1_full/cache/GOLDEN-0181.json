@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0181",
+  "input_fingerprint": "b9ca535d9120275193e828797341eddd57158cec1f67d5b91cc3b75c8b47fd57",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:45:42+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0181",
+    "customer_message": "@MicrosoftHelps Hello there, I was about to create an Outlook account for a family member on https://t.co/TAx7RxrPJX but it's showing me that I have reached the daily limit of account creation even though I haven't created any account. Any way to fix that? Thanks!",
+    "conversation_context": "MICROSOFT (2690247): @756313 Hi, Tiago! For us to provide you an accurate resolution, may we know if you are using a Personal or a Business account?\nCUSTOMER (2690248): @MicrosoftHelps Hi there, it resolved itself after a couple of minutes. I was once again able to create an account. :)",
+    "predicted_intent": "Account & Login",
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "No evidence reached the confidence threshold for a safe autonomous reply (minimum 0.60); human review is required.",
+    "retrieved_evidence": "{\"evidence_id\": \"1540712\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.575617, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@115890 why are my outlook settings out of date every day,surely i dont have to recover my account daily 😕\"}\n{\"evidence_id\": \"1480992\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.54125, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps It’s telling me that my account doesn’t exist. And its the account that I use daily for work.\"}\n{\"evidence_id\": \"2301997\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 6}, \"score\": 0.533156, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Yes - receiving this message. Thanks. https://t.co/rnKq000AEt | I'm trying to add our kids to @MicrosoftHelps and it's not possible to have more than six people in an account. So either I don't connect with my husband or I have to leave a kid out and can't monitor screen time or content restrictions. Surely this is an oversight? | @668065 @MicrosoftHelps Hi Kelly, yes, as you have discovered, currently there is a limit of 6 members in a Microsoft Family. We have some workarounds at https://t.co/cWUvDuqkdM | @667242 @MicrosoftHelps Hi Daniel - When will this be resolved? I'm not seeing anything in your FAQ link that helps us address this problem for our family. Why not just remove the limit? | @668065 @MicrosoftHelps We agree that the family limit is a painful issue that we need to address, but I can't speak for the team as to specific plans or timelines. | @668065 @MicrosoftHelps Oops, you are right, I need to add that section still. Currently the workaround is to have more than one family, or to create a shared account that you and your husband can use to manage parental controls.\"}",
+    "generated_reply": "Hello! I'm sorry to hear that you are encountering an issue while trying to create an Outlook account. Unfortunately, I do not have specific troubleshooting steps for this daily limit error in my current resources. Please contact Microsoft support directly for further assistance with your account creation."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 4,\n  \"evidence_support\": 5,\n  \"unsupported_claims\": 5,\n  \"evidence_relevance\": 1,\n  \"grounding_score\": 5,\n  \"reason\": \"The customer stated the issue resolved itself, but the model generated a response acknowledging the daily limit error and suggested contacting support appropriately since retrieved evidence lacked relevant troubleshooting steps.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 4,
+    "evidence_support": 5,
+    "unsupported_claims": 5,
+    "evidence_relevance": 1,
+    "grounding_score": 5,
+    "reason": "The customer stated the issue resolved itself, but the model generated a response acknowledging the daily limit error and suggested contacting support appropriately since retrieved evidence lacked relevant troubleshooting steps.",
+    "overall_score": 4,
+    "short_reason": "The customer stated the issue resolved itself, but the model generated a response acknowledging the daily limit error and suggested contacting support appropriately since retrieved evidence lacked relevant troubleshooting steps.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 5,
+      "unsupported_claims": 5,
+      "evidence_relevance": 1
+    },
+    "golden_id": "GOLDEN-0181",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0181",
+      "customer_message": "@MicrosoftHelps Hello there, I was about to create an Outlook account for a family member on https://t.co/TAx7RxrPJX but it's showing me that I have reached the daily limit of account creation even though I haven't created any account. Any way to fix that? Thanks!",
+      "conversation_context": "MICROSOFT (2690247): @756313 Hi, Tiago! For us to provide you an accurate resolution, may we know if you are using a Personal or a Business account?\nCUSTOMER (2690248): @MicrosoftHelps Hi there, it resolved itself after a couple of minutes. I was once again able to create an account. :)",
+      "predicted_intent": "Account & Login",
+      "predicted_escalation": "ESCALATE_TO_HUMAN",
+      "predicted_escalation_reason": "No evidence reached the confidence threshold for a safe autonomous reply (minimum 0.60); human review is required.",
+      "retrieved_evidence": "{\"evidence_id\": \"1540712\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.575617, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@115890 why are my outlook settings out of date every day,surely i dont have to recover my account daily 😕\"}\n{\"evidence_id\": \"1480992\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.54125, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps It’s telling me that my account doesn’t exist. And its the account that I use daily for work.\"}\n{\"evidence_id\": \"2301997\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 6}, \"score\": 0.533156, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Yes - receiving this message. Thanks. https://t.co/rnKq000AEt | I'm trying to add our kids to @MicrosoftHelps and it's not possible to have more than six people in an account. So either I don't connect with my husband or I have to leave a kid out and can't monitor screen time or content restrictions. Surely this is an oversight? | @668065 @MicrosoftHelps Hi Kelly, yes, as you have discovered, currently there is a limit of 6 members in a Microsoft Family. We have some workarounds at https://t.co/cWUvDuqkdM | @667242 @MicrosoftHelps Hi Daniel - When will this be resolved? I'm not seeing anything in your FAQ link that helps us address this problem for our family. Why not just remove the limit? | @668065 @MicrosoftHelps We agree that the family limit is a painful issue that we need to address, but I can't speak for the team as to specific plans or timelines. | @668065 @MicrosoftHelps Oops, you are right, I need to add that section still. Currently the workaround is to have more than one family, or to create a shared account that you and your husband can use to manage parental controls.\"}",
+      "generated_reply": "Hello! I'm sorry to hear that you are encountering an issue while trying to create an Outlook account. Unfortunately, I do not have specific troubleshooting steps for this daily limit error in my current resources. Please contact Microsoft support directly for further assistance with your account creation."
+    }
+  }
+}

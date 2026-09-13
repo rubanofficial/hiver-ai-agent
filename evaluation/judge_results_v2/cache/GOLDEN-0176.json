@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0176",
+  "input_fingerprint": "08e1c6219f5cd77a04262a104ed1e52b18f3d92ae5e6de8db7ec7008f3924115",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T11:43:18+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0176",
+    "customer_message": "@MicrosoftHelps It's definitely lasted well. It's only recently started hitting issues. I've planned to upgrade for a while now. I'm definitely gonna get another Surface as my next tablet, though. ^.^",
+    "conversation_context": "MICROSOFT (2582324): @220504 No worries. We'll keep an eye on your tweet.\nCUSTOMER (2582325): @152402 I still haven't tried it yet. I'll let you know how it turns out!\nCUSTOMER (2582326): @220504 Hi. We just wanted to know if the resolution we have provided resolved the battery notification discrepancy that you've experienced?\nCUSTOMER (2582327): @152402 It hasn't fixed it, but I now think it's probably just the battery being old and not holding charge as well as it used to. To see if it had fixed it, I tried to run the battery right down...\nCUSTOMER (2582328): @MicrosoftHelps my @123127 seems to have stopped giving me low battery warnings. It just runs down to 0% and shuts down suddenly. Where's the settings for this so I can turn the warnings back on?\nMICROSOFT (2622401): @220504 er Yes, we have to consider that it's old that's why it doesn't hold as much charge back in the day and the sudden drop from 15% to 0% indicates the wear level where-in, the 15% charge doesn't last long as it used to. Have you installed the latest Windows update?\nCUSTOMER (2622402): @MicrosoftHelps Yes. I have got the latest updates. It is pretty old for a tablet now as it's a Surface Pro, first generation.\nCUSTOMER (2622403): @152402 ... it got down to 15%, then warned me of a low battery &amp; immediately hibernated. I plugged it in, and woke it up, and the battery was suddenly showing 0% charge.\nMICROSOFT (2622404): @220504 It's still a good thing that it function as it's supposed to aside from the battery, despite the fact that it was the first version. If you consider getting a new one, you can check the new line of Surface devices here: https://t.co/tFXPULxWPL",
+    "predicted_intent": "Complaint / Feedback",
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+    "retrieved_evidence": "{\"evidence_id\": \"1374374\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.640082, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Sure. 6 tablets deployed ~Sept 2016, 1st tablet replaced under warranty for keyboard issues in July. Another tablet w/ dead SSD this week. | @MicrosoftHelps OK, Microsoft, 2 of my 6 field deployed Surface Pro 4's should not die after 15 months of gentle use. Help me.\"}\n{\"evidence_id\": \"2521555\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.633348, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"bought a microsoft surface. had it for 2hours now. here are my problems with it so far:\\n-can’t download google apps (docs, youtube,tumblr)\"}\n{\"evidence_id\": \"643182\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.623262, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I have taken it back to pc world and they have now sent it back yourselves with hard drive failure 😥. Really not happy as I paid more than I was looking to spend because I thought the surface was a safe option and this happens within 12 mths.  Would appreciate it back soon | @123127 Not Happy - surface pro 4 less than 12 months old and it appears hard drive has gone - not good 😡😱\"}",
+    "generated_reply": "Thank you for reaching out and for your continued loyalty to Surface! We are glad to hear your current device has lasted well, and we appreciate your feedback as you plan for an upgrade."
+  },
+  "raw_response": "{\n  \"correctness\": 5,\n  \"helpfulness\": 5,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 5,\n  \"evidence_support\": 5,\n  \"unsupported_claims\": 5,\n  \"evidence_relevance\": 3,\n  \"grounding_score\": 5,\n  \"reason\": \"The reply appropriately acknowledges the customer's positive feedback and intent to upgrade their older Surface device, maintaining a polite and professional tone.\"\n}",
+  "result": {
+    "correctness": 5,
+    "helpfulness": 5,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 5,
+    "evidence_support": 5,
+    "unsupported_claims": 5,
+    "evidence_relevance": 3,
+    "grounding_score": 5,
+    "reason": "The reply appropriately acknowledges the customer's positive feedback and intent to upgrade their older Surface device, maintaining a polite and professional tone.",
+    "overall_score": 5,
+    "short_reason": "The reply appropriately acknowledges the customer's positive feedback and intent to upgrade their older Surface device, maintaining a polite and professional tone.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 5,
+      "helpfulness": 5,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 5,
+      "unsupported_claims": 5,
+      "evidence_relevance": 3
+    },
+    "golden_id": "GOLDEN-0176",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0176",
+      "customer_message": "@MicrosoftHelps It's definitely lasted well. It's only recently started hitting issues. I've planned to upgrade for a while now. I'm definitely gonna get another Surface as my next tablet, though. ^.^",
+      "conversation_context": "MICROSOFT (2582324): @220504 No worries. We'll keep an eye on your tweet.\nCUSTOMER (2582325): @152402 I still haven't tried it yet. I'll let you know how it turns out!\nCUSTOMER (2582326): @220504 Hi. We just wanted to know if the resolution we have provided resolved the battery notification discrepancy that you've experienced?\nCUSTOMER (2582327): @152402 It hasn't fixed it, but I now think it's probably just the battery being old and not holding charge as well as it used to. To see if it had fixed it, I tried to run the battery right down...\nCUSTOMER (2582328): @MicrosoftHelps my @123127 seems to have stopped giving me low battery warnings. It just runs down to 0% and shuts down suddenly. Where's the settings for this so I can turn the warnings back on?\nMICROSOFT (2622401): @220504 er Yes, we have to consider that it's old that's why it doesn't hold as much charge back in the day and the sudden drop from 15% to 0% indicates the wear level where-in, the 15% charge doesn't last long as it used to. Have you installed the latest Windows update?\nCUSTOMER (2622402): @MicrosoftHelps Yes. I have got the latest updates. It is pretty old for a tablet now as it's a Surface Pro, first generation.\nCUSTOMER (2622403): @152402 ... it got down to 15%, then warned me of a low battery &amp; immediately hibernated. I plugged it in, and woke it up, and the battery was suddenly showing 0% charge.\nMICROSOFT (2622404): @220504 It's still a good thing that it function as it's supposed to aside from the battery, despite the fact that it was the first version. If you consider getting a new one, you can check the new line of Surface devices here: https://t.co/tFXPULxWPL",
+      "predicted_intent": "Complaint / Feedback",
+      "predicted_escalation": "ESCALATE_TO_HUMAN",
+      "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+      "retrieved_evidence": "{\"evidence_id\": \"1374374\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.640082, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Sure. 6 tablets deployed ~Sept 2016, 1st tablet replaced under warranty for keyboard issues in July. Another tablet w/ dead SSD this week. | @MicrosoftHelps OK, Microsoft, 2 of my 6 field deployed Surface Pro 4's should not die after 15 months of gentle use. Help me.\"}\n{\"evidence_id\": \"2521555\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.633348, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"bought a microsoft surface. had it for 2hours now. here are my problems with it so far:\\n-can’t download google apps (docs, youtube,tumblr)\"}\n{\"evidence_id\": \"643182\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.623262, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I have taken it back to pc world and they have now sent it back yourselves with hard drive failure 😥. Really not happy as I paid more than I was looking to spend because I thought the surface was a safe option and this happens within 12 mths.  Would appreciate it back soon | @123127 Not Happy - surface pro 4 less than 12 months old and it appears hard drive has gone - not good 😡😱\"}",
+      "generated_reply": "Thank you for reaching out and for your continued loyalty to Surface! We are glad to hear your current device has lasted well, and we appreciate your feedback as you plan for an upgrade."
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0104",
+  "input_fingerprint": "e4931fc25c11e6bcc4f3cfda72d5c6ec78173512d0322e1c55a79725a9862b8a",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T11:24:07+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0104",
+    "customer_message": "@MicrosoftHelps Local account.",
+    "conversation_context": "MICROSOFT (1304422): @424819 Hello, Mikhail! If it is a Microsoft account, you have to edit your account name first in your email and it will sync from there.\nCUSTOMER (1304423): @MicrosoftHelps Any other way to change name without linking email address? 🤔\nCUSTOMER (1304424): @116230 how do I change my admin name on Windows 10 Version 1607. There is no \"change name\" feature in account settings.\nMICROSOFT (1304425): @424819 Just to clarify. Are you pertaining to your local account or Microsoft account?",
+    "predicted_intent": "Account & Login",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"653458\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.837562, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps\"}\n{\"evidence_id\": \"110758\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.80795, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps i can not looking in my Account\"}\n{\"evidence_id\": \"1904232\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.792439, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Help\"}",
+    "generated_reply": "Hello! Based on similar cases where users experienced issues accessing or looking into their accounts, we recommend reaching out directly to Microsoft Support for further assistance with your local account login."
+  },
+  "raw_response": "{\n  \"correctness\": 2,\n  \"helpfulness\": 2,\n  \"relevance\": 3,\n  \"clarity\": 3,\n  \"escalation_appropriateness\": 3,\n  \"overall_reply_score\": 2,\n  \"evidence_support\": 1,\n  \"unsupported_claims\": 2,\n  \"evidence_relevance\": 1,\n  \"grounding_score\": 1,\n  \"reason\": \"The customer is asking how to change a local account name on Windows 10 Version 1607. The generated reply provides a generic response about contacting support based on irrelevant evidence that does not address how to change a local account name.\"\n}",
+  "result": {
+    "correctness": 2,
+    "helpfulness": 2,
+    "relevance": 3,
+    "clarity": 3,
+    "escalation_appropriateness": 3,
+    "overall_reply_score": 2,
+    "evidence_support": 1,
+    "unsupported_claims": 2,
+    "evidence_relevance": 1,
+    "grounding_score": 1,
+    "reason": "The customer is asking how to change a local account name on Windows 10 Version 1607. The generated reply provides a generic response about contacting support based on irrelevant evidence that does not address how to change a local account name.",
+    "overall_score": 2,
+    "short_reason": "The customer is asking how to change a local account name on Windows 10 Version 1607. The generated reply provides a generic response about contacting support based on irrelevant evidence that does not address how to change a local account name.",
+    "grounding_decision": "UNSUPPORTED",
+    "reply_quality": {
+      "correctness": 2,
+      "helpfulness": 2,
+      "relevance": 3,
+      "clarity": 3,
+      "escalation_appropriateness": 3
+    },
+    "evidence_grounding": {
+      "evidence_support": 1,
+      "unsupported_claims": 2,
+      "evidence_relevance": 1
+    },
+    "golden_id": "GOLDEN-0104",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0104",
+      "customer_message": "@MicrosoftHelps Local account.",
+      "conversation_context": "MICROSOFT (1304422): @424819 Hello, Mikhail! If it is a Microsoft account, you have to edit your account name first in your email and it will sync from there.\nCUSTOMER (1304423): @MicrosoftHelps Any other way to change name without linking email address? 🤔\nCUSTOMER (1304424): @116230 how do I change my admin name on Windows 10 Version 1607. There is no \"change name\" feature in account settings.\nMICROSOFT (1304425): @424819 Just to clarify. Are you pertaining to your local account or Microsoft account?",
+      "predicted_intent": "Account & Login",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"653458\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.837562, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps\"}\n{\"evidence_id\": \"110758\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.80795, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps i can not looking in my Account\"}\n{\"evidence_id\": \"1904232\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.792439, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Help\"}",
+      "generated_reply": "Hello! Based on similar cases where users experienced issues accessing or looking into their accounts, we recommend reaching out directly to Microsoft Support for further assistance with your local account login."
+    }
+  }
+}

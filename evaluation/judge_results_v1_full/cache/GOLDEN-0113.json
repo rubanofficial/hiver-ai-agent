@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0113",
+  "input_fingerprint": "b87ed654ff5446793bdf65e80713566a830ce27336a8677931f6994035279352",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:39:26+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0113",
+    "customer_message": "@MicrosoftHelps hi guys, I bought 2 albums on #groove but can't download or play them (it says owner copyrights).",
+    "conversation_context": "MICROSOFT (1522164): @473050 Hi. This issue would be best handled by our Answer Desk team. You may contact them using this link: https://t.co/BztoSXbg27.",
+    "predicted_intent": "Microsoft Store",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"539024\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.738827, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Hi @MicrosoftHelps I try to download my music purchased on Groove Music but I can't. I tryed to call Microsoft hotline but they say they can't help me. What can i do ?\"}\n{\"evidence_id\": \"1132507\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 5}, \"score\": 0.715824, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Yes it is. It even shows up under 'Purchased' in Groove. | @MicrosoftHelps @XboxSupport what are my options 👉🏽 https://t.co/lk7Gq0yB6g | @MicrosoftHelps I've reviewed this site already. My first issue is how do I download my purchased content and what do i do with the errors? | @MicrosoftHelps  https://t.co/3uTukdTchU | @MicrosoftHelps any update here? the issue is i can't download the album and Groove is set to sunset EOY.\"}\n{\"evidence_id\": \"612540\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.677017, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps \\rhey guys I got a bunch of songs I bought on Groove that are not available for download anymore.\\rOptions??\"}",
+    "generated_reply": "We apologize for the trouble with downloading your Groove albums. Unfortunately, the provided information is insufficient to fully resolve your issue regarding copyright errors and downloading purchased content. Please contact Microsoft support directly for further assistance."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 4,\n  \"clarity\": 4,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 3,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 4,\n  \"evidence_relevance\": 4,\n  \"grounding_score\": 3,\n  \"reason\": \"The reply correctly acknowledges the issue and recommends contacting support due to insufficient details, which aligns well with the context, but lacks direct troubleshooting steps.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 4,
+    "clarity": 4,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 3,
+    "evidence_support": 3,
+    "unsupported_claims": 4,
+    "evidence_relevance": 4,
+    "grounding_score": 3,
+    "reason": "The reply correctly acknowledges the issue and recommends contacting support due to insufficient details, which aligns well with the context, but lacks direct troubleshooting steps.",
+    "overall_score": 3,
+    "short_reason": "The reply correctly acknowledges the issue and recommends contacting support due to insufficient details, which aligns well with the context, but lacks direct troubleshooting steps.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 4,
+      "clarity": 4,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 4,
+      "evidence_relevance": 4
+    },
+    "golden_id": "GOLDEN-0113",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0113",
+      "customer_message": "@MicrosoftHelps hi guys, I bought 2 albums on #groove but can't download or play them (it says owner copyrights).",
+      "conversation_context": "MICROSOFT (1522164): @473050 Hi. This issue would be best handled by our Answer Desk team. You may contact them using this link: https://t.co/BztoSXbg27.",
+      "predicted_intent": "Microsoft Store",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"539024\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.738827, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Hi @MicrosoftHelps I try to download my music purchased on Groove Music but I can't. I tryed to call Microsoft hotline but they say they can't help me. What can i do ?\"}\n{\"evidence_id\": \"1132507\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 5}, \"score\": 0.715824, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Yes it is. It even shows up under 'Purchased' in Groove. | @MicrosoftHelps @XboxSupport what are my options 👉🏽 https://t.co/lk7Gq0yB6g | @MicrosoftHelps I've reviewed this site already. My first issue is how do I download my purchased content and what do i do with the errors? | @MicrosoftHelps  https://t.co/3uTukdTchU | @MicrosoftHelps any update here? the issue is i can't download the album and Groove is set to sunset EOY.\"}\n{\"evidence_id\": \"612540\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.677017, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps \\rhey guys I got a bunch of songs I bought on Groove that are not available for download anymore.\\rOptions??\"}",
+      "generated_reply": "We apologize for the trouble with downloading your Groove albums. Unfortunately, the provided information is insufficient to fully resolve your issue regarding copyright errors and downloading purchased content. Please contact Microsoft support directly for further assistance."
+    }
+  }
+}

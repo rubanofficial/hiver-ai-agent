@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0173",
+  "input_fingerprint": "f135e16882aa82e8b3dabe6dc6e4d68abad439312eca1cc3746dfc2df5580f40",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T11:43:13+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0173",
+    "customer_message": "Been over 8 days since changeover to #newtwitter and the #TweetDeck on a Windows10 Explorer11 platform(s) still won't work well enough to use (see attached screenshot.) @123765 @TwitterSupport @116230 @MicrosoftHelps do nothing to make it compatible with the platform. Sucks.. https://t.co/GvRbYeCpAk",
+    "conversation_context": "MICROSOFT (2555015): @725560 Hi there! Thank you for reaching out. Do you experience the same issue using other browsers?\nCUSTOMER (2555016): @MicrosoftHelps No. Not when using the Windows browse. In fact, uploading PROFILE photos could only ever be done through Windows browser. COVER photos could be uploaded through Exporer11, but not PROFILE. The 280 changeover problem was widespread on Windows Explorer11, I saw quite a few posts. https://t.co/3iSVpXkX39",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "No evidence reached the confidence threshold for a safe autonomous reply (minimum 0.60); human review is required.",
+    "retrieved_evidence": "{\"evidence_id\": \"627530\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 4}, \"score\": 0.571621, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Windows 10 Version 1709 (Build 16299.64)\\r\\rTwitter 5.8.1.0_x86 | @123765 @116230 @TwitterSupport @MicrosoftHelps WTH??? https://t.co/OhXr4w7nhd | .@123765 for @116230 doesn't support Moments yet. SAD! @TwitterSupport @MicrosoftHelps | ตอนไปไทย - When I was in Thailand https://t.co/Ybvn4BoLug\"}\n{\"evidence_id\": \"1853151\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.567813, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Problem with Twitter in Microsoft Surface Pro https://t.co/UO9ZNLZo6V\"}\n{\"evidence_id\": \"422426\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.561351, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Forwarded my tweet to see if I get a reply from support https://t.co/kI1fGayQ6v\"}",
+    "generated_reply": "We understand you are experiencing compatibility issues with TweetDeck on Windows 10 and Internet Explorer 11. Because this requires further investigation into your specific system setup and compatibility details, please contact Microsoft Support so we can look into this further."
+  },
+  "raw_response": "{\n  \"correctness\": 4,\n  \"helpfulness\": 4,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 4,\n  \"evidence_support\": 2,\n  \"unsupported_claims\": 3,\n  \"evidence_relevance\": 2,\n  \"grounding_score\": 2,\n  \"reason\": \"The reply is professional and appropriately suggests contacting support due to lack of strong retrieved evidence, but the evidence retrieved is low quality and largely irrelevant.\"\n}",
+  "result": {
+    "correctness": 4,
+    "helpfulness": 4,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 4,
+    "evidence_support": 2,
+    "unsupported_claims": 3,
+    "evidence_relevance": 2,
+    "grounding_score": 2,
+    "reason": "The reply is professional and appropriately suggests contacting support due to lack of strong retrieved evidence, but the evidence retrieved is low quality and largely irrelevant.",
+    "overall_score": 4,
+    "short_reason": "The reply is professional and appropriately suggests contacting support due to lack of strong retrieved evidence, but the evidence retrieved is low quality and largely irrelevant.",
+    "grounding_decision": "UNSUPPORTED",
+    "reply_quality": {
+      "correctness": 4,
+      "helpfulness": 4,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 2,
+      "unsupported_claims": 3,
+      "evidence_relevance": 2
+    },
+    "golden_id": "GOLDEN-0173",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0173",
+      "customer_message": "Been over 8 days since changeover to #newtwitter and the #TweetDeck on a Windows10 Explorer11 platform(s) still won't work well enough to use (see attached screenshot.) @123765 @TwitterSupport @116230 @MicrosoftHelps do nothing to make it compatible with the platform. Sucks.. https://t.co/GvRbYeCpAk",
+      "conversation_context": "MICROSOFT (2555015): @725560 Hi there! Thank you for reaching out. Do you experience the same issue using other browsers?\nCUSTOMER (2555016): @MicrosoftHelps No. Not when using the Windows browse. In fact, uploading PROFILE photos could only ever be done through Windows browser. COVER photos could be uploaded through Exporer11, but not PROFILE. The 280 changeover problem was widespread on Windows Explorer11, I saw quite a few posts. https://t.co/3iSVpXkX39",
+      "predicted_intent": "Technical Troubleshooting",
+      "predicted_escalation": "ESCALATE_TO_HUMAN",
+      "predicted_escalation_reason": "No evidence reached the confidence threshold for a safe autonomous reply (minimum 0.60); human review is required.",
+      "retrieved_evidence": "{\"evidence_id\": \"627530\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 4}, \"score\": 0.571621, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Windows 10 Version 1709 (Build 16299.64)\\r\\rTwitter 5.8.1.0_x86 | @123765 @116230 @TwitterSupport @MicrosoftHelps WTH??? https://t.co/OhXr4w7nhd | .@123765 for @116230 doesn't support Moments yet. SAD! @TwitterSupport @MicrosoftHelps | ตอนไปไทย - When I was in Thailand https://t.co/Ybvn4BoLug\"}\n{\"evidence_id\": \"1853151\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.567813, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Problem with Twitter in Microsoft Surface Pro https://t.co/UO9ZNLZo6V\"}\n{\"evidence_id\": \"422426\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.561351, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Forwarded my tweet to see if I get a reply from support https://t.co/kI1fGayQ6v\"}",
+      "generated_reply": "We understand you are experiencing compatibility issues with TweetDeck on Windows 10 and Internet Explorer 11. Because this requires further investigation into your specific system setup and compatibility details, please contact Microsoft Support so we can look into this further."
+    }
+  }
+}

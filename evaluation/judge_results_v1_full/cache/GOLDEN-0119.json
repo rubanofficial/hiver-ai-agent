@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0119",
+  "input_fingerprint": "0126a6a92c5321b1c67ab067ab81a9da668ebe9b1ff61185c6bb3c925c9ce724",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:39:37+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0119",
+    "customer_message": "Why does @116230 always go straight to 100% when updating and then stay there for 5 minutes? Redundant message really.",
+    "conversation_context": "MICROSOFT (1613145): @494947 Allow us to help, Jamie. What is the make and model of your device? Can you tell us more information about your concern?",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"1405210\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.608972, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@115890 @116230 that moment when you see your FCU updater jumping from 99% back to 1%... srsly Fall Creator Update? Why??\"}\n{\"evidence_id\": \"2503211\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.602048, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Trying to update Windows 10. 3 minutes ago it said 65% complete. 2 minutes ago we had 8% complete. 1 minute ago it was at 3% complete. Do Microsoft even understand how percentages work!?\"}\n{\"evidence_id\": \"2151581\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 1}, \"score\": 0.568978, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@116230 WTF!? Just updated my laptop and got this bloody message thanks for the update. Bloody Hell! https://t.co/OnoZTugoPe\"}",
+    "generated_reply": "I understand that seeing the update progress stay at 100% for a period of time can be frustrating. However, the retrieved historical evidence does not provide specific troubleshooting steps or an explanation for this update behavior. Please contact Microsoft support directly for further assistance with this issue."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 4,\n  \"clarity\": 4,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 3,\n  \"evidence_support\": 5,\n  \"unsupported_claims\": 5,\n  \"evidence_relevance\": 2,\n  \"grounding_score\": 4,\n  \"reason\": \"The reply correctly identifies that the retrieved evidence lacks the technical explanation for the update behavior and appropriately suggests contacting support, avoiding unsupported claims.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 4,
+    "clarity": 4,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 3,
+    "evidence_support": 5,
+    "unsupported_claims": 5,
+    "evidence_relevance": 2,
+    "grounding_score": 4,
+    "reason": "The reply correctly identifies that the retrieved evidence lacks the technical explanation for the update behavior and appropriately suggests contacting support, avoiding unsupported claims.",
+    "overall_score": 3,
+    "short_reason": "The reply correctly identifies that the retrieved evidence lacks the technical explanation for the update behavior and appropriately suggests contacting support, avoiding unsupported claims.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 4,
+      "clarity": 4,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 5,
+      "unsupported_claims": 5,
+      "evidence_relevance": 2
+    },
+    "golden_id": "GOLDEN-0119",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0119",
+      "customer_message": "Why does @116230 always go straight to 100% when updating and then stay there for 5 minutes? Redundant message really.",
+      "conversation_context": "MICROSOFT (1613145): @494947 Allow us to help, Jamie. What is the make and model of your device? Can you tell us more information about your concern?",
+      "predicted_intent": "Technical Troubleshooting",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"1405210\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.608972, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@115890 @116230 that moment when you see your FCU updater jumping from 99% back to 1%... srsly Fall Creator Update? Why??\"}\n{\"evidence_id\": \"2503211\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.602048, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Trying to update Windows 10. 3 minutes ago it said 65% complete. 2 minutes ago we had 8% complete. 1 minute ago it was at 3% complete. Do Microsoft even understand how percentages work!?\"}\n{\"evidence_id\": \"2151581\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 1}, \"score\": 0.568978, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@116230 WTF!? Just updated my laptop and got this bloody message thanks for the update. Bloody Hell! https://t.co/OnoZTugoPe\"}",
+      "generated_reply": "I understand that seeing the update progress stay at 100% for a period of time can be frustrating. However, the retrieved historical evidence does not provide specific troubleshooting steps or an explanation for this update behavior. Please contact Microsoft support directly for further assistance with this issue."
+    }
+  }
+}

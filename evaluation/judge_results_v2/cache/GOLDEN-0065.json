@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0065",
+  "input_fingerprint": "e100ea38de3cf793a859b28b32df763f49fa3553fd9fb547ea243f8184f80159",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-12T04:35:34+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0065",
+    "customer_message": "@MicrosoftHelps Hello, i’m joined to beta test for microsoft edge browser for ios but i don’t have received EMAIL for downloading the app",
+    "conversation_context": "MICROSOFT (745451): @298212 Let’s have it accurately check. Please contact our Answer Desk for this type of concern here: https://t.co/NzCTszceoX.",
+    "predicted_intent": "Product / Feature How-To",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"712838\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.761928, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps where can I join the beta for MicrosoftEdge #iPhone #TestFlight\"}\n{\"evidence_id\": \"592577\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.666786, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps is edge for iOS only available in the US?\"}\n{\"evidence_id\": \"2266546\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.640284, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Okay, let's give it a try 🤔 https://t.co/sKdelrCDYR | \\\"Try Microsoft Edge Preview for iOS and Android. Available exclusively to Windows Insiders\\\" - wow, going in broad...\"}",
+    "generated_reply": "Hello! Based on similar cases, Microsoft Edge Preview for iOS and Android is available exclusively to Windows Insiders. You can check the preview page for more details."
+  },
+  "raw_response": "{\n  \"correctness\": 4,\n  \"helpfulness\": 4,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 4,\n  \"overall_reply_score\": 4,\n  \"evidence_support\": 5,\n  \"unsupported_claims\": 5,\n  \"evidence_relevance\": 5,\n  \"grounding_score\": 5,\n  \"reason\": \"The reply directly addresses the customer's issue using information directly supported by the retrieved evidence regarding Microsoft Edge Preview availability.\"\n}",
+  "result": {
+    "correctness": 4,
+    "helpfulness": 4,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 4,
+    "overall_reply_score": 4,
+    "evidence_support": 5,
+    "unsupported_claims": 5,
+    "evidence_relevance": 5,
+    "grounding_score": 5,
+    "reason": "The reply directly addresses the customer's issue using information directly supported by the retrieved evidence regarding Microsoft Edge Preview availability.",
+    "overall_score": 4,
+    "short_reason": "The reply directly addresses the customer's issue using information directly supported by the retrieved evidence regarding Microsoft Edge Preview availability.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 4,
+      "helpfulness": 4,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 4
+    },
+    "evidence_grounding": {
+      "evidence_support": 5,
+      "unsupported_claims": 5,
+      "evidence_relevance": 5
+    },
+    "golden_id": "GOLDEN-0065",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0065",
+      "customer_message": "@MicrosoftHelps Hello, i’m joined to beta test for microsoft edge browser for ios but i don’t have received EMAIL for downloading the app",
+      "conversation_context": "MICROSOFT (745451): @298212 Let’s have it accurately check. Please contact our Answer Desk for this type of concern here: https://t.co/NzCTszceoX.",
+      "predicted_intent": "Product / Feature How-To",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"712838\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.761928, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps where can I join the beta for MicrosoftEdge #iPhone #TestFlight\"}\n{\"evidence_id\": \"592577\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.666786, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps is edge for iOS only available in the US?\"}\n{\"evidence_id\": \"2266546\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.640284, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Okay, let's give it a try 🤔 https://t.co/sKdelrCDYR | \\\"Try Microsoft Edge Preview for iOS and Android. Available exclusively to Windows Insiders\\\" - wow, going in broad...\"}",
+      "generated_reply": "Hello! Based on similar cases, Microsoft Edge Preview for iOS and Android is available exclusively to Windows Insiders. You can check the preview page for more details."
+    }
+  }
+}

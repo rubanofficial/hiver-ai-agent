@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0061",
+  "input_fingerprint": "743a87b2b71981b8bc6f3cef43660e0b970c584525b1e2e3a042991ff1d73fcd",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-12T04:35:29+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0061",
+    "customer_message": "@MicrosoftHelps  yeah hi why is this taking up half of my computer space, I cant get updates because so much space is being taken up. https://t.co/4T2JV4ljyL",
+    "conversation_context": "MICROSOFT (699125): @286766 We hope that everything is working fine now. Share us your thoughts about our support here: https://t.co/oBnxXyvNJ1.\nCUSTOMER (699126): @MicrosoftHelps I had to reset my entire computer to get updates last time, and I would not like not do that again just to get my pc to stop yelling at me\nMICROSOFT (699127): @286766 Hi! Just checking if you're still experiencing the same issue? We want to make sure everything is resolved.",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"1380117\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 7}, \"score\": 0.649956, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Hello again. The only thing I downloaded was the creators update when it came out early this year. That’s all I downloaded | @MicrosoftHelps I did click on the button multiple times and it would say download 100% but then it would crash and say the warning as in the picture I sent | @MicrosoftHelps Ok cool. I’ll review the steps now and tell you what happens | @MicrosoftHelps I followed the steps and I still can’t seem to update still | @MicrosoftHelps Hello again. Thanks for offering to help. This is what my PC kept saying as I tried to update to fall creators update https://t.co/qH2CDXxM1I | @MicrosoftHelps Yes I am not home right now but I will send screen shots for sure later tonight. Thank you for going to help me. | @116230 I have 1,800GB left on my PC &amp; I have great internet connection\"}\n{\"evidence_id\": \"153390\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.648999, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps My internet speed is fine, this update has taken 2 hours. I can download and install large game files much quicker than that. | @MicrosoftHelps why do these windows updates always take so long? Basically stops me being able to do anything.\"}\n{\"evidence_id\": \"826860\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 11}, \"score\": 0.648316, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps It says I’m low on storage but those are the only files on the drive | @MicrosoftHelps nope | @MicrosoftHelps 10 | @MicrosoftHelps uhhhhh just recently my dude | @MicrosoftHelps I’ve tried moving files around and nothing’s helped | @MicrosoftHelps it free'd up a couple MB's of data.... | @MicrosoftHelps  https://t.co/KtQ5qmIpKq | @MicrosoftHelps i am nno longer getting that notice, but I shouldnt have that much space taken up if there is nothing there | @MicrosoftHelps Okay that’s the c drive | @MicrosoftHelps So why the hell do I have no space | @116230 yah cause that makes sense https://t.co/WTPu2q9Qlm\"}",
+    "generated_reply": "We understand storage space issues can prevent updates. Since this requires further investigation regarding what is occupying your drive space, please contact Microsoft Support so an agent can look into your specific storage details."
+  },
+  "raw_response": "{\n  \"correctness\": 4,\n  \"helpfulness\": 4,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 4,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 4,\n  \"evidence_relevance\": 3,\n  \"grounding_score\": 3,\n  \"reason\": \"The reply addresses the customer's storage and update issue clearly and appropriately suggests contacting support since it requires investigating specific drive usage. The evidence retrieved discusses similar storage and update issues, though the generated response relies more on general support escalation than specific facts from the retrieved texts.\"\n}",
+  "result": {
+    "correctness": 4,
+    "helpfulness": 4,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 4,
+    "evidence_support": 3,
+    "unsupported_claims": 4,
+    "evidence_relevance": 3,
+    "grounding_score": 3,
+    "reason": "The reply addresses the customer's storage and update issue clearly and appropriately suggests contacting support since it requires investigating specific drive usage. The evidence retrieved discusses similar storage and update issues, though the generated response relies more on general support escalation than specific facts from the retrieved texts.",
+    "overall_score": 4,
+    "short_reason": "The reply addresses the customer's storage and update issue clearly and appropriately suggests contacting support since it requires investigating specific drive usage. The evidence retrieved discusses similar storage and update issues, though the generated response relies more on general support escalation than specific facts from the retrieved texts.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 4,
+      "helpfulness": 4,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 4,
+      "evidence_relevance": 3
+    },
+    "golden_id": "GOLDEN-0061",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0061",
+      "customer_message": "@MicrosoftHelps  yeah hi why is this taking up half of my computer space, I cant get updates because so much space is being taken up. https://t.co/4T2JV4ljyL",
+      "conversation_context": "MICROSOFT (699125): @286766 We hope that everything is working fine now. Share us your thoughts about our support here: https://t.co/oBnxXyvNJ1.\nCUSTOMER (699126): @MicrosoftHelps I had to reset my entire computer to get updates last time, and I would not like not do that again just to get my pc to stop yelling at me\nMICROSOFT (699127): @286766 Hi! Just checking if you're still experiencing the same issue? We want to make sure everything is resolved.",
+      "predicted_intent": "Technical Troubleshooting",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"1380117\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 7}, \"score\": 0.649956, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Hello again. The only thing I downloaded was the creators update when it came out early this year. That’s all I downloaded | @MicrosoftHelps I did click on the button multiple times and it would say download 100% but then it would crash and say the warning as in the picture I sent | @MicrosoftHelps Ok cool. I’ll review the steps now and tell you what happens | @MicrosoftHelps I followed the steps and I still can’t seem to update still | @MicrosoftHelps Hello again. Thanks for offering to help. This is what my PC kept saying as I tried to update to fall creators update https://t.co/qH2CDXxM1I | @MicrosoftHelps Yes I am not home right now but I will send screen shots for sure later tonight. Thank you for going to help me. | @116230 I have 1,800GB left on my PC &amp; I have great internet connection\"}\n{\"evidence_id\": \"153390\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.648999, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps My internet speed is fine, this update has taken 2 hours. I can download and install large game files much quicker than that. | @MicrosoftHelps why do these windows updates always take so long? Basically stops me being able to do anything.\"}\n{\"evidence_id\": \"826860\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 11}, \"score\": 0.648316, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps It says I’m low on storage but those are the only files on the drive | @MicrosoftHelps nope | @MicrosoftHelps 10 | @MicrosoftHelps uhhhhh just recently my dude | @MicrosoftHelps I’ve tried moving files around and nothing’s helped | @MicrosoftHelps it free'd up a couple MB's of data.... | @MicrosoftHelps  https://t.co/KtQ5qmIpKq | @MicrosoftHelps i am nno longer getting that notice, but I shouldnt have that much space taken up if there is nothing there | @MicrosoftHelps Okay that’s the c drive | @MicrosoftHelps So why the hell do I have no space | @116230 yah cause that makes sense https://t.co/WTPu2q9Qlm\"}",
+      "generated_reply": "We understand storage space issues can prevent updates. Since this requires further investigation regarding what is occupying your drive space, please contact Microsoft Support so an agent can look into your specific storage details."
+    }
+  }
+}

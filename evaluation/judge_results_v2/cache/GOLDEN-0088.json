@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0088",
+  "input_fingerprint": "ba093a70bc8e48c173dd235c0dc3892e0431dd1ffb7a5afdc4ac704614596167",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-12T04:38:11+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0088",
+    "customer_message": "@MicrosoftHelps How do I manage my subscriptions? Keeps redirecting me to the help page",
+    "conversation_context": "MICROSOFT (1099191): @344682 Thanks for the kind words. Were you able to contact our @XboxSupport?\nCUSTOMER (1099192): @MicrosoftHelps World class customer service 👏👏👏\nCUSTOMER (1099193): @MicrosoftHelps Managed to find it on my Xbox instead but surprise surprise no option to cancel subscription. Only to extend it, typical.\nCUSTOMER (1099194): @MicrosoftHelps ???\nCUSTOMER (1099195): @MicrosoftHelps I press services and subscriptions and it directs me to the support page. I don't want support I want to cancel my subscription...",
+    "predicted_intent": "Cancellation / Subscription",
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Intent 'Cancellation / Subscription' is high-risk and requires human handling.",
+    "retrieved_evidence": "{\"evidence_id\": \"603879\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.691735, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Every single time I try to purchase personal subscription on any browser this is what I get. https://t.co/mQEJQGl7nL\"}\n{\"evidence_id\": \"1107016\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.673517, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps trying to cancel my office 365 subscription and your website won’t let me?  Help\"}\n{\"evidence_id\": \"2732542\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.662056, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps What do I do about this ? https://t.co/xTUAqGAOfi | @MicrosoftHelps I have a problem\"}",
+    "generated_reply": "We are sorry you are experiencing issues managing your subscription and getting redirected. Because this requires looking into your account status, please contact Microsoft Support so an agent can perform an account entitlement check and assist you further."
+  },
+  "raw_response": "{\n  \"correctness\": 5,\n  \"helpfulness\": 5,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 5,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 4,\n  \"evidence_relevance\": 2,\n  \"grounding_score\": 3,\n  \"reason\": \"The reply appropriately addresses the user's cancellation and redirection issue by recommending escalation to human support for account-specific verification, aligning with the high-risk cancellation intent.\"\n}",
+  "result": {
+    "correctness": 5,
+    "helpfulness": 5,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 5,
+    "evidence_support": 3,
+    "unsupported_claims": 4,
+    "evidence_relevance": 2,
+    "grounding_score": 3,
+    "reason": "The reply appropriately addresses the user's cancellation and redirection issue by recommending escalation to human support for account-specific verification, aligning with the high-risk cancellation intent.",
+    "overall_score": 5,
+    "short_reason": "The reply appropriately addresses the user's cancellation and redirection issue by recommending escalation to human support for account-specific verification, aligning with the high-risk cancellation intent.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 5,
+      "helpfulness": 5,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 4,
+      "evidence_relevance": 2
+    },
+    "golden_id": "GOLDEN-0088",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0088",
+      "customer_message": "@MicrosoftHelps How do I manage my subscriptions? Keeps redirecting me to the help page",
+      "conversation_context": "MICROSOFT (1099191): @344682 Thanks for the kind words. Were you able to contact our @XboxSupport?\nCUSTOMER (1099192): @MicrosoftHelps World class customer service 👏👏👏\nCUSTOMER (1099193): @MicrosoftHelps Managed to find it on my Xbox instead but surprise surprise no option to cancel subscription. Only to extend it, typical.\nCUSTOMER (1099194): @MicrosoftHelps ???\nCUSTOMER (1099195): @MicrosoftHelps I press services and subscriptions and it directs me to the support page. I don't want support I want to cancel my subscription...",
+      "predicted_intent": "Cancellation / Subscription",
+      "predicted_escalation": "ESCALATE_TO_HUMAN",
+      "predicted_escalation_reason": "Intent 'Cancellation / Subscription' is high-risk and requires human handling.",
+      "retrieved_evidence": "{\"evidence_id\": \"603879\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.691735, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Every single time I try to purchase personal subscription on any browser this is what I get. https://t.co/mQEJQGl7nL\"}\n{\"evidence_id\": \"1107016\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.673517, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps trying to cancel my office 365 subscription and your website won’t let me?  Help\"}\n{\"evidence_id\": \"2732542\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.662056, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps What do I do about this ? https://t.co/xTUAqGAOfi | @MicrosoftHelps I have a problem\"}",
+      "generated_reply": "We are sorry you are experiencing issues managing your subscription and getting redirected. Because this requires looking into your account status, please contact Microsoft Support so an agent can perform an account entitlement check and assist you further."
+    }
+  }
+}

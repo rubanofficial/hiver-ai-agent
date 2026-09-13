@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0090",
+  "input_fingerprint": "07e6e5fc007bd28dff1dc3d751ae8444cbad6dcb463c3ed31521e42410cd6b19",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-12T04:38:13+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0090",
+    "customer_message": "@MicrosoftHelps I am having a problem getting my surface pro 2 to switch on I just have a blank screen it is on charge",
+    "conversation_context": "MICROSOFT (1122253): @384696 Hi Laura. Let's sort this out. Any recent changes made prior to the issue? What troubleshooting steps have you done so far?\nCUSTOMER (1122254): @MicrosoftHelps Holding down of the power button etc",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"1020829\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 3}, \"score\": 0.723596, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps it shows the surface logo for a second and then goes to the drained battery logo. it was plugged in for an hour and still wont reboot | @MicrosoftHelps now it goes on finally but wont say its charging | @MicrosoftHelps my surface pro 3 is plugged in and has been for enough time for it to start, but wait, it doesnt work. BS!\"}\n{\"evidence_id\": \"1717129\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 3}, \"score\": 0.71737, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I bought it back in Poland and yes, I plugged it in the power adapter, the diode is working, however it still doesn't turn on | @123127 I bought a new surface pro 4. 35 minutes ago I turned it off &amp; now wanted to turn it on again but it doesn't work. What can I do? | @MicrosoftHelps At the first attempt the red light went on but not anymore\"}\n{\"evidence_id\": \"911095\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.711662, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Surface 3. It started about a week ago. I don't use it daily, but a restart might have done the trick 🤔 | @123127 my pro is turning off after 29 seconds. It just turns off and I have to sign back in. Whyyy\"}",
+    "generated_reply": "Hello! Based on a similar case, some users have found that a restart might help resolve power and startup issues with their Surface device. Since your Surface Pro 2 is currently showing a blank screen while on charge, please try performing a restart. If the issue persists, please reach out to Microsoft Support for further assistance."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 4,\n  \"clarity\": 4,\n  \"escalation_appropriateness\": 4,\n  \"overall_reply_score\": 3,\n  \"evidence_support\": 2,\n  \"unsupported_claims\": 2,\n  \"evidence_relevance\": 2,\n  \"grounding_score\": 2,\n  \"reason\": \"The reply suggests a restart, which is standard, but the retrieved evidence barely supports this specific advice and is largely irrelevant (focusing on battery icons and device models not matching the customer's Surface Pro 2). The customer already stated they tried holding the power button.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 4,
+    "clarity": 4,
+    "escalation_appropriateness": 4,
+    "overall_reply_score": 3,
+    "evidence_support": 2,
+    "unsupported_claims": 2,
+    "evidence_relevance": 2,
+    "grounding_score": 2,
+    "reason": "The reply suggests a restart, which is standard, but the retrieved evidence barely supports this specific advice and is largely irrelevant (focusing on battery icons and device models not matching the customer's Surface Pro 2). The customer already stated they tried holding the power button.",
+    "overall_score": 3,
+    "short_reason": "The reply suggests a restart, which is standard, but the retrieved evidence barely supports this specific advice and is largely irrelevant (focusing on battery icons and device models not matching the customer's Surface Pro 2). The customer already stated they tried holding the power button.",
+    "grounding_decision": "UNSUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 4,
+      "clarity": 4,
+      "escalation_appropriateness": 4
+    },
+    "evidence_grounding": {
+      "evidence_support": 2,
+      "unsupported_claims": 2,
+      "evidence_relevance": 2
+    },
+    "golden_id": "GOLDEN-0090",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0090",
+      "customer_message": "@MicrosoftHelps I am having a problem getting my surface pro 2 to switch on I just have a blank screen it is on charge",
+      "conversation_context": "MICROSOFT (1122253): @384696 Hi Laura. Let's sort this out. Any recent changes made prior to the issue? What troubleshooting steps have you done so far?\nCUSTOMER (1122254): @MicrosoftHelps Holding down of the power button etc",
+      "predicted_intent": "Technical Troubleshooting",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"1020829\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 3}, \"score\": 0.723596, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps it shows the surface logo for a second and then goes to the drained battery logo. it was plugged in for an hour and still wont reboot | @MicrosoftHelps now it goes on finally but wont say its charging | @MicrosoftHelps my surface pro 3 is plugged in and has been for enough time for it to start, but wait, it doesnt work. BS!\"}\n{\"evidence_id\": \"1717129\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 3}, \"score\": 0.71737, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I bought it back in Poland and yes, I plugged it in the power adapter, the diode is working, however it still doesn't turn on | @123127 I bought a new surface pro 4. 35 minutes ago I turned it off &amp; now wanted to turn it on again but it doesn't work. What can I do? | @MicrosoftHelps At the first attempt the red light went on but not anymore\"}\n{\"evidence_id\": \"911095\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.711662, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Surface 3. It started about a week ago. I don't use it daily, but a restart might have done the trick 🤔 | @123127 my pro is turning off after 29 seconds. It just turns off and I have to sign back in. Whyyy\"}",
+      "generated_reply": "Hello! Based on a similar case, some users have found that a restart might help resolve power and startup issues with their Surface device. Since your Surface Pro 2 is currently showing a blank screen while on charge, please try performing a restart. If the issue persists, please reach out to Microsoft Support for further assistance."
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0192",
+  "input_fingerprint": "fd6610aa82c3c2aeb2d4be1da5ecf6f487c45e28bfe134f0c3a3730b8c2ddf6e",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T11:44:18+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0192",
+    "customer_message": "@MicrosoftHelps while I was updating my laptop to windows 10 it was showing please wait while we install a system update ... Now my laptop is not opening",
+    "conversation_context": "MICROSOFT (2900879): @803563 Hi. We're here to help. Just to clarify, what troubleshooting steps have you done so far to isolate the issue? Please get back to us so we can help you sort this out.\nCUSTOMER (2900880): @MicrosoftHelps I tried to switch off my laptop ... But it was still showing please wait while we install a system and then I don't know all of a sudden it is not opening...\nCUSTOMER (2900881): @MicrosoftHelps Pls help\nMICROSOFT (2900882): @803563 Thanks for the info. For us to isolate your concern, let's try to troubleshoot your device by performing a clean boot using this link: https://t.co/ptFirx251l. Let us know how it goes. https://t.co/3qcAsLFkaY\nCUSTOMER (2900883): @MicrosoftHelps I cannot open my laptop what should I do any way with which I can open it?\nMICROSOFT (2900884): @803563 Let’s do an alternate resolution. In this case, we can follow the troubleshooting steps posted Morris Subba: https://t.co/p1qUmZp8Hd. We'll look forward to hearing updates from you.\nCUSTOMER (2900885): @MicrosoftHelps The problem is I can not open my laptop  again now while updating it ! All solution which u r providing needs my laptop on which I am not being able to do it !\nMICROSOFT (2900886): @803563 In this case, it's best to get in touch with our Windows Experts here: https://t.co/0wqTmeEdYJ wherein you'll be given an option to contact them via phone or chat. Also, you can contact them by using a different device. Rest assured that you're in good hands.",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"1794589\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.690262, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps done the windows 10 update now cant get on as gettin blue screen how do i fix help plz\"}\n{\"evidence_id\": \"2698849\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 4}, \"score\": 0.680336, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Windows 10 is not responding after the update and mouse is loading all the time so I am unable to click on anything. #saveme | Dear @115890 / @MicrosoftHelps \\nThats what happened to my laptop after your latest update #microsoftupdate .what should I do now? https://t.co/IMc9TcCrti https://t.co/XJX7iH5hcu | @MicrosoftHelps I would have done this if I was able to do it | @MicrosoftHelps Thank you @MicrosoftHelps ,I lost my important files but now windows is working.\\nThank you for your time\"}\n{\"evidence_id\": \"1209921\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.669502, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I'm using windows 10,went on the settings and the notification read 'updates unavailabe but Windows will notify me when they're available'. | Hi @MicrosoftHelps, my laptop has a start issue. It loads forever&amp;then restarts. it has been like this for three weeks now.I can't get in :(\"}",
+    "generated_reply": "We are sorry to hear your laptop is not opening after the Windows 10 update. Because this requires further investigation into your specific system and update status, please contact Microsoft Support so we can look into what happened during the installation."
+  },
+  "raw_response": "{\n  \"correctness\": 4,\n  \"helpfulness\": 4,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 4,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 4,\n  \"evidence_relevance\": 3,\n  \"grounding_score\": 3,\n  \"reason\": \"The reply appropriately directs the customer to support since the laptop cannot boot. However, the retrieved evidence is sparse on direct unbootable update solutions, but the advice given is sound and empathetic.\"\n}",
+  "result": {
+    "correctness": 4,
+    "helpfulness": 4,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 4,
+    "evidence_support": 3,
+    "unsupported_claims": 4,
+    "evidence_relevance": 3,
+    "grounding_score": 3,
+    "reason": "The reply appropriately directs the customer to support since the laptop cannot boot. However, the retrieved evidence is sparse on direct unbootable update solutions, but the advice given is sound and empathetic.",
+    "overall_score": 4,
+    "short_reason": "The reply appropriately directs the customer to support since the laptop cannot boot. However, the retrieved evidence is sparse on direct unbootable update solutions, but the advice given is sound and empathetic.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 4,
+      "helpfulness": 4,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 4,
+      "evidence_relevance": 3
+    },
+    "golden_id": "GOLDEN-0192",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0192",
+      "customer_message": "@MicrosoftHelps while I was updating my laptop to windows 10 it was showing please wait while we install a system update ... Now my laptop is not opening",
+      "conversation_context": "MICROSOFT (2900879): @803563 Hi. We're here to help. Just to clarify, what troubleshooting steps have you done so far to isolate the issue? Please get back to us so we can help you sort this out.\nCUSTOMER (2900880): @MicrosoftHelps I tried to switch off my laptop ... But it was still showing please wait while we install a system and then I don't know all of a sudden it is not opening...\nCUSTOMER (2900881): @MicrosoftHelps Pls help\nMICROSOFT (2900882): @803563 Thanks for the info. For us to isolate your concern, let's try to troubleshoot your device by performing a clean boot using this link: https://t.co/ptFirx251l. Let us know how it goes. https://t.co/3qcAsLFkaY\nCUSTOMER (2900883): @MicrosoftHelps I cannot open my laptop what should I do any way with which I can open it?\nMICROSOFT (2900884): @803563 Let’s do an alternate resolution. In this case, we can follow the troubleshooting steps posted Morris Subba: https://t.co/p1qUmZp8Hd. We'll look forward to hearing updates from you.\nCUSTOMER (2900885): @MicrosoftHelps The problem is I can not open my laptop  again now while updating it ! All solution which u r providing needs my laptop on which I am not being able to do it !\nMICROSOFT (2900886): @803563 In this case, it's best to get in touch with our Windows Experts here: https://t.co/0wqTmeEdYJ wherein you'll be given an option to contact them via phone or chat. Also, you can contact them by using a different device. Rest assured that you're in good hands.",
+      "predicted_intent": "Technical Troubleshooting",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"1794589\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.690262, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps done the windows 10 update now cant get on as gettin blue screen how do i fix help plz\"}\n{\"evidence_id\": \"2698849\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 4}, \"score\": 0.680336, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Windows 10 is not responding after the update and mouse is loading all the time so I am unable to click on anything. #saveme | Dear @115890 / @MicrosoftHelps \\nThats what happened to my laptop after your latest update #microsoftupdate .what should I do now? https://t.co/IMc9TcCrti https://t.co/XJX7iH5hcu | @MicrosoftHelps I would have done this if I was able to do it | @MicrosoftHelps Thank you @MicrosoftHelps ,I lost my important files but now windows is working.\\nThank you for your time\"}\n{\"evidence_id\": \"1209921\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.669502, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I'm using windows 10,went on the settings and the notification read 'updates unavailabe but Windows will notify me when they're available'. | Hi @MicrosoftHelps, my laptop has a start issue. It loads forever&amp;then restarts. it has been like this for three weeks now.I can't get in :(\"}",
+      "generated_reply": "We are sorry to hear your laptop is not opening after the Windows 10 update. Because this requires further investigation into your specific system and update status, please contact Microsoft Support so we can look into what happened during the installation."
+    }
+  }
+}

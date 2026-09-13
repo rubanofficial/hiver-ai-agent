@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0106",
+  "input_fingerprint": "e5dbea8588ee23aa300dcb393268afda4a453d453b26ab5cddf1cf5d3e566c02",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T11:24:10+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0106",
+    "customer_message": "Currently waiting for @116230  to reply to my problem of the latest install 😡",
+    "conversation_context": "MICROSOFT (1342226): @433047 We hear you, Thomas. Let's sort this out. Are previously using the Windows 10 prior to fresh installing it?\nCUSTOMER (1342227): @MicrosoftHelps Hi, managed to create a bootable USB and wipe the drive. thanks didn't want to wait",
+    "predicted_intent": "Complaint / Feedback",
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+    "retrieved_evidence": "{\"evidence_id\": \"1563667\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 4}, \"score\": 0.630903, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@151785 Thanks problem now solved | @320221 Checking back with you, Abir! Let us know if you still need help. We're always available for you. | @116230 @6580 @MicrosoftHelps @115890 After so many failed attempt, now I'm installing it newly.. https://t.co/osIFgSTOZb | What would i do? @116230 @6580 @MicrosoftHelps @115890 https://t.co/XmJRR2F3n5\"}\n{\"evidence_id\": \"2151581\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 1}, \"score\": 0.612403, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@116230 WTF!? Just updated my laptop and got this bloody message thanks for the update. Bloody Hell! https://t.co/OnoZTugoPe\"}\n{\"evidence_id\": \"886975\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.605027, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \". @116230 update once again breaks another one of my PC's. Of course.\"}",
+    "generated_reply": "We apologize for the frustration with your latest installation and the wait for a response. Because this case requires further investigation into your specific installation issues and update errors, please contact Microsoft Support so we can properly look into your account and system details."
+  },
+  "raw_response": "{\n  \"correctness\": 5,\n  \"helpfulness\": 5,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 5,\n  \"evidence_support\": 4,\n  \"unsupported_claims\": 5,\n  \"evidence_relevance\": 4,\n  \"grounding_score\": 4,\n  \"reason\": \"The reply professionally addresses the customer's frustration, acknowledges the delay, and appropriately escalates to Microsoft Support given the complaint and installation issues.\"\n}",
+  "result": {
+    "correctness": 5,
+    "helpfulness": 5,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 5,
+    "evidence_support": 4,
+    "unsupported_claims": 5,
+    "evidence_relevance": 4,
+    "grounding_score": 4,
+    "reason": "The reply professionally addresses the customer's frustration, acknowledges the delay, and appropriately escalates to Microsoft Support given the complaint and installation issues.",
+    "overall_score": 5,
+    "short_reason": "The reply professionally addresses the customer's frustration, acknowledges the delay, and appropriately escalates to Microsoft Support given the complaint and installation issues.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 5,
+      "helpfulness": 5,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 4,
+      "unsupported_claims": 5,
+      "evidence_relevance": 4
+    },
+    "golden_id": "GOLDEN-0106",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0106",
+      "customer_message": "Currently waiting for @116230  to reply to my problem of the latest install 😡",
+      "conversation_context": "MICROSOFT (1342226): @433047 We hear you, Thomas. Let's sort this out. Are previously using the Windows 10 prior to fresh installing it?\nCUSTOMER (1342227): @MicrosoftHelps Hi, managed to create a bootable USB and wipe the drive. thanks didn't want to wait",
+      "predicted_intent": "Complaint / Feedback",
+      "predicted_escalation": "ESCALATE_TO_HUMAN",
+      "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+      "retrieved_evidence": "{\"evidence_id\": \"1563667\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 4}, \"score\": 0.630903, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@151785 Thanks problem now solved | @320221 Checking back with you, Abir! Let us know if you still need help. We're always available for you. | @116230 @6580 @MicrosoftHelps @115890 After so many failed attempt, now I'm installing it newly.. https://t.co/osIFgSTOZb | What would i do? @116230 @6580 @MicrosoftHelps @115890 https://t.co/XmJRR2F3n5\"}\n{\"evidence_id\": \"2151581\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 1}, \"score\": 0.612403, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@116230 WTF!? Just updated my laptop and got this bloody message thanks for the update. Bloody Hell! https://t.co/OnoZTugoPe\"}\n{\"evidence_id\": \"886975\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.605027, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \". @116230 update once again breaks another one of my PC's. Of course.\"}",
+      "generated_reply": "We apologize for the frustration with your latest installation and the wait for a response. Because this case requires further investigation into your specific installation issues and update errors, please contact Microsoft Support so we can properly look into your account and system details."
+    }
+  }
+}

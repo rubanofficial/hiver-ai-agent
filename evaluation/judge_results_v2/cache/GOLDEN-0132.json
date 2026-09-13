@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0132",
+  "input_fingerprint": "957fea96cafc00df62ef733dd6168f2714645a232a2fde16bdb130de359a8635",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T11:25:27+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0132",
+    "customer_message": "@MicrosoftHelps Just updated to the new Creators Update and my frame rates in games is atrocious. Cause? I’m getting 30-40fps instead of 150",
+    "conversation_context": "MICROSOFT (1854268): @554804 Hi! We suggest contacting our technical support team regarding the issue. You may contact them here: https://t.co/SO8Vf7YRoS. https://t.co/3qcAsLFkaY",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"599354\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 4}, \"score\": 0.749591, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Got it all sorted, just restarted it like 5 times and everything was back up | @116230 Bump? You’re here to help? It’s been a while and still waiting??? | @262171 Hi, Victor! Are you still experiencing this performance drop? We're here to help. | @116230 \\nThis last update, SUCKS. My game that ran at 60 FPS perfectly fine just drop 34 frames after I updated, please before you release an update make sure it doesn’t kill our devices.\\nThanks.\"}\n{\"evidence_id\": \"1726075\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 7}, \"score\": 0.708758, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@116230 yes | @522029 Understood. To confirm, have you installed the latest drivers from your graphics adapter manufacturer? | @116230 It's win 10 home version 1709 | @522029 We understand. Could you share with us the specific build number of the update that started this? | @116230 It Is still happening yes, randomly bugging my games to 30 fps If I'am In windowed borderless mode, previous build It doesn't happen | @522029 Hey, there. Are you still experiencing this issue? Perhaps we can help! | This new windows 10 creators update Is terrible, you have to update there Is no choice. Bugging games to 30 fps which Is unbearable.\"}\n{\"evidence_id\": \"1129602\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 11}, \"score\": 0.708272, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps PC of course, before update, i got stable 60 fps while using Game DVR, i already update VGA driver, but nothing change | @MicrosoftHelps hei we (all gamers) got drop fps when play game on windows 10 creators update, can you give us solution? | @MicrosoftHelps all of them or just Nvidia? | @MicrosoftHelps okay, I'll try that ASAP | @MicrosoftHelps Hei, can i download intel graphic driver using driver booster? Or just download from Intel website? | @MicrosoftHelps hei, i have try your solution, but nothing change, my fps still droping when i play the game (overwatch), and please read your PM | @MicrosoftHelps I can get 60 fps (Vsync On) when using Game DVR before update to Windows 10 creator update, after update, it drop 30 fps when using Game DVR | @MicrosoftHelps it still make no different for me, if you can't solve this problem, i will roll back | @MicrosoftHelps thanks for your help, just want to roll back and then waiting for you guys fix this issue | @MicrosoftHelps I have roll back to Windows 10 anniversary update, and I can play the game with 60fps (DVR On), no more drop fps | @MicrosoftHelps Just tell us when you guys have fix this issue and then I will update Windows\"}",
+    "generated_reply": "We understand you are experiencing a drop in frame rates after the update. Based on a similar case, some users resolved the issue by restarting the device multiple times, while others chose to roll back to the previous version of Windows while awaiting a fix."
+  },
+  "raw_response": "{\n  \"correctness\": 4,\n  \"helpfulness\": 4,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 4,\n  \"overall_reply_score\": 4,\n  \"evidence_support\": 5,\n  \"unsupported_claims\": 5,\n  \"evidence_relevance\": 5,\n  \"grounding_score\": 5,\n  \"reason\": \"The generated reply directly addresses the customer's frame rate drop issue after the Creators Update, utilizing troubleshooting steps and workarounds found directly in the retrieved evidence (restarting multiple times, rolling back the update).\"\n}",
+  "result": {
+    "correctness": 4,
+    "helpfulness": 4,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 4,
+    "overall_reply_score": 4,
+    "evidence_support": 5,
+    "unsupported_claims": 5,
+    "evidence_relevance": 5,
+    "grounding_score": 5,
+    "reason": "The generated reply directly addresses the customer's frame rate drop issue after the Creators Update, utilizing troubleshooting steps and workarounds found directly in the retrieved evidence (restarting multiple times, rolling back the update).",
+    "overall_score": 4,
+    "short_reason": "The generated reply directly addresses the customer's frame rate drop issue after the Creators Update, utilizing troubleshooting steps and workarounds found directly in the retrieved evidence (restarting multiple times, rolling back the update).",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 4,
+      "helpfulness": 4,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 4
+    },
+    "evidence_grounding": {
+      "evidence_support": 5,
+      "unsupported_claims": 5,
+      "evidence_relevance": 5
+    },
+    "golden_id": "GOLDEN-0132",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0132",
+      "customer_message": "@MicrosoftHelps Just updated to the new Creators Update and my frame rates in games is atrocious. Cause? I’m getting 30-40fps instead of 150",
+      "conversation_context": "MICROSOFT (1854268): @554804 Hi! We suggest contacting our technical support team regarding the issue. You may contact them here: https://t.co/SO8Vf7YRoS. https://t.co/3qcAsLFkaY",
+      "predicted_intent": "Technical Troubleshooting",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"599354\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 4}, \"score\": 0.749591, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Got it all sorted, just restarted it like 5 times and everything was back up | @116230 Bump? You’re here to help? It’s been a while and still waiting??? | @262171 Hi, Victor! Are you still experiencing this performance drop? We're here to help. | @116230 \\nThis last update, SUCKS. My game that ran at 60 FPS perfectly fine just drop 34 frames after I updated, please before you release an update make sure it doesn’t kill our devices.\\nThanks.\"}\n{\"evidence_id\": \"1726075\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 7}, \"score\": 0.708758, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@116230 yes | @522029 Understood. To confirm, have you installed the latest drivers from your graphics adapter manufacturer? | @116230 It's win 10 home version 1709 | @522029 We understand. Could you share with us the specific build number of the update that started this? | @116230 It Is still happening yes, randomly bugging my games to 30 fps If I'am In windowed borderless mode, previous build It doesn't happen | @522029 Hey, there. Are you still experiencing this issue? Perhaps we can help! | This new windows 10 creators update Is terrible, you have to update there Is no choice. Bugging games to 30 fps which Is unbearable.\"}\n{\"evidence_id\": \"1129602\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 11}, \"score\": 0.708272, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps PC of course, before update, i got stable 60 fps while using Game DVR, i already update VGA driver, but nothing change | @MicrosoftHelps hei we (all gamers) got drop fps when play game on windows 10 creators update, can you give us solution? | @MicrosoftHelps all of them or just Nvidia? | @MicrosoftHelps okay, I'll try that ASAP | @MicrosoftHelps Hei, can i download intel graphic driver using driver booster? Or just download from Intel website? | @MicrosoftHelps hei, i have try your solution, but nothing change, my fps still droping when i play the game (overwatch), and please read your PM | @MicrosoftHelps I can get 60 fps (Vsync On) when using Game DVR before update to Windows 10 creator update, after update, it drop 30 fps when using Game DVR | @MicrosoftHelps it still make no different for me, if you can't solve this problem, i will roll back | @MicrosoftHelps thanks for your help, just want to roll back and then waiting for you guys fix this issue | @MicrosoftHelps I have roll back to Windows 10 anniversary update, and I can play the game with 60fps (DVR On), no more drop fps | @MicrosoftHelps Just tell us when you guys have fix this issue and then I will update Windows\"}",
+      "generated_reply": "We understand you are experiencing a drop in frame rates after the update. Based on a similar case, some users resolved the issue by restarting the device multiple times, while others chose to roll back to the previous version of Windows while awaiting a fix."
+    }
+  }
+}

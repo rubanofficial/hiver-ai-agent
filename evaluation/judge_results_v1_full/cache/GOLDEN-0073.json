@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0073",
+  "input_fingerprint": "c83fe802f923b25e2c8c42619277e0d1067e05904242c02bc2ea298f75a4461f",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:35:51+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0073",
+    "customer_message": "@MicrosoftHelps If my computer was compatible with windows 10 creators update, should it be compatible with fall update and so on?",
+    "conversation_context": "MICROSOFT (905198): @334894 Hello, Mario. The update will notify you once your device is ready. It will update gradually. 👍",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"155913\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.752334, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"That Windows 10 Fall Creators Update is something else; isn't it?\"}\n{\"evidence_id\": \"1526790\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.707677, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I've HP Notebook-15-ay085tu\\nIt has Intel Pentium N3710 processor 4GB ram. Can I smoothly run Windows 10 Fall Creators Update\"}\n{\"evidence_id\": \"847864\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.679304, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Windows 10 fall creators update done 🔥🔥🔥\"}",
+    "generated_reply": "Hello! The retrieved historical evidence does not contain sufficient technical details to confirm if compatibility with the Creators Update guarantees compatibility with subsequent updates like the Fall Update. For accurate assistance with your specific system compatibility, please contact Microsoft support directly."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 4,\n  \"clarity\": 4,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 3,\n  \"evidence_support\": 5,\n  \"unsupported_claims\": 5,\n  \"evidence_relevance\": 1,\n  \"grounding_score\": 5,\n  \"reason\": \"The reply appropriately advises contacting support because the retrieved evidence lacks specific technical details about Windows 10 update compatibility chains.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 4,
+    "clarity": 4,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 3,
+    "evidence_support": 5,
+    "unsupported_claims": 5,
+    "evidence_relevance": 1,
+    "grounding_score": 5,
+    "reason": "The reply appropriately advises contacting support because the retrieved evidence lacks specific technical details about Windows 10 update compatibility chains.",
+    "overall_score": 3,
+    "short_reason": "The reply appropriately advises contacting support because the retrieved evidence lacks specific technical details about Windows 10 update compatibility chains.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 4,
+      "clarity": 4,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 5,
+      "unsupported_claims": 5,
+      "evidence_relevance": 1
+    },
+    "golden_id": "GOLDEN-0073",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0073",
+      "customer_message": "@MicrosoftHelps If my computer was compatible with windows 10 creators update, should it be compatible with fall update and so on?",
+      "conversation_context": "MICROSOFT (905198): @334894 Hello, Mario. The update will notify you once your device is ready. It will update gradually. 👍",
+      "predicted_intent": "Technical Troubleshooting",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"155913\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.752334, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"That Windows 10 Fall Creators Update is something else; isn't it?\"}\n{\"evidence_id\": \"1526790\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.707677, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I've HP Notebook-15-ay085tu\\nIt has Intel Pentium N3710 processor 4GB ram. Can I smoothly run Windows 10 Fall Creators Update\"}\n{\"evidence_id\": \"847864\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.679304, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Windows 10 fall creators update done 🔥🔥🔥\"}",
+      "generated_reply": "Hello! The retrieved historical evidence does not contain sufficient technical details to confirm if compatibility with the Creators Update guarantees compatibility with subsequent updates like the Fall Update. For accurate assistance with your specific system compatibility, please contact Microsoft support directly."
+    }
+  }
+}

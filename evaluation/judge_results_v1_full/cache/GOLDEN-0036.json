@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0036",
+  "input_fingerprint": "a3ca0f7c058e96d0a4aa3a1b51dc547f12bd81d416c11431b5fd5b58642b4ca6",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:30:53+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0036",
+    "customer_message": "How to waste an hour of your life: Let Windows 10 update.",
+    "conversation_context": "MICROSOFT (446423): @220742 Hi, Jordy. Schedule when to implement the updates on your computer. Check this link to set active hours to avoid inconvenient restarts: https://t.co/AaxVQaGteE. We're here if you have other questions.",
+    "predicted_intent": "Complaint / Feedback",
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+    "retrieved_evidence": "{\"evidence_id\": \"105707\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.795471, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Windows 10 update times are a joke. I DONT HAVE TIME FOR THIS\"}\n{\"evidence_id\": \"660831\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.763388, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps The 3 hours that it took to update once restarted has gone a long way to ruining my day. | @MicrosoftHelps  Windows 10 updates are a great way to ruin any chance of productivity in your day aren’t they?  #grrrr\"}\n{\"evidence_id\": \"1415417\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.739421, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Windows 10 auto-update ruins another productive work day.  Feel like I should bill you guys for the last 45 minutes sitting around doing nothing on the clock.\"}",
+    "generated_reply": "We understand how frustrating it is when updates disrupt your day and productivity. While we do not have specific troubleshooting steps or policies in the provided history to alter update times currently, we appreciate your feedback. If you need further assistance with your system, please contact Microsoft support directly."
+  },
+  "raw_response": "{\n  \"correctness\": 5,\n  \"helpfulness\": 4,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 5,\n  \"evidence_support\": 5,\n  \"unsupported_claims\": 5,\n  \"evidence_relevance\": 4,\n  \"grounding_score\": 5,\n  \"reason\": \"The reply appropriately acknowledges the customer's frustration, handles the complaint feedback professionally, avoids making unjustified claims, and correctly advises contacting support since it is routed for escalation.\"\n}",
+  "result": {
+    "correctness": 5,
+    "helpfulness": 4,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 5,
+    "evidence_support": 5,
+    "unsupported_claims": 5,
+    "evidence_relevance": 4,
+    "grounding_score": 5,
+    "reason": "The reply appropriately acknowledges the customer's frustration, handles the complaint feedback professionally, avoids making unjustified claims, and correctly advises contacting support since it is routed for escalation.",
+    "overall_score": 5,
+    "short_reason": "The reply appropriately acknowledges the customer's frustration, handles the complaint feedback professionally, avoids making unjustified claims, and correctly advises contacting support since it is routed for escalation.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 5,
+      "helpfulness": 4,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 5,
+      "unsupported_claims": 5,
+      "evidence_relevance": 4
+    },
+    "golden_id": "GOLDEN-0036",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0036",
+      "customer_message": "How to waste an hour of your life: Let Windows 10 update.",
+      "conversation_context": "MICROSOFT (446423): @220742 Hi, Jordy. Schedule when to implement the updates on your computer. Check this link to set active hours to avoid inconvenient restarts: https://t.co/AaxVQaGteE. We're here if you have other questions.",
+      "predicted_intent": "Complaint / Feedback",
+      "predicted_escalation": "ESCALATE_TO_HUMAN",
+      "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+      "retrieved_evidence": "{\"evidence_id\": \"105707\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.795471, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Windows 10 update times are a joke. I DONT HAVE TIME FOR THIS\"}\n{\"evidence_id\": \"660831\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.763388, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps The 3 hours that it took to update once restarted has gone a long way to ruining my day. | @MicrosoftHelps  Windows 10 updates are a great way to ruin any chance of productivity in your day aren’t they?  #grrrr\"}\n{\"evidence_id\": \"1415417\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.739421, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Windows 10 auto-update ruins another productive work day.  Feel like I should bill you guys for the last 45 minutes sitting around doing nothing on the clock.\"}",
+      "generated_reply": "We understand how frustrating it is when updates disrupt your day and productivity. While we do not have specific troubleshooting steps or policies in the provided history to alter update times currently, we appreciate your feedback. If you need further assistance with your system, please contact Microsoft support directly."
+    }
+  }
+}

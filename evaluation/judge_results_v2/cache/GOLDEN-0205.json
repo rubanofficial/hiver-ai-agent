@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0205",
+  "input_fingerprint": "d760a8ad9509194347707db685bdf52cd2fabb60e3574330e01aef2a80929749",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:05:43+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0205",
+    "customer_message": "After updating system is dead slow! Now encountered new problem, no internet connection over wifi!!!! @MicrosoftHelps @26626",
+    "conversation_context": "MICROSOFT (113489): @141204 Just to clarify, what do you mean by \"some pages are not opening\"? Are you referring to websites? Are you experiencing same issue using different device?\nCUSTOMER (113490): @MicrosoftHelps Able to get ! But some pages not opening! Showing no internet\nMICROSOFT (113491): @141204 Hi. Haven't heard back from you yet. Are you still experiencing issues with the connection? Please let us know.\nMICROSOFT (113492): @141204 Hi, Kiran! Were we able to resolve your concern? If no, feel free to reach out if you need further assistance. We're here for you. 😃👍",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"1935005\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 3}, \"score\": 0.707021, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps The thing is that particular update doesn't like being installed at all. What should I do? | @MicrosoftHelps Yes I have tried resetting my modem and my router and I am currently using Lenovo G40-80 | @microsofthelps @16942 this is what happens when this update gets downloaded or installed, and it slows down my internet speed. help? https://t.co/7IhzoG1wBM\"}\n{\"evidence_id\": \"2647872\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 3}, \"score\": 0.672712, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps *windows 10 I am using | @MicrosoftHelps I am using windows. The update didn't fully update and since I have no connection to anything because it glitched I can't finish the update | @MicrosoftHelps New update didn't complete glitched out my pc can't connect to networks or my internet\"}\n{\"evidence_id\": \"268052\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 6}, \"score\": 0.672101, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps windows 10. does it need internet connection? | @MicrosoftHelps hello I’ve done it many times but still it get stuck during windows update. Stuck at 32% , no movement at all https://t.co/8hTjIofSMR | @MicrosoftHelps yep still. Maybe my wifi is poor as hell. Thanks for the help btw | @MicrosoftHelps Hello. It still stuck at 32% | @MicrosoftHelps Hi. After several attempt it finally works updating my windows. Thanks for the help | @MicrosoftHelps There’s a sudden update on mu computer on start up. Then my screen went blank. I couldn’t do the safe mode either\"}",
+    "generated_reply": "Hello! Based on a similar historical case where an update did not fully complete and caused network connection glitches, users found that trying the update process again after several attempts eventually allowed the update to finish successfully. We recommend checking your connection and attempting the update process again."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 4,\n  \"clarity\": 4,\n  \"escalation_appropriateness\": 3,\n  \"overall_reply_score\": 3,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 3,\n  \"evidence_relevance\": 3,\n  \"grounding_score\": 3,\n  \"reason\": \"The reply addresses the customer's issues regarding system slowness and wifi loss after an update by drawing on historical evidence, suggesting to retry the update. However, suggesting an update retry when there is no internet connection may be impractical.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 4,
+    "clarity": 4,
+    "escalation_appropriateness": 3,
+    "overall_reply_score": 3,
+    "evidence_support": 3,
+    "unsupported_claims": 3,
+    "evidence_relevance": 3,
+    "grounding_score": 3,
+    "reason": "The reply addresses the customer's issues regarding system slowness and wifi loss after an update by drawing on historical evidence, suggesting to retry the update. However, suggesting an update retry when there is no internet connection may be impractical.",
+    "overall_score": 3,
+    "short_reason": "The reply addresses the customer's issues regarding system slowness and wifi loss after an update by drawing on historical evidence, suggesting to retry the update. However, suggesting an update retry when there is no internet connection may be impractical.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 4,
+      "clarity": 4,
+      "escalation_appropriateness": 3
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 3,
+      "evidence_relevance": 3
+    },
+    "golden_id": "GOLDEN-0205",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0205",
+      "customer_message": "After updating system is dead slow! Now encountered new problem, no internet connection over wifi!!!! @MicrosoftHelps @26626",
+      "conversation_context": "MICROSOFT (113489): @141204 Just to clarify, what do you mean by \"some pages are not opening\"? Are you referring to websites? Are you experiencing same issue using different device?\nCUSTOMER (113490): @MicrosoftHelps Able to get ! But some pages not opening! Showing no internet\nMICROSOFT (113491): @141204 Hi. Haven't heard back from you yet. Are you still experiencing issues with the connection? Please let us know.\nMICROSOFT (113492): @141204 Hi, Kiran! Were we able to resolve your concern? If no, feel free to reach out if you need further assistance. We're here for you. 😃👍",
+      "predicted_intent": "Technical Troubleshooting",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"1935005\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 3}, \"score\": 0.707021, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps The thing is that particular update doesn't like being installed at all. What should I do? | @MicrosoftHelps Yes I have tried resetting my modem and my router and I am currently using Lenovo G40-80 | @microsofthelps @16942 this is what happens when this update gets downloaded or installed, and it slows down my internet speed. help? https://t.co/7IhzoG1wBM\"}\n{\"evidence_id\": \"2647872\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 3}, \"score\": 0.672712, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps *windows 10 I am using | @MicrosoftHelps I am using windows. The update didn't fully update and since I have no connection to anything because it glitched I can't finish the update | @MicrosoftHelps New update didn't complete glitched out my pc can't connect to networks or my internet\"}\n{\"evidence_id\": \"268052\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 6}, \"score\": 0.672101, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps windows 10. does it need internet connection? | @MicrosoftHelps hello I’ve done it many times but still it get stuck during windows update. Stuck at 32% , no movement at all https://t.co/8hTjIofSMR | @MicrosoftHelps yep still. Maybe my wifi is poor as hell. Thanks for the help btw | @MicrosoftHelps Hello. It still stuck at 32% | @MicrosoftHelps Hi. After several attempt it finally works updating my windows. Thanks for the help | @MicrosoftHelps There’s a sudden update on mu computer on start up. Then my screen went blank. I couldn’t do the safe mode either\"}",
+      "generated_reply": "Hello! Based on a similar historical case where an update did not fully complete and caused network connection glitches, users found that trying the update process again after several attempts eventually allowed the update to finish successfully. We recommend checking your connection and attempting the update process again."
+    }
+  }
+}

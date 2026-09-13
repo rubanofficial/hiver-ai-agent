@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0183",
+  "input_fingerprint": "e149b9a982891454747e32348c4930902131b193152a05a18f4addc79a902fab",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:45:46+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0183",
+    "customer_message": "@MicrosoftHelps I need to recover my __email__ account. It's linked to everything. My iTunes account and my iPhone are linked to this! All my details are correct!! https://t.co/5nB8ApOEyw",
+    "conversation_context": "MICROSOFT (2711648): @761344 Hi. We're here to help, Katy. For security reason, we suggest that you delete the tweet that contain your email address and send it via DM instead. Thank you!",
+    "predicted_intent": "Account & Login",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"423902\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.774555, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I can't recover my email account I've used for nearly 20 years &amp; is linked to all my online accounts, bank, Apple ID, etc.. Everytime I submit a recovery form I receive an email asking me to do it again. I'm devastated as I can't get any real customer service! 😥\"}\n{\"evidence_id\": \"392944\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.740737, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps im having trouble recovering the account or even just signing in and cant access the original email what do i need to do? https://t.co/Ka377wkL87\"}\n{\"evidence_id\": \"1136016\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.723303, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps All good. Thanks guys! :) | @MicrosoftHelps it seems like i've lost access to an e-mail account that I can't afford to lose. The recovery system failed me. Help?\"}",
+    "generated_reply": "We understand how important it is to regain access to your account, especially when it is linked to so many of your services. Unfortunately, we do not have enough information in our current system to resolve this account recovery issue directly. Please contact Microsoft support directly for further assistance."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 3,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 4,\n  \"evidence_relevance\": 4,\n  \"grounding_score\": 3,\n  \"reason\": \"The reply is clear and appropriately suggests contacting Microsoft support directly for account recovery issues, but lacks specific actionable steps.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 3,
+    "evidence_support": 3,
+    "unsupported_claims": 4,
+    "evidence_relevance": 4,
+    "grounding_score": 3,
+    "reason": "The reply is clear and appropriately suggests contacting Microsoft support directly for account recovery issues, but lacks specific actionable steps.",
+    "overall_score": 3,
+    "short_reason": "The reply is clear and appropriately suggests contacting Microsoft support directly for account recovery issues, but lacks specific actionable steps.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 4,
+      "evidence_relevance": 4
+    },
+    "golden_id": "GOLDEN-0183",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0183",
+      "customer_message": "@MicrosoftHelps I need to recover my __email__ account. It's linked to everything. My iTunes account and my iPhone are linked to this! All my details are correct!! https://t.co/5nB8ApOEyw",
+      "conversation_context": "MICROSOFT (2711648): @761344 Hi. We're here to help, Katy. For security reason, we suggest that you delete the tweet that contain your email address and send it via DM instead. Thank you!",
+      "predicted_intent": "Account & Login",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"423902\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.774555, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I can't recover my email account I've used for nearly 20 years &amp; is linked to all my online accounts, bank, Apple ID, etc.. Everytime I submit a recovery form I receive an email asking me to do it again. I'm devastated as I can't get any real customer service! 😥\"}\n{\"evidence_id\": \"392944\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.740737, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps im having trouble recovering the account or even just signing in and cant access the original email what do i need to do? https://t.co/Ka377wkL87\"}\n{\"evidence_id\": \"1136016\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.723303, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps All good. Thanks guys! :) | @MicrosoftHelps it seems like i've lost access to an e-mail account that I can't afford to lose. The recovery system failed me. Help?\"}",
+      "generated_reply": "We understand how important it is to regain access to your account, especially when it is linked to so many of your services. Unfortunately, we do not have enough information in our current system to resolve this account recovery issue directly. Please contact Microsoft support directly for further assistance."
+    }
+  }
+}

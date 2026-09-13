@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0015",
+  "input_fingerprint": "12dc54a461d245ed3150035cdab6c969086d60573519a45f3516c1fb81cc179f",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:29:05+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0015",
+    "customer_message": "@MicrosoftHelps This update has taken nearly an hour to do 18%. How is this acceptable?",
+    "conversation_context": "MICROSOFT (158307): @151115 We want to get this resolved for you, Tom. Just to verify, what's the make and model of the device? What operating system are you using? You can reply through this link: https://t.co/3qcAsLFkaY",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"1154392\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 3}, \"score\": 0.762931, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Thanks for getting back to me. I left to get groceries and it was done by the time I came home. Adding some measure of time remaining  /2 | Now at 25% for over 30 min - and it took over an hour to get that far. Not impressed @MicrosoftHelps https://t.co/PcMzwKb9Bx | @MicrosoftHelps Would greatly improve the update process beyond just the % complete\"}\n{\"evidence_id\": \"588417\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.75468, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps All gone through now, it took 5 hours! | @MicrosoftHelps should the latest W10 update take 3 hours to reach 33% downloaded?\"}\n{\"evidence_id\": \"27112\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.724719, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Thank you it updated perfectly, no further issues. | @MicrosoftHelps So I have now waited for more than 36 hours and the windows 10 updater is still at 99%. Anything else I can do besides wait?\"}",
+    "generated_reply": "We understand how frustrating it is when updates take longer than expected. While update times can vary significantly depending on the system and file size, please note that some updates may take several hours to complete. If you continue to experience unusual delays, please contact Microsoft support directly for further assistance."
+  },
+  "raw_response": "{\n  \"correctness\": 4,\n  \"helpfulness\": 4,\n  \"relevance\": 5,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 4,\n  \"evidence_support\": 4,\n  \"unsupported_claims\": 4,\n  \"evidence_relevance\": 4,\n  \"grounding_score\": 4,\n  \"reason\": \"The reply directly addresses the customer's frustration about a slow update, offering a reasonable explanation supported by historical evidence showing updates can take a long time, while appropriately suggesting support if issues persist.\"\n}",
+  "result": {
+    "correctness": 4,
+    "helpfulness": 4,
+    "relevance": 5,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 4,
+    "evidence_support": 4,
+    "unsupported_claims": 4,
+    "evidence_relevance": 4,
+    "grounding_score": 4,
+    "reason": "The reply directly addresses the customer's frustration about a slow update, offering a reasonable explanation supported by historical evidence showing updates can take a long time, while appropriately suggesting support if issues persist.",
+    "overall_score": 4,
+    "short_reason": "The reply directly addresses the customer's frustration about a slow update, offering a reasonable explanation supported by historical evidence showing updates can take a long time, while appropriately suggesting support if issues persist.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 4,
+      "helpfulness": 4,
+      "relevance": 5,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 4,
+      "unsupported_claims": 4,
+      "evidence_relevance": 4
+    },
+    "golden_id": "GOLDEN-0015",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0015",
+      "customer_message": "@MicrosoftHelps This update has taken nearly an hour to do 18%. How is this acceptable?",
+      "conversation_context": "MICROSOFT (158307): @151115 We want to get this resolved for you, Tom. Just to verify, what's the make and model of the device? What operating system are you using? You can reply through this link: https://t.co/3qcAsLFkaY",
+      "predicted_intent": "Technical Troubleshooting",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"1154392\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 3}, \"score\": 0.762931, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Thanks for getting back to me. I left to get groceries and it was done by the time I came home. Adding some measure of time remaining  /2 | Now at 25% for over 30 min - and it took over an hour to get that far. Not impressed @MicrosoftHelps https://t.co/PcMzwKb9Bx | @MicrosoftHelps Would greatly improve the update process beyond just the % complete\"}\n{\"evidence_id\": \"588417\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.75468, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps All gone through now, it took 5 hours! | @MicrosoftHelps should the latest W10 update take 3 hours to reach 33% downloaded?\"}\n{\"evidence_id\": \"27112\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.724719, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Thank you it updated perfectly, no further issues. | @MicrosoftHelps So I have now waited for more than 36 hours and the windows 10 updater is still at 99%. Anything else I can do besides wait?\"}",
+      "generated_reply": "We understand how frustrating it is when updates take longer than expected. While update times can vary significantly depending on the system and file size, please note that some updates may take several hours to complete. If you continue to experience unusual delays, please contact Microsoft support directly for further assistance."
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0084",
+  "input_fingerprint": "bd8f0b945d404936de811b4afa7a1f9cae668dadc97eb0005bf80105cbc4fb96",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-12T04:38:04+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0084",
+    "customer_message": "@MicrosoftHelps https://t.co/CdLVm8vhsU",
+    "conversation_context": "MICROSOFT (1064583): @368464 That's strange. Please DM us instead. https://t.co/3qcAsLFkaY",
+    "predicted_intent": "Complaint / Feedback",
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+    "retrieved_evidence": "{\"evidence_id\": \"668148\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.966189, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps https://t.co/OVdEWqtEbe\"}\n{\"evidence_id\": \"1826771\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.964752, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps https://t.co/p8r9M6ABJe\"}\n{\"evidence_id\": \"832461\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.96112, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps https://t.co/hOojgcsYC3\"}",
+    "generated_reply": "We understand you are experiencing an issue and have shared feedback. Based on similar cases, others have experienced similar concerns, but since no specific troubleshooting steps are available in our records, please reach out to Microsoft Support for further assistance."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 4,\n  \"clarity\": 4,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 3,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 3,\n  \"evidence_relevance\": 2,\n  \"ground_score\": 3,\n  \"grounding_score\": 3,\n  \"reason\": \"The reply acknowledges the customer's issue and appropriately directs them to Microsoft Support, but the evidence consists only of links without textual content, limiting deep grounding.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 4,
+    "clarity": 4,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 3,
+    "evidence_support": 3,
+    "unsupported_claims": 3,
+    "evidence_relevance": 2,
+    "ground_score": 3,
+    "grounding_score": 3,
+    "reason": "The reply acknowledges the customer's issue and appropriately directs them to Microsoft Support, but the evidence consists only of links without textual content, limiting deep grounding.",
+    "overall_score": 3,
+    "short_reason": "The reply acknowledges the customer's issue and appropriately directs them to Microsoft Support, but the evidence consists only of links without textual content, limiting deep grounding.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 4,
+      "clarity": 4,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 3,
+      "evidence_relevance": 2
+    },
+    "golden_id": "GOLDEN-0084",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0084",
+      "customer_message": "@MicrosoftHelps https://t.co/CdLVm8vhsU",
+      "conversation_context": "MICROSOFT (1064583): @368464 That's strange. Please DM us instead. https://t.co/3qcAsLFkaY",
+      "predicted_intent": "Complaint / Feedback",
+      "predicted_escalation": "ESCALATE_TO_HUMAN",
+      "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+      "retrieved_evidence": "{\"evidence_id\": \"668148\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.966189, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps https://t.co/OVdEWqtEbe\"}\n{\"evidence_id\": \"1826771\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.964752, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps https://t.co/p8r9M6ABJe\"}\n{\"evidence_id\": \"832461\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.96112, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps https://t.co/hOojgcsYC3\"}",
+      "generated_reply": "We understand you are experiencing an issue and have shared feedback. Based on similar cases, others have experienced similar concerns, but since no specific troubleshooting steps are available in our records, please reach out to Microsoft Support for further assistance."
+    }
+  }
+}

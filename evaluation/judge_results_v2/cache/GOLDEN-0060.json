@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0060",
+  "input_fingerprint": "5757eb3879d5fea08ef5ae52265df223ae33e9a249358992016b63062637c178",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-12T04:35:28+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0060",
+    "customer_message": "@123196 @MicrosoftHelps https://t.co/1zKEw1sDFK",
+    "conversation_context": "MICROSOFT (675107): @281018 Hi, Abdiel. We would like to follow up about the status of your concern. Please do not hesitate to contact us if you require assistance in the future.",
+    "predicted_intent": "Complaint / Feedback",
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+    "retrieved_evidence": "{\"evidence_id\": \"781366\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.92749, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@115890 @MicrosoftHelps https://t.co/gkdTGiIBAj\"}\n{\"evidence_id\": \"1817333\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.919127, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps  @72784 https://t.co/GgDIDMEYlj\"}\n{\"evidence_id\": \"1862234\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.918731, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps @556535 https://t.co/uja9UxQeHf\"}",
+    "generated_reply": "Hello! We are sorry to hear you are experiencing this issue. While we don't have a specific resolution for your case yet, we see that others have experienced similar issues. Please reach out to Microsoft Support directly so we can assist you further."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 3,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 3,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 3,\n  \"evidence_relevance\": 1,\n  \"grounding_score\": 2,\n  \"reason\": \"The customer provided a link with no context, and the retrieved evidence consists entirely of tweets with links and no textual information. The reply appropriately suggests contacting support, but the evidence was not useful.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 3,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 3,
+    "evidence_support": 3,
+    "unsupported_claims": 3,
+    "evidence_relevance": 1,
+    "grounding_score": 2,
+    "reason": "The customer provided a link with no context, and the retrieved evidence consists entirely of tweets with links and no textual information. The reply appropriately suggests contacting support, but the evidence was not useful.",
+    "overall_score": 3,
+    "short_reason": "The customer provided a link with no context, and the retrieved evidence consists entirely of tweets with links and no textual information. The reply appropriately suggests contacting support, but the evidence was not useful.",
+    "grounding_decision": "UNSUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 3,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 3,
+      "evidence_relevance": 1
+    },
+    "golden_id": "GOLDEN-0060",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0060",
+      "customer_message": "@123196 @MicrosoftHelps https://t.co/1zKEw1sDFK",
+      "conversation_context": "MICROSOFT (675107): @281018 Hi, Abdiel. We would like to follow up about the status of your concern. Please do not hesitate to contact us if you require assistance in the future.",
+      "predicted_intent": "Complaint / Feedback",
+      "predicted_escalation": "ESCALATE_TO_HUMAN",
+      "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+      "retrieved_evidence": "{\"evidence_id\": \"781366\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.92749, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@115890 @MicrosoftHelps https://t.co/gkdTGiIBAj\"}\n{\"evidence_id\": \"1817333\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.919127, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps  @72784 https://t.co/GgDIDMEYlj\"}\n{\"evidence_id\": \"1862234\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.918731, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps @556535 https://t.co/uja9UxQeHf\"}",
+      "generated_reply": "Hello! We are sorry to hear you are experiencing this issue. While we don't have a specific resolution for your case yet, we see that others have experienced similar issues. Please reach out to Microsoft Support directly so we can assist you further."
+    }
+  }
+}

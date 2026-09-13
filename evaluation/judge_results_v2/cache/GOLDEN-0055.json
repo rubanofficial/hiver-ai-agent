@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0055",
+  "input_fingerprint": "29f7e274430caf1a62158e7f9b2d6f77e80f72d9b3be51395e2f645549aa47fc",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-12T04:35:20+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0055",
+    "customer_message": "@MicrosoftHelps Can we move the \"close\" X to the left side?  I quit the OSK 50% of the time I try to delete a character.... https://t.co/5ccMe8ko8x",
+    "conversation_context": "MICROSOFT (553282): @249029 Hi, Chris. We hear you. OSK is designed that way. However, to get further assistance, you can be able to send your request or suggestion to Feedback Hub. Here's the link: https://t.co/GhC0kD7Bj8",
+    "predicted_intent": "Complaint / Feedback",
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Generated reply could not be grounded in historical evidence; human review is required.",
+    "retrieved_evidence": "{\"evidence_id\": \"188741\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.479592, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps app keeps closing on its own, help me https://t.co/TLCUmwmKlR\"}\n{\"evidence_id\": \"707778\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 5}, \"score\": 0.470779, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps This doesn’t tell me how to cancel it? Won’t let me press the x or anything | @MicrosoftHelps How many times do I have to message! Panicking now and really confused! Have essays to do! | @MicrosoftHelps Please reply ASAP! Really not sure what to do | @MicrosoftHelps Please help! It won’t let me shut down and I want to know if it’s real | @MicrosoftHelps help!!!! https://t.co/CuRdPpkpBd\"}\n{\"evidence_id\": \"757369\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.458572, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Until now no , thx ❤️ | @MicrosoftHelps hello i have this page error on my Microsoft edge and it doesn’t close if i try it won’t close can u help me ? https://t.co/4xWY6DRAvB\"}",
+    "generated_reply": "We apologize, but we do not have enough information to resolve this autonomously. Please contact Microsoft Support directly for further assistance."
+  },
+  "raw_response": "{\n  \"correctness\": 2,\n  \"helpfulness\": 2,\n  \"relevance\": 2,\n  \"clarity\": 4,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 2,\n  \"evidence_support\": 1,\n  \"unsupported_claims\": 3,\n  \"evidence_relevance\": 1,\n  \"grounding_score\": 1,\n  \"reason\": \"The agent correctly chose to escalate since the retrieved evidence was irrelevant to the OSK UI feedback, but the generated reply is a generic escalation message rather than addressing the product feedback or suggesting the Feedback Hub.\"\n}",
+  "result": {
+    "correctness": 2,
+    "helpfulness": 2,
+    "relevance": 2,
+    "clarity": 4,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 2,
+    "evidence_support": 1,
+    "unsupported_claims": 3,
+    "evidence_relevance": 1,
+    "grounding_score": 1,
+    "reason": "The agent correctly chose to escalate since the retrieved evidence was irrelevant to the OSK UI feedback, but the generated reply is a generic escalation message rather than addressing the product feedback or suggesting the Feedback Hub.",
+    "overall_score": 2,
+    "short_reason": "The agent correctly chose to escalate since the retrieved evidence was irrelevant to the OSK UI feedback, but the generated reply is a generic escalation message rather than addressing the product feedback or suggesting the Feedback Hub.",
+    "grounding_decision": "UNSUPPORTED",
+    "reply_quality": {
+      "correctness": 2,
+      "helpfulness": 2,
+      "relevance": 2,
+      "clarity": 4,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 1,
+      "unsupported_claims": 3,
+      "evidence_relevance": 1
+    },
+    "golden_id": "GOLDEN-0055",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0055",
+      "customer_message": "@MicrosoftHelps Can we move the \"close\" X to the left side?  I quit the OSK 50% of the time I try to delete a character.... https://t.co/5ccMe8ko8x",
+      "conversation_context": "MICROSOFT (553282): @249029 Hi, Chris. We hear you. OSK is designed that way. However, to get further assistance, you can be able to send your request or suggestion to Feedback Hub. Here's the link: https://t.co/GhC0kD7Bj8",
+      "predicted_intent": "Complaint / Feedback",
+      "predicted_escalation": "ESCALATE_TO_HUMAN",
+      "predicted_escalation_reason": "Generated reply could not be grounded in historical evidence; human review is required.",
+      "retrieved_evidence": "{\"evidence_id\": \"188741\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.479592, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps app keeps closing on its own, help me https://t.co/TLCUmwmKlR\"}\n{\"evidence_id\": \"707778\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 5}, \"score\": 0.470779, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps This doesn’t tell me how to cancel it? Won’t let me press the x or anything | @MicrosoftHelps How many times do I have to message! Panicking now and really confused! Have essays to do! | @MicrosoftHelps Please reply ASAP! Really not sure what to do | @MicrosoftHelps Please help! It won’t let me shut down and I want to know if it’s real | @MicrosoftHelps help!!!! https://t.co/CuRdPpkpBd\"}\n{\"evidence_id\": \"757369\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.458572, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps Until now no , thx ❤️ | @MicrosoftHelps hello i have this page error on my Microsoft edge and it doesn’t close if i try it won’t close can u help me ? https://t.co/4xWY6DRAvB\"}",
+      "generated_reply": "We apologize, but we do not have enough information to resolve this autonomously. Please contact Microsoft Support directly for further assistance."
+    }
+  }
+}

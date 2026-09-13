@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0114",
+  "input_fingerprint": "642339f9cc33770fae5a46a745fdf40fc793e2156d50216aee21e5611ffcf773",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:39:29+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0114",
+    "customer_message": "@MicrosoftHelps Is it? It's not nice in comparison and it makes my experience worse",
+    "conversation_context": "MICROSOFT (1522175): @392696 Hello! Glad you reached out, Daniel. Have you made any changes on your device prior to this issue?\nCUSTOMER (1522176): @MicrosoftHelps No, is this something that's meant to happen though?\nCUSTOMER (1522177): @MicrosoftHelps How do I change the search colour to how it was? Looks ugly right now! https://t.co/J5z2913Acw\nMICROSOFT (1522178): @392696 We understand. However, the color can't be change because it is a default settings with the recent Windows update.",
+    "predicted_intent": "Complaint / Feedback",
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+    "retrieved_evidence": "{\"evidence_id\": \"811807\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.799308, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps what is this? https://t.co/R5H3Vjh2o8\"}\n{\"evidence_id\": \"668148\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.792195, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps https://t.co/OVdEWqtEbe\"}\n{\"evidence_id\": \"832461\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.779394, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps https://t.co/hOojgcsYC3\"}",
+    "generated_reply": "We are sorry to hear that your experience has not been satisfactory. Since the provided information is insufficient to fully resolve your concern, please contact Microsoft support directly so we can assist you further."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 4,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 4,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 4,\n  \"evidence_relevance\": 1,\n  \"grounding_score\": 3,\n  \"reason\": \"The reply appropriately suggests contacting support for a complaint that cannot be fully resolved via social media, but the retrieved evidence is irrelevant to the specific issue.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 4,
+    "clarity": 5,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 4,
+    "evidence_support": 3,
+    "unsupported_claims": 4,
+    "evidence_relevance": 1,
+    "grounding_score": 3,
+    "reason": "The reply appropriately suggests contacting support for a complaint that cannot be fully resolved via social media, but the retrieved evidence is irrelevant to the specific issue.",
+    "overall_score": 4,
+    "short_reason": "The reply appropriately suggests contacting support for a complaint that cannot be fully resolved via social media, but the retrieved evidence is irrelevant to the specific issue.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 4,
+      "clarity": 5,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 4,
+      "evidence_relevance": 1
+    },
+    "golden_id": "GOLDEN-0114",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0114",
+      "customer_message": "@MicrosoftHelps Is it? It's not nice in comparison and it makes my experience worse",
+      "conversation_context": "MICROSOFT (1522175): @392696 Hello! Glad you reached out, Daniel. Have you made any changes on your device prior to this issue?\nCUSTOMER (1522176): @MicrosoftHelps No, is this something that's meant to happen though?\nCUSTOMER (1522177): @MicrosoftHelps How do I change the search colour to how it was? Looks ugly right now! https://t.co/J5z2913Acw\nMICROSOFT (1522178): @392696 We understand. However, the color can't be change because it is a default settings with the recent Windows update.",
+      "predicted_intent": "Complaint / Feedback",
+      "predicted_escalation": "ESCALATE_TO_HUMAN",
+      "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+      "retrieved_evidence": "{\"evidence_id\": \"811807\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.799308, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps what is this? https://t.co/R5H3Vjh2o8\"}\n{\"evidence_id\": \"668148\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.792195, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps https://t.co/OVdEWqtEbe\"}\n{\"evidence_id\": \"832461\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.779394, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps https://t.co/hOojgcsYC3\"}",
+      "generated_reply": "We are sorry to hear that your experience has not been satisfactory. Since the provided information is insufficient to fully resolve your concern, please contact Microsoft support directly so we can assist you further."
+    }
+  }
+}

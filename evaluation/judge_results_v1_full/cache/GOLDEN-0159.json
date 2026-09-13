@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0159",
+  "input_fingerprint": "664c1555043804da5ff903f89f7adfe464f95a15871ac847486a9fb2c01d44b5",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:43:29+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0159",
+    "customer_message": "Well done @116230 the latest update has made my whole windows corrupt. Now i'm going to lose everything, all my games, old family photos of members who are deceased 😣 👏👏👏👏👏",
+    "conversation_context": "MICROSOFT (2201390): @643802 Thank you for the information. For black screen issues, we suggest checking this link: https://t.co/GympBCRtYU. Let us know how it turns out.",
+    "predicted_intent": "Complaint / Feedback",
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+    "retrieved_evidence": "{\"evidence_id\": \"1530250\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 4}, \"score\": 0.684895, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@116230 All gone, update completely stuffed my computer. LOST EVERYTHING!!! | @474914 Hi, there. Just wanted to check in. Are you still experiencing this at the moment? We're here to help if you need us. | Yaaaaay...thanks @116230 #windowsupdate https://t.co/vuNryUjk4h | @MicrosoftHelps I've reinstalled, lost everything\"}\n{\"evidence_id\": \"1558120\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 3}, \"score\": 0.649216, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@116230 1. Updates itself 2. This just happened ? https://t.co/cHB6vlK0Fr | @481593 Hey, there. What's happening to make you say that? We want you to have a great experience with Windows. | @118197 &amp; @116230 is the worst !\"}\n{\"evidence_id\": \"910479\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 1}, \"score\": 0.64565, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Thanks for completely screwing my pc with your terrible update @116230\"}",
+    "generated_reply": "Hi, there. Just wanted to check in. Are you still experiencing this at the moment? We're here to help if you need us."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 4,\n  \"clarity\": 5,\n  \"escalation_appropriateness\": 3,\n  \"overall_reply_score\": 3,\n  \"evidence_support\": 5,\n  \"unsupported_claims\": 5,\n  \"evidence_relevance\": 3,\n  \"grounding_score\": 4,\n  \"reason\": \"The reply uses a standard check-in message found in the evidence, but fails to appropriately handle a high-risk complaint about data loss and a corrupted system, which requires escalation.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 4,
+    "clarity": 5,
+    "escalation_appropriateness": 3,
+    "overall_reply_score": 3,
+    "evidence_support": 5,
+    "unsupported_claims": 5,
+    "evidence_relevance": 3,
+    "grounding_score": 4,
+    "reason": "The reply uses a standard check-in message found in the evidence, but fails to appropriately handle a high-risk complaint about data loss and a corrupted system, which requires escalation.",
+    "overall_score": 3,
+    "short_reason": "The reply uses a standard check-in message found in the evidence, but fails to appropriately handle a high-risk complaint about data loss and a corrupted system, which requires escalation.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 4,
+      "clarity": 5,
+      "escalation_appropriateness": 3
+    },
+    "evidence_grounding": {
+      "evidence_support": 5,
+      "unsupported_claims": 5,
+      "evidence_relevance": 3
+    },
+    "golden_id": "GOLDEN-0159",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0159",
+      "customer_message": "Well done @116230 the latest update has made my whole windows corrupt. Now i'm going to lose everything, all my games, old family photos of members who are deceased 😣 👏👏👏👏👏",
+      "conversation_context": "MICROSOFT (2201390): @643802 Thank you for the information. For black screen issues, we suggest checking this link: https://t.co/GympBCRtYU. Let us know how it turns out.",
+      "predicted_intent": "Complaint / Feedback",
+      "predicted_escalation": "ESCALATE_TO_HUMAN",
+      "predicted_escalation_reason": "Intent 'Complaint / Feedback' is high-risk and requires human handling.",
+      "retrieved_evidence": "{\"evidence_id\": \"1530250\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 4}, \"score\": 0.684895, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@116230 All gone, update completely stuffed my computer. LOST EVERYTHING!!! | @474914 Hi, there. Just wanted to check in. Are you still experiencing this at the moment? We're here to help if you need us. | Yaaaaay...thanks @116230 #windowsupdate https://t.co/vuNryUjk4h | @MicrosoftHelps I've reinstalled, lost everything\"}\n{\"evidence_id\": \"1558120\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 3}, \"score\": 0.649216, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@116230 1. Updates itself 2. This just happened ? https://t.co/cHB6vlK0Fr | @481593 Hey, there. What's happening to make you say that? We want you to have a great experience with Windows. | @118197 &amp; @116230 is the worst !\"}\n{\"evidence_id\": \"910479\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 1}, \"score\": 0.64565, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Thanks for completely screwing my pc with your terrible update @116230\"}",
+      "generated_reply": "Hi, there. Just wanted to check in. Are you still experiencing this at the moment? We're here to help if you need us."
+    }
+  }
+}

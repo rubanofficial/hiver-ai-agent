@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0081",
+  "input_fingerprint": "dadf54d4fa6cfde571d0402f8487f450733698400fb167bae160153ec39f769e",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T12:37:06+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0081",
+    "customer_message": "@MicrosoftHelps lately my laptop is slow, I've discarded problems with the hard drive and malwares, but the system is still slow",
+    "conversation_context": "MICROSOFT (1045327): @367131 Thanks for the response. Just to clarify, are you getting any error messages? Also, any changes made before the issue happened?\nCUSTOMER (1045328): @MicrosoftHelps No, Windows doesn't  show me any messages. \nBtw after the last update, my laptop could not restart automatically, as it is usual.\nCUSTOMER (1045329): @MicrosoftHelps For example when I open the file explorer or when search an app with cortana. Also when I using the browser.\nMICROSOFT (1045330): @367131 Just checking to see if you need help. Is everything good now? Please let us know. https://t.co/3qcAsLFkaY\nMICROSOFT (1045331): @367131 To resolve the issue, we suggest that you perform the following troubleshooting steps in this link: https://t.co/bma6E36XRJ. https://t.co/3qcAsLFkaY\nMICROSOFT (1045332): @367131 Hi, Hanu! Let's work on this. Which Windows version are you using? What activity are you doing when you experienced this issue? https://t.co/3qcAsLFkaY\nCUSTOMER (1045333): @MicrosoftHelps I am using Windows 10 - version 1703 (compilation 15063.632)",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"1644929\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.734627, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps okay thanks | @MicrosoftHelps after updating my laptop its really slow, everything keeps crashing, &amp; things won’t open when i click on them, etc. help??\"}\n{\"evidence_id\": \"476022\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 3}, \"score\": 0.670973, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps It's still slow and I have random apps crashing  😔 | @MicrosoftHelps No and no. I just restarted the computer... lol it's slow | @MicrosoftHelps YES!!\"}\n{\"evidence_id\": \"251690\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 1}, \"score\": 0.653026, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"So thanks to the latest forced update my Windows 10 laptop has gone from booting in 20 seconds to 3 minutes - and then running sluggishly slow across the board. Thanks @MicrosoftHelps @115890 !\"}",
+    "generated_reply": "We are sorry to hear your laptop is running slowly. Since the historical evidence does not provide specific troubleshooting steps for this issue, we recommend contacting Microsoft support directly for further assistance."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 2,\n  \"relevance\": 4,\n  \"clarity\": 4,\n  \"escalation_appropriateness\": 5,\n  \"overall_reply_score\": 3,\n  \"evidence_support\": 4,\n  \"unsupported_claims\": 5,\n  \"evidence_relevance\": 3,\n  \"grounding_score\": 4,\n  \"reason\": \"The reply acknowledges the customer's issue and correctly notes that the retrieved evidence lacks specific troubleshooting steps, leading appropriately to a recommendation for further support, though it could be more proactive.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 2,
+    "relevance": 4,
+    "clarity": 4,
+    "escalation_appropriateness": 5,
+    "overall_reply_score": 3,
+    "evidence_support": 4,
+    "unsupported_claims": 5,
+    "evidence_relevance": 3,
+    "grounding_score": 4,
+    "reason": "The reply acknowledges the customer's issue and correctly notes that the retrieved evidence lacks specific troubleshooting steps, leading appropriately to a recommendation for further support, though it could be more proactive.",
+    "overall_score": 3,
+    "short_reason": "The reply acknowledges the customer's issue and correctly notes that the retrieved evidence lacks specific troubleshooting steps, leading appropriately to a recommendation for further support, though it could be more proactive.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 2,
+      "relevance": 4,
+      "clarity": 4,
+      "escalation_appropriateness": 5
+    },
+    "evidence_grounding": {
+      "evidence_support": 4,
+      "unsupported_claims": 5,
+      "evidence_relevance": 3
+    },
+    "golden_id": "GOLDEN-0081",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0081",
+      "customer_message": "@MicrosoftHelps lately my laptop is slow, I've discarded problems with the hard drive and malwares, but the system is still slow",
+      "conversation_context": "MICROSOFT (1045327): @367131 Thanks for the response. Just to clarify, are you getting any error messages? Also, any changes made before the issue happened?\nCUSTOMER (1045328): @MicrosoftHelps No, Windows doesn't  show me any messages. \nBtw after the last update, my laptop could not restart automatically, as it is usual.\nCUSTOMER (1045329): @MicrosoftHelps For example when I open the file explorer or when search an app with cortana. Also when I using the browser.\nMICROSOFT (1045330): @367131 Just checking to see if you need help. Is everything good now? Please let us know. https://t.co/3qcAsLFkaY\nMICROSOFT (1045331): @367131 To resolve the issue, we suggest that you perform the following troubleshooting steps in this link: https://t.co/bma6E36XRJ. https://t.co/3qcAsLFkaY\nMICROSOFT (1045332): @367131 Hi, Hanu! Let's work on this. Which Windows version are you using? What activity are you doing when you experienced this issue? https://t.co/3qcAsLFkaY\nCUSTOMER (1045333): @MicrosoftHelps I am using Windows 10 - version 1703 (compilation 15063.632)",
+      "predicted_intent": "Technical Troubleshooting",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"1644929\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.734627, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps okay thanks | @MicrosoftHelps after updating my laptop its really slow, everything keeps crashing, &amp; things won’t open when i click on them, etc. help??\"}\n{\"evidence_id\": \"476022\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 3}, \"score\": 0.670973, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps It's still slow and I have random apps crashing  😔 | @MicrosoftHelps No and no. I just restarted the computer... lol it's slow | @MicrosoftHelps YES!!\"}\n{\"evidence_id\": \"251690\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 1}, \"score\": 0.653026, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"So thanks to the latest forced update my Windows 10 laptop has gone from booting in 20 seconds to 3 minutes - and then running sluggishly slow across the board. Thanks @MicrosoftHelps @115890 !\"}",
+      "generated_reply": "We are sorry to hear your laptop is running slowly. Since the historical evidence does not provide specific troubleshooting steps for this issue, we recommend contacting Microsoft support directly for further assistance."
+    }
+  }
+}

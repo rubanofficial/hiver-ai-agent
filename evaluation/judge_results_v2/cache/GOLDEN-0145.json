@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0145",
+  "input_fingerprint": "455b422bb5983942d45db0cd024f38a57c7b1ab8fd055b9405ec7b7967752c0a",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T11:26:21+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0145",
+    "customer_message": "I'm rapidly going to become one of those people that never updates their computer at this rate...",
+    "conversation_context": "MICROSOFT (2024275): @365539 We're here to help, Ben! Please send us a Direct Message for further assistance.\nCUSTOMER (2024276): @MicrosoftHelps Appreciated but it looks like many @213709 laptops are affected, so I'll probably have to wait for a fix from them?\nCUSTOMER (2024277): My last few graphics driver update attempts caused BSOD on boot, and the @116230 Fall Creator Update made my touchpad stop working! 😠",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_escalation": "ESCALATE_TO_HUMAN",
+    "predicted_escalation_reason": "No evidence reached the confidence threshold for a safe autonomous reply (minimum 0.60); human review is required.",
+    "retrieved_evidence": "{\"evidence_id\": \"2031524\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.557763, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Microsoft Windows, making your work life harder one update at a time.\"}\n{\"evidence_id\": \"522039\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.534158, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \".@MicrosoftHelps Just spent a chunk of my life doing your stupid update. Now going to have to spend another chunk getting rid of things I don't want. I'm an adult, Let me use my computer as working adult.\"}\n{\"evidence_id\": \"610635\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.511767, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps after all these years have you not figured out how to update at night when I'm not in the middle of something? #Windows10\"}",
+    "generated_reply": "We understand your frustration regarding Windows updates interrupting your work. Because this requires further investigation into your system settings and update preferences, please contact Microsoft Support so we can look into how to better manage your update schedule."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 3,\n  \"clarity\": 4,\n  \"escalation_appropriateness\": 4,\n  \"overall_reply_score\": 3,\n  \"evidence_support\": 2,\n  \"unsupported_claims\": 2,\n  \"evidence_relevance\": 2,\n  \"grounding_score\": 2,\n  \"reason\": \"The customer reported BSOD and hardware issues after updates, but the agent's reply misinterprets the issue as being about update scheduling/interruptions. The retrieved evidence is only weakly relevant tweets expressing frustration about updates.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 3,
+    "clarity": 4,
+    "escalation_appropriateness": 4,
+    "overall_reply_score": 3,
+    "evidence_support": 2,
+    "unsupported_claims": 2,
+    "evidence_relevance": 2,
+    "grounding_score": 2,
+    "reason": "The customer reported BSOD and hardware issues after updates, but the agent's reply misinterprets the issue as being about update scheduling/interruptions. The retrieved evidence is only weakly relevant tweets expressing frustration about updates.",
+    "overall_score": 3,
+    "short_reason": "The customer reported BSOD and hardware issues after updates, but the agent's reply misinterprets the issue as being about update scheduling/interruptions. The retrieved evidence is only weakly relevant tweets expressing frustration about updates.",
+    "grounding_decision": "UNSUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 3,
+      "clarity": 4,
+      "escalation_appropriateness": 4
+    },
+    "evidence_grounding": {
+      "evidence_support": 2,
+      "unsupported_claims": 2,
+      "evidence_relevance": 2
+    },
+    "golden_id": "GOLDEN-0145",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0145",
+      "customer_message": "I'm rapidly going to become one of those people that never updates their computer at this rate...",
+      "conversation_context": "MICROSOFT (2024275): @365539 We're here to help, Ben! Please send us a Direct Message for further assistance.\nCUSTOMER (2024276): @MicrosoftHelps Appreciated but it looks like many @213709 laptops are affected, so I'll probably have to wait for a fix from them?\nCUSTOMER (2024277): My last few graphics driver update attempts caused BSOD on boot, and the @116230 Fall Creator Update made my touchpad stop working! 😠",
+      "predicted_intent": "Technical Troubleshooting",
+      "predicted_escalation": "ESCALATE_TO_HUMAN",
+      "predicted_escalation_reason": "No evidence reached the confidence threshold for a safe autonomous reply (minimum 0.60); human review is required.",
+      "retrieved_evidence": "{\"evidence_id\": \"2031524\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.557763, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"Microsoft Windows, making your work life harder one update at a time.\"}\n{\"evidence_id\": \"522039\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.534158, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \".@MicrosoftHelps Just spent a chunk of my life doing your stupid update. Now going to have to spend another chunk getting rid of things I don't want. I'm an adult, Let me use my computer as working adult.\"}\n{\"evidence_id\": \"610635\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 1}, \"score\": 0.511767, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps after all these years have you not figured out how to update at night when I'm not in the middle of something? #Windows10\"}",
+      "generated_reply": "We understand your frustration regarding Windows updates interrupting your work. Because this requires further investigation into your system settings and update preferences, please contact Microsoft Support so we can look into how to better manage your update schedule."
+    }
+  }
+}

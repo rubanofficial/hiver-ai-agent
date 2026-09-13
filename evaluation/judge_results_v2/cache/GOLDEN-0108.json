@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "golden_id": "GOLDEN-0108",
+  "input_fingerprint": "27ebfbb07e89d0cfd81fccf1cf31e7eadc3ff1d034a329480c641a8d14145c51",
+  "model": "gemini-3.5-flash-lite",
+  "judged_at": "2026-09-13T11:24:14+00:00",
+  "input": {
+    "golden_id": "GOLDEN-0108",
+    "customer_message": "@MicrosoftHelps I'd like to know why I woke up today and every contact I had saved via Outlook is gone. What happened?",
+    "conversation_context": "MICROSOFT (1384053): @442097 Let's help you with that! You can perform a soft reset for the meantime, and check if it's back: https://t.co/2Gp1zIeIcD.\nCUSTOMER (1384054): @MicrosoftHelps Using Windows Mobile on a Lumia 930, contacs saved on my Microsoft account.",
+    "predicted_intent": "Technical Troubleshooting",
+    "predicted_escalation": "AUTO_HANDLE",
+    "predicted_escalation_reason": "",
+    "retrieved_evidence": "{\"evidence_id\": \"2305822\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.662205, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I just did that. Sorry I was a bit far. Somehow things are back. Thanks 👌 | @MicrosoftHelps Outlook has been syncing for two days. Some of my contact names have disappeared. Can't connect to Wi-Fi. What's happening! https://t.co/OosdD8b2V9\"}\n{\"evidence_id\": \"1472168\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 14}, \"score\": 0.652103, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I've a Nokia Lumia....i think 9??....930 is it? No idea what version of windows it is. But the phone recently updated...i think today as | @MicrosoftHelps It's windows 10 | @MicrosoftHelps you guys updated my phone, now i have no contacts | @MicrosoftHelps Email app has changed its appearance then ice noticed all my contacts have gone. | @MicrosoftHelps Didn't work. Something clearly went wrong with your update that has wiped my contacts out | @MicrosoftHelps Just seen on the people app feedback. Loads of people have lost their contacts. So clearly its something to do with that. | @MicrosoftHelps This link doesn't work | @MicrosoftHelps It's a few hours old from what I've sen abd it's the same problem that I've got | @MicrosoftHelps I dont want to try a hard reset. But its the same issue people app and email app updated, all contacts lost But they are still in my outlook | @MicrosoftHelps Contacts still appear in outlook but not on my phone. | @MicrosoftHelps They are back.......maybe it did work but it took a while to register | @MicrosoftHelps Is there anyway to import the contacts from my outlook to my phone | @MicrosoftHelps Didn't work I'm afraid. | @MicrosoftHelps Will do thank you for your help.\"}\n{\"evidence_id\": \"1391733\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 6}, \"score\": 0.649692, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I still did, no soft-reset or reboot will solve the problem. | @MicrosoftHelps Sorry. But your advice in dm is not helpful. | @MicrosoftHelps Hi, I lost ALL Outlook-contacts from my Lumia-Smartphone. Lot of people report the same. Bug with synchronization? Need urgent help, please. | @MicrosoftHelps I'm not the only one with the same bug. | @MicrosoftHelps Contacts in mobile app are back again. | @MicrosoftHelps Please take a look.\\rNeed translation? Just send a short note.\\rhttps://t.co/eufsd9sa0x\"}",
+    "generated_reply": "We understand you are experiencing missing contacts in Outlook. Because the evidence shows users have reported contact disappearance related to synchronization and updates that may take time to resolve or register, this case requires further investigation into your specific account synchronization status. Please contact Microsoft Support so we can investigate the sync issue with your contacts."
+  },
+  "raw_response": "{\n  \"correctness\": 3,\n  \"helpfulness\": 3,\n  \"relevance\": 4,\n  \"clarity\": 4,\n  \"escalation_appropriateness\": 4,\n  \"overall_reply_score\": 3,\n  \"evidence_support\": 3,\n  \"unsupported_claims\": 3,\n  \"evidence_relevance\": 4,\n  \"grounding_score\": 3,\n  \"reason\": \"The reply addresses the missing contacts issue and suggests contacting support, which aligns with evidence showing similar synchronization bugs, though it references internal evidence context ('Because the evidence shows...') awkwardly in a customer-facing message.\"\n}",
+  "result": {
+    "correctness": 3,
+    "helpfulness": 3,
+    "relevance": 4,
+    "clarity": 4,
+    "escalation_appropriateness": 4,
+    "overall_reply_score": 3,
+    "evidence_support": 3,
+    "unsupported_claims": 3,
+    "evidence_relevance": 4,
+    "grounding_score": 3,
+    "reason": "The reply addresses the missing contacts issue and suggests contacting support, which aligns with evidence showing similar synchronization bugs, though it references internal evidence context ('Because the evidence shows...') awkwardly in a customer-facing message.",
+    "overall_score": 3,
+    "short_reason": "The reply addresses the missing contacts issue and suggests contacting support, which aligns with evidence showing similar synchronization bugs, though it references internal evidence context ('Because the evidence shows...') awkwardly in a customer-facing message.",
+    "grounding_decision": "SUPPORTED",
+    "reply_quality": {
+      "correctness": 3,
+      "helpfulness": 3,
+      "relevance": 4,
+      "clarity": 4,
+      "escalation_appropriateness": 4
+    },
+    "evidence_grounding": {
+      "evidence_support": 3,
+      "unsupported_claims": 3,
+      "evidence_relevance": 4
+    },
+    "golden_id": "GOLDEN-0108",
+    "model": "gemini-3.5-flash-lite",
+    "input": {
+      "golden_id": "GOLDEN-0108",
+      "customer_message": "@MicrosoftHelps I'd like to know why I woke up today and every contact I had saved via Outlook is gone. What happened?",
+      "conversation_context": "MICROSOFT (1384053): @442097 Let's help you with that! You can perform a soft reset for the meantime, and check if it's back: https://t.co/2Gp1zIeIcD.\nCUSTOMER (1384054): @MicrosoftHelps Using Windows Mobile on a Lumia 930, contacs saved on my Microsoft account.",
+      "predicted_intent": "Technical Troubleshooting",
+      "predicted_escalation": "AUTO_HANDLE",
+      "predicted_escalation_reason": "",
+      "retrieved_evidence": "{\"evidence_id\": \"2305822\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 2}, \"score\": 0.662205, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I just did that. Sorry I was a bit far. Somehow things are back. Thanks 👌 | @MicrosoftHelps Outlook has been syncing for two days. Some of my contact names have disappeared. Can't connect to Wi-Fi. What's happening! https://t.co/OosdD8b2V9\"}\n{\"evidence_id\": \"1472168\", \"metadata\": {\"has_resolution_signal\": true, \"num_customer_messages\": 14}, \"score\": 0.652103, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I've a Nokia Lumia....i think 9??....930 is it? No idea what version of windows it is. But the phone recently updated...i think today as | @MicrosoftHelps It's windows 10 | @MicrosoftHelps you guys updated my phone, now i have no contacts | @MicrosoftHelps Email app has changed its appearance then ice noticed all my contacts have gone. | @MicrosoftHelps Didn't work. Something clearly went wrong with your update that has wiped my contacts out | @MicrosoftHelps Just seen on the people app feedback. Loads of people have lost their contacts. So clearly its something to do with that. | @MicrosoftHelps This link doesn't work | @MicrosoftHelps It's a few hours old from what I've sen abd it's the same problem that I've got | @MicrosoftHelps I dont want to try a hard reset. But its the same issue people app and email app updated, all contacts lost But they are still in my outlook | @MicrosoftHelps Contacts still appear in outlook but not on my phone. | @MicrosoftHelps They are back.......maybe it did work but it took a while to register | @MicrosoftHelps Is there anyway to import the contacts from my outlook to my phone | @MicrosoftHelps Didn't work I'm afraid. | @MicrosoftHelps Will do thank you for your help.\"}\n{\"evidence_id\": \"1391733\", \"metadata\": {\"has_resolution_signal\": false, \"num_customer_messages\": 6}, \"score\": 0.649692, \"source\": \"twcs_historical\", \"source_tweet_id\": null, \"text\": \"@MicrosoftHelps I still did, no soft-reset or reboot will solve the problem. | @MicrosoftHelps Sorry. But your advice in dm is not helpful. | @MicrosoftHelps Hi, I lost ALL Outlook-contacts from my Lumia-Smartphone. Lot of people report the same. Bug with synchronization? Need urgent help, please. | @MicrosoftHelps I'm not the only one with the same bug. | @MicrosoftHelps Contacts in mobile app are back again. | @MicrosoftHelps Please take a look.\\rNeed translation? Just send a short note.\\rhttps://t.co/eufsd9sa0x\"}",
+      "generated_reply": "We understand you are experiencing missing contacts in Outlook. Because the evidence shows users have reported contact disappearance related to synchronization and updates that may take time to resolve or register, this case requires further investigation into your specific account synchronization status. Please contact Microsoft Support so we can investigate the sync issue with your contacts."
+    }
+  }
+}
