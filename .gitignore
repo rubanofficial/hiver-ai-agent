@@ -88,3 +88,4 @@ temp/
 .pytest_cache/
 .coverage
 htmlcov/
+.freebuff/

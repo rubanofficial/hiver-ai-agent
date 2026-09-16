@@ -1,15 +1,15 @@
 """
-MicrosoftHelps AI Support Agent - Interactive Demo Interface.
+Microsoft Support AI - Customer Support Chatbot Interface.
 
-Provides a clean Streamlit interface to test the production AI support agent pipeline.
-Uses the exact production pipeline (IntentClassifier, EvidenceRetriever,
-ReplyGenerator, EscalationPolicy) without duplicating any agent logic.
+A clean, professional customer-support chatbot frontend powered by the
+production MicrosoftHelps AI support agent pipeline (IntentClassifier,
+EvidenceRetriever, ReplyGenerator, EscalationPolicy).
 """
 
 from __future__ import annotations
 
 import os
-from typing import Tuple
+from typing import Any, Dict, List, Optional, Tuple
 
 from dotenv import load_dotenv
 import streamlit as st
@@ -52,135 +52,227 @@ def load_support_pipeline() -> Tuple[SupportPipeline, str, str]:
     return pipeline, model_name, embedding_index
 
 
+def render_decision_details(details: Dict[str, Any]) -> None:
+    """Render compact decision details inside an expander for evaluators/inspectors."""
+    with st.expander("🔍 View AI decision details", expanded=False):
+        c1, c2 = st.columns(2)
+        with c1:
+            st.markdown(f"**Predicted Intent:** `{details.get('intent', 'Unknown')}`")
+            conf = details.get("confidence")
+            if conf is not None:
+                st.markdown(f"**Confidence:** `{conf * 100:.1f}%`")
+            else:
+                st.markdown("**Confidence:** `N/A`")
+        with c2:
+            st.markdown(f"**Escalation Decision:** `{details.get('decision', 'AUTO_HANDLE')}`")
+            st.markdown(f"**Evidence Cases Found:** `{details.get('evidence_count', 0)}`")
+
+        esc_reason = details.get("escalation_reason")
+        if esc_reason:
+            st.markdown(f"**Escalation Reason:** {esc_reason}")
+
+        evidence_items = details.get("evidence_items", [])
+        if evidence_items:
+            st.markdown("**Retrieved Knowledge / Cases:**")
+            for idx, item in enumerate(evidence_items, start=1):
+                score = item.get("score", 0.0)
+                text = item.get("text", "")
+                st.caption(f"**Case #{idx}** (Relevance Score: `{score:.2f}`)")
+                st.text(text[:300] + ("..." if len(text) > 300 else ""))
+
+
 def main() -> None:
     st.set_page_config(
-        page_title="MicrosoftHelps AI Support Agent",
-        page_icon="🤖",
+        page_title="Microsoft Support AI",
+        page_icon="💬",
         layout="centered",
+        initial_sidebar_state="collapsed",
     )
 
-    st.title("MicrosoftHelps AI Support Agent")
+    # Custom styling for a polished, clean Microsoft support chat experience
     st.markdown(
-        "An AI-powered first-line customer support assistant for **@MicrosoftHelps**, "
-        "providing automated intent triage, historical evidence retrieval, "
-        "grounded draft replies, and safety escalation."
+        """
+        <style>
+        /* Header typography & spacing */
+        .main-header {
+            margin-bottom: 0.2rem;
+            font-weight: 700;
+            color: #0078D4;
+        }
+        .sub-header {
+            color: #555555;
+            font-size: 0.95rem;
+            margin-bottom: 1.5rem;
+        }
+        /* Status indicator badges */
+        .status-badge-auto {
+            display: inline-block;
+            color: #107C41;
+            font-size: 0.82rem;
+            font-weight: 600;
+            margin-top: 0.35rem;
+            margin-bottom: 0.5rem;
+        }
+        .status-badge-escalate {
+            display: inline-block;
+            color: #D83B01;
+            font-size: 0.82rem;
+            font-weight: 600;
+            margin-top: 0.35rem;
+            margin-bottom: 0.5rem;
+        }
+        /* Chat message container styling */
+        .stChatMessage {
+            border-radius: 8px;
+            margin-bottom: 0.5rem;
+        }
+        </style>
+        """,
+        unsafe_allow_html=True,
     )
-    st.divider()
 
-    # Inbound message input
-    customer_message = st.text_area(
-        "Customer message",
-        height=130,
-        placeholder="e.g. @MicrosoftHelps Is there anyway to update the shipping address on an existing Microsoft Store order? I just recently moved.",
+    # 1. Header
+    st.markdown("<h1 class='main-header'>Microsoft Support AI</h1>", unsafe_allow_html=True)
+    st.markdown(
+        "<div class='sub-header'>AI-powered customer support assistant for Microsoft products & services</div>",
+        unsafe_allow_html=True,
     )
 
-    run_clicked = st.button("Run Support Agent", type="primary", use_container_width=True)
+    # Initialize conversation history in session state
+    if "messages" not in st.session_state:
+        st.session_state.messages = [
+            {
+                "role": "assistant",
+                "content": "Hello! I am your Microsoft Support AI assistant. How can I help you today?",
+                "status_badge": None,
+                "decision_details": None,
+            }
+        ]
 
-    if run_clicked:
-        clean_input = customer_message.strip() if customer_message else ""
+    # Sidebar controls (Clean & minimal)
+    with st.sidebar:
+        st.subheader("Support Session")
+        if st.button("🔄 New Conversation", use_container_width=True):
+            st.session_state.messages = [
+                {
+                    "role": "assistant",
+                    "content": "Hello! I am your Microsoft Support AI assistant. How can I help you today?",
+                    "status_badge": None,
+                    "decision_details": None,
+                }
+            ]
+            st.rerun()
+        st.caption("Powered by MicrosoftHelps Support Agent")
+
+    # Render conversation history
+    for msg in st.session_state.messages:
+        with st.chat_message(msg["role"]):
+            st.markdown(msg["content"])
+            if msg.get("status_badge"):
+                st.markdown(msg["status_badge"], unsafe_allow_html=True)
+            if msg.get("decision_details"):
+                render_decision_details(msg["decision_details"])
+
+    # Chat input at bottom
+    user_input = st.chat_input("Describe your problem...")
+
+    if user_input:
+        clean_input = user_input.strip()
         if not clean_input:
-            st.warning("Please enter a customer message to run the support agent.")
             return
 
-        with st.spinner("Executing production pipeline (classify -> retrieve -> draft -> evaluate)..."):
-            try:
-                pipeline, model_name, embedding_index = load_support_pipeline()
-                result: AgentResult = pipeline.run(customer_message=clean_input, top_k=3)
-            except Exception as exc:
-                # Friendly error message without leaking sensitive credentials
-                err_msg = str(exc)
-                if "API_KEY" in err_msg.upper() or "API KEY" in err_msg.upper():
-                    st.error("API configuration error: GEMINI_API_KEY is not set or invalid.")
-                else:
-                    st.error(f"Pipeline error: {type(exc).__name__}: {err_msg}")
-                return
-
-        # ------------------------------------------------------------------
-        # Display Results
-        # ------------------------------------------------------------------
-        st.subheader("Results")
-
-        # 1. Intent Section
-        st.markdown("### Intent")
-        intent_name = result.intent or "Unknown"
-        confidence = (
-            result.intent_result.confidence
-            if result.intent_result
-            else 1.0
-        )
-        col1, col2 = st.columns([3, 1])
-        with col1:
-            st.markdown(f"**Predicted Intent:** `{intent_name}`")
-        with col2:
-            st.markdown(f"**Confidence:** `{confidence * 100:.1f}%`")
-
-        if result.intent_result and result.intent_result.reason:
-            st.caption(f"Reason: {result.intent_result.reason}")
-
-        st.divider()
-
-        # 2. Retrieved Evidence Section
-        st.markdown("### Retrieved Evidence")
-        evidence_items = result.retrieved_evidence or []
-        if not evidence_items:
-            st.info("No historical evidence retrieved for this query.")
-        else:
-            for idx, item in enumerate(evidence_items, start=1):
-                score_pct = item.score * 100
-                with st.expander(
-                    f"Evidence #{idx} (Conversation ID: {item.id} | Relevance: {score_pct:.1f}%)",
-                    expanded=(idx == 1),
-                ):
-                    st.markdown(f"**Similarity Score:** `{item.score:.4f}`")
-                    st.markdown(f"**Conversation / Source ID:** `{item.id}`")
-                    st.markdown("**Historical Context / Text:**")
-                    st.text(item.text)
-
-        st.divider()
-
-        # 3. Draft Reply Section
-        st.markdown("### Draft Reply")
-        reply_text = (
-            result.draft_reply.reply_text
-            if result.draft_reply and result.draft_reply.reply_text
-            else "No draft reply generated."
-        )
-        st.info(reply_text)
-
-        st.divider()
-
-        # 4. Escalation Decision Section
-        st.markdown("### Escalation Decision")
-        is_escalate = (
-            result.decision == EscalationDecision.ESCALATE_TO_HUMAN
-            or str(result.decision) == "ESCALATE_TO_HUMAN"
-        )
-        decision_label = (
-            result.decision.value
-            if hasattr(result.decision, "value")
-            else str(result.decision)
+        # Append user message
+        st.session_state.messages.append(
+            {
+                "role": "user",
+                "content": clean_input,
+                "status_badge": None,
+                "decision_details": None,
+            }
         )
 
-        if is_escalate:
-            st.error(f"🚨 **Decision:** `{decision_label}`")
-        else:
-            st.success(f"✅ **Decision:** `{decision_label}`")
+        # Display user message immediately
+        with st.chat_message("user"):
+            st.markdown(clean_input)
 
-        if result.escalation_reason:
-            st.markdown(f"**Reason:** {result.escalation_reason}")
-        else:
-            st.caption("Auto-handled: response is safely grounded with sufficient evidence confidence.")
+        # Execute SupportPipeline
+        with st.chat_message("assistant"):
+            with st.spinner("Connecting with Microsoft Support knowledge base..."):
+                try:
+                    pipeline, _, _ = load_support_pipeline()
+                    result: AgentResult = pipeline.run(customer_message=clean_input, top_k=3)
 
-        st.divider()
+                    reply_text = (
+                        result.draft_reply.reply_text
+                        if result.draft_reply and result.draft_reply.reply_text
+                        else "I understand your query. A Microsoft support representative will assist you further."
+                    )
 
-        # 5. Optional Technical Details (Collapsible)
-        with st.expander("Technical Details", expanded=False):
-            st.markdown(f"- **Underlying Model:** `{model_name}`")
-            st.markdown(f"- **Evidence Index:** `{embedding_index}`")
-            st.markdown(f"- **Retrieved Items Count:** `{len(evidence_items)}`")
-            st.markdown(f"- **Retrieval Top-K Config:** `3`")
-            if result.metadata:
-                st.json(result.metadata)
+                    # Determine escalation decision
+                    is_escalate = (
+                        result.decision == EscalationDecision.ESCALATE_TO_HUMAN
+                        or str(result.decision) == "ESCALATE_TO_HUMAN"
+                        or (hasattr(result.decision, "value") and result.decision.value == "ESCALATE_TO_HUMAN")
+                    )
+
+                    if is_escalate:
+                        status_badge = "<span class='status-badge-escalate'>⚠️ Human support recommended</span>"
+                    else:
+                        status_badge = "<span class='status-badge-auto'>✓ Automatically handled</span>"
+
+                    # Prepare decision details for collapsible view
+                    confidence = (
+                        result.intent_result.confidence
+                        if result.intent_result
+                        else 1.0
+                    )
+                    evidence_list = []
+                    if result.retrieved_evidence:
+                        for ev in result.retrieved_evidence:
+                            evidence_list.append({
+                                "id": getattr(ev, "id", "N/A"),
+                                "score": getattr(ev, "score", 0.0),
+                                "text": getattr(ev, "text", ""),
+                            })
+
+                    decision_details = {
+                        "intent": result.intent or "General Inquiry",
+                        "confidence": confidence,
+                        "decision": result.decision.value if hasattr(result.decision, "value") else str(result.decision),
+                        "escalation_reason": result.escalation_reason,
+                        "evidence_count": len(result.retrieved_evidence or []),
+                        "evidence_items": evidence_list,
+                    }
+
+                    # Render response
+                    st.markdown(reply_text)
+                    st.markdown(status_badge, unsafe_allow_html=True)
+                    render_decision_details(decision_details)
+
+                    # Save to conversation history
+                    st.session_state.messages.append(
+                        {
+                            "role": "assistant",
+                            "content": reply_text,
+                            "status_badge": status_badge,
+                            "decision_details": decision_details,
+                        }
+                    )
+
+                except Exception:
+                    fallback_text = (
+                        "I apologize, but I am currently unable to process your request. "
+                        "Please try again in a moment, or reach out to Microsoft Support directly."
+                    )
+                    st.markdown(fallback_text)
+                    st.session_state.messages.append(
+                        {
+                            "role": "assistant",
+                            "content": fallback_text,
+                            "status_badge": None,
+                            "decision_details": None,
+                        }
+                    )
 
 
 if __name__ == "__main__":
